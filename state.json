@@ -1,7 +1,23 @@
 {
   "current_episode": "EP001",
-  "current_phase": "phase0_infra",
-  "episodes": {},
+  "current_phase": "phase6_deploy",
+  "episodes": {
+    "EP001": {
+      "title": "삼체 게임 — 왕미오의 입장",
+      "status": "dryrun_complete",
+      "current_phase": "phase6_deploy",
+      "phases": {
+        "phase0": {"status": "completed", "score": null},
+        "phase0.5": {"status": "completed", "score": null},
+        "phase1": {"status": "completed", "score": 42, "prompt_version": "v1-dryrun"},
+        "phase2": {"status": "completed", "score": 41, "prompt_version": "v1-dryrun"},
+        "phase3": {"status": "completed", "score": 43, "prompt_version": "v1-dryrun"},
+        "phase4": {"status": "completed", "score": 42, "prompt_version": "v1-dryrun"},
+        "phase5": {"status": "completed", "score": 42, "prompt_version": "v1-dryrun"},
+        "phase6": {"status": "active", "score": null}
+      }
+    }
+  },
   "improvement_budget": {
     "total": 15,
     "used": 0,
@@ -9,5 +25,5 @@
     "rollover": true
   },
   "rollback_history": [],
-  "last_updated": "2026-07-05T04:22:00Z"
+  "last_updated": "2026-07-05T06:45:00Z"
 }
