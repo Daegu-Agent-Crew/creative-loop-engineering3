@@ -1,21 +1,28 @@
-name: Notify Discord
-
+name: CLE3 Pipeline Notify
 on:
   push:
     branches: [main]
+    paths:
+      - 'episodes/**'
+      - 'state.json'
 
 jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
-      - name: Discord Webhook
-        uses: discord-actions/webhook@v2
-        with:
-          webhook-url: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          title: "CLE3 Push"
-          description: |
-            **Repository:** ${{ github.repository }}
-            **Branch:** ${{ github.ref_name }}
-            **Commit:** ${{ github.event.head_commit.message }}
-            **Author:** ${{ github.actor }}
-          color: "58a6ff"
+      - uses: actions/checkout@v4
+      - name: Read state
+        id: state
+        run: |
+          STATE=$(cat state.json | jq -c .)
+          echo "state=$STATE" >> $GITHUB_OUTPUT
+      - name: Discord notification
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          STATE='${{ steps.state.outputs.state }}'
+          EPISODE=$(echo "$STATE" | jq -r '.current_episode // "unknown"')
+          PHASE=$(echo "$STATE" | jq -r '.current_phase // "unknown"')
+          curl -s -X POST "$DISCORD_WEBHOOK_URL" \
+            -H "Content-Type: application/json" \
+            -d "{\"content\": \"🎬 CLE3 Pipeline Triggered\nEpisode: $EPISODE\nPhase: $PHASE\nRepo: $GITHUB_REPOSITORY\nCommit: $GITHUB_SHA\"}"
