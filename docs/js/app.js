@@ -53,6 +53,25 @@ async function loadIssues() {
   return await ghFetch(CLE2_API + '/issues?state=all&per_page=100&sort=created&direction=desc') || [];
 }
 
+// raw.githubusercontent.com에서 JSON 로드 (PAT 불필요)
+async function loadJson(path) {
+  try {
+    const url = 'https://raw.githubusercontent.com/' + GH_ORG + '/' + GH_REPO + '/main/' + path;
+    const res = await fetch(url);
+    if (!res.ok) return null;
+    return await res.json();
+  } catch { return null; }
+}
+
+async function loadText(path) {
+  try {
+    const url = 'https://raw.githubusercontent.com/' + GH_ORG + '/' + GH_REPO + '/main/' + path;
+    const res = await fetch(url);
+    if (!res.ok) return null;
+    return await res.text();
+  } catch { return null; }
+}
+
 async function loadCommits() {
   if (!PAT) return [];
   return await ghFetch(GH_API + '/commits?per_page=10') || [];
@@ -176,23 +195,134 @@ async function renderPipeline() {
   var ep = state && state.episodes && state.current_episode ? state.episodes[state.current_episode] : null;
   var ps = ep && ep.phases ? ep.phases : {};
 
+  var ep = state && state.current_episode ? state.current_episode : 'EP001';
+  var currentPhaseVal = state && state.current_phase ? state.current_phase : '';
+  var epData = state && state.episodes && state.episodes[ep] ? state.episodes[ep] : null;
+  var ps = epData && epData.phases ? epData.phases : {};
+
+  var phaseFiles = {
+    'phase1': {json: 'episodes/' + ep + '/script/script.json', md: 'episodes/' + ep + '/script/script.md', label: '스토리 대본'},
+    'phase2': {json: 'episodes/' + ep + '/characters/characters.json', label: '캐릭터 시트'},
+    'phase3': {json: 'episodes/' + ep + '/storyboard/storyboard.json', label: '콘티'},
+    'phase4': {json: 'episodes/' + ep + '/panels/panels.json', label: '이미지 패널'},
+    'phase5': {json: 'episodes/' + ep + '/qa/qa.json', label: 'QA 리포트'}
+  };
+
   var listHtml = phases.map(function(p) {
-    var st = ps[p[0]] ? ps[p[0]].status : (currentPhase === p[0] ? 'active' : 'pending');
+    var st = ps[p[0]] ? ps[p[0]].status : (currentPhaseVal === p[0] ? 'active' : 'pending');
     var score = ps[p[0]] ? ps[p[0]].score : null;
     var cls = st === 'completed' ? 'completed' : (st === 'active' ? 'active' : 'pending');
     var icon = st === 'completed' ? '✅' : (st === 'active' ? '🔄' : '⏳');
     var badge = st === 'completed' ? '완료' : (st === 'active' ? '진행 중' : '대기');
+    var fid = 'phase-output-' + p[0].replace(/[^a-zA-Z0-9]/g,'');
+    var hasOutput = phaseFiles[p[0]] && st === 'completed';
+
     return '<div class="phase-row ' + cls + '"><div class="phase-icon">' + icon + '</div>' +
-      '<div class="phase-info"><div class="phase-title">' + p[1] + '</div>' +
+      '<div class="phase-info"><div class="phase-title">' + p[1] +
+      (hasOutput ? ' <a href="javascript:void(0)" onclick="toggleOutput(\'' + fid + '\',\'' + p[0] + '\')" class="expand-btn">▼ 결과물 보기</a>' : '') +
+      '</div>' +
       '<div class="phase-desc">' + p[2] + '</div>' +
       (score ? '<div class="phase-score">평가: ' + score + '/50</div>' : '') +
-      '</div><div class="phase-badge ' + cls + '">' + badge + '</div></div>';
+      '</div><div class="phase-badge ' + cls + '">' + badge + '</div></div>' +
+      (hasOutput ? '<div id="' + fid + '" class="phase-output" style="display:none"></div>' : '');
   }).join('');
 
   app.innerHTML = headerHtml() + navHtml() + patBanner() +
     '<div class="content"><h2>🔄 파이프라인</h2><div class="phase-list">' + listHtml + '</div>' +
     '<div class="card"><h3>📊 평가 루브릭</h3><p>각 Phase: 5개 항목 × 10점 = 50점</p><p>통과: ≥40/50 (Phase 5는 ≥42/50)</p>' +
-    '<p><a href="https://github.com/' + GH_ORG + '/' + GH_REPO + '/blob/main/evaluation-rubric.md" target="_blank">상세 루브릭 →</a></p></div></div>';
+    '<p><a href="https://github.com/' + GH_ORG + '/' + GH_REPO + '/blob/main/evaluation-rubric.md" target="_blank">상세 루브릭 →</a></p></div>' +
+    '<div class="card"><h3>📖 에피소드 뷰어</h3><p><a href="episodes/' + ep + '/">' + ep + ' 보기 →</a></p></div></div>';
+}
+
+// ===== Phase Output Toggle =====
+async function toggleOutput(elId, phaseId) {
+  var el = document.getElementById(elId);
+  if (!el) return;
+  if (el.style.display !== 'none') {
+    el.style.display = 'none';
+    return;
+  }
+  el.style.display = 'block';
+  el.innerHTML = '<div class="loading">로딩 중...</div>';
+
+  var ep = 'EP001';
+  var files = {
+    'phase1': [['episodes/' + ep + '/script/script.json','json'],['episodes/' + ep + '/script/script.md','md']],
+    'phase2': [['episodes/' + ep + '/characters/characters.json','json']],
+    'phase3': [['episodes/' + ep + '/storyboard/storyboard.json','json']],
+    'phase4': [['episodes/' + ep + '/panels/panels.json','json']],
+    'phase5': [['episodes/' + ep + '/qa/qa.json','json']]
+  };
+  var phaseFiles = files[phaseId];
+  if (!phaseFiles) { el.innerHTML = '<p>결과물 없음</p>'; return; }
+
+  var html = '';
+  for (var i = 0; i < phaseFiles.length; i++) {
+    var path = phaseFiles[i][0];
+    var type = phaseFiles[i][1];
+    if (type === 'json') {
+      var data = await loadJson(path);
+      if (data) html += renderPhaseJson(phaseId, data);
+      else html += '<p class="meta">데이터를 불러올 수 없습니다: ' + path + '</p>';
+    } else {
+      var text = await loadText(path);
+      if (text) html += '<div class="output-section"><pre class="output-md">' + escapeHtml(text) + '</pre></div>';
+    }
+  }
+  el.innerHTML = html || '<p>결과물 없음</p>';
+}
+
+function escapeHtml(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function renderPhaseJson(phaseId, d) {
+  if (phaseId === 'phase1') {
+    var scenes = (d.scenes||[]).map(function(s) {
+      var dl = (s.dialogue||[]).map(function(x) { return '<div class="dialogue"><span class="char">' + (x.character||'') + ':</span> <span class="line">"' + (x.line||'') + '"</span></div>'; }).join('');
+      return '<div class="output-item"><div class="output-title">장면 ' + s.scene_number + '</div>' +
+        '<div class="output-desc">' + (s.description||'') + '</div>' + dl + '</div>';
+    }).join('');
+    return '<div class="output-section"><h4>' + (d.title||'') + '</h4>' + scenes + '</div>';
+  }
+  if (phaseId === 'phase2') {
+    var chars = (d.characters||[]).map(function(c) {
+      return '<div class="output-item"><div class="output-title">' + c.name + '</div>' +
+        '<div class="output-desc">외모: ' + (c.appearance||'') + '</div>' +
+        '<div class="output-desc">성격: ' + (c.personality||'') + '</div>' +
+        '<div class="output-desc">스타일: ' + (c.style_notes||'') + '</div></div>';
+    }).join('');
+    return '<div class="output-section">' + chars + '</div>';
+  }
+  if (phaseId === 'phase3') {
+    var pages = (d.pages||[]).map(function(pg) {
+      var panels = (pg.panels||[]).map(function(p) {
+        return '<div class="output-item"><span class="panel-id">' + p.panel_id + '</span> <span class="output-desc">' + (p.description||'') + '</span>' +
+          '<span class="meta"> ' + (p.camera_angle||'') + (p.characters_in_frame && p.characters_in_frame.length ? ' · ' + p.characters_in_frame.join(', ') : '') + '</span></div>';
+      }).join('');
+      return '<div class="output-item"><div class="output-title">페이지 ' + pg.page_number + '</div>' +
+        '<div class="output-desc">' + (pg.layout||'') + '</div>' + panels + '</div>';
+    }).join('');
+    return '<div class="output-section">' + pages + '</div>';
+  }
+  if (phaseId === 'phase4') {
+    var panels = (d.panels||[]).map(function(p) {
+      return '<div class="output-item"><span class="panel-id">' + p.panel_id + '</span>' +
+        ' <span class="panel-score">AI ' + (p.ai_score||'-') + '/50</span>' +
+        '<div class="output-desc">' + (p.description||'') + '</div>' +
+        '<div class="output-prompt">' + (p.generation_prompt||'') + '</div>' +
+        '<div class="placeholder-small">🖼️ [DRY RUN] ' + (p.image_path||'') + '</div></div>';
+    }).join('');
+    return '<div class="output-section">' + panels + '</div>';
+  }
+  if (phaseId === 'phase5') {
+    var items = (d.items||[]).map(function(it) {
+      return '<div class="output-item"><span class="output-title">' + it.category + ': ' + it.score + '/10</span>' +
+        '<div class="output-desc">' + (it.notes||'') + '</div></div>';
+    }).join('');
+    return '<div class="output-section"><div class="output-title">총점: ' + (d.overall_score||'-') + '/50</div>' + items + '</div>';
+  }
+  return '<pre class="output-md">' + escapeHtml(JSON.stringify(d, null, 2)) + '</pre>';
 }
 
 // ===== Episode =====
