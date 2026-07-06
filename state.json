@@ -1,22 +1,28 @@
 {
   "current_episode": "EP001",
-  "current_phase": "phase3_storyboard",
+  "current_phase": "phase2_characters",
   "episodes": {
     "EP001": {
       "title": "태초의 밤",
       "status": "in_progress",
-      "current_phase": "phase3_storyboard",
+      "current_phase": "phase2_characters",
       "phases": {
         "phase0": {"status": "completed", "score": null},
         "phase0.5": {"status": "completed", "score": null},
         "phase1": {"status": "completed", "score": 45, "prompt_version": "v1-formal"},
-        "phase2": {"status": "completed", "score": 44, "prompt_version": "v1-formal"},
-        "phase3": {"status": "completed", "score": 43, "prompt_version": "v1-formal"},
-        "phase4": {"status": "pending", "prompt_version": "v1-formal"},
+        "phase2": {"status": "completed", "score": null, "prompt_version": "v2-toriyama", "note": "화풍 변경으로 재실행 (수채화→닥터슬럼프풍). style_notes 전면 개정."},
+        "phase3": {"status": "pending", "prompt_version": "v2", "note": "storyboard도 v2(토리야마 구도)로 재검토 필요"},
+        "phase4": {"status": "pending", "prompt_version": "v2"},
         "phase5": {"status": "pending"},
         "phase6": {"status": "pending"}
       }
     }
+  },
+  "art_style": {
+    "name": "dr-slump-toriyama",
+    "defined": "2026-07-06",
+    "previous": "s1-watercolor (deprecated)",
+    "style_block": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic."
   },
   "improvement_budget": {
     "total": 15,
@@ -24,6 +30,14 @@
     "per_phase_limit": 5,
     "rollover": true
   },
-  "rollback_history": [],
-  "last_updated": "2026-07-05T16:20:00Z"
+  "rollback_history": [
+    {
+      "date": "2026-07-06",
+      "episode": "EP001",
+      "phase": "phase2",
+      "reason": "화풍 변경: 수채화풍 → 닥터슬럼프풍 (Akira Toriyama style)",
+      "previous_score": 44
+    }
+  ],
+  "last_updated": "2026-07-06T00:12:00Z"
 }

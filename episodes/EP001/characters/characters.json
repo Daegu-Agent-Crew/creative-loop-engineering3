@@ -4,40 +4,49 @@
     {
       "name": "예원제 (叶文洁)",
       "role": "제1부 핵심 인물 — 삼체 신호 송신자",
-      "appearance": "젊은 시절: 22세 중국 여성, 짧은 검은 머리, 섬세한 이목구비, 평온하지만 차분한 표정. 짙은 파란색 인민복, 단추 잠금 재킷, 가슴 주머니 문장, 멜린 슈즈. 수채화풍: 부드러운 청색과 어두운 톤, 유동적이고 영적인 느낌.",
+      "appearance": "젊은 시절: 22세 중국 여성, 짧은 검은 단발, 둥글고 큰 눈, 섬세하지만 단호한 이목구비. 짙은 파란색 인민복 재킷, 큰 단추, 가슴 주머니 문장, 멜린 슈즈.",
       "personality": "비판 대회에서 아버지를 잃고 세상에 대한 믿음을 잃음. 냉철하고 결단력 있음. 감정을 드러내지 않지만 내면에 깊은 상처. 인류에 대한 환멸 → 우주로 신호를 보내는 극단적 선택.",
-      "style_notes": "수채화풍: 부드러운 블루/다크 톤. 일본만화풍: 강렬한 선과 음영 대비.",
+      "style_notes": "Toriyama style: large round expressive eyes, simplified hair, cell-shaded blue uniform with bold white buttons. Determined but sorrowful expression. Clean bold ink lines, flat vibrant colors.",
       "age": "22세 (1967년) / 60대 (2007년)",
-      "color_tone": "파란색 / 어두운 회색"
+      "color_tone": "deep blue / white / silver accents"
     },
     {
       "name": "청신 (程心)",
       "role": "제3부 주인공 — EP001에서는 노년",
-      "appearance": "노년: 60대 중국 여성, 짧은 회색 머리, 온화하지만 풍상에 닳은 얼굴, 깊고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. 수채화풍: 부드러운 웜/쿨 톤, 감정적 깊이.",
+      "appearance": "노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄.",
       "personality": "절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.",
-      "style_notes": "수채화풍: 부드러운 색감 변화, 감정선 표현에 집중.",
+      "style_notes": "Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes.",
       "age": "60대",
-      "color_tone": "화이트 / 라이트 블루 / 소프트 그레이"
+      "color_tone": "soft lavender / grey / warm white"
     },
     {
       "name": "스치친 (史强)",
       "role": "형사 — 거친 현실주의자",
       "appearance": "40대 중국 남성, 거친 외모, 헝클어진 검은 머리, 무거운 수염, 피곤한 좁은 눈, 묵직한 체형. 더러운 열린 흰 셔츠, 낡은 작업복 재킷, 헐렁한 바지, 닳은 부츠. 항상 담배.",
       "personality": "직감형 형사. 겉은 거칠지만 속은 따뜻함. 과학자 연쇄 자살 사건을 조사. 비관적이지만 포기하지 않는 끈기.",
-      "style_notes": "수채화풍: 뮤트 어스 톤, 거친 텍스처.",
+      "style_notes": "Toriyama style: exaggerated weary posture, heavy stubble dots, small shrewd eyes. Earthy olive-brown cell-shaded palette. Cigarette as signature prop.",
       "age": "40대",
-      "color_tone": "어스 톤 / 갈색 / 올리브"
+      "color_tone": "olive brown / dirty white / amber"
     },
     {
       "name": "왕먀오 (汪淼)",
       "role": "제1부 주인공 — 나노 재료 연구원",
-      "appearance": "30대 중국 남성, 단정한 외모, 안경(얇은 뿔테), 분석적이고 차분한 표정, 마른 체형. 캐주얼 셔츠 + 슬랙스, 연구실 가운. 안경에 반사되는 빛이 특징.",
+      "appearance": "30대 중국 남성, 단정한 외모, 큰 안경(뿔테), 차분한 표정, 마른 체형. 캐주얼 셔츠 + 슬랙스, 연구실 가운. 안경에 반사되는 빛이 특징.",
       "personality": "순수한 과학적 호기심. 현실감각과 책임감. 내면의 두려움과 용기의 공존. EP001 마지막에 모니터 앞에 등장.",
-      "style_notes": "수채화풍: 차분한 블루/그레이, 지적 분위기.",
+      "style_notes": "Toriyama style: clean geometric design, large round glasses with light reflection, neat simplified hair. Cool blue-grey cell-shaded palette.",
       "age": "30대 초중반",
-      "color_tone": "블루 / 그레이"
+      "color_tone": "steel blue / cool grey / lens reflection white"
+    },
+    {
+      "name": "장베이하이 (章北海)",
+      "role": "군인/전략가 — 후반 주인공",
+      "appearance": "40대 중국 남성, 날카로운 눈, 군인 체형, 단정한 머리. 군복 또는 어두운 정장. 금색 계장/훈장.",
+      "personality": "냉철한 전략가. 감정을 철저히 통제. 독자의 대리인이자 미스터리 캐릭터.",
+      "style_notes": "Toriyama style: rigid angular jaw, sharp narrow eyes, military uniform with gold accents. Navy and gold cell-shaded palette. Authoritative pose.",
+      "age": "40대",
+      "color_tone": "navy / gold / black"
     }
   ],
-  "prompt_version": "v1-formal",
-  "source": "three-body-comic/wiki/characters/ 기반"
+  "prompt_version": "v2-toriyama",
+  "source": "wiki/characters/ 기반, 닥터슬럼프풍 전환 (2026-07-06)"
 }
