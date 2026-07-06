@@ -319,6 +319,16 @@ function panelCriteriaSummary(panelReview) {
   }).join(' / ');
 }
 
+function storyboardPanelIds(storyboard) {
+  const ids = [];
+  ((storyboard && storyboard.pages) || []).forEach(function (page) {
+    (page.panels || []).forEach(function (panel) {
+      if (panel && panel.panel_id) ids.push(panel.panel_id);
+    });
+  });
+  return ids;
+}
+
 function summarizeCriterionCounts(panelList, panels) {
   const summary = { pass: 0, warn: 0, fail: 0, unchecked: 0 };
   (panelList || []).forEach(function (panel) {
@@ -330,6 +340,15 @@ function summarizeCriterionCounts(panelList, panels) {
     });
   });
   return summary;
+}
+
+function summarizePanelActionItems(panelList, panels) {
+  return (panelList || []).map(function (panel) {
+    const panelId = typeof panel === 'string' ? panel : panel.panel_id;
+    const review = normalizePanelReview(panels && panels[panelId]);
+    if (!review.action_required) return null;
+    return `${panelId}: ${review.action_required}`;
+  }).filter(Boolean);
 }
 
 function loadPanelReviewFromForm(episodeId, panelId, currentReview) {
@@ -360,6 +379,7 @@ function buildConsistencyReport(context) {
   const scriptPageCount = asNumberLike(script.page_count || extractMarkdownTableValue(context.scriptMd || '', '페이지 수'));
   const storyboardPageCount = storyboard.pages && storyboard.pages.length ? storyboard.pages.length : asNumberLike(extractMarkdownTableValue(context.storyboardMd || '', '총 페이지'));
   const panelCount = panels.panels && panels.panels.length ? panels.panels.length : null;
+  const storyboardPanelCount = storyboardPanelIds(storyboard).length || null;
   const castFromJson = script.main_characters || [];
   const castFromMd = extractMarkdownTableValue(context.scriptMd || '', '주요 등장인물')
     .split(',')
@@ -381,6 +401,27 @@ function buildConsistencyReport(context) {
     issues.push({ level: 'error', label: 'page-count', message: `대본 페이지 수(${scriptPageCount})와 스토리보드 페이지 수(${storyboardPageCount})가 다릅니다.` });
   }
 
+  if (storyboardPanelCount && panelCount && storyboardPanelCount !== panelCount) {
+    issues.push({ level: 'error', label: 'panel-count', message: `스토리보드 패널 수(${storyboardPanelCount})와 panels.json 패널 수(${panelCount})가 다릅니다.` });
+  }
+
+  if (storyboardPanelCount && !panelCount) {
+    issues.push({ level: 'warn', label: 'panel-count', message: `스토리보드에는 패널 ${storyboardPanelCount}개가 있으나 panels.json이 아직 없습니다.` });
+  }
+
+  if (storyboardPanelCount && panelCount) {
+    const storyboardIds = storyboardPanelIds(storyboard);
+    const panelIds = panels.panels.map(function (panel) { return panel.panel_id; });
+    const missingInPanels = storyboardIds.filter(function (id) { return panelIds.indexOf(id) === -1; });
+    const extraPanels = panelIds.filter(function (id) { return storyboardIds.indexOf(id) === -1; });
+    if (missingInPanels.length) {
+      issues.push({ level: 'error', label: 'panel-coverage', message: `스토리보드 기준 panels.json에 없는 패널: ${missingInPanels.slice(0, 5).join(', ')}${missingInPanels.length > 5 ? ' 외' : ''}` });
+    }
+    if (extraPanels.length) {
+      issues.push({ level: 'warn', label: 'panel-coverage', message: `panels.json에만 있는 패널: ${extraPanels.slice(0, 5).join(', ')}${extraPanels.length > 5 ? ' 외' : ''}` });
+    }
+  }
+
   if (castFromJson.length && castFromMd.length) {
     const missingInJson = castFromMd.filter(function (name) { return castFromJson.indexOf(name) === -1; });
     if (missingInJson.length) {
@@ -398,6 +439,18 @@ function buildConsistencyReport(context) {
 
   if (hasManifest && panelCount == null) {
     issues.push({ level: 'info', label: 'panels', message: '패널 manifest는 있으나 개별 패널 JSON/이미지 메타는 아직 없습니다.' });
+  }
+
+  if (panels.prompt_version && /dryrun/i.test(String(panels.prompt_version))) {
+    issues.push({ level: 'warn', label: 'panels', message: `panels.json prompt_version이 ${panels.prompt_version}라 아직 드라이런 산출물일 가능성이 큽니다.` });
+  }
+
+  const currentStyle = stateStyleName(context.state);
+  const staleStyles = ((panels.panels || []).map(function (panel) { return panel.style; }).filter(Boolean)).filter(function (style) {
+    return currentStyle && style !== currentStyle;
+  });
+  if (staleStyles.length) {
+    issues.push({ level: 'warn', label: 'style', message: `현재 art_style(${currentStyle})와 다른 패널 style이 남아 있습니다: ${Array.from(new Set(staleStyles)).join(', ')}` });
   }
 
   if (publishedViewer && !context.publishedViewerHtml) {
@@ -418,6 +471,60 @@ function buildConsistencyReport(context) {
     issues: issues,
     counts: { error: errorCount, warn: warnCount, info: infoCount }
   };
+}
+
+function stateStyleName(state) {
+  return state && state.art_style && state.art_style.name ? state.art_style.name : '';
+}
+
+function buildVisionQaSnapshot(context, review, lintReport) {
+  const panelList = (context.panels && context.panels.panels) || [];
+  const panelReviewSummary = summarizePanelReviews(panelList, review.panels || {});
+  const criterionSummary = summarizeCriterionCounts(panelList, review.panels || {});
+  const actionItems = summarizePanelActionItems(panelList, review.panels || {});
+  const qaScore = context.qa && context.qa.overall_score != null ? context.qa.overall_score : null;
+  const releaseGate = lintReport.counts.error === 0 && review.status === 'approved' ? 'ready' : 'blocked';
+  return {
+    qaScore: qaScore,
+    releaseGate: releaseGate,
+    panelReviewSummary: panelReviewSummary,
+    criterionSummary: criterionSummary,
+    actionItems: actionItems
+  };
+}
+
+function buildVisionQaResultsSection(context, review, lintReport) {
+  const snapshot = buildVisionQaSnapshot(context, review, lintReport);
+  const lines = [
+    '## Vision QA Summary',
+    `- review_status: ${renderQaStatusLabel(review.status || 'pending')}`,
+    `- updated_at: ${review.updatedAt || '-'}`,
+    `- qa_score: ${snapshot.qaScore != null ? snapshot.qaScore + '/50' : '-'}`,
+    `- release_gate: ${snapshot.releaseGate}`,
+    `- lint_gate: error ${lintReport.counts.error} / warn ${lintReport.counts.warn} / info ${lintReport.counts.info}`,
+    '',
+    '### Episode Verdict',
+    review.verdict || '미작성',
+    '',
+    '### Reviewer Notes',
+    review.note || '미작성',
+    '',
+    '### Panel QA Status',
+    `- approved: ${snapshot.panelReviewSummary.approved}`,
+    `- changes_requested: ${snapshot.panelReviewSummary.changes_requested}`,
+    `- hold: ${snapshot.panelReviewSummary.hold}`,
+    `- pending: ${snapshot.panelReviewSummary.pending}`,
+    '',
+    '### Panel QA Criteria',
+    `- pass: ${snapshot.criterionSummary.pass}`,
+    `- warn: ${snapshot.criterionSummary.warn}`,
+    `- fail: ${snapshot.criterionSummary.fail}`,
+    `- unchecked: ${snapshot.criterionSummary.unchecked}`,
+    '',
+    '### Action Required',
+    snapshot.actionItems.length ? snapshot.actionItems.map(function (item) { return `- ${item}`; }).join('\n') : '- 없음'
+  ];
+  return lines.join('\n');
 }
 
 function navHtml() {
@@ -790,6 +897,22 @@ async function renderEpisode() {
     </a>`;
   }).join('');
 
+  window.__CLE3_CONTEXT__ = {
+    episodeId: episodeId,
+    episode: episode,
+    state: state,
+    script: script,
+    scriptMd: scriptMd,
+    characters: characters,
+    storyboard: storyboard,
+    storyboardMd: storyboardMd,
+    panels: panels,
+    qa: qa,
+    resultsMd: resultsMd,
+    manifestMd: manifestMd,
+    publishedViewerHtml: publishedViewerHtml
+  };
+
   app.innerHTML = headerHtml() + navHtml() + patBanner() + sourceModeBanner() + `
     <div class="content">
       <div class="workspace-shell">
@@ -817,21 +940,7 @@ async function renderEpisode() {
             </div>
             <div class="tab-row">${tabNav}</div>
           </div>
-          ${renderEpisodeTab(tab, {
-            episodeId: episodeId,
-            episode: episode,
-            state: state,
-            script: script,
-            scriptMd: scriptMd,
-            characters: characters,
-            storyboard: storyboard,
-            storyboardMd: storyboardMd,
-            panels: panels,
-            qa: qa,
-            resultsMd: resultsMd,
-            manifestMd: manifestMd,
-            publishedViewerHtml: publishedViewerHtml
-          })}
+          ${renderEpisodeTab(tab, window.__CLE3_CONTEXT__)}
         </section>
       </div>
     </div>`;
@@ -865,6 +974,11 @@ function renderOverviewTab(context) {
   const lintReport = buildConsistencyReport(context);
   const lintState = script.scenes || context.scriptMd ? lintReport.status : '입력 부족';
   const visionState = qa.overall_score ? (qa.overall_score >= 42 ? '통과' : '재검토') : (extractMarkdownLineValue(context.resultsMd || '', 'status') || 'pending');
+  const review = loadQaReview(context.episodeId) || { status: 'pending', panels: {} };
+  const panelList = (context.panels && context.panels.panels) || [];
+  const panelReviewSummary = summarizePanelReviews(panelList, review.panels || {});
+  const criterionSummary = summarizeCriterionCounts(panelList, review.panels || {});
+  const qaSnapshot = buildVisionQaSnapshot(context, review, lintReport);
 
   return `
     <div class="workspace-grid">
@@ -912,6 +1026,21 @@ function renderOverviewTab(context) {
         <h3>Vision QA</h3>
         <p>${escapeHtml(String(visionState))}</p>
         <p class="meta">CLE2-11 범위: 패널 시각 검수, 승인/반려, 결과 품질 게이트</p>
+      </div>
+      <div class="card">
+        <h3>패널 QA 스냅샷</h3>
+        <div class="stats-grid compact-grid">
+          ${statCard(panelReviewSummary.approved, '승인')}
+          ${statCard(panelReviewSummary.changes_requested, '수정 요청')}
+          ${statCard(panelReviewSummary.hold, '보류')}
+          ${statCard(panelReviewSummary.pending, '미검수')}
+        </div>
+        <p class="meta">criteria: pass ${criterionSummary.pass} / warn ${criterionSummary.warn} / fail ${criterionSummary.fail}</p>
+      </div>
+      <div class="card">
+        <h3>출시 게이트</h3>
+        <p>${escapeHtml(qaSnapshot.releaseGate === 'ready' ? '준비됨' : '차단됨')}</p>
+        <p class="meta">lint error 0 + episode QA 승인 기준</p>
       </div>
     </div>`;
 }
@@ -1045,8 +1174,10 @@ function renderPanelsTab(context) {
   }
 
   const qaReview = loadQaReview(context.episodeId) || { panels: {} };
+  const actionItems = summarizePanelActionItems(panels.panels, qaReview.panels || {});
   return `<div class="card">
     <h3>패널 산출물</h3>
+    ${actionItems.length ? `<div class="scene-card"><div class="output-title">즉시 조치 필요</div>${actionItems.map(function (item) { return `<div class="output-desc">- ${escapeHtml(item)}</div>`; }).join('')}</div>` : ''}
     ${panels.panels.map(function (panel) {
       const panelReview = normalizePanelReview((qaReview.panels && qaReview.panels[panel.panel_id]) || {});
       return `<div class="scene-card">
@@ -1057,6 +1188,7 @@ function renderPanelsTab(context) {
         <div class="panel-qa-inline">
           <span class="panel-qa-badge ${panelReview.status || 'pending'}">${escapeHtml(renderQaStatusLabel(panelReview.status || 'pending'))}</span>
           <span class="meta">${escapeHtml(panelCriteriaSummary(panelReview))}</span>
+          <span class="meta">${panelReview.action_required ? '조치: ' + escapeHtml(panelReview.action_required) : '즉시 조치 항목 없음'}</span>
           <span class="meta">${panelReview.note ? escapeHtml(panelReview.note) : '패널 리뷰 메모 없음'}</span>
         </div>
       </div>`;
@@ -1228,6 +1360,8 @@ function renderPanelQaCard(episodeId, panelsData, review) {
 
 function renderQaReviewCard(episodeId, review) {
   const exportMarkdown = buildQaReviewMarkdown(episodeId, review);
+  const lintReport = buildConsistencyReport(window.__CLE3_CONTEXT__ || {});
+  const resultsSummaryMarkdown = buildVisionQaResultsSection(window.__CLE3_CONTEXT__ || {}, review, lintReport);
   return `<div class="card">
     <h3>Vision QA 리뷰</h3>
     <div class="segmented-row">
@@ -1253,11 +1387,17 @@ function renderQaReviewCard(episodeId, review) {
       <button class="btn btn-primary" onclick="saveQaReview('${episodeId}')">리뷰 저장</button>
       <button class="btn btn-secondary" onclick="copyQaReviewMarkdown('${episodeId}')">Markdown 복사</button>
       <button class="btn btn-secondary" onclick="downloadQaReviewMarkdown('${episodeId}')">Markdown 다운로드</button>
+      <button class="btn btn-secondary" onclick="copyQaResultsSummary('${episodeId}')">Results 요약 복사</button>
+      <button class="btn btn-secondary" onclick="downloadQaResultsSummary('${episodeId}')">Results 요약 다운로드</button>
       <button class="btn btn-secondary" onclick="clearQaReview('${episodeId}')">리뷰 초기화</button>
     </div>
     <div class="output-item">
       <div class="output-title">Export Preview</div>
       <pre class="output-md qa-export-preview">${escapeHtml(exportMarkdown)}</pre>
+    </div>
+    <div class="output-item">
+      <div class="output-title">results.md 반영용 Vision QA Summary</div>
+      <pre class="output-md qa-results-preview">${escapeHtml(resultsSummaryMarkdown)}</pre>
     </div>
   </div>`;
 }
@@ -1364,6 +1504,13 @@ function buildQaReviewMarkdown(episodeId, review) {
   ].join('\n');
 }
 
+function buildQaResultsSummaryMarkdown(episodeId) {
+  const context = window.__CLE3_CONTEXT__ || {};
+  const review = loadQaReview(episodeId) || { status: 'pending', verdict: '', note: '', updatedAt: '', panels: {} };
+  const lintReport = buildConsistencyReport(context);
+  return buildVisionQaResultsSection(context, review, lintReport);
+}
+
 async function copyQaReviewMarkdown(episodeId) {
   const review = loadQaReview(episodeId) || { status: 'pending', verdict: '', note: '', updatedAt: '' };
   const markdown = buildQaReviewMarkdown(episodeId, review);
@@ -1391,6 +1538,33 @@ function downloadQaReviewMarkdown(episodeId) {
   anchor.remove();
   URL.revokeObjectURL(url);
   showToast('QA markdown 다운로드 시작', 'success');
+}
+
+async function copyQaResultsSummary(episodeId) {
+  const markdown = buildQaResultsSummaryMarkdown(episodeId);
+  try {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      await navigator.clipboard.writeText(markdown);
+      showToast('results 요약 복사 완료', 'success');
+      return;
+    }
+  } catch (error) {
+  }
+  showToast('클립보드 복사 실패', 'error');
+}
+
+function downloadQaResultsSummary(episodeId) {
+  const markdown = buildQaResultsSummaryMarkdown(episodeId);
+  const blob = new Blob([markdown], { type: 'text/markdown;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const anchor = document.createElement('a');
+  anchor.href = url;
+  anchor.download = `${episodeId.toLowerCase()}-vision-qa-summary.md`;
+  document.body.appendChild(anchor);
+  anchor.click();
+  anchor.remove();
+  URL.revokeObjectURL(url);
+  showToast('results 요약 다운로드 시작', 'success');
 }
 
 async function renderPrompts() {
