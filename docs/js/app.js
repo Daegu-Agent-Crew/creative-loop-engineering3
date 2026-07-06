@@ -254,14 +254,95 @@ function loadQaReviews() {
   }
 }
 
+function defaultPanelReview() {
+  return {
+    status: 'pending',
+    note: '',
+    composition: 'unchecked',
+    clarity: 'unchecked',
+    emotion: 'unchecked',
+    consistency: 'unchecked',
+    action_required: ''
+  };
+}
+
+function normalizePanelReview(review) {
+  return Object.assign(defaultPanelReview(), review || {});
+}
+
+function normalizeQaReview(review) {
+  const base = Object.assign({
+    status: 'pending',
+    verdict: '',
+    note: '',
+    updatedAt: '',
+    panels: {}
+  }, review || {});
+  const normalizedPanels = {};
+  Object.keys(base.panels || {}).forEach(function (panelId) {
+    normalizedPanels[panelId] = normalizePanelReview(base.panels[panelId]);
+  });
+  base.panels = normalizedPanels;
+  return base;
+}
+
 function loadQaReview(episodeId) {
-  return loadQaReviews()[episodeId] || null;
+  const review = loadQaReviews()[episodeId];
+  return review ? normalizeQaReview(review) : null;
 }
 
 function saveQaReviewRecord(episodeId, record) {
   const all = loadQaReviews();
-  all[episodeId] = record;
+  all[episodeId] = normalizeQaReview(record);
   localStorage.setItem(QA_REVIEW_STORAGE_KEY, JSON.stringify(all));
+}
+
+function panelCriterionLabel(key) {
+  if (key === 'composition') return '구도';
+  if (key === 'clarity') return '가독성';
+  if (key === 'emotion') return '감정';
+  if (key === 'consistency') return '일관성';
+  return key;
+}
+
+function criterionStatusLabel(value) {
+  if (value === 'pass') return '양호';
+  if (value === 'warn') return '보완';
+  if (value === 'fail') return '문제';
+  return '미확인';
+}
+
+function panelCriteriaSummary(panelReview) {
+  const fields = ['composition', 'clarity', 'emotion', 'consistency'];
+  return fields.map(function (field) {
+    return panelCriterionLabel(field) + ' ' + criterionStatusLabel((panelReview || {})[field] || 'unchecked');
+  }).join(' / ');
+}
+
+function summarizeCriterionCounts(panelList, panels) {
+  const summary = { pass: 0, warn: 0, fail: 0, unchecked: 0 };
+  (panelList || []).forEach(function (panel) {
+    const panelId = typeof panel === 'string' ? panel : panel.panel_id;
+    ['composition', 'clarity', 'emotion', 'consistency'].forEach(function (field) {
+      const value = (panels && panels[panelId] && panels[panelId][field]) || 'unchecked';
+      if (summary[value] == null) summary[value] = 0;
+      summary[value] += 1;
+    });
+  });
+  return summary;
+}
+
+function loadPanelReviewFromForm(episodeId, panelId, currentReview) {
+  const review = Object.assign(defaultPanelReview(), currentReview || {});
+  const noteEl = document.getElementById('panel-note-' + episodeId + '-' + panelId);
+  const actionEl = document.getElementById('panel-action-' + episodeId + '-' + panelId);
+  review.note = noteEl ? noteEl.value.trim() : (review.note || '');
+  review.action_required = actionEl ? actionEl.value.trim() : (review.action_required || '');
+  ['composition', 'clarity', 'emotion', 'consistency'].forEach(function (field) {
+    const fieldEl = document.getElementById('panel-' + field + '-' + episodeId + '-' + panelId);
+    review[field] = fieldEl ? fieldEl.value : (review[field] || 'unchecked');
+  });
+  return review;
 }
 
 function asNumberLike(value) {
@@ -963,14 +1044,21 @@ function renderPanelsTab(context) {
     </div>`;
   }
 
+  const qaReview = loadQaReview(context.episodeId) || { panels: {} };
   return `<div class="card">
     <h3>패널 산출물</h3>
     ${panels.panels.map(function (panel) {
+      const panelReview = normalizePanelReview((qaReview.panels && qaReview.panels[panel.panel_id]) || {});
       return `<div class="scene-card">
         <div class="output-title">${escapeHtml(panel.panel_id || '')} <span class="meta">AI ${escapeHtml(panel.ai_score || '-')} / 50</span></div>
         <div class="output-desc">${escapeHtml(panel.description || '-')}</div>
         ${panel.image_path ? `<div class="placeholder-small">${escapeHtml(panel.image_path)}</div>` : ''}
         ${panel.generation_prompt ? `<div class="output-prompt">${escapeHtml(panel.generation_prompt)}</div>` : ''}
+        <div class="panel-qa-inline">
+          <span class="panel-qa-badge ${panelReview.status || 'pending'}">${escapeHtml(renderQaStatusLabel(panelReview.status || 'pending'))}</span>
+          <span class="meta">${escapeHtml(panelCriteriaSummary(panelReview))}</span>
+          <span class="meta">${panelReview.note ? escapeHtml(panelReview.note) : '패널 리뷰 메모 없음'}</span>
+        </div>
       </div>`;
     }).join('')}
   </div>`;
@@ -983,8 +1071,12 @@ function renderQATab(context) {
     status: 'pending',
     verdict: '',
     note: '',
-    updatedAt: ''
+    updatedAt: '',
+    panels: {}
   };
+  const panelList = (context.panels && context.panels.panels) || [];
+  const panelReviewSummary = summarizePanelReviews(panelList, review.panels || {});
+  const criterionSummary = summarizeCriterionCounts(panelList, review.panels || {});
   if (!qa && !context.resultsMd) {
     return '<div class="card"><p>QA/결과 데이터가 아직 없습니다.</p></div>';
   }
@@ -1002,6 +1094,7 @@ function renderQATab(context) {
         <p class="meta">primary hypothesis: ${escapeHtml(primary || '-')}</p>
       </div>
       ${renderQaReviewCard(context.episodeId, review)}
+      ${renderPanelQaCard(context.episodeId, context.panels, review)}
       <div class="card">
         <h3>다음 액션</h3>
         ${nextActions.length ? nextActions.map(function (item) {
@@ -1030,6 +1123,22 @@ function renderQATab(context) {
     </div>
     ${renderQaReviewCard(context.episodeId, review)}
     <div class="card">
+      <h3>패널 검수 요약</h3>
+      <div class="stats-grid compact-grid">
+        ${statCard(panelReviewSummary.approved, '승인')}
+        ${statCard(panelReviewSummary.changes_requested, '수정 요청')}
+        ${statCard(panelReviewSummary.hold, '보류')}
+        ${statCard(panelReviewSummary.pending, '미검수')}
+      </div>
+      <div class="stats-grid compact-grid panel-criterion-summary">
+        ${statCard(criterionSummary.pass, '양호')}
+        ${statCard(criterionSummary.warn, '보완')}
+        ${statCard(criterionSummary.fail, '문제')}
+        ${statCard(criterionSummary.unchecked, '미확인')}
+      </div>
+    </div>
+    ${renderPanelQaCard(context.episodeId, context.panels, review)}
+    <div class="card">
       <h3>세부 항목</h3>
       ${(qa.items || []).map(function (item) {
         return `<div class="output-item">
@@ -1045,6 +1154,75 @@ function renderQATab(context) {
         return `<div class="output-item"><div class="output-title">${escapeHtml(issue.label)} · ${escapeHtml(issue.level)}</div><div class="output-desc">${escapeHtml(issue.message)}</div></div>`;
       }).join('') : '<p class="meta">현재 규칙 기준으로 린트 이슈 없음</p>'}
     </div>
+  </div>`;
+}
+
+function renderPanelQaCard(episodeId, panelsData, review) {
+  const panels = panelsData && panelsData.panels ? panelsData.panels : [];
+  if (!panels.length) {
+    return '<div class="card"><h3>패널 단위 Vision QA</h3><p class="meta">패널 메타가 아직 없어 에피소드 단위 QA만 가능합니다.</p></div>';
+  }
+
+  return `<div class="card">
+    <h3>패널 단위 Vision QA</h3>
+    ${panels.map(function (panel) {
+      const panelReview = normalizePanelReview((review.panels && review.panels[panel.panel_id]) || null);
+      return `<div class="panel-review-card">
+        <div class="panel-review-head">
+          <div>
+            <div class="output-title">${escapeHtml(panel.panel_id)}</div>
+            <div class="meta">AI score ${escapeHtml(panel.ai_score || '-')} / 50</div>
+          </div>
+          <span class="panel-qa-badge ${panelReview.status || 'pending'}">${escapeHtml(renderQaStatusLabel(panelReview.status || 'pending'))}</span>
+        </div>
+        <div class="output-desc">${escapeHtml(panel.generation_prompt || panel.description || '-')}</div>
+        <div class="segmented-row panel-segmented">
+          <button class="segmented-btn ${panelReview.status === 'approved' ? 'active approved' : ''}" onclick="setPanelQaStatus('${episodeId}','${panel.panel_id}','approved')">승인</button>
+          <button class="segmented-btn ${panelReview.status === 'changes_requested' ? 'active changes' : ''}" onclick="setPanelQaStatus('${episodeId}','${panel.panel_id}','changes_requested')">수정 요청</button>
+          <button class="segmented-btn ${panelReview.status === 'hold' ? 'active hold' : ''}" onclick="setPanelQaStatus('${episodeId}','${panel.panel_id}','hold')">보류</button>
+          <button class="segmented-btn ${panelReview.status === 'pending' ? 'active pending' : ''}" onclick="setPanelQaStatus('${episodeId}','${panel.panel_id}','pending')">미검수</button>
+        </div>
+        <div class="panel-criteria-grid">
+          <label class="panel-criteria-field">구도
+            <select id="panel-composition-${episodeId}-${panel.panel_id}" class="panel-select">
+              <option value="unchecked" ${panelReview.composition === 'unchecked' ? 'selected' : ''}>미확인</option>
+              <option value="pass" ${panelReview.composition === 'pass' ? 'selected' : ''}>양호</option>
+              <option value="warn" ${panelReview.composition === 'warn' ? 'selected' : ''}>보완</option>
+              <option value="fail" ${panelReview.composition === 'fail' ? 'selected' : ''}>문제</option>
+            </select>
+          </label>
+          <label class="panel-criteria-field">가독성
+            <select id="panel-clarity-${episodeId}-${panel.panel_id}" class="panel-select">
+              <option value="unchecked" ${panelReview.clarity === 'unchecked' ? 'selected' : ''}>미확인</option>
+              <option value="pass" ${panelReview.clarity === 'pass' ? 'selected' : ''}>양호</option>
+              <option value="warn" ${panelReview.clarity === 'warn' ? 'selected' : ''}>보완</option>
+              <option value="fail" ${panelReview.clarity === 'fail' ? 'selected' : ''}>문제</option>
+            </select>
+          </label>
+          <label class="panel-criteria-field">감정
+            <select id="panel-emotion-${episodeId}-${panel.panel_id}" class="panel-select">
+              <option value="unchecked" ${panelReview.emotion === 'unchecked' ? 'selected' : ''}>미확인</option>
+              <option value="pass" ${panelReview.emotion === 'pass' ? 'selected' : ''}>양호</option>
+              <option value="warn" ${panelReview.emotion === 'warn' ? 'selected' : ''}>보완</option>
+              <option value="fail" ${panelReview.emotion === 'fail' ? 'selected' : ''}>문제</option>
+            </select>
+          </label>
+          <label class="panel-criteria-field">일관성
+            <select id="panel-consistency-${episodeId}-${panel.panel_id}" class="panel-select">
+              <option value="unchecked" ${panelReview.consistency === 'unchecked' ? 'selected' : ''}>미확인</option>
+              <option value="pass" ${panelReview.consistency === 'pass' ? 'selected' : ''}>양호</option>
+              <option value="warn" ${panelReview.consistency === 'warn' ? 'selected' : ''}>보완</option>
+              <option value="fail" ${panelReview.consistency === 'fail' ? 'selected' : ''}>문제</option>
+            </select>
+          </label>
+        </div>
+        <input id="panel-action-${episodeId}-${panel.panel_id}" class="pat-input qa-input" type="text" value="${escapeHtml(panelReview.action_required || '')}" placeholder="즉시 조치 항목 예: 표정 재생성, 말풍선 배치 수정" />
+        <textarea id="panel-note-${episodeId}-${panel.panel_id}" class="qa-textarea panel-note" placeholder="패널별 검수 메모">${escapeHtml(panelReview.note || '')}</textarea>
+        <div class="action-row">
+          <button class="btn btn-secondary" onclick="savePanelQaNote('${episodeId}','${panel.panel_id}')">패널 리뷰 저장</button>
+        </div>
+      </div>`;
+    }).join('')}
   </div>`;
 }
 
@@ -1091,8 +1269,19 @@ function renderQaStatusLabel(status) {
   return '미검수';
 }
 
+function summarizePanelReviews(panelList, panels) {
+  const summary = { approved: 0, changes_requested: 0, hold: 0, pending: 0 };
+  (panelList || []).forEach(function (panel) {
+    const panelId = typeof panel === 'string' ? panel : panel.panel_id;
+    const status = (panels && panels[panelId] && panels[panelId].status) || 'pending';
+    if (summary[status] == null) summary[status] = 0;
+    summary[status] += 1;
+  });
+  return summary;
+}
+
 function setQaStatus(episodeId, status) {
-  const review = loadQaReview(episodeId) || {};
+  const review = loadQaReview(episodeId) || { panels: {} };
   review.status = status;
   review.verdict = (document.getElementById('qa-verdict-' + episodeId) || {}).value || review.verdict || '';
   review.note = (document.getElementById('qa-note-' + episodeId) || {}).value || review.note || '';
@@ -1105,12 +1294,33 @@ function setQaStatus(episodeId, status) {
 function saveQaReview(episodeId) {
   const verdictEl = document.getElementById('qa-verdict-' + episodeId);
   const noteEl = document.getElementById('qa-note-' + episodeId);
-  const current = loadQaReview(episodeId) || { status: 'pending' };
+  const current = loadQaReview(episodeId) || { status: 'pending', panels: {} };
   current.verdict = verdictEl ? verdictEl.value.trim() : '';
   current.note = noteEl ? noteEl.value.trim() : '';
   current.updatedAt = new Date().toLocaleString('ko-KR');
   saveQaReviewRecord(episodeId, current);
   showToast('QA 리뷰 저장 완료', 'success');
+  render();
+}
+
+function setPanelQaStatus(episodeId, panelId, status) {
+  const review = loadQaReview(episodeId) || { status: 'pending', verdict: '', note: '', updatedAt: '', panels: {} };
+  review.panels = review.panels || {};
+  review.panels[panelId] = loadPanelReviewFromForm(episodeId, panelId, review.panels[panelId]);
+  review.panels[panelId].status = status;
+  review.updatedAt = new Date().toLocaleString('ko-KR');
+  saveQaReviewRecord(episodeId, review);
+  showToast('패널 QA 상태 저장', 'success');
+  render();
+}
+
+function savePanelQaNote(episodeId, panelId) {
+  const review = loadQaReview(episodeId) || { status: 'pending', verdict: '', note: '', updatedAt: '', panels: {} };
+  review.panels = review.panels || {};
+  review.panels[panelId] = loadPanelReviewFromForm(episodeId, panelId, review.panels[panelId]);
+  review.updatedAt = new Date().toLocaleString('ko-KR');
+  saveQaReviewRecord(episodeId, review);
+  showToast('패널 QA 리뷰 저장', 'success');
   render();
 }
 
@@ -1123,6 +1333,16 @@ function clearQaReview(episodeId) {
 }
 
 function buildQaReviewMarkdown(episodeId, review) {
+  const panelLines = Object.keys((review && review.panels) || {}).sort().map(function (panelId) {
+    const panelReview = normalizePanelReview(review.panels[panelId] || {});
+    return [
+      `- ${panelId}`,
+      `  - status: ${renderQaStatusLabel(panelReview.status || 'pending')}`,
+      `  - checks: ${panelCriteriaSummary(panelReview)}`,
+      `  - action_required: ${panelReview.action_required || '-'}`,
+      `  - note: ${panelReview.note || '메모 없음'}`
+    ].join('\n');
+  });
   const status = renderQaStatusLabel((review && review.status) || 'pending');
   const verdict = (review && review.verdict ? review.verdict : '미작성').trim();
   const note = (review && review.note ? review.note : '미작성').trim();
@@ -1137,7 +1357,10 @@ function buildQaReviewMarkdown(episodeId, review) {
     verdict,
     '',
     '### notes',
-    note
+    note,
+    '',
+    '### panel_reviews',
+    panelLines.length ? panelLines.join('\n') : '- 없음'
   ].join('\n');
 }
 

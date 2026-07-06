@@ -223,6 +223,70 @@ body {
   max-height: 240px;
   overflow: auto;
 }
+.panel-review-card {
+  padding: 1rem 0;
+  border-top: 1px solid rgba(50,50,80,0.25);
+}
+.panel-review-card:first-of-type { border-top: 0; }
+.panel-review-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.8rem;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+}
+.panel-segmented {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 0.75rem;
+}
+.panel-note {
+  min-height: 88px;
+  margin-top: 0.75rem;
+}
+.panel-criteria-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem;
+  margin-top: 0.75rem;
+}
+.panel-criteria-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.8rem;
+  color: #9ea1d5;
+}
+.panel-select {
+  min-height: 36px;
+  padding: 0.45rem 0.6rem;
+  background: rgba(10,10,25,0.8);
+  border: 1px solid rgba(100,100,150,0.3);
+  border-radius: 6px;
+  color: #c8c8e8;
+}
+.panel-criterion-summary {
+  margin-top: 0.8rem;
+}
+.panel-qa-inline {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 0.65rem;
+}
+.panel-qa-badge {
+  display: inline-flex;
+  min-height: 26px;
+  align-items: center;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  border: 1px solid rgba(100,100,150,0.24);
+}
+.panel-qa-badge.approved { color: #99e0aa; border-color: rgba(40,167,69,0.45); }
+.panel-qa-badge.changes_requested { color: #ff9fb3; border-color: rgba(225,29,72,0.42); }
+.panel-qa-badge.hold { color: #f0d27b; border-color: rgba(255,193,7,0.38); }
+.panel-qa-badge.pending { color: #9dc5f3; border-color: rgba(107,163,232,0.32); }
 .segmented-row {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -391,6 +455,9 @@ body {
   .workspace-sidebar { position: static; }
   .workspace-header { flex-direction: column; }
   .segmented-row { grid-template-columns: 1fr 1fr; }
+  .panel-segmented { grid-template-columns: 1fr 1fr; }
+  .panel-review-head { flex-direction: column; }
+  .panel-criteria-grid { grid-template-columns: 1fr; }
 }
 </style>
 </head>
