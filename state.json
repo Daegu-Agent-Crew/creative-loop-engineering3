@@ -16,6 +16,66 @@
         "phase5": {"status": "pending"},
         "phase6": {"status": "pending"}
       }
+    },
+    "EP002": {
+      "title": "카운트다운",
+      "status": "pending",
+      "current_phase": "phase1_story",
+      "phases": {
+        "phase0": {"status": "completed", "score": null},
+        "phase0.5": {"status": "completed", "score": null},
+        "phase1": {"status": "active", "score": null, "prompt_version": "markdown-draft"},
+        "phase2": {"status": "pending"},
+        "phase3": {"status": "pending"},
+        "phase4": {"status": "pending"},
+        "phase5": {"status": "pending"},
+        "phase6": {"status": "pending"}
+      }
+    },
+    "EP003": {
+      "title": "세 개의 태양",
+      "status": "pending",
+      "current_phase": "phase1_story",
+      "phases": {
+        "phase0": {"status": "completed", "score": null},
+        "phase0.5": {"status": "completed", "score": null},
+        "phase1": {"status": "active", "score": null, "prompt_version": "markdown-draft"},
+        "phase2": {"status": "pending"},
+        "phase3": {"status": "pending"},
+        "phase4": {"status": "pending"},
+        "phase5": {"status": "pending"},
+        "phase6": {"status": "pending"}
+      }
+    },
+    "EP004": {
+      "title": "문명의 역사",
+      "status": "pending",
+      "current_phase": "phase1_story",
+      "phases": {
+        "phase0": {"status": "completed", "score": null},
+        "phase0.5": {"status": "completed", "score": null},
+        "phase1": {"status": "active", "score": null, "prompt_version": "markdown-draft"},
+        "phase2": {"status": "pending"},
+        "phase3": {"status": "pending"},
+        "phase4": {"status": "pending"},
+        "phase5": {"status": "pending"},
+        "phase6": {"status": "pending"}
+      }
+    },
+    "EP005": {
+      "title": "별의 바다",
+      "status": "pending",
+      "current_phase": "phase1_story",
+      "phases": {
+        "phase0": {"status": "completed", "score": null},
+        "phase0.5": {"status": "completed", "score": null},
+        "phase1": {"status": "active", "score": null, "prompt_version": "markdown-draft"},
+        "phase2": {"status": "pending"},
+        "phase3": {"status": "pending"},
+        "phase4": {"status": "pending"},
+        "phase5": {"status": "pending"},
+        "phase6": {"status": "pending"}
+      }
     }
   },
   "art_style": {
