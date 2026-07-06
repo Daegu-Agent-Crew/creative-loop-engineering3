@@ -25,12 +25,27 @@ Clean panel borders, dynamic perspective.
 
 | Phase | 이름 | 입력 | 출력 | 스키마 |
 |-------|------|------|------|--------|
-| 1 | Story | 원작 텍스트 | 장면/대사 JSON | `schemas/story.schema.json` |
+| 1 | Story (4단계) | 원작 텍스트 | analysis→outline→scenes→script | `schemas/story.schema.json` |
 | 2 | Characters | Story JSON | 캐릭터 디자인 명세 | `schemas/characters.schema.json` |
 | 3 | Storyboard | Story + Characters | 페이지/패널 레이아웃 | `schemas/storyboard.schema.json` |
-| 4 | Panels | Storyboard | 패널 이미지 | `schemas/panels.schema.json` |
+| 4 | Panels (4단계) | Storyboard | 화풍→시트→배경→컷 | `schemas/panels.schema.json` |
 | 5 | QA | 전체 산출물 | 품질 보증 리포트 | `schemas/qa.schema.json` |
 | 6 | Deploy | QA 통과 산출물 | GitHub Pages 배포 | `schemas/deploy.schema.json` |
+
+## Phase 1 상세: 4단계 스토리 각색 워크플로우
+
+Phase 1(Story)는 다음 4단계로 내부 세분화됩니다:
+
+```
+[A] 원작 분석 → [B] 구조 설계 → [C] 장면 작성 → [D] 패널 분해
+```
+
+- **[A] 원작 분석:** 사건 추출, 테마, 캐릭터 아크, 로그라인, 가설 배당
+- **[B] 구조 설계:** 3막 분할, 비트 시트(Save the Cat), 페이지 배당, 감정 곡선
+- **[C] 장면 작성:** 장면별 대사, 감정, 연출 의도, 색감, 가설 태깅
+- **[D] 패널 분해:** 페이지/패널 분할, 감정/연출 메모 (Phase 4에서 직접 사용)
+
+상세 가이드: `prompts/story/v2.md` 참고
 
 ## Phase 4 상세: 4단계 이미지 워크플로우
 
