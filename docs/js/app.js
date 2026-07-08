@@ -1102,7 +1102,24 @@ function renderCharactersTab(context) {
     </div>`;
   }
 
+  const generatedCount = characters.characters.filter(function (character) {
+    return !!character.image_path;
+  }).length;
+  const pendingCount = characters.characters.filter(function (character) {
+    return !character.image_path;
+  }).length;
+
   return `<div class="workspace-grid">
+    <div class="card">
+      <h3>Phase 2 자산 상태</h3>
+      <div class="stats-grid compact-grid">
+        ${statCard(characters.characters.length, '캐릭터')}
+        ${statCard(generatedCount, '생성 완료')}
+        ${statCard(pendingCount, '생성 대기')}
+        ${statCard(characters.prompt_version || '-', '프롬프트 버전')}
+      </div>
+      <p class="meta">CLE3 내부 generated asset만 Phase 2 완료 자산으로 인정합니다.</p>
+    </div>
     ${characters.characters.map(function (character) {
       const hasAsset = !!character.image_path;
       return `<div class="card">
