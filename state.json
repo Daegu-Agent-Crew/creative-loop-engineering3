@@ -1,20 +1,56 @@
 {
   "current_episode": "EP001",
-  "current_phase": "phase3_storyboard",
+  "current_phase": "phase4_panels",
   "episodes": {
     "EP001": {
       "title": "태초의 밤",
       "status": "in_progress",
-      "current_phase": "phase3_storyboard",
+      "current_phase": "phase4_panels",
       "phases": {
-        "phase0": {"status": "completed", "score": null},
-        "phase0.5": {"status": "completed", "score": null},
-        "phase1": {"status": "completed", "score": null, "prompt_version": "v3-4step", "note": "v3 프롬프트로 재작성. 28p→16p. Subtext 87.5%, 콜드 오픈, McKee Gap, 개념 사전 세팅 적용. 이전 v1 score 45점은 v0-backup으로 보존.", "sub_files": ["story/analysis.md", "story/outline.md", "story/scenes.md", "script/script.md", "script/script.json"]},
-        "phase2": {"status": "completed", "score": null, "prompt_version": "v2-toriyama", "note": "화풍 변경으로 재실행 (수채화→닥터슬럼프풍). style_notes 전면 개정. v3 스토리에 맞게 캐릭터 디자인 재검토 필요."},
-        "phase3": {"status": "pending", "prompt_version": "v2", "note": "v3 스토리(16p) 기준으로 storyboard 재작성 필요"},
-        "phase4": {"status": "pending", "prompt_version": "v2"},
-        "phase5": {"status": "pending"},
-        "phase6": {"status": "pending"}
+        "phase0": {
+          "status": "completed",
+          "score": null
+        },
+        "phase0.5": {
+          "status": "completed",
+          "score": null
+        },
+        "phase1": {
+          "status": "completed",
+          "score": null,
+          "prompt_version": "v3-4step",
+          "note": "v3 프롬프트로 재작성. 28p→16p. Subtext 87.5%, 콜드 오픈, McKee Gap, 개념 사전 세팅 적용. 이전 v1 score 45점은 v0-backup으로 보존.",
+          "sub_files": [
+            "story/analysis.md",
+            "story/outline.md",
+            "story/scenes.md",
+            "script/script.md",
+            "script/script.json"
+          ]
+        },
+        "phase2": {
+          "status": "completed",
+          "score": null,
+          "prompt_version": "v2-toriyama",
+          "note": "화풍 변경으로 재실행 (수채화→닥터슬럼프풍). style_notes 전면 개정. v3 스토리에 맞게 캐릭터 디자인 재검토 필요."
+        },
+        "phase3": {
+          "status": "completed",
+          "score": null,
+          "prompt_version": "v3-storyboard-toriyama",
+          "note": "v3 스토리(16p) 기준 재작성. 49패널, 닥터슬럼프풍."
+        },
+        "phase4": {
+          "status": "active",
+          "prompt_version": "v2",
+          "note": "캐릭터 시트 → 배경 → 컷 연출"
+        },
+        "phase5": {
+          "status": "pending"
+        },
+        "phase6": {
+          "status": "pending"
+        }
       }
     },
     "EP002": {
@@ -22,14 +58,34 @@
       "status": "pending",
       "current_phase": "phase1_story",
       "phases": {
-        "phase0": {"status": "completed", "score": null},
-        "phase0.5": {"status": "completed", "score": null},
-        "phase1": {"status": "active", "score": null, "prompt_version": "markdown-draft"},
-        "phase2": {"status": "pending"},
-        "phase3": {"status": "pending"},
-        "phase4": {"status": "pending"},
-        "phase5": {"status": "pending"},
-        "phase6": {"status": "pending"}
+        "phase0": {
+          "status": "completed",
+          "score": null
+        },
+        "phase0.5": {
+          "status": "completed",
+          "score": null
+        },
+        "phase1": {
+          "status": "active",
+          "score": null,
+          "prompt_version": "markdown-draft"
+        },
+        "phase2": {
+          "status": "pending"
+        },
+        "phase3": {
+          "status": "pending"
+        },
+        "phase4": {
+          "status": "pending"
+        },
+        "phase5": {
+          "status": "pending"
+        },
+        "phase6": {
+          "status": "pending"
+        }
       }
     },
     "EP003": {
@@ -37,14 +93,34 @@
       "status": "pending",
       "current_phase": "phase1_story",
       "phases": {
-        "phase0": {"status": "completed", "score": null},
-        "phase0.5": {"status": "completed", "score": null},
-        "phase1": {"status": "active", "score": null, "prompt_version": "markdown-draft"},
-        "phase2": {"status": "pending"},
-        "phase3": {"status": "pending"},
-        "phase4": {"status": "pending"},
-        "phase5": {"status": "pending"},
-        "phase6": {"status": "pending"}
+        "phase0": {
+          "status": "completed",
+          "score": null
+        },
+        "phase0.5": {
+          "status": "completed",
+          "score": null
+        },
+        "phase1": {
+          "status": "active",
+          "score": null,
+          "prompt_version": "markdown-draft"
+        },
+        "phase2": {
+          "status": "pending"
+        },
+        "phase3": {
+          "status": "pending"
+        },
+        "phase4": {
+          "status": "pending"
+        },
+        "phase5": {
+          "status": "pending"
+        },
+        "phase6": {
+          "status": "pending"
+        }
       }
     },
     "EP004": {
@@ -52,14 +128,34 @@
       "status": "pending",
       "current_phase": "phase1_story",
       "phases": {
-        "phase0": {"status": "completed", "score": null},
-        "phase0.5": {"status": "completed", "score": null},
-        "phase1": {"status": "active", "score": null, "prompt_version": "markdown-draft"},
-        "phase2": {"status": "pending"},
-        "phase3": {"status": "pending"},
-        "phase4": {"status": "pending"},
-        "phase5": {"status": "pending"},
-        "phase6": {"status": "pending"}
+        "phase0": {
+          "status": "completed",
+          "score": null
+        },
+        "phase0.5": {
+          "status": "completed",
+          "score": null
+        },
+        "phase1": {
+          "status": "active",
+          "score": null,
+          "prompt_version": "markdown-draft"
+        },
+        "phase2": {
+          "status": "pending"
+        },
+        "phase3": {
+          "status": "pending"
+        },
+        "phase4": {
+          "status": "pending"
+        },
+        "phase5": {
+          "status": "pending"
+        },
+        "phase6": {
+          "status": "pending"
+        }
       }
     },
     "EP005": {
@@ -67,14 +163,34 @@
       "status": "pending",
       "current_phase": "phase1_story",
       "phases": {
-        "phase0": {"status": "completed", "score": null},
-        "phase0.5": {"status": "completed", "score": null},
-        "phase1": {"status": "active", "score": null, "prompt_version": "markdown-draft"},
-        "phase2": {"status": "pending"},
-        "phase3": {"status": "pending"},
-        "phase4": {"status": "pending"},
-        "phase5": {"status": "pending"},
-        "phase6": {"status": "pending"}
+        "phase0": {
+          "status": "completed",
+          "score": null
+        },
+        "phase0.5": {
+          "status": "completed",
+          "score": null
+        },
+        "phase1": {
+          "status": "active",
+          "score": null,
+          "prompt_version": "markdown-draft"
+        },
+        "phase2": {
+          "status": "pending"
+        },
+        "phase3": {
+          "status": "pending"
+        },
+        "phase4": {
+          "status": "pending"
+        },
+        "phase5": {
+          "status": "pending"
+        },
+        "phase6": {
+          "status": "pending"
+        }
       }
     }
   },
@@ -106,5 +222,5 @@
       "previous_score": 45
     }
   ],
-  "last_updated": "2026-07-08T00:17:00Z"
+  "last_updated": "2026-07-08T00:36:00Z"
 }
