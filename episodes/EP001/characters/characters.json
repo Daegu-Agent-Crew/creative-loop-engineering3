@@ -8,7 +8,10 @@
       "personality": "비판 대회에서 아버지를 잃고 세상에 대한 믿음을 잃음. 냉철하고 결단력 있음. 감정을 드러내지 않지만 내면에 깊은 상처. 인류에 대한 환멸 → 우주로 신호를 보내는 극단적 선택.",
       "style_notes": "Toriyama style: large round expressive eyes, simplified hair, cell-shaded blue uniform with bold white buttons. Determined but sorrowful expression. Clean bold ink lines, flat vibrant colors.",
       "age": "22세 (1967년) / 60대 (2007년)",
-      "color_tone": "deep blue / white / silver accents"
+      "color_tone": "deep blue / white / silver accents",
+      "image_path": "",
+      "generation_status": "pending",
+      "asset_slot": "episodes/EP001/characters/assets/yewenjie-v1.png"
     },
     {
       "name": "청신 (程心)",
@@ -17,7 +20,10 @@
       "personality": "절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.",
       "style_notes": "Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes.",
       "age": "60대",
-      "color_tone": "soft lavender / grey / warm white"
+      "color_tone": "soft lavender / grey / warm white",
+      "image_path": "",
+      "generation_status": "pending",
+      "asset_slot": "episodes/EP001/characters/assets/chengxin-v1.png"
     },
     {
       "name": "스치친 (史强)",
@@ -26,7 +32,10 @@
       "personality": "직감형 형사. 겉은 거칠지만 속은 따뜻함. 과학자 연쇄 자살 사건을 조사. 비관적이지만 포기하지 않는 끈기.",
       "style_notes": "Toriyama style: exaggerated weary posture, heavy stubble dots, small shrewd eyes. Earthy olive-brown cell-shaded palette. Cigarette as signature prop.",
       "age": "40대",
-      "color_tone": "olive brown / dirty white / amber"
+      "color_tone": "olive brown / dirty white / amber",
+      "image_path": "",
+      "generation_status": "pending",
+      "asset_slot": "episodes/EP001/characters/assets/shiqiang-v1.png"
     },
     {
       "name": "왕먀오 (汪淼)",
@@ -35,7 +44,10 @@
       "personality": "순수한 과학적 호기심. 현실감각과 책임감. 내면의 두려움과 용기의 공존. EP001 마지막에 모니터 앞에 등장.",
       "style_notes": "Toriyama style: clean geometric design, large round glasses with light reflection, neat simplified hair. Cool blue-grey cell-shaded palette.",
       "age": "30대 초중반",
-      "color_tone": "steel blue / cool grey / lens reflection white"
+      "color_tone": "steel blue / cool grey / lens reflection white",
+      "image_path": "",
+      "generation_status": "pending",
+      "asset_slot": "episodes/EP001/characters/assets/wangmiao-v1.png"
     },
     {
       "name": "장베이하이 (章北海)",
@@ -44,7 +56,10 @@
       "personality": "냉철한 전략가. 감정을 철저히 통제. 독자의 대리인이자 미스터리 캐릭터.",
       "style_notes": "Toriyama style: rigid angular jaw, sharp narrow eyes, military uniform with gold accents. Navy and gold cell-shaded palette. Authoritative pose.",
       "age": "40대",
-      "color_tone": "navy / gold / black"
+      "color_tone": "navy / gold / black",
+      "image_path": "",
+      "generation_status": "pending",
+      "asset_slot": "episodes/EP001/characters/assets/zhangbeihai-v1.png"
     }
   ],
   "prompt_version": "v2-toriyama",

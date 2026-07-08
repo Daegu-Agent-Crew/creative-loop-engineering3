@@ -202,6 +202,27 @@ body {
 .output-prompt { font-family: monospace; font-size: 0.75rem; color: #666; background: rgba(10,10,25,0.5); padding: 0.3rem; border-radius: 4px; margin: 0.2rem 0; }
 .output-md { white-space: pre-wrap; word-break: break-word; color: #aaaacc; font-size: 0.8rem; background: rgba(10,10,25,0.5); padding: 0.8rem; border-radius: 6px; overflow-x: auto; }
 .placeholder-small { font-size: 0.75rem; color: #444; padding: 0.3rem; text-align: center; border: 1px dashed rgba(100,100,150,0.2); border-radius: 4px; margin: 0.2rem 0; }
+.character-sheet-image {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid rgba(100,100,150,0.2);
+  background: rgba(10,10,25,0.6);
+  margin: 0.5rem 0 0.8rem;
+}
+.character-sheet-placeholder {
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px dashed rgba(100,100,150,0.3);
+  background: rgba(10,10,25,0.45);
+  margin: 0.5rem 0 0.8rem;
+}
 .pat-banner { background: rgba(255,193,7,0.1); border: 1px solid rgba(255,193,7,0.3); border-radius: 6px; padding: 0.5rem 1rem; margin: 0.5rem 1.5rem; font-size: 0.85rem; }
 .pat-banner a { color: #ffc107; }
 .action-row { display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center; margin-top: 0.8rem; }

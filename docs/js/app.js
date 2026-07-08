@@ -74,6 +74,11 @@ function dataUrl(path) {
   return REMOTE_RAW_BASE + path;
 }
 
+function assetUrl(path) {
+  if (!path) return '';
+  return dataUrl(path);
+}
+
 function repoBlobUrl(path) {
   return `https://github.com/${GH_ORG}/${GH_REPO}/blob/main/${path}`;
 }
@@ -1099,11 +1104,21 @@ function renderCharactersTab(context) {
 
   return `<div class="workspace-grid">
     ${characters.characters.map(function (character) {
+      const hasAsset = !!character.image_path;
       return `<div class="card">
         <h3>${escapeHtml(character.name || '')}</h3>
+        <p class="meta">${escapeHtml(character.role || '-')}</p>
+        ${hasAsset ? `<img class="character-sheet-image" src="${assetUrl(character.image_path)}" alt="${escapeHtml(character.name || 'character')}" />` : `<div class="character-sheet-placeholder">
+          <div class="output-title">생성 자산 대기</div>
+          <div class="output-desc">CLE3 Phase 2 workflow로 새 character sheet를 생성해야 합니다.</div>
+        </div>`}
+        <p><strong>자산 상태</strong><br>${escapeHtml(character.generation_status || 'pending')}</p>
+        <p><strong>자산 슬롯</strong><br><span class="meta">${escapeHtml(character.asset_slot || '-')}</span></p>
+        ${character.source_prompt ? `<div class="output-section"><h4>생성 프롬프트</h4><div class="output-prompt">${escapeHtml(character.source_prompt)}</div></div>` : ''}
         <p><strong>외모</strong><br>${escapeHtml(character.appearance || '-')}</p>
         <p><strong>성격</strong><br>${escapeHtml(character.personality || '-')}</p>
         <p><strong>스타일</strong><br>${escapeHtml(character.style_notes || '-')}</p>
+        <p><strong>컬러 톤</strong><br>${escapeHtml(character.color_tone || '-')}</p>
       </div>`;
     }).join('')}
   </div>`;

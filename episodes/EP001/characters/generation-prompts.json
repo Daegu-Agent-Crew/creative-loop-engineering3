@@ -1,0 +1,39 @@
+{
+  "episode_id": "EP001",
+  "phase": "phase2_characters",
+  "style_profile": "dr-slump-toriyama",
+  "workflow_rule": "Generate all character sheets inside CLE3 only. Do not import legacy generated assets from other repos.",
+  "output_dir": "episodes/EP001/characters/assets/",
+  "characters": [
+    {
+      "character_key": "yewenjie",
+      "name": "예원제 (叶文洁)",
+      "target_file": "episodes/EP001/characters/assets/yewenjie-v1.png",
+      "prompt": "Character reference sheet, full body front-focused portrait for Ye Wenjie, young 22-year-old Chinese woman in 1967. Short black bob hair, large round expressive eyes, sorrowful but determined expression, slim build, deep blue uniform jacket with bold white buttons, white shirt, simple dark shoes. Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character design, dramatic but playful 1980s Akira Toriyama manga aesthetic. Clean white background, production-ready character sheet."
+    },
+    {
+      "character_key": "chengxin",
+      "name": "청신 (程心)",
+      "target_file": "episodes/EP001/characters/assets/chengxin-v1.png",
+      "prompt": "Character reference sheet, full body front-focused portrait for older Cheng Xin, Chinese woman in her 60s. Short grey hair, gentle large eyes, warm but regretful expression, slim frame, soft cardigan or shawl, dark inner dress, calm posture. Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character design, dramatic but playful 1980s Akira Toriyama manga aesthetic. Clean white background, production-ready character sheet."
+    },
+    {
+      "character_key": "shiqiang",
+      "name": "스치친 (史强)",
+      "target_file": "episodes/EP001/characters/assets/shiqiang-v1.png",
+      "prompt": "Character reference sheet, full body front-focused portrait for Shi Qiang, rough Chinese male detective in his 40s. Messy black hair, heavy beard stubble, narrow tired eyes, bulky body, dirty open white shirt, worn work jacket, loose trousers, boots, cigarette as signature prop. Bold clean ink linework, flat vibrant cell-shaded colors, rounded but rugged expressive design, dramatic but playful 1980s Akira Toriyama manga aesthetic. Clean white background, production-ready character sheet."
+    },
+    {
+      "character_key": "wangmiao",
+      "name": "왕먀오 (汪淼)",
+      "target_file": "episodes/EP001/characters/assets/wangmiao-v1.png",
+      "prompt": "Character reference sheet, full body front-focused portrait for Wang Miao, Chinese male scientist in his early 30s. Neat short black hair, large round glasses with bright lens reflection, calm but curious expression, slim build, casual shirt and slacks, subtle lab-research feel. Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character design, dramatic but playful 1980s Akira Toriyama manga aesthetic. Clean white background, production-ready character sheet."
+    },
+    {
+      "character_key": "zhangbeihai",
+      "name": "장베이하이 (章北海)",
+      "target_file": "episodes/EP001/characters/assets/zhangbeihai-v1.png",
+      "prompt": "Character reference sheet, full body front-focused portrait for Zhang Beihai, Chinese military strategist in his 40s. Sharp narrow eyes, disciplined haircut, rigid jawline, military build, dark navy uniform or formal dark suit with gold insignia, authoritative pose. Bold clean ink linework, flat vibrant cell-shaded colors, rounded but commanding expressive design, dramatic but playful 1980s Akira Toriyama manga aesthetic. Clean white background, production-ready character sheet."
+    }
+  ]
+}
