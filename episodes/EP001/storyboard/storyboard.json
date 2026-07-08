@@ -1,25 +1,493 @@
 {
   "episode_id": "EP001",
+  "prompt_version": "v2-toriyama",
+  "source": "EP001 script.md v0.2 기반, 닥터슬럼프풍(Toriyama style) 재작성 (2026-07-06)",
   "pages": [
-    {"page_number": 1, "layout": "풀 페이지 와이드", "panels": [{"panel_id": "p1-1", "description": "우주의 심연. 무수한 별들. 카메라가 지구로 천천히 접근.", "camera_angle": "wide_establishing", "characters_in_frame": []}]},
-    {"page_number": 2, "layout": "와이드 → 미디엄", "panels": [{"panel_id": "p2-2", "description": "지구 대기권. 별빛이 대기를 통과.", "camera_angle": "aerial", "characters_in_frame": []}, {"panel_id": "p2-3", "description": "중국 베이징 야경.", "camera_angle": "cityscape", "characters_in_frame": []}]},
-    {"page_number": 3, "layout": "미디엄 → 클로즈업", "panels": [{"panel_id": "p3-4", "description": "청쑤 대학 정문. 1967년. 붉은 깃발들.", "camera_angle": "wide", "characters_in_frame": ["예원제"]}, {"panel_id": "p3-5", "description": "비판 대회 현장. 군중.", "camera_angle": "crowd", "characters_in_frame": ["예원제", "홍위병"]}]},
-    {"page_number": 4, "layout": "클로즈업 연속", "panels": [{"panel_id": "p4-6", "description": "예원제 아버지(물리학 교수) 단상 위.", "camera_angle": "medium", "characters_in_frame": ["예원제_아버지"]}, {"panel_id": "p4-7", "description": "홍위병의 외침. 거대한 글자.", "camera_angle": "dutch_angle", "characters_in_frame": ["홍위병"]}, {"panel_id": "p4-8", "description": "예원제의 얼굴. 공포와 분노.", "camera_angle": "close_up", "characters_in_frame": ["예원제"]}]},
-    {"page_number": 5, "layout": "풀 페이지 임팩트", "panels": [{"panel_id": "p5-9", "description": "아버지가 쓰러지는 순간. 슬로우 모션.", "camera_angle": "dramatic", "characters_in_frame": ["예원제_아버지", "예원제"]}]},
-    {"page_number": 6, "layout": "미디엄", "panels": [{"panel_id": "p6-10", "description": "예원제, 황폐해진 캠퍼스를 걷는다.", "camera_angle": "tracking", "characters_in_frame": ["예원제"]}, {"panel_id": "p6-11", "description": "텅 빈 물리학 강의실.", "camera_angle": "wide_interior", "characters_in_frame": []}]},
-    {"page_number": 7, "layout": "클로즈업", "panels": [{"panel_id": "p7-12", "description": "예원제의 눈. 감정이 사라진.", "camera_angle": "extreme_close_up", "characters_in_frame": ["예원제"]}]},
-    {"page_number": 8, "layout": "미디엄", "panels": [{"panel_id": "p8-13", "description": "레드 코스트 기지 외관. 거대한 안테나.", "camera_angle": "wide", "characters_in_frame": []}, {"panel_id": "p8-14", "description": "예원제, 송신 버튼 앞에.", "camera_angle": "over_shoulder", "characters_in_frame": ["예원제"]}]},
-    {"page_number": 9, "layout": "클로즈업 → 와이드", "panels": [{"panel_id": "p9-15", "description": "송신 버튼을 누르는 손.", "camera_angle": "extreme_close_up", "characters_in_frame": ["예원제"]}, {"panel_id": "p9-16", "description": "전파가 우주로 퍼져나가는 비유적 장면.", "camera_angle": "abstract", "characters_in_frame": []}]},
-    {"page_number": 10, "layout": "와이드 전환", "panels": [{"panel_id": "p10-17", "description": "40년 후. 현대 베이징 거리. 2007년.", "camera_angle": "wide_urban", "characters_in_frame": []}]},
-    {"page_number": 11, "layout": "미디엄", "panels": [{"panel_id": "p11-18", "description": "스치친, 경찰서에서 사건 파일 검토.", "camera_angle": "medium", "characters_in_frame": ["스치친"]}, {"panel_id": "p11-19", "description": "사망한 과학자 파일. 이름들.", "camera_angle": "close_up", "characters_in_frame": ["스치친"]}]},
-    {"page_number": 12, "layout": "미디엄 → 클로즈업", "panels": [{"panel_id": "p12-20", "description": "스치친, 담배를 피우며 생각.", "camera_angle": "medium", "characters_in_frame": ["스치친"]}, {"panel_id": "p12-21", "description": "스치친의 눈. 직감이 작동.", "camera_angle": "close_up", "characters_in_frame": ["스치친"]}]},
-    {"page_number": 13, "layout": "미디엄 트래킹", "panels": [{"panel_id": "p13-22", "description": "노년 청신, 거리를 걷는다.", "camera_angle": "tracking", "characters_in_frame": ["청신"]}]},
-    {"page_number": 14, "layout": "풀 페이지 임팩트", "panels": [{"panel_id": "p14-23", "description": "전자 광고판에 카운트다운 표시: '1199:59:59'", "camera_angle": "dramatic_reveal", "characters_in_frame": ["청신"]}]},
-    {"page_number": 15, "layout": "클로즈업 연속", "panels": [{"panel_id": "p15-24", "description": "청신의 공포에 찬 얼굴.", "camera_angle": "close_up", "characters_in_frame": ["청신"]}, {"panel_id": "p15-25", "description": "발밑 그림자가 비정상적으로 길게 늘어짐.", "camera_angle": "low_angle", "characters_in_frame": ["청신"]}]},
-    {"page_number": 16, "layout": "6분할 몽타주", "panels": [{"panel_id": "p16-26", "description": "도시 곳곳에서 사람들이 카운트다운 목격. 6개 패널 분할.", "camera_angle": "montage", "characters_in_frame": []}]},
-    {"page_number": 17, "layout": "풀 페이지 실루엣", "panels": [{"panel_id": "p17-27", "description": "청신의 실루엣이 거대한 도시 앞에. '우리는 심판을 불렀다.'", "camera_angle": "silhouette_wide", "characters_in_frame": ["청신"]}]},
-    {"page_number": 18, "layout": "미디엄 → 풀 페이지", "panels": [{"panel_id": "p18-28", "description": "연구실 건물 외관. 청신이 문 앞에.", "camera_angle": "exterior_night", "characters_in_frame": ["청신"]}, {"panel_id": "p18-29", "description": "모니터 클로즈업. '당신은 물리학을 믿습니까?'", "camera_angle": "extreme_close_up", "characters_in_frame": []}, {"panel_id": "p18-30", "description": "풀 페이지: 'Three Body — 게임을 시작하시겠습니까?' + 'To be continued...'", "camera_angle": "full_page", "characters_in_frame": []}]}
-  ],
-  "prompt_version": "v1-formal",
-  "source": "three-body-comic EP001 script.md v0.2 기반, 28페이지 → 18페이지 요약"
+    {
+      "page_number": 1,
+      "layout": "풀 페이지 스플래시 — 닥터슬럼프풍 fish-eye 원근",
+      "panels": [
+        {
+          "panel_id": "p1-1",
+          "description": "【풀 페이지 임팩트】 1967년 밤하늘 전체가 fish-eye 렌즈처럼 휘어진 와이드 샷. 수천 개의 별이 소용돌이치며 쏟아지고, 하단 곡면 아래에 청쑤 대학 기숙사 옥상이 아득히 보임. 예원제(22세)가 난간에 서 있으나 fish-eye 왜곡으로 인해 독자를 향해 손을 뻗는 듯한 착각. 바람에 흩날리는 단발머리가 별빛과 섞임. Toriyama풍: 굵고 명확한 잉크 선, 별들을 단순한 흰 점이 아닌 만화적 사이컬리얼리즘(반짝이는 4각형 스파클)으로 표현. 셀 셰이딩 딥블루·실버 톤.",
+          "camera_angle": "fish_eye_wide",
+          "characters_in_frame": ["예원제"],
+          "visual_type": "impact"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "layout": "4패널 — 대각선 동적 배치, 패널 경계 돌파",
+      "panels": [
+        {
+          "panel_id": "p2-1",
+          "description": "망원경에 눈을 대고 있는 예원제의 얼굴을 극단적 클로즈업. 망원경 렌즈 안에 별빛 스파클이 반사되어 Toriyama풍 둥근 눈의 하이라이트로 표현. 시선이 집중되는 순간.",
+          "camera_angle": "extreme_close_up",
+          "characters_in_frame": ["예원제"],
+          "visual_type": "impact"
+        },
+        {
+          "panel_id": "p2-2",
+          "description": "과장된 low angle에서 올려다 본 라오충 교수. 담배 연기가 거대한 체리콜라 스파이럴처럼 피어오르며 상단 패널 경계를 뚫고 위로 삐져나감 (border breaking). Toriyama풍: 교수의 얼굴은 단순화된 둥근 형태, 넓은 미소, 담배 연기는 명확한 선의 소용돌이.",
+          "camera_angle": "worm_eye",
+          "characters_in_frame": ["라오충"],
+          "visual_type": "impact"
+        },
+        {
+          "panel_id": "p2-3",
+          "description": "예원제가 망원경에서 눈을 떼고 돌아보는 미디엄 샷. 눈이 별빛을 머금은 채 반짝임. 대사: '교수님, 이번 관측 데이터 이상하다.' Toriyama풍: 크고 둥근 표정 눈, 입은 약간 벌어져 과학적 흥분을 표현.",
+          "camera_angle": "medium",
+          "characters_in_frame": ["예원제", "라오충"],
+          "visual_type": "silence"
+        },
+        {
+          "panel_id": "p2-4",
+          "description": "예원제가 밤하늘을 올려다보는 클로즈업. 경건한 표정. 대사: '하늘이 말을 하고 있는 것 같아요.' 별빛이 그녀의 동공 속에서 작은 스파클로 맺힘. Toriyama풍: 감정을 담은 큰 눈에 하이라이트 2개, 단순하지도 복잡하지도 않은 선.",
+          "camera_angle": "close_up",
+          "characters_in_frame": ["예원제"],
+          "visual_type": "silence"
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "layout": "풀 페이지 임팩트 — 극단적 worm_eye + 원근법 폭주",
+      "panels": [
+        {
+          "panel_id": "p3-1",
+          "description": "【풀 페이지 임팩트】 강당을 가득 채운 홍위병들을 바닥에서 극단적 worm_eye로 올려다본 구도. 원근법이 강하게 수렴하며 천장의 마오쩌둥 초상화가 거대하게 휘어져 내려앉음. 붉은 완장의 군중들이 양쪽에서 빌딩처럼 솟아오르는 과장된 스케일. 붉은 색이 페이지 전체를 폭발적으로 지배. Toriyama풍: 건축물의 선이 휘어지는 유선형 왜곡, 인물들은 단순화된 실루엣으로 반복, 색의 힘으로 압도. 독자가 숨이 막히는 연출.",
+          "camera_angle": "worm_eye",
+          "characters_in_frame": ["홍위병"],
+          "visual_type": "impact"
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "layout": "4패널 — 경사진 프레임, 불안정한 리듬",
+      "panels": [
+        {
+          "panel_id": "p4-1",
+          "description": "무대 위 무릎 꿇은 예페이촨(예원제의 아버지). 정수리가 대각선으로 잘린 구도. 팔에 '반동 학술 권위' 팻말. Toriyama풍: 노인의 얼굴은 단순화되어 있으나 피와 멍은 선명한 붉은 셀 셰이딩. 눈빛만은 날카롭게 살아있음.",
+          "camera_angle": "dutch_angle",
+          "characters_in_frame": ["예페이촨"],
+          "visual_type": "impact"
+        },
+        {
+          "panel_id": "p4-2",
+          "description": "강당 뒤편 구석의 예원제. 배경(붉은 군중)은 셀 셰이딩 붉은 톤이지만 예원제만 흑백 실루엣으로 분리. 고립의 시각화. Toriyama풍: 주인공만 탈색하여 주변과 완전히 다른 존재처럼 표현. 구도는 군중 속에 파묻힌 작은 실루엣.",
+          "camera_angle": "wide",
+          "characters_in_frame": ["예원제", "홍위병"],
+          "visual_type": "silence"
+        },
+        {
+          "panel_id": "p4-3",
+          "description": "홍위병 대표가 확성기를 들고 외치는 클로즈업. 입이 비정상적으로 크게 벌어져 패널 좌측 경계를 뚫고 나감 (border breaking). 확성기에서 나온 음파가 잉크 스플래터로 시각화. 대사: '예페이촨! 네 반동적 우주론을 인정하겠는가!' Toriyama풍: 과장된 입과 표정, 음파 효과선.",
+          "camera_angle": "close_up",
+          "characters_in_frame": ["홍위병"],
+          "visual_type": "impact"
+        },
+        {
+          "panel_id": "p4-4",
+          "description": "예페이촨의 얼굴 클로즈업. 피투성이지만 눈빛이 꺾이지 않음. 대사: '...물리학은 당신들의 정치로 바뀌지 않습니다.' Toriyama풍: 상처는 단순한 선과 점으로, 의지는 동공의 하이라이트로. 주변 잉크가 튀는 효과.",
+          "camera_angle": "close_up",
+          "characters_in_frame": ["예페이촨"],
+          "visual_type": "impact"
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "layout": "3패널 — 폭력의 임팩트, 패널이 흔들리는 듯한 비틀림",
+      "panels": [
+        {
+          "panel_id": "p5-1",
+          "description": "홍위병이 예페이촨을 발로 차는 순간. 동작선(motion lines)이 별 모양으로 폭발하며 패널 전체가 비틀림. 충격파가 잉크 스플래터로 표현. 강당 내외에 비명과 박수가 섞이는 군중의 얼굴들이 배경에서 뒤틀림. Toriyama풍: 임팩트 프레임, 동작선의 폭발, 과장된 신체 비례.",
+          "camera_angle": "dramatic",
+          "characters_in_frame": ["홍위병", "예페이촨"],
+          "visual_type": "impact"
+        },
+        {
+          "panel_id": "p5-2",
+          "description": "예원제의 양 손이 입을 막는 극단적 클로즈업. 손가락 마디가 하얗게 질림. 배경은 잉크가 번진 듯 붉은 혼돈. 비명은 들리지 않음 — 시각적 비명. Toriyama풍: 손의 디테일을 극대화, 손톱, 주름까지 선명하게.",
+          "camera_angle": "extreme_close_up",
+          "characters_in_frame": ["예원제"],
+          "visual_type": "impact"
+        },
+        {
+          "panel_id": "p5-3",
+          "description": "강당 외부. 비 내리는 복도로 이어지는 출구. 예원제의 뒷모습이 붉은 빛에서 회색으로 변하며 걸어 나감. 색채의 급격한 전환. Toriyama풍: 문 프레임을 경계로 붉은 색 → 회색의 셀 셰이딩 경계를 극단적으로 나눔.",
+          "camera_angle": "tracking",
+          "characters_in_frame": ["예원제"],
+          "visual_type": "silence"
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "layout": "풀 페이지 — 여백과 침묵의 페이지 (H5 silence 대조)",
+      "panels": [
+        {
+          "panel_id": "p6-1",
+          "description": "【풀 페이지 silence】 흰 바탕에 비 내리는 창문 프레임만 보임. 예원제는 프레임 하단 극히 작은 구석에 웅크린 실루엣으로. 페이지 70%가 여백. 대사 없음. 독자에게 3초의 침묵 강제. 수채화풍에서 흑백 펜 선으로 전환. Toriyama풍: 여백의 미를 극대화하되 창문 프레임의 선만은 굵고 명확하게.",
+          "camera_angle": "silhouette",
+          "characters_in_frame": ["예원제"],
+          "visual_type": "silence"
+        }
+      ]
+    },
+    {
+      "page_number": 7,
+      "layout": "4패널 — 심리적 압박의 시각화, 종이와 붓",
+      "panels": [
+        {
+          "panel_id": "p7-1",
+          "description": "홍위병이 예원제에게 종이를 내미는 over_shoulder 샷. 종이 위 '아버지를 고발하라' 글자가 Toriyama풍으로 과장되게 큼. 대사: '다음 순서는 너다.' 홍위병의 손이 거대하게 과장됨 (border breaking — 손이 패널 하단을 넘어감).",
+          "camera_angle": "over_shoulder",
+          "characters_in_frame": ["예원제", "홍위병"],
+          "visual_type": "impact"
+        },
+        {
+          "panel_id": "p7-2",
+          "description": "예원제의 시점: 자신의 손이 떨리고 있다. 종이 위 글자가 번져 보임. 초점이 흐려짐. 눈물이 눈에 고여 있으나 떨어지지 않음. Toriyama풍: 손의 떨림을 짧은 동작선으로, 눈물방울을 크고 둥글게.",
+          "camera_angle": "extreme_close_up",
+          "characters_in_frame": ["예원제"],
+          "visual_type": "silence"
+        },
+        {
+          "panel_id": "p7-3",
+          "description": "2패널 스플릿 (세로 분할): 좌 — 예원제가 붓을 드는 손. 수채화풍. 우 — 무대 위 피투성이 아버지가 올려다보는 얼굴. 일본만화풍. 두 세계가 한 패널에서 충돌하는 시각적 대비. Toriyama풍: 스플릿 경계선을 번개 모양 톱니로 나눔.",
+          "camera_angle": "dutch_angle",
+          "characters_in_frame": ["예원제", "예페이촨"],
+          "visual_type": "impact"
+        },
+        {
+          "panel_id": "p7-4",
+          "description": "붓 끝에 잉크가 뚝뚝 떨어지는 극단적 클로즈업. 주변은 모두 흐릿함 — 오직 잉크 방울만 선명함. 시간이 멈춘 듯한 연출. Toriyama풍: 잉크 방울을 완벽한 구체로, 붓 끝의 질감을 크로스해칭으로.",
+          "camera_angle": "extreme_close_up",
+          "characters_in_frame": [],
+          "visual_type": "silence"
+        }
+      ]
+    },
+    {
+      "page_number": 8,
+      "layout": "3패널 → 예원제의 변화, 결의의 탄생",
+      "panels": [
+        {
+          "panel_id": "p8-1",
+          "description": "비 내리는 복도 전경. 예원제가 벽에 기대어 쪼그리고 앉아 있다. 바닥 웅덩이에 예원제의 얼굴이 반사됨. 수채화풍. Toriyama풍: 웅덩이 반사를 거울처럼 선명한 선으로, 빗방울을 만화적 타원체로.",
+          "camera_angle": "wide",
+          "characters_in_frame": ["예원제"],
+          "visual_type": "silence"
+        },
+        {
+          "panel_id": "p8-2",
+          "description": "청쑤 대학 라디오 망대가 밤하늘을 향해 솟아 있는 와이드. 사실적 SF풍으로 전환 — 망대의 금속 질감, 차가운 파란색. 예원제가 망대 밑에 홀로 서 있으나 극히 작게. Toriyama풍: 기계 디테일을 명확한 선으로, 인간의 작음을 강조.",
+          "camera_angle": "wide",
+          "characters_in_frame": ["예원제"],
+          "visual_type": "silence"
+        },
+        {
+          "panel_id": "p8-3",
+          "description": "예원제의 얼굴 클로즈업. 더 이상 울지 않는 눈. 차가운 결의. 이전 Scene의 무너진 인간에서 결의한 존재로 변화. 나레이션: '이 세상은 더 이상 내 것이 아니다.' Toriyama풍: 눈의 하이라이트가 사라지고 대신 차가운 평면광으로, 표정 근육을 단순화하여 의지를 표현.",
+          "camera_angle": "close_up",
+          "characters_in_frame": ["예원제"],
+          "visual_type": "impact"
+        }
+      ]
+    },
+    {
+      "page_number": 9,
+      "layout": "3패널 → 송신기 → 우주로",
+      "panels": [
+        {
+          "panel_id": "p9-1",
+          "description": "예원제가 송신기 스위치를 올리는 손의 극단적 클로즈업. 손이 미세하게 떨림 — 결의가 있어도 두려움은 있는 것. 스위치의 금속 질감. Toriyama풍: 기계 부품의 디테일을 과장되게 정밀하게, 손의 떨림을 동작선으로.",
+          "camera_angle": "extreme_close_up",
+          "characters_in_frame": ["예원제"],
+          "visual_type": "impact"
+        },
+        {
+          "panel_id": "p9-2",
+          "description": "망대에서 전파가 방출되는 순간. 빛의 파동이 동심원 형태로 퍼져나감. Toriyama풍 임팩트 효과: 파동이 만화적 에너지 링으로 표현, 하늘이 파동에 의해 물결치듯 왜곡됨 (fish-eye 효과). 색이 청록→백색으로 점등.",
+          "camera_angle": "dramatic",
+          "characters_in_frame": [],
+          "visual_type": "impact"
+        },
+        {
+          "panel_id": "p9-3",
+          "description": "전파가 우주의 어둠 속으로 사라지는 와이드. 우주의 광활함과 전파의 작은 크기의 대비. 하단에 작은 나레이션: '4.2 광년 뒤, 그 신호를 받은 이들이 있었다.' Toriyama풍: 우주를 단순한 흑색이 아닌 짙은 남색+별 스파클로, 전파를 하나의 희미한 빛 선으로.",
+          "camera_angle": "abstract",
+          "characters_in_frame": [],
+          "visual_type": "silence"
+        }
+      ]
+    },
+    {
+      "page_number": 10,
+      "layout": "4패널 — 40년 후, 현대로 시간 점프",
+      "panels": [
+        {
+          "panel_id": "p10-1",
+          "description": "TV 화면에 보도되는 뉴스. '과학계 쇼크 — 3개월 사이 3명의 최고 과학자 사망'. 앵커의 진지한 얼굴. Toriyama풍: TV 프레임을 둥글게, 뉴스 그래픽은 셀 셰이딩. 화면 눈부심 효과가 패널 밖으로 새어나감.",
+          "camera_angle": "medium",
+          "characters_in_frame": ["앵커"],
+          "visual_type": "silence"
+        },
+        {
+          "panel_id": "p10-2",
+          "description": "3개의 미니 플래시백 패널이 세로로 이어짐: (1) 양동 교수의 책상 — 아이가 그린 태양 세 개 그림을 보며 미소. (2) 리밍 교수 — '어? 이게...' 혼란스러운 실험 데이터. (3) 첸쑹 교수 — 창밖 하늘을 올려다보며 눈물. Toriyama풍: 3개를 하나의 패널 내에 빗금 구분선으로 나누고, 인물 표정을 과장. '태양 세 개' 그림을 유독 선명하게.",
+          "camera_angle": "close_up",
+          "characters_in_frame": ["양동", "리밍", "첸쑹"],
+          "visual_type": "impact"
+        },
+        {
+          "panel_id": "p10-3",
+          "description": "다시 뉴스 화면. '사인은 각각 다르나, 모두 심리적 요인으로 추정'. 차갑고 공적인 톤. 화면이 주사선(scanline)으로 흔들림.",
+          "camera_angle": "medium",
+          "characters_in_frame": ["앵커"],
+          "visual_type": "silence"
+        },
+        {
+          "panel_id": "p10-4",
+          "description": "스치친 첫 등장. TV 앞에 서서 화면을 응시. 담배를 입에 문 채. 구겨진 셔츠, 뭉친 눈. Toriyama풍: 과장된 피곤한 자세 — 어깨가 축 늘어지고, 담배 연기가 피곤의 연장선처럼 힘없이 내려감. 눈은 작고 날카로움. 대사 느낌: '또 뭐야...'",
+          "camera_angle": "medium",
+          "characters_in_frame": ["스치친"],
+          "visual_type": "silence"
+        }
+      ]
+    },
+    {
+      "page_number": 11,
+      "layout": "4패널 — 경찰서 수사, 답답함의 시각화",
+      "panels": [
+        {
+          "panel_id": "p11-1",
+          "description": "경찰서 회의실 와이드. 백판에 세 과학자의 사진이 빨간 실선으로 연결됨. 낡은 플러스 테이블, 커피 잔 자국. Toriyama풍: 방의 원근을 fish-eye로 살짝 왜곡하여 답답함 강조. 빨간 실선이 패널 밖까지 이어지는 듯.",
+          "camera_angle": "wide",
+          "characters_in_frame": ["스치친", "동료형사"],
+          "visual_type": "silence"
+        },
+        {
+          "panel_id": "p11-2",
+          "description": "백판을 가리키는 스치친. 담배 연기가 백판 앞에서 흩어짐. 대사: '셋 다 다른 분야야. 나노물리, 천체물리, 입자물리. 근데 죽기 전에 모두 비슷한 행동을 했다.' Toriyama풍: 스치친의 손가락을 과장되게 크게, 백판의 사진들이 만화적 단순화.",
+          "camera_angle": "over_shoulder",
+          "characters_in_frame": ["스치친", "동료형사"],
+          "visual_type": "silence"
+        },
+        {
+          "panel_id": "p11-3",
+          "description": "동료 형사의 무심한 반응 클로즈업. 대사: '자살이잖아. 스트레스. 그냥 자살인데 뭔 복잡하게.' 피곤한 얼굴, 손에 커피. Toriyama풍: 동료의 눈을 반쯤 감은 가느다란 선으로, 무관심을 표현.",
+          "camera_angle": "close_up",
+          "characters_in_frame": ["동료형사"],
+          "visual_type": "silence"
+        },
+        {
+          "panel_id": "p11-4",
+          "description": "스치친이 백판에 동그라미를 그리며 소리치는 순간. 패널에 잉크 튀김 효과 — 동작선이 방사형으로 폭발. 대사: '씨발, 그러니까 이상한 거지!' Toriyama풍: 분노를 만화적 폭발 효과로, 입에서 튀어나오는 단어들이 물리적 형태를 가짐.",
+          "camera_angle": "dramatic",
+          "characters_in_frame": ["스치친"],
+          "visual_type": "impact"
+        }
+      ]
+    },
+    {
+      "page_number": 12,
+      "layout": "3패널 — 스치친의 직관 + 장베이하이 떡밥",
+      "panels": [
+        {
+          "panel_id": "p12-1",
+          "description": "백판에 빨간 동그라미. 그 옆에 스치친이 '왜?'라고 크게 적는다. 한 글자만 선명하고 나머지는 흐릿함. 스치친의 의문을 시각화. Toriyama풍: 글자를 만화 효과선과 함께 과장되게, '왜?'가 패널에서 튀어나옴 (border breaking).",
+          "camera_angle": "close_up",
+          "characters_in_frame": ["스치친"],
+          "visual_type": "impact"
+        },
+        {
+          "panel_id": "p12-2",
+          "description": "스치친의 대사: '전원이 마지막 2주간 자기 연구를 포기하고, 계속 밤하늘만 봤어. 마지막 날엔 전부 창문을 열어놓고 있었지.' 미디엄 샷. 스치친의 눈이 좁아짐 — 경찰의 직관. Toriyama풍: 스치친의 눈을 가늘고 날카롭게, 담배 연기가 정보의 조각처럼 흩어짐.",
+          "camera_angle": "medium",
+          "characters_in_frame": ["스치친"],
+          "visual_type": "silence"
+        },
+        {
+          "panel_id": "p12-3",
+          "description": "회의실 벽에 걸린 사진들 — 그 중 하나. 해군 제복을 입은 젊은 남자(장베이하이). 사진 아래 캡션: '우주함대 지원 사령부'. 작고 눈에 잘 띄지 않는 위치. Toriyama풍: 사진 프레임을 의도적으로 작게, 주변 잡동사니(커피 잔, 서류)가 시선을 가림. 독자가 나중에 '아!' 하게 될 숨겨진 떡밥.",
+          "camera_angle": "medium",
+          "characters_in_frame": ["장베이하이"],
+          "visual_type": "silence"
+        }
+      ]
+    },
+    {
+      "page_number": 13,
+      "layout": "4패널 — 노년 청신, 과거와 현재의 교차",
+      "panels": [
+        {
+          "panel_id": "p13-1",
+          "description": "작은 아파트. 청신(노년)이 혼자 의자에 앉아 창밖을 보고 있다. 테이블 위에 낡은 사진 — 젊은 시절의 예원제와 라오충. 노인의 실루엣이 어둠 속에 잠김. Toriyama풍: 실루엣을 단순화된 둥근 형태로, 사진 속 젊은 얼굴만 색채 있음. 과거와 현재의 색 대비.",
+          "camera_angle": "medium",
+          "characters_in_frame": ["청신"],
+          "visual_type": "silence"
+        },
+        {
+          "panel_id": "p13-2",
+          "description": "청신의 손이 사진 위를 쓰다듬는 극단적 클로즈업. 주름진 손, 사진 속 젊은 얼굴과 대비. 독백(작은 글씨): '40년.' Toriyama풍: 손의 주름을 간결한 선으로, 사진의 인물은 Toriyama풍 둥근 눈으로.",
+          "camera_angle": "extreme_close_up",
+          "characters_in_frame": ["청신"],
+          "visual_type": "silence"
+        },
+        {
+          "panel_id": "p13-3",
+          "description": "창밖 밤하늘. 별이 하나둘씩 보이나 Scene 1(별이 쏟아지던 하늘)과 달리 거의 없음. 대기 오염. 독백: '그때 내가 보낸 신호가 도달했을 시간이야.' Toriyama풍: 하늘을 어둡고 탁하게, 몇 안 되는 별은 희미한 점으로.",
+          "camera_angle": "wide",
+          "characters_in_frame": ["청신"],
+          "visual_type": "silence"
+        },
+        {
+          "panel_id": "p13-4",
+          "description": "청신의 눈 클로즈업. 기대, 공포, 후회가 섞인 표정. Toriyama풍: 큰 둥근 눈에 감정이 층층이 쌓임 — 동공 안쪽은 어둡고 바깥은 빛남. 눈 하나에 복잡한 감정을 담는 Toriyama의 감정 표현 기법.",
+          "camera_angle": "extreme_close_up",
+          "characters_in_frame": ["청신"],
+          "visual_type": "impact"
+        }
+      ]
+    },
+    {
+      "page_number": 14,
+      "layout": "4패널 — 전화벨, 오싹한 고요",
+      "panels": [
+        {
+          "panel_id": "p14-1",
+          "description": "테이블 위 핸드폰이 울린다. 화면: '알 수 없는 번호'. 현실로의 갑작스러운 전환. Toriyama풍: 핸드폰의 진동을 동작선으로, 화면 빛이 주변 어둠을 비출 때 빛이 뾰족하게 칼날처럼 퍼짐.",
+          "camera_angle": "close_up",
+          "characters_in_frame": [],
+          "visual_type": "impact"
+        },
+        {
+          "panel_id": "p14-2",
+          "description": "청신이 떨리는 손으로 핸드폰을 드는 미디엄. 전화 너머 목소리: '...당신은, 그 신호가 닿았다는 것을 알고 있습니까?' 기계적인 목소리. 말풍선이 찢어진 듯한 형태. Toriyama풍: 말풍선 모서리를 톱니로, 음성의 비정상성을 시각화.",
+          "camera_angle": "medium",
+          "characters_in_frame": ["청신"],
+          "visual_type": "impact"
+        },
+        {
+          "panel_id": "p14-3",
+          "description": "청신의 얼굴 클로즈업. 손이 더 심하게 떨린다. 대사: '누... 누구세요?' 목소리가 갈라짐. 수채화풍에서 일본만화풍으로 전환 — 긴장 상승 시각화. Toriyama풍: 얼굴 근육의 경직을 선으로, 땀방울을 크고 동그랗게.",
+          "camera_angle": "close_up",
+          "characters_in_frame": ["청신"],
+          "visual_type": "impact"
+        },
+        {
+          "panel_id": "p14-4",
+          "description": "전화 너머 목소리. 대사: '물리학을 믿습니까?' 짧고 차갑고 절대적인 질문. 말풍선이 점점 커지며 패널을 침범 — 압박감. Toriyama풍: 말풍선이 패널 경계를 부수며(bgreaking) 독자를 향해 자라남. 글자는 굵고 명확.",
+          "camera_angle": "close_up",
+          "characters_in_frame": ["청신"],
+          "visual_type": "impact"
+        }
+      ]
+    },
+    {
+      "page_number": 15,
+      "layout": "3패널 — 동공의 계시, 침묵의 여백",
+      "panels": [
+        {
+          "panel_id": "p15-1",
+          "description": "청신의 동공 극단적 클로즈업. 패널 전체가 동공 하나로 채워짐. 동공 속에 무언가가 비친다 — 3개의 작은 빛점. Toriyama풍: 동공을 하나의 우주처럼, 3개의 빛점은 Toriyama풍 스파클(4각 반짝이)로. 홍채 문양을 선명한 방사선으로.",
+          "camera_angle": "extreme_close_up",
+          "characters_in_frame": ["청신"],
+          "visual_type": "impact"
+        },
+        {
+          "panel_id": "p15-2",
+          "description": "전화 너머 목소리: '물리학 법칙이... 어디서나 같다고 생각하십니까?' 말풍선이 패널 전체를 뒤덮을 정도로 커짐 — 물리적 압박. 청신은 작은 실루엣으로 압축됨. Toriyama풍: 말풍선 안의 글자 크기가 불규칙하게, 마지막 '같다고'가 가장 큼.",
+          "camera_angle": "dramatic",
+          "characters_in_frame": ["청신"],
+          "visual_type": "impact"
+        },
+        {
+          "panel_id": "p15-3",
+          "description": "통화가 끊긴다. '뚜—뚜—' 반 페이지의 여백. 청신이 핸드폰을 내려놓는 손만 보임. H5 silence 라벨 — 독자에게 질문이 남김. Toriyama풍: 여백 속에 '뚜—' 효과음만 작게. 핸드폰 화면의 푸른 빛만이 희미하게.",
+          "camera_angle": "extreme_close_up",
+          "characters_in_frame": ["청신"],
+          "visual_type": "silence"
+        }
+      ]
+    },
+    {
+      "page_number": 16,
+      "layout": "4패널 — 도시에 퍼지는 불안, 카운트다운 첫 등장",
+      "panels": [
+        {
+          "panel_id": "p16-1",
+          "description": "청신이 베이징 거리를 걷는 와이드. 주변 사람들은 정상이나 청신만 다른 세계에 있는 듯 — 수채화풍 배경(정상) + 일본만화풍 청신(격리). 시각적 이중 구조. Toriyama풍: 배경 인물들을 단순화된 군중 실루엣으로, 청신만 선명한 잉크 선으로.",
+          "camera_angle": "tracking",
+          "characters_in_frame": ["청신"],
+          "visual_type": "silence"
+        },
+        {
+          "panel_id": "p16-2",
+          "description": "거리의 전자광고판. 평소 광고가 'COUNTDOWN 1199:59:59'로 깜빡이며 바뀜. 1초만 보였다 사라짐. Toriyama풍: 숫자가 미친 듯이 크고 붉게 — 광고판 프레임이 숫자의 에너지에 의해 뒤틀림. 주변 행인들은 눈치채지 못함 (실루엣으로 무관심 표현).",
+          "camera_angle": "dramatic",
+          "characters_in_frame": ["청신"],
+          "visual_type": "impact"
+        },
+        {
+          "panel_id": "p16-3",
+          "description": "청신만 그것을 봤다. 멈춰 선다. 발밑 그림자가 비정상적으로 길게 늘어짐. Toriyama풍: 그림자가 건물 벽을 타고 수직으로 올라가며 비현실적 길이를 가짐. low angle에서 올려다 본 청신의 뒷모습.",
+          "camera_angle": "low_angle",
+          "characters_in_frame": ["청신"],
+          "visual_type": "impact"
+        },
+        {
+          "panel_id": "p16-4",
+          "description": "6분할 몽타주: 도시 곳곳에서 사람들이 같은 현상을 목격. 컴퓨터, TV, 핸드폰 화면에 카운트다운. 각 패널은 다른 장소(지하철, 사무실, 카페, 공원, 학교, 침실). Toriyama풍: 6개 소패널을 벌집 모양으로 배치, 각각에 작은 카운트다운 숫자가 붉게 빛남.",
+          "camera_angle": "montage",
+          "characters_in_frame": [],
+          "visual_type": "impact"
+        }
+      ]
+    },
+    {
+      "page_number": 17,
+      "layout": "풀 페이지 임팩트 — 독자 압도의 극치",
+      "panels": [
+        {
+          "panel_id": "p17-1",
+          "description": "【풀 페이지 임팩트】 청신의 실루엣이 거대한 베이징 도시 앞에 서 있다. bird_eye에서 내려다 본 도시가 fish-eye로 휘어지며, 청신의 실루엣은 도시 스케일을 넘어서는 크기로 — 죄책감의 무게가 물리적으로 시각화. 독백: '우리는 심판을 불렸다.' 글자가 페이지 전체에 울려 퍼지는 듯 잔상 효과. Toriyama풍: 도시를 기하학적 패턴으로 단순화, 청신의 실루엣만 굵은 검은 선으로. 하늘에 3개의 거대한 빛점(삼체)이 희미하게 비침 — 다음 화 예고.",
+          "camera_angle": "bird_eye",
+          "characters_in_frame": ["청신"],
+          "visual_type": "impact"
+        }
+      ]
+    },
+    {
+      "page_number": 18,
+      "layout": "풀 페이지 클리프행거 — 최종 훅",
+      "panels": [
+        {
+          "panel_id": "p18-1",
+          "description": "연구실 건물 외관. 청신이 문 앞에 서 있다. 사실적 SF풍 — 차가운 청색톤. 건물은 현대적이나 청신은 과거에서 온 듯한 이질감. Toriyama풍: 건물의 수직선을 강조, 청신의 실루엣만 warm tone으로 주변과 대비.",
+          "camera_angle": "wide",
+          "characters_in_frame": ["청신"],
+          "visual_type": "silence"
+        },
+        {
+          "panel_id": "p18-2",
+          "description": "문이 열린 내부. 수많은 모니터, 복잡한 장비, 그리고 한 남자(왕먀오)의 등만 보임. 다음 화를 기대하게 함. 왕먀오의 안경에 모니터 빛이 반사됨. Toriyama풍: 왕먀오의 등을 깔끔한 기하학적 선으로, 안경 렌즈의 빛 반사를 Toriyama풍 스파클로.",
+          "camera_angle": "over_shoulder",
+          "characters_in_frame": ["청신", "왕먀오"],
+          "visual_type": "silence"
+        },
+        {
+          "panel_id": "p18-3",
+          "description": "【풀 페이지 클리프행거】 모니터 화면 확대. 거대한 글자로: '당신은 물리학을 믿습니까?' 아래에 작게: 'Three Body — 게임을 시작하시겠습니까?' 화면 아래 검은 배경에 'To be continued...' Toriyama풍: 글자를 만화적 효과선과 함께 화면에서 튀어나오듯 (border breaking) 과장되게. '믿습니까?' 네 글자가 가장 크고 붉은 색. 페이지 전체가 이 화면으로 끝나며 독자의 2화 복귀를 강렬히 유인.",
+          "camera_angle": "extreme_close_up",
+          "characters_in_frame": [],
+          "visual_type": "impact"
+        }
+      ]
+    }
+  ]
 }

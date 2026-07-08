@@ -1,0 +1,77 @@
+{
+  "episode_id": "EP001",
+  "title": "태초의 밤",
+  "scenes": [
+    {
+      "scene_number": 1,
+      "title": "밤하늘 (p.1~2)",
+      "description": "우주의 심연. 무수한 별. 카메라가 천천히 지구로 접근한다.",
+      "dialogue": [],
+      "narration": "우주는 어둡다. 하지만 그 어둠 속에서, 누군가 귀를 기울이고 있다."
+    },
+    {
+      "scene_number": 2,
+      "title": "문화대혁명 — 예원제 (p.3~10)",
+      "description": "1967년 청쑤 대학. 젊은 예원제가 비판 대회에서 아버지를 잃는다.",
+      "dialogue": [
+        {"character": "홍위병", "line": "이 반동 학자를 타도하라!"},
+        {"character": "예원제", "line": "...아버지."},
+        {"character": "예원제", "line": "물리학은 진리다. 그 진리를 억압할 수는 없다."}
+      ],
+      "narration": "1967년, 베이징. 문화대혁명의 한가운데. 한 젊은 영혼이 세상의 잔혹함을 목격한다."
+    },
+    {
+      "scene_number": 3,
+      "title": "침묵 (p.11~14)",
+      "description": "비판 대회 후, 예원제가 황폐해진 캠퍼스를 걷는다. 텅 빈 강당.",
+      "dialogue": [],
+      "narration": "그녀는 더 이상 아무것도 믿지 않았다. 인간도, 세상도, 사랑도."
+    },
+    {
+      "scene_number": 4,
+      "title": "라디오 망대 — 신호 (p.15~18)",
+      "description": "예원제가 레드 코스트 기지에서 태양 증폭을 이용해 우주로 신호를 보낸다.",
+      "dialogue": [
+        {"character": "예원제", "line": "이 신호가 닿기를. 누군가에게."}
+      ],
+      "narration": "그녀는 몰랐다. 이 신호가 인류의 운명을 바꿀 것이라는 것을."
+    },
+    {
+      "scene_number": 5,
+      "title": "40년 후 — 과학자 사망 (p.19~22)",
+      "description": "2007년. 과학자들이 연쇄적으로 자살한다. 스치친이 조사를 시작한다.",
+      "dialogue": [
+        {"character": "스치친", "line": "또 한 명 죽었어. 이번엔 물리학자야."},
+        {"character": "스치친", "line": "뭔가 있어. 이 자살들이 우연이 아니야."}
+      ],
+      "narration": "40년 후, 과학자들이 죽기 시작했다. 이유 없이. 아니, 이유가 있지만 인류는 아직 모른다."
+    },
+    {
+      "scene_number": 6,
+      "title": "카운트다운 (p.23~26)",
+      "description": "청신(노년)이 도시 전자광고판에 뜬 카운트다운을 목격한다.",
+      "dialogue": [
+        {"character": "청신", "line": "우리는 심판을 불렀다."}
+      ],
+      "narration": "1199:59:59 — 우주로부터의 카운트다운이 시작되었다."
+    },
+    {
+      "scene_number": 7,
+      "title": "열린 문 (p.27~28)",
+      "description": "청신이 왕먀오의 연구실에 도착한다. 모니터에 메시지가 떠 있다.",
+      "dialogue": [],
+      "narration": "모니터 화면에 거대한 글자로: '당신은 물리학을 믿습니까?' — 'Three Body. 게임을 시작하시겠습니까?'"
+    }
+  ],
+  "prompt_version": "v1-formal",
+  "source_reference": "삼체문제 1권 1~3장 + 기존 three-body-comic EP001 대본 v0.2 (레노버 작성)",
+  "page_count": 28,
+  "main_characters": ["예원제", "청신(노년)", "스치친", "왕먀오"],
+  "art_styles": {
+    "scene_1_2": "수채화풍 (몽환적)",
+    "scene_2_3": "일본만화풍 (역사적 무게감)",
+    "scene_4": "사실적 SF풍",
+    "scene_5_6": "웹툰풍 → 일본만화풍 전환",
+    "scene_7": "사실적 SF풍 (차가운 청색톤)"
+  }
+}
