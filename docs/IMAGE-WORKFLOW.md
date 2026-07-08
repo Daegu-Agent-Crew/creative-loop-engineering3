@@ -42,17 +42,17 @@ rounded expressive character designs, 1980s Akira Toriyama manga aesthetic.
 Character: [캐릭터 외모]
 Layout: 3-column grid (front/side/back). Below: 6 emotions.
 Clean white background. Consistent proportions.
-Save to styles/characters/{캐릭터명}.png'
+Save to episodes/EP001/characters/assets/{캐릭터명}.png'
 ```
 
 ### 기존 시트 기반 추가 표정
 
 ```bash
-codex -i styles/characters/{캐릭터}.png exec --sandbox workspace-write '$imagegen:
+codex -i episodes/EP001/characters/assets/{캐릭터}.png exec --sandbox workspace-write '$imagegen:
 Same character as reference. Toriyama style maintained.
 Expression sheet: smirking, laughing, in pain, crying, furious, resigned.
 6-panel grid, upper body only.
-Save to styles/characters/{캐릭터}-expressions.png'
+Save to episodes/EP001/characters/assets/{캐릭터}-expressions.png'
 ```
 
 ---
@@ -114,7 +114,7 @@ Panel type: single panel.
 Speech: "동지들, 역사는 우리에게 심판을 요구한다."
 
 Vertical manga panel composition.
-Save to episodes/EP001/panels/ep001-p01-judgment.png'
+Save to episodes/EP001/panels/assets/ep001-p01-judgment.png'
 ```
 
 ---
@@ -137,8 +137,8 @@ Save to episodes/EP001/panels/ep001-p01-judgment.png'
 
 ## 파일명 규칙
 ```
-panels:     ep{NNN}-p{PP}-{scene}.png
-characters: {name}.png, {name}-expressions.png
+panels:     episodes/{EP}/panels/assets/{panel_id}.png
+characters: episodes/{EP}/characters/assets/{name}.png
 backgrounds: bg-{type}-{location}-{time}.png
 ```
 

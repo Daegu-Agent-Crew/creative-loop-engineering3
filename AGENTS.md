@@ -142,6 +142,8 @@ creative-loop-engineering3/
 │   ├── IMAGE-WORKFLOW.md  # 4단계 이미지 워크플로우 상세
 │   ├── index.html
 │   └── js/app.js
+├── scripts/
+│   └── sync-panels.js     # storyboard + characters -> panels.json 동기화
 ├── wiki/                  # 세계관 위키
 └── .github/workflows/     # CI/CD
 ```

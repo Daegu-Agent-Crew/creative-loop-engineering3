@@ -223,6 +223,62 @@ body {
   background: rgba(10,10,25,0.45);
   margin: 0.5rem 0 0.8rem;
 }
+.reference-strip {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-top: 0.6rem;
+}
+.reference-chip {
+  width: 92px;
+  background: rgba(10,10,25,0.5);
+  border: 1px solid rgba(100,100,150,0.25);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.reference-thumb {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  background: rgba(10,10,25,0.7);
+}
+.reference-caption {
+  padding: 0.4rem 0.45rem 0.5rem;
+  font-size: 0.72rem;
+  color: #aaaacc;
+  line-height: 1.35;
+}
+.panel-preview-image {
+  width: 100%;
+  max-height: 360px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid rgba(100,100,150,0.25);
+  background: rgba(10,10,25,0.7);
+  margin: 0.5rem 0 0.8rem;
+}
+.panel-placeholder {
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px dashed rgba(100,100,150,0.3);
+  background: rgba(10,10,25,0.45);
+  margin: 0.5rem 0 0.8rem;
+}
+.panel-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.6rem;
+  margin: 0.6rem 0 0.8rem;
+}
+.panel-meta-grid p {
+  margin: 0;
+}
 .pat-banner { background: rgba(255,193,7,0.1); border: 1px solid rgba(255,193,7,0.3); border-radius: 6px; padding: 0.5rem 1rem; margin: 0.5rem 1.5rem; font-size: 0.85rem; }
 .pat-banner a { color: #ffc107; }
 .action-row { display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center; margin-top: 0.8rem; }

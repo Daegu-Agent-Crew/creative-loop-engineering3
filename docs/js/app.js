@@ -198,6 +198,49 @@ function escapeHtml(value) {
     .replace(/>/g, '&gt;');
 }
 
+function normalizeCharacterToken(value) {
+  return String(value || '')
+    .replace(/\([^)]*\)/g, '')
+    .replace(/[^\p{L}\p{N}]+/gu, '')
+    .trim()
+    .toLowerCase();
+}
+
+function buildCharacterLookup(characters) {
+  const lookup = {};
+  (characters || []).forEach(function (character) {
+    const rawName = String(character.name || '');
+    [rawName, rawName.split('(')[0], rawName.split(' ')[0]].forEach(function (candidate) {
+      const key = normalizeCharacterToken(candidate);
+      if (key) lookup[key] = character;
+    });
+  });
+  return lookup;
+}
+
+function resolveCharacterReferences(characters, names) {
+  const lookup = buildCharacterLookup(characters);
+  const unique = [];
+  (names || []).forEach(function (name) {
+    const matched = lookup[normalizeCharacterToken(name)];
+    if (matched && unique.indexOf(matched) === -1) {
+      unique.push(matched);
+    }
+  });
+  return unique;
+}
+
+function renderReferenceStrip(characters) {
+  if (!characters || !characters.length) return '';
+  return `<div class="reference-strip">${characters.map(function (character) {
+    const hasAsset = !!character.image_path;
+    return `<div class="reference-chip">
+      ${hasAsset ? `<img class="reference-thumb" src="${assetUrl(character.image_path)}" alt="${escapeHtml(character.name || 'character')}" />` : `<div class="reference-thumb"></div>`}
+      <div class="reference-caption">${escapeHtml(character.name || '-')}</div>
+    </div>`;
+  }).join('')}</div>`;
+}
+
 function escapeRegExp(value) {
   return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
@@ -1143,6 +1186,7 @@ function renderCharactersTab(context) {
 
 function renderStoryboardTab(context) {
   const storyboard = context.storyboard;
+  const characterRecords = (context.characters && context.characters.characters) || [];
   if ((!storyboard || !storyboard.pages) && !context.storyboardMd) {
     return '<div class="card"><p>storyboard 데이터가 아직 없습니다.</p></div>';
   }
@@ -1174,10 +1218,12 @@ function renderStoryboardTab(context) {
         <div class="output-desc">레이아웃: ${escapeHtml(page.layout || '-')}</div>
         ${(page.panels || []).map(function (panel) {
           const cast = panel.characters_in_frame && panel.characters_in_frame.length ? panel.characters_in_frame.join(', ') : '-';
+          const refs = resolveCharacterReferences(characterRecords, panel.characters_in_frame || []);
           return `<div class="panel-summary">
             <div><span class="panel-id">${escapeHtml(panel.panel_id || '')}</span> <span class="meta">${escapeHtml(panel.camera_angle || '')}</span></div>
             <div class="output-desc">${escapeHtml(panel.description || '')}</div>
             <div class="meta">등장: ${escapeHtml(cast)}</div>
+            ${renderReferenceStrip(refs)}
           </div>`;
         }).join('')}
       </div>`;
@@ -1207,15 +1253,38 @@ function renderPanelsTab(context) {
 
   const qaReview = loadQaReview(context.episodeId) || { panels: {} };
   const actionItems = summarizePanelActionItems(panels.panels, qaReview.panels || {});
+  const generatedCount = panels.panels.filter(function (panel) { return panel.generation_status === 'generated'; }).length;
+  const pendingCount = panels.panels.filter(function (panel) { return panel.generation_status !== 'generated'; }).length;
+  const characterRecords = (context.characters && context.characters.characters) || [];
   return `<div class="card">
     <h3>패널 산출물</h3>
+    <div class="stats-grid">
+      ${statCard(panels.panels.length, '패널')}
+      ${statCard(generatedCount, '생성 완료')}
+      ${statCard(pendingCount, '생성 대기')}
+      ${statCard(panels.prompt_version || '-', '프롬프트 버전')}
+    </div>
     ${actionItems.length ? `<div class="scene-card"><div class="output-title">즉시 조치 필요</div>${actionItems.map(function (item) { return `<div class="output-desc">- ${escapeHtml(item)}</div>`; }).join('')}</div>` : ''}
     ${panels.panels.map(function (panel) {
       const panelReview = normalizePanelReview((qaReview.panels && qaReview.panels[panel.panel_id]) || {});
+      const refs = panel.reference_assets && panel.reference_assets.length
+        ? characterRecords.filter(function (character) { return panel.reference_assets.indexOf(character.image_path) >= 0; })
+        : resolveCharacterReferences(characterRecords, panel.characters_in_frame || []);
+      const hasGeneratedAsset = panel.generation_status === 'generated' && panel.image_path;
       return `<div class="scene-card">
         <div class="output-title">${escapeHtml(panel.panel_id || '')} <span class="meta">AI ${escapeHtml(panel.ai_score || '-')} / 50</span></div>
         <div class="output-desc">${escapeHtml(panel.description || '-')}</div>
-        ${panel.image_path ? `<div class="placeholder-small">${escapeHtml(panel.image_path)}</div>` : ''}
+        ${hasGeneratedAsset ? `<img class="panel-preview-image" src="${assetUrl(panel.image_path)}" alt="${escapeHtml(panel.panel_id || 'panel')}" />` : `<div class="panel-placeholder">
+          <div><strong>생성 대기</strong></div>
+          <div class="meta">${escapeHtml(panel.image_path || '-')}</div>
+        </div>`}
+        <div class="panel-meta-grid">
+          <p><strong>상태</strong><br>${escapeHtml(panel.generation_status || 'pending')}</p>
+          <p><strong>페이지</strong><br>${escapeHtml(panel.page_number || '-')}</p>
+          <p><strong>카메라</strong><br>${escapeHtml(panel.camera_angle || '-')}</p>
+          <p><strong>연출 타입</strong><br>${escapeHtml(panel.visual_type || '-')}</p>
+        </div>
+        ${renderReferenceStrip(refs)}
         ${panel.generation_prompt ? `<div class="output-prompt">${escapeHtml(panel.generation_prompt)}</div>` : ''}
         <div class="panel-qa-inline">
           <span class="panel-qa-badge ${panelReview.status || 'pending'}">${escapeHtml(renderQaStatusLabel(panelReview.status || 'pending'))}</span>

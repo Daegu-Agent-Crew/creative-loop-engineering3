@@ -1,1 +1,892 @@
-{"episode_id":"EP001","panels":[{"panel_id":"p1-1","image_path":"episodes/EP001/panels/p1-1.png","generation_prompt":"[DRY RUN] watercolor, Beijing cityscape at dusk 1967, red sunset, old apartment buildings, wide panorama, soft washes, dreamy atmosphere","style":"s1-watercolor","ai_score":42,"human_score":null},{"panel_id":"p1-2","image_path":"episodes/EP001/panels/p1-2.png","generation_prompt":"[DRY RUN] watercolor, young Chinese man walking in narrow alley, 1960s clothing, medium shot, soft edges","style":"s1-watercolor","ai_score":41,"human_score":null},{"panel_id":"p2-3","image_path":"episodes/EP001/panels/p2-3.png","generation_prompt":"[DRY RUN] watercolor, university auditorium interior, red flags, Cultural Revolution era, crowd scene","style":"s1-watercolor","ai_score":43,"human_score":null},{"panel_id":"p2-4","image_path":"episodes/EP001/panels/p2-4.png","generation_prompt":"[DRY RUN] watercolor, close-up of determined Chinese man with glasses, 1960s, resolute expression, soft light","style":"s1-watercolor","ai_score":44,"human_score":null},{"panel_id":"p3-5","image_path":"episodes/EP001/panels/p3-5.png","generation_prompt":"[DRY RUN] watercolor, dark room with monitor glow, man at computer, low key lighting, moody","style":"s1-watercolor","ai_score":40,"human_score":null},{"panel_id":"p3-6","image_path":"episodes/EP001/panels/p3-6.png","generation_prompt":"[DRY RUN] watercolor, extreme close-up of computer screen showing Three Body game, text overlay","style":"s1-watercolor","ai_score":42,"human_score":null}],"prompt_version":"v1-dryrun"}
+{
+  "episode_id": "EP001",
+  "panels": [
+    {
+      "panel_id": "p1-1",
+      "page_number": 1,
+      "description": "【상단】 양동의 책상 위 클로즈업. 아이 크레온 그림 — 노란 태양 세 개, '아빠 사랑해요'. Toriyama풍: 크레온 텍스처가 잉크 선과 대비. 따뜻한 색이 차가운 형광등 아래 이질적. 스파클 효과가 아이러니하게 감쌈.",
+      "camera_angle": "extreme_close_up",
+      "visual_type": "impact",
+      "characters_in_frame": [],
+      "reference_assets": [],
+      "image_path": "episodes/EP001/panels/assets/p1-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 1\nPanel ID: p1-1\nStoryboard description: 【상단】 양동의 책상 위 클로즈업. 아이 크레온 그림 — 노란 태양 세 개, '아빠 사랑해요'. Toriyama풍: 크레온 텍스처가 잉크 선과 대비. 따뜻한 색이 차가운 형광등 아래 이질적. 스파클 효과가 아이러니하게 감쌈.\nVisible cast: none\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: extreme_close_up\nPanel type: single panel\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p1-2",
+      "page_number": 1,
+      "description": "【중단】 양동이 의자에 앉은 채 미동 없음. Toriyama풍: 단순화된 얼굴, 건조한 안구, 미세하게 벌어진 입. 커튼이 Toriyama풍 곡선으로 흔들림. 셀 셰이딩 백색/회색.",
+      "camera_angle": "medium",
+      "visual_type": "impact",
+      "characters_in_frame": [
+        "양동(시체)"
+      ],
+      "reference_assets": [],
+      "image_path": "episodes/EP001/panels/assets/p1-2.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 1\nPanel ID: p1-2\nStoryboard description: 【중단】 양동이 의자에 앉은 채 미동 없음. Toriyama풍: 단순화된 얼굴, 건조한 안구, 미세하게 벌어진 입. 커튼이 Toriyama풍 곡선으로 흔들림. 셀 셰이딩 백색/회색.\nVisible cast: 양동(시체)\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: medium\nPanel type: single panel\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p1-3",
+      "page_number": 1,
+      "description": "【하단】 관측 노트 마지막 페이지. 손떨림 글씨: '하늘이 거짓말을 한다'. Toriyama풍: 잉크 필압 과장, 효과선 방사형. 펜이 굴러 있음.",
+      "camera_angle": "close_up",
+      "visual_type": "impact",
+      "characters_in_frame": [],
+      "reference_assets": [],
+      "image_path": "episodes/EP001/panels/assets/p1-3.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 1\nPanel ID: p1-3\nStoryboard description: 【하단】 관측 노트 마지막 페이지. 손떨림 글씨: '하늘이 거짓말을 한다'. Toriyama풍: 잉크 필압 과장, 효과선 방사형. 펜이 굴러 있음.\nVisible cast: none\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: close_up\nPanel type: single panel\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p2-1",
+      "page_number": 2,
+      "description": "【와이드】 1967년 옥상. Toriyama풍 fish-eye — 밤하늘이 광활하게 휘어짐. 별이 스파클(4각형)로 표현. 예원제가 난간에 서 있음. 딥블루·실러 톤.",
+      "camera_angle": "fish_eye_wide",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "예원제"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/yewenjie-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p2-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 2\nPanel ID: p2-1\nStoryboard description: 【와이드】 1967년 옥상. Toriyama풍 fish-eye — 밤하늘이 광활하게 휘어짐. 별이 스파클(4각형)로 표현. 예원제가 난간에 서 있음. 딥블루·실러 톤.\nVisible cast: 예원제\n\n--- CHARACTER REFERENCES ---\n- 예원제 (叶文洁): Reference asset: episodes/EP001/characters/assets/yewenjie-v1.png Appearance: 젊은 시절: 22세 중국 여성, 짧은 검은 단발, 둥글고 큰 눈, 섬세하지만 단호한 이목구비. 짙은 파란색 인민복 재킷, 큰 단추, 가슴 주머니 문장, 멜린 슈즈. Style notes: Toriyama style: large round expressive eyes, simplified hair, cell-shaded blue uniform with bold white buttons. Determined but sorrowful expression. Clean bold ink lines, flat vibrant colors. Inner tone: 비판 대회에서 아버지를 잃고 세상에 대한 믿음을 잃음. 냉철하고 결단력 있음. 감정을 드러내지 않지만 내면에 깊은 상처. 인류에 대한 환멸 → 우주로 신호를 보내는 극단적 선택.\n\n--- COMPOSITION ---\nCamera: fish_eye_wide\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p2-2",
+      "page_number": 2,
+      "description": "【medium】 라오충이 담배를 피움. Toriyama풍: 둥근 얼굴, 넓은 미소, 담배 연기가 보더 돌파. 주름진 눈가, 따뜻함.",
+      "camera_angle": "medium",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "라오충"
+      ],
+      "reference_assets": [],
+      "image_path": "episodes/EP001/panels/assets/p2-2.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 2\nPanel ID: p2-2\nStoryboard description: 【medium】 라오충이 담배를 피움. Toriyama풍: 둥근 얼굴, 넓은 미소, 담배 연기가 보더 돌파. 주름진 눈가, 따뜻함.\nVisible cast: 라오충\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: medium\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p2-3",
+      "page_number": 2,
+      "description": "【close-up】 예원제가 하늘 올려다봄. Toriyama풍: 큰 둥근 눈에 별빛 하이라이트 2개, 입꼬리 올라감. 대사: '하늘이 말을 하고 있는 것 같아요.'",
+      "camera_angle": "close_up",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "예원제"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/yewenjie-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p2-3.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 2\nPanel ID: p2-3\nStoryboard description: 【close-up】 예원제가 하늘 올려다봄. Toriyama풍: 큰 둥근 눈에 별빛 하이라이트 2개, 입꼬리 올라감. 대사: '하늘이 말을 하고 있는 것 같아요.'\nVisible cast: 예원제\n\n--- CHARACTER REFERENCES ---\n- 예원제 (叶文洁): Reference asset: episodes/EP001/characters/assets/yewenjie-v1.png Appearance: 젊은 시절: 22세 중국 여성, 짧은 검은 단발, 둥글고 큰 눈, 섬세하지만 단호한 이목구비. 짙은 파란색 인민복 재킷, 큰 단추, 가슴 주머니 문장, 멜린 슈즈. Style notes: Toriyama style: large round expressive eyes, simplified hair, cell-shaded blue uniform with bold white buttons. Determined but sorrowful expression. Clean bold ink lines, flat vibrant colors. Inner tone: 비판 대회에서 아버지를 잃고 세상에 대한 믿음을 잃음. 냉철하고 결단력 있음. 감정을 드러내지 않지만 내면에 깊은 상처. 인류에 대한 환멸 → 우주로 신호를 보내는 극단적 선택.\n\n--- COMPOSITION ---\nCamera: close_up\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p2-4",
+      "page_number": 2,
+      "description": "【medium】 라오충 담배 연기를 내뿜으며. 표정이 미소→진지함으로. 대사: '우주는 인간의 투쟁과 상관없이 움직이는 거야.' ★ THEME STATED",
+      "camera_angle": "medium",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "라오충"
+      ],
+      "reference_assets": [],
+      "image_path": "episodes/EP001/panels/assets/p2-4.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 2\nPanel ID: p2-4\nStoryboard description: 【medium】 라오충 담배 연기를 내뿜으며. 표정이 미소→진지함으로. 대사: '우주는 인간의 투쟁과 상관없이 움직이는 거야.' ★ THEME STATED\nVisible cast: 라오충\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: medium\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p3-1",
+      "page_number": 3,
+      "description": "【close-up 옆모습】 예원제가 다시 망원경에 눈. 라오충 말 놓침. 미소. Toriyama풍: 큰 눈, 올라간 입꼬리, 작은 별 스파클.",
+      "camera_angle": "close_up",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "예원제"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/yewenjie-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p3-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 3\nPanel ID: p3-1\nStoryboard description: 【close-up 옆모습】 예원제가 다시 망원경에 눈. 라오충 말 놓침. 미소. Toriyama풍: 큰 눈, 올라간 입꼬리, 작은 별 스파클.\nVisible cast: 예원제\n\n--- CHARACTER REFERENCES ---\n- 예원제 (叶文洁): Reference asset: episodes/EP001/characters/assets/yewenjie-v1.png Appearance: 젊은 시절: 22세 중국 여성, 짧은 검은 단발, 둥글고 큰 눈, 섬세하지만 단호한 이목구비. 짙은 파란색 인민복 재킷, 큰 단추, 가슴 주머니 문장, 멜린 슈즈. Style notes: Toriyama style: large round expressive eyes, simplified hair, cell-shaded blue uniform with bold white buttons. Determined but sorrowful expression. Clean bold ink lines, flat vibrant colors. Inner tone: 비판 대회에서 아버지를 잃고 세상에 대한 믿음을 잃음. 냉철하고 결단력 있음. 감정을 드러내지 않지만 내면에 깊은 상처. 인류에 대한 환멸 → 우주로 신호를 보내는 극단적 선택.\n\n--- COMPOSITION ---\nCamera: close_up\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p3-2",
+      "page_number": 3,
+      "description": "【wide】 캠퍼스 광장. 홍위병이 천문학 교과서 소각. Toriyama풍: 불길 과장 곡선, 타는 종이가 하늘로 — p2 별과 시각적 유사. '삼체문제' 챕터가 타들어감. Pope in the Pool.",
+      "camera_angle": "wide",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "홍위병(군중)"
+      ],
+      "reference_assets": [],
+      "image_path": "episodes/EP001/panels/assets/p3-2.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 3\nPanel ID: p3-2\nStoryboard description: 【wide】 캠퍼스 광장. 홍위병이 천문학 교과서 소각. Toriyama풍: 불길 과장 곡선, 타는 종이가 하늘로 — p2 별과 시각적 유사. '삼체문제' 챕터가 타들어감. Pope in the Pool.\nVisible cast: 홍위병(군중)\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: wide\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p3-3",
+      "page_number": 3,
+      "description": "【medium】 예원제가 멈춰 섬. 불타는 책더미를 봄. Toriyama풍: 불빛이 얼굴에 번쩍, 동공 수축, 관측 노트를 꽉 쥠. 붉은 셀 셰이딩 절반.",
+      "camera_angle": "medium",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "예원제"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/yewenjie-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p3-3.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 3\nPanel ID: p3-3\nStoryboard description: 【medium】 예원제가 멈춰 섬. 불타는 책더미를 봄. Toriyama풍: 불빛이 얼굴에 번쩍, 동공 수축, 관측 노트를 꽉 쥠. 붉은 셀 셰이딩 절반.\nVisible cast: 예원제\n\n--- CHARACTER REFERENCES ---\n- 예원제 (叶文洁): Reference asset: episodes/EP001/characters/assets/yewenjie-v1.png Appearance: 젊은 시절: 22세 중국 여성, 짧은 검은 단발, 둥글고 큰 눈, 섬세하지만 단호한 이목구비. 짙은 파란색 인민복 재킷, 큰 단추, 가슴 주머니 문장, 멜린 슈즈. Style notes: Toriyama style: large round expressive eyes, simplified hair, cell-shaded blue uniform with bold white buttons. Determined but sorrowful expression. Clean bold ink lines, flat vibrant colors. Inner tone: 비판 대회에서 아버지를 잃고 세상에 대한 믿음을 잃음. 냉철하고 결단력 있음. 감정을 드러내지 않지만 내면에 깊은 상처. 인류에 대한 환멸 → 우주로 신호를 보내는 극단적 선택.\n\n--- COMPOSITION ---\nCamera: medium\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p4-1",
+      "page_number": 4,
+      "description": "【dramatic wide 상단2/3】 강당. 홍위병으로 가득. 마오 초상화 거대. Toriyama풍: 군중은 아이코닉 둥근 형태, 과장된 원근법으로 권력 압도감. 딥레드/블랙/화이트.",
+      "camera_angle": "dramatic_wide",
+      "visual_type": "impact",
+      "characters_in_frame": [
+        "홍위병(군중)"
+      ],
+      "reference_assets": [],
+      "image_path": "episodes/EP001/panels/assets/p4-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 4\nPanel ID: p4-1\nStoryboard description: 【dramatic wide 상단2/3】 강당. 홍위병으로 가득. 마오 초상화 거대. Toriyama풍: 군중은 아이코닉 둥근 형태, 과장된 원근법으로 권력 압도감. 딥레드/블랙/화이트.\nVisible cast: 홍위병(군중)\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: dramatic_wide\nPanel type: single panel\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p4-2",
+      "page_number": 4,
+      "description": "【medium】 예페이촨이 무릎 꿇고 있음. Toriyama풍: 단순화되었으나 타박자국 명확한 선. '반동 학술 권위' 팻말. 크고 강한 눈.",
+      "camera_angle": "medium",
+      "visual_type": "impact",
+      "characters_in_frame": [
+        "예페이촨"
+      ],
+      "reference_assets": [],
+      "image_path": "episodes/EP001/panels/assets/p4-2.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 4\nPanel ID: p4-2\nStoryboard description: 【medium】 예페이촨이 무릎 꿇고 있음. Toriyama풍: 단순화되었으나 타박자국 명확한 선. '반동 학술 권위' 팻말. 크고 강한 눈.\nVisible cast: 예페이촨\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: medium\nPanel type: single panel\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p4-3",
+      "page_number": 4,
+      "description": "【medium】 예원제가 구석에 서 있음. Toriyama풍: 예원제만 흑백톤 — 붉은 배경 속 고립. 큰 눈에 공포, 입술 깨물어 피.",
+      "camera_angle": "medium",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "예원제"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/yewenjie-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p4-3.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 4\nPanel ID: p4-3\nStoryboard description: 【medium】 예원제가 구석에 서 있음. Toriyama풍: 예원제만 흑백톤 — 붉은 배경 속 고립. 큰 눈에 공포, 입술 깨물어 피.\nVisible cast: 예원제\n\n--- CHARACTER REFERENCES ---\n- 예원제 (叶文洁): Reference asset: episodes/EP001/characters/assets/yewenjie-v1.png Appearance: 젊은 시절: 22세 중국 여성, 짧은 검은 단발, 둥글고 큰 눈, 섬세하지만 단호한 이목구비. 짙은 파란색 인민복 재킷, 큰 단추, 가슴 주머니 문장, 멜린 슈즈. Style notes: Toriyama style: large round expressive eyes, simplified hair, cell-shaded blue uniform with bold white buttons. Determined but sorrowful expression. Clean bold ink lines, flat vibrant colors. Inner tone: 비판 대회에서 아버지를 잃고 세상에 대한 믿음을 잃음. 냉철하고 결단력 있음. 감정을 드러내지 않지만 내면에 깊은 상처. 인류에 대한 환멸 → 우주로 신호를 보내는 극단적 선택.\n\n--- COMPOSITION ---\nCamera: medium\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p4-4",
+      "page_number": 4,
+      "description": "【worm_eye, 보더 돌파】 홍위병 대표가 확성기 들고 외침. Toriyama풍: 입이 비정상적으로 큼, 침 튀는 효과선. 확성기가 보더 뚫음. 대사: '인정하겠는가!'",
+      "camera_angle": "worm_eye",
+      "visual_type": "impact",
+      "characters_in_frame": [
+        "홍위병 대표"
+      ],
+      "reference_assets": [],
+      "image_path": "episodes/EP001/panels/assets/p4-4.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 4\nPanel ID: p4-4\nStoryboard description: 【worm_eye, 보더 돌파】 홍위병 대표가 확성기 들고 외침. Toriyama풍: 입이 비정상적으로 큼, 침 튀는 효과선. 확성기가 보더 뚫음. 대사: '인정하겠는가!'\nVisible cast: 홍위병 대표\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: worm_eye\nPanel type: single panel\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p5-1",
+      "page_number": 5,
+      "description": "【extreme close-up】 예페이촨이 고개를 듦. Toriyama풍: 피 마른 자국 과장 선, 눈동자 강렬. 결의. 대사: '물리학은 정치로 바뀌지 않습니다.'",
+      "camera_angle": "extreme_close_up",
+      "visual_type": "impact",
+      "characters_in_frame": [
+        "예페이촨"
+      ],
+      "reference_assets": [],
+      "image_path": "episodes/EP001/panels/assets/p5-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 5\nPanel ID: p5-1\nStoryboard description: 【extreme close-up】 예페이촨이 고개를 듦. Toriyama풍: 피 마른 자국 과장 선, 눈동자 강렬. 결의. 대사: '물리학은 정치로 바뀌지 않습니다.'\nVisible cast: 예페이촨\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: extreme_close_up\nPanel type: single panel\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p5-2",
+      "page_number": 5,
+      "description": "【dramatic】 홍위병이 예페이촨을 발로 참. Toriyama풍: 프레임 완전히 깨짐, 잉크 스플래터 효과선 폭발. 소리가 시각적(박수=직선, 비명=곡선).",
+      "camera_angle": "dramatic",
+      "visual_type": "impact",
+      "characters_in_frame": [
+        "홍위병",
+        "예페이촨"
+      ],
+      "reference_assets": [],
+      "image_path": "episodes/EP001/panels/assets/p5-2.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 5\nPanel ID: p5-2\nStoryboard description: 【dramatic】 홍위병이 예페이촨을 발로 참. Toriyama풍: 프레임 완전히 깨짐, 잉크 스플래터 효과선 폭발. 소리가 시각적(박수=직선, 비명=곡선).\nVisible cast: 홍위병, 예페이촨\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: dramatic\nPanel type: single panel\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p5-3",
+      "page_number": 5,
+      "description": "【extreme close-up, 눈만】 예원제의 눈. Toriyama풍: 눈이 화면 채움, 동공 안에 아버지 실루엣. 손톱이 손바닥에 박혀 피. 눈물 없음.",
+      "camera_angle": "extreme_close_up",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "예원제"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/yewenjie-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p5-3.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 5\nPanel ID: p5-3\nStoryboard description: 【extreme close-up, 눈만】 예원제의 눈. Toriyama풍: 눈이 화면 채움, 동공 안에 아버지 실루엣. 손톱이 손바닥에 박혀 피. 눈물 없음.\nVisible cast: 예원제\n\n--- CHARACTER REFERENCES ---\n- 예원제 (叶文洁): Reference asset: episodes/EP001/characters/assets/yewenjie-v1.png Appearance: 젊은 시절: 22세 중국 여성, 짧은 검은 단발, 둥글고 큰 눈, 섬세하지만 단호한 이목구비. 짙은 파란색 인민복 재킷, 큰 단추, 가슴 주머니 문장, 멜린 슈즈. Style notes: Toriyama style: large round expressive eyes, simplified hair, cell-shaded blue uniform with bold white buttons. Determined but sorrowful expression. Clean bold ink lines, flat vibrant colors. Inner tone: 비판 대회에서 아버지를 잃고 세상에 대한 믿음을 잃음. 냉철하고 결단력 있음. 감정을 드러내지 않지만 내면에 깊은 상처. 인류에 대한 환멸 → 우주로 신호를 보내는 극단적 선택.\n\n--- COMPOSITION ---\nCamera: extreme_close_up\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p6-1",
+      "page_number": 6,
+      "description": "【풀 페이지, 대사 없음】 비 내리는 복도. 예원제가 벽에 기대어 쪼그리고 앉음. 고발서 종이와 붓. Toriyama풍: 빗줄기 사선 명확한 선, 실루엣은 어둡게, 잉크 방울이 과장된 크기로 시간 정지. 흑백+은색 톤. 선과 면만으로 구성.",
+      "camera_angle": "bird_eye",
+      "visual_type": "silence",
+      "characters_in_frame": [
+        "예원제"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/yewenjie-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p6-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 6\nPanel ID: p6-1\nStoryboard description: 【풀 페이지, 대사 없음】 비 내리는 복도. 예원제가 벽에 기대어 쪼그리고 앉음. 고발서 종이와 붓. Toriyama풍: 빗줄기 사선 명확한 선, 실루엣은 어둡게, 잉크 방울이 과장된 크기로 시간 정지. 흑백+은색 톤. 선과 면만으로 구성.\nVisible cast: 예원제\n\n--- CHARACTER REFERENCES ---\n- 예원제 (叶文洁): Reference asset: episodes/EP001/characters/assets/yewenjie-v1.png Appearance: 젊은 시절: 22세 중국 여성, 짧은 검은 단발, 둥글고 큰 눈, 섬세하지만 단호한 이목구비. 짙은 파란색 인민복 재킷, 큰 단추, 가슴 주머니 문장, 멜린 슈즈. Style notes: Toriyama style: large round expressive eyes, simplified hair, cell-shaded blue uniform with bold white buttons. Determined but sorrowful expression. Clean bold ink lines, flat vibrant colors. Inner tone: 비판 대회에서 아버지를 잃고 세상에 대한 믿음을 잃음. 냉철하고 결단력 있음. 감정을 드러내지 않지만 내면에 깊은 상처. 인류에 대한 환멸 → 우주로 신호를 보내는 극단적 선택.\n\n--- COMPOSITION ---\nCamera: bird_eye\nPanel type: full-page splash\nVisual emphasis: silence\nPrioritize stillness, negative space, restrained acting, and quiet atmosphere.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p7-1",
+      "page_number": 7,
+      "description": "【extreme wide】 라디오 망대. Toriyama풍: 메카닉 디테일 과장. 예원제는 작게 — 우주 광활함 대비. 차가운 파랑+금속색.",
+      "camera_angle": "extreme_wide",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "예원제"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/yewenjie-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p7-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 7\nPanel ID: p7-1\nStoryboard description: 【extreme wide】 라디오 망대. Toriyama풍: 메카닉 디테일 과장. 예원제는 작게 — 우주 광활함 대비. 차가운 파랑+금속색.\nVisible cast: 예원제\n\n--- CHARACTER REFERENCES ---\n- 예원제 (叶文洁): Reference asset: episodes/EP001/characters/assets/yewenjie-v1.png Appearance: 젊은 시절: 22세 중국 여성, 짧은 검은 단발, 둥글고 큰 눈, 섬세하지만 단호한 이목구비. 짙은 파란색 인민복 재킷, 큰 단추, 가슴 주머니 문장, 멜린 슈즈. Style notes: Toriyama style: large round expressive eyes, simplified hair, cell-shaded blue uniform with bold white buttons. Determined but sorrowful expression. Clean bold ink lines, flat vibrant colors. Inner tone: 비판 대회에서 아버지를 잃고 세상에 대한 믿음을 잃음. 냉철하고 결단력 있음. 감정을 드러내지 않지만 내면에 깊은 상처. 인류에 대한 환멸 → 우주로 신호를 보내는 극단적 선택.\n\n--- COMPOSITION ---\nCamera: extreme_wide\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p7-2",
+      "page_number": 7,
+      "description": "【close-up】 예원제 얼굴. Toriyama풍: 둥근 순수한 눈에서 각진 결의의 눈으로 변화. 손 미세하게 떨림. 창백한 피부.",
+      "camera_angle": "close_up",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "예원제"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/yewenjie-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p7-2.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 7\nPanel ID: p7-2\nStoryboard description: 【close-up】 예원제 얼굴. Toriyama풍: 둥근 순수한 눈에서 각진 결의의 눈으로 변화. 손 미세하게 떨림. 창백한 피부.\nVisible cast: 예원제\n\n--- CHARACTER REFERENCES ---\n- 예원제 (叶文洁): Reference asset: episodes/EP001/characters/assets/yewenjie-v1.png Appearance: 젊은 시절: 22세 중국 여성, 짧은 검은 단발, 둥글고 큰 눈, 섬세하지만 단호한 이목구비. 짙은 파란색 인민복 재킷, 큰 단추, 가슴 주머니 문장, 멜린 슈즈. Style notes: Toriyama style: large round expressive eyes, simplified hair, cell-shaded blue uniform with bold white buttons. Determined but sorrowful expression. Clean bold ink lines, flat vibrant colors. Inner tone: 비판 대회에서 아버지를 잃고 세상에 대한 믿음을 잃음. 냉철하고 결단력 있음. 감정을 드러내지 않지만 내면에 깊은 상처. 인류에 대한 환멸 → 우주로 신호를 보내는 극단적 선택.\n\n--- COMPOSITION ---\nCamera: close_up\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p7-3",
+      "page_number": 7,
+      "description": "【extreme close-up】 스위치 올리는 손. Toriyama풍: 관절 하얗게 질림 과장, 금속 반사광 하이라이트. 메카닉 디테일.",
+      "camera_angle": "extreme_close_up",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "예원제(손)"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/yewenjie-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p7-3.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 7\nPanel ID: p7-3\nStoryboard description: 【extreme close-up】 스위치 올리는 손. Toriyama풍: 관절 하얗게 질림 과장, 금속 반사광 하이라이트. 메카닉 디테일.\nVisible cast: 예원제(손)\n\n--- CHARACTER REFERENCES ---\n- 예원제 (叶文洁): Reference asset: episodes/EP001/characters/assets/yewenjie-v1.png Appearance: 젊은 시절: 22세 중국 여성, 짧은 검은 단발, 둥글고 큰 눈, 섬세하지만 단호한 이목구비. 짙은 파란색 인민복 재킷, 큰 단추, 가슴 주머니 문장, 멜린 슈즈. Style notes: Toriyama style: large round expressive eyes, simplified hair, cell-shaded blue uniform with bold white buttons. Determined but sorrowful expression. Clean bold ink lines, flat vibrant colors. Inner tone: 비판 대회에서 아버지를 잃고 세상에 대한 믿음을 잃음. 냉철하고 결단력 있음. 감정을 드러내지 않지만 내면에 깊은 상처. 인류에 대한 환멸 → 우주로 신호를 보내는 극단적 선택.\n\n--- COMPOSITION ---\nCamera: extreme_close_up\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p7-4",
+      "page_number": 7,
+      "description": "【하단부 abstract】 전파가 우주로. Toriyama풍: 동심원 파동(DBZ 기탄형). 어둠 속으로 사라짐. ★ MIDPOINT 가짜 승리. 나레이션: '4.2 광년 뒤... 받은 이들이 있었다.'",
+      "camera_angle": "abstract",
+      "visual_type": "impact",
+      "characters_in_frame": [],
+      "reference_assets": [],
+      "image_path": "episodes/EP001/panels/assets/p7-4.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 7\nPanel ID: p7-4\nStoryboard description: 【하단부 abstract】 전파가 우주로. Toriyama풍: 동심원 파동(DBZ 기탄형). 어둠 속으로 사라짐. ★ MIDPOINT 가짜 승리. 나레이션: '4.2 광년 뒤... 받은 이들이 있었다.'\nVisible cast: none\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: abstract\nPanel type: single panel\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p8-1",
+      "page_number": 8,
+      "description": "【풀 페이지, 대사 없음】 어두운 페이지. 별이 스파클에서 네온 사각형으로 변해감. 중앙 흰 글씨: '40년 후.' '2007.' Toriyama풍: 그래픽 요소 변화로 시대 전환 표현. 정적.",
+      "camera_angle": "abstract",
+      "visual_type": "silence",
+      "characters_in_frame": [],
+      "reference_assets": [],
+      "image_path": "episodes/EP001/panels/assets/p8-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 8\nPanel ID: p8-1\nStoryboard description: 【풀 페이지, 대사 없음】 어두운 페이지. 별이 스파클에서 네온 사각형으로 변해감. 중앙 흰 글씨: '40년 후.' '2007.' Toriyama풍: 그래픽 요소 변화로 시대 전환 표현. 정적.\nVisible cast: none\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: abstract\nPanel type: full-page splash\nVisual emphasis: silence\nPrioritize stillness, negative space, restrained acting, and quiet atmosphere.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p9-1",
+      "page_number": 9,
+      "description": "【wide】 경찰서 회의실. 백판에 세 과학자 사진. 스치친이 서 있음. Toriyama풍: 피곤한 캐릭터(다크서클 과장). 회색+백색 톤.",
+      "camera_angle": "wide",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "스치친"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/shiqiang-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p9-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 9\nPanel ID: p9-1\nStoryboard description: 【wide】 경찰서 회의실. 백판에 세 과학자 사진. 스치친이 서 있음. Toriyama풍: 피곤한 캐릭터(다크서클 과장). 회색+백색 톤.\nVisible cast: 스치친\n\n--- CHARACTER REFERENCES ---\n- 스치친 (史强): Reference asset: episodes/EP001/characters/assets/shiqiang-v1.png Appearance: 40대 중국 남성, 거친 외모, 헝클어진 검은 머리, 무거운 수염, 피곤한 좁은 눈, 묵직한 체형. 더러운 열린 흰 셔츠, 낡은 작업복 재킷, 헐렁한 바지, 닳은 부츠. 항상 담배. Style notes: Toriyama style: exaggerated weary posture, heavy stubble dots, small shrewd eyes. Earthy olive-brown cell-shaded palette. Cigarette as signature prop. Inner tone: 직감형 형사. 겉은 거칠지만 속은 따뜻함. 과학자 연쇄 자살 사건을 조사. 비관적이지만 포기하지 않는 끈기.\n\n--- COMPOSITION ---\nCamera: wide\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p9-2",
+      "page_number": 9,
+      "description": "【medium】 스치친이 백판 가리키며. 담배 연기 곡선. 대사: '셋 다 다른 분야야. 근데 비슷한 행동을 했어.'",
+      "camera_angle": "medium",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "스치친"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/shiqiang-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p9-2.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 9\nPanel ID: p9-2\nStoryboard description: 【medium】 스치친이 백판 가리키며. 담배 연기 곡선. 대사: '셋 다 다른 분야야. 근데 비슷한 행동을 했어.'\nVisible cast: 스치친\n\n--- CHARACTER REFERENCES ---\n- 스치친 (史强): Reference asset: episodes/EP001/characters/assets/shiqiang-v1.png Appearance: 40대 중국 남성, 거친 외모, 헝클어진 검은 머리, 무거운 수염, 피곤한 좁은 눈, 묵직한 체형. 더러운 열린 흰 셔츠, 낡은 작업복 재킷, 헐렁한 바지, 닳은 부츠. 항상 담배. Style notes: Toriyama style: exaggerated weary posture, heavy stubble dots, small shrewd eyes. Earthy olive-brown cell-shaded palette. Cigarette as signature prop. Inner tone: 직감형 형사. 겉은 거칠지만 속은 따뜻함. 과학자 연쇄 자살 사건을 조사. 비관적이지만 포기하지 않는 끈기.\n\n--- COMPOSITION ---\nCamera: medium\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p9-3",
+      "page_number": 9,
+      "description": "【medium】 동료가 커피 마시며 무심하게. 대사: '비슷한 행동? 뭔데?'",
+      "camera_angle": "medium",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "동료 형사"
+      ],
+      "reference_assets": [],
+      "image_path": "episodes/EP001/panels/assets/p9-3.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 9\nPanel ID: p9-3\nStoryboard description: 【medium】 동료가 커피 마시며 무심하게. 대사: '비슷한 행동? 뭔데?'\nVisible cast: 동료 형사\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: medium\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p9-4",
+      "page_number": 9,
+      "description": "【close-up】 스치친 표정 변함 — 진지해짐. 대사: '전원이 밤하늘만 봤어. 창문을 열어놓고 있었지.'",
+      "camera_angle": "close_up",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "스치친"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/shiqiang-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p9-4.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 9\nPanel ID: p9-4\nStoryboard description: 【close-up】 스치친 표정 변함 — 진지해짐. 대사: '전원이 밤하늘만 봤어. 창문을 열어놓고 있었지.'\nVisible cast: 스치친\n\n--- CHARACTER REFERENCES ---\n- 스치친 (史强): Reference asset: episodes/EP001/characters/assets/shiqiang-v1.png Appearance: 40대 중국 남성, 거친 외모, 헝클어진 검은 머리, 무거운 수염, 피곤한 좁은 눈, 묵직한 체형. 더러운 열린 흰 셔츠, 낡은 작업복 재킷, 헐렁한 바지, 닳은 부츠. 항상 담배. Style notes: Toriyama style: exaggerated weary posture, heavy stubble dots, small shrewd eyes. Earthy olive-brown cell-shaded palette. Cigarette as signature prop. Inner tone: 직감형 형사. 겉은 거칠지만 속은 따뜻함. 과학자 연쇄 자살 사건을 조사. 비관적이지만 포기하지 않는 끈기.\n\n--- COMPOSITION ---\nCamera: close_up\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p9-5",
+      "page_number": 9,
+      "description": "【medium, Pope in the Pool】 백판 옆 책상에 '태양 세 개' 그림 사본이 끼여 있음. 스치친은 등 돌려 못 봄. 독자만 발견. 배경 대사: '자살이잖아.'",
+      "camera_angle": "medium",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "스치친(등)"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/shiqiang-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p9-5.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 9\nPanel ID: p9-5\nStoryboard description: 【medium, Pope in the Pool】 백판 옆 책상에 '태양 세 개' 그림 사본이 끼여 있음. 스치친은 등 돌려 못 봄. 독자만 발견. 배경 대사: '자살이잖아.'\nVisible cast: 스치친(등)\n\n--- CHARACTER REFERENCES ---\n- 스치친 (史强): Reference asset: episodes/EP001/characters/assets/shiqiang-v1.png Appearance: 40대 중국 남성, 거친 외모, 헝클어진 검은 머리, 무거운 수염, 피곤한 좁은 눈, 묵직한 체형. 더러운 열린 흰 셔츠, 낡은 작업복 재킷, 헐렁한 바지, 닳은 부츠. 항상 담배. Style notes: Toriyama style: exaggerated weary posture, heavy stubble dots, small shrewd eyes. Earthy olive-brown cell-shaded palette. Cigarette as signature prop. Inner tone: 직감형 형사. 겉은 거칠지만 속은 따뜻함. 과학자 연쇄 자살 사건을 조사. 비관적이지만 포기하지 않는 끈기.\n\n--- COMPOSITION ---\nCamera: medium\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p9-6",
+      "page_number": 9,
+      "description": "【close-up】 백판에 크게 '왜?' 한 글자만. Toriyama풍: 분필 가루 튀는 효과선. 흰 분필+회색 백판.",
+      "camera_angle": "close_up",
+      "visual_type": "impact",
+      "characters_in_frame": [
+        "스치친"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/shiqiang-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p9-6.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 9\nPanel ID: p9-6\nStoryboard description: 【close-up】 백판에 크게 '왜?' 한 글자만. Toriyama풍: 분필 가루 튀는 효과선. 흰 분필+회색 백판.\nVisible cast: 스치친\n\n--- CHARACTER REFERENCES ---\n- 스치친 (史强): Reference asset: episodes/EP001/characters/assets/shiqiang-v1.png Appearance: 40대 중국 남성, 거친 외모, 헝클어진 검은 머리, 무거운 수염, 피곤한 좁은 눈, 묵직한 체형. 더러운 열린 흰 셔츠, 낡은 작업복 재킷, 헐렁한 바지, 닳은 부츠. 항상 담배. Style notes: Toriyama style: exaggerated weary posture, heavy stubble dots, small shrewd eyes. Earthy olive-brown cell-shaded palette. Cigarette as signature prop. Inner tone: 직감형 형사. 겉은 거칠지만 속은 따뜻함. 과학자 연쇄 자살 사건을 조사. 비관적이지만 포기하지 않는 끈기.\n\n--- COMPOSITION ---\nCamera: close_up\nPanel type: single panel\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p10-1",
+      "page_number": 10,
+      "description": "【wide】 작은 아파트. 청신(70세)이 창가에. Toriyama풍: 노인 실루엣 둥글고 작게 — 고독. 창받 네온이 p2 별과 대비. 독백: '40년.'",
+      "camera_angle": "wide",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "청신"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/chengxin-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p10-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 10\nPanel ID: p10-1\nStoryboard description: 【wide】 작은 아파트. 청신(70세)이 창가에. Toriyama풍: 노인 실루엣 둥글고 작게 — 고독. 창받 네온이 p2 별과 대비. 독백: '40년.'\nVisible cast: 청신\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n\n--- COMPOSITION ---\nCamera: wide\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p10-2",
+      "page_number": 10,
+      "description": "【close-up 손】 청신의 손이 사진 위를 쓰다듬음. Toriyama풍: 주름진 손 디테일, 바랜 사진 속 젊은 얼굴과 대비. 독백: '그때 보낸 신호가 도달했을 시간이야.'",
+      "camera_angle": "extreme_close_up",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "청신(손)"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/chengxin-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p10-2.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 10\nPanel ID: p10-2\nStoryboard description: 【close-up 손】 청신의 손이 사진 위를 쓰다듬음. Toriyama풍: 주름진 손 디테일, 바랜 사진 속 젊은 얼굴과 대비. 독백: '그때 보낸 신호가 도달했을 시간이야.'\nVisible cast: 청신(손)\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n\n--- COMPOSITION ---\nCamera: extreme_close_up\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p10-3",
+      "page_number": 10,
+      "description": "【close-up】 핸드폰 울림. '알 수 없는 번호'. Toriyama풍: 급격한 현실 전환, 핸드폰 빛이 얼굴에. 목脉 박동 표현.",
+      "camera_angle": "close_up",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "청신"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/chengxin-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p10-3.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 10\nPanel ID: p10-3\nStoryboard description: 【close-up】 핸드폰 울림. '알 수 없는 번호'. Toriyama풍: 급격한 현실 전환, 핸드폰 빛이 얼굴에. 목脉 박동 표현.\nVisible cast: 청신\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n\n--- COMPOSITION ---\nCamera: close_up\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p11-1",
+      "page_number": 11,
+      "description": "【close-up】 청신이 핸드폰 받음. Toriyama풍: 수채화에서 만화풍으로 전환 시작. 선 굵어지고 대비 강해짐. 대사: '여... 여보세요?'",
+      "camera_angle": "close_up",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "청신"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/chengxin-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p11-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 11\nPanel ID: p11-1\nStoryboard description: 【close-up】 청신이 핸드폰 받음. Toriyama풍: 수채화에서 만화풍으로 전환 시작. 선 굵어지고 대비 강해짐. 대사: '여... 여보세요?'\nVisible cast: 청신\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n\n--- COMPOSITION ---\nCamera: close_up\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p11-2",
+      "page_number": 11,
+      "description": "【청신 얼굴 반응】 찢어진 말풍선. 대사: '그 신호가 닿았습니다.' Toriyama풍: 말풍선 모서리 날카롭고 글씨 약간 비틀림. 배경 어두워짐.",
+      "camera_angle": "close_up",
+      "visual_type": "impact",
+      "characters_in_frame": [
+        "청신"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/chengxin-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p11-2.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 11\nPanel ID: p11-2\nStoryboard description: 【청신 얼굴 반응】 찢어진 말풍선. 대사: '그 신호가 닿았습니다.' Toriyama풍: 말풍선 모서리 날카롭고 글씨 약간 비틀림. 배경 어두워짐.\nVisible cast: 청신\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n\n--- COMPOSITION ---\nCamera: close_up\nPanel type: single panel\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p11-3",
+      "page_number": 11,
+      "description": "【extreme close-up, 눈】 청신 충격. 동공 확장. 40년 비밀 무너짐. 눈가에 비로소 눈물. 대사: '누... 누구세요?'",
+      "camera_angle": "extreme_close_up",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "청신"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/chengxin-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p11-3.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 11\nPanel ID: p11-3\nStoryboard description: 【extreme close-up, 눈】 청신 충격. 동공 확장. 40년 비밀 무너짐. 눈가에 비로소 눈물. 대사: '누... 누구세요?'\nVisible cast: 청신\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n\n--- COMPOSITION ---\nCamera: extreme_close_up\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p11-4",
+      "page_number": 11,
+      "description": "【청신 동공 클로즈업】 찢어진 말풍선 더 크게. 대사: '물리학을 믿습니까?' 패널 침범. 동공 안에 3개 빛점. ★ Break into Act 3 — p5 예페이촨 회수.",
+      "camera_angle": "extreme_close_up",
+      "visual_type": "impact",
+      "characters_in_frame": [
+        "청신"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/chengxin-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p11-4.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 11\nPanel ID: p11-4\nStoryboard description: 【청신 동공 클로즈업】 찢어진 말풍선 더 크게. 대사: '물리학을 믿습니까?' 패널 침범. 동공 안에 3개 빛점. ★ Break into Act 3 — p5 예페이촨 회수.\nVisible cast: 청신\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n\n--- COMPOSITION ---\nCamera: extreme_close_up\nPanel type: single panel\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p12-1",
+      "page_number": 12,
+      "description": "【close-up】 통화 끊김 '뚜— 뚜—'. 반 페이지 여백 — 침묵. 청신 숨소리만. 핸드폰 '통화 종료' 차갑게.",
+      "camera_angle": "close_up",
+      "visual_type": "silence",
+      "characters_in_frame": [
+        "청신"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/chengxin-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p12-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 12\nPanel ID: p12-1\nStoryboard description: 【close-up】 통화 끊김 '뚜— 뚜—'. 반 페이지 여백 — 침묵. 청신 숨소리만. 핸드폰 '통화 종료' 차갑게.\nVisible cast: 청신\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n\n--- COMPOSITION ---\nCamera: close_up\nPanel type: single panel\nVisual emphasis: silence\nPrioritize stillness, negative space, restrained acting, and quiet atmosphere.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p12-2",
+      "page_number": 12,
+      "description": "【medium】 청신이 거리를 걷는다. 수채화 배경(정상) + 만화풍 청신(격리). 시각적 이중 구조.",
+      "camera_angle": "medium",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "청신"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/chengxin-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p12-2.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 12\nPanel ID: p12-2\nStoryboard description: 【medium】 청신이 거리를 걷는다. 수채화 배경(정상) + 만화풍 청신(격리). 시각적 이중 구조.\nVisible cast: 청신\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n\n--- COMPOSITION ---\nCamera: medium\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p12-3",
+      "page_number": 12,
+      "description": "【medium】 전자광고판 깜빡임. 1초간 '1199:59:59' 표시 후 사라짐. 행인들은 모름. Toriyama풍: 숫자가 선명하게 튐. 네온+붉은 숫자.",
+      "camera_angle": "medium",
+      "visual_type": "impact",
+      "characters_in_frame": [
+        "청신"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/chengxin-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p12-3.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 12\nPanel ID: p12-3\nStoryboard description: 【medium】 전자광고판 깜빡임. 1초간 '1199:59:59' 표시 후 사라짐. 행인들은 모름. Toriyama풍: 숫자가 선명하게 튐. 네온+붉은 숫자.\nVisible cast: 청신\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n\n--- COMPOSITION ---\nCamera: medium\nPanel type: single panel\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p12-4",
+      "page_number": 12,
+      "description": "【medium 측면】 청신만 봄. 멈춰 섬. 그림자가 비정상적으로 길게. 동공에 숫자 반사. 독백: '...시작됐다.'",
+      "camera_angle": "medium",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "청신"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/chengxin-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p12-4.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 12\nPanel ID: p12-4\nStoryboard description: 【medium 측면】 청신만 봄. 멈춰 섬. 그림자가 비정상적으로 길게. 동공에 숫자 반사. 독백: '...시작됐다.'\nVisible cast: 청신\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n\n--- COMPOSITION ---\nCamera: medium\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p13-1",
+      "page_number": 13,
+      "description": "【close-up】 도서관. 청신이 '삼체문제' 책을 펼침. 세 천체 모식도. 인포그래픽 — p1 태양3개와 시각적 유사. 나레이션: '궤도 예측이 불가능한 문제.'",
+      "camera_angle": "close_up",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "청신"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/chengxin-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p13-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 13\nPanel ID: p13-1\nStoryboard description: 【close-up】 도서관. 청신이 '삼체문제' 책을 펼침. 세 천체 모식도. 인포그래픽 — p1 태양3개와 시각적 유사. 나레이션: '궤도 예측이 불가능한 문제.'\nVisible cast: 청신\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n\n--- COMPOSITION ---\nCamera: close_up\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p13-2",
+      "page_number": 13,
+      "description": "【close-up】 청신 깨달음. 눈 커지고 입 다물어짐. 이마에 식은땀. 독백: '불가능해. 근데 그들이 알고 있어.'",
+      "camera_angle": "close_up",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "청신"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/chengxin-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p13-2.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 13\nPanel ID: p13-2\nStoryboard description: 【close-up】 청신 깨달음. 눈 커지고 입 다물어짐. 이마에 식은땀. 독백: '불가능해. 근데 그들이 알고 있어.'\nVisible cast: 청신\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n\n--- COMPOSITION ---\nCamera: close_up\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p13-3",
+      "page_number": 13,
+      "description": "【wide, Pope in the Pool】 도서관 창밖 전자광고판 — '삼체문제 특별전' 광고 옆 카운트다운 깜빡임. '삼체' 개념이 도시에 스며듦. 독자만 발견.",
+      "camera_angle": "wide",
+      "visual_type": "normal",
+      "characters_in_frame": [],
+      "reference_assets": [],
+      "image_path": "episodes/EP001/panels/assets/p13-3.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 13\nPanel ID: p13-3\nStoryboard description: 【wide, Pope in the Pool】 도서관 창밖 전자광고판 — '삼체문제 특별전' 광고 옆 카운트다운 깜빡임. '삼체' 개념이 도시에 스며듦. 독자만 발견.\nVisible cast: none\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: wide\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p13-4",
+      "page_number": 13,
+      "description": "【6개 소패널 몽타주】 각각 다른 장소(지하철, 카페, 사무실, 공원, 휴대폰, TV)에서 카운트다운 1초 출현. 속도감. 숫자가 동기화되지 않음. 비프음 효과만.",
+      "camera_angle": "dramatic",
+      "visual_type": "impact",
+      "characters_in_frame": [],
+      "reference_assets": [],
+      "image_path": "episodes/EP001/panels/assets/p13-4.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 13\nPanel ID: p13-4\nStoryboard description: 【6개 소패널 몽타주】 각각 다른 장소(지하철, 카페, 사무실, 공원, 휴대폰, TV)에서 카운트다운 1초 출현. 속도감. 숫자가 동기화되지 않음. 비프음 효과만.\nVisible cast: none\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: dramatic\nPanel type: multi-cut montage\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p14-1",
+      "page_number": 14,
+      "description": "【풀 페이지】 청신 실루엣이 거대한 베이징 도시 앞에. 하늘에 카운트다운 숫자들이 붉은 별처럼 떠 있음 — p2의 백색 별과 대비. Toriyama풍: 강렬한 대비, 청신은 작고 도시는 거대. 과장된 원근법. 드디어 보이는 표정 — 절망이 아닌 자각. 대사: '우리는 심판을 불렀다.'",
+      "camera_angle": "extreme_wide",
+      "visual_type": "impact",
+      "characters_in_frame": [
+        "청신"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/chengxin-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p14-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 14\nPanel ID: p14-1\nStoryboard description: 【풀 페이지】 청신 실루엣이 거대한 베이징 도시 앞에. 하늘에 카운트다운 숫자들이 붉은 별처럼 떠 있음 — p2의 백색 별과 대비. Toriyama풍: 강렬한 대비, 청신은 작고 도시는 거대. 과장된 원근법. 드디어 보이는 표정 — 절망이 아닌 자각. 대사: '우리는 심판을 불렀다.'\nVisible cast: 청신\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n\n--- COMPOSITION ---\nCamera: extreme_wide\nPanel type: full-page splash\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p15-1",
+      "page_number": 15,
+      "description": "【wide】 연구실 건물 외관. 밤. 청신이 문 앞에. Toriyama풍: 현대적 건물에 미세하게 카운트다운 숫자가 비침 — 건물 자체가 감염된 듯. 차가운 청색+콘크리트 회색.",
+      "camera_angle": "wide",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "청신"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/chengxin-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p15-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 15\nPanel ID: p15-1\nStoryboard description: 【wide】 연구실 건물 외관. 밤. 청신이 문 앞에. Toriyama풍: 현대적 건물에 미세하게 카운트다운 숫자가 비침 — 건물 자체가 감염된 듯. 차가운 청색+콘크리트 회색.\nVisible cast: 청신\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n\n--- COMPOSITION ---\nCamera: wide\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p15-2",
+      "page_number": 15,
+      "description": "【extreme close-up】 청신의 손이 문고리에. 관절 하얗게 질림 — 결의와 두려움. 문고리에 왜곡된 얼굴 반사.",
+      "camera_angle": "extreme_close_up",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "청신(손)"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/chengxin-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p15-2.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 15\nPanel ID: p15-2\nStoryboard description: 【extreme close-up】 청신의 손이 문고리에. 관절 하얗게 질림 — 결의와 두려움. 문고리에 왜곡된 얼굴 반사.\nVisible cast: 청신(손)\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n\n--- COMPOSITION ---\nCamera: extreme_close_up\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p15-3",
+      "page_number": 15,
+      "description": "【medium】 문이 열림. 안쪽 — 수많은 모니터, 장비. 왕먀오의 등만 보임. 모니터들이 유일한 광원. 중앙 메인 모니터는 깜깜함.",
+      "camera_angle": "medium",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "청신",
+        "왕먀오(등)"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/chengxin-v1.png",
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "image_path": "episodes/EP001/panels/assets/p15-3.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 15\nPanel ID: p15-3\nStoryboard description: 【medium】 문이 열림. 안쪽 — 수많은 모니터, 장비. 왕먀오의 등만 보임. 모니터들이 유일한 광원. 중앙 메인 모니터는 깜깜함.\nVisible cast: 청신, 왕먀오(등)\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n- 왕먀오 (汪淼): Reference asset: episodes/EP001/characters/assets/wangmiao-v1.png Appearance: 30대 중국 남성, 단정한 외모, 큰 안경(뿔테), 차분한 표정, 마른 체형. 캐주얼 셔츠 + 슬랙스, 연구실 가운. 안경에 반사되는 빛이 특징. Style notes: Toriyama style: clean geometric design, large round glasses with light reflection, neat simplified hair. Cool blue-grey cell-shaded palette. Inner tone: 순수한 과학적 호기심. 현실감각과 책임감. 내면의 두려움과 용기의 공존. EP001 마지막에 모니터 앞에 등장.\n\n--- COMPOSITION ---\nCamera: medium\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p16-1",
+      "page_number": 16,
+      "description": "【풀 페이지】 왕먀오의 메인 모니터 확대. 깜깜한 화면에 거대한 글자: '당신은 물리학을 믿습니까?' 아래 작게: 'Three Body — 게임을 시작하시겠습니까? [Y] [N]' Final Image — p1 태양3개 그림이 차가운 텍스트로 회수. 크레온 태양 → 모니터 텍스트. 커서가 깜빡임.",
+      "camera_angle": "close_up",
+      "visual_type": "impact",
+      "characters_in_frame": [],
+      "reference_assets": [],
+      "image_path": "episodes/EP001/panels/assets/p16-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 16\nPanel ID: p16-1\nStoryboard description: 【풀 페이지】 왕먀오의 메인 모니터 확대. 깜깜한 화면에 거대한 글자: '당신은 물리학을 믿습니까?' 아래 작게: 'Three Body — 게임을 시작하시겠습니까? [Y] [N]' Final Image — p1 태양3개 그림이 차가운 텍스트로 회수. 크레온 태양 → 모니터 텍스트. 커서가 깜빡임.\nVisible cast: none\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: close_up\nPanel type: full-page splash\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "pending",
+      "ai_score": null,
+      "human_score": null
+    }
+  ],
+  "prompt_version": "v2-toriyama-internal"
+}

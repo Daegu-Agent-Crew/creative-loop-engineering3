@@ -1,1 +1,74 @@
-{"$schema": "http://json-schema.org/draft-07/schema#", "title": "Panel Image Output", "type": "object", "required": ["episode_id", "panels", "prompt_version"], "properties": {"episode_id": {"type": "string"}, "panels": {"type": "array", "items": {"type": "object", "required": ["panel_id", "image_path", "generation_prompt"], "properties": {"panel_id": {"type": "string"}, "image_path": {"type": "string"}, "generation_prompt": {"type": "string"}, "style": {"type": "string"}, "ai_score": {"type": "number", "minimum": 0, "maximum": 50}, "human_score": {"type": "number", "minimum": 0, "maximum": 50}}}}, "prompt_version": {"type": "string"}}}
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Panel Image Output",
+  "type": "object",
+  "required": ["episode_id", "panels", "prompt_version"],
+  "properties": {
+    "episode_id": {
+      "type": "string"
+    },
+    "panels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["panel_id", "image_path", "generation_prompt"],
+        "properties": {
+          "panel_id": {
+            "type": "string"
+          },
+          "page_number": {
+            "type": "integer"
+          },
+          "description": {
+            "type": "string"
+          },
+          "camera_angle": {
+            "type": "string"
+          },
+          "visual_type": {
+            "type": "string",
+            "enum": ["normal", "impact", "silence"]
+          },
+          "characters_in_frame": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "reference_assets": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "image_path": {
+            "type": "string"
+          },
+          "generation_prompt": {
+            "type": "string"
+          },
+          "style": {
+            "type": "string"
+          },
+          "generation_status": {
+            "type": "string",
+            "enum": ["pending", "generated", "selected", "deprecated"]
+          },
+          "ai_score": {
+            "type": ["number", "null"],
+            "minimum": 0,
+            "maximum": 50
+          },
+          "human_score": {
+            "type": ["number", "null"],
+            "minimum": 0,
+            "maximum": 50
+          }
+        }
+      }
+    },
+    "prompt_version": {
+      "type": "string"
+    }
+  }
+}

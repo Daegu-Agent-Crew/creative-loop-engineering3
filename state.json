@@ -43,7 +43,7 @@
         "phase4": {
           "status": "active",
           "prompt_version": "v2",
-          "note": "캐릭터 시트 → 배경 → 컷 연출"
+          "note": "storyboard + characters 기준으로 panels.json/asset slots 재동기화 완료. 생성 이미지는 episodes/EP001/panels/assets/ 내부 저장."
         },
         "phase5": {
           "status": "pending"
