@@ -1,17 +1,18 @@
 # EP002 Panels Manifest
 
-## 목적
-- EP002 패널 원본의 source of truth
-- 공개 전 `scripts/sync_episode_assets.sh EP002` 실행 기준 디렉토리
+## 현재 상태
 
-## 파일명 규칙
-- `ep002-p01-scene-name.png`
-- `ep002-p02-scene-name.png`
+- phase: phase4_panels
+- total_panels: 57
+- generated_panels: 3
+- pending_panels: 54
+- asset_dir: `episodes/EP002/panels/assets/`
+- workflow_rule: CLE3 내부 storyboard + characters 산출물만 사용. 외부 저장소 생성 결과 재사용 금지.
 
 ## 작업 규칙
-- 패널 저장 전 대본/콘티 버전을 기록한다.
-- 재생성본은 기존 파일을 덮어쓰기보다 새 버전 suffix를 붙여 비교 흔적을 남긴다.
-- 최종 선정본은 `results.md`와 함께 연결 메모를 남긴다.
 
-## 현재 상태
-- 패널 원본 미생성
+- storyboard.json의 panel_id 순서를 기준으로 생성한다.
+- characters.json의 image_path를 패널 생성 참조 자산으로 사용한다.
+- 생성 이미지는 모두 `episodes/{EP}/panels/assets/`에 저장한다.
+- panels.json의 generation_prompt, reference_assets, generation_status를 함께 갱신한다.
+- 실제 패널이 생성되기 전까지는 target asset slot만 유지하고 placeholder 상태로 본다.

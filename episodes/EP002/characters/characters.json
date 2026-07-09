@@ -1,0 +1,49 @@
+{
+  "episode_id": "EP002",
+  "prompt_version": "v2-toriyama-reuse-ep001",
+  "characters": [
+    {
+      "name": "왕먀오 (汪淼)",
+      "appearance": "30대 중국 남성, 단정한 짧은 검은 머리, 큰 둥근 뿔테 안경, 마른 체형. 캐주얼 셔츠와 슬랙스, 연구실 장면에서는 흰 가운. 안경 렌즈의 반사광이 시그니처.",
+      "personality": "정밀한 측정과 합리적 설명을 믿는 나노소재 연구자. 가족을 지키려는 책임감이 강하지만 설명 불가능한 현상 앞에서는 공포를 부정하려 한다.",
+      "style_notes": "Toriyama style: clean geometric silhouette, large round glasses, neat simplified hair, restrained facial acting that breaks into exaggerated panic during countdown beats. Cool blue-grey cell-shaded palette, lens highlights emphasized.",
+      "reference_image": "episodes/EP001/characters/assets/wangmiao-v1.png",
+      "image_path": "episodes/EP001/characters/assets/wangmiao-v1.png",
+      "generation_status": "selected",
+      "asset_slot": "episodes/EP001/characters/assets/wangmiao-v1.png"
+    },
+    {
+      "name": "스치친 (史强)",
+      "appearance": "40대 중국 남성, 헝클어진 검은 머리, 무거운 수염 자국, 피곤한 좁은 눈, 묵직한 체형. 낡은 작업복 재킷과 열린 흰 셔츠, 헐렁한 바지, 담배 또는 포장마차 젓가락이 시그니처 소품.",
+      "personality": "거칠고 무례하지만 직감이 날카로운 형사. 왕먀오를 불편하게 만들면서도 공포를 관찰 가능한 단서로 바꾸는 안내자 역할.",
+      "style_notes": "Toriyama style: rugged rounded bulk, exaggerated weary posture, stubble dots, small shrewd eyes. Earthy olive-brown palette with amber cigarette or food-stall light.",
+      "reference_image": "episodes/EP001/characters/assets/shiqiang-v1.png",
+      "image_path": "episodes/EP001/characters/assets/shiqiang-v1.png",
+      "generation_status": "selected",
+      "asset_slot": "episodes/EP001/characters/assets/shiqiang-v1.png"
+    },
+    {
+      "name": "쯔쯔",
+      "appearance": "초등학생 또래의 중국 여자아이, 둥근 얼굴, 큰 눈, 짧은 검은 단발 또는 양갈래, 밝은 노란색/분홍색 실내복. 손에는 크레용 가족 그림.",
+      "personality": "밝고 장난스럽다. 왕먀오가 지키고 싶은 일상의 온기이며, 카운트다운 공포가 사적 세계에 침투했음을 보여주는 감정 앵커.",
+      "style_notes": "Toriyama style: very rounded child proportions, oversized expressive eyes, simple bright clothing shapes, playful gesture language. Warm yellow and pink cell-shaded palette.",
+      "reference_image": "episodes/EP002/characters/assets/zizi-v1.png",
+      "image_path": "episodes/EP002/characters/assets/zizi-v1.png",
+      "generation_status": "generated",
+      "asset_slot": "episodes/EP002/characters/assets/zizi-v1.png",
+      "source_prompt": "Character reference sheet for Zizi, young Chinese girl, elementary school age, round face, large expressive eyes, short black bob or small pigtails, bright yellow and pink home clothes, holding a crayon family drawing. Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character design, playful 1980s manga aesthetic. Clean white background.",
+      "model": "built-in image_gen",
+      "generated_at": "2026-07-09"
+    },
+    {
+      "name": "연구원",
+      "appearance": "20~30대 연구실 동료, 흰 가운, ID 카드, 커피 컵. 성별은 패널마다 필요에 따라 중립적으로 유지 가능.",
+      "personality": "가벼운 농담으로 왕먀오의 평소 상태를 보여주는 일상 인물. 긴장 이전의 정상성을 담당한다.",
+      "style_notes": "Toriyama style: simple background cast design, readable lab-coat silhouette, friendly rounded expression, low visual dominance.",
+      "reference_image": "",
+      "image_path": "",
+      "generation_status": "pending",
+      "asset_slot": "episodes/EP002/characters/assets/researcher-v1.png"
+    }
+  ]
+}
