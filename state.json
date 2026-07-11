@@ -55,7 +55,7 @@
     },
     "EP002": {
       "title": "카운트다운",
-      "status": "pending",
+      "status": "in_progress",
       "current_phase": "phase1_story",
       "phases": {
         "phase0": {
@@ -67,9 +67,16 @@
           "score": null
         },
         "phase1": {
-          "status": "active",
+          "status": "completed",
           "score": null,
-          "prompt_version": "markdown-draft"
+          "prompt_version": "v3-4step",
+          "note": "V3 워크플로우로 재작성. 28p→16p. analysis→outline→scenes→script 4단계 완료.",
+          "sub_files": [
+            "story/analysis.md",
+            "story/outline.md",
+            "story/scenes.md",
+            "script/script.md"
+          ]
         },
         "phase2": {
           "status": "pending"
@@ -90,7 +97,7 @@
     },
     "EP003": {
       "title": "세 개의 태양",
-      "status": "pending",
+      "status": "in_progress",
       "current_phase": "phase1_story",
       "phases": {
         "phase0": {
@@ -102,9 +109,16 @@
           "score": null
         },
         "phase1": {
-          "status": "active",
+          "status": "completed",
           "score": null,
-          "prompt_version": "markdown-draft"
+          "prompt_version": "v3-4step",
+          "note": "V3 워크플로우로 재작성. 28p→15p. analysis→outline→scenes→script 4단계 완료.",
+          "sub_files": [
+            "story/analysis.md",
+            "story/outline.md",
+            "story/scenes.md",
+            "script/script.md"
+          ]
         },
         "phase2": {
           "status": "pending"
@@ -125,7 +139,7 @@
     },
     "EP004": {
       "title": "문명의 역사",
-      "status": "pending",
+      "status": "in_progress",
       "current_phase": "phase1_story",
       "phases": {
         "phase0": {
@@ -137,9 +151,16 @@
           "score": null
         },
         "phase1": {
-          "status": "active",
+          "status": "completed",
           "score": null,
-          "prompt_version": "markdown-draft"
+          "prompt_version": "v3-4step",
+          "note": "V3 워크플로우로 재작성. 28p→16p. analysis→outline→scenes→script 4단계 완료.",
+          "sub_files": [
+            "story/analysis.md",
+            "story/outline.md",
+            "story/scenes.md",
+            "script/script.md"
+          ]
         },
         "phase2": {
           "status": "pending"
@@ -160,7 +181,7 @@
     },
     "EP005": {
       "title": "별의 바다",
-      "status": "pending",
+      "status": "in_progress",
       "current_phase": "phase1_story",
       "phases": {
         "phase0": {
@@ -172,9 +193,16 @@
           "score": null
         },
         "phase1": {
-          "status": "active",
+          "status": "completed",
           "score": null,
-          "prompt_version": "markdown-draft"
+          "prompt_version": "v3-4step",
+          "note": "V3 워크플로우로 재작성. 28p→16p. analysis→outline→scenes→script 4단계 완료.",
+          "sub_files": [
+            "story/analysis.md",
+            "story/outline.md",
+            "story/scenes.md",
+            "script/script.md"
+          ]
         },
         "phase2": {
           "status": "pending"
@@ -222,5 +250,5 @@
       "previous_score": 45
     }
   ],
-  "last_updated": "2026-07-08T00:36:00Z"
+  "last_updated": "2026-07-11T05:10:00Z"
 }
