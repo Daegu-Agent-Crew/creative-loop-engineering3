@@ -931,6 +931,8 @@ async function renderEpisode() {
 
   // V3 우선: script/script.md가 있으면 scriptMd를 덮어씀
   const effectiveScriptMd = v3ScriptMd || scriptMd;
+  // results.md fallback: 루트에 없으면 v0-backup 확인
+  const effectiveResultsMd = resultsMd || await loadText(`episodes/${episodeId}/script/v0-backup/results-v0.md`);
 
   const episodeExternalUrl = publishedViewerHtml ? episodeDocUrl(episodeId) : repoBlobUrl(`episodes/${episodeId}`);
   const episodeExternalLabel = publishedViewerHtml ? '공개 뷰어' : '에피소드 소스';
@@ -967,7 +969,7 @@ async function renderEpisode() {
     storyboardMd: storyboardMd,
     panels: panels,
     qa: qa,
-    resultsMd: resultsMd,
+    resultsMd: effectiveResultsMd,
     manifestMd: manifestMd,
     publishedViewerHtml: publishedViewerHtml,
     analysisMd: analysisMd,
@@ -1147,12 +1149,38 @@ function renderScriptTab(context) {
   }
 
   if (!script && context.scriptMd) {
-    const pageCount = extractMarkdownTableValue(context.scriptMd, '페이지 수');
+    const pageCount = extractMarkdownTableValue(context.scriptMd, '페이지') ||
+      (context.scriptMd.match(/^###\s+p\d+/gm) || []).length || '-';
     const logline = extractMarkdownSection(context.scriptMd, '로그라인');
+    const heading = extractMarkdownHeading(context.scriptMd) || context.episodeId;
+    const isV3 = /###\s+p\d+\s+—/.test(context.scriptMd);
+    if (isV3) {
+      const pages = (context.scriptMd.match(/^###\s+p\d+[^\n]*/gm) || []);
+      const pageSections = context.scriptMd.split(/^(?=###\s+p\d+)/m).filter(function(s) { return /^###\s+p\d+/.test(s); });
+      let pagesHtml = '';
+      pageSections.forEach(function(section) {
+        const titleMatch = section.match(/^###\s+(p\d+[^\n]*)/m);
+        const pageTitle = titleMatch ? titleMatch[1] : '';
+        const tableMatch = section.match(/\|[\s\S]*?\|\s*\n([\s\S]*?)(?=\n\n|\n##|$)/);
+        pagesHtml += '<div class="scene-card"><div class="output-title">' + escapeHtml(pageTitle) + '</div>';
+        if (tableMatch) {
+          pagesHtml += '<pre class="output-md">' + escapeHtml(tableMatch[0].trim()) + '</pre>';
+        } else {
+          pagesHtml += '<pre class="output-md">' + escapeHtml(section.replace(/^###\s+[^\n]+\n/, '').trim()) + '</pre>';
+        }
+        pagesHtml += '</div>';
+      });
+      return `<div class="card">
+        <h3>${escapeHtml(heading)}</h3>
+        <p class="meta">페이지 ${pages.length || pageCount} / V3 4-step workflow</p>
+        ${logline ? `<div class="scene-card"><div class="output-title">로그라인</div><div class="output-desc">${escapeHtml(logline)}</div></div>` : ''}
+        ${pagesHtml}
+      </div>`;
+    }
     const acts = markdownListItems(extractMarkdownSection(context.scriptMd, '페이지 설계 메모'));
     const checklist = markdownChecklistItems(extractMarkdownSection(context.scriptMd, '패널 작업 체크'));
     return `<div class="card">
-      <h3>${escapeHtml(extractMarkdownHeading(context.scriptMd) || context.episodeId)}</h3>
+      <h3>${escapeHtml(heading)}</h3>
       <p class="meta">페이지 ${escapeHtml(pageCount || '-')} / markdown source</p>
       ${logline ? `<div class="scene-card"><div class="output-title">로그라인</div><div class="output-desc">${escapeHtml(logline)}</div></div>` : ''}
       ${acts.length ? `<div class="scene-card"><div class="output-title">페이지 설계 메모</div>${acts.map(function (item) { return `<div class="output-desc">- ${escapeHtml(item)}</div>`; }).join('')}</div>` : ''}
