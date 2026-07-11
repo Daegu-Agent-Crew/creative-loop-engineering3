@@ -45,7 +45,7 @@ Phase 1(Story)는 다음 4단계로 내부 세분화됩니다:
 - **[C] 장면 작성:** 장면별 대사, 감정, 연출 의도, 색감, 가설 태깅
 - **[D] 패널 분해:** 페이지/패널 분할, 감정/연출 메모 (Phase 4에서 직접 사용)
 
-상세 가이드: `prompts/story/v2.md` 참고
+상세 가이드: `prompts/story/v3.md` 참고
 
 ## Phase 4 상세: 4단계 이미지 워크플로우
 
@@ -133,7 +133,8 @@ creative-loop-engineering3/
 │   ├── backgrounds/       # 배경 PNG 라이브러리
 │   └── tests/             # 화풍 테스트 이미지
 ├── prompts/               # Phase별 프롬프트 템플릿
-│   ├── story/v2.md
+│   ├── story/v2.md (deprecated)
+│   ├── story/v3.md
 │   ├── character/v2.md
 │   ├── storyboard/v2.md
 │   ├── image/v2.md
