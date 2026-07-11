@@ -28,6 +28,7 @@ const PHASE_SEQUENCE = [
 
 const EPISODE_TABS = [
   ['overview', '개요'],
+  ['story', '스토리'],
   ['script', '대본'],
   ['characters', '캐릭터'],
   ['storyboard', '콘티'],
@@ -911,7 +912,7 @@ async function renderEpisode() {
     return `<a href="#episode/${episodeId}/${item[0]}" class="tab-chip ${cls}">${item[1]}</a>`;
   }).join('');
 
-  const [script, characters, storyboard, panels, qa, scriptMd, storyboardMd, resultsMd, manifestMd, publishedViewerHtml] = await Promise.all([
+  const [script, characters, storyboard, panels, qa, scriptMd, storyboardMd, resultsMd, manifestMd, publishedViewerHtml, analysisMd, outlineMd, scenesMd, v3ScriptMd] = await Promise.all([
     loadJson(`episodes/${episodeId}/script/script.json`),
     loadJson(`episodes/${episodeId}/characters/characters.json`),
     loadJson(`episodes/${episodeId}/storyboard/storyboard.json`),
@@ -921,15 +922,25 @@ async function renderEpisode() {
     loadText(`episodes/${episodeId}/storyboard.md`),
     loadText(`episodes/${episodeId}/results.md`),
     loadText(`episodes/${episodeId}/panels/MANIFEST.md`),
-    loadText(`docs/episodes/${episodeId}/index.html`)
+    loadText(`docs/episodes/${episodeId}/index.html`),
+    loadText(`episodes/${episodeId}/story/analysis.md`),
+    loadText(`episodes/${episodeId}/story/outline.md`),
+    loadText(`episodes/${episodeId}/story/scenes.md`),
+    loadText(`episodes/${episodeId}/script/script.md`)
   ]);
+
+  // V3 우선: script/script.md가 있으면 scriptMd를 덮어씀
+  const effectiveScriptMd = v3ScriptMd || scriptMd;
 
   const episodeExternalUrl = publishedViewerHtml ? episodeDocUrl(episodeId) : repoBlobUrl(`episodes/${episodeId}`);
   const episodeExternalLabel = publishedViewerHtml ? '공개 뷰어' : '에피소드 소스';
 
   const sourceDocs = [];
   if (script) sourceDocs.push({ label: 'script.json', path: `episodes/${episodeId}/script/script.json` });
-  if (scriptMd) sourceDocs.push({ label: 'script.md', path: `episodes/${episodeId}/script.md` });
+  if (effectiveScriptMd) sourceDocs.push({ label: 'script.md', path: `episodes/${episodeId}/${v3ScriptMd ? 'script/script.md' : 'script.md'}` });
+  if (analysisMd) sourceDocs.push({ label: 'analysis.md', path: `episodes/${episodeId}/story/analysis.md` });
+  if (outlineMd) sourceDocs.push({ label: 'outline.md', path: `episodes/${episodeId}/story/outline.md` });
+  if (scenesMd) sourceDocs.push({ label: 'scenes.md', path: `episodes/${episodeId}/story/scenes.md` });
   if (storyboard) sourceDocs.push({ label: 'storyboard.json', path: `episodes/${episodeId}/storyboard/storyboard.json` });
   if (storyboardMd) sourceDocs.push({ label: 'storyboard.md', path: `episodes/${episodeId}/storyboard.md` });
   if (qa) sourceDocs.push({ label: 'qa.json', path: `episodes/${episodeId}/qa/qa.json` });
@@ -950,7 +961,7 @@ async function renderEpisode() {
     episode: episode,
     state: state,
     script: script,
-    scriptMd: scriptMd,
+    scriptMd: effectiveScriptMd,
     characters: characters,
     storyboard: storyboard,
     storyboardMd: storyboardMd,
@@ -958,7 +969,11 @@ async function renderEpisode() {
     qa: qa,
     resultsMd: resultsMd,
     manifestMd: manifestMd,
-    publishedViewerHtml: publishedViewerHtml
+    publishedViewerHtml: publishedViewerHtml,
+    analysisMd: analysisMd,
+    outlineMd: outlineMd,
+    scenesMd: scenesMd,
+    v3ScriptMd: v3ScriptMd
   };
 
   app.innerHTML = headerHtml() + navHtml() + patBanner() + sourceModeBanner() + `
@@ -995,12 +1010,44 @@ async function renderEpisode() {
 }
 
 function renderEpisodeTab(tab, context) {
+  if (tab === 'story') return renderStoryTab(context);
   if (tab === 'script') return renderScriptTab(context);
   if (tab === 'characters') return renderCharactersTab(context);
   if (tab === 'storyboard') return renderStoryboardTab(context);
   if (tab === 'panels') return renderPanelsTab(context);
   if (tab === 'qa') return renderQATab(context);
   return renderOverviewTab(context);
+}
+
+function renderStoryTab(context) {
+  const analysisMd = context.analysisMd;
+  const outlineMd = context.outlineMd;
+  const scenesMd = context.scenesMd;
+  const v3ScriptMd = context.v3ScriptMd;
+
+  if (!analysisMd && !outlineMd && !scenesMd && !v3ScriptMd) {
+    return '<div class="card"><p>V3 스토리 산출물이 없습니다.</p><p class="meta">story/analysis.md, outline.md, scenes.md, script/script.md가 필요합니다.</p></div>';
+  }
+
+  function storySection(title, md) {
+    if (!md) return '';
+    return '<div class="scene-card"><div class="output-title">' + escapeHtml(title) + '</div>' + renderMarkdownPreview(md) + '</div>';
+  }
+
+  return '<div class="card">' +
+    '<h3>V3 4-Step Story Workflow</h3>' +
+    '<p class="meta">[A] 원작 분석 → [B] 구조 설계 → [C] 장면 작성 → [D] 패널 분해</p>' +
+    storySection('[A] 원작 분석 (analysis.md)', analysisMd) +
+    storySection('[B] 구조 설계 (outline.md)', outlineMd) +
+    storySection('[C] 장면 작성 (scenes.md)', scenesMd) +
+    storySection('[D] 패널 분해 (script.md)', v3ScriptMd) +
+    '<div class="scene-card"><div class="output-title">소스 파일</div>' +
+    '<p><a href="' + repoBlobUrl('episodes/' + context.episodeId + '/story/analysis.md') + '" target="_blank">analysis.md</a>' +
+    ' · <a href="' + repoBlobUrl('episodes/' + context.episodeId + '/story/outline.md') + '" target="_blank">outline.md</a>' +
+    ' · <a href="' + repoBlobUrl('episodes/' + context.episodeId + '/story/scenes.md') + '" target="_blank">scenes.md</a>' +
+    ' · <a href="' + repoBlobUrl('episodes/' + context.episodeId + '/script/script.md') + '" target="_blank">script.md</a></p>' +
+    '</div>' +
+    '</div>';
 }
 
 function renderOverviewTab(context) {
