@@ -9,8 +9,7 @@
 ## 개요
 
 ```
-[A] 화풍 정의  →  [B] 캐릭터 시트  →  [C] 배경  →  [D] 컷 연출
-   (고정됨)        (캐릭터별)         (장소별)     (최종 합성)
+[A] 화풍 정의  →  [B] 캐릭터 시트  →  [C] 패널 슬롯 동기화  →  [D] 페이지 단위 생성 큐  →  [E] 이미지 생성  →  [F] 텍스트 후처리
 ```
 
 ---
@@ -111,11 +110,33 @@ Camera: medium shot, slightly low angle.
 Panel type: single panel.
 
 --- TEXT ---
-Speech: "동지들, 역사는 우리에게 심판을 요구한다."
+Speech balloon area reserved only. Final Korean dialogue is overlaid later.
 
 Vertical manga panel composition.
 Save to episodes/EP001/panels/assets/ep001-p01-judgment.png'
 ```
+
+## 배치 운영
+
+### 1) 슬롯/프롬프트 동기화
+```bash
+node scripts/sync-panels.js EP001
+```
+
+### 2) 페이지 단위 작업 큐 생성
+```bash
+node scripts/build-panel-jobs.js EP001
+```
+
+생성 결과:
+- `episodes/EP001/panels/panels.json`
+- `episodes/EP001/panels/generation-jobs.json`
+
+### 3) 실행 원칙
+- 기본 단위: 패널 1장씩이 아니라 **페이지 단위 배치**
+- 일반 페이지: 동시 2~3개
+- 다인물/몽타주/풀페이지: 동시 1개
+- 실패 시: **해당 패널만 재생성**
 
 ---
 
@@ -150,6 +171,6 @@ backgrounds: bg-{type}-{location}-{time}.png
 - [ ] 캐릭터 시트 PNG 참조 확인
 - [ ] 배경 설명 포함
 - [ ] 카메라 앵글 명시
-- [ ] 대사/자막 포함
+- [ ] 대사/자막은 후처리 오버레이 대상으로 분리
 - [ ] 파일명 규칙 준수
 - [ ] panels.json에 메타데이터 기록

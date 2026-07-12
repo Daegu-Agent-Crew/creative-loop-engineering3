@@ -1,0 +1,279 @@
+{
+  "episode_id": "EP001",
+  "policy": {
+    "batch_strategy": "page",
+    "text_strategy": "postprocess_overlay",
+    "parallel_limit": 3,
+    "complex_parallel_limit": 1
+  },
+  "jobs": [
+    {
+      "job_id": "EP001-page-01",
+      "page_number": 1,
+      "panel_ids": [
+        "p1-1",
+        "p1-2",
+        "p1-3"
+      ],
+      "character_refs": [],
+      "complexity": "simple",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "status": "ready",
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP001-page-02",
+      "page_number": 2,
+      "panel_ids": [
+        "p2-1",
+        "p2-2",
+        "p2-3",
+        "p2-4"
+      ],
+      "character_refs": [
+        "episodes/EP001/characters/assets/yewenjie-v1.png"
+      ],
+      "complexity": "standard",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "status": "partial",
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP001-page-03",
+      "page_number": 3,
+      "panel_ids": [
+        "p3-1",
+        "p3-2",
+        "p3-3"
+      ],
+      "character_refs": [
+        "episodes/EP001/characters/assets/yewenjie-v1.png"
+      ],
+      "complexity": "simple",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "status": "partial",
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP001-page-04",
+      "page_number": 4,
+      "panel_ids": [
+        "p4-1",
+        "p4-2",
+        "p4-3",
+        "p4-4"
+      ],
+      "character_refs": [
+        "episodes/EP001/characters/assets/yewenjie-v1.png"
+      ],
+      "complexity": "standard",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "status": "partial",
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP001-page-05",
+      "page_number": 5,
+      "panel_ids": [
+        "p5-1",
+        "p5-2",
+        "p5-3"
+      ],
+      "character_refs": [
+        "episodes/EP001/characters/assets/yewenjie-v1.png"
+      ],
+      "complexity": "complex",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "status": "partial",
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP001-page-06",
+      "page_number": 6,
+      "panel_ids": [
+        "p6-1"
+      ],
+      "character_refs": [
+        "episodes/EP001/characters/assets/yewenjie-v1.png"
+      ],
+      "complexity": "complex",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "status": "completed",
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP001-page-07",
+      "page_number": 7,
+      "panel_ids": [
+        "p7-1",
+        "p7-2",
+        "p7-3",
+        "p7-4"
+      ],
+      "character_refs": [
+        "episodes/EP001/characters/assets/yewenjie-v1.png"
+      ],
+      "complexity": "standard",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "status": "partial",
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP001-page-08",
+      "page_number": 8,
+      "panel_ids": [
+        "p8-1"
+      ],
+      "character_refs": [],
+      "complexity": "complex",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "status": "ready",
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP001-page-09",
+      "page_number": 9,
+      "panel_ids": [
+        "p9-1",
+        "p9-2",
+        "p9-3",
+        "p9-4",
+        "p9-5",
+        "p9-6"
+      ],
+      "character_refs": [
+        "episodes/EP001/characters/assets/shiqiang-v1.png"
+      ],
+      "complexity": "standard",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "status": "partial",
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP001-page-10",
+      "page_number": 10,
+      "panel_ids": [
+        "p10-1",
+        "p10-2",
+        "p10-3"
+      ],
+      "character_refs": [
+        "episodes/EP001/characters/assets/chengxin-v1.png"
+      ],
+      "complexity": "simple",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "status": "ready",
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP001-page-11",
+      "page_number": 11,
+      "panel_ids": [
+        "p11-1",
+        "p11-2",
+        "p11-3",
+        "p11-4"
+      ],
+      "character_refs": [
+        "episodes/EP001/characters/assets/chengxin-v1.png"
+      ],
+      "complexity": "standard",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "status": "ready",
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP001-page-12",
+      "page_number": 12,
+      "panel_ids": [
+        "p12-1",
+        "p12-2",
+        "p12-3",
+        "p12-4"
+      ],
+      "character_refs": [
+        "episodes/EP001/characters/assets/chengxin-v1.png"
+      ],
+      "complexity": "standard",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "status": "ready",
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP001-page-13",
+      "page_number": 13,
+      "panel_ids": [
+        "p13-1",
+        "p13-2",
+        "p13-3",
+        "p13-4"
+      ],
+      "character_refs": [
+        "episodes/EP001/characters/assets/chengxin-v1.png"
+      ],
+      "complexity": "complex",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "status": "ready",
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP001-page-14",
+      "page_number": 14,
+      "panel_ids": [
+        "p14-1"
+      ],
+      "character_refs": [
+        "episodes/EP001/characters/assets/chengxin-v1.png"
+      ],
+      "complexity": "complex",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "status": "ready",
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP001-page-15",
+      "page_number": 15,
+      "panel_ids": [
+        "p15-1",
+        "p15-2",
+        "p15-3"
+      ],
+      "character_refs": [
+        "episodes/EP001/characters/assets/chengxin-v1.png",
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "complexity": "complex",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "status": "ready",
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP001-page-16",
+      "page_number": 16,
+      "panel_ids": [
+        "p16-1"
+      ],
+      "character_refs": [],
+      "complexity": "complex",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "status": "ready",
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    }
+  ]
+}

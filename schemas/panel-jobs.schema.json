@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Panel Generation Jobs",
+  "type": "object",
+  "required": ["episode_id", "jobs", "policy"],
+  "properties": {
+    "episode_id": {
+      "type": "string"
+    },
+    "policy": {
+      "type": "object",
+      "properties": {
+        "batch_strategy": {
+          "type": "string"
+        },
+        "text_strategy": {
+          "type": "string"
+        },
+        "parallel_limit": {
+          "type": "integer"
+        },
+        "complex_parallel_limit": {
+          "type": "integer"
+        }
+      }
+    },
+    "jobs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["job_id", "page_number", "panel_ids", "status"],
+        "properties": {
+          "job_id": {
+            "type": "string"
+          },
+          "page_number": {
+            "type": "integer"
+          },
+          "panel_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "character_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "complexity": {
+            "type": "string",
+            "enum": ["simple", "standard", "complex"]
+          },
+          "text_overlay_required": {
+            "type": "boolean"
+          },
+          "retry_count": {
+            "type": "integer"
+          },
+          "status": {
+            "type": "string",
+            "enum": ["pending", "ready", "in_progress", "partial", "completed", "blocked"]
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
