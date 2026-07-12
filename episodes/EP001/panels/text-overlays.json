@@ -1,0 +1,165 @@
+{
+  "episode_id": "EP001",
+  "version": 1,
+  "panels": [
+    {
+      "panel_id": "p2-1",
+      "page_number": 2,
+      "source_image_path": "episodes/EP001/panels/assets/p2-1.png",
+      "final_image_path": "episodes/EP001/panels/final/p2-1.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p2-3",
+      "page_number": 2,
+      "source_image_path": "episodes/EP001/panels/assets/p2-3.png",
+      "final_image_path": "episodes/EP001/panels/final/p2-3.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "교수님, 이 각도에서 스펙트럼이 이상해요. 마치... 하늘이 말을 하고 있는 것 같아요.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-1",
+      "page_number": 3,
+      "source_image_path": "episodes/EP001/panels/assets/p3-1.png",
+      "final_image_path": "episodes/EP001/panels/final/p3-1.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p3-3",
+      "page_number": 3,
+      "source_image_path": "episodes/EP001/panels/assets/p3-3.png",
+      "final_image_path": "episodes/EP001/panels/final/p3-3.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p4-3",
+      "page_number": 4,
+      "source_image_path": "episodes/EP001/panels/assets/p4-3.png",
+      "final_image_path": "episodes/EP001/panels/final/p4-3.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p5-3",
+      "page_number": 5,
+      "source_image_path": "episodes/EP001/panels/assets/p5-3.png",
+      "final_image_path": "episodes/EP001/panels/final/p5-3.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p6-1",
+      "page_number": 6,
+      "source_image_path": "episodes/EP001/panels/assets/p6-1.png",
+      "final_image_path": "episodes/EP001/panels/final/p6-1.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p7-1",
+      "page_number": 7,
+      "source_image_path": "episodes/EP001/panels/assets/p7-1.png",
+      "final_image_path": "episodes/EP001/panels/final/p7-1.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p7-2",
+      "page_number": 7,
+      "source_image_path": "episodes/EP001/panels/assets/p7-2.png",
+      "final_image_path": "episodes/EP001/panels/final/p7-2.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p7-3",
+      "page_number": 7,
+      "source_image_path": "episodes/EP001/panels/assets/p7-3.png",
+      "final_image_path": "episodes/EP001/panels/final/p7-3.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p9-1",
+      "page_number": 9,
+      "source_image_path": "episodes/EP001/panels/assets/p9-1.png",
+      "final_image_path": "episodes/EP001/panels/final/p9-1.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p9-2",
+      "page_number": 9,
+      "source_image_path": "episodes/EP001/panels/assets/p9-2.png",
+      "final_image_path": "episodes/EP001/panels/final/p9-2.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "셋 다 다른 분야야. 근데 죽기 전에 모두 비슷한 행동을 했어.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p9-4",
+      "page_number": 9,
+      "source_image_path": "episodes/EP001/panels/assets/p9-4.png",
+      "final_image_path": "episodes/EP001/panels/final/p9-4.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "전원이 마지막 2주간 자기 연구를 포기하고, 계속 밤하늘만 봤어. 마지막 날엔 전부 창문을 열어놓고 있었지.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p9-6",
+      "page_number": 9,
+      "source_image_path": "episodes/EP001/panels/assets/p9-6.png",
+      "final_image_path": "episodes/EP001/panels/final/p9-6.svg",
+      "status": "embedded_text",
+      "notes": "Generated source image already contains the intended chalk text; do not add another overlay.",
+      "overlays": []
+    }
+  ]
+}

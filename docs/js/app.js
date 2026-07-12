@@ -912,11 +912,12 @@ async function renderEpisode() {
     return `<a href="#episode/${episodeId}/${item[0]}" class="tab-chip ${cls}">${item[1]}</a>`;
   }).join('');
 
-  const [script, characters, storyboard, panels, qa, scriptMd, storyboardMd, resultsMd, manifestMd, publishedViewerHtml, analysisMd, outlineMd, scenesMd, v3ScriptMd] = await Promise.all([
+  const [script, characters, storyboard, panels, textOverlays, qa, scriptMd, storyboardMd, resultsMd, manifestMd, publishedViewerHtml, analysisMd, outlineMd, scenesMd, v3ScriptMd] = await Promise.all([
     loadJson(`episodes/${episodeId}/script/script.json`),
     loadJson(`episodes/${episodeId}/characters/characters.json`),
     loadJson(`episodes/${episodeId}/storyboard/storyboard.json`),
     loadJson(`episodes/${episodeId}/panels/panels.json`),
+    loadJson(`episodes/${episodeId}/panels/text-overlays.json`),
     loadJson(`episodes/${episodeId}/qa/qa.json`),
     loadText(`episodes/${episodeId}/script.md`),
     loadText(`episodes/${episodeId}/storyboard.md`),
@@ -944,6 +945,7 @@ async function renderEpisode() {
   if (outlineMd) sourceDocs.push({ label: 'outline.md', path: `episodes/${episodeId}/story/outline.md` });
   if (scenesMd) sourceDocs.push({ label: 'scenes.md', path: `episodes/${episodeId}/story/scenes.md` });
   if (storyboard) sourceDocs.push({ label: 'storyboard.json', path: `episodes/${episodeId}/storyboard/storyboard.json` });
+  if (textOverlays) sourceDocs.push({ label: 'text-overlays.json', path: `episodes/${episodeId}/panels/text-overlays.json` });
   if (storyboardMd) sourceDocs.push({ label: 'storyboard.md', path: `episodes/${episodeId}/storyboard.md` });
   if (qa) sourceDocs.push({ label: 'qa.json', path: `episodes/${episodeId}/qa/qa.json` });
   if (resultsMd) sourceDocs.push({ label: 'results.md', path: `episodes/${episodeId}/results.md` });
@@ -968,6 +970,7 @@ async function renderEpisode() {
     storyboard: storyboard,
     storyboardMd: storyboardMd,
     panels: panels,
+    textOverlays: textOverlays,
     qa: qa,
     resultsMd: effectiveResultsMd,
     manifestMd: manifestMd,
@@ -1330,12 +1333,19 @@ function renderPanelsTab(context) {
   const actionItems = summarizePanelActionItems(panels.panels, qaReview.panels || {});
   const generatedCount = panels.panels.filter(function (panel) { return panel.generation_status === 'generated'; }).length;
   const pendingCount = panels.panels.filter(function (panel) { return panel.generation_status !== 'generated'; }).length;
+  const overlayByPanel = new Map(((context.textOverlays && context.textOverlays.panels) || []).map(function (item) {
+    return [item.panel_id, item];
+  }));
+  const finalCount = Array.from(overlayByPanel.values()).filter(function (item) {
+    return item.final_image_path && (item.status === 'rendered' || item.status === 'approved' || item.status === 'draft');
+  }).length;
   const characterRecords = (context.characters && context.characters.characters) || [];
   return `<div class="card">
     <h3>패널 산출물</h3>
     <div class="stats-grid">
       ${statCard(panels.panels.length, '패널')}
       ${statCard(generatedCount, '생성 완료')}
+      ${statCard(finalCount, '후처리 렌더')}
       ${statCard(pendingCount, '생성 대기')}
       ${statCard(panels.prompt_version || '-', '프롬프트 버전')}
     </div>
@@ -1346,10 +1356,15 @@ function renderPanelsTab(context) {
         ? characterRecords.filter(function (character) { return panel.reference_assets.indexOf(character.image_path) >= 0; })
         : resolveCharacterReferences(characterRecords, panel.characters_in_frame || []);
       const hasGeneratedAsset = panel.generation_status === 'generated' && panel.image_path;
+      const overlay = overlayByPanel.get(panel.panel_id) || null;
+      const previewPath = overlay && overlay.final_image_path ? overlay.final_image_path : panel.image_path;
+      const overlayTexts = overlay && overlay.overlays && overlay.overlays.length
+        ? overlay.overlays.map(function (item) { return `${item.kind}: ${item.text}`; }).join(' / ')
+        : '';
       return `<div class="scene-card">
         <div class="output-title">${escapeHtml(panel.panel_id || '')} <span class="meta">AI ${escapeHtml(panel.ai_score || '-')} / 50</span></div>
         <div class="output-desc">${escapeHtml(panel.description || '-')}</div>
-        ${hasGeneratedAsset ? `<img class="panel-preview-image" src="${assetUrl(panel.image_path)}" alt="${escapeHtml(panel.panel_id || 'panel')}" />` : `<div class="panel-placeholder">
+        ${hasGeneratedAsset ? `<img class="panel-preview-image" src="${assetUrl(previewPath)}" alt="${escapeHtml(panel.panel_id || 'panel')}" />` : `<div class="panel-placeholder">
           <div><strong>생성 대기</strong></div>
           <div class="meta">${escapeHtml(panel.image_path || '-')}</div>
         </div>`}
@@ -1359,6 +1374,12 @@ function renderPanelsTab(context) {
           <p><strong>카메라</strong><br>${escapeHtml(panel.camera_angle || '-')}</p>
           <p><strong>연출 타입</strong><br>${escapeHtml(panel.visual_type || '-')}</p>
         </div>
+        ${overlay ? `<div class="panel-qa-inline">
+          <span class="panel-qa-badge ${escapeHtml(overlay.status || 'draft')}">${escapeHtml(overlay.status || 'draft')}</span>
+          <span class="meta">final: ${escapeHtml(overlay.final_image_path || '-')}</span>
+          <span class="meta">source: ${escapeHtml(panel.image_path || '-')}</span>
+          <span class="meta">${overlayTexts ? escapeHtml(overlayTexts) : '후처리 텍스트 없음'}</span>
+        </div>` : ''}
         ${renderReferenceStrip(refs)}
         ${panel.generation_prompt ? `<div class="output-prompt">${escapeHtml(panel.generation_prompt)}</div>` : ''}
         <div class="panel-qa-inline">

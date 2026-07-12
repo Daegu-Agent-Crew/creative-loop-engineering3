@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Panel Text Overlays",
+  "type": "object",
+  "required": ["episode_id", "version", "panels"],
+  "properties": {
+    "episode_id": {
+      "type": "string"
+    },
+    "version": {
+      "type": "integer"
+    },
+    "panels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["panel_id", "source_image_path", "final_image_path", "overlays", "status"],
+        "properties": {
+          "panel_id": {
+            "type": "string"
+          },
+          "page_number": {
+            "type": "integer"
+          },
+          "source_image_path": {
+            "type": "string"
+          },
+          "final_image_path": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": ["draft", "rendered", "approved", "needs_review", "embedded_text"]
+          },
+          "notes": {
+            "type": "string"
+          },
+          "overlays": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["kind", "text", "box"],
+              "properties": {
+                "kind": {
+                  "type": "string",
+                  "enum": ["dialogue", "caption", "narration", "sfx"]
+                },
+                "text": {
+                  "type": "string"
+                },
+                "box": {
+                  "type": "object",
+                  "required": ["x", "y", "w", "h"],
+                  "properties": {
+                    "x": { "type": "number", "minimum": 0, "maximum": 1 },
+                    "y": { "type": "number", "minimum": 0, "maximum": 1 },
+                    "w": { "type": "number", "minimum": 0, "maximum": 1 },
+                    "h": { "type": "number", "minimum": 0, "maximum": 1 }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

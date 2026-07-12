@@ -191,3 +191,9 @@ creative-loop-engineering3/
 - 패널 자산을 추가하는 모든 작업은 `config/asset-storage-policy.json`과
   `docs/ASSET-STORAGE-POLICY.md`를 따른다. 원본/후보/실패 이미지는 Git에
   커밋하지 않고, 커밋 전 `node scripts/check-panel-assets.js`를 실행한다.
+- 패널 텍스트 후처리는 페이지 단위로 진행한다. 이미지가 생성된 페이지는
+  `node scripts/build-text-overlays.js --episode EPxxx --generated-only`로
+  `text-overlays.json`을 갱신하고,
+  `node scripts/render-panel-overlays.js --episode EPxxx --page N`으로
+  `episodes/EPxxx/panels/final/*.svg` 최종본을 만든다. 대시보드는 final이
+  있으면 원본 PNG 대신 후처리 SVG를 먼저 보여준다.
