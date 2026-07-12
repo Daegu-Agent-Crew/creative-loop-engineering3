@@ -77,6 +77,13 @@ Phase 4(Panels)는 다음 4단계로 내부 세분화됩니다:
 - `parallel_limit`은 문서용 숫자가 아니다. 실행기는 반드시 이 값을 읽어 실제
   동시 실행 수를 제한해야 한다.
 
+### Phase 4 운영 원칙
+- 패널 1장씩 완전 직렬 생성하지 않는다. 기본 단위는 `page` 배치다.
+- `scripts/sync-panels.js`는 패널 슬롯/프롬프트를 정리하고, `scripts/build-panel-jobs.js`는 실행 큐를 만든다.
+- 일반 패널은 동시 2~3개, 복잡한 다인물/몽타주/풀페이지는 동시 1개 기준으로 처리한다.
+- 이미지 생성 단계에서는 대사/자막을 가능한 한 비우고, 텍스트는 후처리 오버레이 대상으로 본다.
+- QA 실패 시 전체 Phase 롤백 대신 실패 패널과 인접 패널만 재검토/재생성한다.
+
 ## 이미지 생성 도구: Codex CLI
 
 ### 환경
@@ -163,6 +170,7 @@ creative-loop-engineering3/
 │   └── js/app.js
 ├── scripts/
 │   └── sync-panels.js     # storyboard + characters -> panels.json 동기화
+│   └── build-panel-jobs.js # panels.json -> generation-jobs.json 배치 큐 생성
 ├── wiki/                  # 세계관 위키
 └── .github/workflows/     # CI/CD
 ```
