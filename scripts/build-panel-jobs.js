@@ -25,7 +25,7 @@ function complexityForPanels(panels) {
 }
 
 function statusForPanels(panels) {
-  const generated = panels.filter((panel) => panel.generation_status === 'generated').length;
+  const generated = panels.filter((panel) => ['generated', 'qa_checking', 'approved', 'selected'].includes(panel.generation_status)).length;
   if (generated === 0) return 'ready';
   if (generated === panels.length) return 'completed';
   return 'partial';
@@ -34,7 +34,9 @@ function statusForPanels(panels) {
 function buildJobs(rootDir, episodeId) {
   const panelsPath = path.join(rootDir, 'episodes', episodeId, 'panels', 'panels.json');
   const outputPath = path.join(rootDir, 'episodes', episodeId, 'panels', 'generation-jobs.json');
+  const policyPath = path.join(rootDir, 'config', 'panel-generation-policy.json');
   const panelsJson = readJson(panelsPath);
+  const policyJson = readJson(policyPath);
   const pages = new Map();
 
   (panelsJson.panels || []).forEach((panel) => {
@@ -51,6 +53,13 @@ function buildJobs(rootDir, episodeId) {
     complexity: complexityForPanels(panels),
     text_overlay_required: true,
     retry_count: 0,
+    worker_tier: policyJson.models.worker_tier,
+    image_model: policyJson.models.image_model,
+    started_at: null,
+    completed_at: null,
+    generation_duration_seconds: null,
+    qa_score: null,
+    last_error: null,
     status: statusForPanels(panels),
     notes: 'Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step.'
   }));
@@ -58,10 +67,14 @@ function buildJobs(rootDir, episodeId) {
   const result = {
     episode_id: episodeId,
     policy: {
-      batch_strategy: 'page',
+      batch_strategy: policyJson.scheduling.batch_strategy,
       text_strategy: 'postprocess_overlay',
-      parallel_limit: 3,
-      complex_parallel_limit: 1
+      parallel_limit: policyJson.scheduling.normal_parallel_limit,
+      complex_parallel_limit: policyJson.scheduling.complex_parallel_limit,
+      max_total_in_flight: policyJson.scheduling.max_total_in_flight,
+      worker_tier: policyJson.models.worker_tier,
+      image_model: policyJson.models.image_model,
+      qa_tier: policyJson.models.qa_tier
     },
     jobs
   };
