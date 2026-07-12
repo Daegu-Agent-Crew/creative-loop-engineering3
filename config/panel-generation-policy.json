@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "mode": "autonomous",
+  "models": {
+    "worker_tier": "low_performance",
+    "image_model": "gpt-image-2",
+    "qa_tier": "low_performance_vision",
+    "escalation_tier": "high_reasoning"
+  },
+  "scheduling": {
+    "batch_strategy": "page_grouped_panels",
+    "one_image_per_request": true,
+    "normal_parallel_limit": 3,
+    "complex_parallel_limit": 1,
+    "max_total_in_flight": 3,
+    "continue_after_job_failure": true,
+    "skip_existing_files": true
+  },
+  "complexity": {
+    "scope": "panel",
+    "complex_when": {
+      "minimum_characters": 2,
+      "minimum_reference_assets": 3,
+      "visual_types": [
+        "montage",
+        "full_page",
+        "crowd",
+        "battle",
+        "complex_mechanical"
+      ],
+      "previous_failure": true
+    }
+  },
+  "generation": {
+    "final_text_in_image": false,
+    "reuse_character_references": true,
+    "required_inputs": [
+      "panel_id",
+      "generation_prompt",
+      "image_path",
+      "reference_assets"
+    ]
+  },
+  "retry": {
+    "max_attempts": 3,
+    "attempts": [
+      "same_prompt",
+      "simplified_prompt",
+      "escalate"
+    ],
+    "escalate_after_consecutive_failures": 2,
+    "block_queue_on_failure": false
+  },
+  "qa": {
+    "auto_approve_score": 42,
+    "regenerate_below_score": 35,
+    "review_score_min": 35,
+    "review_score_max": 41,
+    "criteria": [
+      "character_consistency",
+      "storyboard_fidelity",
+      "composition",
+      "style_consistency"
+    ]
+  },
+  "state": {
+    "statuses": [
+      "pending",
+      "ready",
+      "running",
+      "generated",
+      "qa_checking",
+      "approved",
+      "failed",
+      "retry_ready",
+      "escalated"
+    ],
+    "record_fields": [
+      "attempt_count",
+      "complexity",
+      "worker_tier",
+      "image_model",
+      "started_at",
+      "completed_at",
+      "generation_duration_seconds",
+      "qa_score",
+      "last_error"
+    ],
+    "update_targets": [
+      "panels_json",
+      "manifest",
+      "state_json"
+    ],
+    "checkpoint_every_completed_panels": 5
+  },
+  "escalation": {
+    "conditions": [
+      "two_consecutive_generation_failures",
+      "missing_or_ambiguous_character_reference",
+      "storyboard_prompt_conflict",
+      "ambiguous_qa_result",
+      "policy_or_safety_uncertainty",
+      "multi_panel_repair_required"
+    ],
+    "human_review_after_max_attempts": true
+  }
+}
