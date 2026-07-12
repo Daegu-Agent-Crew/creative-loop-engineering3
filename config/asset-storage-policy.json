@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "scope": "panel-assets",
+  "current_repository_size_mb": 115,
+  "repository_review_threshold_mb": 500,
+  "repository_migration_threshold_mb": 1000,
+  "git_lfs_for_pages_assets": false,
+  "preferred_git_format": "webp",
+  "accepted_delivery_formats": [
+    "png",
+    "webp"
+  ],
+  "panel_asset_limits": {
+    "target_max_bytes": 1000000,
+    "hard_max_bytes": 4000000,
+    "episode_delta_max_bytes": 30000000
+  },
+  "source_asset_policy": {
+    "commit_originals_to_git": false,
+    "store_original_png_in_release_or_external_storage": true,
+    "ignored_name_patterns": [
+      "*-base.png",
+      "*-original.png",
+      "*-candidate.png",
+      "*-rejected.png",
+      "*.psd",
+      "*.clip"
+    ]
+  },
+  "required_checks": [
+    "scripts/check-panel-assets.js"
+  ]
+}

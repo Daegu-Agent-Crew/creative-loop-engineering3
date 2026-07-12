@@ -56,7 +56,7 @@
     "EP002": {
       "title": "카운트다운",
       "status": "in_progress",
-      "current_phase": "phase1_story",
+      "current_phase": "phase4_panels",
       "phases": {
         "phase0": {
           "status": "completed",
@@ -70,7 +70,7 @@
           "status": "completed",
           "score": null,
           "prompt_version": "v3-4step",
-          "note": "V3 워크플로우로 재작성. 28p→16p. analysis→outline→scenes→script 4단계 완료.",
+          "note": "V3 워크플로우로 재작성. 28p→15p. analysis→outline→scenes→script 4단계 완료.",
           "sub_files": [
             "story/analysis.md",
             "story/outline.md",
@@ -79,13 +79,19 @@
           ]
         },
         "phase2": {
-          "status": "pending"
+          "status": "completed",
+          "prompt_version": "v2-toriyama",
+          "note": "캐릭터 참조 자산과 EP001 재사용 참조 기준으로 패널 생성 준비 완료."
         },
         "phase3": {
-          "status": "pending"
+          "status": "completed",
+          "prompt_version": "v2-toriyama-internal",
+          "note": "현재 storyboard/panels는 16p 기준으로 유지. script 15p와의 구조 차이는 다음 rebaseline에서 정리 필요."
         },
         "phase4": {
-          "status": "pending"
+          "status": "active",
+          "prompt_version": "v2-toriyama-internal",
+          "note": "panels.json 기준 57패널 중 30패널 생성. generation-jobs.json과 postprocess_overlay 전략으로 페이지 단위 큐 처리 중."
         },
         "phase5": {
           "status": "pending"

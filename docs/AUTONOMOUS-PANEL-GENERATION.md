@@ -20,7 +20,9 @@
 3. `panels/assets/*.png` 실파일과 `generation_status`를 대조한다.
 4. 파일이 있는데 상태가 pending이면 덮어쓰지 말고 상태 불일치로 기록한다.
 5. 현재 실행 중인 다른 워커가 없는지 확인한다.
-6. 준비된 패널만 `ready`로 전환하고 자율 루프를 시작한다.
+6. `node scripts/run-panel-jobs.js --episode EPxxx --dry-run --max-jobs 3`로 다음
+   실행 배치를 뽑는다.
+7. 준비된 패널만 `ready`로 전환하고 자율 루프를 시작한다.
 
 ## 역할 분리
 
@@ -118,20 +120,22 @@ running → failed → retry_ready → running
 
 ## 실행기 구현 작업
 
-현재 `generation-jobs.json`은 계획 파일이며 자체적으로 이미지를 생성하지 않는다.
-후속 에이전트는 다음 순서로 실행기를 완성한다.
+`generation-jobs.json`은 계획 파일이고, `scripts/run-panel-jobs.js`는 그 계획에서
+다음 실행 배치를 고르는 결정론적 실행 보조기다. 이미지 생성 호출은 Codex
+imagegen이 담당하므로, runner가 출력한 명령을 작업자가 순서대로 실행하고 결과
+상태를 갱신한다.
 
-- [ ] `scripts/run-panel-jobs.js` 추가
-- [ ] 정책 JSON 로딩 및 필수 필드 검증
-- [ ] 패널별 복잡도 계산
-- [ ] 일반 3개/복잡 1개 동시성 제한 구현
+- [x] `scripts/run-panel-jobs.js` 추가
+- [x] 정책 JSON 로딩 및 필수 필드 검증
+- [x] 패널별 복잡도 계산
+- [x] 일반 3개/복잡 1개 동시성 제한 구현
 - [ ] Codex imagegen 호출 및 타임아웃 처리
 - [ ] 결과 PNG 존재·크기·해상도 검사
 - [ ] 저성능 비전 QA 연결
 - [ ] 재시도 및 고성능 모델 승격 구현
 - [ ] JSON·매니페스트·전역 상태의 일관된 갱신
 - [ ] 패널별 시간과 오류 기록
-- [ ] `--dry-run`, `--episode`, `--max-jobs` 옵션 추가
+- [x] `--dry-run`, `--episode`, `--max-jobs` 옵션 추가
 - [ ] 드라이런과 실패 복구 테스트 추가
 
 ## 안전한 첫 실행
@@ -139,7 +143,8 @@ running → failed → retry_ready → running
 실행기가 구현되면 EP002 전체를 바로 돌리지 않는다.
 
 1. `--dry-run`으로 선택·복잡도·참조 자산만 확인한다.
-2. `--max-jobs 3`으로 일반 패널 최대 3장을 실행한다.
+2. `node scripts/run-panel-jobs.js --episode EPxxx --dry-run --max-jobs 3`으로
+   일반 패널 최대 3장 또는 복잡 패널 1장의 다음 배치를 고른다.
 3. JSON, 매니페스트, PNG 상태가 일치하는지 확인한다.
 4. 실패 작업이 큐 전체를 막지 않는지 확인한다.
 5. 검증 후에만 에피소드 전체 자율 실행으로 확대한다.

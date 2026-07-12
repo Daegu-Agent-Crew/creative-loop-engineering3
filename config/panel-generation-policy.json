@@ -64,13 +64,26 @@
     ]
   },
   "state": {
-    "statuses": [
+    "panel_statuses": [
       "pending",
       "ready",
       "running",
       "generated",
       "qa_checking",
       "approved",
+      "failed",
+      "retry_ready",
+      "escalated",
+      "selected",
+      "deprecated"
+    ],
+    "job_statuses": [
+      "pending",
+      "ready",
+      "running",
+      "partial",
+      "completed",
+      "blocked",
       "failed",
       "retry_ready",
       "escalated"

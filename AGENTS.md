@@ -183,3 +183,11 @@ creative-loop-engineering3/
 - 화풍 변경 시 Phase 2부터 재실행 (캐릭터 디자인이 화풍에 종속적)
 - Phase 4 재개 시 `docs/AUTONOMOUS-PANEL-GENERATION.md`의 시작 체크리스트를
   따르고, 기존 PNG 파일과 JSON 상태를 먼저 대조한다.
+- Phase 4 패널 생성 속도를 높이기 위해 수동 1장 직렬 작업을 기본값으로 삼지
+  않는다. 먼저 `node scripts/build-panel-jobs.js EPxxx`로 큐를 갱신하고,
+  `node scripts/run-panel-jobs.js --episode EPxxx --dry-run --max-jobs 3`로
+  다음 실행 배치를 선택한다. 저성능 워커가 선택·QA·재시도 판단을 맡고,
+  이미지만 `gpt-image-2`로 생성한다.
+- 패널 자산을 추가하는 모든 작업은 `config/asset-storage-policy.json`과
+  `docs/ASSET-STORAGE-POLICY.md`를 따른다. 원본/후보/실패 이미지는 Git에
+  커밋하지 않고, 커밋 전 `node scripts/check-panel-assets.js`를 실행한다.

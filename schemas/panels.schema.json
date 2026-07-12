@@ -52,7 +52,55 @@
           },
           "generation_status": {
             "type": "string",
-            "enum": ["pending", "generated", "selected", "deprecated"]
+            "enum": [
+              "pending",
+              "ready",
+              "running",
+              "generated",
+              "qa_checking",
+              "approved",
+              "failed",
+              "retry_ready",
+              "escalated",
+              "selected",
+              "deprecated"
+            ]
+          },
+          "attempt_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "complexity": {
+            "type": "string",
+            "enum": ["simple", "standard", "complex"]
+          },
+          "worker_tier": {
+            "type": "string"
+          },
+          "image_model": {
+            "type": "string"
+          },
+          "started_at": {
+            "type": ["string", "null"]
+          },
+          "completed_at": {
+            "type": ["string", "null"]
+          },
+          "generation_duration_seconds": {
+            "type": ["number", "null"],
+            "minimum": 0
+          },
+          "qa_score": {
+            "type": ["number", "null"],
+            "minimum": 0,
+            "maximum": 50
+          },
+          "last_error": {
+            "type": ["string", "null"]
+          },
+          "text_strategy": {
+            "type": "string",
+            "enum": ["postprocess_overlay", "image_text", "none"]
           },
           "ai_score": {
             "type": ["number", "null"],

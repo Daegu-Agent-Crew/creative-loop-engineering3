@@ -1,1 +1,7 @@
 episodes/*/panels/assets/*-base.png
+episodes/*/panels/assets/*-original.png
+episodes/*/panels/assets/*-candidate.png
+episodes/*/panels/assets/*-rejected.png
+episodes/*/panels/assets/*.psd
+episodes/*/panels/assets/*.clip
+episodes/*/panels/next-generation-plan.json
