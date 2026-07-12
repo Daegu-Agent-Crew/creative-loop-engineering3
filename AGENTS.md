@@ -62,6 +62,21 @@ Phase 4(Panels)는 다음 4단계로 내부 세분화됩니다:
 
 상세 가이드: `docs/IMAGE-WORKFLOW.md` 참고
 
+### Phase 4 자율 실행 정책
+
+- 패널 생성 작업을 시작하거나 재개하는 에이전트는 먼저
+  `config/panel-generation-policy.json`과
+  `docs/AUTONOMOUS-PANEL-GENERATION.md`를 읽는다.
+- 정상 작업의 선택, 동시 실행, 1차 QA와 재시도 판단은 저성능 작업 모델이
+  정책 범위 안에서 자율적으로 처리한다.
+- 실제 이미지는 `gpt-image-2`로 한 요청당 한 장씩 생성한다.
+- 일반 패널은 최대 3개, 복잡 패널은 최대 1개만 동시에 실행한다.
+- 같은 패널이 2회 실패하거나 입력이 모호할 때만 고성능 추론 모델로 승격한다.
+- 일부 패널의 실패 때문에 전체 큐를 중단하지 않는다. 실패 작업은 보류 또는
+  승격하고 다음 실행 가능한 패널을 계속 처리한다.
+- `parallel_limit`은 문서용 숫자가 아니다. 실행기는 반드시 이 값을 읽어 실제
+  동시 실행 수를 제한해야 한다.
+
 ## 이미지 생성 도구: Codex CLI
 
 ### 환경
@@ -113,6 +128,8 @@ codex -i reference.png exec --sandbox workspace-write '$imagegen: [프롬프트]
 creative-loop-engineering3/
 ├── AGENTS.md              # 프로젝트 가이드 (이 파일)
 ├── state.json             # 파이프라인 상태
+├── config/
+│   └── panel-generation-policy.json # Phase 4 자율 실행 정책
 ├── evaluation-rubric.md   # 평가 루브릭
 ├── schemas/               # JSON Schema (6개)
 │   ├── story.schema.json
@@ -141,6 +158,7 @@ creative-loop-engineering3/
 │   └── qa/v2.md
 ├── docs/                  # GitHub Pages
 │   ├── IMAGE-WORKFLOW.md  # 4단계 이미지 워크플로우 상세
+│   ├── AUTONOMOUS-PANEL-GENERATION.md # 자율 실행/인계 가이드
 │   ├── index.html
 │   └── js/app.js
 ├── scripts/
@@ -155,3 +173,5 @@ creative-loop-engineering3/
 - 롤백 시 `rollback_history`에 기록
 - 배포는 Phase 5 통과 후에만 실행
 - 화풍 변경 시 Phase 2부터 재실행 (캐릭터 디자인이 화풍에 종속적)
+- Phase 4 재개 시 `docs/AUTONOMOUS-PANEL-GENERATION.md`의 시작 체크리스트를
+  따르고, 기존 PNG 파일과 JSON 상태를 먼저 대조한다.
