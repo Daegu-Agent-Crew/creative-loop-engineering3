@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="862" height="1825" viewBox="0 0 862 1825">
+  <image href="../assets/p9-4.png" x="0" y="0" width="862" height="1825" />
+  <g class="overlay overlay-dialogue">
+    <rect x="69" y="110" width="448" height="219" rx="28" fill="#ffffff" fill-opacity="0.96" stroke="#111111" stroke-width="3" />
+    <text text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="44" font-weight="700" fill="#111111"><tspan x="293" y="146">전원이 마지막 2주간 자기</tspan><tspan x="293" y="205">연구를 포기하고, 계속</tspan><tspan x="293" y="264">밤하늘만 봤어. 마지막</tspan><tspan x="293" y="323">날엔 전부 창문을 열어놓고</tspan></text>
+  </g>
+</svg>

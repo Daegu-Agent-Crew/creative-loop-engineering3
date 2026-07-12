@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="864" height="1821" viewBox="0 0 864 1821">
+  <image href="../assets/p2-3.png" x="0" y="0" width="864" height="1821" />
+  <g class="overlay overlay-dialogue">
+    <rect x="69" y="109" width="449" height="219" rx="28" fill="#ffffff" fill-opacity="0.96" stroke="#111111" stroke-width="3" />
+    <text text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="44" font-weight="700" fill="#111111"><tspan x="294" y="145">교수님, 이 각도에서</tspan><tspan x="294" y="204">스펙트럼이 이상해요.</tspan><tspan x="294" y="263">마치... 하늘이 말을</tspan><tspan x="294" y="322">하고 있는 것 같아요.</tspan></text>
+  </g>
+</svg>
