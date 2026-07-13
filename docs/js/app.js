@@ -1355,16 +1355,28 @@ function renderPanelsTab(context) {
       const refs = panel.reference_assets && panel.reference_assets.length
         ? characterRecords.filter(function (character) { return panel.reference_assets.indexOf(character.image_path) >= 0; })
         : resolveCharacterReferences(characterRecords, panel.characters_in_frame || []);
-      const hasGeneratedAsset = panel.generation_status === 'generated' && panel.image_path;
+      const hasGeneratedAsset = ['generated', 'qa_checking', 'approved', 'selected'].indexOf(panel.generation_status) >= 0 && panel.image_path;
       const overlay = overlayByPanel.get(panel.panel_id) || null;
-      const previewPath = overlay && overlay.final_image_path ? overlay.final_image_path : panel.image_path;
+      const previewPath = panel.image_path;
+      const previewUrl = assetUrl(previewPath);
+      const sourceUrl = assetUrl(panel.image_path);
+      const overlayHtml = overlay && overlay.overlays && overlay.overlays.length
+        ? overlay.overlays.map(function (item) {
+          const box = item.box || {};
+          const style = `left:${Number(box.x || 0) * 100}%;top:${Number(box.y || 0) * 100}%;width:${Number(box.w || 0.5) * 100}%;height:${Number(box.h || 0.12) * 100}%;`;
+          return `<div class="panel-preview-overlay panel-preview-overlay-${escapeHtml(item.kind || 'dialogue')}" style="${style}">${escapeHtml(item.text || '')}</div>`;
+        }).join('')
+        : '';
       const overlayTexts = overlay && overlay.overlays && overlay.overlays.length
         ? overlay.overlays.map(function (item) { return `${item.kind}: ${item.text}`; }).join(' / ')
         : '';
       return `<div class="scene-card">
         <div class="output-title">${escapeHtml(panel.panel_id || '')} <span class="meta">AI ${escapeHtml(panel.ai_score || '-')} / 50</span></div>
         <div class="output-desc">${escapeHtml(panel.description || '-')}</div>
-        ${hasGeneratedAsset ? `<img class="panel-preview-image" src="${assetUrl(previewPath)}" alt="${escapeHtml(panel.panel_id || 'panel')}" />` : `<div class="panel-placeholder">
+        ${hasGeneratedAsset ? `<div class="panel-preview-frame"><img class="panel-preview-image" src="${previewUrl}" alt="${escapeHtml(panel.panel_id || 'panel')}" loading="lazy" onerror="if (this.dataset.fallback && this.src !== this.dataset.fallback) { this.src = this.dataset.fallback; } else { this.style.display='none'; this.parentElement.nextElementSibling.style.display='flex'; }" data-fallback="${sourceUrl}" />${overlayHtml}</div><div class="panel-placeholder panel-image-fallback" style="display:none">
+          <div><strong>이미지 로딩 실패</strong></div>
+          <div class="meta">${escapeHtml(previewPath || panel.image_path || '-')}</div>
+        </div>` : `<div class="panel-placeholder">
           <div><strong>생성 대기</strong></div>
           <div class="meta">${escapeHtml(panel.image_path || '-')}</div>
         </div>`}
