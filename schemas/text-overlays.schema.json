@@ -43,7 +43,7 @@
               "properties": {
                 "kind": {
                   "type": "string",
-                  "enum": ["dialogue", "caption", "narration", "sfx"]
+                  "enum": ["dialogue", "caption", "narration", "sfx", "note"]
                 },
                 "text": {
                   "type": "string"

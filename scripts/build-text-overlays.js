@@ -41,6 +41,7 @@ function isEmptyDialogue(value) {
 }
 
 function kindForText(raw) {
+  if (/아빠 사랑해요|손떨림 글씨|관측 노트|노트|쪽지|크레온|글씨/.test(raw)) return 'note';
   if (/효과음|벨 소리|뚜|왜\?/.test(raw)) return 'sfx';
   if (/나레이션|하단|중앙|글씨/.test(raw)) return 'caption';
   if (/독백/.test(raw)) return 'narration';
@@ -49,6 +50,7 @@ function kindForText(raw) {
 
 function boxFor(kind, offset) {
   if (kind === 'sfx') return { x: 0.18, y: 0.34 + offset * 0.16, w: 0.64, h: 0.18 };
+  if (kind === 'note') return { x: 0.18, y: 0.68 + offset * 0.12, w: 0.64, h: 0.1 };
   if (kind === 'caption') return { x: 0.12, y: 0.06 + offset * 0.12, w: 0.76, h: 0.1 };
   if (kind === 'narration') return { x: 0.1, y: 0.08 + offset * 0.13, w: 0.8, h: 0.12 };
   return { x: 0.08, y: 0.06 + offset * 0.14, w: 0.52, h: 0.12 };

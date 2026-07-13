@@ -12,8 +12,8 @@
       "image_path": "episodes/EP001/panels/assets/p1-1.png",
       "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 1\nPanel ID: p1-1\nStoryboard description: 【상단】 양동의 책상 위 클로즈업. 아이 크레온 그림 — 노란 태양 세 개, '아빠 사랑해요'. Toriyama풍: 크레온 텍스처가 잉크 선과 대비. 따뜻한 색이 차가운 형광등 아래 이질적. 스파클 효과가 아이러니하게 감쌈.\nVisible cast: none\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: extreme_close_up\nPanel type: single panel\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
       "style": "dr-slump-toriyama",
-      "generation_status": "pending",
-      "ai_score": null,
+      "generation_status": "generated",
+      "ai_score": 0.62,
       "human_score": null,
       "text_strategy": "postprocess_overlay"
     },
