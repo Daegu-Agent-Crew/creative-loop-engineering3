@@ -1265,8 +1265,16 @@ function renderCharactersTab(context) {
 function renderStoryboardTab(context) {
   const storyboard = context.storyboard;
   const characterRecords = (context.characters && context.characters.characters) || [];
+  const overviewImagePath = `episodes/${context.episodeId}/storyboard/assets/storyboard-overview-labeled.png`;
+  const overviewImage = `<div class="scene-card storyboard-overview-card">
+    <div class="output-title">전체 콘티 보드</div>
+    <p class="meta">생성형 이미지 기반 요약입니다. 세부 컷/대사는 아래 콘티와 대본을 기준으로 확인하세요.</p>
+    <a href="${assetUrl(overviewImagePath)}" target="_blank" rel="noreferrer">
+      <img class="storyboard-overview-image" src="${assetUrl(overviewImagePath)}" alt="${escapeHtml(context.episodeId)} 전체 콘티 보드" loading="lazy" onerror="this.closest('.storyboard-overview-card').style.display='none';" />
+    </a>
+  </div>`;
   if ((!storyboard || !storyboard.pages) && !context.storyboardMd) {
-    return '<div class="card"><p>storyboard 데이터가 아직 없습니다.</p></div>';
+    return `<div class="card"><h3>스토리보드</h3>${overviewImage}<p>storyboard 데이터가 아직 없습니다.</p></div>`;
   }
 
   if ((!storyboard || !storyboard.pages) && context.storyboardMd) {
@@ -1277,6 +1285,7 @@ function renderStoryboardTab(context) {
     const checklist = markdownChecklistItems(extractMarkdownSection(context.storyboardMd, '컷 설계 체크리스트'));
     return `<div class="card">
       <h3>스토리보드</h3>
+      ${overviewImage}
       <p class="meta">총 페이지 ${escapeHtml(totalPages || '-')} / ${escapeHtml(cutStyle || '-')}</p>
       ${keyCuts ? `<div class="scene-card"><div class="output-title">키 컷</div><div class="output-desc">${escapeHtml(keyCuts)}</div></div>` : ''}
       ${sequenceSection ? `<div class="scene-card"><div class="output-title">시퀀스 가이드</div>${renderMarkdownPreview(sequenceSection)}</div>` : ''}
@@ -1290,6 +1299,7 @@ function renderStoryboardTab(context) {
 
   return `<div class="card">
     <h3>스토리보드</h3>
+    ${overviewImage}
     ${storyboard.pages.map(function (page) {
       return `<div class="scene-card">
         <div class="output-title">페이지 ${page.page_number}</div>
