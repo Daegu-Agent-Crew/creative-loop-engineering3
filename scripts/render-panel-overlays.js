@@ -8,11 +8,12 @@ function readJson(filePath) {
 }
 
 function parseArgs(argv) {
-  const args = { episode: 'EP001', page: null };
+  const args = { episode: 'EP001', page: null, embedSource: false };
   for (let index = 2; index < argv.length; index += 1) {
     const value = argv[index];
     if (value === '--episode') args.episode = argv[++index];
     else if (value === '--page') args.page = Number(argv[++index]);
+    else if (value === '--embed-source') args.embedSource = true;
   }
   return args;
 }
@@ -98,13 +99,15 @@ function overlaySvg(overlay, width, height) {
   </g>`;
 }
 
-function renderPanel(rootDir, panel) {
+function renderPanel(rootDir, panel, options = {}) {
   const sourcePath = path.join(rootDir, panel.source_image_path);
   if (!fs.existsSync(sourcePath)) return false;
   const outputPath = path.join(rootDir, panel.final_image_path);
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });
   const size = pngSize(sourcePath);
-  const href = path.relative(path.dirname(outputPath), sourcePath).split(path.sep).join('/');
+  const href = options.embedSource
+    ? `data:image/png;base64,${fs.readFileSync(sourcePath).toString('base64')}`
+    : path.relative(path.dirname(outputPath), sourcePath).split(path.sep).join('/');
   const overlays = (panel.overlays || []).map((overlay) => overlaySvg(overlay, size.width, size.height)).join('\n');
   const overlayBlock = overlays ? `\n  ${overlays}` : '';
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${size.width}" height="${size.height}" viewBox="0 0 ${size.width} ${size.height}">
@@ -123,7 +126,7 @@ function main() {
   let count = 0;
   for (const panel of overlays.panels || []) {
     if (args.page !== null && panel.page_number !== args.page) continue;
-    if (renderPanel(rootDir, panel)) count += 1;
+    if (renderPanel(rootDir, panel, { embedSource: args.embedSource })) count += 1;
   }
   console.log(`rendered ${args.episode}: ${count}`);
 }
