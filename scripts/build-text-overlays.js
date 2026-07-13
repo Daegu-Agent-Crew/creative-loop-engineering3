@@ -37,7 +37,7 @@ function cleanText(value) {
 }
 
 function isEmptyDialogue(value) {
-  return !value || /\(없음\)|대사 없음|^\s*-+\s*$/.test(value);
+  return !value || /\(없음\)|대사 없음|글자만|^\s*-+\s*$/.test(value);
 }
 
 function kindForText(raw) {
@@ -48,8 +48,9 @@ function kindForText(raw) {
   return 'dialogue';
 }
 
-function boxFor(kind, offset) {
+function boxFor(kind, offset, raw = '') {
   if (kind === 'sfx') return { x: 0.18, y: 0.34 + offset * 0.16, w: 0.64, h: 0.18 };
+  if (kind === 'note' && /하늘이 거짓말|관측 노트|마지막 페이지/.test(raw)) return { x: 0.2, y: 0.38 + offset * 0.12, w: 0.6, h: 0.12 };
   if (kind === 'note') return { x: 0.18, y: 0.68 + offset * 0.12, w: 0.64, h: 0.1 };
   if (kind === 'caption') return { x: 0.12, y: 0.06 + offset * 0.12, w: 0.76, h: 0.1 };
   if (kind === 'narration') return { x: 0.1, y: 0.08 + offset * 0.13, w: 0.8, h: 0.12 };
@@ -80,6 +81,7 @@ function extractScriptText(rootDir, episodeId) {
 
 function extractDescriptionText(description) {
   const patterns = [
+    /(손떨림\s+글씨|글씨|노트)\s*:\s*['"“”‘’]([^'"“”‘’]+)['"“”‘’]/,
     /(대사|독백|나레이션|배경 대사)\s*:\s*['"“”‘’]([^'"“”‘’]+)['"“”‘’]/,
     /중앙\s+흰\s+글씨\s*:\s*['"“”‘’]([^'"“”‘’]+)['"“”‘’]/,
     /([가-힣0-9A-Za-z.?!…\- ]+)\s*['"“”‘’]([^'"“”‘’]+)['"“”‘’]/
@@ -124,7 +126,7 @@ function build(rootDir, episodeId, generatedOnly) {
       const overlays = textItem ? [{
         kind: textItem.kind,
         text: textItem.text,
-        box: boxFor(textItem.kind, 0)
+        box: boxFor(textItem.kind, 0, `${panel.description || ''} ${textItem.text || ''}`)
       }] : [];
       const finalImagePath = `episodes/${episodeId}/panels/final/${panel.panel_id}.svg`;
       return {

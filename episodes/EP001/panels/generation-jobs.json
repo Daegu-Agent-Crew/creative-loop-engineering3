@@ -30,7 +30,7 @@
       "generation_duration_seconds": null,
       "qa_score": null,
       "last_error": null,
-      "status": "partial",
+      "status": "completed",
       "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
     },
     {
