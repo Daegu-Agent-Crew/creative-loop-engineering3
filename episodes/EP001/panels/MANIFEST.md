@@ -4,8 +4,8 @@
 
 - phase: phase4_panels
 - total_panels: 49
-- generated_panels: 14
-- pending_panels: 35
+- generated_panels: 15
+- pending_panels: 34
 - asset_dir: `episodes/EP001/panels/assets/`
 - final_dir: `episodes/EP001/panels/final/`
 - text_overlay: `episodes/EP001/panels/text-overlays.json`

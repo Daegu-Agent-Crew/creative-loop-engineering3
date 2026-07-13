@@ -65,22 +65,32 @@ function overlaySvg(overlay, width, height) {
   const y = Math.round(box.y * height);
   const w = Math.round(box.w * width);
   const h = Math.round(box.h * height);
-  const fontSize = overlay.kind === 'sfx' ? Math.round(height * 0.06) : Math.round(height * 0.024);
+  const fontSize = overlay.kind === 'sfx'
+    ? Math.round(height * 0.06)
+    : overlay.kind === 'note'
+      ? Math.round(height * 0.038)
+      : Math.round(height * 0.024);
   const maxChars = Math.max(6, Math.floor(w / (fontSize * 0.72)));
   const lines = wrapText(overlay.text, maxChars).slice(0, 4);
   const lineHeight = Math.round(fontSize * 1.35);
   const textY = y + Math.round((h - lineHeight * lines.length) / 2) + fontSize;
   const fill = overlay.kind === 'caption' || overlay.kind === 'narration' ? '#111111' : '#ffffff';
   const stroke = overlay.kind === 'sfx' ? '#111111' : '#111111';
-  const textFill = overlay.kind === 'caption' || overlay.kind === 'narration' ? '#ffffff' : '#111111';
+  const textFill = overlay.kind === 'caption' || overlay.kind === 'narration' ? '#ffffff' : overlay.kind === 'note' ? '#d14b83' : '#111111';
   const radius = overlay.kind === 'sfx' ? 12 : 28;
-  const opacity = overlay.kind === 'caption' || overlay.kind === 'narration' ? 0.86 : 0.96;
-  const weight = overlay.kind === 'sfx' ? 900 : 700;
+  const opacity = overlay.kind === 'caption' || overlay.kind === 'narration' ? 0.86 : overlay.kind === 'note' ? 0 : 0.96;
+  const weight = overlay.kind === 'sfx' ? 900 : overlay.kind === 'note' ? 800 : 700;
   const textAnchor = overlay.kind === 'sfx' ? 'middle' : 'middle';
   const textX = x + Math.round(w / 2);
   const tspans = lines.map((line, index) => (
     `<tspan x="${textX}" y="${textY + index * lineHeight}">${escapeXml(line)}</tspan>`
   )).join('');
+
+  if (overlay.kind === 'note') {
+    return `<g class="overlay overlay-${overlay.kind}">
+    <text text-anchor="${textAnchor}" font-family="'Apple SD Gothic Neo', 'Nanum Pen Script', cursive" font-size="${fontSize}" font-weight="${weight}" fill="${textFill}" stroke="#ffffff" stroke-width="${Math.max(2, Math.round(width * 0.003))}" paint-order="stroke">${tspans}</text>
+  </g>`;
+  }
 
   return `<g class="overlay overlay-${overlay.kind}">
     <rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${radius}" fill="${fill}" fill-opacity="${opacity}" stroke="${stroke}" stroke-width="${Math.max(3, Math.round(width * 0.004))}" />

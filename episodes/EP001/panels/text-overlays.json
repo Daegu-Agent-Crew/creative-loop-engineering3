@@ -3,6 +3,26 @@
   "version": 1,
   "panels": [
     {
+      "panel_id": "p1-1",
+      "page_number": 1,
+      "source_image_path": "episodes/EP001/panels/assets/p1-1.png",
+      "final_image_path": "episodes/EP001/panels/final/p1-1.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "note",
+          "text": "아빠 사랑해요",
+          "box": {
+            "x": 0.18,
+            "y": 0.68,
+            "w": 0.64,
+            "h": 0.1
+          }
+        }
+      ]
+    },
+    {
       "panel_id": "p2-1",
       "page_number": 2,
       "source_image_path": "episodes/EP001/panels/assets/p2-1.png",
