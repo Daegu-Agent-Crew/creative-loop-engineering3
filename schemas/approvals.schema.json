@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Episode Human Approval Gates",
+  "type": "object",
+  "required": ["episode_id", "policy", "gates"],
+  "properties": {
+    "episode_id": { "type": "string" },
+    "policy": {
+      "type": "object",
+      "required": ["normal_work_continues", "exception_escalation"],
+      "properties": {
+        "normal_work_continues": { "type": "boolean" },
+        "exception_escalation": { "type": "boolean" },
+        "notes": { "type": "string" }
+      }
+    },
+    "gates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "phase", "status", "blocking"],
+        "properties": {
+          "id": { "type": "string" },
+          "label": { "type": "string" },
+          "phase": { "type": "string" },
+          "status": { "type": "string", "enum": ["pending", "provisional", "approved", "changes_requested", "not_applicable"] },
+          "blocking": { "type": "boolean" },
+          "approved_by": { "type": ["string", "null"] },
+          "approved_at": { "type": ["string", "null"] },
+          "evidence": { "type": "array", "items": { "type": "string" } },
+          "notes": { "type": "string" }
+        }
+      }
+    }
+  }
+}

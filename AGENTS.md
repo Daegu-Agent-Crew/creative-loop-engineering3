@@ -32,6 +32,19 @@ Clean panel borders, dynamic perspective.
 | 5 | QA | 전체 산출물 | 품질 보증 리포트 | `schemas/qa.schema.json` |
 | 6 | Deploy | QA 통과 산출물 | GitHub Pages 배포 | `schemas/deploy.schema.json` |
 
+## 작업 전 Discovery와 사람 승인
+
+- Phase 0은 저장소, 도구, 권한과 스키마를 확인한다.
+- Phase 0.5는 에피소드의 `discovery/context.json`에서 Unknown Map, 레퍼런스,
+  실행 가정과 사람 결정 항목을 확인한다.
+- 판단 기록은 내부 사고 전체가 아니라 결정, 근거, 확신도, 불확실성, 검토한
+  대안과 승인 상태만 `decisions/implementation-notes.json`에 저장한다.
+- 정상 작업은 정책 범위 안에서 계속 진행한다. 사람은 Story Lock, Character
+  Lock, Storyboard Lock, Release Approval과 예외 에스컬레이션만 검토한다.
+- 과거 완료 Phase에 명시적 승인 기록이 없으면 승인으로 추정하지 않고
+  `provisional`로 표시한다.
+- 상세 운영 규칙: `docs/AI-COLLABORATION-PROTOCOL.md`
+
 ## Phase 1 상세: 4단계 스토리 각색 워크플로우
 
 Phase 1(Story)는 다음 4단계로 내부 세분화됩니다:
@@ -138,20 +151,26 @@ creative-loop-engineering3/
 ├── config/
 │   └── panel-generation-policy.json # Phase 4 자율 실행 정책
 ├── evaluation-rubric.md   # 평가 루브릭
-├── schemas/               # JSON Schema (6개)
+├── schemas/               # Phase 산출물 및 운영 데이터 JSON Schema
 │   ├── story.schema.json
 │   ├── characters.schema.json
 │   ├── storyboard.schema.json
 │   ├── panels.schema.json
 │   ├── qa.schema.json
-│   └── deploy.schema.json
+│   ├── deploy.schema.json
+│   ├── discovery.schema.json
+│   ├── decision-log.schema.json
+│   └── approvals.schema.json
 ├── episodes/              # 에피소드 산출물
 │   └── EP001/
 │       ├── script/        # Phase 1 산출물
 │       ├── characters/    # Phase 2 산출물
 │       ├── storyboard/    # Phase 3 산출물
 │       ├── panels/        # Phase 4 산출물
-│       └── qa/            # Phase 5 산출물
+│       ├── discovery/     # 작업 맥락, Unknown, 도구, 레퍼런스
+│       ├── decisions/     # 검토 가능한 판단 근거와 불확실성
+│       ├── qa/            # Phase 5 산출물
+│       └── approvals/     # 사람 승인 게이트
 ├── styles/                # 화풍 에셋
 │   ├── characters/        # 캐릭터 시트 PNG
 │   ├── backgrounds/       # 배경 PNG 라이브러리
@@ -169,13 +188,19 @@ creative-loop-engineering3/
 │   ├── index.html
 │   └── js/app.js
 ├── scripts/
-│   └── sync-panels.js     # storyboard + characters -> panels.json 동기화
-│   └── build-panel-jobs.js # panels.json -> generation-jobs.json 배치 큐 생성
+│   ├── sync-panels.js     # storyboard + characters -> panels.json 동기화
+│   ├── build-panel-jobs.js # panels.json -> generation-jobs.json 배치 큐 생성
+│   ├── init-episode-governance.js # 에피소드 운영 데이터 초기화
+│   └── validate-episode-governance.js # 운영 데이터/참조/큐 검증
 ├── wiki/                  # 세계관 위키
 └── .github/workflows/     # CI/CD
 ```
 
 ## 에이전트 규칙
+- 에피소드 작업 시작 또는 기준선 변경 전에 `discovery/context.json`을 확인하고
+  `preflight.status`가 `blocked`면 정상 실행을 시작하지 않는다.
+- Unknown을 모두 해소할 때까지 기다리지 않는다. non-blocking 항목은 가정을
+  기록하고 진행하며, 가치/방향/최종 승인 또는 정책 예외만 사람에게 요청한다.
 - 각 Phase 산출물은 반드시 JSON Schema 검증 후 저장
 - `improvement_budget` 초과 시 사람 개입 요청
 - 롤백 시 `rollback_history`에 기록

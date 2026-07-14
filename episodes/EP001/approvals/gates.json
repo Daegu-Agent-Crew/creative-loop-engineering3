@@ -1,0 +1,64 @@
+{
+  "$schema": "../../../schemas/approvals.schema.json",
+  "episode_id": "EP001",
+  "policy": {
+    "normal_work_continues": true,
+    "exception_escalation": true,
+    "notes": "사람은 스토리, 캐릭터, 콘티, 배포 게이트와 최대 재시도 초과 또는 입력 충돌만 검토한다."
+  },
+  "gates": [
+    {
+      "id": "story-lock",
+      "label": "Story Lock",
+      "phase": "phase1",
+      "status": "provisional",
+      "blocking": false,
+      "approved_by": null,
+      "approved_at": null,
+      "evidence": [
+        "episodes/EP001/story/analysis.md",
+        "episodes/EP001/story/outline.md",
+        "episodes/EP001/story/scenes.md",
+        "episodes/EP001/script/script.md"
+      ],
+      "notes": "Phase 완료 기록은 있으나 명시적 사람 승인 레코드가 없어 provisional로 표시한다."
+    },
+    {
+      "id": "character-lock",
+      "label": "Character Lock",
+      "phase": "phase2",
+      "status": "provisional",
+      "blocking": false,
+      "approved_by": null,
+      "approved_at": null,
+      "evidence": [
+        "episodes/EP001/characters/characters.json"
+      ],
+      "notes": "현재 캐릭터 자산을 Phase 4 기준으로 사용 중이며 명시적 승인 확인이 남아 있다."
+    },
+    {
+      "id": "storyboard-lock",
+      "label": "Storyboard Lock",
+      "phase": "phase3",
+      "status": "provisional",
+      "blocking": false,
+      "approved_by": null,
+      "approved_at": null,
+      "evidence": [
+        "episodes/EP001/storyboard/storyboard.json"
+      ],
+      "notes": "49패널 생성 기준선으로 사용 중이며 명시적 승인 확인이 남아 있다."
+    },
+    {
+      "id": "release",
+      "label": "Release Approval",
+      "phase": "phase6",
+      "status": "pending",
+      "blocking": true,
+      "approved_by": null,
+      "approved_at": null,
+      "evidence": [],
+      "notes": "Phase 5 QA 통과 후 사람이 공개 가치를 최종 승인한다."
+    }
+  ]
+}

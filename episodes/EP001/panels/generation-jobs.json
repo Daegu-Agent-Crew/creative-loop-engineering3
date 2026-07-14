@@ -31,6 +31,16 @@
       "qa_score": null,
       "last_error": null,
       "status": "completed",
+      "decision_rationale": "같은 페이지의 3개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "high",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [],
+      "references_used": [],
+      "human_approval_required": false,
+      "escalation_reason": null,
       "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
     },
     {
@@ -56,6 +66,18 @@
       "qa_score": null,
       "last_error": null,
       "status": "partial",
+      "decision_rationale": "같은 페이지의 4개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "high",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [],
+      "references_used": [
+        "episodes/EP001/characters/assets/yewenjie-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
       "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
     },
     {
@@ -80,6 +102,18 @@
       "qa_score": null,
       "last_error": null,
       "status": "partial",
+      "decision_rationale": "같은 페이지의 3개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "high",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [],
+      "references_used": [
+        "episodes/EP001/characters/assets/yewenjie-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
       "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
     },
     {
@@ -105,6 +139,18 @@
       "qa_score": null,
       "last_error": null,
       "status": "partial",
+      "decision_rationale": "같은 페이지의 4개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "high",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [],
+      "references_used": [
+        "episodes/EP001/characters/assets/yewenjie-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
       "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
     },
     {
@@ -129,6 +175,20 @@
       "qa_score": null,
       "last_error": null,
       "status": "partial",
+      "decision_rationale": "같은 페이지의 3개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "medium",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [
+        "다인물 또는 복합 구도는 생성 후 인접 패널 일관성 QA가 필요하다."
+      ],
+      "references_used": [
+        "episodes/EP001/characters/assets/yewenjie-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
       "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
     },
     {
@@ -151,6 +211,20 @@
       "qa_score": null,
       "last_error": null,
       "status": "completed",
+      "decision_rationale": "같은 페이지의 1개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "medium",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [
+        "다인물 또는 복합 구도는 생성 후 인접 패널 일관성 QA가 필요하다."
+      ],
+      "references_used": [
+        "episodes/EP001/characters/assets/yewenjie-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
       "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
     },
     {
@@ -176,6 +250,18 @@
       "qa_score": null,
       "last_error": null,
       "status": "partial",
+      "decision_rationale": "같은 페이지의 4개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "high",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [],
+      "references_used": [
+        "episodes/EP001/characters/assets/yewenjie-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
       "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
     },
     {
@@ -196,6 +282,18 @@
       "qa_score": null,
       "last_error": null,
       "status": "ready",
+      "decision_rationale": "같은 페이지의 1개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "medium",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [
+        "다인물 또는 복합 구도는 생성 후 인접 패널 일관성 QA가 필요하다."
+      ],
+      "references_used": [],
+      "human_approval_required": false,
+      "escalation_reason": null,
       "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
     },
     {
@@ -223,6 +321,18 @@
       "qa_score": null,
       "last_error": null,
       "status": "partial",
+      "decision_rationale": "같은 페이지의 6개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "high",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [],
+      "references_used": [
+        "episodes/EP001/characters/assets/shiqiang-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
       "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
     },
     {
@@ -247,6 +357,18 @@
       "qa_score": null,
       "last_error": null,
       "status": "ready",
+      "decision_rationale": "같은 페이지의 3개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "high",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [],
+      "references_used": [
+        "episodes/EP001/characters/assets/chengxin-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
       "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
     },
     {
@@ -272,6 +394,18 @@
       "qa_score": null,
       "last_error": null,
       "status": "ready",
+      "decision_rationale": "같은 페이지의 4개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "high",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [],
+      "references_used": [
+        "episodes/EP001/characters/assets/chengxin-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
       "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
     },
     {
@@ -297,6 +431,18 @@
       "qa_score": null,
       "last_error": null,
       "status": "ready",
+      "decision_rationale": "같은 페이지의 4개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "high",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [],
+      "references_used": [
+        "episodes/EP001/characters/assets/chengxin-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
       "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
     },
     {
@@ -322,6 +468,20 @@
       "qa_score": null,
       "last_error": null,
       "status": "ready",
+      "decision_rationale": "같은 페이지의 4개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "medium",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [
+        "다인물 또는 복합 구도는 생성 후 인접 패널 일관성 QA가 필요하다."
+      ],
+      "references_used": [
+        "episodes/EP001/characters/assets/chengxin-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
       "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
     },
     {
@@ -344,6 +504,20 @@
       "qa_score": null,
       "last_error": null,
       "status": "ready",
+      "decision_rationale": "같은 페이지의 1개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "medium",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [
+        "다인물 또는 복합 구도는 생성 후 인접 패널 일관성 QA가 필요하다."
+      ],
+      "references_used": [
+        "episodes/EP001/characters/assets/chengxin-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
       "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
     },
     {
@@ -369,6 +543,21 @@
       "qa_score": null,
       "last_error": null,
       "status": "ready",
+      "decision_rationale": "같은 페이지의 3개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "medium",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [
+        "다인물 또는 복합 구도는 생성 후 인접 패널 일관성 QA가 필요하다."
+      ],
+      "references_used": [
+        "episodes/EP001/characters/assets/chengxin-v1.png",
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
       "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
     },
     {
@@ -389,6 +578,18 @@
       "qa_score": null,
       "last_error": null,
       "status": "ready",
+      "decision_rationale": "같은 페이지의 1개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "medium",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [
+        "다인물 또는 복합 구도는 생성 후 인접 패널 일관성 QA가 필요하다."
+      ],
+      "references_used": [],
+      "human_approval_required": false,
+      "escalation_reason": null,
       "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
     }
   ]
