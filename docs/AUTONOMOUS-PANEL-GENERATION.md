@@ -16,13 +16,15 @@
 ## 세션 시작 체크리스트
 
 1. `AGENTS.md`, 이 문서, `config/panel-generation-policy.json`을 읽는다.
-2. 대상 에피소드의 `panels.json`, `generation-jobs.json`, `MANIFEST.md`를 읽는다.
-3. `panels/assets/*.png` 실파일과 `generation_status`를 대조한다.
-4. 파일이 있는데 상태가 pending이면 덮어쓰지 말고 상태 불일치로 기록한다.
-5. 현재 실행 중인 다른 워커가 없는지 확인한다.
-6. `node scripts/run-panel-jobs.js --episode EPxxx --dry-run --max-jobs 3`로 다음
+2. 대상 에피소드의 `discovery/context.json`, `decisions/implementation-notes.json`,
+   `approvals/gates.json`을 읽고 blocking 사람 결정과 preflight 상태를 확인한다.
+3. 대상 에피소드의 `panels.json`, `generation-jobs.json`, `MANIFEST.md`를 읽는다.
+4. `panels/assets/*.png` 실파일과 `generation_status`를 대조한다.
+5. 파일이 있는데 상태가 pending이면 덮어쓰지 말고 상태 불일치로 기록한다.
+6. 현재 실행 중인 다른 워커가 없는지 확인한다.
+7. `node scripts/run-panel-jobs.js --episode EPxxx --dry-run --max-jobs 3`로 다음
    실행 배치를 뽑는다.
-7. 준비된 패널만 `ready`로 전환하고 자율 루프를 시작한다.
+8. 준비된 패널만 `ready`로 전환하고 자율 루프를 시작한다.
 
 ## 역할 분리
 
@@ -91,7 +93,9 @@ running → failed → retry_ready → running
 ```
 
 실행기는 패널마다 시도 횟수, 모델 등급, 시작·완료 시각, 생성 시간, QA 점수와
-마지막 오류를 기록한다. 성공 시 `panels.json`, `MANIFEST.md`, `state.json`을
+마지막 오류를 기록한다. 작업 선택에는 판단 근거, 확신도, 가정, 불확실성,
+사용한 레퍼런스와 에스컬레이션 이유를 함께 기록한다. 이는 내부 사고 기록이
+아니라 다음 작업자가 검토할 수 있는 운영 근거다. 성공 시 `panels.json`, `MANIFEST.md`, `state.json`을
 같은 작업 단위로 갱신한다. 세 파일 중 하나라도 저장에 실패하면 완료로 확정하지
 않고 복구 가능한 오류로 남긴다.
 

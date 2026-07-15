@@ -4,13 +4,25 @@ on:
   pull_request:
     paths:
       - 'episodes/**'
+      - 'schemas/**'
+      - 'config/panel-generation-policy.json'
       - 'config/asset-storage-policy.json'
+      - 'scripts/build-panel-jobs.js'
+      - 'scripts/run-panel-jobs.js'
+      - 'scripts/init-episode-governance.js'
+      - 'scripts/validate-episode-governance.js'
       - 'scripts/check-panel-assets.js'
   push:
     branches: [main]
     paths:
       - 'episodes/**'
+      - 'schemas/**'
+      - 'config/panel-generation-policy.json'
       - 'config/asset-storage-policy.json'
+      - 'scripts/build-panel-jobs.js'
+      - 'scripts/run-panel-jobs.js'
+      - 'scripts/init-episode-governance.js'
+      - 'scripts/validate-episode-governance.js'
       - 'scripts/check-panel-assets.js'
 
 jobs:
@@ -25,3 +37,5 @@ jobs:
           node-version: '24'
       - name: Check panel assets
         run: node scripts/check-panel-assets.js
+      - name: Validate episode discovery, decisions, and approvals
+        run: node scripts/validate-episode-governance.js

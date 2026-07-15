@@ -28,7 +28,7 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["job_id", "page_number", "panel_ids", "status"],
+        "required": ["job_id", "page_number", "panel_ids", "status", "decision_rationale", "confidence"],
         "properties": {
           "job_id": {
             "type": "string"
@@ -95,6 +95,31 @@
             "maximum": 50
           },
           "last_error": {
+            "type": ["string", "null"]
+          },
+          "decision_rationale": {
+            "type": "string"
+          },
+          "confidence": {
+            "type": "string",
+            "enum": ["high", "medium", "low"]
+          },
+          "assumptions": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "uncertainties": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "references_used": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "human_approval_required": {
+            "type": "boolean"
+          },
+          "escalation_reason": {
             "type": ["string", "null"]
           },
           "notes": {

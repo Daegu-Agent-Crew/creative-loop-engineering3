@@ -1,0 +1,135 @@
+{
+  "$schema": "../../../schemas/discovery.schema.json",
+  "episode_id": "EP001",
+  "objective": "CLE3 내부 산출물만 사용해 EP001을 일관된 연재 만화 에피소드로 완성하고, 생성 과정의 근거와 불확실성을 사람이 검토할 수 있게 한다.",
+  "value_hypothesis": {
+    "user_value": "사람은 스토리와 시각 방향을 결정하고 AI는 반복적인 생성, 검사, 재시도를 이어간다.",
+    "baseline_target": "49개 패널을 CLE3 내부 자산과 패널별 QA 기록으로 완성한다.",
+    "challenge_target": "제한 병렬 생성과 패널별 재시도로 품질, 속도, 비용을 동시에 개선한다."
+  },
+  "tools": [
+    {
+      "name": "CLE3 repository files",
+      "purpose": "스토리, 캐릭터, 콘티, 패널과 상태의 원본 관리",
+      "status": "available",
+      "fallback": null
+    },
+    {
+      "name": "Codex imagegen",
+      "purpose": "CLE3 내부 패널 이미지 생성",
+      "status": "available",
+      "fallback": "생성 실패 작업을 retry_ready 또는 escalated로 전환"
+    },
+    {
+      "name": "GitHub and GitHub Pages",
+      "purpose": "변경 검토, 승인 이력과 Episode Workspace 조회",
+      "status": "available",
+      "fallback": "로컬 검증 후 PR로 동기화"
+    }
+  ],
+  "references": [
+    {
+      "type": "story",
+      "path": "episodes/EP001/script/script.md",
+      "purpose": "장면 의도와 패널 대사의 기준"
+    },
+    {
+      "type": "character",
+      "path": "episodes/EP001/characters/characters.json",
+      "purpose": "캐릭터 외형과 참조 자산의 기준"
+    },
+    {
+      "type": "storyboard",
+      "path": "episodes/EP001/storyboard/storyboard.json",
+      "purpose": "페이지와 패널 구도의 기준"
+    },
+    {
+      "type": "policy",
+      "path": "config/panel-generation-policy.json",
+      "purpose": "동시성, 재시도, QA와 에스컬레이션 기준"
+    }
+  ],
+  "unknowns": {
+    "known_known": [
+      {
+        "id": "KK-001",
+        "summary": "EP001은 16페이지 49패널 storyboard를 기준으로 Phase 4를 진행한다.",
+        "status": "confirmed",
+        "blocking": false,
+        "next_action": null
+      },
+      {
+        "id": "KK-002",
+        "summary": "외부 three-body-comic 생성 결과는 재사용하지 않는다.",
+        "status": "confirmed",
+        "blocking": false,
+        "next_action": null
+      }
+    ],
+    "known_unknown": [
+      {
+        "id": "KU-001",
+        "summary": "자동 이미지 생성과 저비용 Vision QA 실행기의 최종 연결은 아직 완료되지 않았다.",
+        "status": "open",
+        "blocking": false,
+        "next_action": "runner 출력과 이미지 생성 도구 사이의 안전한 실행 어댑터 구현"
+      },
+      {
+        "id": "KU-002",
+        "summary": "명시적인 Story, Character, Storyboard 사람 승인 기록이 없다.",
+        "status": "open",
+        "blocking": false,
+        "next_action": "기존 완료 상태를 provisional gate로 표시하고 운영자가 확인"
+      }
+    ],
+    "unknown_known": [
+      {
+        "id": "UK-001",
+        "summary": "운영자가 캐릭터 일관성, 구도 충실도, 흥행 훅 중 어떤 기준을 우선하는지 실행 기록으로 보정해야 한다.",
+        "status": "open",
+        "blocking": false,
+        "next_action": "Phase 5 사람 리뷰에서 우선순위 기록"
+      }
+    ],
+    "unknown_unknown_candidates": [
+      {
+        "id": "UU-001",
+        "summary": "같은 페이지 패널의 제한 병렬 생성이 장면 연속성에 예상 밖의 드리프트를 만들 수 있다.",
+        "status": "assumed",
+        "blocking": false,
+        "next_action": "페이지 완료 시 인접 패널 QA"
+      },
+      {
+        "id": "UU-002",
+        "summary": "브라우저 localStorage QA와 Git 원본 사이에 승인 상태가 달라질 수 있다.",
+        "status": "open",
+        "blocking": false,
+        "next_action": "승인 export를 PR로 확정하는 운영 규칙 적용"
+      }
+    ]
+  },
+  "assumptions": [
+    "현재 16페이지 storyboard를 Phase 4 기준선으로 유지한다.",
+    "명시적 승인 기록이 없는 완료 Phase는 provisional이며 현재 패널 생성을 소급 차단하지 않는다.",
+    "정상 패널 생성은 사람 승인 없이 계속하고 예외만 에스컬레이션한다."
+  ],
+  "human_decisions": [
+    {
+      "id": "HD-001",
+      "question": "기존 Story, Character, Storyboard 산출물을 공식 승인 상태로 전환할 것인가?",
+      "status": "pending",
+      "blocking": false
+    },
+    {
+      "id": "HD-002",
+      "question": "Phase 5 통과 후 EP001을 공개 배포할 것인가?",
+      "status": "pending",
+      "blocking": true
+    }
+  ],
+  "preflight": {
+    "status": "ready_with_assumptions",
+    "checked_at": "2026-07-14T00:00:00+09:00",
+    "notes": "필수 입력과 도구는 존재한다. 명시적 과거 승인 기록은 provisional로 관리한다."
+  }
+}

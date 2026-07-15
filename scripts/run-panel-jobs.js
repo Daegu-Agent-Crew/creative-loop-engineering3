@@ -103,10 +103,28 @@ function selectJobs(rootDir, policy, jobsJson, panelsJson, maxJobs) {
       worker_tier: policy.models.worker_tier,
       image_model: policy.models.image_model,
       qa_tier: policy.models.qa_tier,
+      decision: {
+        rationale: job.decision_rationale || '필수 입력과 실행 슬롯이 준비된 다음 페이지 작업을 선택한다.',
+        confidence: job.confidence || 'medium',
+        assumptions: job.assumptions || [],
+        uncertainties: job.uncertainties || [],
+        references_used: job.references_used || job.character_refs || [],
+        human_approval_required: Boolean(job.human_approval_required),
+        escalation_reason: job.escalation_reason || null
+      },
       panel_ids: panels.map((panel) => panel.panel_id),
       commands: panels.map((panel) => ({
         panel_id: panel.panel_id,
         image_path: panel.image_path,
+        decision_reason: '필수 패널 프롬프트와 출력 경로가 있고 기존 최종 이미지가 없다.',
+        assumptions: [
+          '현재 storyboard 설명과 캐릭터 참조를 생성 기준으로 사용한다.',
+          '최종 한글 텍스트는 후처리한다.'
+        ],
+        uncertainties: (panel.characters_in_frame || []).length >= 2
+          ? ['다인물 배치와 캐릭터 외형 일관성을 생성 후 확인해야 한다.']
+          : [],
+        references_used: panel.reference_assets || [],
         command: `codex exec --sandbox workspace-write '$imagegen: ${panel.generation_prompt.replace(/'/g, "'\\''")} Save to ${panel.image_path}'`
       }))
     });

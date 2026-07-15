@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Episode Discovery Context",
+  "type": "object",
+  "required": ["episode_id", "objective", "value_hypothesis", "tools", "unknowns", "preflight"],
+  "properties": {
+    "episode_id": { "type": "string" },
+    "objective": { "type": "string" },
+    "value_hypothesis": {
+      "type": "object",
+      "required": ["user_value", "baseline_target", "challenge_target"],
+      "properties": {
+        "user_value": { "type": "string" },
+        "baseline_target": { "type": "string" },
+        "challenge_target": { "type": "string" }
+      }
+    },
+    "tools": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "purpose", "status"],
+        "properties": {
+          "name": { "type": "string" },
+          "purpose": { "type": "string" },
+          "status": { "type": "string", "enum": ["available", "missing", "restricted"] },
+          "fallback": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "path", "purpose"],
+        "properties": {
+          "type": { "type": "string" },
+          "path": { "type": "string" },
+          "purpose": { "type": "string" }
+        }
+      }
+    },
+    "unknowns": {
+      "type": "object",
+      "required": ["known_known", "known_unknown", "unknown_known", "unknown_unknown_candidates"],
+      "properties": {
+        "known_known": { "$ref": "#/definitions/unknownItems" },
+        "known_unknown": { "$ref": "#/definitions/unknownItems" },
+        "unknown_known": { "$ref": "#/definitions/unknownItems" },
+        "unknown_unknown_candidates": { "$ref": "#/definitions/unknownItems" }
+      }
+    },
+    "assumptions": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "human_decisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "question", "status"],
+        "properties": {
+          "id": { "type": "string" },
+          "question": { "type": "string" },
+          "status": { "type": "string", "enum": ["pending", "approved", "rejected", "resolved"] },
+          "blocking": { "type": "boolean" }
+        }
+      }
+    },
+    "preflight": {
+      "type": "object",
+      "required": ["status", "checked_at"],
+      "properties": {
+        "status": { "type": "string", "enum": ["ready", "ready_with_assumptions", "blocked"] },
+        "checked_at": { "type": "string" },
+        "notes": { "type": "string" }
+      }
+    }
+  },
+  "definitions": {
+    "unknownItems": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "summary", "status"],
+        "properties": {
+          "id": { "type": "string" },
+          "summary": { "type": "string" },
+          "status": { "type": "string", "enum": ["confirmed", "open", "assumed", "resolved", "dismissed"] },
+          "blocking": { "type": "boolean" },
+          "next_action": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}

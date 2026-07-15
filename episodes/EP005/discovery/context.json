@@ -1,0 +1,111 @@
+{
+  "$schema": "../../../schemas/discovery.schema.json",
+  "episode_id": "EP005",
+  "objective": "CLE3 내부 산출물만 사용해 EP005 별의 바다의 현재 Phase를 진행하고 판단과 불확실성을 검토 가능하게 관리한다.",
+  "value_hypothesis": {
+    "user_value": "사람은 스토리와 시각 방향을 결정하고 AI는 조사, 생성, 검사와 재시도를 이어간다.",
+    "baseline_target": "현재 phase1_story의 필수 산출물과 QA 기록을 CLE3 내부에 완성한다.",
+    "challenge_target": "정상 작업 자동화와 예외 에스컬레이션으로 품질, 속도, 비용을 함께 개선한다."
+  },
+  "tools": [
+    {
+      "name": "CLE3 repository files",
+      "purpose": "에피소드 산출물과 상태의 원본 관리",
+      "status": "available",
+      "fallback": null
+    },
+    {
+      "name": "Codex tools",
+      "purpose": "코드, 문서, 이미지 생성과 검증",
+      "status": "available",
+      "fallback": "실패 작업을 보류하거나 에스컬레이션"
+    },
+    {
+      "name": "GitHub and GitHub Pages",
+      "purpose": "변경 검토와 Episode Workspace 조회",
+      "status": "available",
+      "fallback": "로컬 검증 후 PR로 동기화"
+    }
+  ],
+  "references": [
+    {
+      "type": "story",
+      "path": "episodes/EP005/script/script.md",
+      "purpose": "장면 의도와 패널 대사의 기준"
+    },
+    {
+      "type": "policy",
+      "path": "config/panel-generation-policy.json",
+      "purpose": "동시성, 재시도, QA와 에스컬레이션 기준"
+    }
+  ],
+  "unknowns": {
+    "known_known": [
+      {
+        "id": "KK-001",
+        "summary": "EP005의 현재 단계는 phase1_story이다.",
+        "status": "confirmed",
+        "blocking": false,
+        "next_action": null
+      },
+      {
+        "id": "KK-002",
+        "summary": "3개 Phase가 완료 상태로 기록되어 있다.",
+        "status": "confirmed",
+        "blocking": false,
+        "next_action": null
+      }
+    ],
+    "known_unknown": [
+      {
+        "id": "KU-001",
+        "summary": "명시적인 사람 승인 기록이 없는 완료 Phase는 공식 승인 여부를 확인해야 한다.",
+        "status": "open",
+        "blocking": false,
+        "next_action": "완료 Phase를 provisional gate로 표시하고 다음 기준선 변경 전에 운영자가 확인"
+      }
+    ],
+    "unknown_known": [
+      {
+        "id": "UK-001",
+        "summary": "운영자가 이 에피소드에서 가장 우선하는 품질 기준을 다음 사람 리뷰에서 확인해야 한다.",
+        "status": "open",
+        "blocking": false,
+        "next_action": "다음 승인 또는 QA에 우선순위 기록"
+      }
+    ],
+    "unknown_unknown_candidates": [
+      {
+        "id": "UU-001",
+        "summary": "다음 Phase에서 현재 입력의 암묵적 가정이 시각 또는 구조 드리프트로 나타날 수 있다.",
+        "status": "assumed",
+        "blocking": false,
+        "next_action": "Phase 전환 전 인접 산출물 정합성 검사"
+      }
+    ]
+  },
+  "assumptions": [
+    "현재 state.json과 존재하는 에피소드 파일을 작업 기준선으로 사용한다.",
+    "명시적 승인 기록이 없는 완료 Phase는 provisional이며 승인으로 추정하지 않는다.",
+    "정상 작업은 계속하고 가치 판단, 정책 예외와 최종 배포만 사람에게 요청한다."
+  ],
+  "human_decisions": [
+    {
+      "id": "HD-001",
+      "question": "현재 완료 Phase를 다음 작업의 공식 기준선으로 승인할 것인가?",
+      "status": "pending",
+      "blocking": false
+    },
+    {
+      "id": "HD-002",
+      "question": "EP005의 Phase 5 통과 후 공개 배포를 승인할 것인가?",
+      "status": "pending",
+      "blocking": true
+    }
+  ],
+  "preflight": {
+    "status": "ready_with_assumptions",
+    "checked_at": "2026-07-14T00:00:00+09:00",
+    "notes": "사용 가능한 도구와 현재 파일을 확인했다. 과거 사람 승인 기록은 provisional로 관리한다."
+  }
+}

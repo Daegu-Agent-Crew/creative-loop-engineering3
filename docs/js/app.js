@@ -16,8 +16,8 @@ let currentSubView = null;
 const app = document.getElementById('app');
 
 const PHASE_SEQUENCE = [
-  ['phase0', '인프라', '리포, Actions, Discord Bot, 스키마'],
-  ['phase0.5', '드라이런', '더미 데이터 전 파이프라인 테스트'],
+  ['phase0', '준비', '리포, 도구, 권한, 스키마'],
+  ['phase0.5', 'Discovery', 'Unknown, 레퍼런스, 가정, 드라이런'],
   ['phase1', '스토리', '원작 -> 분석 -> 구조 -> 장면 -> 대본'],
   ['phase2', '캐릭터', '캐릭터 시트, 외모 일관성'],
   ['phase3', '스토리보드', '페이지/패널 레이아웃'],
@@ -28,6 +28,7 @@ const PHASE_SEQUENCE = [
 
 const EPISODE_TABS = [
   ['overview', '개요'],
+  ['discovery', 'Discovery'],
   ['story', '스토리'],
   ['script', '대본'],
   ['characters', '캐릭터'],
@@ -912,13 +913,16 @@ async function renderEpisode() {
     return `<a href="#episode/${episodeId}/${item[0]}" class="tab-chip ${cls}">${item[1]}</a>`;
   }).join('');
 
-  const [script, characters, storyboard, panels, textOverlays, qa, scriptMd, storyboardMd, resultsMd, manifestMd, publishedViewerHtml, analysisMd, outlineMd, scenesMd, v3ScriptMd] = await Promise.all([
+  const [script, characters, storyboard, panels, textOverlays, qa, discovery, decisions, approvals, scriptMd, storyboardMd, resultsMd, manifestMd, publishedViewerHtml, analysisMd, outlineMd, scenesMd, v3ScriptMd] = await Promise.all([
     loadJson(`episodes/${episodeId}/script/script.json`),
     loadJson(`episodes/${episodeId}/characters/characters.json`),
     loadJson(`episodes/${episodeId}/storyboard/storyboard.json`),
     loadJson(`episodes/${episodeId}/panels/panels.json`),
     loadJson(`episodes/${episodeId}/panels/text-overlays.json`),
     loadJson(`episodes/${episodeId}/qa/qa.json`),
+    loadJson(`episodes/${episodeId}/discovery/context.json`),
+    loadJson(`episodes/${episodeId}/decisions/implementation-notes.json`),
+    loadJson(`episodes/${episodeId}/approvals/gates.json`),
     loadText(`episodes/${episodeId}/script.md`),
     loadText(`episodes/${episodeId}/storyboard.md`),
     loadText(`episodes/${episodeId}/results.md`),
@@ -948,6 +952,9 @@ async function renderEpisode() {
   if (textOverlays) sourceDocs.push({ label: 'text-overlays.json', path: `episodes/${episodeId}/panels/text-overlays.json` });
   if (storyboardMd) sourceDocs.push({ label: 'storyboard.md', path: `episodes/${episodeId}/storyboard.md` });
   if (qa) sourceDocs.push({ label: 'qa.json', path: `episodes/${episodeId}/qa/qa.json` });
+  if (discovery) sourceDocs.push({ label: 'discovery/context.json', path: `episodes/${episodeId}/discovery/context.json` });
+  if (decisions) sourceDocs.push({ label: 'decisions/implementation-notes.json', path: `episodes/${episodeId}/decisions/implementation-notes.json` });
+  if (approvals) sourceDocs.push({ label: 'approvals/gates.json', path: `episodes/${episodeId}/approvals/gates.json` });
   if (resultsMd) sourceDocs.push({ label: 'results.md', path: `episodes/${episodeId}/results.md` });
   if (manifestMd) sourceDocs.push({ label: 'MANIFEST.md', path: `episodes/${episodeId}/panels/MANIFEST.md` });
 
@@ -972,6 +979,9 @@ async function renderEpisode() {
     panels: panels,
     textOverlays: textOverlays,
     qa: qa,
+    discovery: discovery,
+    decisions: decisions,
+    approvals: approvals,
     resultsMd: effectiveResultsMd,
     manifestMd: manifestMd,
     publishedViewerHtml: publishedViewerHtml,
@@ -1015,6 +1025,7 @@ async function renderEpisode() {
 }
 
 function renderEpisodeTab(tab, context) {
+  if (tab === 'discovery') return renderDiscoveryTab(context);
   if (tab === 'story') return renderStoryTab(context);
   if (tab === 'script') return renderScriptTab(context);
   if (tab === 'characters') return renderCharactersTab(context);
@@ -1022,6 +1033,84 @@ function renderEpisodeTab(tab, context) {
   if (tab === 'panels') return renderPanelsTab(context);
   if (tab === 'qa') return renderQATab(context);
   return renderOverviewTab(context);
+}
+
+function renderUnknownGroup(title, items) {
+  const list = items || [];
+  return `<div class="scene-card">
+    <div class="output-title">${escapeHtml(title)} <span class="panel-qa-badge pending">${list.length}</span></div>
+    ${list.length ? list.map(function (item) {
+      return `<div class="output-item">
+        <div class="output-desc">${escapeHtml(item.summary || '-')}</div>
+        <div class="meta">${escapeHtml(item.id || '-')} · ${escapeHtml(item.status || '-')} · ${item.blocking ? 'blocking' : 'non-blocking'}</div>
+        ${item.next_action ? `<div class="meta">다음: ${escapeHtml(item.next_action)}</div>` : ''}
+      </div>`;
+    }).join('') : '<p class="meta">기록된 항목이 없습니다.</p>'}
+  </div>`;
+}
+
+function renderDiscoveryTab(context) {
+  const discovery = context.discovery;
+  if (!discovery) {
+    return `<div class="card">
+      <h3>Discovery 미작성</h3>
+      <p class="meta">이 에피소드는 기존 에피소드입니다. 다음 Phase 기준선 변경 전에 discovery/context.json을 작성해야 합니다.</p>
+    </div>`;
+  }
+
+  const unknowns = discovery.unknowns || {};
+  const decisions = (context.decisions && context.decisions.decisions) || [];
+  const approvals = (context.approvals && context.approvals.gates) || [];
+  const humanDecisions = discovery.human_decisions || [];
+  const openHumanDecisions = humanDecisions.filter(function (item) { return item.status === 'pending'; });
+
+  return `<div class="card">
+    <h3>작업 맥락과 가치</h3>
+    <p>${escapeHtml(discovery.objective || '-')}</p>
+    <div class="workspace-grid">
+      <div class="scene-card"><div class="output-title">사용자 가치</div><div class="output-desc">${escapeHtml((discovery.value_hypothesis || {}).user_value || '-')}</div></div>
+      <div class="scene-card"><div class="output-title">기본 목표</div><div class="output-desc">${escapeHtml((discovery.value_hypothesis || {}).baseline_target || '-')}</div></div>
+      <div class="scene-card"><div class="output-title">도전 목표</div><div class="output-desc">${escapeHtml((discovery.value_hypothesis || {}).challenge_target || '-')}</div></div>
+      <div class="scene-card"><div class="output-title">Preflight</div><div class="output-desc">${escapeHtml((discovery.preflight || {}).status || '-')}</div><div class="meta">${escapeHtml((discovery.preflight || {}).notes || '')}</div></div>
+    </div>
+  </div>
+  <div class="card">
+    <h3>Unknown Map</h3>
+    <div class="workspace-grid">
+      ${renderUnknownGroup('Known Known', unknowns.known_known)}
+      ${renderUnknownGroup('Known Unknown', unknowns.known_unknown)}
+      ${renderUnknownGroup('Unknown Known', unknowns.unknown_known)}
+      ${renderUnknownGroup('Unknown Unknown 후보', unknowns.unknown_unknown_candidates)}
+    </div>
+  </div>
+  <div class="workspace-grid">
+    <div class="card">
+      <h3>도구와 접근</h3>
+      ${(discovery.tools || []).map(function (tool) {
+        return `<div class="output-item"><div class="output-title">${escapeHtml(tool.name || '-')} <span class="panel-qa-badge ${tool.status === 'available' ? 'approved' : 'hold'}">${escapeHtml(tool.status || '-')}</span></div><div class="output-desc">${escapeHtml(tool.purpose || '-')}</div>${tool.fallback ? `<div class="meta">대안: ${escapeHtml(tool.fallback)}</div>` : ''}</div>`;
+      }).join('')}
+    </div>
+    <div class="card">
+      <h3>사람 결정 필요</h3>
+      ${openHumanDecisions.length ? openHumanDecisions.map(function (item) {
+        return `<div class="output-item"><div class="output-title">${escapeHtml(item.id || '-')} ${item.blocking ? '· blocking' : ''}</div><div class="output-desc">${escapeHtml(item.question || '-')}</div></div>`;
+      }).join('') : '<p class="meta">대기 중인 사람 결정이 없습니다.</p>'}
+    </div>
+  </div>
+  <div class="workspace-grid">
+    <div class="card">
+      <h3>승인 게이트</h3>
+      ${approvals.length ? approvals.map(function (gate) {
+        return `<div class="output-item"><div class="output-title">${escapeHtml(gate.label || gate.id || '-')} <span class="panel-qa-badge ${gate.status === 'approved' ? 'approved' : (gate.status === 'changes_requested' ? 'changes_requested' : 'pending')}">${escapeHtml(gate.status || '-')}</span></div><div class="meta">${escapeHtml(gate.phase || '-')} · ${gate.blocking ? 'blocking' : 'non-blocking'}</div><div class="output-desc">${escapeHtml(gate.notes || '')}</div></div>`;
+      }).join('') : '<p class="meta">승인 게이트가 없습니다.</p>'}
+    </div>
+    <div class="card">
+      <h3>판단 기록</h3>
+      ${decisions.length ? decisions.map(function (item) {
+        return `<div class="output-item"><div class="output-title">${escapeHtml(item.decision || '-')}</div><div class="output-desc">${escapeHtml(item.rationale || '-')}</div><div class="meta">확신도 ${escapeHtml(item.confidence || '-')} · 승인 ${escapeHtml(item.human_approval || '-')}</div>${(item.uncertainties || []).length ? `<div class="meta">불확실성: ${escapeHtml(item.uncertainties.join(', '))}</div>` : ''}</div>`;
+      }).join('') : '<p class="meta">판단 기록이 없습니다.</p>'}
+    </div>
+  </div>`;
 }
 
 function renderStoryTab(context) {
@@ -1079,6 +1168,14 @@ function renderOverviewTab(context) {
   const panelReviewSummary = summarizePanelReviews(panelList, review.panels || {});
   const criterionSummary = summarizeCriterionCounts(panelList, review.panels || {});
   const qaSnapshot = buildVisionQaSnapshot(context, review, lintReport);
+  const discovery = context.discovery || {};
+  const unknowns = discovery.unknowns || {};
+  const openUnknownCount = ['known_unknown', 'unknown_known', 'unknown_unknown_candidates'].reduce(function (total, key) {
+    return total + (unknowns[key] || []).filter(function (item) { return item.status === 'open' || item.status === 'assumed'; }).length;
+  }, 0);
+  const humanDecisionCount = (discovery.human_decisions || []).filter(function (item) { return item.status === 'pending'; }).length;
+  const approvalGates = (context.approvals && context.approvals.gates) || [];
+  const approvedGateCount = approvalGates.filter(function (gate) { return gate.status === 'approved'; }).length;
 
   return `
     <div class="workspace-grid">
@@ -1141,6 +1238,17 @@ function renderOverviewTab(context) {
         <h3>출시 게이트</h3>
         <p>${escapeHtml(qaSnapshot.releaseGate === 'ready' ? '준비됨' : '차단됨')}</p>
         <p class="meta">lint error 0 + episode QA 승인 기준</p>
+      </div>
+      <div class="card">
+        <h3>Discovery</h3>
+        <div class="stats-grid compact-grid">
+          ${statCard(openUnknownCount, '열린 Unknown')}
+          ${statCard(humanDecisionCount, '사람 결정')}
+          ${statCard((discovery.tools || []).filter(function (tool) { return tool.status === 'available'; }).length, '사용 가능 도구')}
+          ${statCard(`${approvedGateCount}/${approvalGates.length || 0}`, '승인 게이트')}
+        </div>
+        <p class="meta">preflight: ${escapeHtml((discovery.preflight || {}).status || '미작성')}</p>
+        <p><a href="#episode/${context.episodeId}/discovery">Discovery 열기</a></p>
       </div>
     </div>`;
 }

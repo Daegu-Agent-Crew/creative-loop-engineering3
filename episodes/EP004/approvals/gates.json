@@ -1,0 +1,57 @@
+{
+  "$schema": "../../../schemas/approvals.schema.json",
+  "episode_id": "EP004",
+  "policy": {
+    "normal_work_continues": true,
+    "exception_escalation": true,
+    "notes": "사람은 네 Phase 게이트와 최대 재시도 초과, 입력 충돌 또는 정책 불확실성만 검토한다."
+  },
+  "gates": [
+    {
+      "id": "story-lock",
+      "label": "Story Lock",
+      "phase": "phase1",
+      "status": "provisional",
+      "blocking": true,
+      "approved_by": null,
+      "approved_at": null,
+      "evidence": [
+        "episodes/EP004/script/script.md"
+      ],
+      "notes": "Phase 완료 기록은 있으나 명시적 사람 승인 레코드가 없어 provisional로 표시한다."
+    },
+    {
+      "id": "character-lock",
+      "label": "Character Lock",
+      "phase": "phase2",
+      "status": "pending",
+      "blocking": false,
+      "approved_by": null,
+      "approved_at": null,
+      "evidence": [],
+      "notes": "해당 Phase 산출물이 준비되면 사람이 방향과 가치를 승인한다."
+    },
+    {
+      "id": "storyboard-lock",
+      "label": "Storyboard Lock",
+      "phase": "phase3",
+      "status": "pending",
+      "blocking": false,
+      "approved_by": null,
+      "approved_at": null,
+      "evidence": [],
+      "notes": "해당 Phase 산출물이 준비되면 사람이 방향과 가치를 승인한다."
+    },
+    {
+      "id": "release",
+      "label": "Release Approval",
+      "phase": "phase6",
+      "status": "pending",
+      "blocking": true,
+      "approved_by": null,
+      "approved_at": null,
+      "evidence": [],
+      "notes": "Phase 5 QA 통과 후 사람이 공개 가치를 최종 승인한다."
+    }
+  ]
+}

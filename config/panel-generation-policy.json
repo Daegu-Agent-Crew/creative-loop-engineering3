@@ -97,7 +97,14 @@
       "completed_at",
       "generation_duration_seconds",
       "qa_score",
-      "last_error"
+      "last_error",
+      "decision_rationale",
+      "confidence",
+      "assumptions",
+      "uncertainties",
+      "references_used",
+      "human_approval_required",
+      "escalation_reason"
     ],
     "update_targets": [
       "panels_json",
