@@ -7,50 +7,19 @@
       "status": "in_progress",
       "current_phase": "phase4_panels",
       "phases": {
-        "phase0": {
-          "status": "completed",
-          "score": null
-        },
-        "phase0.5": {
-          "status": "completed",
-          "score": null
-        },
+        "phase0": {"status": "completed", "score": null},
+        "phase0.5": {"status": "completed", "score": null},
         "phase1": {
-          "status": "completed",
-          "score": null,
+          "status": "completed", "score": null,
           "prompt_version": "v3-4step",
-          "note": "v3 프롬프트로 재작성. 28p→16p. Subtext 87.5%, 콜드 오픈, McKee Gap, 개념 사전 세팅 적용. 이전 v1 score 45점은 v0-backup으로 보존.",
-          "sub_files": [
-            "story/analysis.md",
-            "story/outline.md",
-            "story/scenes.md",
-            "script/script.md",
-            "script/script.json"
-          ]
+          "note": "v3 프롬프트로 재작성. 16p. Subtext 87.5%, 콜드 오픈, McKee Gap, 개념 사전 세팅 적용. 이전 v1 score 45점은 v0-backup으로 보존.",
+          "sub_files": ["story/analysis.md","story/outline.md","story/scenes.md","script/script.md","script/script.json"]
         },
-        "phase2": {
-          "status": "completed",
-          "score": null,
-          "prompt_version": "v2-toriyama",
-          "note": "화풍 변경으로 재실행 (수채화→닥터슬럼프풍). style_notes 전면 개정. v3 스토리에 맞게 캐릭터 디자인 재검토 필요."
-        },
-        "phase3": {
-          "status": "completed",
-          "score": null,
-          "prompt_version": "v3-storyboard-toriyama",
-          "note": "v3 스토리(16p) 기준 재작성. 49패널, 닥터슬럼프풍."
-        },
-        "phase4": {
-          "status": "active",
-          "prompt_version": "v2",
-          "note": "storyboard + characters 기준으로 panels.json/asset slots 재동기화 완료. 생성 이미지는 episodes/EP001/panels/assets/ 내부 저장."
-        },
-        "phase5": {
-          "status": "pending"
-        },
-        "phase6": {
-          "status": "pending"
-        }
+        "phase2": {"status": "completed", "score": null, "prompt_version": "v2-toriyama", "note": "화풍 변경으로 재실행 (수채화→닥터슬럼프풍). style_notes 전면 개정."},
+        "phase3": {"status": "completed", "score": null, "prompt_version": "v3-storyboard-toriyama", "note": "v3 스토리(16p) 기준 재작성. 49패널, 닥터슬럼프풍."},
+        "phase4": {"status": "active", "prompt_version": "v2", "note": "17/49 패널 생성. Act 3(pages 10-16) 0% — 구조적 생성 장벽 5건 식별됨."},
+        "phase5": {"status": "pending"},
+        "phase6": {"status": "pending"}
       }
     },
     "EP002": {
@@ -58,47 +27,19 @@
       "status": "in_progress",
       "current_phase": "phase4_panels",
       "phases": {
-        "phase0": {
-          "status": "completed",
-          "score": null
-        },
-        "phase0.5": {
-          "status": "completed",
-          "score": null
-        },
+        "phase0": {"status": "completed", "score": null},
+        "phase0.5": {"status": "completed", "score": null},
         "phase1": {
-          "status": "completed",
-          "score": null,
+          "status": "completed", "score": null,
           "prompt_version": "v3-4step",
-          "note": "V3 워크플로우로 재작성. 28p→15p. analysis→outline→scenes→script 4단계 완료.",
-          "sub_files": [
-            "story/analysis.md",
-            "story/outline.md",
-            "story/scenes.md",
-            "script/script.md"
-          ]
+          "note": "V3 워크플로우로 재작성. 15p. analysis→outline→scenes→script 4단계 완료.",
+          "sub_files": ["story/analysis.md","story/outline.md","story/scenes.md","script/script.md"]
         },
-        "phase2": {
-          "status": "completed",
-          "prompt_version": "v2-toriyama",
-          "note": "캐릭터 참조 자산과 EP001 재사용 참조 기준으로 패널 생성 준비 완료."
-        },
-        "phase3": {
-          "status": "completed",
-          "prompt_version": "v2-toriyama-internal",
-          "note": "현재 storyboard/panels는 16p 기준으로 유지. script 15p와의 구조 차이는 다음 rebaseline에서 정리 필요."
-        },
-        "phase4": {
-          "status": "active",
-          "prompt_version": "v2-toriyama-internal",
-          "note": "panels.json 기준 57패널 중 30패널 생성. generation-jobs.json과 postprocess_overlay 전략으로 페이지 단위 큐 처리 중."
-        },
-        "phase5": {
-          "status": "pending"
-        },
-        "phase6": {
-          "status": "pending"
-        }
+        "phase2": {"status": "completed", "prompt_version": "v2-toriyama", "note": "캐릭터 참조 자산과 EP001 재사용 참조 기준으로 패널 생성 준비 완료."},
+        "phase3": {"status": "completed", "prompt_version": "v2-toriyama-internal", "note": "storyboard 16p, script 15p — 페이지 수 불일치 보존 중. 다음 rebaseline 시 정리."},
+        "phase4": {"status": "active", "prompt_version": "v2-toriyama-internal", "note": "30/57 패널 생성. text-overlays.json 미실행. generation-jobs 5/16 페이지 완료."},
+        "phase5": {"status": "pending"},
+        "phase6": {"status": "pending"}
       }
     },
     "EP003": {
@@ -106,41 +47,19 @@
       "status": "in_progress",
       "current_phase": "phase1_story",
       "phases": {
-        "phase0": {
-          "status": "completed",
-          "score": null
-        },
-        "phase0.5": {
-          "status": "completed",
-          "score": null
-        },
+        "phase0": {"status": "completed", "score": null},
+        "phase0.5": {"status": "completed", "score": null},
         "phase1": {
-          "status": "completed",
-          "score": null,
+          "status": "completed", "score": null,
           "prompt_version": "v3-4step",
-          "note": "V3 워크플로우로 재작성. 28p→15p. analysis→outline→scenes→script 4단계 완료.",
-          "sub_files": [
-            "story/analysis.md",
-            "story/outline.md",
-            "story/scenes.md",
-            "script/script.md"
-          ]
+          "note": "V3 워크플로우로 재작성. 15p. analysis→outline→scenes→script 4단계 완료.",
+          "sub_files": ["story/analysis.md","story/outline.md","story/scenes.md","script/script.md"]
         },
-        "phase2": {
-          "status": "pending"
-        },
-        "phase3": {
-          "status": "pending"
-        },
-        "phase4": {
-          "status": "pending"
-        },
-        "phase5": {
-          "status": "pending"
-        },
-        "phase6": {
-          "status": "pending"
-        }
+        "phase2": {"status": "pending"},
+        "phase3": {"status": "pending"},
+        "phase4": {"status": "pending"},
+        "phase5": {"status": "pending"},
+        "phase6": {"status": "pending"}
       }
     },
     "EP004": {
@@ -148,41 +67,19 @@
       "status": "in_progress",
       "current_phase": "phase1_story",
       "phases": {
-        "phase0": {
-          "status": "completed",
-          "score": null
-        },
-        "phase0.5": {
-          "status": "completed",
-          "score": null
-        },
+        "phase0": {"status": "completed", "score": null},
+        "phase0.5": {"status": "completed", "score": null},
         "phase1": {
-          "status": "completed",
-          "score": null,
+          "status": "completed", "score": null,
           "prompt_version": "v3-4step",
-          "note": "V3 워크플로우로 재작성. 28p→16p. analysis→outline→scenes→script 4단계 완료.",
-          "sub_files": [
-            "story/analysis.md",
-            "story/outline.md",
-            "story/scenes.md",
-            "script/script.md"
-          ]
+          "note": "V3 워크플로우로 재작성. 15p. analysis→outline→scenes→script 4단계 완료.",
+          "sub_files": ["story/analysis.md","story/outline.md","story/scenes.md","script/script.md"]
         },
-        "phase2": {
-          "status": "pending"
-        },
-        "phase3": {
-          "status": "pending"
-        },
-        "phase4": {
-          "status": "pending"
-        },
-        "phase5": {
-          "status": "pending"
-        },
-        "phase6": {
-          "status": "pending"
-        }
+        "phase2": {"status": "pending"},
+        "phase3": {"status": "pending"},
+        "phase4": {"status": "pending"},
+        "phase5": {"status": "pending"},
+        "phase6": {"status": "pending"}
       }
     },
     "EP005": {
@@ -190,41 +87,19 @@
       "status": "in_progress",
       "current_phase": "phase1_story",
       "phases": {
-        "phase0": {
-          "status": "completed",
-          "score": null
-        },
-        "phase0.5": {
-          "status": "completed",
-          "score": null
-        },
+        "phase0": {"status": "completed", "score": null},
+        "phase0.5": {"status": "completed", "score": null},
         "phase1": {
-          "status": "completed",
-          "score": null,
+          "status": "completed", "score": null,
           "prompt_version": "v3-4step",
-          "note": "V3 워크플로우로 재작성. 28p→16p. analysis→outline→scenes→script 4단계 완료.",
-          "sub_files": [
-            "story/analysis.md",
-            "story/outline.md",
-            "story/scenes.md",
-            "script/script.md"
-          ]
+          "note": "V3 워크플로우로 재작성. 15p. analysis→outline→scenes→script 4단계 완료.",
+          "sub_files": ["story/analysis.md","story/outline.md","story/scenes.md","script/script.md"]
         },
-        "phase2": {
-          "status": "pending"
-        },
-        "phase3": {
-          "status": "pending"
-        },
-        "phase4": {
-          "status": "pending"
-        },
-        "phase5": {
-          "status": "pending"
-        },
-        "phase6": {
-          "status": "pending"
-        }
+        "phase2": {"status": "pending"},
+        "phase3": {"status": "pending"},
+        "phase4": {"status": "pending"},
+        "phase5": {"status": "pending"},
+        "phase6": {"status": "pending"}
       }
     }
   },
@@ -241,20 +116,8 @@
     "rollover": true
   },
   "rollback_history": [
-    {
-      "date": "2026-07-06",
-      "episode": "EP001",
-      "phase": "phase2",
-      "reason": "화풍 변경: 수채화풍 → 닥터슬럼프풍 (Akira Toriyama style)",
-      "previous_score": 44
-    },
-    {
-      "date": "2026-07-08",
-      "episode": "EP001",
-      "phase": "phase1",
-      "reason": "v3 프롬프트 적용: Subtext 30%, Pope in the Pool, 콜드 오픈, McKee Gap, 개념 사전 세팅, 호흡 검증",
-      "previous_score": 45
-    }
+    {"date": "2026-07-06","episode": "EP001","phase": "phase2","reason": "화풍 변경: 수채화풍 → 닥터슬럼프풍 (Akira Toriyama style)","previous_score": 44},
+    {"date": "2026-07-08","episode": "EP001","phase": "phase1","reason": "v3 프롬프트 적용: Subtext 30%, Pope in the Pool, 콜드 오픈, McKee Gap, 개념 사전 세팅, 호흡 검증","previous_score": 45}
   ],
-  "last_updated": "2026-07-11T05:10:00Z"
+  "last_updated": "2026-07-15T00:20:00Z"
 }
