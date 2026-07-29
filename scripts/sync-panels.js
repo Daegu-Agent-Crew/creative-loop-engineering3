@@ -199,7 +199,10 @@ function syncEpisodePanels(rootDir, episodeId) {
       const existing = existingById.get(panel.panel_id) || {};
       const targetImagePath = existing.image_path || `episodes/${episodeId}/panels/assets/${panel.panel_id}.png`;
       const absoluteImagePath = path.join(rootDir, targetImagePath);
-      const generatedStatus = fs.existsSync(absoluteImagePath) ? 'generated' : (existing.generation_status || 'pending');
+      const fileExists = fs.existsSync(absoluteImagePath);
+      const generatedStatus = fileExists
+        ? 'generated'
+        : (existing.generation_status === 'generated' ? 'missing' : (existing.generation_status || 'pending'));
       panels.push({
         panel_id: panel.panel_id,
         page_number: page.page_number,
