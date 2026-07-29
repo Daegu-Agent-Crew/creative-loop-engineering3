@@ -84,7 +84,7 @@
       "image_path": "episodes/EP001/panels/assets/p2-2.png",
       "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 2\nPanel ID: p2-2\nStoryboard description: 【medium】 라오충이 담배를 피움. Toriyama풍: 둥근 얼굴, 넓은 미소, 담배 연기가 보더 돌파. 주름진 눈가, 따뜻함.\nVisible cast: 라오충\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: medium\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
       "style": "dr-slump-toriyama",
-      "generation_status": "pending",
+      "generation_status": "generated",
       "ai_score": null,
       "human_score": null,
       "text_strategy": "postprocess_overlay"
@@ -122,7 +122,7 @@
       "image_path": "episodes/EP001/panels/assets/p2-4.png",
       "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 2\nPanel ID: p2-4\nStoryboard description: 【medium】 라오충 담배 연기를 내뿜으며. 표정이 미소→진지함으로. 대사: '우주는 인간의 투쟁과 상관없이 움직이는 거야.' ★ THEME STATED\nVisible cast: 라오충\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: medium\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
       "style": "dr-slump-toriyama",
-      "generation_status": "pending",
+      "generation_status": "generated",
       "ai_score": null,
       "human_score": null,
       "text_strategy": "postprocess_overlay"
@@ -160,7 +160,7 @@
       "image_path": "episodes/EP001/panels/assets/p3-2.png",
       "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 3\nPanel ID: p3-2\nStoryboard description: 【wide】 캠퍼스 광장. 홍위병이 천문학 교과서 소각. Toriyama풍: 불길 과장 곡선, 타는 종이가 하늘로 — p2 별과 시각적 유사. '삼체문제' 챕터가 타들어감. Pope in the Pool.\nVisible cast: 홍위병(군중)\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: wide\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
       "style": "dr-slump-toriyama",
-      "generation_status": "pending",
+      "generation_status": "generated",
       "ai_score": null,
       "human_score": null,
       "text_strategy": "postprocess_overlay"
@@ -198,7 +198,7 @@
       "image_path": "episodes/EP001/panels/assets/p4-1.png",
       "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 4\nPanel ID: p4-1\nStoryboard description: 【dramatic wide 상단2/3】 강당. 홍위병으로 가득. 마오 초상화 거대. Toriyama풍: 군중은 아이코닉 둥근 형태, 과장된 원근법으로 권력 압도감. 딥레드/블랙/화이트.\nVisible cast: 홍위병(군중)\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: dramatic_wide\nPanel type: single panel\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
       "style": "dr-slump-toriyama",
-      "generation_status": "pending",
+      "generation_status": "generated",
       "ai_score": null,
       "human_score": null,
       "text_strategy": "postprocess_overlay"
@@ -216,7 +216,7 @@
       "image_path": "episodes/EP001/panels/assets/p4-2.png",
       "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 4\nPanel ID: p4-2\nStoryboard description: 【medium】 예페이촨이 무릎 꿇고 있음. Toriyama풍: 단순화되었으나 타박자국 명확한 선. '반동 학술 권위' 팻말. 크고 강한 눈.\nVisible cast: 예페이촨\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: medium\nPanel type: single panel\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
       "style": "dr-slump-toriyama",
-      "generation_status": "pending",
+      "generation_status": "generated",
       "ai_score": null,
       "human_score": null,
       "text_strategy": "postprocess_overlay"
@@ -254,7 +254,7 @@
       "image_path": "episodes/EP001/panels/assets/p4-4.png",
       "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 4\nPanel ID: p4-4\nStoryboard description: 【worm_eye, 보더 돌파】 홍위병 대표가 확성기 들고 외침. Toriyama풍: 입이 비정상적으로 큼, 침 튀는 효과선. 확성기가 보더 뚫음. 대사: '인정하겠는가!'\nVisible cast: 홍위병 대표\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: worm_eye\nPanel type: single panel\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
       "style": "dr-slump-toriyama",
-      "generation_status": "pending",
+      "generation_status": "generated",
       "ai_score": null,
       "human_score": null,
       "text_strategy": "postprocess_overlay"
@@ -272,7 +272,7 @@
       "image_path": "episodes/EP001/panels/assets/p5-1.png",
       "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 5\nPanel ID: p5-1\nStoryboard description: 【extreme close-up】 예페이촨이 고개를 듦. Toriyama풍: 피 마른 자국 과장 선, 눈동자 강렬. 결의. 대사: '물리학은 정치로 바뀌지 않습니다.'\nVisible cast: 예페이촨\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: extreme_close_up\nPanel type: single panel\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
       "style": "dr-slump-toriyama",
-      "generation_status": "pending",
+      "generation_status": "generated",
       "ai_score": null,
       "human_score": null,
       "text_strategy": "postprocess_overlay"
@@ -291,7 +291,7 @@
       "image_path": "episodes/EP001/panels/assets/p5-2.png",
       "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 5\nPanel ID: p5-2\nStoryboard description: 【dramatic】 홍위병이 예페이촨을 발로 참. Toriyama풍: 프레임 완전히 깨짐, 잉크 스플래터 효과선 폭발. 소리가 시각적(박수=직선, 비명=곡선).\nVisible cast: 홍위병, 예페이촨\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: dramatic\nPanel type: single panel\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
       "style": "dr-slump-toriyama",
-      "generation_status": "pending",
+      "generation_status": "generated",
       "ai_score": null,
       "human_score": null,
       "text_strategy": "postprocess_overlay"
@@ -407,7 +407,7 @@
       "image_path": "episodes/EP001/panels/assets/p7-4.png",
       "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 7\nPanel ID: p7-4\nStoryboard description: 【하단부 abstract】 전파가 우주로. Toriyama풍: 동심원 파동(DBZ 기탄형). 어둠 속으로 사라짐. ★ MIDPOINT 가짜 승리. 나레이션: '4.2 광년 뒤... 받은 이들이 있었다.'\nVisible cast: none\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: abstract\nPanel type: single panel\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
       "style": "dr-slump-toriyama",
-      "generation_status": "pending",
+      "generation_status": "generated",
       "ai_score": null,
       "human_score": null,
       "text_strategy": "postprocess_overlay"
@@ -481,7 +481,7 @@
       "image_path": "episodes/EP001/panels/assets/p9-3.png",
       "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 9\nPanel ID: p9-3\nStoryboard description: 【medium】 동료가 커피 마시며 무심하게. 대사: '비슷한 행동? 뭔데?'\nVisible cast: 동료 형사\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: medium\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
       "style": "dr-slump-toriyama",
-      "generation_status": "pending",
+      "generation_status": "generated",
       "ai_score": null,
       "human_score": null,
       "text_strategy": "postprocess_overlay"
@@ -521,7 +521,7 @@
       "image_path": "episodes/EP001/panels/assets/p9-5.png",
       "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 9\nPanel ID: p9-5\nStoryboard description: 【medium, Pope in the Pool】 백판 옆 책상에 '태양 세 개' 그림 사본이 끼여 있음. 스치친은 등 돌려 못 봄. 독자만 발견. 배경 대사: '자살이잖아.'\nVisible cast: 스치친(등)\n\n--- CHARACTER REFERENCES ---\n- 스치친 (史强): Reference asset: episodes/EP001/characters/assets/shiqiang-v1.png Appearance: 40대 중국 남성, 거친 외모, 헝클어진 검은 머리, 무거운 수염, 피곤한 좁은 눈, 묵직한 체형. 더러운 열린 흰 셔츠, 낡은 작업복 재킷, 헐렁한 바지, 닳은 부츠. 항상 담배. Style notes: Toriyama style: exaggerated weary posture, heavy stubble dots, small shrewd eyes. Earthy olive-brown cell-shaded palette. Cigarette as signature prop. Inner tone: 직감형 형사. 겉은 거칠지만 속은 따뜻함. 과학자 연쇄 자살 사건을 조사. 비관적이지만 포기하지 않는 끈기.\n\n--- COMPOSITION ---\nCamera: medium\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
       "style": "dr-slump-toriyama",
-      "generation_status": "pending",
+      "generation_status": "generated",
       "ai_score": null,
       "human_score": null,
       "text_strategy": "postprocess_overlay"
