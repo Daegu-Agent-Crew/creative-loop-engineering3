@@ -561,7 +561,7 @@
       "image_path": "episodes/EP001/panels/assets/p10-1.png",
       "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 10\nPanel ID: p10-1\nStoryboard description: 【wide】 작은 아파트. 청신(70세)이 창가에. Toriyama풍: 노인 실루엣 둥글고 작게 — 고독. 창받 네온이 p2 별과 대비. 독백: '40년.'\nVisible cast: 청신\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n\n--- COMPOSITION ---\nCamera: wide\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
       "style": "dr-slump-toriyama",
-      "generation_status": "pending",
+      "generation_status": "generated",
       "ai_score": null,
       "human_score": null,
       "text_strategy": "postprocess_overlay"
@@ -581,7 +581,7 @@
       "image_path": "episodes/EP001/panels/assets/p10-2.png",
       "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 10\nPanel ID: p10-2\nStoryboard description: 【close-up 손】 청신의 손이 사진 위를 쓰다듬음. Toriyama풍: 주름진 손 디테일, 바랜 사진 속 젊은 얼굴과 대비. 독백: '그때 보낸 신호가 도달했을 시간이야.'\nVisible cast: 청신(손)\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n\n--- COMPOSITION ---\nCamera: extreme_close_up\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
       "style": "dr-slump-toriyama",
-      "generation_status": "pending",
+      "generation_status": "generated",
       "ai_score": null,
       "human_score": null,
       "text_strategy": "postprocess_overlay"
@@ -601,7 +601,7 @@
       "image_path": "episodes/EP001/panels/assets/p10-3.png",
       "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 10\nPanel ID: p10-3\nStoryboard description: 【close-up】 핸드폰 울림. '알 수 없는 번호'. Toriyama풍: 급격한 현실 전환, 핸드폰 빛이 얼굴에. 목脉 박동 표현.\nVisible cast: 청신\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n\n--- COMPOSITION ---\nCamera: close_up\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
       "style": "dr-slump-toriyama",
-      "generation_status": "pending",
+      "generation_status": "generated",
       "ai_score": null,
       "human_score": null,
       "text_strategy": "postprocess_overlay"
@@ -621,7 +621,7 @@
       "image_path": "episodes/EP001/panels/assets/p11-1.png",
       "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 11\nPanel ID: p11-1\nStoryboard description: 【close-up】 청신이 핸드폰 받음. Toriyama풍: 수채화에서 만화풍으로 전환 시작. 선 굵어지고 대비 강해짐. 대사: '여... 여보세요?'\nVisible cast: 청신\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n\n--- COMPOSITION ---\nCamera: close_up\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
       "style": "dr-slump-toriyama",
-      "generation_status": "pending",
+      "generation_status": "generated",
       "ai_score": null,
       "human_score": null,
       "text_strategy": "postprocess_overlay"
@@ -641,7 +641,7 @@
       "image_path": "episodes/EP001/panels/assets/p11-2.png",
       "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 11\nPanel ID: p11-2\nStoryboard description: 【청신 얼굴 반응】 찢어진 말풍선. 대사: '그 신호가 닿았습니다.' Toriyama풍: 말풍선 모서리 날카롭고 글씨 약간 비틀림. 배경 어두워짐.\nVisible cast: 청신\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n\n--- COMPOSITION ---\nCamera: close_up\nPanel type: single panel\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
       "style": "dr-slump-toriyama",
-      "generation_status": "pending",
+      "generation_status": "generated",
       "ai_score": null,
       "human_score": null,
       "text_strategy": "postprocess_overlay"
@@ -661,7 +661,7 @@
       "image_path": "episodes/EP001/panels/assets/p11-3.png",
       "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 11\nPanel ID: p11-3\nStoryboard description: 【extreme close-up, 눈】 청신 충격. 동공 확장. 40년 비밀 무너짐. 눈가에 비로소 눈물. 대사: '누... 누구세요?'\nVisible cast: 청신\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n\n--- COMPOSITION ---\nCamera: extreme_close_up\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
       "style": "dr-slump-toriyama",
-      "generation_status": "pending",
+      "generation_status": "generated",
       "ai_score": null,
       "human_score": null,
       "text_strategy": "postprocess_overlay"
@@ -681,7 +681,7 @@
       "image_path": "episodes/EP001/panels/assets/p11-4.png",
       "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 11\nPanel ID: p11-4\nStoryboard description: 【청신 동공 클로즈업】 찢어진 말풍선 더 크게. 대사: '물리학을 믿습니까?' 패널 침범. 동공 안에 3개 빛점. ★ Break into Act 3 — p5 예페이촨 회수.\nVisible cast: 청신\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n\n--- COMPOSITION ---\nCamera: extreme_close_up\nPanel type: single panel\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
       "style": "dr-slump-toriyama",
-      "generation_status": "pending",
+      "generation_status": "generated",
       "ai_score": null,
       "human_score": null,
       "text_strategy": "postprocess_overlay"
@@ -701,7 +701,7 @@
       "image_path": "episodes/EP001/panels/assets/p12-1.png",
       "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 12\nPanel ID: p12-1\nStoryboard description: 【close-up】 통화 끊김 '뚜— 뚜—'. 반 페이지 여백 — 침묵. 청신 숨소리만. 핸드폰 '통화 종료' 차갑게.\nVisible cast: 청신\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n\n--- COMPOSITION ---\nCamera: close_up\nPanel type: single panel\nVisual emphasis: silence\nPrioritize stillness, negative space, restrained acting, and quiet atmosphere.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
       "style": "dr-slump-toriyama",
-      "generation_status": "pending",
+      "generation_status": "generated",
       "ai_score": null,
       "human_score": null,
       "text_strategy": "postprocess_overlay"
@@ -721,7 +721,7 @@
       "image_path": "episodes/EP001/panels/assets/p12-2.png",
       "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 12\nPanel ID: p12-2\nStoryboard description: 【medium】 청신이 거리를 걷는다. 수채화 배경(정상) + 만화풍 청신(격리). 시각적 이중 구조.\nVisible cast: 청신\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n\n--- COMPOSITION ---\nCamera: medium\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
       "style": "dr-slump-toriyama",
-      "generation_status": "pending",
+      "generation_status": "generated",
       "ai_score": null,
       "human_score": null,
       "text_strategy": "postprocess_overlay"
@@ -741,7 +741,7 @@
       "image_path": "episodes/EP001/panels/assets/p12-3.png",
       "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 12\nPanel ID: p12-3\nStoryboard description: 【medium】 전자광고판 깜빡임. 1초간 '1199:59:59' 표시 후 사라짐. 행인들은 모름. Toriyama풍: 숫자가 선명하게 튐. 네온+붉은 숫자.\nVisible cast: 청신\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n\n--- COMPOSITION ---\nCamera: medium\nPanel type: single panel\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
       "style": "dr-slump-toriyama",
-      "generation_status": "pending",
+      "generation_status": "generated",
       "ai_score": null,
       "human_score": null,
       "text_strategy": "postprocess_overlay"
@@ -761,7 +761,7 @@
       "image_path": "episodes/EP001/panels/assets/p12-4.png",
       "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP001\nPage: 12\nPanel ID: p12-4\nStoryboard description: 【medium 측면】 청신만 봄. 멈춰 섬. 그림자가 비정상적으로 길게. 동공에 숫자 반사. 독백: '...시작됐다.'\nVisible cast: 청신\n\n--- CHARACTER REFERENCES ---\n- 청신 (程心): Reference asset: episodes/EP001/characters/assets/chengxin-v1.png Appearance: 노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄. Style notes: Toriyama style: soft rounded features, large gentle eyes, simplified grey hair. Warm cell-shaded coloring. Cardigan with bold simple shapes. Inner tone: 절대적 선의지. 과도한 공감. 인류를 어머니처럼 지키려 함. EP001에서는 카운트다운을 목격하고 과거의 선택을 후회하는 인물.\n\n--- COMPOSITION ---\nCamera: medium\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
       "style": "dr-slump-toriyama",
-      "generation_status": "pending",
+      "generation_status": "generated",
       "ai_score": null,
       "human_score": null,
       "text_strategy": "postprocess_overlay"
