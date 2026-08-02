@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EP005 — 별의 바다</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Nanum Gothic', sans-serif; background: #1a1a1a; color: #e0e0e0; display: flex; justify-content: center; padding: 20px; }
+  .storyboard { width: 1200px; background: #111; border: 2px solid #333; border-radius: 8px; overflow: hidden; }
+  .header { background: linear-gradient(135deg, #0D47A1, #1A237E, #000); padding: 20px 30px; border-bottom: 2px solid #555; }
+  .header h1 { font-size: 28px; font-weight: 800; color: #fff; text-shadow: 2px 2px 4px rgba(0,0,0,0.7); }
+  .header .subtitle { font-size: 14px; color: #90CAF9; margin-top: 5px; }
+  .header .tags { display: flex; gap: 10px; margin-top: 8px; flex-wrap: wrap; }
+  .tag { background: rgba(0,0,0,0.4); padding: 3px 10px; border-radius: 12px; font-size: 11px; color: #90CAF9; }
+  .panels { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; padding: 2px; background: #222; }
+  .panel { background: #1a1a1a; border-radius: 4px; overflow: hidden; position: relative; min-height: 200px; }
+  .panel.full-width { grid-column: 1 / -1; }
+  .panel-content { padding: 15px 20px; height: 100%; }
+  .beat-label { display: inline-block; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 3px; margin-bottom: 6px; text-transform: uppercase; letter-spacing: 1px; }
+  .beat-cold-open { background: #4a148c; color: #fff; }
+  .beat-theme { background: #1565c0; color: #fff; }
+  .beat-catalyst { background: #e65100; color: #fff; }
+  .beat-midpoint { background: #1a237e; color: #90CAF9; }
+  .beat-silence { background: #263238; color: #90a4ae; }
+  .beat-all-lost { background: #b71c1c; color: #FFD700; }
+  .beat-climax { background: #b71c1c; color: #FFD700; }
+  .beat-final { background: #000; color: #90CAF9; border: 1px solid #1A237E; }
+  .page-badge { position: absolute; top: 8px; right: 12px; font-size: 10px; color: #666; font-weight: 700; }
+  .visual-desc { font-size: 12px; color: #aaa; margin-bottom: 8px; font-style: italic; line-height: 1.4; }
+  .dialogue { background: rgba(255,255,255,0.05); border-left: 3px solid; padding: 6px 10px; margin: 4px 0; font-size: 13px; line-height: 1.5; }
+  .dialogue.wangmiao { border-color: #4FC3F7; }
+  .dialogue.yezheng { border-color: #FF8A65; }
+  .dialogue.shi { border-color: #A1887F; }
+  .dialogue.narration { border-color: #666; color: #999; font-size: 12px; }
+  .speaker { font-weight: 800; font-size: 11px; text-transform: uppercase; }
+  .speaker.wangmiao { color: #4FC3F7; }
+  .speaker.yezheng { color: #FF8A65; }
+  .speaker.shi { color: #A1887F; }
+  .subtext { color: #777; font-size: 11px; margin-top: 2px; }
+  .emotion-bar { display: flex; align-items: center; gap: 6px; margin-top: 6px; font-size: 10px; color: #666; }
+  .emotion-dot { width: 8px; height: 8px; border-radius: 50%; }
+  .color-theme { height: 4px; border-radius: 2px; margin-bottom: 8px; }
+  .footer { background: #0d0d0d; padding: 12px 20px; border-top: 1px solid #333; font-size: 11px; color: #666; display: flex; justify-content: space-between; }
+  .ep001-callback { display: inline-block; background: #1a237e; color: #90CAF9; font-size: 10px; padding: 1px 6px; border-radius: 3px; margin-left: 4px; }
+</style>
+</head>
+<body>
+<div class="storyboard">
+  
+  <div class="header">
+    <h1>EP005 — 별의 바다 <span style="font-size:16px; color:#666;">(파일럿 시즌 피날레)</span></h1>
+    <div class="subtitle">청신의 40년 비밀 고백 · 소페르의 정체 · 삼체 함대의 돛 · 시즌 모든 떡밥 회수</div>
+    <div class="tags">
+      <span class="tag">📈 감정: 5→4→5→7→8→10→9→10</span>
+      <span class="tag">🎭 가설: H5 원작 팬 vs 신독자 · H3 매력 캐릭터</span>
+      <span class="tag">🧩 EP001 떡밥 8개 전체 회수 · Subtext 82.4%</span>
+    </div>
+  </div>
+  
+  <div class="panels">
+    
+    <!-- Panel 1: Cold Open -->
+    <div class="panel">
+      <div class="page-badge">p1</div>
+      <div class="panel-content">
+        <span class="beat-label beat-cold-open">🎬 Cold Open · 소페르의 눈</span>
+        <div class="color-theme" style="background: linear-gradient(90deg, #000, #FFD700, #000);"></div>
+        <div class="visual-desc">
+          👁️ 왕먀오 동공 극클로즈업. 동공 안에 거대한 눈이 비친다 — <b style="color:#FFD700;">소페르의 눈. 금색 홍채, 중심이 인간이 아닌 기하학적 패턴.</b> 동공 안에 왕먀오가 작게 비침 — 거울 안의 거울.<br><br>
+          😰 왕먀오, 새벽에 벌떡 일어남. 눈물 자국. 베개가 축축함.
+        </div>
+        <div class="dialogue wangmiao">
+          <span class="speaker wangmiao">왕먀오 (독백)</span><br>
+          "꿈이었어... 왜 울었지?"<br>
+          <span class="subtext">subtext: 내가 통제당하고 있다</span>
+        </div>
+        <div class="emotion-bar">
+          <span class="emotion-dot" style="background:#FFD700;"></span>
+          감각적 불안 + 의문 — EP001 시체 오프닝과 완전히 대비되는 "내면적 침입"
+          <span class="ep001-callback">↔ EP001 p1 시체</span>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Panel 2: 방문 + Theme -->
+    <div class="panel">
+      <div class="page-badge">p2-3</div>
+      <div class="panel-content">
+        <span class="beat-label beat-theme">💡 Theme Stated · 청신의 경고</span>
+        <div class="color-theme" style="background: linear-gradient(90deg, #90A4AE, #FFB74D, #FF8A65);"></div>
+        <div class="visual-desc">
+          🏠 베이징 아파트. 왕먀오가 청신(70세)을 방문. 흰머리, 곱슬거리는 주름. 1967년 라디오 망대 사진이 테이블에. <b>수채화풍</b> 전환 시작 — 청신의 얼굴에서 시대가 겹침.
+        </div>
+        <div class="dialogue yezheng">
+          <span class="speaker yezheng">청신 (70세)</span><br>
+          "진실을 알면, 더 이상 예전처럼 밤하늘을 볼 수 없게 됩니다."<br>
+          <span class="subtext">★ Theme Stated — 돌아가세요 (그러나 둘 다 불가능)</span>
+        </div>
+        <div class="dialogue wangmiao">
+          <span class="speaker wangmiao">왕먀오</span><br>
+          "1967년에 무슨 일이 있었습니까?"<br>
+          <b>"저는 더 이상 돌아갈 수 없습니다."</b>
+        </div>
+        <div class="dialogue yezheng">
+          <span class="speaker yezheng">청신 (손이 떨림)</span><br>
+          "...1967년이었습니다."
+        </div>
+        <div class="emotion-bar">
+          <span class="emotion-dot" style="background:#FFB74D;"></span>
+          차가운 현실 → 따뜻한 과거로 — 시간 경계 붕괴 시작
+        </div>
+      </div>
+    </div>
+    
+    <!-- Panel 3: 1967년 진실 -->
+    <div class="panel">
+      <div class="page-badge">p4-5</div>
+      <div class="panel-content">
+        <span class="beat-label beat-catalyst">⚡ 1967년 — 신호의 진짜 동기</span>
+        <div class="color-theme" style="background: linear-gradient(90deg, #FF8A65, #1565C0, #000);"></div>
+        <div class="visual-desc">
+          📻 1967년 라디오 망대. 젊은 예원제(22세). 아버지가 죽은 다음 날 밤. 망대 벽에 신문 clipping: <b>"예페이촨, 반동 학술 권위... 사망"</b><br><br>
+          손이 송신기 스위치에 닿는다. <b>분노의 떨림.</b> 전파가 우주로 발사됨 — 동심원의 파동.
+        </div>
+        <div class="dialogue yezheng">
+          <span class="speaker yezheng">청신 (나레이션)</span><br>
+          "그때 나는 믿었습니다. 우주 어딘가에 정의가 있을 거라고."<br>
+          <b>"다른 지성체가 우리를 심판해줄 거라고."</b><br>
+          <span class="subtext">subtext: 복수하고 싶었을 뿐이다</span>
+        </div>
+        <div class="emotion-bar">
+          <span class="emotion-dot" style="background:#FF8A65;"></span>
+          순수 → 절망적 분노 · EP001 p7 회수: 같은 장소, 다른 감정
+          <span class="ep001-callback">↔ EP001 p7 전파</span>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Panel 4: 응답의 바다 -->
+    <div class="panel">
+      <div class="page-badge">p6 · ★ 침묵 풀페이지</div>
+      <div class="panel-content" style="background: #050510;">
+        <span class="beat-label beat-silence">🤫 침묵 페이지 — 응답의 바다</span>
+        <div class="color-theme" style="background: linear-gradient(90deg, #000022, #1565C0, #FFD700);"></div>
+        <div class="visual-desc" style="color: #888;">
+          🌌 <b>풀 스프레드.</b> 우주. 전파 파동이 4.2광년을 넘어, 페이지 중앙에 <b style="color:#FFD700;">세 개의 태양(삼체 성계)</b>가 희미하게 떠오름. 전파가 그곳에 닿는 순간. 그리고 돌아오는 <b style="color:#ef5350;">붉은 빛.</b>
+        </div>
+        <div class="dialogue narration" style="color:#666; border-color:#333;">
+          <span class="speaker" style="color:#666;">📖 하단 작은 글씨</span><br>
+          <b style="color:#888;">"나는 응답을 원했다, 심판이 아니라."</b>
+        </div>
+        <div class="emotion-bar">
+          <span class="emotion-dot" style="background:#1565C0;"></span>
+          ★ Midpoint — 응답은 왔다. 그러나 심판이었다.
+          <span class="ep001-callback">↔ EP001 p7 "4.2광년 뒤, 그 신호를 받은 이들이 있었다"</span>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Panel 5: 소페르의 정체 -->
+    <div class="panel">
+      <div class="page-badge">p7-8</div>
+      <div class="panel-content">
+        <span class="beat-label beat-all-lost">👁️ 소페르의 정체 — "너희는 버그다"</span>
+        <div class="color-theme" style="background: linear-gradient(90deg, #1565C0, #000, #FFD700);"></div>
+        <div class="visual-desc">
+          👁️ <b>시점 전환 — 소페르의 시점.</b> 거대한 눈동자가 지구를 내려다봄. 지구가 작고, 소페르의 눈이 압도적으로 큼. 패널 프레임이 비틀려 불안감 극대화.
+        </div>
+        <div class="dialogue yezheng">
+          <span class="speaker yezheng">청신</span><br>
+          "그들의 감시자가 있었습니다. 소페르. 소페르는 과학자들의 <b>망막에 직접 메시지를 투영</b>했습니다."<br>
+          <span class="subtext">★ EP001 p9 떡밥 회수 — 과학자들이 밤하늘을 본 이유</span>
+        </div>
+        <div class="dialogue yezheng">
+          <span class="speaker yezheng">청신 (나레이션)</span><br>
+          <b style="font-size:16px; color:#FFD700;">"'너희는 버그다.'</b>"<br>
+          <span class="subtext">★ EP001 p11 회수 — "물리학을 믿습니까?" → "너희는 버그다"</span>
+        </div>
+        <div class="emotion-bar">
+          <span class="emotion-dot" style="background:#FFD700;"></span>
+          인간이 벌레가 되는 순간 · 왕먀오 동공에 세 빛점 (삼체의 표식)
+          <span class="ep001-callback">↔ EP001 p9, p11</span>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Panel 6: 스치친 -->
+    <div class="panel">
+      <div class="page-badge">p9</div>
+      <div class="panel-content">
+        <span class="beat-label beat-theme">🔗 스치친의 연결</span>
+        <div class="color-theme" style="background: linear-gradient(90deg, #90CAF9, #A1887F);"></div>
+        <div class="visual-desc">
+          🕵️ 스치친(형사) 등장. 케이스 파일 펼침 — 세 과학자 사진, 빨간 실로 연결. <b>EP001 p9의 백판과 동일한 자료 — 그러나 이제 의미를 안다.</b>
+        </div>
+        <div class="dialogue shi">
+          <span class="speaker shi">스치친</span><br>
+          "세 명의 과학자. 전원이 죽기 전 밤하늘을 보고 있었습니다. 이제 이유를 압니다."<br><br>
+          <b>"멈추라고 했는데... 왜 멈추지 않았습니까."</b>
+        </div>
+        <div class="dialogue narration">
+          <span class="speaker">📖 청신</span><br>
+          고개를 숙임. 말이 없음. <b>22세의 분노는 멈출 수 없었다.</b>
+        </div>
+        <div class="emotion-bar">
+          <span class="emotion-dot" style="background:#A1887F;"></span>
+          형사의 인간적 면면 — 분노, 이해, 체념이 공존
+        </div>
+      </div>
+    </div>
+    
+    <!-- Panel 7: 카운트다운의 의미 -->
+    <div class="panel full-width">
+      <div class="page-badge">p10-11</div>
+      <div class="panel-content">
+        <span class="beat-label beat-all-lost">💀 카운트다운의 의미 — 시즌 최대 폭로</span>
+        <div class="color-theme" style="background: linear-gradient(90deg, #FFB74D, #FF4500, #000); height: 6px;"></div>
+        <div class="visual-desc">
+          🪐 청신이 커튼을 열자, 추상 공간에 <b style="color:#FFD700;">세 개의 태양</b>이 뜸. EP001 p1의 크레온 그림이 페이지에 잠깐 겹침 — 아이의 그림이 현실로.<br><br>
+          ⏱️ 카운트다운 숫자가 허공에 깜빡임. 왕먀오의 얼굴에 반사됨.
+        </div>
+        <div class="dialogue yezheng">
+          <span class="speaker yezheng">청신 (나레이션)</span><br>
+          "세 개의 태양. 예측 불가능한 궤도. 문명은 영원히 멸망과 재건을 반복합니다."
+        </div>
+        <div class="dialogue wangmiao">
+          <span class="speaker wangmiao">왕먀오</span><br>
+          "그 카운트다운... 그 숫자는 뭡니까?"
+        </div>
+        <div class="dialogue yezheng">
+          <span class="speaker yezheng">청신</span><br>
+          <b style="font-size:15px;">"삼체 함대가 도달하는 데 걸리는 시간입니다."</b><br>
+          <b style="font-size:15px;">"출항했습니다. 이미 수년 전에. 그들이 오고 있습니다."</b>
+        </div>
+        <div class="dialogue shi">
+          <span class="speaker shi">스치친 (파일을 떨어뜨리며)</span><br>
+          <b>"...함대?"</b>
+        </div>
+        <div class="dialogue wangmiao">
+          <span class="speaker wangmiao">왕먀오</span><br>
+          <b>"하늘은 거짓말을 하지 않았어요. 하늘은... 우리에게 알려준 겁니다."</b><br>
+          <span class="subtext">★ EP001 p1 회수 — 양동의 "하늘이 거짓말을 한다"를 재해석. 관찰자 → 행동자 전환.</span>
+          <span class="ep001-callback">↔ EP001 p1 양동의 노트</span>
+        </div>
+        <div class="emotion-bar">
+          <span class="emotion-dot" style="background:#FF4500;"></span>
+          시즌 최대 정보 폭로 — EP001의 모든謎가 풀린다
+        </div>
+      </div>
+    </div>
+    
+    <!-- Panel 8: 빈 의자 + 고백 -->
+    <div class="panel">
+      <div class="page-badge">p12-13 · ★ 풀페이지</div>
+      <div class="panel-content">
+        <span class="beat-label beat-silence">🤫 침묵 → 🎭 카타르시스</span>
+        <div class="color-theme" style="background: linear-gradient(90deg, #FFB74D, #4A148C, #B71C1C);"></div>
+        <div class="visual-desc">
+          🪑 <b>p12 침묵:</b> 빈 의자. 석양. 찻잔의 김이 사라짐. 왕먀오의 실루엣. 청신이 돌아오기까지의 공백 — 독자는 다음 말이 두렵다.<br><br>
+          😭 <b>p13 청신이 돌아옴.</b> 70대의 주름, 눈물 자국. 그러나 눈빛은 맑다. <b>40년의 자기기만이 끝났다.</b>
+        </div>
+        <div class="dialogue yezheng">
+          <span class="speaker yezheng">청신 (시즌 최고 임팩트)</span><br>
+          <b style="font-size:18px;">"나는 인류 전체를 팔았습니다."</b><br>
+          <span class="subtext">★ EP001 p14 "우리는 심판을 불렀다"의 최종 완성. 자각 → 고백 → 책임의 인정.<br>
+          "내 분노, 내 절망, 내 복수심을 풀기 위해, 70억 인류의 운명을 팔았습니다."</span>
+          <span class="ep001-callback">↔ EP001 p14 "우리는 심판을 불렀다"</span>
+        </div>
+        <div class="emotion-bar">
+          <span class="emotion-dot" style="background:#B71C1C;"></span>
+          감정 10/10 — 40년 비밀의 카타르시스 · 시즌 최고 강도
+        </div>
+      </div>
+    </div>
+    
+    <!-- Panel 9: Final -->
+    <div class="panel">
+      <div class="page-badge">p14-15 · ★ 풀페이지</div>
+      <div class="panel-content">
+        <span class="beat-label beat-final">🎬 FINAL IMAGE — 별의 바다 · 삼체 함대의 돛</span>
+        <div class="color-theme" style="background: linear-gradient(90deg, #000, #0D47A1, #000); height: 6px;"></div>
+        <div class="visual-desc">
+          🌃 연구실 옥상. 밤. 왕먀오가 하늘을 올려다봄 — EP001 p2 예원제와 동일 구도.<br><br>
+          ⛵ <b>밤하늘의 별들 사이로 — 삼체 함대의 돛이 지나감.</b> 거대한 구조물. 돛의 형태가 <b style="color:#FFD700;">EP001 p1의 아이 그림 '태양 세 개'</b>와 실루엣이 겹침 — 세 개의 원형이 돛의 패널이 됨.<br><br>
+          <b>가장 순수한 이미지(아이의 크레온)가 가장 거대한 위협(우주 함대)으로 변환.</b>
+        </div>
+        <div class="dialogue wangmiao">
+          <span class="speaker wangmiao">왕먀오 (독백)</span><br>
+          "과학자들이 밤하늘을 보았습니다. 소페르의 메시지를 받았기 때문이죠."<br>
+          <b>"저도 봅니다. 하지만 저는... 알고 있습니다."</b>
+        </div>
+        <div class="dialogue narration">
+          <span class="speaker">📖 하단 나레이션</span><br>
+          <b style="font-size:14px; color:#90CAF9;">"별의 바다에서, 그들이 오고 있다."</b>
+        </div>
+        <div class="emotion-bar">
+          <span class="emotion-dot" style="background:#0D47A1;"></span>
+          감정 10/10 — 아이의 크레온(EP001 p1) → 삼체 함대(EP005 p15) · 파일럿 시즌 원형 회수
+          <span class="ep001-callback">↔ EP001 p1 크레온 태양 세 개</span>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="footer">
+    <div><b>EP005 "별의 바다"</b> · 15p → 9 패널 콘티 · 주 가설: H5 원작 팬 vs 신독자 · 부 가설: H3 매력 캐릭터</div>
+    <div>EP001 떡밥 8개 회수 · Subtext 82.4% · 감정: 5→4→5→7→8→10→9→10</div>
+  </div>
+  
+</div>
+</body>
+</html>

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EP004 — 문명의 역사</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Nanum Gothic', sans-serif; background: #1a1a1a; color: #e0e0e0; display: flex; justify-content: center; padding: 20px; }
+  .storyboard { width: 1200px; background: #111; border: 2px solid #333; border-radius: 8px; overflow: hidden; }
+  .header { background: linear-gradient(135deg, #2C2C2C, #8B7355, #5D4037); padding: 20px 30px; border-bottom: 2px solid #555; }
+  .header h1 { font-size: 28px; font-weight: 800; color: #fff; text-shadow: 2px 2px 4px rgba(0,0,0,0.7); }
+  .header .subtitle { font-size: 14px; color: #BCAAA4; margin-top: 5px; }
+  .header .tags { display: flex; gap: 10px; margin-top: 8px; flex-wrap: wrap; }
+  .tag { background: rgba(0,0,0,0.4); padding: 3px 10px; border-radius: 12px; font-size: 11px; color: #BCAAA4; }
+  .panels { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; padding: 2px; background: #222; }
+  .panel { background: #1a1a1a; border-radius: 4px; overflow: hidden; position: relative; min-height: 200px; }
+  .panel.full-width { grid-column: 1 / -1; }
+  .panel-content { padding: 15px 20px; height: 100%; }
+  .beat-label { display: inline-block; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 3px; margin-bottom: 6px; text-transform: uppercase; letter-spacing: 1px; }
+  .beat-cold-open { background: #4a148c; color: #fff; }
+  .beat-theme { background: #1565c0; color: #fff; }
+  .beat-catalyst { background: #e65100; color: #fff; }
+  .beat-midpoint { background: #b71c1c; color: #fff; }
+  .beat-silence { background: #263238; color: #90a4ae; }
+  .beat-all-lost { background: #b71c1c; color: #FFD700; }
+  .beat-final { background: #1a237e; color: #fff; }
+  .page-badge { position: absolute; top: 8px; right: 12px; font-size: 10px; color: #666; font-weight: 700; }
+  .visual-desc { font-size: 12px; color: #aaa; margin-bottom: 8px; font-style: italic; line-height: 1.4; }
+  .dialogue { background: rgba(255,255,255,0.05); border-left: 3px solid; padding: 6px 10px; margin: 4px 0; font-size: 13px; line-height: 1.5; }
+  .dialogue.wangmiao { border-color: #4FC3F7; }
+  .dialogue.recorder { border-color: #4DB6AC; }
+  .dialogue.narration { border-color: #666; color: #999; font-size: 12px; }
+  .dialogue.citizen { border-color: #A1887F; }
+  .speaker { font-weight: 800; font-size: 11px; text-transform: uppercase; }
+  .speaker.wangmiao { color: #4FC3F7; }
+  .speaker.recorder { color: #4DB6AC; }
+  .speaker.citizen { color: #A1887F; }
+  .subtext { color: #777; font-size: 11px; margin-top: 2px; }
+  .emotion-bar { display: flex; align-items: center; gap: 6px; margin-top: 6px; font-size: 10px; color: #666; }
+  .emotion-dot { width: 8px; height: 8px; border-radius: 50%; }
+  .color-theme { height: 4px; border-radius: 2px; margin-bottom: 8px; }
+  .footer { background: #0d0d0d; padding: 12px 20px; border-top: 1px solid #333; font-size: 11px; color: #666; display: flex; justify-content: space-between; }
+  .number-marker { display: inline-block; background: #5D4037; color: #FFD700; font-weight: 800; padding: 1px 6px; border-radius: 3px; font-size: 11px; margin: 0 2px; }
+</style>
+</head>
+<body>
+<div class="storyboard">
+  
+  <div class="header">
+    <h1>EP004 — 문명의 역사</h1>
+    <div class="subtitle">반복되는 문명의 탄생과 멸망 · 기록자와의 대면 · 관찰자의 무력감</div>
+    <div class="tags">
+      <span class="tag">📈 감정: 5→3→4→5→7→8→7→9→10</span>
+      <span class="tag">🎭 가설: H4 시각 압도 vs 여백 · H5 원작 팬 vs 신독자</span>
+      <span class="tag">⏱ 연결: EP003 세 태양 직후 → EP005 현실</span>
+    </div>
+  </div>
+  
+  <div class="panels">
+    
+    <!-- Panel 1: Cold Open -->
+    <div class="panel">
+      <div class="page-badge">p1</div>
+      <div class="panel-content">
+        <span class="beat-label beat-cold-open">🎬 Cold Open · 폐허의 "137"</span>
+        <div class="color-theme" style="background: linear-gradient(90deg, #2C2C2C, #483D8B);"></div>
+        <div class="visual-desc">
+          🏚️ EP003의 세 태양은 사라지고, 하늘은 불길한 잿빛-보라색. 구조물 잔해 — 거대한 뼈, 녹아내린 금속, 결정화된 유리. 왕먀오가 혼자 서 있다.<br><br>
+          바닥의 돌에 정교하게 새겨진 숫자: <span class="number-marker">137</span> <span class="number-marker">136</span> <span class="number-marker">135</span>... 손글씨가 아닌 새김눈. 묘비명처럼.
+        </div>
+        <div class="dialogue wangmiao">
+          <span class="speaker wangmiao">왕먀오</span><br>
+          <b>"이게… 몇 번째야."</b><br>
+          <span class="subtext">먼지투성이, 눈이 초점을 잃어가는 중</span>
+        </div>
+        <div class="emotion-bar">
+          <span class="emotion-dot" style="background:#483D8B;"></span>
+          부조화 + 미스터리 — "137번째가 뭔데?" · EP003 직결
+        </div>
+      </div>
+    </div>
+    
+    <!-- Panel 2: Montage -->
+    <div class="panel">
+      <div class="page-badge">p2-3</div>
+      <div class="panel-content">
+        <span class="beat-label beat-cold-open">🔁 흥망의 리듬 · 몽타주</span>
+        <div class="color-theme" style="background: linear-gradient(90deg, #DAA520, #FF4500, #2C2C2C, #DAA520);"></div>
+        <div class="visual-desc">
+          🏗️ 문명 건설 → 🏙️ 번영(태양 1개) → 😱 태양 2개 → ☀️☀️☀️ 멸망(건물이 녹음)<br>
+          반복. 돌탑에 번호가 쌓임: <span class="number-marker">138</span> <span class="number-marker">139</span>... <span class="number-marker">150</span>... <span class="number-marker">160</span>...<br>
+          왕먀오는 관찰자. 피로가 누적된다.
+        </div>
+        <div class="dialogue wangmiao">
+          <span class="speaker wangmiao">왕먀오 (독백)</span><br>
+          "반복하고 있다. 문명이 생기고… 무너지고."<br>
+          "160번째. 아직도… 계속되고 있다."
+        </div>
+        <div class="dialogue narration">
+          <span class="speaker">📖 연출</span><br>
+          소패널이 작아질수록 문명 하나의 무게는 가벼워지지만, 누적은 무거워진다.
+        </div>
+        <div class="emotion-bar">
+          <span class="emotion-dot" style="background:#8B7355;"></span>
+          호기심 → 피로 · 관찰자의 무력감 시작
+        </div>
+      </div>
+    </div>
+    
+    <!-- Panel 3: 기록자 등장 + Theme -->
+    <div class="panel">
+      <div class="page-badge">p3-4</div>
+      <div class="panel-content">
+        <span class="beat-label beat-theme">💡 Theme Stated · 기록자 등장</span>
+        <div class="color-theme" style="background: linear-gradient(90deg, #2C2C2C, #4DB6AC);"></div>
+        <div class="visual-desc">
+          📝 잿빛 배경 속 <b style="color:#4DB6AC;">차가운 청록색</b> 로브의 NPC 기록자. 무표정. 손에 든 새김도구만 하이퍼디테일. 돌에 정교하게 숫자를 새기는 중. 대화 중에도 새김을 멈추지 않음.
+        </div>
+        <div class="dialogue wangmiao">
+          <span class="speaker wangmiao">왕먀오</span><br>
+          "당신은… 누구입니까?"
+        </div>
+        <div class="dialogue recorder">
+          <span class="speaker recorder">기록자</span><br>
+          "기록자입니다."<br><br>
+          <b>"당신은 몇 번째를 목격하고 있습니까?"</b><br>
+          <span class="subtext">★ Theme Stated — 순수한 질문이라 더 뼈아픔</span>
+        </div>
+        <div class="dialogue wangmiao">
+          <span class="speaker wangmiao">왕먀오</span><br>
+          "저는… 게임을 하고 있는 겁니다."
+        </div>
+        <div class="dialogue recorder">
+          <span class="speaker recorder">기록자 (새김도구 내려놓으며)</span><br>
+          <b>"게임."</b><br>
+          <span class="subtext">경멸이 아닌, 슬픔. 더 이상 말하지 않음. 침묵이 대답.</span>
+        </div>
+        <div class="emotion-bar">
+          <span class="emotion-dot" style="background:#4DB6AC;"></span>
+          게임 → 실존적 대면 · 관찰자의 Moral Need가 찔림
+        </div>
+      </div>
+    </div>
+    
+    <!-- Panel 4: 184번째 문명 -->
+    <div class="panel">
+      <div class="page-badge">p5</div>
+      <div class="panel-content">
+        <span class="beat-label beat-catalyst">⚡ Break into Act 2 — 거짓 평화</span>
+        <div class="color-theme" style="background: linear-gradient(90deg, #2C2C2C, #FFD700, #4FC3F7);"></div>
+        <div class="visual-desc">
+          🌆 <span class="number-marker">184</span>번째 문명. 안정기. 도시 번성. 태양 하나. 하늘 맑은 청록색. 왕먀오, 처음으로 희망 비슷한 것을 느낌.<br><br>
+          <b>H5 분리 포인트:</b> 원작 팬은 이 대사가 거짓임을 안다. 신독자는 정보로 받아들임.
+        </div>
+        <div class="dialogue citizen">
+          <span class="speaker citizen">시민 A (배경)</span><br>
+          <b>"태양은 하나다. 항상 그래왔다."</b>
+        </div>
+        <div class="dialogue citizen">
+          <span class="speaker citizen">시민 B</span><br>
+          "관측 기록에 따르면 궤도는 안정적이야. 이번엔 끝나지 않아."
+        </div>
+        <div class="dialogue wangmiao">
+          <span class="speaker wangmiao">왕먀오 (독백)</span><br>
+          <b>"…이번엔 살아남을 수도 있어."</b><br>
+          <span class="subtext">★ 관찰자 → 감정 개입자. 희망은 곧 깨질 것.</span>
+        </div>
+        <div class="emotion-bar">
+          <span class="emotion-dot" style="background:#FFD700;"></span>
+          잿빛 → 황금 · 거짓 희망 · 독자는 안다 — 또 깨질 것을
+        </div>
+      </div>
+    </div>
+    
+    <!-- Panel 5: Midpoint - 184번째 멸망 -->
+    <div class="panel full-width">
+      <div class="page-badge">p7 · 풀페이지</div>
+      <div class="panel-content">
+        <span class="beat-label beat-midpoint">🔥 MIDPOINT — 184번째 문명 멸망</span>
+        <div class="color-theme" style="background: linear-gradient(90deg, #FFD700, #FF4500, #FF0000, #FFFFFF); height: 6px;"></div>
+        <div class="visual-desc">
+          ☀️☀️☀️ <b>세 태양이 하늘을 뒤덮는다.</b> 지면이 갈라지고, 건물이 녹아내리고, 사람들이 도망치나 그림자가 없다 — 모든 방향에서 빛. 왕먀오가 한가운데 서서 움직이지 못한다. 관찰자로서 물리적 영향을 받지 않는다 — <b>그것이 더 끔찍하다.</b>
+        </div>
+        <div class="dialogue narration">
+          <span class="speaker">📖 상단 나레이션</span><br>
+          <b style="font-size:16px;">"184번째. 기후 재앙: 열 폭풍."</b>
+        </div>
+        <div class="emotion-bar">
+          <span class="emotion-dot" style="background:#FF0000;"></span>
+          감정 7/10 — p5에서 믿었던 희망이 산산조각 · H4 시각 압도
+        </div>
+      </div>
+    </div>
+    
+    <!-- Panel 6: 침묵 페이지 -->
+    <div class="panel full-width">
+      <div class="page-badge">p8 · ★ 침묵 풀페이지</div>
+      <div class="panel-content" style="background: #0a0a0a; min-height: 120px;">
+        <span class="beat-label beat-silence">🤫 침묵 페이지 — 184번째 소멸 후</span>
+        <div class="color-theme" style="background: linear-gradient(90deg, #333, #555, #333);"></div>
+        <div class="visual-desc" style="color: #555;">
+          아무것도 없다. 폐허. 잿빛 하늘. 바람. 화면의 <b>3분의 2가 하늘(여백)</b>. 왕먀오는 페이지 하단에 극히 작게 — 점처럼. 발밑에 돌 하나: <span class="number-marker" style="background:#333; color:#666;">184</span>
+        </div>
+        <div class="dialogue narration" style="color:#444; border-color:#333;">
+          <span class="speaker" style="color:#444;">🤐 대사 없음</span><br>
+          <span style="color:#444;">p7의 적백(赤白) 폭발 직후의 극단적 정적. 회색, 잿빛, 거의 흑백. 여백이 곧 감정.</span>
+        </div>
+        <div class="emotion-bar">
+          <span class="emotion-dot" style="background:#333;"></span>
+          H4 핵심 — 시각적 폭발과 정적의 극단적 대비
+        </div>
+      </div>
+    </div>
+    
+    <!-- Panel 7: 기록자 재조우 -->
+    <div class="panel">
+      <div class="page-badge">p10</div>
+      <div class="panel-content">
+        <span class="beat-label beat-theme">💬 기록자와 재조우</span>
+        <div class="color-theme" style="background: linear-gradient(90deg, #8B7355, #4DB6AC);"></div>
+        <div class="visual-desc">
+          📝 <span class="number-marker">191</span>번째 문명. 기록자 옆 돌탑이 왕먀오 키를 넘는다 — 191개의 돌. 기록자의 새김도구가 멈춘다. <b>처음으로 감정 균열</b> — 입꼬리가 미세하게 떨림.
+        </div>
+        <div class="dialogue wangmiao">
+          <span class="speaker wangmiao">왕먀오</span><br>
+          "당신은… 몇 번이나 이걸 했습니까?"<br>
+          "힘들지 않습니까?"
+        </div>
+        <div class="dialogue recorder">
+          <span class="speaker recorder">기록자</span><br>
+          "제가 기억하는 한. 전부."<br><br>
+          <b>"…이번에는 다를까요?"</b><br>
+          <span class="subtext">★ 감정 균열 — p3~4에서는 무표정이었으나, 여기서는 인간적 동요</span>
+        </div>
+        <div class="emotion-bar">
+          <span class="emotion-dot" style="background:#4DB6AC;"></span>
+          기록자의 차가운 카리스마 → 감정 균열 · 캐릭터 성장
+        </div>
+      </div>
+    </div>
+    
+    <!-- Panel 8: All Is Lost -->
+    <div class="panel">
+      <div class="page-badge">p11-12</div>
+      <div class="panel-content">
+        <span class="beat-label beat-all-lost">💀 All Is Lost — 192번째 멸망</span>
+        <div class="color-theme" style="background: linear-gradient(90deg, #FFD700, #FF4500, #8B0000);"></div>
+        <div class="visual-desc">
+          🏛️ <span class="number-marker">192</span>번째 — 가장 발전한 문명. 데탕트라이트 건축. 그러나 멸망 속도가 더 빠르다. 녹아내리는 도서관. 책이 타들어감. 한 페이지가 왕먀오 발 앞에 떨어진다 — <b>"궤도 예측 불가능"</b> 수식.
+        </div>
+        <div class="dialogue recorder">
+          <span class="speaker recorder">기록자 (192번째 돌을 올리며)</span><br>
+          <b>"192번째 기록. 완료."</b><br>
+          <b>"당신은 왜 계속 보고 있습니까?"</b><br>
+          <span class="subtext">★ 왕먀오의 Moral Need를 정면으로 찌름</span>
+        </div>
+        <div class="dialogue wangmiao">
+          <span class="speaker wangmiao">왕먀오 (대답 못함)</span><br>
+          <b>（입이 열려 있으나 소리가 없다 — 눈에 192개 돌탑이 비침）</b>
+        </div>
+        <div class="emotion-bar">
+          <span class="emotion-dot" style="background:#8B0000;"></span>
+          감정 9/10 — 관찰자라는 변명이 더 이상 작동하지 않는 순간
+        </div>
+      </div>
+    </div>
+    
+    <!-- Panel 9: Final -->
+    <div class="panel full-width">
+      <div class="page-badge">p14-15 · 풀페이지</div>
+      <div class="panel-content">
+        <span class="beat-label beat-final">🎬 FINAL IMAGE — 인터페이스 붕괴 → 현실</span>
+        <div class="color-theme" style="background: linear-gradient(90deg, #2C2C2C, #483D8B, #000); height: 6px;"></div>
+        <div class="visual-desc">
+          📱 게임 인터페이스가 붕괴하기 시작 — 픽셀이 흩어짐. 주희의 세계가 해체되고, 왕먀오가 헤드셋을 벗는다. 현실. 새벽. 안경에 <b>카운트다운 숫자</b>가 비친다 — EP003에서 이어지는 회수.
+        </div>
+        <div class="dialogue recorder" style="border-color: #666; color: #888;">
+          <span class="speaker" style="color:#888;">📝 기록자 (잔상, 사라지며)</span><br>
+          <b style="color:#888;">"기록은… 남습니다."</b>
+        </div>
+        <div class="dialogue wangmiao">
+          <span class="speaker wangmiao">왕먀오 (안경을 벗으며, 독백)</span><br>
+          <b>"192번. 나는 192번의 멸망을 지켜봤다. 그리고… 아무것도 하지 않았다."</b><br>
+          <span class="subtext">관찰자의 고백 — EP005에서 직면자로 전환하는 계기</span>
+        </div>
+        <div class="dialogue narration">
+          <span class="speaker">🥽 안경 렌즈</span><br>
+          <span style="color:#4FC3F7; font-size:16px; font-weight:700;">1176:14:33:52</span><br>
+          <span style="color:#666; font-size:11px;">← EP003(1187:22:08:41)에서 추가 감소. 게임 속 시간이 현실에 영향.</span>
+        </div>
+        <div class="emotion-bar">
+          <span class="emotion-dot" style="background:#483D8B;"></span>
+          감정 10/10 — 관찰자 → 직면자 전환 선언 → EP005로
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="footer">
+    <div><b>EP004 "문명의 역사"</b> · 15p → 9 패널 콘티 · 주 가설: H4 시각 압도 vs 여백 · 부 가설: H5 원작 팬 vs 신독자</div>
+    <div>감정 곡선: 5→3→4→5→7→8→7→9→10 · 침묵 페이지 2회 (p8, p13)</div>
+  </div>
+  
+</div>
+</body>
+</html>

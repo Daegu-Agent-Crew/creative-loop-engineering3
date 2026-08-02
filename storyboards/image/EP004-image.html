@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EP004 — 문명의 역사 · Image Storyboard</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Serif+KR:wght@400;700;900&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Nanum Gothic', sans-serif; background: #0a0a0a; color: #e0e0e0; display: flex; justify-content: center; padding: 20px; }
+  .storyboard { width: 1200px; max-width: 100%; }
+
+  .header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 30%, #0f3460 60%, #533483 100%);
+    padding: 30px 40px; border-radius: 12px; margin-bottom: 20px;
+    border: 1px solid #333; box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  }
+  .header h1 { font-family: 'Noto Serif KR', serif; font-size: 32px; font-weight: 900; color: #fff; text-shadow: 2px 2px 8px rgba(0,0,0,0.8); }
+  .header .subtitle { font-size: 14px; color: #a0a0c0; margin-top: 6px; }
+  .header .meta { display: flex; gap: 12px; margin-top: 10px; flex-wrap: wrap; }
+  .meta-tag { background: rgba(255,255,255,0.08); padding: 4px 12px; border-radius: 12px; font-size: 11px; color: #8a8aaa; border: 1px solid rgba(255,255,255,0.05); }
+
+  .panel {
+    background: #111; border: 1px solid #2a2a2a; border-radius: 10px;
+    margin-bottom: 20px; overflow: hidden; position: relative;
+  }
+  .panel-label {
+    position: absolute; top: 0; left: 0; z-index: 10;
+    background: linear-gradient(135deg, #5D4037, #8B7355);
+    color: #FFD700; padding: 6px 16px; font-size: 12px; font-weight: 800;
+    border-radius: 0 0 8px 0; text-transform: uppercase; letter-spacing: 1px;
+  }
+  .panel-page { position: absolute; top: 8px; right: 14px; font-size: 11px; color: #555; font-weight: 700; z-index: 10; }
+
+  /* Scene 1: AI Image */
+  .scene-image {
+    width: 100%; height: 500px; object-fit: cover;
+    border-bottom: 2px solid #333;
+  }
+
+  /* CSS Art Scenes */
+  .css-scene { width: 100%; height: 500px; position: relative; overflow: hidden; border-bottom: 2px solid #333; }
+
+  /* Scene 2: 기록자 */
+  .scene2-bg {
+    background: linear-gradient(180deg, #2a2a2a 0%, #3a3a3a 40%, #2e2e2e 100%);
+  }
+  .scene2-stone-tower {
+    position: absolute; bottom: 60px; right: 120px;
+    display: flex; flex-direction: column-reverse; gap: 2px; align-items: center;
+  }
+  .stone {
+    background: linear-gradient(135deg, #8B7355, #6B5340, #8B7355);
+    width: 70px; height: 22px; border-radius: 4px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 10px; color: #FFD700; font-weight: 700;
+    box-shadow: inset 0 1px 2px rgba(255,255,255,0.2), 0 2px 4px rgba(0,0,0,0.5);
+  }
+  .stone:nth-child(even) { width: 65px; }
+  .stone:nth-child(3n) { width: 68px; }
+  .recorder {
+    position: absolute; bottom: 50px; right: 180px;
+    width: 60px; height: 100px;
+  }
+  .recorder-body {
+    width: 50px; height: 70px; margin: 0 auto;
+    background: linear-gradient(180deg, #4DB6AC, #00897B, #00695C);
+    border-radius: 25px 25px 5px 5px;
+    box-shadow: 0 0 15px rgba(77,182,172,0.3);
+  }
+  .recorder-head {
+    width: 35px; height: 35px; margin: 0 auto;
+    background: linear-gradient(180deg, #4DB6AC, #80CBC4);
+    border-radius: 50%;
+    position: relative; top: 5px;
+  }
+  .recorder-tool {
+    position: absolute; right: -8px; top: 40px;
+    width: 20px; height: 2px; background: #FFD700;
+    transform: rotate(-15deg);
+    box-shadow: 0 0 4px rgba(255,215,0,0.5);
+  }
+  .wangmiao-small {
+    position: absolute; bottom: 50px; left: 150px;
+    width: 25px; height: 60px;
+  }
+  .wm-body {
+    width: 18px; height: 35px; margin: 0 auto;
+    background: #555; border-radius: 3px;
+  }
+  .wm-head {
+    width: 14px; height: 14px; margin: 0 auto;
+    background: #d4a373; border-radius: 50%; position: relative; top: 2px;
+  }
+  .wm-glasses {
+    position: absolute; top: 8px; left: 2px;
+    width: 10px; height: 4px;
+    border: 1px solid #333; border-radius: 5px;
+  }
+
+  /* Scene 3: 184번째 멸망 */
+  .scene3-bg {
+    background: radial-gradient(ellipse at 50% 30%, #FF6B35 0%, #FF4500 20%, #FFD700 40%, #FF8C00 60%, #8B0000 85%, #330000 100%);
+  }
+  .three-suns {
+    position: absolute; top: 30px; display: flex; justify-content: center; width: 100%; gap: 40px;
+  }
+  .sun {
+    border-radius: 50%;
+    box-shadow: 0 0 60px 20px rgba(255,255,200,0.6), 0 0 100px 40px rgba(255,200,100,0.3);
+  }
+  .sun-1 { width: 80px; height: 80px; background: radial-gradient(circle, #FFFFE0, #FFD700, #FF8C00); }
+  .sun-2 { width: 60px; height: 60px; background: radial-gradient(circle, #FFFFF0, #FFA500, #FF4500); }
+  .sun-3 { width: 70px; height: 70px; background: radial-gradient(circle, #FFFFE0, #FFD700, #FF6347); }
+  .melting-building {
+    position: absolute; bottom: 40px;
+    background: linear-gradient(180deg, #FFD700 0%, #FF8C00 40%, #8B4513 80%, transparent 100%);
+    border-radius: 50% 50% 0 0 / 20% 20% 0 0;
+    opacity: 0.7;
+  }
+  .b1 { left: 10%; width: 80px; height: 120px; transform: skewX(-5deg); }
+  .b2 { left: 25%; width: 100px; height: 150px; transform: skewX(3deg); }
+  .b3 { right: 15%; width: 70px; height: 100px; transform: skewX(-8deg); }
+  .b4 { right: 30%; width: 90px; height: 140px; transform: skewX(5deg); }
+  .fleeing-people {
+    position: absolute; bottom: 30px; left: 40%; display: flex; gap: 8px;
+  }
+  .person {
+    width: 8px; height: 20px; background: #333; border-radius: 2px;
+    animation: flee 1s infinite alternate;
+  }
+  @keyframes flee { from { transform: translateX(0); } to { transform: translateX(-15px); } }
+  .wangmiao-center {
+    position: absolute; bottom: 60px; left: 50%; transform: translateX(-50%);
+    width: 30px; height: 70px;
+  }
+  .wmc-body { width: 22px; height: 40px; margin: 0 auto; background: #444; border-radius: 3px; }
+  .wmc-head { width: 16px; height: 16px; margin: 0 auto; background: #c0c0c0; border-radius: 50%; position: relative; top: 2px; box-shadow: 0 0 8px rgba(255,100,0,0.4); }
+
+  /* Scene 4: 192번째 돌탑 */
+  .scene4-bg {
+    background: linear-gradient(180deg, #1a1a1a 0%, #2a2a2a 40%, #222 70%, #1a1a1a 100%);
+  }
+  .massive-tower {
+    position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%);
+    display: flex; flex-direction: column-reverse; gap: 1px; align-items: center;
+  }
+  .mt-stone {
+    background: linear-gradient(135deg, #6B5340, #5D4037, #6B5340);
+    height: 12px; border-radius: 2px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 7px; color: rgba(255,215,0,0.7); font-weight: 700;
+    box-shadow: inset 0 1px 1px rgba(255,255,255,0.1), 0 1px 2px rgba(0,0,0,0.6);
+  }
+  .tower-base { width: 200px; }
+  .tower-mid { width: 170px; }
+  .tower-top { width: 130px; }
+  .tower-peak { width: 90px; background: linear-gradient(135deg, #6B5340, #8B7355, #6B5340); }
+  .scene4-recorder {
+    position: absolute; bottom: 45px; left: 42%;
+    width: 25px; height: 45px;
+  }
+  .r4-body { width: 20px; height: 30px; margin: 0 auto; background: linear-gradient(180deg, #4DB6AC, #00695C); border-radius: 10px 10px 2px 2px; }
+  .r4-head { width: 14px; height: 14px; margin: 0 auto; background: #4DB6AC; border-radius: 50%; position: relative; top: 2px; }
+  .scene4-wangmiao {
+    position: absolute; bottom: 40px; right: 20%;
+    width: 20px; height: 50px;
+  }
+  .w4-body { width: 14px; height: 30px; margin: 0 auto; background: #333; border-radius: 2px; }
+  .w4-head { width: 12px; height: 12px; margin: 0 auto; background: #888; border-radius: 50%; position: relative; top: 2px; }
+  .w4-glasses { position: absolute; top: 7px; width: 10px; height: 3px; border: 1px solid #4DB6AC; border-radius: 5px; left: 1px; }
+  .ash-particles {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    background-image: radial-gradient(1px 1px at 20% 30%, rgba(150,150,150,0.3), transparent),
+                      radial-gradient(1px 1px at 60% 70%, rgba(120,120,120,0.2), transparent),
+                      radial-gradient(1px 1px at 80% 40%, rgba(100,100,100,0.3), transparent),
+                      radial-gradient(2px 2px at 30% 80%, rgba(80,80,80,0.2), transparent),
+                      radial-gradient(1px 1px at 70% 20%, rgba(130,130,130,0.3), transparent);
+  }
+
+  /* Dialogue Overlay */
+  .dialogue-overlay {
+    background: linear-gradient(180deg, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.7) 100%);
+    padding: 16px 24px; border-top: 1px solid #333;
+  }
+  .dialogue-line {
+    margin: 8px 0; padding: 8px 14px; border-left: 3px solid; font-size: 14px; line-height: 1.5;
+  }
+  .dlg-wangmiao { border-color: #4FC3F7; background: rgba(79,195,247,0.08); }
+  .dlg-recorder { border-color: #4DB6AC; background: rgba(77,182,172,0.08); }
+  .dlg-narration { border-color: #666; background: rgba(255,255,255,0.03); font-style: italic; color: #999; font-size: 12px; }
+  .speaker { font-weight: 800; font-size: 11px; text-transform: uppercase; display: block; margin-bottom: 3px; }
+  .sp-wm { color: #4FC3F7; }
+  .sp-rc { color: #4DB6AC; }
+  .subtext { color: #666; font-size: 11px; margin-top: 3px; display: block; }
+
+  .emotion-bar {
+    display: flex; align-items: center; gap: 8px;
+    padding: 8px 24px 12px; background: #0d0d0d;
+    font-size: 11px; color: #666;
+  }
+  .emo-dot { width: 10px; height: 10px; border-radius: 50%; }
+  .number-marker {
+    display: inline-block; background: #5D4037; color: #FFD700;
+    font-weight: 800; padding: 1px 6px; border-radius: 3px; font-size: 11px; margin: 0 2px;
+  }
+
+  .footer {
+    background: #0d0d0d; padding: 16px 24px; border-radius: 8px; margin-top: 20px;
+    font-size: 11px; color: #555; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px;
+    border: 1px solid #222;
+  }
+</style>
+</head>
+<body>
+<div class="storyboard">
+
+  <div class="header">
+    <h1>EP004 — 문명의 역사</h1>
+    <div class="subtitle">반복되는 문명의 탄생과 멸망 · 기록자와의 대면 · 관찰자의 무력감</div>
+    <div class="meta">
+      <span class="meta-tag">📈 감정: 5→3→4→5→7→8→7→9→10</span>
+      <span class="meta-tag">🎭 H4 시각 압도 vs 여백</span>
+      <span class="meta-tag">🖼 Image Storyboard · 4 Key Scenes</span>
+      <span class="meta-tag">⏱ EP003 → EP005</span>
+    </div>
+  </div>
+
+  <!-- Scene 1: 폐허의 "137" -->
+  <div class="panel">
+    <div class="panel-label">🎬 Scene 1 · 폐허의 "137"</div>
+    <div class="panel-page">p1</div>
+    <img class="scene-image" src="images/EP004_scene1.jpg" alt="Post-apocalyptic ruins with number 137">
+    <div class="dialogue-overlay">
+      <div class="dialogue-line dlg-narration">
+        <span class="speaker">📖 연출</span>
+        EP003의 세 태양은 사라지고, 하늘은 불길한 잿빛-보라색. 구조물 잔해 — 거대한 뼈, 녹아내린 금속, 결정화된 유리.
+      </div>
+      <div class="dialogue-line dlg-wangmiao">
+        <span class="speaker sp-wm">왕먀오</span>
+        <b>"이게… 몇 번째야."</b>
+        <span class="subtext">먼지투성이, 눈이 초점을 잃어가는 중. 바닥의 돌에 새겨진 숫자: <span class="number-marker">137</span> <span class="number-marker">136</span> <span class="number-marker">135</span></span>
+      </div>
+    </div>
+    <div class="emotion-bar">
+      <span class="emo-dot" style="background:#483D8B;"></span>
+      부조화 + 미스터리 — "137번째가 뭔데?" · EP003 직결 · 감정 5/10
+    </div>
+  </div>
+
+  <!-- Scene 2: 기록자와 대면 -->
+  <div class="panel">
+    <div class="panel-label">💡 Scene 2 · 기록자와 대면 · Theme Stated</div>
+    <div class="panel-page">p3-4</div>
+    <div class="css-scene scene2-bg">
+      <!-- Ambient particles -->
+      <div style="position:absolute;top:0;left:0;width:100%;height:100%;background:radial-gradient(1px 1px at 30% 40%, rgba(120,120,120,0.3), transparent), radial-gradient(1px 1px at 70% 60%, rgba(100,100,100,0.2), transparent), radial-gradient(2px 2px at 50% 20%, rgba(80,80,80,0.15), transparent);"></div>
+
+      <!-- Stone Tower -->
+      <div class="scene2-stone-tower">
+        <div class="stone">167</div>
+        <div class="stone">166</div>
+        <div class="stone">165</div>
+        <div class="stone">164</div>
+        <div class="stone">163</div>
+        <div class="stone">162</div>
+        <div class="stone">161</div>
+        <div class="stone">160</div>
+        <div class="stone">159</div>
+        <div class="stone">158</div>
+        <div class="stone">157</div>
+      </div>
+
+      <!-- The Recorder -->
+      <div class="recorder">
+        <div class="recorder-head"></div>
+        <div class="recorder-body"></div>
+        <div class="recorder-tool"></div>
+      </div>
+
+      <!-- Wang Miao -->
+      <div class="wangmiao-small">
+        <div class="wm-head">
+          <div class="wm-glasses"></div>
+        </div>
+        <div class="wm-body"></div>
+      </div>
+
+      <!-- Atmosphere label -->
+      <div style="position:absolute;top:20px;left:20px;font-size:11px;color:#4DB6AC;opacity:0.6;font-weight:700;">CHAPTER 167 · 잿빛 황무지</div>
+    </div>
+    <div class="dialogue-overlay">
+      <div class="dialogue-line dlg-wangmiao">
+        <span class="speaker sp-wm">왕먀오</span>
+        "당신은… 누구입니까?"
+      </div>
+      <div class="dialogue-line dlg-recorder">
+        <span class="speaker sp-rc">기록자</span>
+        "기록자입니다."
+        <b>"당신은 몇 번째를 목격하고 있습니까?"</b>
+        <span class="subtext">★ Theme Stated — 순수한 질문이라 더 뼈아픔. 새김도구를 멈추지 않음.</span>
+      </div>
+      <div class="dialogue-line dlg-wangmiao">
+        <span class="speaker sp-wm">왕먀오</span>
+        "저는… 게임을 하고 있는 겁니다."
+      </div>
+      <div class="dialogue-line dlg-recorder">
+        <span class="speaker sp-rc">기록자 (새김도구 내려놓으며)</span>
+        <b>"게임."</b>
+        <span class="subtext">경멸이 아닌, 슬픔. 더 이상 말하지 않음. 침묵이 대답.</span>
+      </div>
+    </div>
+    <div class="emotion-bar">
+      <span class="emo-dot" style="background:#4DB6AC;"></span>
+      게임 → 실존적 대면 · 관찰자의 Moral Need가 찔림 · 감정 4/10
+    </div>
+  </div>
+
+  <!-- Scene 3: 184번째 문명 멸망 -->
+  <div class="panel">
+    <div class="panel-label">🔥 Scene 3 · MIDPOINT — 184번째 문명 멸망</div>
+    <div class="panel-page">p7 · 풀페이지</div>
+    <div class="css-scene scene3-bg">
+      <!-- Three Suns -->
+      <div class="three-suns">
+        <div class="sun sun-1"></div>
+        <div class="sun sun-2"></div>
+        <div class="sun sun-3"></div>
+      </div>
+
+      <!-- Melting Buildings -->
+      <div class="melting-building b1"></div>
+      <div class="melting-building b2"></div>
+      <div class="melting-building b3"></div>
+      <div class="melting-building b4"></div>
+
+      <!-- Fleeing people (no shadows - light from everywhere) -->
+      <div class="fleeing-people">
+        <div class="person"></div>
+        <div class="person" style="animation-delay:0.2s;"></div>
+        <div class="person" style="animation-delay:0.4s;"></div>
+      </div>
+
+      <!-- Wang Miao frozen in center -->
+      <div class="wangmiao-center">
+        <div class="wmc-head"></div>
+        <div class="wmc-body"></div>
+      </div>
+
+      <!-- Heat distortion lines -->
+      <div style="position:absolute;bottom:0;left:0;width:100%;height:60px;background:linear-gradient(0deg, rgba(255,200,0,0.2), transparent);"></div>
+
+      <!-- Narration overlay -->
+      <div style="position:absolute;top:140px;left:50%;transform:translateX(-50%);font-family:'Noto Serif KR',serif;font-size:18px;font-weight:900;color:#fff;text-shadow:2px 2px 8px rgba(0,0,0,0.8), 0 0 20px rgba(255,100,0,0.5);text-align:center;">
+        "184번째. 기후 재앙: 열 폭풍."
+      </div>
+
+      <!-- Atmosphere label -->
+      <div style="position:absolute;top:20px;left:20px;font-size:11px;color:#FFD700;opacity:0.7;font-weight:700;">MIDPOINT · 시각 압도 최대</div>
+    </div>
+    <div class="dialogue-overlay">
+      <div class="dialogue-line dlg-narration">
+        <span class="speaker">📖 연출</span>
+        <b>세 태양이 하늘을 뒤덮는다.</b> 지면이 갈라지고, 건물이 녹아내리고, 사람들이 도망치나 그림자가 없다 — 모든 방향에서 빛.
+        왕먀오가 한가운데 서서 움직이지 못한다. 관찰자로서 물리적 영향을 받지 않는다 — <b>그것이 더 끔찍하다.</b>
+      </div>
+    </div>
+    <div class="emotion-bar">
+      <span class="emo-dot" style="background:#FF0000;"></span>
+      감정 7/10 — p5에서 믿었던 희망이 산산조각 · H4 시각 압도 · 적백(赤白) 과노출
+    </div>
+  </div>
+
+  <!-- Scene 4: 192번째 돌탑 -->
+  <div class="panel">
+    <div class="panel-label">💀 Scene 4 · All Is Lost — 192번째 돌탑</div>
+    <div class="panel-page">p12</div>
+    <div class="css-scene scene4-bg">
+      <!-- Ash particles -->
+      <div class="ash-particles"></div>
+
+      <!-- Massive Stone Tower (192 stones) -->
+      <div class="massive-tower">
+        <div class="mt-stone tower-base">192</div>
+        <div class="mt-stone tower-base">191</div>
+        <div class="mt-stone tower-base">190</div>
+        <div class="mt-stone tower-base">189</div>
+        <div class="mt-stone tower-mid">188</div>
+        <div class="mt-stone tower-mid">187</div>
+        <div class="mt-stone tower-mid">186</div>
+        <div class="mt-stone tower-mid">185</div>
+        <div class="mt-stone tower-mid">184</div>
+        <div class="mt-stone tower-top">183</div>
+        <div class="mt-stone tower-top">182</div>
+        <div class="mt-stone tower-top">181</div>
+        <div class="mt-stone tower-top">180</div>
+        <div class="mt-stone tower-top">179</div>
+        <div class="mt-stone tower-peak">178</div>
+        <div class="mt-stone tower-peak">177</div>
+        <div class="mt-stone tower-peak">176</div>
+      </div>
+
+      <!-- Recorder (small, placing stone) -->
+      <div class="scene4-recorder">
+        <div class="r4-head"></div>
+        <div class="r4-body"></div>
+      </div>
+
+      <!-- Wang Miao (devastated) -->
+      <div class="scene4-wangmiao">
+        <div class="w4-head">
+          <div class="w4-glasses"></div>
+        </div>
+        <div class="w4-body"></div>
+      </div>
+
+      <!-- Silence label -->
+      <div style="position:absolute;top:20px;left:20px;font-size:11px;color:#666;opacity:0.6;font-weight:700;">ALL IS LOST · 192개의 묘비</div>
+      <div style="position:absolute;top:50px;right:30px;font-size:10px;color:#444;font-style:italic;">바람 소리만이 남았다</div>
+    </div>
+    <div class="dialogue-overlay">
+      <div class="dialogue-line dlg-recorder">
+        <span class="speaker sp-rc">기록자 (192번째 돌을 올리며)</span>
+        <b>"192번째 기록. 완료."</b><br><br>
+        <b>"당신은 왜 계속 보고 있습니까?"</b>
+        <span class="subtext">★ 왕먀오의 Moral Need를 정면으로 찌름. 기록자의 감정 균열 — 입꼬리가 미세하게 떨림.</span>
+      </div>
+      <div class="dialogue-line dlg-wangmiao">
+        <span class="speaker sp-wm">왕먀오 (대답 못함)</span>
+        <b>（입이 열려 있으나 소리가 없다 — 눈에 192개 돌탑이 비침）</b>
+      </div>
+    </div>
+    <div class="emotion-bar">
+      <span class="emo-dot" style="background:#8B0000;"></span>
+      감정 9/10 — 관찰자라는 변명이 더 이상 작동하지 않는 순간
+    </div>
+  </div>
+
+  <div class="footer">
+    <div><b>EP004 "문명의 역사"</b> · Image Storyboard · 4 Key Scenes · AI: Raphael (Scene 1) + CSS Art (Scenes 2-4)</div>
+    <div>감정 곡선: 5→4→7→9 · 주 가설: H4 시각 압도 vs 여백</div>
+  </div>
+
+</div>
+</body>
+</html>

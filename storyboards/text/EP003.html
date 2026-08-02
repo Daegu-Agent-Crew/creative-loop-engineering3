@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EP003 — 세 개의 태양</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+  
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  body {
+    font-family: 'Nanum Gothic', sans-serif;
+    background: #1a1a1a;
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .storyboard {
+    width: 1200px;
+    background: #111;
+    border: 2px solid #333;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .header {
+    background: linear-gradient(135deg, #8B4513, #DAA520, #B22222);
+    padding: 20px 30px;
+    border-bottom: 2px solid #555;
+  }
+  
+  .header h1 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  }
+  
+  .header .subtitle {
+    font-size: 14px;
+    color: #FFD700;
+    margin-top: 5px;
+  }
+  
+  .header .tags {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+    flex-wrap: wrap;
+  }
+  
+  .tag {
+    background: rgba(0,0,0,0.4);
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    color: #FFD700;
+  }
+  
+  .panels {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+    padding: 2px;
+    background: #222;
+  }
+  
+  .panel {
+    background: #1a1a1a;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    min-height: 200px;
+  }
+  
+  .panel.full-width {
+    grid-column: 1 / -1;
+  }
+  
+  .panel-content {
+    padding: 15px 20px;
+    height: 100%;
+  }
+  
+  .beat-label {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 800;
+    padding: 2px 8px;
+    border-radius: 3px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .beat-cold-open { background: #4a148c; color: #fff; }
+  .beat-theme { background: #1565c0; color: #fff; }
+  .beat-catalyst { background: #e65100; color: #fff; }
+  .beat-midpoint { background: #2e7d32; color: #fff; }
+  .beat-all-lost { background: #b71c1c; color: #fff; }
+  .beat-dark-night { background: #263238; color: #90a4ae; }
+  .beat-climax { background: #b71c1c; color: #FFD700; }
+  .beat-final { background: #1a237e; color: #fff; }
+  
+  .page-badge {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    font-size: 10px;
+    color: #666;
+    font-weight: 700;
+  }
+  
+  .visual-desc {
+    font-size: 12px;
+    color: #aaa;
+    margin-bottom: 8px;
+    font-style: italic;
+    line-height: 1.4;
+  }
+  
+  .dialogue {
+    background: rgba(255,255,255,0.05);
+    border-left: 3px solid;
+    padding: 6px 10px;
+    margin: 4px 0;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  
+  .dialogue.zhuxi { border-color: #B22222; }
+  .dialogue.wangmiao { border-color: #4FC3F7; }
+  .dialogue.shanggu { border-color: #FFB74D; }
+  .dialogue.narration { border-color: #666; color: #999; font-size: 12px; }
+  
+  .speaker {
+    font-weight: 800;
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+  
+  .speaker.zhuxi { color: #ef5350; }
+  .speaker.wangmiao { color: #4FC3F7; }
+  .speaker.shanggu { color: #FFB74D; }
+  
+  .subtext {
+    color: #777;
+    font-size: 11px;
+    margin-top: 2px;
+  }
+  
+  .emotion-bar {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    font-size: 10px;
+    color: #666;
+  }
+  
+  .emotion-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+  
+  .arrow {
+    text-align: center;
+    font-size: 18px;
+    color: #444;
+    padding: 4px 0;
+  }
+  
+  .color-theme {
+    height: 4px;
+    border-radius: 2px;
+    margin-bottom: 8px;
+  }
+  
+  .footer {
+    background: #0d0d0d;
+    padding: 12px 20px;
+    border-top: 1px solid #333;
+    font-size: 11px;
+    color: #666;
+    display: flex;
+    justify-content: space-between;
+  }
+</style>
+</head>
+<body>
+<div class="storyboard">
+  
+  <!-- Header -->
+  <div class="header">
+    <h1>EP003 — 세 개의 태양</h1>
+    <div class="subtitle">삼체 게임 세계 진입 · 주희 등장 · 안정기에서 멸망까지</div>
+    <div class="tags">
+      <span class="tag">📈 감정: 5→3→7→8→10→10</span>
+      <span class="tag">🎭 가설: H3 매력 악역 · H4 시각 압도 vs 여백</span>
+      <span class="tag">⏱ 연결: EP002 끝(초대장) → EP004 시작(폐허 "137")</span>
+    </div>
+  </div>
+  
+  <!-- Panels Grid -->
+  <div class="panels">
+    
+    <!-- Panel 1: Cold Open -->
+    <div class="panel">
+      <div class="page-badge">p1</div>
+      <div class="panel-content">
+        <span class="beat-label beat-cold-open">🎬 Cold Open · 부조화</span>
+        <div class="color-theme" style="background: linear-gradient(90deg, #8B4513, #696969);"></div>
+        <div class="visual-desc">
+          🏜️ 왕머아 1인칭 시점. 끝없는 갈색 평원. 하늘은 균일한 회백색 돔. <b>태양이 없다.</b> 바람이 부는데 먼지가 일지 않는다. 그림자가 없는 세계.
+        </div>
+        <div class="dialogue narration">
+          <span class="speaker">🥽 안경 렌즈</span><br>
+          <span style="color:#4FC3F7; font-size:16px; font-weight:700;">1198:47:23</span> ← 카운트다운 잔상이 맺혔다가 녹아내림
+        </div>
+        <div class="dialogue wangmiao">
+          <span class="speaker wangmiao">왕먀오</span><br>
+          "...이게 삼체 게임?"<br>
+          <span class="subtext">subtext: 내가 기대한 것과 전혀 다르다</span>
+        </div>
+        <div class="emotion-bar">
+          <span class="emotion-dot" style="background:#FFD700;"></span>
+          기대 → 부조화 · 독자: "이게 게임이라고?"
+        </div>
+      </div>
+    </div>
+    
+    <!-- Panel 2: Theme Stated -->
+    <div class="panel">
+      <div class="page-badge">p3</div>
+      <div class="panel-content">
+        <span class="beat-label beat-theme">💡 Theme Stated</span>
+        <div class="color-theme" style="background: linear-gradient(90deg, #8B4513, #B22222);"></div>
+        <div class="visual-desc">
+          🎭 주희 등장 — 갈색 세계에서 유일하게 <b style="color:#ef5350;">붉은 옥의</b>를 입은 인물. 닥터슬럼프풍 과장된 비율 (큰 머리, 넓은 어깨). 돌 위에 앉아 왕먀오를 내려다봄.
+        </div>
+        <div class="dialogue zhuxi">
+          <span class="speaker zhuxi">주희 (은나라 왕 NPC)</span><br>
+          <b>"하늘을 보았느냐."</b><br>
+          <span class="subtext">subtext: 네 과학의 기반이 여기서는 무의미하다는 걸 알았겠지</span>
+        </div>
+        <div class="dialogue zhuxi">
+          <span class="speaker zhuxi">주희</span><br>
+          <b>"하늘은 언제나 우리를 배신하지. 다만, 오늘은 배신하지 않았을 뿐."</b><br>
+          <span class="subtext">subtext: 과학의 '영원한 법칙'이란 없다. 잠깐의 안정일 뿐</span>
+        </div>
+        <div class="dialogue zhuxi">
+          <span class="speaker zhuxi">주희</span><br>
+          <b>"네 안경은 무엇을 보여주느냐?"</b><br>
+          <span class="subtext">subtext: 네가 믿는 '과학'이라는 렌즈는 세상의 진실이 아니라 네 믿음만 보여줄 뿐이다</span>
+        </div>
+        <div class="emotion-bar">
+          <span class="emotion-dot" style="background:#ef5350;"></span>
+          H3 매력 악역 핵심 — "NPC치고는... 너무 진짜 같다"
+        </div>
+      </div>
+    </div>
+    
+    <!-- Panel 3: Break into Act 2 -->
+    <div class="panel">
+      <div class="page-badge">p5-6</div>
+      <div class="panel-content">
+        <span class="beat-label beat-catalyst">⚡ 세계의 물리 법칙 + 안정기</span>
+        <div class="color-theme" style="background: linear-gradient(90deg, #8B4513, #DAA520, #FFD700);"></div>
+        <div class="visual-desc">
+          🪨 돌들이 하늘에 떠 있다 — 중력 이상. 왕먀오가 모래를 만지자 입자가 손바닥 주변에서 부유.<br><br>
+          ☀️☀️ 하늘이 갈라진다 — 동쪽에서 큰 <b style="color:#FF4500;">붉은 태양</b>, 서쪽에서 작고 <b style="color:#FFF8DC;">흰 태양</b>. 이중 그림자가 생긴다. 갈색 세계가 황금빛으로 변환.
+        </div>
+        <div class="dialogue wangmiao">
+          <span class="speaker wangmiao">왕먀오 (독백)</span><br>
+          "중력이... 일정하지 않아. 상수가 아니야."<br>
+          "태양이... <b>둘이야?</b>"
+        </div>
+        <div class="dialogue narration">
+          <span class="speaker">📖 연출</span><br>
+          주희만 색(붉은 옥의)이 있는 세계 → 두 태양으로 전 세계가 황금빛 → 왕먀오: <b>"이건... 아름답다."</b>
+        </div>
+        <div class="emotion-bar">
+          <span class="emotion-dot" style="background:#FFD700;"></span>
+          호기심 → 경이 · 안정기 도래
+        </div>
+      </div>
+    </div>
+    
+    <!-- Panel 4: Midpoint -->
+    <div class="panel full-width">
+      <div class="page-badge">p7 · 풀페이지</div>
+      <div class="panel-content">
+        <span class="beat-label beat-midpoint">⭐ MIDPOINT — 가짜 승리</span>
+        <div class="color-theme" style="background: linear-gradient(90deg, #FFD700, #FFA500, #FF8C00); height: 6px;"></div>
+        <div class="visual-desc">
+          🎉 <b>풀 페이지.</b> 두 태양이 황금빛 하늘 양쪽에. 평원 위 NPC 문명인들이 환호 — 축제. 주희가 언덕 위에서 양팔을 벌리고 선 영웅적 포즈. 왕먀오는 오른쪽 구석에 고립되어 있으나 경이에 젖어 있음.<br>
+          ⚠️ <b>주희의 그림자가 두 개</b>인데, 방향이 미묘하게 어긋나 있다 — 무언가 잘못되었다는 시각적 암시.
+        </div>
+        <div class="dialogue narration">
+          <span class="speaker">📖 하단 나레이션</span><br>
+          "안정기. 문명이 살아남은 기적의 날."
+        </div>
+        <div class="dialogue zhuxi">
+          <span class="speaker zhuxi">주희</span><br>
+          <b>"보아라! 하늘이 우리를 받아들였다!"</b><br>
+          <span class="subtext">subtext: 이 순간의 아름다움은 진짜이되 영원하지 않다</span>
+        </div>
+        <div class="emotion-bar">
+          <span class="emotion-dot" style="background:#FFD700;"></span>
+          감정 7/10 — 독자도 속아야 한다. "아, 살았구나" → 바로 다음 장에서 붕괴
+        </div>
+      </div>
+    </div>
+    
+    <!-- Panel 5: Bad Guys Close In -->
+    <div class="panel">
+      <div class="page-badge">p8</div>
+      <div class="panel-content">
+        <span class="beat-label" style="background:#BF360C; color:#fff;">⚠️ 균열의 시작</span>
+        <div class="color-theme" style="background: linear-gradient(90deg, #FFD700, #FF6B35);"></div>
+        <div class="visual-desc">
+          😰 천문관 상구가 관측기를 확인하다 손이 떨린다. 청동 원반의 눈금이 비정상적으로 움직임. 하늘의 두 태양 균형이 깨지기 시작 — 큰 붉은 태양이 더 밝아진다.
+        </div>
+        <div class="dialogue shanggu">
+          <span class="speaker shanggu">상구 (천문관)</span><br>
+          <b>"대왕. 두 태양의 궤도가... 예측선에서 벗어나고 있습니다."</b><br>
+          <span class="subtext">subtext: 수학이 어긋나고 있다</span>
+        </div>
+        <div class="dialogue zhuxi">
+          <span class="speaker zhuxi">주희 (미소 완전히 사라짐)</span><br>
+          <b>"얼마나."</b><br>
+          <span class="subtext">subtext: 이번엔 얼마나 버틸 수 있지 — 두려움이 아닌, 계산</span>
+        </div>
+        <div class="emotion-bar">
+          <span class="emotion-dot" style="background:#FF6B35;"></span>
+          안도 → 공포 · H3: 악역이 웃음을 거둘 때 진짜 매력이 드러난다
+        </div>
+      </div>
+    </div>
+    
+    <!-- Panel 6: All Is Lost -->
+    <div class="panel">
+      <div class="page-badge">p9-10</div>
+      <div class="panel-content">
+        <span class="beat-label beat-all-lost">💀 All Is Lost + 침묵 페이지</span>
+        <div class="color-theme" style="background: linear-gradient(90deg, #FF4500, #8B0000, #2C2C2C);"></div>
+        <div class="visual-desc">
+          ☀️☀️☀️ <b>세 번째 태양 감지.</b> 하늘 구석에서 새로운 빛. 돌들이 다시 떠오르기 시작.<br><br>
+          🔢 왕먀오가 바닥에 무릎 꿇고 수식을 쓰다 멈춘다. 흩어진 계산 용지. 하늘의 붉은 기운. <b>대사 없음 — 침묵 페이지.</b> 수식이 발산한다. 풀리지 않는다.
+        </div>
+        <div class="dialogue shanggu">
+          <span class="speaker shanggu">상구</span><br>
+          <b>"예측이... 불가능합니다."</b> — whiff of death (문명 멸망 확정)
+        </div>
+        <div class="dialogue wangmiao">
+          <span class="speaker wangmiao">왕먀오 (독백, 수식을 보며)</span><br>
+          <b>（침묵 — 과학이 실패한 순간의 공허함）</b><br>
+          <span class="subtext">오만 → 굴복 · "수학으로 풀 수 있다"는 믿음이 무너진다</span>
+        </div>
+        <div class="emotion-bar">
+          <span class="emotion-dot" style="background:#8B0000;"></span>
+          감정 8/10 → 7/10 (침묵) — H4: 시각 압도 바로 직전의 여백
+        </div>
+      </div>
+    </div>
+    
+    <!-- Panel 7: Climax -->
+    <div class="panel full-width">
+      <div class="page-badge">p12-13 · 풀페이지</div>
+      <div class="panel-content">
+        <span class="beat-label beat-climax">🔥 CLIMAX — 세 태양 동시 출현</span>
+        <div class="color-theme" style="background: linear-gradient(90deg, #FF0000, #FF4500, #FFD700, #FF0000); height: 6px;"></div>
+        <div class="visual-desc">
+          ☀️☀️☀️ <b>세 태양이 수평선 위로 동시 상승.</b> 하늘이 불타오른다. 지면이 갈라지고, 건물이 해물처럼 녹아내리고, 사람들이 도망치나 그림자가 없다 — 모든 방향에서 빛이 온다. <b>시각적 폭발. H4 시각 압도 최고점.</b><br>
+          🔥 닥터슬럼프풍의 변형 — 선이 녹아내리는 듯한 효과. 과노출 — 하얗게 타오르는 화면.
+        </div>
+        <div class="dialogue narration">
+          <span class="speaker">📖 상단 나레이션</span><br>
+          <b style="font-size:15px;">"세 개의 태양이 동시에 떴다. 이것은 예측 불가능한 우주의 진실이다."</b>
+        </div>
+        <div class="dialogue wangmiao">
+          <span class="speaker wangmiao">왕먀오 (독백)</span><br>
+          <b>"...아름다웠다."</b> (인정하고 싶지 않았지만, 이 세계에 압도당했다)
+        </div>
+      </div>
+    </div>
+    
+    <!-- Panel 8: 주희의 최후 -->
+    <div class="panel">
+      <div class="page-badge">p14</div>
+      <div class="panel-content">
+        <span class="beat-label beat-climax">🎭 주희의 최후</span>
+        <div class="color-theme" style="background: linear-gradient(90deg, #8B0000, #2C2C2C);"></div>
+        <div class="visual-desc">
+          주희, 미소 지으며 소멸. 문명이 타오르는 배경 속에서, 주희만 또다시 붉은 옥의가 빛난다. 닥터슬럼프풍 과장이 벗겨지고, 리얼리스틱한 체념의 얼굴이 드러남.
+        </div>
+        <div class="dialogue zhuxi">
+          <span class="speaker zhuxi">주희 (소멸하며)</span><br>
+          <b>"기록만이 살아남는다."</b><br>
+          <span class="subtext">subtext: 네 안경이 보여주는 것도, 내 통치도, 결국 남는 것은 기록뿐</span>
+        </div>
+        <div class="emotion-bar">
+          <span class="emotion-dot" style="background:#B22222;"></span>
+          감정 8/10 — H3 매력 악역의 최후: 통치 → 멸망 · 카타르시스
+        </div>
+      </div>
+    </div>
+    
+    <!-- Panel 9: Final Image -->
+    <div class="panel">
+      <div class="page-badge">p15 · 풀페이지</div>
+      <div class="panel-content">
+        <span class="beat-label beat-final">🎬 FINAL IMAGE — 클리프행거</span>
+        <div class="color-theme" style="background: linear-gradient(90deg, #1a237e, #000, #1a237e);"></div>
+        <div class="visual-desc">
+          🎮 게임 강제 종료. 화면이 어두워진다. 왕먀오, 안경을 벗는다. 렌즈에 카운트다운 숫자가 다시 비친다 — EP003 시작부(p1)의 회수. <b>숫자가 줄어들고 있다.</b><br><br>
+          📱 현실. 왕먀오의 손에 있는 폰 화면 — 삼체 게임 로고 + "접속 대기 중"
+        </div>
+        <div class="dialogue narration">
+          <span class="speaker">🥽 안경 렌즈</span><br>
+          <span style="color:#4FC3F7; font-size:18px; font-weight:700; letter-spacing:2px;">1187:22:08:41</span><br>
+          <span style="color:#666; font-size:11px;">← p1(1198:47:23)에서 11일+ 감소. 게임 안에서 11일이 흘렀다. 현실에서도 카운트다운은 계속된다.</span>
+        </div>
+        <div class="dialogue wangmiao">
+          <span class="speaker wangmiao">왕먀오 (독백)</span><br>
+          <b>"게임이 끝나도... 카운트다운은 계속된다."</b>
+        </div>
+        <div class="emotion-bar">
+          <span class="emotion-dot" style="background:#1a237e;"></span>
+          감정 10/10 — 미스터리 회수 + 새 미스터리 시작 → EP004로
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  <!-- Footer -->
+  <div class="footer">
+    <div><b>EP003 "세 개의 태양"</b> · 15p → 9 패널 콘티 · 주 가설: H3 매력 악역(주희) · 부 가설: H4 시각 압도 vs 여백</div>
+    <div>감정 곡선: 5→3→4→5→6→7→6→8→7→9→10→10→8→10</div>
+  </div>
+  
+</div>
+</body>
+</html>
