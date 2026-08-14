@@ -138,6 +138,42 @@ node scripts/build-panel-jobs.js EP001
 - 다인물/몽타주/풀페이지: 동시 1개
 - 실패 시: **해당 패널만 재생성**
 
+### 4) 수렴 루프 파일럿
+
+기존 패널을 baseline으로 유지한 채 후보를 격리된 `.candidates/` 경로에 만든다.
+
+```bash
+node scripts/run-panel-jobs.js \
+  --episode EP001 \
+  --panel p2-3 \
+  --variants 2 \
+  --max-iterations 2 \
+  --dry-run \
+  --write-plan
+```
+
+2회차는 1회차 평가의 `next_prompt_adjustment`를 전달해야만 실행된다.
+
+```bash
+node scripts/run-panel-jobs.js \
+  --episode EP001 \
+  --panel p2-3 \
+  --variants 2 \
+  --max-iterations 2 \
+  --iteration 2 \
+  --diagnosis "눈 모양은 유지하고 시선을 밤하늘 쪽으로 명확히 올린다" \
+  --dry-run
+```
+
+출력 계획에는 다음 명령이 포함된다.
+
+- 생성 명령: `codex -i <character-reference> exec ...`
+- 평가 명령: 후보 이미지를 블라인드 순서로 첨부하고 `candidates-schema.json`으로 결과 저장
+- 후보 경로: `.candidates/{episode}/{panel}/iteration-NN/`
+
+후보는 Git에 커밋하지 않는다. 절대 게이트와 A/B 비교를 모두 통과해 선택된 파일만
+`episodes/{EP}/panels/assets/{panel_id}.png`로 승격한다.
+
 ---
 
 ## 카메라 앵글 참조표

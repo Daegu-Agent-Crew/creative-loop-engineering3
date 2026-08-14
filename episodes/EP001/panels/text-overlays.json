@@ -153,6 +153,26 @@
       "overlays": []
     },
     {
+      "panel_id": "p8-1",
+      "page_number": 8,
+      "source_image_path": "episodes/EP001/panels/assets/p8-1.png",
+      "final_image_path": "episodes/EP001/panels/final/p8-1.svg",
+      "status": "rendered",
+      "notes": "Time-transition caption is applied after image generation to preserve exact Korean and numerals.",
+      "overlays": [
+        {
+          "kind": "caption",
+          "text": "40년 후. 2007.",
+          "box": {
+            "x": 0.3,
+            "y": 0.42,
+            "w": 0.4,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
       "panel_id": "p9-1",
       "page_number": 9,
       "source_image_path": "episodes/EP001/panels/assets/p9-1.png",

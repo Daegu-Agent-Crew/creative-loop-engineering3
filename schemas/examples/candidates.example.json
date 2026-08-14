@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "episode_id": "EP001",
+  "panel_id": "p2-3",
+  "status": "evaluating",
+  "baseline_image_path": "episodes/EP001/panels/assets/p2-3.png",
+  "reference_assets": [
+    "episodes/EP001/characters/assets/yewenjie-v1.png"
+  ],
+  "iterations": [
+    {
+      "iteration": 1,
+      "candidates": [
+        {
+          "candidate_id": "p2-3-i1-v1",
+          "variant": 1,
+          "prompt": "Preserve storyboard fidelity and clear focal hierarchy.",
+          "output_path": ".candidates/EP001/p2-3/iteration-01/p2-3-v01.png",
+          "reference_assets": [
+            "episodes/EP001/characters/assets/yewenjie-v1.png"
+          ],
+          "status": "evaluated",
+          "scores": {
+            "character_consistency": 8,
+            "storyboard_fidelity": 8,
+            "composition": 8,
+            "style_consistency": 8,
+            "scene_continuity": 8,
+            "total": 40
+          },
+          "diagnosis": null,
+          "created_at": null
+        },
+        {
+          "candidate_id": "p2-3-i1-v2",
+          "variant": 2,
+          "prompt": "Preserve the action and improve emotional readability.",
+          "output_path": ".candidates/EP001/p2-3/iteration-01/p2-3-v02.png",
+          "reference_assets": [
+            "episodes/EP001/characters/assets/yewenjie-v1.png"
+          ],
+          "status": "evaluated",
+          "scores": {
+            "character_consistency": 9,
+            "storyboard_fidelity": 9,
+            "composition": 8,
+            "style_consistency": 8,
+            "scene_continuity": 9,
+            "total": 43
+          },
+          "diagnosis": "Keep the upward gaze and reduce background clutter.",
+          "created_at": null
+        }
+      ],
+      "comparison": {
+        "candidate_order": ["p2-3-i1-v2", "p2-3-i1-v1"],
+        "verdict": "winner",
+        "winner_candidate_id": "p2-3-i1-v2",
+        "reason": "The upward gaze and face match are clearer without losing scene continuity.",
+        "next_prompt_adjustment": null,
+        "evaluator": "vision-agent",
+        "evaluated_at": null
+      }
+    }
+  ],
+  "selection": {
+    "candidate_id": "p2-3-i1-v2",
+    "promoted_path": null,
+    "reason": "Awaiting human blind review.",
+    "human_approved": false,
+    "approved_at": null
+  }
+}
