@@ -41,6 +41,18 @@
       "reference_assets"
     ]
   },
+  "convergence": {
+    "candidate_root": ".candidates",
+    "default_variants": 2,
+    "max_variants": 3,
+    "default_max_iterations": 2,
+    "max_iterations": 3,
+    "absolute_reject_below": 35,
+    "auto_approve_at_or_above": 42,
+    "tie_total_score_delta": 2,
+    "candidate_files_committed": false,
+    "promote_selected_only": true
+  },
   "retry": {
     "max_attempts": 3,
     "attempts": [

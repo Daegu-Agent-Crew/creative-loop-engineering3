@@ -62,6 +62,47 @@
       ],
       "human_approval": "not_required",
       "impact": "Workspace와 작업 큐는 검토 가능한 결정 요약만 노출한다."
+    },
+    {
+      "id": "DEC-20260814-001",
+      "made_at": "2026-08-14T18:00:00+09:00",
+      "phase": "phase4",
+      "decision": "후보 비교는 절대 품질 게이트를 먼저 적용하고 winner, tie, both_bad 중 하나로 기록한다.",
+      "rationale": "상대 비교만 사용하면 모두 불량인 후보 중 하나가 선호 메모리로 승격될 수 있다.",
+      "evidence": [
+        "evaluation-rubric.md",
+        "schemas/candidates-schema.json",
+        "config/panel-generation-policy.json"
+      ],
+      "confidence": "high",
+      "uncertainties": [
+        "첫 파일럿에서 AI와 사람의 선택 일치율"
+      ],
+      "alternatives_considered": [
+        "A/B 상대 비교만 사용",
+        "기존 50점 절대평가만 사용"
+      ],
+      "human_approval": "provisional",
+      "impact": "후보는 35점 미만이면 선택할 수 없고 2회차 생성에는 이전 평가 진단이 필요하다."
+    },
+    {
+      "id": "DEC-20260814-002",
+      "made_at": "2026-08-14T18:00:00+09:00",
+      "phase": "phase4",
+      "decision": "p8-1은 텍스트 없는 시대 전환 이미지로 생성하고 정확한 연도 자막은 SVG 후처리한다.",
+      "rationale": "한글과 숫자 오류 때문에 적합한 그림 전체를 재생성하지 않고 Phase 4 이미지와 Phase 5 텍스트 책임을 분리한다.",
+      "evidence": [
+        "episodes/EP001/panels/assets/p8-1.png",
+        "episodes/EP001/panels/final/p8-1.svg",
+        "episodes/EP001/panels/text-overlays.json"
+      ],
+      "confidence": "high",
+      "uncertainties": [],
+      "alternatives_considered": [
+        "이미지 모델에 40년 후와 2007 텍스트까지 생성 요청"
+      ],
+      "human_approval": "not_required",
+      "impact": "EP001 원본 이미지는 49/49, 오버레이는 18/49가 되었다."
     }
   ]
 }
