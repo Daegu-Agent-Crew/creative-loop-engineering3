@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "review_set_id": "pilot-001",
+  "episode_id": "EP001",
+  "title": "패널 수렴 파일럿",
+  "status": "in_review",
+  "created_at": "2026-08-15T00:00:00.000Z",
+  "evaluation_policy": {
+    "absolute_gate": 35,
+    "approval_score": 42,
+    "tie_margin": 2,
+    "human_approval_required": true
+  },
+  "panels": [
+    {
+      "panel_id": "p2-3",
+      "record_path": "episodes/EP001/panels/convergence/pilot-001/p2-3.json",
+      "type": "single_character",
+      "description": "예원제가 하늘을 올려다보는 클로즈업",
+      "baseline_image_path": "episodes/EP001/panels/assets/p2-3.png",
+      "characters": ["예원제"],
+      "candidates": [
+        {
+          "candidate_id": "p2-3-i1-v1",
+          "blind_label": "A",
+          "review_path": "episodes/EP001/panels/convergence/pilot-001/assets/p2-3-a.webp",
+          "scores": { "character_consistency": 9, "storyboard_fidelity": 9, "composition": 9, "style_consistency": 9, "scene_continuity": 8, "total": 44 },
+          "diagnosis": "얼굴 집중도와 캐릭터 연속성이 강하다. 하늘의 여백은 비교 후보보다 작다."
+        },
+        {
+          "candidate_id": "p2-3-i1-v2",
+          "blind_label": "B",
+          "review_path": "episodes/EP001/panels/convergence/pilot-001/assets/p2-3-b.webp",
+          "scores": { "character_consistency": 9, "storyboard_fidelity": 9, "composition": 10, "style_consistency": 9, "scene_continuity": 9, "total": 46 },
+          "diagnosis": "별 하늘의 여백과 인물 감정의 전환이 선명하다. 기준선보다 입 모양이 약간 열려 있다."
+        }
+      ],
+      "evaluator": { "verdict": "winner", "recommended_candidate_id": "p2-3-i1-v2", "reason": "두 후보 모두 절대 게이트를 통과했고 B가 시선 흐름과 감정 가독성에서 우세하다." }
+    },
+    {
+      "panel_id": "p15-3",
+      "record_path": "episodes/EP001/panels/convergence/pilot-001/p15-3.json",
+      "type": "multi_character",
+      "description": "청신이 문을 열고 모니터 앞 왕먀오의 등을 발견",
+      "baseline_image_path": "episodes/EP001/panels/assets/p15-3.png",
+      "characters": ["청신", "왕먀오(등)"],
+      "candidates": [
+        {
+          "candidate_id": "p15-3-i1-v1",
+          "blind_label": "A",
+          "review_path": "episodes/EP001/panels/convergence/pilot-001/assets/p15-3-a.webp",
+          "scores": { "character_consistency": 9, "storyboard_fidelity": 10, "composition": 9, "style_consistency": 9, "scene_continuity": 9, "total": 46 },
+          "diagnosis": "두 인물과 중앙 암전 모니터가 즉시 읽힌다. 청신의 손 동작은 비교 후보보다 정적이다."
+        },
+        {
+          "candidate_id": "p15-3-i1-v2",
+          "blind_label": "B",
+          "review_path": "episodes/EP001/panels/convergence/pilot-001/assets/p15-3-b.webp",
+          "scores": { "character_consistency": 9, "storyboard_fidelity": 9, "composition": 9, "style_consistency": 9, "scene_continuity": 9, "total": 45 },
+          "diagnosis": "문턱에서 멈춘 감정과 손의 긴장이 좋다. 왕먀오 안경 반사가 측면에서 조금 보인다."
+        }
+      ],
+      "evaluator": { "verdict": "tie", "recommended_candidate_id": null, "reason": "점수 차가 2점 이내다. A는 사건 전달, B는 감정 긴장이 강해 사람 선택이 필요하다." }
+    },
+    {
+      "panel_id": "p6-1",
+      "record_path": "episodes/EP001/panels/convergence/pilot-001/p6-1.json",
+      "type": "full_page",
+      "description": "비 내리는 복도에 홀로 웅크린 예원제의 침묵 풀페이지",
+      "baseline_image_path": "episodes/EP001/panels/assets/p6-1.png",
+      "characters": ["예원제"],
+      "candidates": [
+        {
+          "candidate_id": "p6-1-i1-v1",
+          "blind_label": "A",
+          "review_path": "episodes/EP001/panels/convergence/pilot-001/assets/p6-1-a.webp",
+          "scores": { "character_consistency": 9, "storyboard_fidelity": 9, "composition": 9, "style_consistency": 9, "scene_continuity": 8, "total": 44 },
+          "diagnosis": "인물과 종이, 붓, 잉크 방울의 관계가 명료하다. 종이에 유사 문자가 남아 후처리 확인이 필요하다."
+        },
+        {
+          "candidate_id": "p6-1-i1-v2",
+          "blind_label": "B",
+          "review_path": "episodes/EP001/panels/convergence/pilot-001/assets/p6-1-b.webp",
+          "scores": { "character_consistency": 9, "storyboard_fidelity": 9, "composition": 10, "style_consistency": 9, "scene_continuity": 8, "total": 45 },
+          "diagnosis": "고립감과 잉크 낙하의 시간성이 강하다. 화면이 매우 어두워 모바일 명암 확인이 필요하다."
+        }
+      ],
+      "evaluator": { "verdict": "tie", "recommended_candidate_id": null, "reason": "점수 차가 2점 이내다. A는 사건 소품, B는 정서와 여백이 우세하다." }
+    }
+  ]
+}

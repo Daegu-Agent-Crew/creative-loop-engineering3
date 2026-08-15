@@ -7,6 +7,7 @@ const CLE2_API = `https://api.github.com/repos/${GH_ORG}/creative-loop-engineeri
 const REMOTE_RAW_BASE = `https://raw.githubusercontent.com/${GH_ORG}/${GH_REPO}/main/`;
 const PAT_STORAGE_KEY = 'cle3_pat';
 const QA_REVIEW_STORAGE_KEY = 'cle3_qa_reviews';
+const CONVERGENCE_REVIEW_STORAGE_KEY = 'cle3_convergence_reviews';
 
 let PAT = localStorage.getItem(PAT_STORAGE_KEY) || '';
 let currentView = 'dashboard';
@@ -34,6 +35,7 @@ const EPISODE_TABS = [
   ['characters', '캐릭터'],
   ['storyboard', '콘티'],
   ['panels', '패널'],
+  ['convergence', '수렴'],
   ['qa', 'QA']
 ];
 
@@ -913,7 +915,7 @@ async function renderEpisode() {
     return `<a href="#episode/${episodeId}/${item[0]}" class="tab-chip ${cls}">${item[1]}</a>`;
   }).join('');
 
-  const [script, characters, storyboard, panels, textOverlays, qa, discovery, decisions, approvals, scriptMd, storyboardMd, resultsMd, manifestMd, publishedViewerHtml, analysisMd, outlineMd, scenesMd, v3ScriptMd] = await Promise.all([
+  const [script, characters, storyboard, panels, textOverlays, qa, discovery, decisions, approvals, preferenceMemory, convergencePilot, scriptMd, storyboardMd, resultsMd, manifestMd, publishedViewerHtml, analysisMd, outlineMd, scenesMd, v3ScriptMd] = await Promise.all([
     loadJson(`episodes/${episodeId}/script/script.json`),
     loadJson(`episodes/${episodeId}/characters/characters.json`),
     loadJson(`episodes/${episodeId}/storyboard/storyboard.json`),
@@ -923,6 +925,8 @@ async function renderEpisode() {
     loadJson(`episodes/${episodeId}/discovery/context.json`),
     loadJson(`episodes/${episodeId}/decisions/implementation-notes.json`),
     loadJson(`episodes/${episodeId}/approvals/gates.json`),
+    loadJson(`episodes/${episodeId}/panels/preference-memory.json`),
+    loadJson(`episodes/${episodeId}/panels/convergence/pilot-001/pilot.json`),
     loadText(`episodes/${episodeId}/script.md`),
     loadText(`episodes/${episodeId}/storyboard.md`),
     loadText(`episodes/${episodeId}/results.md`),
@@ -957,6 +961,8 @@ async function renderEpisode() {
   if (approvals) sourceDocs.push({ label: 'approvals/gates.json', path: `episodes/${episodeId}/approvals/gates.json` });
   if (resultsMd) sourceDocs.push({ label: 'results.md', path: `episodes/${episodeId}/results.md` });
   if (manifestMd) sourceDocs.push({ label: 'MANIFEST.md', path: `episodes/${episodeId}/panels/MANIFEST.md` });
+  if (preferenceMemory) sourceDocs.push({ label: 'preference-memory.json', path: `episodes/${episodeId}/panels/preference-memory.json` });
+  if (convergencePilot) sourceDocs.push({ label: 'convergence pilot', path: `episodes/${episodeId}/panels/convergence/pilot-001/pilot.json` });
 
   const sidebar = episodeIds.map(function (id) {
     const item = episodes[id];
@@ -982,6 +988,8 @@ async function renderEpisode() {
     discovery: discovery,
     decisions: decisions,
     approvals: approvals,
+    preferenceMemory: preferenceMemory,
+    convergencePilot: convergencePilot,
     resultsMd: effectiveResultsMd,
     manifestMd: manifestMd,
     publishedViewerHtml: publishedViewerHtml,
@@ -1031,6 +1039,7 @@ function renderEpisodeTab(tab, context) {
   if (tab === 'characters') return renderCharactersTab(context);
   if (tab === 'storyboard') return renderStoryboardTab(context);
   if (tab === 'panels') return renderPanelsTab(context);
+  if (tab === 'convergence') return renderConvergenceTab(context);
   if (tab === 'qa') return renderQATab(context);
   return renderOverviewTab(context);
 }
@@ -1521,6 +1530,207 @@ function renderPanelsTab(context) {
       </div>`;
     }).join('')}
   </div>`;
+}
+
+function loadConvergenceReviews() {
+  try {
+    return JSON.parse(localStorage.getItem(CONVERGENCE_REVIEW_STORAGE_KEY) || '{}');
+  } catch (error) {
+    return {};
+  }
+}
+
+function loadConvergencePanelReview(episodeId, reviewSetId, panelId) {
+  const all = loadConvergenceReviews();
+  return (((all[episodeId] || {})[reviewSetId] || {})[panelId]) || null;
+}
+
+function renderConvergenceTab(context) {
+  const pilot = context.convergencePilot;
+  const memory = context.preferenceMemory;
+  if (!pilot || !memory) {
+    return '<div class="card"><p>수렴 리뷰 데이터가 아직 없습니다.</p></div>';
+  }
+  const approvedPanels = (memory.anchors || []).filter(function (anchor) {
+    return anchor.kind === 'approved_panel' && anchor.status === 'approved';
+  });
+  const completed = (pilot.panels || []).filter(function (panel) {
+    return Boolean(loadConvergencePanelReview(context.episodeId, pilot.review_set_id, panel.panel_id));
+  }).length;
+  return `<div class="card convergence-workbench">
+    <div class="convergence-head">
+      <div>
+        <h3>${escapeHtml(pilot.title || '패널 수렴')}</h3>
+        <p class="meta">${escapeHtml(pilot.review_set_id)} · 사람 승인 전까지 최종 패널과 참조 기억은 변경되지 않습니다.</p>
+      </div>
+      <span class="panel-qa-badge ${completed === (pilot.panels || []).length ? 'approved' : 'pending'}">${completed} / ${(pilot.panels || []).length} 검토</span>
+    </div>
+    <div class="stats-grid compact-grid">
+      ${statCard((pilot.panels || []).length, '파일럿 패널')}
+      ${statCard((pilot.panels || []).reduce(function (sum, panel) { return sum + (panel.candidates || []).length; }, 0), '생성 후보')}
+      ${statCard(approvedPanels.length, '승인 패널 앵커')}
+      ${statCard((memory.anchors || []).length, '전체 참조 앵커')}
+    </div>
+    ${(pilot.panels || []).map(function (panel) {
+      return renderConvergencePanel(context.episodeId, pilot, panel);
+    }).join('')}
+  </div>`;
+}
+
+function renderConvergencePanel(episodeId, pilot, panel) {
+  const review = loadConvergencePanelReview(episodeId, pilot.review_set_id, panel.panel_id);
+  const selectedId = review && review.candidate_id;
+  const selectedLabel = review && review.verdict === 'winner'
+    ? ((panel.candidates || []).find(function (candidate) { return candidate.candidate_id === selectedId; }) || {}).blind_label
+    : null;
+  const decisionLabel = !review ? '미검토' : review.verdict === 'winner' ? `후보 ${selectedLabel} 선택` : review.verdict === 'tie' ? '동점' : '둘 다 탈락';
+  return `<section class="convergence-panel" id="convergence-${escapeHtml(panel.panel_id)}">
+    <div class="convergence-panel-head">
+      <div>
+        <div class="output-title">${escapeHtml(panel.panel_id)} · ${escapeHtml(panel.type || '-')}</div>
+        <div class="output-desc">${escapeHtml(panel.description || '-')}</div>
+      </div>
+      <span class="panel-qa-badge ${review ? 'approved' : 'pending'}">${escapeHtml(decisionLabel)}</span>
+    </div>
+    <div class="convergence-images">
+      <figure class="convergence-option baseline">
+        <div class="convergence-label">기준선</div>
+        <img src="${assetUrl(panel.baseline_image_path)}" alt="${escapeHtml(panel.panel_id)} 기준선" loading="lazy" />
+      </figure>
+      ${(panel.candidates || []).map(function (candidate) {
+        const active = selectedId === candidate.candidate_id;
+        return `<figure class="convergence-option ${active ? 'selected' : ''}">
+          <div class="convergence-label">후보 ${escapeHtml(candidate.blind_label)}</div>
+          <img src="${assetUrl(candidate.review_path)}" alt="${escapeHtml(panel.panel_id)} 후보 ${escapeHtml(candidate.blind_label)}" loading="lazy" />
+          ${review ? `<figcaption><strong>${candidate.scores.total} / 50</strong><span>${escapeHtml(candidate.diagnosis || '')}</span></figcaption>` : ''}
+        </figure>`;
+      }).join('')}
+    </div>
+    <div class="segmented-row convergence-actions">
+      ${(panel.candidates || []).map(function (candidate) {
+        const active = selectedId === candidate.candidate_id;
+        return `<button class="segmented-btn ${active ? 'active approved' : ''}" onclick="setConvergenceDecision('${episodeId}','${pilot.review_set_id}','${panel.panel_id}','winner','${candidate.candidate_id}')">${escapeHtml(candidate.blind_label)} 선택</button>`;
+      }).join('')}
+      <button class="segmented-btn ${review && review.verdict === 'tie' ? 'active hold' : ''}" onclick="setConvergenceDecision('${episodeId}','${pilot.review_set_id}','${panel.panel_id}','tie',null)">동점</button>
+      <button class="segmented-btn ${review && review.verdict === 'both_bad' ? 'active changes' : ''}" onclick="setConvergenceDecision('${episodeId}','${pilot.review_set_id}','${panel.panel_id}','both_bad',null)">둘 다 탈락</button>
+    </div>
+    ${review ? `<div class="evaluator-reveal">
+      <div class="output-title">Evaluator · ${escapeHtml(panel.evaluator.verdict)}</div>
+      <div class="output-desc">${escapeHtml(panel.evaluator.reason || '-')}</div>
+    </div>` : ''}
+    <div class="convergence-note-row">
+      <textarea id="convergence-note-${episodeId}-${panel.panel_id}" class="qa-textarea" placeholder="선택 근거 또는 재생성 진단">${escapeHtml((review && review.reason) || '')}</textarea>
+      <button class="btn btn-primary" onclick="saveConvergenceReason('${episodeId}','${pilot.review_set_id}','${panel.panel_id}')">근거 저장</button>
+      <button class="btn btn-secondary" onclick="publishConvergenceReview('${episodeId}','${pilot.review_set_id}','${panel.panel_id}')">GitHub 반영</button>
+    </div>
+  </section>`;
+}
+
+function setConvergenceDecision(episodeId, reviewSetId, panelId, verdict, candidateId) {
+  const all = loadConvergenceReviews();
+  all[episodeId] = all[episodeId] || {};
+  all[episodeId][reviewSetId] = all[episodeId][reviewSetId] || {};
+  const previous = all[episodeId][reviewSetId][panelId] || {};
+  all[episodeId][reviewSetId][panelId] = {
+    verdict: verdict,
+    candidate_id: candidateId,
+    reason: previous.reason || '',
+    updated_at: new Date().toISOString()
+  };
+  localStorage.setItem(CONVERGENCE_REVIEW_STORAGE_KEY, JSON.stringify(all));
+  showToast('수렴 판정 저장', 'success');
+  render();
+}
+
+function saveConvergenceReason(episodeId, reviewSetId, panelId) {
+  const all = loadConvergenceReviews();
+  const review = (((all[episodeId] || {})[reviewSetId] || {})[panelId]);
+  if (!review) {
+    showToast('먼저 판정을 선택하세요', 'error');
+    return;
+  }
+  const input = document.getElementById(`convergence-note-${episodeId}-${panelId}`);
+  review.reason = input ? input.value.trim() : '';
+  review.updated_at = new Date().toISOString();
+  localStorage.setItem(CONVERGENCE_REVIEW_STORAGE_KEY, JSON.stringify(all));
+  showToast('선택 근거 저장', 'success');
+}
+
+function encodeBase64Utf8(value) {
+  const bytes = new TextEncoder().encode(value);
+  let binary = '';
+  bytes.forEach(function (byte) { binary += String.fromCharCode(byte); });
+  return btoa(binary);
+}
+
+async function publishConvergenceReview(episodeId, reviewSetId, panelId) {
+  if (!PAT) {
+    showToast('설정에서 GitHub PAT를 저장하세요', 'error');
+    return;
+  }
+  saveConvergenceReason(episodeId, reviewSetId, panelId);
+  const all = loadConvergenceReviews();
+  const review = (((all[episodeId] || {})[reviewSetId] || {})[panelId]);
+  if (!review) return;
+  if (!review.reason) {
+    showToast('선택 근거를 입력하세요', 'error');
+    return;
+  }
+  const context = window.__CLE3_CONTEXT__ || {};
+  const pilot = context.convergencePilot;
+  const panel = (pilot.panels || []).find(function (item) { return item.panel_id === panelId; });
+  if (!panel) return;
+  const memory = JSON.parse(JSON.stringify(context.preferenceMemory));
+  const sourceId = `${reviewSetId}:${panelId}`;
+  memory.review_history = (memory.review_history || []).filter(function (item) { return item.source_id !== sourceId; });
+  memory.review_history.push({
+    source_id: sourceId,
+    review_set_id: reviewSetId,
+    panel_id: panelId,
+    verdict: review.verdict,
+    candidate_id: review.candidate_id,
+    reason: review.reason,
+    reviewed_at: review.updated_at,
+    reviewer: 'human'
+  });
+  memory.anchors = (memory.anchors || []).filter(function (anchor) {
+    return !(anchor.kind === 'approved_panel' && anchor.source && anchor.source.id === sourceId);
+  });
+  if (review.verdict === 'winner') {
+    const candidate = (panel.candidates || []).find(function (item) { return item.candidate_id === review.candidate_id; });
+    if (!candidate || candidate.scores.total < memory.policy.minimum_absolute_score) {
+      showToast('절대 게이트를 통과한 후보만 승인할 수 있습니다', 'error');
+      return;
+    }
+    memory.anchors.push({
+      anchor_id: `approved-${panelId}-${candidate.candidate_id}`,
+      kind: 'approved_panel',
+      asset_path: candidate.review_path,
+      status: 'approved',
+      scope: { characters: panel.characters || [], scene_tags: [panel.type], panel_types: [] },
+      source: { type: 'human_selection', id: sourceId, reason: review.reason, approved_at: review.updated_at }
+    });
+  }
+  memory.updated_at = new Date().toISOString();
+  const filePath = `episodes/${episodeId}/panels/preference-memory.json`;
+  const current = await ghFetch(`${GH_API}/contents/${filePath}`);
+  if (!current || !current.sha) {
+    showToast('GitHub 원본을 불러오지 못했습니다', 'error');
+    return;
+  }
+  const result = await ghFetch(`${GH_API}/contents/${filePath}`, 'PUT', {
+    message: `chore: record ${episodeId} ${panelId} convergence decision`,
+    content: encodeBase64Utf8(JSON.stringify(memory, null, 2) + '\n'),
+    sha: current.sha,
+    branch: 'main'
+  });
+  if (!result || !result.commit) {
+    showToast('GitHub 반영 실패', 'error');
+    return;
+  }
+  context.preferenceMemory = memory;
+  showToast('선택과 참조 기억을 GitHub에 반영했습니다', 'success');
+  render();
 }
 
 function renderQATab(context) {

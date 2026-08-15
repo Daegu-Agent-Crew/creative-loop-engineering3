@@ -575,6 +575,77 @@ body {
   border-bottom: 1px solid rgba(50, 50, 80, 0.25);
 }
 .scene-card:last-child { border-bottom: 0; }
+.convergence-head,
+.convergence-panel-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.convergence-panel {
+  padding: 1.35rem 0;
+  border-top: 1px solid rgba(100, 100, 150, 0.22);
+}
+.convergence-panel:first-of-type { margin-top: 1rem; }
+.convergence-images {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin: 1rem 0;
+  align-items: start;
+}
+.convergence-option {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid rgba(100, 100, 150, 0.26);
+  border-radius: 6px;
+  background: #0b0b18;
+}
+.convergence-option.selected { border-color: rgba(83, 205, 139, 0.78); }
+.convergence-option.baseline { opacity: 0.78; }
+.convergence-option img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  object-position: center top;
+}
+.convergence-label {
+  position: absolute;
+  z-index: 2;
+  top: 0.5rem;
+  left: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  background: rgba(5, 5, 14, 0.88);
+  color: #eef0ff;
+  font-size: 0.78rem;
+}
+.convergence-option figcaption {
+  display: grid;
+  gap: 0.3rem;
+  min-height: 92px;
+  padding: 0.7rem;
+  color: #aeb3ce;
+  font-size: 0.8rem;
+  line-height: 1.45;
+}
+.convergence-option figcaption strong { color: #8fe0ad; }
+.convergence-actions { margin: 0.4rem 0 0.8rem; }
+.evaluator-reveal {
+  padding: 0.8rem;
+  border-left: 3px solid #6ba3e8;
+  background: rgba(107, 163, 232, 0.08);
+}
+.convergence-note-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  gap: 0.55rem;
+  align-items: end;
+  margin-top: 0.8rem;
+}
+.convergence-note-row .qa-textarea { min-height: 76px; }
 .panel-summary {
   padding: 0.6rem 0 0.2rem;
 }
@@ -587,11 +658,15 @@ body {
   .stats-grid { grid-template-columns: 1fr 1fr; }
   .workspace-shell { grid-template-columns: 1fr; }
   .workspace-sidebar { position: static; }
+  .workspace-main { order: -1; }
   .workspace-header { flex-direction: column; }
   .segmented-row { grid-template-columns: 1fr 1fr; }
   .panel-segmented { grid-template-columns: 1fr 1fr; }
   .panel-review-head { flex-direction: column; }
   .panel-criteria-grid { grid-template-columns: 1fr; }
+  .convergence-images { grid-template-columns: 1fr; }
+  .convergence-note-row { grid-template-columns: 1fr; }
+  .convergence-head, .convergence-panel-head { flex-direction: column; }
 }
 </style>
 </head>

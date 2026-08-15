@@ -174,6 +174,26 @@ node scripts/run-panel-jobs.js \
 후보는 Git에 커밋하지 않는다. 절대 게이트와 A/B 비교를 모두 통과해 선택된 파일만
 `episodes/{EP}/panels/assets/{panel_id}.png`로 승격한다.
 
+사람 블라인드 검토가 필요한 파일럿은 예외적으로 1MB 이하 WebP 리뷰 복사본만
+`episodes/{EP}/panels/convergence/{review-set}/assets/`에 둔다. 생성 원본과 탈락본은
+계속 `.candidates/` 또는 외부 원본 보관소에 남기고 Git에 추가하지 않는다.
+
+### 5) 사람 선택과 선호 메모리
+
+Episode Workspace의 `수렴` 탭은 선택 전 후보 점수와 Evaluator 판단을 숨긴다.
+사람이 `A 선택`, `B 선택`, `동점`, `둘 다 탈락` 중 하나를 고른 뒤에만 평가를 공개한다.
+
+- 브라우저 임시 판정: localStorage
+- 공유 판정: 선택 근거 입력 후 `GitHub 반영`
+- 공유 데이터: `episodes/{EP}/panels/preference-memory.json`
+- 승인 후보: `approved_panel` 앵커로 등록
+- 다음 생성: `build-reference-chain.js`와 `run-panel-jobs.js`가 캐릭터 시트 뒤에 관련 승인 패널을 자동 첨부
+
+```bash
+node scripts/build-reference-chain.js --episode EP001 --panel p15-3
+node scripts/validate-preference-memory.js episodes/EP001/panels/preference-memory.json
+```
+
 ---
 
 ## 카메라 앵글 참조표

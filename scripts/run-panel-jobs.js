@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { resolveReferenceChain } = require('./build-reference-chain');
 
 function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));
@@ -124,11 +125,11 @@ function candidatePath(episodeId, panelId, iteration, variant) {
   );
 }
 
-function generationCommand(panel, episodeId, iteration, variant, candidateMode, diagnosis) {
+function generationCommand(panel, episodeId, iteration, variant, candidateMode, diagnosis, referenceChain) {
   const outputPath = candidateMode
     ? candidatePath(episodeId, panel.panel_id, iteration, variant)
     : panel.image_path;
-  const references = panel.reference_assets || [];
+  const references = (referenceChain || []).map((item) => item.asset_path);
   const imageArgs = references.map((reference) => `-i ${shellQuote(reference)}`).join(' ');
   const prompt = [
     panel.generation_prompt,
@@ -184,7 +185,7 @@ function evaluationCommand(panel, episodeId, iteration, variants) {
   };
 }
 
-function selectJobs(rootDir, policy, jobsJson, panelsJson, options) {
+function selectJobs(rootDir, policy, jobsJson, panelsJson, preferenceMemory, options) {
   const panelsById = new Map((panelsJson.panels || []).map((panel) => [panel.panel_id, panel]));
   const selected = [];
   let normalSlots = policy.scheduling.normal_parallel_limit;
@@ -228,6 +229,7 @@ function selectJobs(rootDir, policy, jobsJson, panelsJson, options) {
       panel_ids: panels.map((panel) => panel.panel_id),
       commands: panels.flatMap((panel) => {
         const candidateMode = options.variants > 1 || options.maxIterations > 1;
+        const referenceChain = resolveReferenceChain(panel, preferenceMemory);
         const commands = [];
         for (let variant = 1; variant <= options.variants; variant += 1) {
           commands.push({
@@ -243,8 +245,9 @@ function selectJobs(rootDir, policy, jobsJson, panelsJson, options) {
             uncertainties: (panel.characters_in_frame || []).length >= 2
               ? ['다인물 배치와 캐릭터 외형 일관성을 생성 후 확인해야 한다.']
               : [],
-            references_used: panel.reference_assets || [],
-            ...generationCommand(panel, panelsJson.episode_id, options.iteration, variant, candidateMode, options.diagnosis)
+            references_used: referenceChain.map((item) => item.asset_path),
+            reference_chain: referenceChain,
+            ...generationCommand(panel, panelsJson.episode_id, options.iteration, variant, candidateMode, options.diagnosis, referenceChain)
           });
         }
         return commands;
@@ -276,11 +279,15 @@ function main() {
   const policy = readJson(path.join(rootDir, 'config', 'panel-generation-policy.json'));
   const jobsJson = readJson(path.join(episodeDir, 'generation-jobs.json'));
   const panelsJson = readJson(path.join(episodeDir, 'panels.json'));
+  const preferenceMemoryPath = path.join(episodeDir, 'preference-memory.json');
+  const preferenceMemory = exists(preferenceMemoryPath)
+    ? readJson(preferenceMemoryPath)
+    : { policy: { maximum_panel_references: 0 }, anchors: [] };
   if (args.panelId && !(panelsJson.panels || []).some((panel) => panel.panel_id === args.panelId)) {
     throw new Error(`unknown panel for ${args.episode}: ${args.panelId}`);
   }
 
-  const selected = selectJobs(rootDir, policy, jobsJson, panelsJson, args);
+  const selected = selectJobs(rootDir, policy, jobsJson, panelsJson, preferenceMemory, args);
 
   const plan = {
     episode_id: args.episode,
