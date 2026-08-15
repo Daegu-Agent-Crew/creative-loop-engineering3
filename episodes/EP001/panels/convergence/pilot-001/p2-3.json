@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "episode_id": "EP001",
+  "panel_id": "p2-3",
+  "status": "evaluating",
+  "baseline_image_path": "episodes/EP001/panels/assets/p2-3.png",
+  "reference_assets": ["episodes/EP001/characters/assets/yewenjie-v1.png"],
+  "iterations": [{
+    "iteration": 1,
+    "candidates": [
+      { "candidate_id": "p2-3-i1-v1", "variant": 1, "prompt": "Strict storyboard fidelity and face continuity.", "output_path": ".candidates/EP001/p2-3/iteration-01/p2-3-v01.png", "review_path": "episodes/EP001/panels/convergence/pilot-001/assets/p2-3-a.webp", "reference_assets": ["episodes/EP001/panels/assets/p2-3.png", "episodes/EP001/characters/assets/yewenjie-v1.png"], "status": "evaluated", "scores": { "character_consistency": 9, "storyboard_fidelity": 9, "composition": 9, "style_consistency": 9, "scene_continuity": 8, "total": 44 }, "diagnosis": "Strong face continuity; less sky negative space.", "created_at": "2026-08-15T00:00:00.000Z" },
+      { "candidate_id": "p2-3-i1-v2", "variant": 2, "prompt": "Emotional readability and generous sky negative space.", "output_path": ".candidates/EP001/p2-3/iteration-01/p2-3-v02.png", "review_path": "episodes/EP001/panels/convergence/pilot-001/assets/p2-3-b.webp", "reference_assets": ["episodes/EP001/panels/assets/p2-3.png", "episodes/EP001/characters/assets/yewenjie-v1.png"], "status": "evaluated", "scores": { "character_consistency": 9, "storyboard_fidelity": 9, "composition": 10, "style_consistency": 9, "scene_continuity": 9, "total": 46 }, "diagnosis": "Clearer emotional beat; mouth is slightly open.", "created_at": "2026-08-15T00:00:00.000Z" }
+    ],
+    "comparison": { "candidate_order": ["p2-3-i1-v2", "p2-3-i1-v1"], "verdict": "winner", "winner_candidate_id": "p2-3-i1-v2", "reason": "Both pass; v2 has stronger focal hierarchy.", "next_prompt_adjustment": null, "evaluator": "codex-image-review", "evaluated_at": "2026-08-15T00:00:00.000Z" }
+  }],
+  "selection": { "candidate_id": null, "promoted_path": null, "reason": null, "human_approved": false, "approved_at": null }
+}

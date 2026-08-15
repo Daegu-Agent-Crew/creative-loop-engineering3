@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "episode_id": "EP001",
+  "panel_id": "p6-1",
+  "status": "evaluating",
+  "baseline_image_path": "episodes/EP001/panels/assets/p6-1.png",
+  "reference_assets": ["episodes/EP001/characters/assets/yewenjie-v1.png"],
+  "iterations": [{
+    "iteration": 1,
+    "candidates": [
+      { "candidate_id": "p6-1-i1-v1", "variant": 1, "prompt": "Strict silent splash with suspended ink drop.", "output_path": ".candidates/EP001/p6-1/iteration-01/p6-1-v01.png", "review_path": "episodes/EP001/panels/convergence/pilot-001/assets/p6-1-a.webp", "reference_assets": ["episodes/EP001/panels/assets/p6-1.png", "episodes/EP001/characters/assets/yewenjie-v1.png"], "status": "evaluated", "scores": { "character_consistency": 9, "storyboard_fidelity": 9, "composition": 9, "style_consistency": 9, "scene_continuity": 8, "total": 44 }, "diagnosis": "Props are clear; paper glyphs need post-processing.", "created_at": "2026-08-15T00:00:00.000Z" },
+      { "candidate_id": "p6-1-i1-v2", "variant": 2, "prompt": "Isolation, negative space, and falling ink rhythm.", "output_path": ".candidates/EP001/p6-1/iteration-01/p6-1-v02.png", "review_path": "episodes/EP001/panels/convergence/pilot-001/assets/p6-1-b.webp", "reference_assets": ["episodes/EP001/panels/assets/p6-1.png", "episodes/EP001/characters/assets/yewenjie-v1.png"], "status": "evaluated", "scores": { "character_consistency": 9, "storyboard_fidelity": 9, "composition": 10, "style_consistency": 9, "scene_continuity": 8, "total": 45 }, "diagnosis": "Strong isolation; verify mobile shadow detail.", "created_at": "2026-08-15T00:00:00.000Z" }
+    ],
+    "comparison": { "candidate_order": ["p6-1-i1-v2", "p6-1-i1-v1"], "verdict": "tie", "winner_candidate_id": null, "reason": "Score difference is within the two-point tie margin.", "next_prompt_adjustment": null, "evaluator": "codex-image-review", "evaluated_at": "2026-08-15T00:00:00.000Z" }
+  }],
+  "selection": { "candidate_id": null, "promoted_path": null, "reason": null, "human_approved": false, "approved_at": null }
+}

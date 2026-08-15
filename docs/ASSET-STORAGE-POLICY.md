@@ -14,6 +14,7 @@ Git LFS는 GitHub Pages 자산 제공과 맞지 않으므로 CLE3 Pages용 패�
 - 새 패널 자산은 1MB 이하를 목표로 하고, 4MB를 넘기면 CI에서 실패한다.
 - 한 PR에서 에피소드별 패널 자산 증가량은 30MB를 넘기지 않는다.
 - `*-base.png`, `*-original.png`, `*-candidate.png`, `*-rejected.png`는 커밋하지 않는다.
+- 사람 블라인드 검토용으로 명시된 `panels/convergence/{review-set}/assets/`에는 1MB 이하 WebP 리뷰 복사본만 허용한다.
 - 원본 PNG가 필요하면 GitHub Release 또는 외부 저장소에 올리고, Git에는 링크만 남긴다.
 
 ## 다음 에이전트 체크리스트

@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CLE3 Panel Preference Memory",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "episode_id", "policy", "anchors", "review_history", "review_sets"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "episode_id": { "type": "string", "pattern": "^EP[0-9]{3}$" },
+    "updated_at": { "type": ["string", "null"], "format": "date-time" },
+    "policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["human_approval_required", "minimum_absolute_score", "maximum_panel_references"],
+      "properties": {
+        "human_approval_required": { "type": "boolean" },
+        "minimum_absolute_score": { "type": "number", "minimum": 0, "maximum": 50 },
+        "maximum_panel_references": { "type": "integer", "minimum": 0, "maximum": 5 }
+      }
+    },
+    "anchors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["anchor_id", "kind", "asset_path", "status", "scope", "source"],
+        "properties": {
+          "anchor_id": { "type": "string", "minLength": 1 },
+          "kind": { "type": "string", "enum": ["character", "style", "scene", "approved_panel"] },
+          "asset_path": { "type": "string", "minLength": 1 },
+          "status": { "type": "string", "enum": ["approved", "retired"] },
+          "scope": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "characters": { "type": "array", "items": { "type": "string" } },
+              "scene_tags": { "type": "array", "items": { "type": "string" } },
+              "panel_types": { "type": "array", "items": { "type": "string" } }
+            }
+          },
+          "source": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["type", "id"],
+            "properties": {
+              "type": { "type": "string", "enum": ["character_sheet", "human_selection", "system_baseline"] },
+              "id": { "type": "string" },
+              "reason": { "type": ["string", "null"] },
+              "approved_at": { "type": ["string", "null"], "format": "date-time" }
+            }
+          }
+        }
+      }
+    },
+    "review_history": { "type": "array", "items": { "type": "object" } },
+    "review_sets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["review_set_id", "path", "status"],
+        "properties": {
+          "review_set_id": { "type": "string" },
+          "path": { "type": "string" },
+          "status": { "type": "string", "enum": ["planned", "ready", "in_review", "completed"] }
+        }
+      }
+    }
+  }
+}

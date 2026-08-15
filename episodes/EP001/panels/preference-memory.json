@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "episode_id": "EP001",
+  "updated_at": "2026-08-15T00:00:00.000Z",
+  "policy": {
+    "human_approval_required": true,
+    "minimum_absolute_score": 35,
+    "maximum_panel_references": 3
+  },
+  "anchors": [
+    {
+      "anchor_id": "character-yewenjie-v1",
+      "kind": "character",
+      "asset_path": "episodes/EP001/characters/assets/yewenjie-v1.png",
+      "status": "approved",
+      "scope": { "characters": ["예원제"], "scene_tags": [], "panel_types": [] },
+      "source": { "type": "character_sheet", "id": "yewenjie-v1", "reason": "EP001 Phase 2 기준 자산", "approved_at": null }
+    },
+    {
+      "anchor_id": "character-chengxin-v1",
+      "kind": "character",
+      "asset_path": "episodes/EP001/characters/assets/chengxin-v1.png",
+      "status": "approved",
+      "scope": { "characters": ["청신"], "scene_tags": [], "panel_types": [] },
+      "source": { "type": "character_sheet", "id": "chengxin-v1", "reason": "EP001 Phase 2 기준 자산", "approved_at": null }
+    },
+    {
+      "anchor_id": "character-wangmiao-v1",
+      "kind": "character",
+      "asset_path": "episodes/EP001/characters/assets/wangmiao-v1.png",
+      "status": "approved",
+      "scope": { "characters": ["왕먀오", "왕먀오(등)"], "scene_tags": [], "panel_types": [] },
+      "source": { "type": "character_sheet", "id": "wangmiao-v1", "reason": "EP001 Phase 2 기준 자산", "approved_at": null }
+    }
+  ],
+  "review_history": [],
+  "review_sets": [
+    {
+      "review_set_id": "pilot-001",
+      "path": "episodes/EP001/panels/convergence/pilot-001/pilot.json",
+      "status": "ready"
+    }
+  ]
+}
