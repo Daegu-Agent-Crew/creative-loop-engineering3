@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CLE3 Creation Context Pack",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "generated_at", "episode_id", "target", "creator_contract", "current_work", "panel_intent", "context", "governance", "retrieval"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "episode_id": { "type": "string", "pattern": "^EP[0-9]{3}$" },
+    "target": {
+      "type": "object",
+      "required": ["task", "panel_id", "page_number"],
+      "properties": {
+        "task": { "type": "string" },
+        "panel_id": { "type": ["string", "null"] },
+        "page_number": { "type": ["integer", "null"] }
+      }
+    },
+    "creator_contract": { "type": "object" },
+    "current_work": { "type": "object" },
+    "panel_intent": { "type": ["object", "null"] },
+    "context": {
+      "type": "object",
+      "required": ["source_refs", "canon_assets", "narrative_threads", "continuity", "preferences", "lessons", "constraints"],
+      "properties": {
+        "source_refs": { "type": "array" },
+        "canon_assets": { "type": "array" },
+        "narrative_threads": { "type": "array" },
+        "continuity": { "type": "array" },
+        "preferences": { "type": "array" },
+        "lessons": { "type": "array" },
+        "constraints": { "type": "array" }
+      }
+    },
+    "governance": {
+      "type": "object",
+      "required": ["preflight_status", "pending_human_decisions", "pending_gates"],
+      "properties": {
+        "preflight_status": { "type": ["string", "null"] },
+        "pending_human_decisions": { "type": "array" },
+        "pending_gates": { "type": "array" }
+      }
+    },
+    "retrieval": {
+      "type": "object",
+      "required": ["matched_characters", "matched_panel_id", "omitted_counts"],
+      "properties": {
+        "matched_characters": { "type": "array", "items": { "type": "string" } },
+        "matched_panel_id": { "type": ["string", "null"] },
+        "omitted_counts": { "type": "object" }
+      }
+    }
+  }
+}

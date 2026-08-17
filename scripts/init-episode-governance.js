@@ -28,16 +28,115 @@ function parseArgs(argv) {
 
 function referencesForEpisode(rootDir, episodeId) {
   const candidates = [
+    ['story', `episodes/${episodeId}/script/script.json`, '장면 의도와 패널 대사의 구조화된 기준'],
     ['story', `episodes/${episodeId}/script/script.md`, '장면 의도와 패널 대사의 기준'],
     ['character', `episodes/${episodeId}/characters/characters.json`, '캐릭터 외형과 참조 자산의 기준'],
     ['storyboard', `episodes/${episodeId}/storyboard/storyboard.json`, '페이지와 패널 구도의 기준'],
+    ['panels', `episodes/${episodeId}/panels/panels.json`, '패널 생성 상태와 실제 참조 연결'],
+    ['decisions', `episodes/${episodeId}/decisions/implementation-notes.json`, '과거 결정의 근거와 승인 상태'],
     ['policy', 'config/panel-generation-policy.json', '동시성, 재시도, QA와 에스컬레이션 기준']
   ];
-  return candidates.filter((item) => exists(rootDir, item[1])).map((item) => ({
+  const selected = [];
+  const seenTypes = new Set();
+  candidates.filter((item) => exists(rootDir, item[1])).forEach((item) => {
+    if (seenTypes.has(item[0])) return;
+    seenTypes.add(item[0]);
+    selected.push(item);
+  });
+  return selected.map((item) => ({
     type: item[0],
     path: item[1],
     purpose: item[2]
   }));
+}
+
+function scope(tags = ['global']) {
+  return { characters: [], panel_ids: [], tags };
+}
+
+function buildCreationMemory(rootDir, episodeId, episode, now = new Date()) {
+  const sourceRefs = referencesForEpisode(rootDir, episodeId).map((reference, index) => ({
+    id: `source-${reference.type}-${index + 1}`,
+    type: reference.type,
+    path: reference.path,
+    purpose: reference.purpose,
+    required: ['story', 'policy'].includes(reference.type)
+  }));
+  const phase4Started = phaseStarted(episode, 'phase4');
+  const nextActions = phase4Started
+    ? [
+        '현재 generation-jobs와 실제 패널 자산을 대조한다.',
+        '작업 대상의 Creation Context Pack을 만든 뒤 남은 패널 생성과 연속성 검사를 계속한다.',
+        '완성 패널과 텍스트 오버레이를 대상으로 Phase 5 QA를 준비한다.'
+      ]
+    : [
+        '현재 스토리에서 캐릭터, 세계관, 시각 기준 자산을 추출하고 버전을 부여한다.',
+        'Character/World/Visual Bible을 만든 뒤 다음 Phase 입력으로 고정한다.',
+        '다음 창작 작업 전에 Creation Context Pack을 생성한다.'
+      ];
+
+  return {
+    $schema: '../../../schemas/creation-memory.schema.json',
+    schema_version: 1,
+    episode_id: episodeId,
+    updated_at: now.toISOString(),
+    creator_contract: {
+      creative_actor: 'codex',
+      sole_creative_actor: true,
+      deterministic_system_roles: [
+        'schema_validation',
+        'state_storage',
+        'context_retrieval',
+        'prompt_assembly',
+        'file_tracking',
+        'text_and_page_rendering'
+      ],
+      human_roles: ['goal_input', 'exception_resolution', 'release_approval']
+    },
+    source_refs: sourceRefs,
+    canon_assets: [],
+    narrative_threads: [],
+    continuity: [],
+    preferences: [],
+    lessons: [],
+    constraints: [
+      {
+        id: 'constraint-one-image-per-request',
+        severity: 'must',
+        rule: 'gpt-image-2에는 요청당 이미지 한 장만 생성한다.',
+        scope: scope(['global', 'generation']),
+        source_path: 'config/panel-generation-policy.json'
+      },
+      {
+        id: 'constraint-preserve-original-candidates',
+        severity: 'must',
+        rule: '원본과 탈락 후보를 덮어쓰지 않고 선택된 결과만 정식 패널로 승격한다.',
+        scope: scope(['global', 'candidate-selection']),
+        source_path: 'docs/ASSET-STORAGE-POLICY.md'
+      },
+      {
+        id: 'constraint-human-release-approval',
+        severity: 'must',
+        rule: 'Codex가 모든 창작 행동을 수행하더라도 최종 공개는 사람의 Release Approval 이후에만 실행한다.',
+        scope: scope(['global', 'approval']),
+        source_path: 'docs/AI-COLLABORATION-PROTOCOL.md'
+      }
+    ],
+    handoff: {
+      current_goal: `${episodeId} ${episode.title || ''}의 ${episode.current_phase || '현재 단계'} 창작 작업을 이어간다.`.trim(),
+      current_phase: episode.current_phase || 'unknown',
+      target_panel_id: null,
+      completed: Object.entries(episode.phases || {})
+        .filter(([, phase]) => phase.status === 'completed')
+        .map(([phaseId]) => `${phaseId} 완료`),
+      next_actions: nextActions,
+      blockers: [],
+      human_decisions: [
+        '완료 Phase의 provisional gate를 공식 승인할지 결정',
+        'Phase 5 통과 후 공개 여부 결정'
+      ]
+    }
+  };
 }
 
 function completedPhaseCount(episode) {
@@ -80,7 +179,7 @@ function buildDiscovery(rootDir, episodeId, episode) {
     episode_id: episodeId,
     objective: `CLE3 내부 산출물만 사용해 ${episodeId} ${episode.title || ''}의 현재 Phase를 진행하고 판단과 불확실성을 검토 가능하게 관리한다.`.trim(),
     value_hypothesis: {
-      user_value: '사람은 스토리와 시각 방향을 결정하고 AI는 조사, 생성, 검사와 재시도를 이어간다.',
+      user_value: 'Codex가 스토리와 시각 방향을 포함한 창작을 수행하고, 사람은 목표·예외·최종 공개를 통제한다.',
       baseline_target: `현재 ${episode.current_phase || 'phase'}의 필수 산출물과 QA 기록을 CLE3 내부에 완성한다.`,
       challenge_target: '정상 작업 자동화와 예외 에스컬레이션으로 품질, 속도, 비용을 함께 개선한다.'
     },
@@ -106,7 +205,7 @@ function buildDiscovery(rootDir, episodeId, episode) {
     assumptions: [
       '현재 state.json과 존재하는 에피소드 파일을 작업 기준선으로 사용한다.',
       '명시적 승인 기록이 없는 완료 Phase는 provisional이며 승인으로 추정하지 않는다.',
-      '정상 작업은 계속하고 가치 판단, 정책 예외와 최종 배포만 사람에게 요청한다.'
+      '정상 창작은 Codex가 계속하고 목표 변경, 정책 예외와 최종 배포만 사람에게 요청한다.'
     ],
     human_decisions: [
       { id: 'HD-001', question: '현재 완료 Phase를 다음 작업의 공식 기준선으로 승인할 것인가?', status: 'pending', blocking: false },
@@ -155,7 +254,7 @@ function buildDecisions(episodeId) {
   };
 }
 
-function buildApprovals(episodeId, episode) {
+function buildApprovals(rootDir, episodeId, episode) {
   const gate = (id, label, phase, nextPhase, evidence) => ({
     id,
     label,
@@ -179,8 +278,8 @@ function buildApprovals(episodeId, episode) {
     },
     gates: [
       gate('story-lock', 'Story Lock', 'phase1', 'phase2', [`episodes/${episodeId}/script/script.md`]),
-      gate('character-lock', 'Character Lock', 'phase2', 'phase3', exists(process.cwd(), `episodes/${episodeId}/characters/characters.json`) ? [`episodes/${episodeId}/characters/characters.json`] : []),
-      gate('storyboard-lock', 'Storyboard Lock', 'phase3', 'phase4', exists(process.cwd(), `episodes/${episodeId}/storyboard/storyboard.json`) ? [`episodes/${episodeId}/storyboard/storyboard.json`] : []),
+      gate('character-lock', 'Character Lock', 'phase2', 'phase3', exists(rootDir, `episodes/${episodeId}/characters/characters.json`) ? [`episodes/${episodeId}/characters/characters.json`] : []),
+      gate('storyboard-lock', 'Storyboard Lock', 'phase3', 'phase4', exists(rootDir, `episodes/${episodeId}/storyboard/storyboard.json`) ? [`episodes/${episodeId}/storyboard/storyboard.json`] : []),
       {
         id: 'release',
         label: 'Release Approval',
@@ -211,7 +310,7 @@ function main() {
     const targets = [
       ['discovery/context.json', buildDiscovery(rootDir, episodeId, episode)],
       ['decisions/implementation-notes.json', buildDecisions(episodeId)],
-      ['approvals/gates.json', buildApprovals(episodeId, episode)]
+      ['approvals/gates.json', buildApprovals(rootDir, episodeId, episode)]
     ];
     targets.forEach(([relativePath, value]) => {
       const target = path.join(rootDir, 'episodes', episodeId, relativePath);
@@ -219,7 +318,19 @@ function main() {
       writeJson(target, value);
       console.log(`wrote ${path.relative(rootDir, target)}`);
     });
+
+    const memoryTarget = path.join(rootDir, 'episodes', episodeId, 'memory/creation-memory.json');
+    if (!fs.existsSync(memoryTarget) || args.force) {
+      writeJson(memoryTarget, buildCreationMemory(rootDir, episodeId, episode));
+      console.log(`wrote ${path.relative(rootDir, memoryTarget)}`);
+    }
   });
 }
 
-main();
+if (require.main === module) main();
+
+module.exports = {
+  buildCreationMemory,
+  buildDiscovery,
+  referencesForEpisode
+};

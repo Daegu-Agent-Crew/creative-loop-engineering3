@@ -10,7 +10,9 @@ on:
       - 'scripts/build-panel-jobs.js'
       - 'scripts/run-panel-jobs.js'
       - 'scripts/init-episode-governance.js'
+      - 'scripts/build-creation-context.js'
       - 'scripts/validate-episode-governance.js'
+      - 'tests/creation-context.test.js'
       - 'scripts/check-panel-assets.js'
   push:
     branches: [main]
@@ -22,7 +24,9 @@ on:
       - 'scripts/build-panel-jobs.js'
       - 'scripts/run-panel-jobs.js'
       - 'scripts/init-episode-governance.js'
+      - 'scripts/build-creation-context.js'
       - 'scripts/validate-episode-governance.js'
+      - 'tests/creation-context.test.js'
       - 'scripts/check-panel-assets.js'
 
 jobs:
@@ -39,3 +43,5 @@ jobs:
         run: node scripts/check-panel-assets.js
       - name: Validate episode discovery, decisions, and approvals
         run: node scripts/validate-episode-governance.js
+      - name: Test creation memory context compiler
+        run: node --test tests/creation-context.test.js

@@ -1,0 +1,204 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CLE3 Creation Memory",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "episode_id",
+    "updated_at",
+    "creator_contract",
+    "source_refs",
+    "canon_assets",
+    "narrative_threads",
+    "continuity",
+    "preferences",
+    "lessons",
+    "constraints",
+    "handoff"
+  ],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schema_version": { "const": 1 },
+    "episode_id": { "type": "string", "pattern": "^EP[0-9]{3}$" },
+    "updated_at": { "type": "string", "format": "date-time" },
+    "creator_contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["creative_actor", "sole_creative_actor", "deterministic_system_roles", "human_roles"],
+      "properties": {
+        "creative_actor": { "const": "codex" },
+        "sole_creative_actor": { "const": true },
+        "deterministic_system_roles": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "human_roles": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "source_refs": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/sourceRef" }
+    },
+    "canon_assets": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/canonAsset" }
+    },
+    "narrative_threads": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/narrativeThread" }
+    },
+    "continuity": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/continuityTransition" }
+    },
+    "preferences": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/preference" }
+    },
+    "lessons": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/lesson" }
+    },
+    "constraints": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/constraint" }
+    },
+    "handoff": { "$ref": "#/definitions/handoff" }
+  },
+  "definitions": {
+    "scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["characters", "panel_ids", "tags"],
+      "properties": {
+        "characters": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
+        "panel_ids": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
+        "tags": { "type": "array", "uniqueItems": true, "items": { "type": "string" } }
+      }
+    },
+    "sourceRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "type", "path", "purpose", "required"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "type": { "type": "string", "minLength": 1 },
+        "path": { "type": "string", "minLength": 1 },
+        "purpose": { "type": "string", "minLength": 1 },
+        "required": { "type": "boolean" }
+      }
+    },
+    "canonAsset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "version", "status", "asset_path", "immutable_traits", "scope", "evidence_paths"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "kind": { "type": "string", "enum": ["character", "world", "visual_style", "location", "outfit", "prop", "vehicle", "approved_panel"] },
+        "version": { "type": "string", "minLength": 1 },
+        "status": { "type": "string", "enum": ["provisional", "approved", "retired"] },
+        "asset_path": { "type": "string", "minLength": 1 },
+        "immutable_traits": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "scope": { "$ref": "#/definitions/scope" },
+        "evidence_paths": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+      }
+    },
+    "narrativeThread": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "status", "summary", "reader_question", "scope", "evidence_paths"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "status": { "type": "string", "enum": ["planned", "active", "resolved", "retired"] },
+        "summary": { "type": "string", "minLength": 1 },
+        "reader_question": { "type": ["string", "null"] },
+        "scope": { "$ref": "#/definitions/scope" },
+        "evidence_paths": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+      }
+    },
+    "fact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["subject", "attribute", "value"],
+      "properties": {
+        "subject": { "type": "string", "minLength": 1 },
+        "attribute": { "type": "string", "minLength": 1 },
+        "value": { "type": ["string", "number", "boolean", "null"] }
+      }
+    },
+    "continuityTransition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "from_panel_id", "to_panel_id", "state_before", "delta", "state_after", "risks", "evidence_paths"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "from_panel_id": { "type": ["string", "null"] },
+        "to_panel_id": { "type": "string", "minLength": 1 },
+        "state_before": { "type": "array", "items": { "$ref": "#/definitions/fact" } },
+        "delta": { "type": "array", "items": { "$ref": "#/definitions/fact" } },
+        "state_after": { "type": "array", "items": { "$ref": "#/definitions/fact" } },
+        "risks": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "evidence_paths": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+      }
+    },
+    "preference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "status", "rule", "reason", "scope", "evidence_paths"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "status": { "type": "string", "enum": ["proposed", "observed", "approved", "retired"] },
+        "rule": { "type": "string", "minLength": 1 },
+        "reason": { "type": "string", "minLength": 1 },
+        "scope": { "$ref": "#/definitions/scope" },
+        "evidence_paths": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+      }
+    },
+    "lesson": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "outcome", "status", "summary", "guidance", "scope", "evidence_paths"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "outcome": { "type": "string", "enum": ["success", "failure", "mixed"] },
+        "status": { "type": "string", "enum": ["observed", "validated", "retired"] },
+        "summary": { "type": "string", "minLength": 1 },
+        "guidance": { "type": "string", "minLength": 1 },
+        "scope": { "$ref": "#/definitions/scope" },
+        "evidence_paths": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+      }
+    },
+    "constraint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "severity", "rule", "scope", "source_path"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "severity": { "type": "string", "enum": ["must", "should", "may"] },
+        "rule": { "type": "string", "minLength": 1 },
+        "scope": { "$ref": "#/definitions/scope" },
+        "source_path": { "type": "string", "minLength": 1 }
+      }
+    },
+    "handoff": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["current_goal", "current_phase", "target_panel_id", "completed", "next_actions", "blockers", "human_decisions"],
+      "properties": {
+        "current_goal": { "type": "string", "minLength": 1 },
+        "current_phase": { "type": "string", "minLength": 1 },
+        "target_panel_id": { "type": ["string", "null"] },
+        "completed": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "next_actions": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "blockers": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "human_decisions": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+      }
+    }
+  }
+}

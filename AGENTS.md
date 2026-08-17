@@ -137,6 +137,15 @@ codex -i reference.png exec --sandbox workspace-write '$imagegen: [프롬프트]
 - 모든 산출물은 JSON Schema로 검증
 - `episodes/{episode_id}/` 디렉토리 구조 사용
 
+### 창작 기억과 세션 인계
+- Codex가 원작 분석, 각색, 시각 설계, 이미지 생성, 후보 선택과 비평을 포함한 모든 창작 행동을 수행한다.
+- 일반 코드는 창작 판단을 대신하지 않고 스키마 검증, 상태 저장, 관련 기억 검색, 프롬프트 조립과 결정론적 렌더링만 담당한다.
+- 에피소드의 장기 창작 기억은 `episodes/{episode_id}/memory/creation-memory.json`에 저장한다.
+- 창작 작업 시작 전 `node scripts/build-creation-context.js --episode EPxxx`를 실행한다. 패널 작업이면 `--panel pN-N`을 함께 지정한다.
+- Context Pack에는 현재 작업에 관련된 Canon, 복선, 연속성, 선호, 교훈과 제약만 포함한다. 전체 기억을 프롬프트에 그대로 넣지 않는다.
+- 작업 종료 후 실제로 확인된 결과, 근거, 다음 상태와 인계만 장기 기억에 반영한다. 한 번의 관찰을 승인된 선호나 원칙으로 자동 승격하지 않는다.
+- 상세 운영 규칙: `docs/CREATION-MEMORY.md`
+
 ### 품질 기준
 - 닥터슬럼프풍 스타일 일관성 필수
 - 캐릭터 외모 일관성 (시트 기준)
@@ -169,6 +178,7 @@ creative-loop-engineering3/
 │       ├── panels/        # Phase 4 산출물
 │       ├── discovery/     # 작업 맥락, Unknown, 도구, 레퍼런스
 │       ├── decisions/     # 검토 가능한 판단 근거와 불확실성
+│       ├── memory/        # Codex 장기 창작 기억과 세션 인계
 │       ├── qa/            # Phase 5 산출물
 │       └── approvals/     # 사람 승인 게이트
 ├── styles/                # 화풍 에셋

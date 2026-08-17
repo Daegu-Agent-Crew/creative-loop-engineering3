@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { validateCreationMemory } = require('./build-creation-context');
 
 const rootDir = process.cwd();
 const failures = [];
@@ -87,6 +88,20 @@ function validatePanelJobs(episodeId) {
   });
 }
 
+function validateEpisodeCreationMemory(episodeId) {
+  const relativePath = `episodes/${episodeId}/memory/creation-memory.json`;
+  if (!fs.existsSync(path.join(rootDir, relativePath))) {
+    failures.push(`${relativePath}: missing file`);
+    return;
+  }
+  const memory = readJson(relativePath);
+  if (!memory) return;
+  validateCreationMemory(memory, rootDir).forEach((failure) => {
+    failures.push(`${relativePath}: ${failure}`);
+  });
+  requireValue(memory.episode_id === episodeId, `${relativePath}: episode_id mismatch`);
+}
+
 const state = readJson('state.json');
 if (state) {
   Object.keys(state.episodes || {}).forEach((episodeId) => {
@@ -94,6 +109,7 @@ if (state) {
     validateDecisions(episodeId, readJson(`episodes/${episodeId}/decisions/implementation-notes.json`));
     validateApprovals(episodeId, readJson(`episodes/${episodeId}/approvals/gates.json`));
     validatePanelJobs(episodeId);
+    validateEpisodeCreationMemory(episodeId);
   });
 }
 

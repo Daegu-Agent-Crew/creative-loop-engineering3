@@ -7,14 +7,15 @@ Creative Template로 감싸는 범용 창작 워크플로우 시스템으로 재
 
 핵심 제품 계약은 다음과 같다.
 
-> 모든 AI 출력은 버전된 Artifact이고, 모든 진행은 검증된 State Transition이며,
-> 모든 인간 개입은 감사 가능한 Patch이고, 최종 결과는 결정론적 Renderer가 만든다.
+> 모든 Codex 출력은 버전된 Artifact이고, 모든 진행은 검증된 State Transition이며,
+> 사람의 목표·예외·승인 입력은 감사 가능하게 기록되고, 최종 결과는 결정론적
+> Renderer가 만든다.
 
 CLE3-1의 성공 기준은 에이전트 수가 아니라 아래 네 가지다.
 
 1. 중단 후 같은 체크포인트에서 중복 실행 없이 재개된다.
 2. 스키마에 맞지 않는 출력은 다음 단계로 넘어가지 못한다.
-3. 인간의 수정이 다음 작업의 검색 가능한 선호 규칙으로 축적된다.
+3. 사람의 피드백과 Codex 최종본의 차이가 다음 작업의 검색 가능한 선호 규칙으로 축적된다.
 4. 같은 승인된 입력으로 다시 조립하면 같은 결과와 manifest hash가 나온다.
 
 ## 2. 현재 CLE3 파악 결과
@@ -25,8 +26,7 @@ CLE3-1의 성공 기준은 에이전트 수가 아니라 아래 네 가지다.
 - `schemas/`에 분리된 산출물 계약
 - 패널 생성 큐, 복잡도별 병렬 제한, 실패 패널만 재시도하는 정책
 - 이미지와 텍스트 오버레이를 분리한 후처리 구조
-- Discovery, Decision Log, Approval Gate를 도입한
-  `codex/cle3-discovery-protocol` 브랜치
+- `main`에 통합된 Discovery, Decision Log, Approval Gate
 - GitHub Pages에서 에피소드, 단계, 산출물, QA를 한곳에 보여 주는 화면
 
 ### 현재 한계
@@ -43,10 +43,9 @@ CLE3-1의 성공 기준은 에이전트 수가 아니라 아래 네 가지다.
 | 운영 | GitHub Pages가 정적 파일과 브라우저 PAT에 의존 | 공개 Viewer와 인증된 Control Plane 분리, PAT 저장 제거 |
 | 범용성 | 에피소드·패널·특정 화풍이 코어 모델에 결합 | Workflow Template와 Renderer Adapter로 도메인 분리 |
 
-현재 공개 사이트는 `main` 브랜치의 정적 Viewer다. Discovery, Decision Log,
-네 개 승인 게이트는 아직 `main`이 아니라
-`codex/cle3-discovery-protocol` 브랜치에만 있다. CLE3-1 기준선은 이 브랜치를
-먼저 검토·병합한 뒤 잡는다.
+현재 공개 사이트는 `main` 브랜치의 정적 Viewer다. Discovery, Decision Log와
+네 개 승인 게이트도 `main`에 통합되어 있으므로 CLE3-1은 현재 `main`을 기준선으로
+삼는다.
 
 ## 3. 제품 범위
 
@@ -144,8 +143,9 @@ Planner는 자유 형식 문서를 직접 다음 단계에 넘기지 않는다. 
 - 병렬 실행 group, timeout, retry policy
 - 사람 검토가 필요한 decision point
 
-Planning Gate에서 사람은 폼과 JSON Tree 양쪽으로 Plan을 수정할 수 있다. 수정은
-원본 덮어쓰기가 아니라 새 ArtifactVersion과 RFC 6902 JSON Patch로 저장한다.
+Planning Gate에서 사람은 목표·제약을 추가하거나 승인·반려하고, Codex가 그 입력을
+Plan 수정안으로 반영한다. 수정은 원본 덮어쓰기가 아니라 새 ArtifactVersion과
+RFC 6902 JSON Patch로 저장한다.
 
 ### 4.3 Execution
 
@@ -176,7 +176,7 @@ Verifier 결과는 단일 점수만 저장하지 않고 `Finding[]`으로 저장
 같은 Task가 3회 반려되거나 비용/시간 예산을 넘으면 `suspended_failsafe`로
 전이한다. 사람은 다음 중 하나를 선택한다.
 
-- Artifact 직접 수정 후 재검증
+- 목표·제약 피드백을 주고 Codex 수정본을 재검증
 - Plan/Policy 수정 후 해당 subtree 재실행
 - 현재 버전을 예외 승인
 - Run 종료
