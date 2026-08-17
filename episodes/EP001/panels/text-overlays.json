@@ -7,8 +7,8 @@
       "page_number": 1,
       "source_image_path": "episodes/EP001/panels/assets/p1-1.png",
       "final_image_path": "episodes/EP001/panels/final/p1-1.svg",
-      "status": "draft",
-      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "status": "rendered",
+      "notes": "Time-transition caption is applied after image generation to preserve exact Korean and numerals.",
       "overlays": [
         {
           "kind": "note",
@@ -61,6 +61,15 @@
       "overlays": []
     },
     {
+      "panel_id": "p2-2",
+      "page_number": 2,
+      "source_image_path": "episodes/EP001/panels/assets/p2-2.png",
+      "final_image_path": "episodes/EP001/panels/final/p2-2.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
       "panel_id": "p2-3",
       "page_number": 2,
       "source_image_path": "episodes/EP001/panels/assets/p2-3.png",
@@ -81,6 +90,26 @@
       ]
     },
     {
+      "panel_id": "p2-4",
+      "page_number": 2,
+      "source_image_path": "episodes/EP001/panels/assets/p2-4.png",
+      "final_image_path": "episodes/EP001/panels/final/p2-4.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "하늘은 언제나 말하고 있지. 다만, 우주는 인간의 투쟁과 상관없이 움직이는 거야.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
       "panel_id": "p3-1",
       "page_number": 3,
       "source_image_path": "episodes/EP001/panels/assets/p3-1.png",
@@ -88,6 +117,26 @@
       "status": "rendered",
       "notes": "No text overlay required.",
       "overlays": []
+    },
+    {
+      "panel_id": "p3-2",
+      "page_number": 3,
+      "source_image_path": "episodes/EP001/panels/assets/p3-2.png",
+      "final_image_path": "episodes/EP001/panels/final/p3-2.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "(배경에서 홍위병 구호만 들림)",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
     },
     {
       "panel_id": "p3-3",
@@ -99,6 +148,46 @@
       "overlays": []
     },
     {
+      "panel_id": "p4-1",
+      "page_number": 4,
+      "source_image_path": "episodes/EP001/panels/assets/p4-1.png",
+      "final_image_path": "episodes/EP001/panels/final/p4-1.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "(홍위병 구호 \"타도 반동!\")",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-2",
+      "page_number": 4,
+      "source_image_path": "episodes/EP001/panels/assets/p4-2.png",
+      "final_image_path": "episodes/EP001/panels/final/p4-2.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "반동 학술 권위",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
       "panel_id": "p4-3",
       "page_number": 4,
       "source_image_path": "episodes/EP001/panels/assets/p4-3.png",
@@ -106,6 +195,66 @@
       "status": "rendered",
       "notes": "No text overlay required.",
       "overlays": []
+    },
+    {
+      "panel_id": "p4-4",
+      "page_number": 4,
+      "source_image_path": "episodes/EP001/panels/assets/p4-4.png",
+      "final_image_path": "episodes/EP001/panels/final/p4-4.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "예페이촨! 네 반동적 우주론을 인정하겠는가!",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-1",
+      "page_number": 5,
+      "source_image_path": "episodes/EP001/panels/assets/p5-1.png",
+      "final_image_path": "episodes/EP001/panels/final/p5-1.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "...물리학은 정치로 바뀌지 않습니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-2",
+      "page_number": 5,
+      "source_image_path": "episodes/EP001/panels/assets/p5-2.png",
+      "final_image_path": "episodes/EP001/panels/final/p5-2.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "sfx",
+          "text": "(효과음만)",
+          "box": {
+            "x": 0.18,
+            "y": 0.34,
+            "w": 0.64,
+            "h": 0.18
+          }
+        }
+      ]
     },
     {
       "panel_id": "p5-3",
@@ -153,20 +302,40 @@
       "overlays": []
     },
     {
+      "panel_id": "p7-4",
+      "page_number": 7,
+      "source_image_path": "episodes/EP001/panels/assets/p7-4.png",
+      "final_image_path": "episodes/EP001/panels/final/p7-4.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "caption",
+          "text": "(하단 작은 나레이션): \"4.2 광년 뒤, 그 신호를 받은 이들이 있었다.",
+          "box": {
+            "x": 0.12,
+            "y": 0.06,
+            "w": 0.76,
+            "h": 0.1
+          }
+        }
+      ]
+    },
+    {
       "panel_id": "p8-1",
       "page_number": 8,
       "source_image_path": "episodes/EP001/panels/assets/p8-1.png",
       "final_image_path": "episodes/EP001/panels/final/p8-1.svg",
-      "status": "rendered",
-      "notes": "Time-transition caption is applied after image generation to preserve exact Korean and numerals.",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
       "overlays": [
         {
-          "kind": "caption",
-          "text": "40년 후. 2007.",
+          "kind": "dialogue",
+          "text": "40년 후.\" / \"2007.",
           "box": {
-            "x": 0.3,
-            "y": 0.42,
-            "w": 0.4,
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
             "h": 0.12
           }
         }
@@ -202,6 +371,26 @@
       ]
     },
     {
+      "panel_id": "p9-3",
+      "page_number": 9,
+      "source_image_path": "episodes/EP001/panels/assets/p9-3.png",
+      "final_image_path": "episodes/EP001/panels/final/p9-3.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "비슷한 행동? 뭔데?",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
       "panel_id": "p9-4",
       "page_number": 9,
       "source_image_path": "episodes/EP001/panels/assets/p9-4.png",
@@ -222,6 +411,26 @@
       ]
     },
     {
+      "panel_id": "p9-5",
+      "page_number": 9,
+      "source_image_path": "episodes/EP001/panels/assets/p9-5.png",
+      "final_image_path": "episodes/EP001/panels/final/p9-5.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "(동료, 배경에서): \"자살이잖아. 스트레스.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
       "panel_id": "p9-6",
       "page_number": 9,
       "source_image_path": "episodes/EP001/panels/assets/p9-6.png",
@@ -229,6 +438,362 @@
       "status": "embedded_text",
       "notes": "Generated source image already contains the intended chalk text; do not add another overlay.",
       "overlays": []
+    },
+    {
+      "panel_id": "p10-1",
+      "page_number": 10,
+      "source_image_path": "episodes/EP001/panels/assets/p10-1.png",
+      "final_image_path": "episodes/EP001/panels/final/p10-1.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "note",
+          "text": "(독백, 작은 글씨): \"40년.",
+          "box": {
+            "x": 0.18,
+            "y": 0.68,
+            "w": 0.64,
+            "h": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p10-2",
+      "page_number": 10,
+      "source_image_path": "episodes/EP001/panels/assets/p10-2.png",
+      "final_image_path": "episodes/EP001/panels/final/p10-2.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "narration",
+          "text": "\"그때 내가 보낸 신호가 도달했을 시간이야.",
+          "box": {
+            "x": 0.1,
+            "y": 0.08,
+            "w": 0.8,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p10-3",
+      "page_number": 10,
+      "source_image_path": "episodes/EP001/panels/assets/p10-3.png",
+      "final_image_path": "episodes/EP001/panels/final/p10-3.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "sfx",
+          "text": "(핸드폰 벨 소리 효과만)",
+          "box": {
+            "x": 0.18,
+            "y": 0.34,
+            "w": 0.64,
+            "h": 0.18
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p11-1",
+      "page_number": 11,
+      "source_image_path": "episodes/EP001/panels/assets/p11-1.png",
+      "final_image_path": "episodes/EP001/panels/final/p11-1.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "여... 여보세요?",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p11-2",
+      "page_number": 11,
+      "source_image_path": "episodes/EP001/panels/assets/p11-2.png",
+      "final_image_path": "episodes/EP001/panels/final/p11-2.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "목소리: \"...당신이 보낸 신호가 닿았습니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p11-3",
+      "page_number": 11,
+      "source_image_path": "episodes/EP001/panels/assets/p11-3.png",
+      "final_image_path": "episodes/EP001/panels/final/p11-3.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "누... 누구세요?",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p11-4",
+      "page_number": 11,
+      "source_image_path": "episodes/EP001/panels/assets/p11-4.png",
+      "final_image_path": "episodes/EP001/panels/final/p11-4.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "목소리: \"물리학을 믿습니까?",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p12-1",
+      "page_number": 12,
+      "source_image_path": "episodes/EP001/panels/assets/p12-1.png",
+      "final_image_path": "episodes/EP001/panels/final/p12-1.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "sfx",
+          "text": "(효과음: 뚜— 뚜—)",
+          "box": {
+            "x": 0.18,
+            "y": 0.34,
+            "w": 0.64,
+            "h": 0.18
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p12-2",
+      "page_number": 12,
+      "source_image_path": "episodes/EP001/panels/assets/p12-2.png",
+      "final_image_path": "episodes/EP001/panels/final/p12-2.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p12-3",
+      "page_number": 12,
+      "source_image_path": "episodes/EP001/panels/assets/p12-3.png",
+      "final_image_path": "episodes/EP001/panels/final/p12-3.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "1199:59:59",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p12-4",
+      "page_number": 12,
+      "source_image_path": "episodes/EP001/panels/assets/p12-4.png",
+      "final_image_path": "episodes/EP001/panels/final/p12-4.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "narration",
+          "text": "\"...시작됐다.",
+          "box": {
+            "x": 0.1,
+            "y": 0.08,
+            "w": 0.8,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p13-1",
+      "page_number": 13,
+      "source_image_path": "episodes/EP001/panels/assets/p13-1.png",
+      "final_image_path": "episodes/EP001/panels/final/p13-1.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "note",
+          "text": "(나레이션, 작은 글씨): \"세 개의 천체가 서로의 중력으로 움직이는, 궤도 예측이 불가능한 문제.",
+          "box": {
+            "x": 0.18,
+            "y": 0.68,
+            "w": 0.64,
+            "h": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p13-2",
+      "page_number": 13,
+      "source_image_path": "episodes/EP001/panels/assets/p13-2.png",
+      "final_image_path": "episodes/EP001/panels/final/p13-2.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "narration",
+          "text": "\"불가능해. 근데 그들이 알고 있어. 내 신호가 닿았다는 걸.",
+          "box": {
+            "x": 0.1,
+            "y": 0.08,
+            "w": 0.8,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p13-3",
+      "page_number": 13,
+      "source_image_path": "episodes/EP001/panels/assets/p13-3.png",
+      "final_image_path": "episodes/EP001/panels/final/p13-3.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "삼체문제 특별전",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p13-4",
+      "page_number": 13,
+      "source_image_path": "episodes/EP001/panels/assets/p13-4.png",
+      "final_image_path": "episodes/EP001/panels/final/p13-4.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "sfx",
+          "text": "(효과음만 — 비프음)",
+          "box": {
+            "x": 0.18,
+            "y": 0.34,
+            "w": 0.64,
+            "h": 0.18
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p14-1",
+      "page_number": 14,
+      "source_image_path": "episodes/EP001/panels/assets/p14-1.png",
+      "final_image_path": "episodes/EP001/panels/final/p14-1.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "우리는 심판을 불렀다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p15-1",
+      "page_number": 15,
+      "source_image_path": "episodes/EP001/panels/assets/p15-1.png",
+      "final_image_path": "episodes/EP001/panels/final/p15-1.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p15-2",
+      "page_number": 15,
+      "source_image_path": "episodes/EP001/panels/assets/p15-2.png",
+      "final_image_path": "episodes/EP001/panels/final/p15-2.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p15-3",
+      "page_number": 15,
+      "source_image_path": "episodes/EP001/panels/assets/p15-3.png",
+      "final_image_path": "episodes/EP001/panels/final/p15-3.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p16-1",
+      "page_number": 16,
+      "source_image_path": "episodes/EP001/panels/assets/p16-1.png",
+      "final_image_path": "episodes/EP001/panels/final/p16-1.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "(모니터 텍스트):  # \"당신은 물리학을 믿습니까?\"  아래에 작게:  \"Three Body — 게임을 시작하시겠습니까?\"  [Y] [N]",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
     }
   ]
 }
