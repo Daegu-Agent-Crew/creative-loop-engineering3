@@ -112,7 +112,7 @@ function build(rootDir, episodeId, generatedOnly) {
     .filter((panel) => !generatedOnly || ['generated', 'approved', 'selected'].includes(panel.generation_status))
     .map((panel) => {
       const existing = existingByPanel.get(panel.panel_id);
-      if (existing && ['approved', 'embedded_text', 'needs_review'].includes(existing.status)) {
+      if (existing && ['approved', 'embedded_text', 'needs_review', 'rendered'].includes(existing.status)) {
         return {
           ...existing,
           page_number: panel.page_number,

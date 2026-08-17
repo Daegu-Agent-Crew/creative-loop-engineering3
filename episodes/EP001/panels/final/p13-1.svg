@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+  <image href="../assets/p13-1.png" x="0" y="0" width="1024" height="1536" />
+  <g class="overlay overlay-note">
+    <text text-anchor="middle" font-family="'Apple SD Gothic Neo', 'Nanum Pen Script', cursive" font-size="58" font-weight="800" fill="#d14b83" stroke="#ffffff" stroke-width="3" paint-order="stroke"><tspan x="512" y="1023">(나레이션, 작은 글씨):</tspan><tspan x="512" y="1101">&quot;세 개의 천체가 서로의</tspan><tspan x="512" y="1179">중력으로 움직이는, 궤도</tspan><tspan x="512" y="1257">예측이 불가능한 문제.</tspan></text>
+  </g>
+</svg>

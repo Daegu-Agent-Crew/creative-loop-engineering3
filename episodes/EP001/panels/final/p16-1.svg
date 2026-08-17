@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+  <image href="../assets/p16-1.png" x="0" y="0" width="1024" height="1536" />
+  <g class="overlay overlay-dialogue">
+    <rect x="82" y="92" width="532" height="184" rx="28" fill="#ffffff" fill-opacity="0.96" stroke="#111111" stroke-width="4" />
+    <text text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="37" font-weight="700" fill="#111111"><tspan x="348" y="121">(모니터 텍스트): # &quot;당신은</tspan><tspan x="348" y="171">물리학을 믿습니까?&quot; 아래에 작게:</tspan><tspan x="348" y="221">&quot;Three Body — 게임을</tspan><tspan x="348" y="271">시작하시겠습니까?&quot; [Y] [N]</tspan></text>
+  </g>
+</svg>

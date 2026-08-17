@@ -43,7 +43,7 @@
         "phase4": {
           "status": "active",
           "prompt_version": "v3-convergence",
-          "note": "원본 이미지 49/49 생성. 대사 오버레이 18/49 렌더링, QA 승인 집계는 별도 관리. CLE2-20 후보 비교 파일럿 준비 완료."
+          "note": "원본 이미지 49/49 생성. 대사 오버레이 매니페스트와 SVG 최종본 49/49 렌더링(32개 자동 추출 텍스트는 draft 검토 대기), QA 승인 집계는 별도 관리. CLE2-20 후보 비교 파일럿 준비 완료."
         },
         "phase5": {
           "status": "pending"
@@ -256,5 +256,5 @@
       "previous_score": 45
     }
   ],
-  "last_updated": "2026-08-14T09:00:00Z"
+  "last_updated": "2026-08-18T00:00:00Z"
 }
