@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+  <image href="../assets/p5-1.png" x="0" y="0" width="1536" height="1024" />
+  <g class="overlay overlay-dialogue">
+    <rect x="123" y="61" width="799" height="123" rx="28" fill="#ffffff" fill-opacity="0.96" stroke="#111111" stroke-width="6" />
+    <text text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="25" font-weight="700" fill="#111111"><tspan x="523" y="131">...물리학은 정치로 바뀌지 않습니다.</tspan></text>
+  </g>
+</svg>

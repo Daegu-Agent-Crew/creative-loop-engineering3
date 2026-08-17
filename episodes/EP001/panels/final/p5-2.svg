@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+  <image href="../assets/p5-2.png" x="0" y="0" width="1536" height="1024" />
+  <g class="overlay overlay-sfx">
+    <rect x="276" y="348" width="983" height="184" rx="12" fill="#ffffff" fill-opacity="0.96" stroke="#111111" stroke-width="6" />
+    <text text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="61" font-weight="900" fill="#111111"><tspan x="768" y="460">(효과음만)</tspan></text>
+  </g>
+</svg>
