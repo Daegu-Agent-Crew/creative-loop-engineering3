@@ -1,0 +1,115 @@
+{
+  "$schema": "../../../schemas/creation-memory.schema.json",
+  "schema_version": 1,
+  "episode_id": "EP004",
+  "updated_at": "2026-08-17T22:20:56.146Z",
+  "creator_contract": {
+    "creative_actor": "codex",
+    "sole_creative_actor": true,
+    "deterministic_system_roles": [
+      "schema_validation",
+      "state_storage",
+      "context_retrieval",
+      "prompt_assembly",
+      "file_tracking",
+      "text_and_page_rendering"
+    ],
+    "human_roles": [
+      "goal_input",
+      "exception_resolution",
+      "release_approval"
+    ]
+  },
+  "source_refs": [
+    {
+      "id": "source-story-1",
+      "type": "story",
+      "path": "episodes/EP004/script/script.md",
+      "purpose": "장면 의도와 패널 대사의 기준",
+      "required": true
+    },
+    {
+      "id": "source-decisions-2",
+      "type": "decisions",
+      "path": "episodes/EP004/decisions/implementation-notes.json",
+      "purpose": "과거 결정의 근거와 승인 상태",
+      "required": false
+    },
+    {
+      "id": "source-policy-3",
+      "type": "policy",
+      "path": "config/panel-generation-policy.json",
+      "purpose": "동시성, 재시도, QA와 에스컬레이션 기준",
+      "required": true
+    }
+  ],
+  "canon_assets": [],
+  "narrative_threads": [],
+  "continuity": [],
+  "preferences": [],
+  "lessons": [],
+  "constraints": [
+    {
+      "id": "constraint-one-image-per-request",
+      "severity": "must",
+      "rule": "gpt-image-2에는 요청당 이미지 한 장만 생성한다.",
+      "scope": {
+        "characters": [],
+        "panel_ids": [],
+        "tags": [
+          "global",
+          "generation"
+        ]
+      },
+      "source_path": "config/panel-generation-policy.json"
+    },
+    {
+      "id": "constraint-preserve-original-candidates",
+      "severity": "must",
+      "rule": "원본과 탈락 후보를 덮어쓰지 않고 선택된 결과만 정식 패널로 승격한다.",
+      "scope": {
+        "characters": [],
+        "panel_ids": [],
+        "tags": [
+          "global",
+          "candidate-selection"
+        ]
+      },
+      "source_path": "docs/ASSET-STORAGE-POLICY.md"
+    },
+    {
+      "id": "constraint-human-release-approval",
+      "severity": "must",
+      "rule": "Codex가 모든 창작 행동을 수행하더라도 최종 공개는 사람의 Release Approval 이후에만 실행한다.",
+      "scope": {
+        "characters": [],
+        "panel_ids": [],
+        "tags": [
+          "global",
+          "approval"
+        ]
+      },
+      "source_path": "docs/AI-COLLABORATION-PROTOCOL.md"
+    }
+  ],
+  "handoff": {
+    "current_goal": "EP004 문명의 역사의 phase1_story 창작 작업을 이어간다.",
+    "current_phase": "phase1_story",
+    "target_panel_id": null,
+    "completed": [
+      "phase0 완료",
+      "phase0.5 완료",
+      "phase1 완료"
+    ],
+    "next_actions": [
+      "현재 스토리에서 캐릭터, 세계관, 시각 기준 자산을 추출하고 버전을 부여한다.",
+      "Character/World/Visual Bible을 만든 뒤 다음 Phase 입력으로 고정한다.",
+      "다음 창작 작업 전에 Creation Context Pack을 생성한다."
+    ],
+    "blockers": [],
+    "human_decisions": [
+      "완료 Phase의 provisional gate를 공식 승인할지 결정",
+      "Phase 5 통과 후 공개 여부 결정"
+    ]
+  }
+}

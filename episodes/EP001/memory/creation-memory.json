@@ -1,0 +1,219 @@
+{
+  "$schema": "../../../schemas/creation-memory.schema.json",
+  "schema_version": 1,
+  "episode_id": "EP001",
+  "updated_at": "2026-08-18T07:13:16+09:00",
+  "creator_contract": {
+    "creative_actor": "codex",
+    "sole_creative_actor": true,
+    "deterministic_system_roles": [
+      "schema_validation",
+      "state_storage",
+      "context_retrieval",
+      "prompt_assembly",
+      "file_tracking",
+      "text_and_page_rendering"
+    ],
+    "human_roles": [
+      "goal_input",
+      "exception_resolution",
+      "release_approval"
+    ]
+  },
+  "source_refs": [
+    {
+      "id": "source-story",
+      "type": "story",
+      "path": "episodes/EP001/script/script.json",
+      "purpose": "장면, 대사와 패널 서사 의도의 기준",
+      "required": true
+    },
+    {
+      "id": "source-characters",
+      "type": "characters",
+      "path": "episodes/EP001/characters/characters.json",
+      "purpose": "캐릭터 외형과 원본 참조 자산의 기준",
+      "required": true
+    },
+    {
+      "id": "source-storyboard",
+      "type": "storyboard",
+      "path": "episodes/EP001/storyboard/storyboard.json",
+      "purpose": "패널 순서, 구도와 카메라 의도의 기준",
+      "required": true
+    },
+    {
+      "id": "source-panels",
+      "type": "panels",
+      "path": "episodes/EP001/panels/panels.json",
+      "purpose": "현재 이미지 생성 상태와 실제 참조 연결",
+      "required": true
+    },
+    {
+      "id": "source-decisions",
+      "type": "decisions",
+      "path": "episodes/EP001/decisions/implementation-notes.json",
+      "purpose": "과거 선택의 근거, 가정과 승인 상태",
+      "required": true
+    },
+    {
+      "id": "source-preferences",
+      "type": "preferences",
+      "path": "episodes/EP001/panels/preference-memory.json",
+      "purpose": "사람이 승인한 참조 앵커와 후보 선택 기록",
+      "required": true
+    }
+  ],
+  "canon_assets": [
+    {
+      "id": "style-dr-slump-toriyama-v1",
+      "kind": "visual_style",
+      "version": "1",
+      "status": "provisional",
+      "asset_path": "AGENTS.md",
+      "immutable_traits": [
+        "굵고 깨끗한 잉크 선",
+        "평면적인 셀 채색",
+        "둥글고 표현적인 캐릭터",
+        "명확한 검은 그림자"
+      ],
+      "scope": { "characters": [], "panel_ids": [], "tags": ["global", "visual-style"] },
+      "evidence_paths": ["AGENTS.md", "prompts/image/v2.md"]
+    },
+    {
+      "id": "character-chengxin-v1",
+      "kind": "character",
+      "version": "1",
+      "status": "approved",
+      "asset_path": "episodes/EP001/characters/assets/chengxin-v1.png",
+      "immutable_traits": ["60대", "짧은 회색 머리", "둥글고 온화한 얼굴", "마른 체형", "소박한 카디건 또는 숄"],
+      "scope": { "characters": ["청신", "청신(손)"], "panel_ids": [], "tags": ["character"] },
+      "evidence_paths": ["episodes/EP001/characters/characters.json", "episodes/EP001/panels/preference-memory.json"]
+    },
+    {
+      "id": "character-wangmiao-v1",
+      "kind": "character",
+      "version": "1",
+      "status": "approved",
+      "asset_path": "episodes/EP001/characters/assets/wangmiao-v1.png",
+      "immutable_traits": ["30대", "큰 뿔테 안경", "단정한 머리", "마른 체형", "차분한 학자 인상"],
+      "scope": { "characters": ["왕먀오", "왕먀오(등)"], "panel_ids": [], "tags": ["character"] },
+      "evidence_paths": ["episodes/EP001/characters/characters.json", "episodes/EP001/panels/preference-memory.json"]
+    }
+  ],
+  "narrative_threads": [
+    {
+      "id": "thread-three-suns-to-monitor",
+      "status": "active",
+      "summary": "첫 페이지의 세 개 태양 그림을 마지막 모니터의 Three Body 이미지로 회수한다.",
+      "reader_question": "세 개의 태양과 물리학의 붕괴는 어떻게 연결되는가?",
+      "scope": { "characters": ["왕먀오"], "panel_ids": ["p1-1", "p16-1"], "tags": ["foreshadowing", "three-suns", "monitor"] },
+      "evidence_paths": ["episodes/EP001/storyboard/storyboard.json", "episodes/EP001/script/script.json"]
+    },
+    {
+      "id": "thread-dark-lab-reveal",
+      "status": "active",
+      "summary": "청신이 어두운 연구실 문을 열고 왕먀오와 꺼진 중앙 모니터를 발견한 뒤 최종 질문으로 이어진다.",
+      "reader_question": "왕먀오와 꺼진 모니터는 무엇을 기다리고 있는가?",
+      "scope": { "characters": ["청신", "왕먀오"], "panel_ids": ["p15-2", "p15-3", "p16-1"], "tags": ["lab", "monitor", "reveal"] },
+      "evidence_paths": ["episodes/EP001/storyboard/storyboard.json"]
+    }
+  ],
+  "continuity": [
+    {
+      "id": "continuity-p15-2-to-p15-3",
+      "from_panel_id": "p15-2",
+      "to_panel_id": "p15-3",
+      "state_before": [
+        { "subject": "청신", "attribute": "hand", "value": "문고리를 잡고 있다" },
+        { "subject": "청신", "attribute": "emotion", "value": "결의와 두려움" },
+        { "subject": "연구실", "attribute": "door", "value": "닫혀 있다" }
+      ],
+      "delta": [
+        { "subject": "연구실", "attribute": "door", "value": "열린다" },
+        { "subject": "왕먀오", "attribute": "visibility", "value": "등이 처음 보인다" }
+      ],
+      "state_after": [
+        { "subject": "청신", "attribute": "position", "value": "열린 문 입구" },
+        { "subject": "왕먀오", "attribute": "position", "value": "모니터 앞, 등을 보인 상태" },
+        { "subject": "연구실", "attribute": "lighting", "value": "여러 모니터만 광원" },
+        { "subject": "중앙 모니터", "attribute": "screen", "value": "꺼져 있다" }
+      ],
+      "risks": ["왕먀오의 얼굴을 정면으로 노출하지 않는다", "중앙 모니터에 최종 문구를 미리 표시하지 않는다"],
+      "evidence_paths": ["episodes/EP001/storyboard/storyboard.json", "episodes/EP001/panels/assets/p15-2.png", "episodes/EP001/panels/assets/p15-3.png"]
+    }
+  ],
+  "preferences": [
+    {
+      "id": "preference-postprocess-korean-text",
+      "status": "approved",
+      "rule": "최종 한글 대사와 자막은 이미지에 생성하지 않고 SVG 후처리로 조립한다.",
+      "reason": "텍스트 오류 때문에 적합한 그림 전체를 다시 생성하지 않기 위해서다.",
+      "scope": { "characters": [], "panel_ids": [], "tags": ["global", "text", "overlay"] },
+      "evidence_paths": ["episodes/EP001/decisions/implementation-notes.json", "config/panel-generation-policy.json"]
+    },
+    {
+      "id": "preference-storytelling-over-prettiness",
+      "status": "observed",
+      "rule": "후보는 단순한 미려함보다 사건, 감정과 인접 패널 연결을 더 잘 전달하는 쪽을 선택한다.",
+      "reason": "연재 만화의 컷은 독자에게 전달할 서사 기능이 우선이기 때문이다.",
+      "scope": { "characters": [], "panel_ids": [], "tags": ["global", "candidate-selection"] },
+      "evidence_paths": ["evaluation-rubric.md", "schemas/candidates-schema.json"]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lesson-p8-1-separate-text",
+      "outcome": "success",
+      "status": "validated",
+      "summary": "p8-1의 시대 전환 이미지는 텍스트 없이 유지하고 정확한 연도는 SVG로 분리했다.",
+      "guidance": "숫자나 한글의 정확성이 필요한 컷은 negative space를 확보하고 최종 텍스트를 후처리한다.",
+      "scope": { "characters": [], "panel_ids": ["p8-1"], "tags": ["text", "overlay", "transition"] },
+      "evidence_paths": ["episodes/EP001/decisions/implementation-notes.json", "episodes/EP001/panels/final/p8-1.svg"]
+    }
+  ],
+  "constraints": [
+    {
+      "id": "constraint-one-image-per-request",
+      "severity": "must",
+      "rule": "gpt-image-2에는 요청당 이미지 한 장만 생성한다.",
+      "scope": { "characters": [], "panel_ids": [], "tags": ["global", "generation"] },
+      "source_path": "config/panel-generation-policy.json"
+    },
+    {
+      "id": "constraint-preserve-original-candidates",
+      "severity": "must",
+      "rule": "원본과 탈락 후보를 덮어쓰지 않고 선택된 결과만 정식 패널로 승격한다.",
+      "scope": { "characters": [], "panel_ids": [], "tags": ["global", "candidate-selection"] },
+      "source_path": "docs/ASSET-STORAGE-POLICY.md"
+    },
+    {
+      "id": "constraint-human-release-approval",
+      "severity": "must",
+      "rule": "Codex가 모든 창작 행동을 수행하더라도 최종 공개는 사람의 Release Approval 이후에만 실행한다.",
+      "scope": { "characters": [], "panel_ids": [], "tags": ["global", "approval"] },
+      "source_path": "docs/AI-COLLABORATION-PROTOCOL.md"
+    }
+  ],
+  "handoff": {
+    "current_goal": "EP001의 자동 추출 텍스트 draft 32개와 수렴 후보를 검토하고 실제 Phase 5 QA로 넘긴다.",
+    "current_phase": "phase4_panels",
+    "target_panel_id": null,
+    "completed": [
+      "원본 패널 이미지 49/49 생성",
+      "CLE2-20 후보 비교 파일럿 준비",
+      "텍스트 오버레이 정책과 렌더러 구현",
+      "대사 오버레이 매니페스트와 SVG 최종본 49/49 렌더링"
+    ],
+    "next_actions": [
+      "자동 추출된 텍스트 draft 32개의 대사, 귀속, 줄바꿈과 배치를 검토한다",
+      "pilot-001 후보에 대한 사람 판정을 preference-memory.json에 반영한다",
+      "최종 SVG를 대상으로 Phase 5 QA를 다시 실행한다"
+    ],
+    "blockers": [],
+    "human_decisions": [
+      "Story, Character, Storyboard의 provisional gate를 공식 승인할지 결정",
+      "Phase 5 통과 후 EP001 공개 여부 결정"
+    ]
+  }
+}

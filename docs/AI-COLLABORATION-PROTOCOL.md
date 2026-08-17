@@ -1,8 +1,9 @@
 # CLE3 AI 협업 운영 프로토콜
 
 CLE3는 모델에게 긴 규칙만 전달하는 대신 목표, 실제 파일, 도구, 레퍼런스와
-실행 가능한 제약을 제공한다. 사람은 방향과 가치, 우선순위, 최종 공개를
-결정하고 정상적인 조사, 생성, 검사와 재시도는 에이전트가 이어간다.
+실행 가능한 제약을 제공한다. Codex는 원작 분석, 각색, 시각 설계, 생성, 후보
+선택과 비평을 포함한 모든 창작 행동을 수행한다. 사람은 목표를 제공하고 정책
+예외와 최종 공개를 승인하거나 반려한다.
 
 ## 운영 루프
 
@@ -14,7 +15,8 @@ CLE3는 모델에게 긴 규칙만 전달하는 대신 목표, 실제 파일, �
 4. **Decision Rationale**: 내부 사고 전체가 아니라 결정, 근거, 확신도, 가정,
    불확실성, 대안과 승인 상태를 저장한다.
 5. **Human in the Loop**: 사람은 Story Lock, Character Lock, Storyboard Lock,
-   Release Approval과 예외 작업만 검토한다.
+   Release Approval과 예외 작업만 승인하거나 반려한다. 승인 게이트는 창작을
+   대신 수행하는 단계가 아니다.
 6. **Challenge Trade-offs**: 기본 목표와 함께 기존 시간, 비용, 품질 제약을
    자동화로 다시 검토할 도전 목표를 둔다.
 
@@ -24,11 +26,14 @@ CLE3는 모델에게 긴 규칙만 전달하는 대신 목표, 실제 파일, �
 episodes/EPxxx/
 ├── discovery/context.json
 ├── decisions/implementation-notes.json
+├── memory/creation-memory.json
 └── approvals/gates.json
 ```
 
 - `discovery/context.json`: 작업 전 맥락, 가치, 도구, 레퍼런스, Unknown과 가정
 - `decisions/implementation-notes.json`: 검토 가능한 판단 근거와 불확실성
+- `memory/creation-memory.json`: 다음 Codex 세션에 전달할 Canon, 복선, 연속성,
+  선호, 교훈, 제약과 현재 작업 인계
 - `approvals/gates.json`: 네 사람 승인 게이트와 예외 운영 정책
 - `panels/generation-jobs.json`: 실행 단위별 근거, 확신도, 가정, 불확실성과
   에스컬레이션 이유
@@ -52,5 +57,6 @@ node scripts/validate-episode-governance.js
 node scripts/run-panel-jobs.js --episode EP001 --dry-run --max-jobs 3
 ```
 
-초기화 스크립트는 기존 파일을 덮어쓰지 않는다. 기준선을 다시 만들 때만
-`--force`를 사용하고 변경 내용을 먼저 검토한다.
+초기화 스크립트는 Discovery, Decision, Approval과 Creation Memory를 함께 만들며
+기존 파일을 덮어쓰지 않는다. 기준선을 다시 만들 때만 `--force`를 사용하고 변경
+내용을 먼저 검토한다.

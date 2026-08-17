@@ -1,0 +1,138 @@
+{
+  "$schema": "../../../schemas/creation-memory.schema.json",
+  "schema_version": 1,
+  "episode_id": "EP002",
+  "updated_at": "2026-08-17T22:20:56.136Z",
+  "creator_contract": {
+    "creative_actor": "codex",
+    "sole_creative_actor": true,
+    "deterministic_system_roles": [
+      "schema_validation",
+      "state_storage",
+      "context_retrieval",
+      "prompt_assembly",
+      "file_tracking",
+      "text_and_page_rendering"
+    ],
+    "human_roles": [
+      "goal_input",
+      "exception_resolution",
+      "release_approval"
+    ]
+  },
+  "source_refs": [
+    {
+      "id": "source-story-1",
+      "type": "story",
+      "path": "episodes/EP002/script/script.json",
+      "purpose": "장면 의도와 패널 대사의 구조화된 기준",
+      "required": true
+    },
+    {
+      "id": "source-character-2",
+      "type": "character",
+      "path": "episodes/EP002/characters/characters.json",
+      "purpose": "캐릭터 외형과 참조 자산의 기준",
+      "required": false
+    },
+    {
+      "id": "source-storyboard-3",
+      "type": "storyboard",
+      "path": "episodes/EP002/storyboard/storyboard.json",
+      "purpose": "페이지와 패널 구도의 기준",
+      "required": false
+    },
+    {
+      "id": "source-panels-4",
+      "type": "panels",
+      "path": "episodes/EP002/panels/panels.json",
+      "purpose": "패널 생성 상태와 실제 참조 연결",
+      "required": false
+    },
+    {
+      "id": "source-decisions-5",
+      "type": "decisions",
+      "path": "episodes/EP002/decisions/implementation-notes.json",
+      "purpose": "과거 결정의 근거와 승인 상태",
+      "required": false
+    },
+    {
+      "id": "source-policy-6",
+      "type": "policy",
+      "path": "config/panel-generation-policy.json",
+      "purpose": "동시성, 재시도, QA와 에스컬레이션 기준",
+      "required": true
+    }
+  ],
+  "canon_assets": [],
+  "narrative_threads": [],
+  "continuity": [],
+  "preferences": [],
+  "lessons": [],
+  "constraints": [
+    {
+      "id": "constraint-one-image-per-request",
+      "severity": "must",
+      "rule": "gpt-image-2에는 요청당 이미지 한 장만 생성한다.",
+      "scope": {
+        "characters": [],
+        "panel_ids": [],
+        "tags": [
+          "global",
+          "generation"
+        ]
+      },
+      "source_path": "config/panel-generation-policy.json"
+    },
+    {
+      "id": "constraint-preserve-original-candidates",
+      "severity": "must",
+      "rule": "원본과 탈락 후보를 덮어쓰지 않고 선택된 결과만 정식 패널로 승격한다.",
+      "scope": {
+        "characters": [],
+        "panel_ids": [],
+        "tags": [
+          "global",
+          "candidate-selection"
+        ]
+      },
+      "source_path": "docs/ASSET-STORAGE-POLICY.md"
+    },
+    {
+      "id": "constraint-human-release-approval",
+      "severity": "must",
+      "rule": "Codex가 모든 창작 행동을 수행하더라도 최종 공개는 사람의 Release Approval 이후에만 실행한다.",
+      "scope": {
+        "characters": [],
+        "panel_ids": [],
+        "tags": [
+          "global",
+          "approval"
+        ]
+      },
+      "source_path": "docs/AI-COLLABORATION-PROTOCOL.md"
+    }
+  ],
+  "handoff": {
+    "current_goal": "EP002 카운트다운의 phase4_panels 창작 작업을 이어간다.",
+    "current_phase": "phase4_panels",
+    "target_panel_id": null,
+    "completed": [
+      "phase0 완료",
+      "phase0.5 완료",
+      "phase1 완료",
+      "phase2 완료",
+      "phase3 완료"
+    ],
+    "next_actions": [
+      "현재 generation-jobs와 실제 패널 자산을 대조한다.",
+      "작업 대상의 Creation Context Pack을 만든 뒤 남은 패널 생성과 연속성 검사를 계속한다.",
+      "완성 패널과 텍스트 오버레이를 대상으로 Phase 5 QA를 준비한다."
+    ],
+    "blockers": [],
+    "human_decisions": [
+      "완료 Phase의 provisional gate를 공식 승인할지 결정",
+      "Phase 5 통과 후 공개 여부 결정"
+    ]
+  }
+}
