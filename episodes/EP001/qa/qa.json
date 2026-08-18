@@ -1,1 +1,89 @@
-{"episode_id":"EP001","overall_score":42,"items":[{"category":"전체 일관성","score":9,"notes":"[DRY RUN] 페이지 간 흐름 자연스러움","corrected":false},{"category":"이미지 품질","score":8,"notes":"[DRY RUN] 수채화풍 일관성 양호, 더미 이미지","corrected":false},{"category":"스토리 정합성","score":9,"notes":"[DRY RUN] 원작 충실도 양호","corrected":false},{"category":"한글 표기 오류","score":8,"notes":"[DRY RUN] 대사 자연스러움","corrected":false},{"category":"완성도","score":8,"notes":"[DRY RUN] 더미 기준 완성도 양호","corrected":false}],"final_images":["episodes/EP001/panels/p1-1.png","episodes/EP001/panels/p1-2.png","episodes/EP001/panels/p2-3.png","episodes/EP001/panels/p2-4.png","episodes/EP001/panels/p3-5.png","episodes/EP001/panels/p3-6.png"],"prompt_version":"v1-dryrun"}
+{
+  "$schema": "../../../schemas/qa.schema.json",
+  "episode_id": "EP001",
+  "overall_score": 43,
+  "items": [
+    {
+      "category": "전체 일관성",
+      "score": 8,
+      "notes": "49개 패널의 시간 흐름과 주요 인물 연결을 검사했다. 예페이촨의 나이·체형 불일치를 발견해 Character Bible과 동일 참조 체인으로 p4-2, p5-1, p5-2를 재생성했다. 일부 장면 간 세부 화풍 편차는 남지만 독해를 방해하지 않는다.",
+      "corrected": true
+    },
+    {
+      "category": "이미지 품질",
+      "score": 9,
+      "notes": "최종 SVG 49개와 연결된 원본 자산의 존재 여부, 얼굴·손·배경의 명백한 파손, 모바일 축소 가독성을 확인했다. 누락 패널과 발행 차단 수준의 이미지 오류는 없다.",
+      "corrected": true
+    },
+    {
+      "category": "스토리 정합성",
+      "score": 9,
+      "notes": "script.json과 storyboard.json을 기준으로 패널 순서, 사건, 감정 전환과 마지막 Three Body 질문의 회수를 대조했다. 각 패널의 서사 기능이 원고 흐름과 일치한다.",
+      "corrected": false
+    },
+    {
+      "category": "대사 오버레이",
+      "score": 9,
+      "notes": "기존 draft 31개를 원고와 이미지 여백 기준으로 검토해 draft를 0개로 만들었다. 27개 승인 오버레이, 5개 승인된 이미지 내 텍스트, 17개 무텍스트 패널로 정리했고 정확한 한글은 SVG에서 결정론적으로 조립한다.",
+      "corrected": true
+    },
+    {
+      "category": "공개 완성도",
+      "score": 8,
+      "notes": "최종 패널 49/49가 렌더링되고 자산 경로가 연결되어 있다. 브라우저 폰트 대체와 장면별 미세한 표현 편차는 배포 후 확인 항목이지만 공개를 막는 중대 오류는 없다.",
+      "corrected": false
+    }
+  ],
+  "final_images": [
+    "episodes/EP001/panels/final/p1-1.svg",
+    "episodes/EP001/panels/final/p1-2.svg",
+    "episodes/EP001/panels/final/p1-3.svg",
+    "episodes/EP001/panels/final/p2-1.svg",
+    "episodes/EP001/panels/final/p2-2.svg",
+    "episodes/EP001/panels/final/p2-3.svg",
+    "episodes/EP001/panels/final/p2-4.svg",
+    "episodes/EP001/panels/final/p3-1.svg",
+    "episodes/EP001/panels/final/p3-2.svg",
+    "episodes/EP001/panels/final/p3-3.svg",
+    "episodes/EP001/panels/final/p4-1.svg",
+    "episodes/EP001/panels/final/p4-2.svg",
+    "episodes/EP001/panels/final/p4-3.svg",
+    "episodes/EP001/panels/final/p4-4.svg",
+    "episodes/EP001/panels/final/p5-1.svg",
+    "episodes/EP001/panels/final/p5-2.svg",
+    "episodes/EP001/panels/final/p5-3.svg",
+    "episodes/EP001/panels/final/p6-1.svg",
+    "episodes/EP001/panels/final/p7-1.svg",
+    "episodes/EP001/panels/final/p7-2.svg",
+    "episodes/EP001/panels/final/p7-3.svg",
+    "episodes/EP001/panels/final/p7-4.svg",
+    "episodes/EP001/panels/final/p8-1.svg",
+    "episodes/EP001/panels/final/p9-1.svg",
+    "episodes/EP001/panels/final/p9-2.svg",
+    "episodes/EP001/panels/final/p9-3.svg",
+    "episodes/EP001/panels/final/p9-4.svg",
+    "episodes/EP001/panels/final/p9-5.svg",
+    "episodes/EP001/panels/final/p9-6.svg",
+    "episodes/EP001/panels/final/p10-1.svg",
+    "episodes/EP001/panels/final/p10-2.svg",
+    "episodes/EP001/panels/final/p10-3.svg",
+    "episodes/EP001/panels/final/p11-1.svg",
+    "episodes/EP001/panels/final/p11-2.svg",
+    "episodes/EP001/panels/final/p11-3.svg",
+    "episodes/EP001/panels/final/p11-4.svg",
+    "episodes/EP001/panels/final/p12-1.svg",
+    "episodes/EP001/panels/final/p12-2.svg",
+    "episodes/EP001/panels/final/p12-3.svg",
+    "episodes/EP001/panels/final/p12-4.svg",
+    "episodes/EP001/panels/final/p13-1.svg",
+    "episodes/EP001/panels/final/p13-2.svg",
+    "episodes/EP001/panels/final/p13-3.svg",
+    "episodes/EP001/panels/final/p13-4.svg",
+    "episodes/EP001/panels/final/p14-1.svg",
+    "episodes/EP001/panels/final/p15-1.svg",
+    "episodes/EP001/panels/final/p15-2.svg",
+    "episodes/EP001/panels/final/p15-3.svg",
+    "episodes/EP001/panels/final/p16-1.svg"
+  ],
+  "prompt_version": "v3-phase5-actual-20260818"
+}

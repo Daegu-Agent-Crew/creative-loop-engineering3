@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="853" height="1844" viewBox="0 0 853 1844">
   <image href="../assets/p9-3.png" x="0" y="0" width="853" height="1844" />
   <g class="overlay overlay-dialogue">
-    <rect x="68" y="111" width="444" height="221" rx="28" fill="#ffffff" fill-opacity="0.96" stroke="#111111" stroke-width="3" />
-    <text text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="44" font-weight="700" fill="#111111"><tspan x="290" y="236">비슷한 행동? 뭔데?</tspan></text>
+    <rect x="43" y="55" width="444" height="277" rx="28" fill="#ffffff" fill-opacity="0.96" stroke="#111111" stroke-width="3" />
+    <text text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="44" font-weight="700" fill="#111111"><tspan x="265" y="208">비슷한 행동? 뭔데?</tspan></text>
   </g>
 </svg>

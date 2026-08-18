@@ -17,6 +17,21 @@
       "generated_at": "2026-07-09"
     },
     {
+      "name": "예페이촨 (叶哲泰)",
+      "role": "예원제의 아버지 — 천체물리학 교수이자 신념의 기준점",
+      "appearance": "1967년 기준 60세 전후의 중국 남성. 높은 이마와 뒤로 물러난 검회색 머리선, 각진 광대, 좁고 단호한 눈, 마른 체형. 짙은 청회색 인민복.",
+      "personality": "육체적 폭력 앞에서도 과학적 진실을 부정하지 않는 조용한 원칙주의자. 예원제의 상실과 이후 선택을 촉발한다.",
+      "style_notes": "Bold clean ink linework, mature angular face, restrained expressions, flat cell-shaded navy-grey palette. Always elderly, slender, and dignified; never childlike or muscular.",
+      "age": "60세 전후 (1967년)",
+      "color_tone": "navy grey / muted skin / cold white spotlight",
+      "image_path": "episodes/EP001/characters/assets/ye-zhetai-v1.png",
+      "generation_status": "approved",
+      "asset_slot": "episodes/EP001/characters/assets/ye-zhetai-v1.png",
+      "source_prompt": "Canonical production sheet for Ye Zhetai: elderly Chinese astrophysics professor, high forehead, receding black-and-grey hairline, angular cheekbones, narrow determined eyes, slender body, dark blue-grey Mao suit, consistent front/three-quarter/profile/expression views, no text.",
+      "model": "gpt-image-2",
+      "generated_at": "2026-08-18"
+    },
+    {
       "name": "청신 (程心)",
       "role": "제3부 주인공 — EP001에서는 노년",
       "appearance": "노년: 60대 중국 여성, 짧은 회색 머리, 둥글고 온화한 얼굴, 크고 슬픈 눈, 마른 체형. 소박한 카디건 또는 숄.",

@@ -43,10 +43,15 @@
               "properties": {
                 "kind": {
                   "type": "string",
-                  "enum": ["dialogue", "caption", "narration", "sfx", "note"]
+                  "enum": ["dialogue", "caption", "narration", "sfx", "note", "title", "screen"]
                 },
                 "text": {
                   "type": "string"
+                },
+                "rotation": {
+                  "type": "number",
+                  "minimum": -360,
+                  "maximum": 360
                 },
                 "box": {
                   "type": "object",

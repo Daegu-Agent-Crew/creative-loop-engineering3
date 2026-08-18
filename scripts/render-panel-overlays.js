@@ -67,35 +67,56 @@ function overlaySvg(overlay, width, height) {
   const w = Math.round(box.w * width);
   const h = Math.round(box.h * height);
   const fontSize = overlay.kind === 'sfx'
-    ? Math.round(height * 0.06)
-    : overlay.kind === 'note'
-      ? Math.round(height * 0.038)
-      : Math.round(height * 0.024);
+    ? Math.round(height * 0.065)
+    : overlay.kind === 'screen'
+      ? Math.round(height * 0.042)
+      : overlay.kind === 'title'
+        ? Math.round(height * 0.045)
+        : overlay.kind === 'note'
+          ? Math.round(height * 0.038)
+          : Math.round(height * 0.024);
   const maxChars = Math.max(6, Math.floor(w / (fontSize * 0.72)));
   const lines = wrapText(overlay.text, maxChars).slice(0, 4);
   const lineHeight = Math.round(fontSize * 1.35);
   const textY = y + Math.round((h - lineHeight * lines.length) / 2) + fontSize;
-  const fill = overlay.kind === 'caption' || overlay.kind === 'narration' ? '#111111' : '#ffffff';
-  const stroke = overlay.kind === 'sfx' ? '#111111' : '#111111';
-  const textFill = overlay.kind === 'caption' || overlay.kind === 'narration' ? '#ffffff' : overlay.kind === 'note' ? '#d14b83' : '#111111';
-  const radius = overlay.kind === 'sfx' ? 12 : 28;
-  const opacity = overlay.kind === 'caption' || overlay.kind === 'narration' ? 0.86 : overlay.kind === 'note' ? 0 : 0.96;
-  const weight = overlay.kind === 'sfx' ? 900 : overlay.kind === 'note' ? 800 : 700;
-  const textAnchor = overlay.kind === 'sfx' ? 'middle' : 'middle';
+  const textOnly = ['note', 'sfx', 'title'].includes(overlay.kind);
+  const darkBox = ['caption', 'narration', 'screen'].includes(overlay.kind);
+  const fill = darkBox ? '#080b10' : '#ffffff';
+  const stroke = overlay.kind === 'screen' ? '#6de8ff' : '#111111';
+  const textFill = overlay.kind === 'screen'
+    ? '#d9fbff'
+    : darkBox || overlay.kind === 'sfx' || overlay.kind === 'title'
+      ? '#ffffff'
+      : overlay.kind === 'note'
+        ? '#171717'
+        : '#111111';
+  const radius = overlay.kind === 'screen' ? 8 : 28;
+  const opacity = overlay.kind === 'screen' ? 0.96 : darkBox ? 0.86 : 0.96;
+  const weight = ['sfx', 'title'].includes(overlay.kind) ? 900 : overlay.kind === 'note' ? 800 : 700;
+  const textAnchor = 'middle';
   const textX = x + Math.round(w / 2);
+  const rotation = Number(overlay.rotation || 0);
+  const transform = rotation ? ` transform="rotate(${rotation} ${textX} ${y + Math.round(h / 2)})"` : '';
   const tspans = lines.map((line, index) => (
     `<tspan x="${textX}" y="${textY + index * lineHeight}">${escapeXml(line)}</tspan>`
   )).join('');
 
-  if (overlay.kind === 'note') {
-    return `<g class="overlay overlay-${overlay.kind}">
-    <text text-anchor="${textAnchor}" font-family="'Apple SD Gothic Neo', 'Nanum Pen Script', cursive" font-size="${fontSize}" font-weight="${weight}" fill="${textFill}" stroke="#ffffff" stroke-width="${Math.max(2, Math.round(width * 0.003))}" paint-order="stroke">${tspans}</text>
+  if (textOnly) {
+    const fontFamily = overlay.kind === 'note'
+      ? "'Apple SD Gothic Neo', 'Nanum Pen Script', cursive"
+      : "'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif";
+    const outline = overlay.kind === 'note' ? '#ffffff' : '#111111';
+    return `<g class="overlay overlay-${overlay.kind}"${transform}>
+    <text text-anchor="${textAnchor}" font-family="${fontFamily}" font-size="${fontSize}" font-weight="${weight}" fill="${textFill}" stroke="${outline}" stroke-width="${Math.max(2, Math.round(width * 0.004))}" paint-order="stroke">${tspans}</text>
   </g>`;
   }
 
-  return `<g class="overlay overlay-${overlay.kind}">
+  const fontFamily = overlay.kind === 'screen'
+    ? "'SFMono-Regular', 'Roboto Mono', 'Noto Sans Mono CJK KR', monospace"
+    : "'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif";
+  return `<g class="overlay overlay-${overlay.kind}"${transform}>
     <rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${radius}" fill="${fill}" fill-opacity="${opacity}" stroke="${stroke}" stroke-width="${Math.max(3, Math.round(width * 0.004))}" />
-    <text text-anchor="${textAnchor}" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="${fontSize}" font-weight="${weight}" fill="${textFill}">${tspans}</text>
+    <text text-anchor="${textAnchor}" font-family="${fontFamily}" font-size="${fontSize}" font-weight="${weight}" fill="${textFill}">${tspans}</text>
   </g>`;
 }
 
@@ -118,9 +139,7 @@ function renderPanel(rootDir, panel, options = {}) {
   return true;
 }
 
-function main() {
-  const args = parseArgs(process.argv);
-  const rootDir = process.cwd();
+function renderEpisode(rootDir, args) {
   const overlayPath = path.join(rootDir, 'episodes', args.episode, 'panels', 'text-overlays.json');
   const overlays = readJson(overlayPath);
   let count = 0;
@@ -128,7 +147,24 @@ function main() {
     if (args.page !== null && panel.page_number !== args.page) continue;
     if (renderPanel(rootDir, panel, { embedSource: args.embedSource })) count += 1;
   }
+  return count;
+}
+
+function main() {
+  const args = parseArgs(process.argv);
+  const rootDir = process.cwd();
+  const count = renderEpisode(rootDir, args);
   console.log(`rendered ${args.episode}: ${count}`);
 }
 
-main();
+module.exports = {
+  escapeXml,
+  overlaySvg,
+  parseArgs,
+  pngSize,
+  renderEpisode,
+  renderPanel,
+  wrapText
+};
+
+if (require.main === module) main();
