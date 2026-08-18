@@ -22,9 +22,10 @@
     "panel_intent": { "type": ["object", "null"] },
     "context": {
       "type": "object",
-      "required": ["source_refs", "canon_assets", "narrative_threads", "continuity", "preferences", "lessons", "constraints"],
+      "required": ["source_refs", "bible", "canon_assets", "narrative_threads", "continuity", "preferences", "lessons", "constraints"],
       "properties": {
         "source_refs": { "type": "array" },
+        "bible": { "type": ["object", "null"] },
         "canon_assets": { "type": "array" },
         "narrative_threads": { "type": "array" },
         "continuity": { "type": "array" },

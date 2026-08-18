@@ -3,6 +3,8 @@
 const fs = require('fs');
 const path = require('path');
 const { resolveReferenceChain } = require('./build-reference-chain');
+const { buildCreationContext } = require('./build-creation-context');
+const { compileCreationRequestCard } = require('./build-creation-request');
 
 function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));
@@ -125,7 +127,7 @@ function candidatePath(episodeId, panelId, iteration, variant) {
   );
 }
 
-function generationCommand(panel, episodeId, iteration, variant, candidateMode, diagnosis, referenceChain) {
+function generationCommand(panel, episodeId, iteration, variant, candidateMode, diagnosis, referenceChain, creationRequest) {
   const outputPath = candidateMode
     ? candidatePath(episodeId, panel.panel_id, iteration, variant)
     : panel.image_path;
@@ -133,6 +135,8 @@ function generationCommand(panel, episodeId, iteration, variant, candidateMode, 
   const imageArgs = references.map((reference) => `-i ${shellQuote(reference)}`).join(' ');
   const prompt = [
     panel.generation_prompt,
+    '',
+    creationRequest.compiled_prompt,
     '',
     '--- CONVERGENCE VARIANT ---',
     `Iteration: ${iteration}`,
@@ -229,7 +233,21 @@ function selectJobs(rootDir, policy, jobsJson, panelsJson, preferenceMemory, opt
       panel_ids: panels.map((panel) => panel.panel_id),
       commands: panels.flatMap((panel) => {
         const candidateMode = options.variants > 1 || options.maxIterations > 1;
-        const referenceChain = resolveReferenceChain(panel, preferenceMemory);
+        const creationContext = buildCreationContext({
+          rootDir,
+          episodeId: panelsJson.episode_id,
+          panelId: panel.panel_id,
+          task: `${panel.panel_id} 이미지 생성`
+        });
+        const creationRequest = compileCreationRequestCard(creationContext);
+        const referenceChain = [...resolveReferenceChain(panel, preferenceMemory)];
+        const knownReferences = new Set(referenceChain.map((item) => item.asset_path));
+        creationRequest.references.forEach((item) => {
+          if (!knownReferences.has(item.asset_path)) {
+            referenceChain.push(item);
+            knownReferences.add(item.asset_path);
+          }
+        });
         const commands = [];
         for (let variant = 1; variant <= options.variants; variant += 1) {
           commands.push({
@@ -247,7 +265,8 @@ function selectJobs(rootDir, policy, jobsJson, panelsJson, preferenceMemory, opt
               : [],
             references_used: referenceChain.map((item) => item.asset_path),
             reference_chain: referenceChain,
-            ...generationCommand(panel, panelsJson.episode_id, options.iteration, variant, candidateMode, options.diagnosis, referenceChain)
+            creation_request: creationRequest,
+            ...generationCommand(panel, panelsJson.episode_id, options.iteration, variant, candidateMode, options.diagnosis, referenceChain, creationRequest)
           });
         }
         return commands;
@@ -319,4 +338,6 @@ function main() {
   }
 }
 
-main();
+if (require.main === module) main();
+
+module.exports = { generationCommand, selectJobs };

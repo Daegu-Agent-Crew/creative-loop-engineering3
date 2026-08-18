@@ -7,6 +7,8 @@ on:
       - 'episodes/EP001/panels/final/**'
       - 'episodes/EP001/panels/assets/**'
       - 'episodes/EP001/exports/**'
+      - 'episodes/EP001/bible/**'
+      - 'reports/CLE3-EP001-Bible-v1.1.docx'
       - '.github/workflows/deploy.yml'
   workflow_dispatch:
 
@@ -36,6 +38,10 @@ jobs:
           cp -R episodes/EP001/panels/assets _site/episodes/EP001/panels/assets
           mkdir -p _site/episodes/EP001/exports
           cp episodes/EP001/exports/cle5-bible-export.json _site/episodes/EP001/exports/cle5-bible-export.json
+          mkdir -p _site/episodes/EP001/bible
+          cp episodes/EP001/bible/bible.json _site/episodes/EP001/bible/bible.json
+          cp episodes/EP001/bible/application-evidence.json _site/episodes/EP001/bible/application-evidence.json
+          cp reports/CLE3-EP001-Bible-v1.1.docx _site/episodes/EP001/bible/CLE3-EP001-Bible-v1.1.docx
       - uses: actions/upload-pages-artifact@v4
         with:
           path: './_site'

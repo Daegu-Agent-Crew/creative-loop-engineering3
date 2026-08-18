@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-18T17:46:26.708Z",
+  "episode_id": "EP001",
+  "bible": {
+    "id": "three-body-ep001-bible",
+    "version": "1.1.0",
+    "status": "approved"
+  },
+  "cards": [
+    {
+      "schema_version": 1,
+      "episode_id": "EP001",
+      "panel_id": "p7-3",
+      "bible": {
+        "id": "three-body-ep001-bible",
+        "version": "1.1.0",
+        "status": "approved"
+      },
+      "dna": {
+        "visual_style": [
+          "굵고 깨끗한 잉크 선",
+          "평면적인 셀 채색",
+          "둥글고 표현적인 캐릭터",
+          "명확한 검은 그림자",
+          "패널마다 서사 목적 하나를 우선하는 구도",
+          "deep blue",
+          "cold grey",
+          "signal red",
+          "warm amber accent",
+          "black shadow"
+        ],
+        "characters": [
+          {
+            "id": "character-yewenjie-v1",
+            "name": "예원제",
+            "immutable_traits": [
+              "1967년 22세",
+              "짧은 검은 단발",
+              "크고 둥근 눈",
+              "마른 체형",
+              "감정을 억제한 자세"
+            ],
+            "outfits": [
+              {
+                "id": "outfit-yewenjie-1967-v1",
+                "label": "1967년 청쑤 대학",
+                "immutable_traits": [
+                  "짙은 파란 인민복 재킷",
+                  "큰 흰 단추",
+                  "흰 셔츠",
+                  "검소한 어두운 신발"
+                ],
+                "evidence_panel_ids": [
+                  "p2-1",
+                  "p3-3",
+                  "p6-1",
+                  "p7-2"
+                ]
+              }
+            ],
+            "expressions": [
+              {
+                "id": "yewenjie-wonder",
+                "label": "순수한 경이",
+                "visual_cues": [
+                  "별빛이 비친 큰 눈",
+                  "작게 올라간 입꼬리",
+                  "열린 자세"
+                ],
+                "evidence_panel_ids": [
+                  "p2-3",
+                  "p3-1"
+                ]
+              },
+              {
+                "id": "yewenjie-shock",
+                "label": "억눌린 충격",
+                "visual_cues": [
+                  "동공 수축",
+                  "입술을 깨묾",
+                  "눈물 없이 굳은 얼굴"
+                ],
+                "evidence_panel_ids": [
+                  "p3-3",
+                  "p4-3",
+                  "p5-3"
+                ]
+              },
+              {
+                "id": "yewenjie-resolve",
+                "label": "차가운 결의",
+                "visual_cues": [
+                  "각진 눈매",
+                  "다문 입",
+                  "움직임을 최소화한 얼굴"
+                ],
+                "evidence_panel_ids": [
+                  "p7-2",
+                  "p7-3"
+                ]
+              }
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "id": "location-radio-tower-v1",
+            "label": "1967년 라디오 망대",
+            "immutable_traits": [
+              "거대한 포물면 안테나",
+              "금속 격자와 좁은 작업대",
+              "아날로그 송신기와 물리 스위치",
+              "인물보다 압도적으로 큰 기계"
+            ],
+            "lighting_states": [
+              "차가운 청색 작업등",
+              "금속 하이라이트",
+              "배경은 거의 검은 우주"
+            ]
+          }
+        ],
+        "props": [
+          {
+            "id": "prop-transmitter-switch-v1",
+            "label": "라디오 송신 스위치",
+            "immutable_traits": [
+              "금속 레버",
+              "아날로그 패널",
+              "차가운 반사광",
+              "한 손으로 올리는 물리적 저항감"
+            ],
+            "narrative_function": "개인의 작은 동작이 우주적 사건을 시작한다."
+          }
+        ],
+        "world_rules": [
+          "모든 관측·통신 장비는 아날로그 기계다.",
+          "대학 공간에는 정치 선전의 붉은색과 낡은 회색 건축이 공존한다.",
+          "예원제의 개인적 상실과 과학적 신념의 붕괴가 시대 폭력 안에서 진행된다."
+        ],
+        "prohibited_changes": [
+          "현대식 디지털 화면이나 스마트 기기를 배치하지 않는다.",
+          "역사적 폭력을 유쾌한 군중 장면으로 약화하지 않는다.",
+          "예원제의 신호 송신 전에 외계 존재를 직접 보여주지 않는다."
+        ]
+      },
+      "state": [],
+      "delta": [
+        "【extreme close-up】 스위치 올리는 손. Toriyama풍: 관절 하얗게 질림 과장, 금속 반사광 하이라이트. 메카닉 디테일."
+      ],
+      "camera": "extreme_close_up",
+      "narrative_function": [
+        "개인의 작은 동작이 우주적 사건을 시작한다."
+      ],
+      "references": [
+        {
+          "asset_path": "episodes/EP001/characters/assets/yewenjie-v1.png",
+          "source": "approved_bible",
+          "anchor_id": "character-yewenjie-v1"
+        },
+        {
+          "asset_path": "episodes/EP001/panels/assets/p7-1.png",
+          "source": "approved_bible",
+          "anchor_id": "location-radio-tower-v1"
+        },
+        {
+          "asset_path": "episodes/EP001/panels/assets/p7-3.png",
+          "source": "approved_bible",
+          "anchor_id": "prop-transmitter-switch-v1"
+        }
+      ],
+      "output_rules": [
+        "이미지 안에 정확한 한글 대사와 자막을 생성하지 않는다.",
+        "대사·자막용 negative space를 남기고 SVG 후처리로 조립한다.",
+        "DNA와 직전 State는 고정하고 해당 패널의 Delta만 변화시킨다.",
+        "인접 컷의 카메라 크기와 각도를 의도적으로 변화시킨다.",
+        "패널 생성 전 대상 인물·장소·소품의 reference asset과 직전 승인 패널을 함께 선택한다.",
+        "고정 DNA, 직전 State, 이번 Delta, Camera, Narrative Function을 분리해 요청한다.",
+        "장소의 구조와 광원은 유지하고 카메라·행동·표정만 필요한 만큼 바꾼다.",
+        "정확한 한글과 숫자는 이미지 생성과 분리하고 SVG 후처리한다.",
+        "새로운 Bible 규칙은 한 번의 생성 결과만으로 approved로 승격하지 않는다.",
+        "gpt-image-2에는 요청당 이미지 한 장만 생성한다.",
+        "원본과 탈락 후보를 덮어쓰지 않고 선택된 결과만 정식 패널로 승격한다.",
+        "Codex가 모든 창작 행동을 수행하더라도 최종 공개는 사람의 Release Approval 이후에만 실행한다."
+      ],
+      "compiled_prompt": "--- CLE3 APPROVED CREATION BIBLE ---\nBible: three-body-ep001-bible v1.1.0 (approved)\nPanel: p7-3\nDNA / visual style: 굵고 깨끗한 잉크 선; 평면적인 셀 채색; 둥글고 표현적인 캐릭터; 명확한 검은 그림자; 패널마다 서사 목적 하나를 우선하는 구도; deep blue; cold grey; signal red; warm amber accent; black shadow\nDNA / character 예원제: 1967년 22세; 짧은 검은 단발; 크고 둥근 눈; 마른 체형; 감정을 억제한 자세\nDNA / outfit 예원제 1967년 청쑤 대학: 짙은 파란 인민복 재킷; 큰 흰 단추; 흰 셔츠; 검소한 어두운 신발\nDNA / expression 예원제 순수한 경이: 별빛이 비친 큰 눈; 작게 올라간 입꼬리; 열린 자세\nDNA / expression 예원제 억눌린 충격: 동공 수축; 입술을 깨묾; 눈물 없이 굳은 얼굴\nDNA / expression 예원제 차가운 결의: 각진 눈매; 다문 입; 움직임을 최소화한 얼굴\nDNA / location 1967년 라디오 망대: 거대한 포물면 안테나; 금속 격자와 좁은 작업대; 아날로그 송신기와 물리 스위치; 인물보다 압도적으로 큰 기계; lighting 차가운 청색 작업등; 금속 하이라이트; 배경은 거의 검은 우주\nDNA / prop 라디오 송신 스위치: 금속 레버; 아날로그 패널; 차가운 반사광; 한 손으로 올리는 물리적 저항감\nWORLD RULE: 모든 관측·통신 장비는 아날로그 기계다.\nWORLD RULE: 대학 공간에는 정치 선전의 붉은색과 낡은 회색 건축이 공존한다.\nWORLD RULE: 예원제의 개인적 상실과 과학적 신념의 붕괴가 시대 폭력 안에서 진행된다.\nDELTA: 【extreme close-up】 스위치 올리는 손. Toriyama풍: 관절 하얗게 질림 과장, 금속 반사광 하이라이트. 메카닉 디테일.\nCAMERA: extreme_close_up\nNARRATIVE FUNCTION: 개인의 작은 동작이 우주적 사건을 시작한다.\nDO NOT CHANGE: 현대식 디지털 화면이나 스마트 기기를 배치하지 않는다.\nDO NOT CHANGE: 역사적 폭력을 유쾌한 군중 장면으로 약화하지 않는다.\nDO NOT CHANGE: 예원제의 신호 송신 전에 외계 존재를 직접 보여주지 않는다.\nOUTPUT RULE: 이미지 안에 정확한 한글 대사와 자막을 생성하지 않는다.\nOUTPUT RULE: 대사·자막용 negative space를 남기고 SVG 후처리로 조립한다.\nOUTPUT RULE: DNA와 직전 State는 고정하고 해당 패널의 Delta만 변화시킨다.\nOUTPUT RULE: 인접 컷의 카메라 크기와 각도를 의도적으로 변화시킨다.\nOUTPUT RULE: 패널 생성 전 대상 인물·장소·소품의 reference asset과 직전 승인 패널을 함께 선택한다.\nOUTPUT RULE: 고정 DNA, 직전 State, 이번 Delta, Camera, Narrative Function을 분리해 요청한다.\nOUTPUT RULE: 장소의 구조와 광원은 유지하고 카메라·행동·표정만 필요한 만큼 바꾼다.\nOUTPUT RULE: 정확한 한글과 숫자는 이미지 생성과 분리하고 SVG 후처리한다.\nOUTPUT RULE: 새로운 Bible 규칙은 한 번의 생성 결과만으로 approved로 승격하지 않는다.\nOUTPUT RULE: gpt-image-2에는 요청당 이미지 한 장만 생성한다.\nOUTPUT RULE: 원본과 탈락 후보를 덮어쓰지 않고 선택된 결과만 정식 패널로 승격한다.\nOUTPUT RULE: Codex가 모든 창작 행동을 수행하더라도 최종 공개는 사람의 Release Approval 이후에만 실행한다."
+    },
+    {
+      "schema_version": 1,
+      "episode_id": "EP001",
+      "panel_id": "p15-3",
+      "bible": {
+        "id": "three-body-ep001-bible",
+        "version": "1.1.0",
+        "status": "approved"
+      },
+      "dna": {
+        "visual_style": [
+          "굵고 깨끗한 잉크 선",
+          "평면적인 셀 채색",
+          "둥글고 표현적인 캐릭터",
+          "명확한 검은 그림자",
+          "패널마다 서사 목적 하나를 우선하는 구도",
+          "deep blue",
+          "cold grey",
+          "signal red",
+          "warm amber accent",
+          "black shadow"
+        ],
+        "characters": [
+          {
+            "id": "character-chengxin-v1",
+            "name": "청신",
+            "immutable_traits": [
+              "60대",
+              "짧은 회색 머리",
+              "둥글고 온화한 얼굴",
+              "크고 슬픈 눈",
+              "마른 체형"
+            ],
+            "outfits": [
+              {
+                "id": "outfit-chengxin-2007-v1",
+                "label": "2007년 일상복",
+                "immutable_traits": [
+                  "소박한 카디건 또는 숄",
+                  "어두운 안쪽 옷",
+                  "장식 없는 단정한 실루엣"
+                ],
+                "evidence_panel_ids": [
+                  "p10-1",
+                  "p12-2",
+                  "p14-1",
+                  "p15-1"
+                ]
+              }
+            ],
+            "expressions": [
+              {
+                "id": "chengxin-regret",
+                "label": "오래된 후회",
+                "visual_cues": [
+                  "시선이 아래로 향함",
+                  "입술에 힘이 없음",
+                  "어깨가 작게 말림"
+                ],
+                "evidence_panel_ids": [
+                  "p10-1",
+                  "p10-2"
+                ]
+              },
+              {
+                "id": "chengxin-shock",
+                "label": "비밀의 붕괴",
+                "visual_cues": [
+                  "동공 확장",
+                  "눈가의 첫 눈물",
+                  "입이 조금 열림"
+                ],
+                "evidence_panel_ids": [
+                  "p11-2",
+                  "p11-3",
+                  "p11-4"
+                ]
+              },
+              {
+                "id": "chengxin-awareness",
+                "label": "공포보다 앞선 자각",
+                "visual_cues": [
+                  "숫자에 고정된 시선",
+                  "굳게 다문 입",
+                  "몸은 멈추고 시선만 움직임"
+                ],
+                "evidence_panel_ids": [
+                  "p12-4",
+                  "p13-2",
+                  "p14-1"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "character-wangmiao-v1",
+            "name": "왕먀오",
+            "immutable_traits": [
+              "30대",
+              "단정한 검은 머리",
+              "큰 뿔테 안경",
+              "마른 체형",
+              "차분한 학자 인상"
+            ],
+            "outfits": [
+              {
+                "id": "outfit-wangmiao-lab-v1",
+                "label": "연구실 복장",
+                "immutable_traits": [
+                  "차분한 청회색 셔츠와 슬랙스",
+                  "필요할 때만 연구실 가운",
+                  "안경 렌즈의 흰 반사"
+                ],
+                "evidence_panel_ids": [
+                  "p15-3"
+                ]
+              }
+            ],
+            "expressions": [
+              {
+                "id": "wangmiao-hidden-tension",
+                "label": "등으로 보이는 긴장",
+                "visual_cues": [
+                  "모니터 앞에서 움직이지 않음",
+                  "어깨가 미세하게 굳음",
+                  "얼굴은 최종 공개 전까지 숨김"
+                ],
+                "evidence_panel_ids": [
+                  "p15-3"
+                ]
+              }
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "id": "location-wangmiao-lab-v1",
+            "label": "왕먀오의 암실 연구실",
+            "immutable_traits": [
+              "문에서 모니터 벽까지 이어지는 깊은 시선축",
+              "여러 보조 모니터",
+              "중앙 메인 모니터",
+              "왕먀오는 중앙 모니터 앞에서 등을 보임"
+            ],
+            "lighting_states": [
+              "보조 모니터만 유일한 광원",
+              "중앙 모니터는 p16 전까지 꺼짐",
+              "차가운 청색과 콘크리트 회색"
+            ]
+          }
+        ],
+        "props": [
+          {
+            "id": "prop-main-monitor-v1",
+            "label": "왕먀오의 중앙 메인 모니터",
+            "immutable_traits": [
+              "보조 모니터보다 큰 중앙 화면",
+              "p15-3에서는 완전히 꺼짐",
+              "p16-1에서만 질문과 게임 선택지가 나타남"
+            ],
+            "narrative_function": "예페이촨의 신념 질문과 세 개 태양 복선을 하나의 클리프행어로 회수한다."
+          }
+        ],
+        "world_rules": [
+          "도시·아파트·경찰서·도서관은 처음에는 평범한 현실로 보인다.",
+          "카운트다운은 전자 화면에 1초가량 침입하며 장소마다 숫자가 동기화되지 않는다.",
+          "청신과 독자가 먼저 이상을 발견하고 주변 행인은 대부분 알아차리지 못한다.",
+          "세 개 태양 그림이 먼저 제시되고 이름은 나중에 삼체문제로 연결된다.",
+          "물리학에 대한 질문은 예페이촨의 신념에서 전화 목소리와 중앙 모니터로 반복된다.",
+          "EP001의 최종 정보는 Three Body 게임 시작 질문까지다."
+        ],
+        "prohibited_changes": [
+          "도시 전체가 처음부터 재난 상태인 것처럼 묘사하지 않는다.",
+          "카운트다운을 모든 사람이 동시에 보는 공공 경보로 바꾸지 않는다.",
+          "숫자의 원인이나 발신자를 EP001 안에서 직접 설명하지 않는다.",
+          "삼체인의 모습이나 목적을 직접 공개하지 않는다.",
+          "세 개 태양의 의미를 p13 이전에 설명하지 않는다.",
+          "p15-3 중앙 모니터에 p16의 문구를 미리 표시하지 않는다.",
+          "왕먀오의 얼굴을 정면으로 노출하지 않는다",
+          "중앙 모니터에 최종 문구를 미리 표시하지 않는다"
+        ]
+      },
+      "state": [
+        "청신.hand: 문고리를 잡고 있다",
+        "청신.emotion: 결의와 두려움",
+        "연구실.door: 닫혀 있다"
+      ],
+      "delta": [
+        "【medium】 문이 열림. 안쪽 — 수많은 모니터, 장비. 왕먀오의 등만 보임. 모니터들이 유일한 광원. 중앙 메인 모니터는 깜깜함.",
+        "연구실.door: 열린다",
+        "왕먀오.visibility: 등이 처음 보인다"
+      ],
+      "camera": "medium",
+      "narrative_function": [
+        "예페이촨의 신념 질문과 세 개 태양 복선을 하나의 클리프행어로 회수한다.",
+        "세 개의 태양과 물리학의 붕괴는 어떻게 연결되는가?",
+        "왕먀오와 꺼진 모니터는 무엇을 기다리고 있는가?"
+      ],
+      "references": [
+        {
+          "asset_path": "episodes/EP001/characters/assets/chengxin-v1.png",
+          "source": "approved_bible",
+          "anchor_id": "character-chengxin-v1"
+        },
+        {
+          "asset_path": "episodes/EP001/characters/assets/wangmiao-v1.png",
+          "source": "approved_bible",
+          "anchor_id": "character-wangmiao-v1"
+        },
+        {
+          "asset_path": "episodes/EP001/panels/assets/p15-3.png",
+          "source": "approved_bible",
+          "anchor_id": "location-wangmiao-lab-v1"
+        },
+        {
+          "asset_path": "episodes/EP001/panels/assets/p15-3.png",
+          "source": "approved_bible",
+          "anchor_id": "prop-main-monitor-v1"
+        }
+      ],
+      "output_rules": [
+        "이미지 안에 정확한 한글 대사와 자막을 생성하지 않는다.",
+        "대사·자막용 negative space를 남기고 SVG 후처리로 조립한다.",
+        "DNA와 직전 State는 고정하고 해당 패널의 Delta만 변화시킨다.",
+        "인접 컷의 카메라 크기와 각도를 의도적으로 변화시킨다.",
+        "패널 생성 전 대상 인물·장소·소품의 reference asset과 직전 승인 패널을 함께 선택한다.",
+        "고정 DNA, 직전 State, 이번 Delta, Camera, Narrative Function을 분리해 요청한다.",
+        "장소의 구조와 광원은 유지하고 카메라·행동·표정만 필요한 만큼 바꾼다.",
+        "정확한 한글과 숫자는 이미지 생성과 분리하고 SVG 후처리한다.",
+        "새로운 Bible 규칙은 한 번의 생성 결과만으로 approved로 승격하지 않는다.",
+        "gpt-image-2에는 요청당 이미지 한 장만 생성한다.",
+        "원본과 탈락 후보를 덮어쓰지 않고 선택된 결과만 정식 패널로 승격한다.",
+        "Codex가 모든 창작 행동을 수행하더라도 최종 공개는 사람의 Release Approval 이후에만 실행한다."
+      ],
+      "compiled_prompt": "--- CLE3 APPROVED CREATION BIBLE ---\nBible: three-body-ep001-bible v1.1.0 (approved)\nPanel: p15-3\nDNA / visual style: 굵고 깨끗한 잉크 선; 평면적인 셀 채색; 둥글고 표현적인 캐릭터; 명확한 검은 그림자; 패널마다 서사 목적 하나를 우선하는 구도; deep blue; cold grey; signal red; warm amber accent; black shadow\nDNA / character 청신: 60대; 짧은 회색 머리; 둥글고 온화한 얼굴; 크고 슬픈 눈; 마른 체형\nDNA / character 왕먀오: 30대; 단정한 검은 머리; 큰 뿔테 안경; 마른 체형; 차분한 학자 인상\nDNA / outfit 청신 2007년 일상복: 소박한 카디건 또는 숄; 어두운 안쪽 옷; 장식 없는 단정한 실루엣\nDNA / outfit 왕먀오 연구실 복장: 차분한 청회색 셔츠와 슬랙스; 필요할 때만 연구실 가운; 안경 렌즈의 흰 반사\nDNA / expression 청신 오래된 후회: 시선이 아래로 향함; 입술에 힘이 없음; 어깨가 작게 말림\nDNA / expression 청신 비밀의 붕괴: 동공 확장; 눈가의 첫 눈물; 입이 조금 열림\nDNA / expression 청신 공포보다 앞선 자각: 숫자에 고정된 시선; 굳게 다문 입; 몸은 멈추고 시선만 움직임\nDNA / expression 왕먀오 등으로 보이는 긴장: 모니터 앞에서 움직이지 않음; 어깨가 미세하게 굳음; 얼굴은 최종 공개 전까지 숨김\nDNA / location 왕먀오의 암실 연구실: 문에서 모니터 벽까지 이어지는 깊은 시선축; 여러 보조 모니터; 중앙 메인 모니터; 왕먀오는 중앙 모니터 앞에서 등을 보임; lighting 보조 모니터만 유일한 광원; 중앙 모니터는 p16 전까지 꺼짐; 차가운 청색과 콘크리트 회색\nDNA / prop 왕먀오의 중앙 메인 모니터: 보조 모니터보다 큰 중앙 화면; p15-3에서는 완전히 꺼짐; p16-1에서만 질문과 게임 선택지가 나타남\nWORLD RULE: 도시·아파트·경찰서·도서관은 처음에는 평범한 현실로 보인다.\nWORLD RULE: 카운트다운은 전자 화면에 1초가량 침입하며 장소마다 숫자가 동기화되지 않는다.\nWORLD RULE: 청신과 독자가 먼저 이상을 발견하고 주변 행인은 대부분 알아차리지 못한다.\nWORLD RULE: 세 개 태양 그림이 먼저 제시되고 이름은 나중에 삼체문제로 연결된다.\nWORLD RULE: 물리학에 대한 질문은 예페이촨의 신념에서 전화 목소리와 중앙 모니터로 반복된다.\nWORLD RULE: EP001의 최종 정보는 Three Body 게임 시작 질문까지다.\nSTATE: 청신.hand: 문고리를 잡고 있다\nSTATE: 청신.emotion: 결의와 두려움\nSTATE: 연구실.door: 닫혀 있다\nDELTA: 【medium】 문이 열림. 안쪽 — 수많은 모니터, 장비. 왕먀오의 등만 보임. 모니터들이 유일한 광원. 중앙 메인 모니터는 깜깜함.\nDELTA: 연구실.door: 열린다\nDELTA: 왕먀오.visibility: 등이 처음 보인다\nCAMERA: medium\nNARRATIVE FUNCTION: 예페이촨의 신념 질문과 세 개 태양 복선을 하나의 클리프행어로 회수한다.\nNARRATIVE FUNCTION: 세 개의 태양과 물리학의 붕괴는 어떻게 연결되는가?\nNARRATIVE FUNCTION: 왕먀오와 꺼진 모니터는 무엇을 기다리고 있는가?\nDO NOT CHANGE: 도시 전체가 처음부터 재난 상태인 것처럼 묘사하지 않는다.\nDO NOT CHANGE: 카운트다운을 모든 사람이 동시에 보는 공공 경보로 바꾸지 않는다.\nDO NOT CHANGE: 숫자의 원인이나 발신자를 EP001 안에서 직접 설명하지 않는다.\nDO NOT CHANGE: 삼체인의 모습이나 목적을 직접 공개하지 않는다.\nDO NOT CHANGE: 세 개 태양의 의미를 p13 이전에 설명하지 않는다.\nDO NOT CHANGE: p15-3 중앙 모니터에 p16의 문구를 미리 표시하지 않는다.\nDO NOT CHANGE: 왕먀오의 얼굴을 정면으로 노출하지 않는다\nDO NOT CHANGE: 중앙 모니터에 최종 문구를 미리 표시하지 않는다\nOUTPUT RULE: 이미지 안에 정확한 한글 대사와 자막을 생성하지 않는다.\nOUTPUT RULE: 대사·자막용 negative space를 남기고 SVG 후처리로 조립한다.\nOUTPUT RULE: DNA와 직전 State는 고정하고 해당 패널의 Delta만 변화시킨다.\nOUTPUT RULE: 인접 컷의 카메라 크기와 각도를 의도적으로 변화시킨다.\nOUTPUT RULE: 패널 생성 전 대상 인물·장소·소품의 reference asset과 직전 승인 패널을 함께 선택한다.\nOUTPUT RULE: 고정 DNA, 직전 State, 이번 Delta, Camera, Narrative Function을 분리해 요청한다.\nOUTPUT RULE: 장소의 구조와 광원은 유지하고 카메라·행동·표정만 필요한 만큼 바꾼다.\nOUTPUT RULE: 정확한 한글과 숫자는 이미지 생성과 분리하고 SVG 후처리한다.\nOUTPUT RULE: 새로운 Bible 규칙은 한 번의 생성 결과만으로 approved로 승격하지 않는다.\nOUTPUT RULE: gpt-image-2에는 요청당 이미지 한 장만 생성한다.\nOUTPUT RULE: 원본과 탈락 후보를 덮어쓰지 않고 선택된 결과만 정식 패널로 승격한다.\nOUTPUT RULE: Codex가 모든 창작 행동을 수행하더라도 최종 공개는 사람의 Release Approval 이후에만 실행한다."
+    }
+  ]
+}

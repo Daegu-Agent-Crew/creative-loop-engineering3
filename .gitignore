@@ -6,3 +6,4 @@ episodes/*/panels/assets/*.psd
 episodes/*/panels/assets/*.clip
 episodes/*/panels/next-generation-plan.json
 .candidates/
+.DS_Store
