@@ -53,12 +53,16 @@
       "id": "release",
       "label": "Release Approval",
       "phase": "phase6",
-      "status": "pending",
+      "status": "approved",
       "blocking": true,
-      "approved_by": null,
-      "approved_at": null,
-      "evidence": [],
-      "notes": "Phase 5 QA 통과 후 사람이 공개 가치를 최종 승인한다."
+      "approved_by": "human",
+      "approved_at": "2026-08-18T02:23:13Z",
+      "evidence": [
+        "episodes/EP001/qa/qa.json",
+        "episodes/EP001/panels/text-overlays.json",
+        "episodes/EP001/memory/creation-memory.json"
+      ],
+      "notes": "Phase 5 QA 43/50 결과를 확인한 사용자가 2026-08-18 대화에서 EP001 공개를 명시적으로 승인했다."
     }
   ]
 }

@@ -1,104 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>EP001: 삼체 게임 — 왕미오의 입장 | CLE3</title>
-<style>
-* { margin:0; padding:0; box-sizing:border-box; }
-body { background:#0a0a1a; color:#c8c8e8; font-family:'Segoe UI','Noto Sans KR',sans-serif; }
-.container { max-width:800px; margin:0 auto; padding:2rem 1rem; }
-h1 { color:#8b7ed8; font-size:1.8rem; margin-bottom:0.5rem; }
-.back { color:#6ba3e8; text-decoration:none; font-size:0.9rem; }
-.meta { color:#555; font-size:0.85rem; margin-bottom:2rem; }
-.page { margin:2rem 0; }
-.page-title { color:#8b7ed8; font-size:1.1rem; margin-bottom:0.8rem; border-bottom:1px solid rgba(100,100,150,0.2); padding-bottom:0.3rem; }
-.panel { background:rgba(20,20,40,0.6); border:1px solid rgba(100,100,150,0.2); border-radius:8px; padding:1rem; margin:0.5rem 0; }
-.panel-id { color:#8b7ed8; font-size:0.8rem; font-weight:bold; }
-.panel-desc { color:#aaaacc; margin:0.3rem 0; }
-.panel-prompt { color:#666; font-size:0.8rem; font-family:monospace; background:rgba(10,10,25,0.5); padding:0.5rem; border-radius:4px; margin-top:0.3rem; }
-.panel-score { display:inline-block; padding:0.1rem 0.4rem; border-radius:3px; font-size:0.75rem; background:rgba(40,167,69,0.2); color:#28a745; }
-.dialogue { margin:0.5rem 0; padding:0.5rem; background:rgba(30,30,60,0.3); border-radius:6px; }
-.dialogue .char { color:#6ba3e8; font-weight:bold; }
-.dialogue .line { color:#c8c8e8; }
-.scene-desc { color:#888; font-style:italic; margin:0.5rem 0; }
-.narration { color:#666; font-style:italic; }
-.placeholder { text-align:center; padding:3rem; color:#444; border:2px dashed rgba(100,100,150,0.2); border-radius:8px; margin:0.5rem 0; }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#090a0f">
+  <title>EP001 태초의 밤 | CLE3</title>
+  <style>
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#090a0f;color:#eee;font-family:"Noto Sans KR","Apple SD Gothic Neo",sans-serif}a{color:#8fdcff}.shell{width:min(100%,1040px);margin:auto;padding:24px 16px 80px}.hero{padding:32px 0 28px;border-bottom:1px solid #292c36}.eyebrow{color:#8fdcff;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase}.hero h1{margin:.35rem 0;font-size:clamp(2rem,7vw,4.3rem);line-height:1}.hero p{max-width:680px;color:#aeb4c4;line-height:1.7}.status{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.badge{border:1px solid #343946;border-radius:999px;padding:7px 11px;color:#cdd3df;font-size:.82rem}.badge.pass{border-color:#2f8d70;color:#7ee4bd}.page{padding-top:44px}.page-head{display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid #242733;margin-bottom:16px}.page h2{font-size:1rem;letter-spacing:.08em}.page-count{color:#71798b;font-size:.78rem}.panels{display:grid;gap:14px}.panel{margin:0;background:#11131a;border:1px solid #242733;border-radius:8px;overflow:hidden}.panel img{display:block;width:100%;height:auto;background:#050608}.panel figcaption{padding:9px 12px;color:#8e96a8;font-size:.75rem}.footer{margin-top:60px;padding-top:24px;border-top:1px solid #242733;color:#777f91;font-size:.82rem;line-height:1.7}@media(min-width:760px){.panels{grid-template-columns:repeat(2,minmax(0,1fr))}.panel:only-child{grid-column:1/-1}.page[data-page="6"] .panel,.page[data-page="8"] .panel,.page[data-page="14"] .panel,.page[data-page="16"] .panel{grid-column:1/-1}}
+  </style>
 </head>
 <body>
-<div class="container">
-  <a href="../../" class="back">← CLE3 홈</a>
-  <h1>EP001: 삼체 게임 — 왕미오의 입장</h1>
-  <div class="meta">[DRY RUN] 더미 데이터 · 프롬프트 v1-dryrun · 삼체문제 1권 1장 기반</div>
-
-  <div class="page">
-    <div class="page-title">페이지 1</div>
-    <div class="scene-desc">황혼의 도시 전경. 낡은 아파트 단지.</div>
-    <div class="narration">1967년, 베이징. 문화대혁명의 한가운데...</div>
-    <div class="panel">
-      <span class="panel-id">Panel 1-1</span> <span class="panel-score">AI 42/50</span>
-      <div class="panel-desc">베이징 도시 파노라마, 붉은 노을</div>
-      <div class="placeholder">🖼️ [DRY RUN] 이미지 placeholder</div>
-      <div class="panel-prompt">watercolor, Beijing cityscape at dusk 1967, red sunset, wide panorama, soft washes</div>
-    </div>
-    <div class="panel">
-      <span class="panel-id">Panel 1-2</span> <span class="panel-score">AI 41/50</span>
-      <div class="panel-desc">골목, 왕미오 걸어감</div>
-      <div class="placeholder">🖼️ [DRY RUN] 이미지 placeholder</div>
-      <div class="panel-prompt">watercolor, young Chinese man walking in narrow alley, 1960s clothing, medium shot</div>
-    </div>
-  </div>
-
-  <div class="page">
-    <div class="page-title">페이지 2</div>
-    <div class="scene-desc">대학 강당. 붉은 깃발.</div>
-    <div class="dialogue"><span class="char">왕미오:</span> <span class="line">"물리학은 진리다. 어떤 정치도 그것을 바꿀 수 없다."</span></div>
-    <div class="dialogue"><span class="char">홍위병1:</span> <span class="line">"그대의 사상은 반동이다!"</span></div>
-    <div class="panel">
-      <span class="panel-id">Panel 2-3</span> <span class="panel-score">AI 43/50</span>
-      <div class="panel-desc">강당 내부, 붉은 깃발들</div>
-      <div class="placeholder">🖼️ [DRY RUN] 이미지 placeholder</div>
-      <div class="panel-prompt">watercolor, university auditorium interior, red flags, Cultural Revolution era</div>
-    </div>
-    <div class="panel">
-      <span class="panel-id">Panel 2-4</span> <span class="panel-score">AI 44/50</span>
-      <div class="panel-desc">왕미오 얼굴 클로즈업, 결의</div>
-      <div class="placeholder">🖼️ [DRY RUN] 이미지 placeholder</div>
-      <div class="panel-prompt">watercolor, close-up of determined Chinese man with glasses, 1960s, resolute expression</div>
-    </div>
-  </div>
-
-  <div class="page">
-    <div class="page-title">페이지 3</div>
-    <div class="scene-desc">비밀 연구실. 컴퓨터 화면에 "삼체" 게임.</div>
-    <div class="narration">그날 밤, 왕미오는 정체불명의 이메일을 받았다.</div>
-    <div class="dialogue"><span class="char">왕미오:</span> <span class="line">"삼체... 무엇을 의미하지?"</span></div>
-    <div class="panel">
-      <span class="panel-id">Panel 3-5</span> <span class="panel-score">AI 40/50</span>
-      <div class="panel-desc">어두운 방, 모니터 빛</div>
-      <div class="placeholder">🖼️ [DRY RUN] 이미지 placeholder</div>
-      <div class="panel-prompt">watercolor, dark room with monitor glow, man at computer, low key lighting</div>
-    </div>
-    <div class="panel">
-      <span class="panel-id">Panel 3-6</span> <span class="panel-score">AI 42/50</span>
-      <div class="panel-desc">모니터 클로즈업, Three Body 텍스트</div>
-      <div class="placeholder">🖼️ [DRY RUN] 이미지 placeholder</div>
-      <div class="panel-prompt">watercolor, extreme close-up of computer screen showing Three Body game</div>
-    </div>
-  </div>
-
-  <div class="page">
-    <div class="page-title">QA 리포트 [DRY RUN]</div>
-    <div class="panel">
-      <div><strong>총점: 42/50</strong> (통과 기준 ≥42)</div>
-      <div>전체 일관성: 9/10 ✅</div>
-      <div>이미지 품질: 8/10 ✅</div>
-      <div>스토리 정합성: 9/10 ✅</div>
-      <div>한글 표기: 8/10 ✅</div>
-      <div>완성도: 8/10 ✅</div>
-    </div>
-  </div>
-</div>
+  <main class="shell">
+    <a href="../../">← CLE3 홈</a>
+    <header class="hero">
+      <div class="eyebrow">Creative Loop Engineering 3 · Episode 001</div>
+      <h1>태초의 밤</h1>
+      <p>세 개의 태양에서 시작된 질문이 40년 뒤 한 물리학자의 모니터로 되돌아오는 16페이지 연재 만화입니다. Character Bible, 상태 연속성, 결정론적 한글 오버레이를 적용한 승인본입니다.</p>
+      <div class="status">
+        <span class="badge pass">Phase 5 PASS · 43/50</span>
+        <span class="badge">16페이지</span>
+        <span class="badge">49패널</span>
+        <span class="badge">Release approved</span>
+      </div>
+    </header>
+    <div id="episode" aria-live="polite"></div>
+    <footer class="footer">
+      모든 대사와 자막은 승인된 원본 이미지 위에 SVG로 결정론적으로 조립됐습니다.<br>
+      <a href="./exports/cle5-bible-export.json">CLE5용 승인 Bible Snapshot JSON</a>
+    </footer>
+  </main>
+  <script>
+    const pages = [
+      ['p1-1','p1-2','p1-3'],
+      ['p2-1','p2-2','p2-3','p2-4'],
+      ['p3-1','p3-2','p3-3'],
+      ['p4-1','p4-2','p4-3','p4-4'],
+      ['p5-1','p5-2','p5-3'],
+      ['p6-1'],
+      ['p7-1','p7-2','p7-3','p7-4'],
+      ['p8-1'],
+      ['p9-1','p9-2','p9-3','p9-4','p9-5','p9-6'],
+      ['p10-1','p10-2','p10-3'],
+      ['p11-1','p11-2','p11-3','p11-4'],
+      ['p12-1','p12-2','p12-3','p12-4'],
+      ['p13-1','p13-2','p13-3','p13-4'],
+      ['p14-1'],
+      ['p15-1','p15-2','p15-3'],
+      ['p16-1']
+    ];
+    const root = document.querySelector('#episode');
+    pages.forEach((panelIds,index)=>{
+      const section=document.createElement('section');
+      section.className='page';section.dataset.page=String(index+1);
+      section.innerHTML=`<div class="page-head"><h2>PAGE ${String(index+1).padStart(2,'0')}</h2><span class="page-count">${panelIds.length} PANEL${panelIds.length>1?'S':''}</span></div><div class="panels"></div>`;
+      const grid=section.querySelector('.panels');
+      panelIds.forEach(id=>{
+        const figure=document.createElement('figure');figure.className='panel';
+        figure.innerHTML=`<img src="./panels/final/${id}.svg" alt="EP001 ${id}" loading="lazy" decoding="async"><figcaption>${id.toUpperCase()}</figcaption>`;
+        grid.appendChild(figure);
+      });
+      root.appendChild(section);
+    });
+  </script>
 </body>
 </html>

@@ -1,0 +1,53 @@
+{
+  "format": "CLE5_BIBLE_EXPORT_V1",
+  "id": "three-body-ep001",
+  "title": "삼체 EP001 태초의 밤 Visual Bible",
+  "version": "1.0.0",
+  "approval": {
+    "status": "approved",
+    "approvedAt": "2026-08-18T02:23:13Z",
+    "approvedBy": "human",
+    "evidence": "episodes/EP001/approvals/gates.json#release"
+  },
+  "assets": [
+    {
+      "id": "style-dr-slump-toriyama-v1",
+      "label": "EP001 시각 스타일",
+      "kind": "visual_style",
+      "version": "1",
+      "immutableTraits": ["굵고 깨끗한 잉크 선", "평면적인 셀 채색", "둥글고 표현적인 캐릭터", "명확한 검은 그림자"],
+      "assetUrl": "",
+      "evidence": "CLE3 creation-memory approved snapshot"
+    },
+    {
+      "id": "character-chengxin-v1",
+      "label": "청신",
+      "kind": "character",
+      "version": "1",
+      "immutableTraits": ["60대", "짧은 회색 머리", "둥글고 온화한 얼굴", "마른 체형", "소박한 카디건 또는 숄"],
+      "assetUrl": "./assets/comic/ep001/chengxin-v1.png",
+      "sourceAssetPath": "episodes/EP001/characters/assets/chengxin-v1.png",
+      "evidence": "CLE3 approved Character Bible"
+    },
+    {
+      "id": "character-wangmiao-v1",
+      "label": "왕먀오",
+      "kind": "character",
+      "version": "1",
+      "immutableTraits": ["30대", "큰 뿔테 안경", "단정한 머리", "마른 체형", "차분한 학자 인상"],
+      "assetUrl": "./assets/comic/ep001/wangmiao-v1.png",
+      "sourceAssetPath": "episodes/EP001/characters/assets/wangmiao-v1.png",
+      "evidence": "CLE3 approved Character Bible"
+    },
+    {
+      "id": "character-ye-zhetai-v1",
+      "label": "예페이촨",
+      "kind": "character",
+      "version": "1",
+      "immutableTraits": ["60대", "높은 이마와 뒤로 물러난 흑회색 머리", "마른 체형", "각진 광대와 깊은 눈매", "짙은 남색 중산복"],
+      "assetUrl": "./assets/comic/ep001/ye-zhetai-v1.png",
+      "sourceAssetPath": "episodes/EP001/characters/assets/ye-zhetai-v1.png",
+      "evidence": "CLE3 approved Character Bible and p4-2→p5-2 continuity fix"
+    }
+  ]
+}

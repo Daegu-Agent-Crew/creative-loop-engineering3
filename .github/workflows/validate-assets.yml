@@ -11,8 +11,11 @@ on:
       - 'scripts/run-panel-jobs.js'
       - 'scripts/init-episode-governance.js'
       - 'scripts/build-creation-context.js'
+      - 'scripts/render-panel-overlays.js'
+      - 'scripts/validate-episode-output.js'
       - 'scripts/validate-episode-governance.js'
       - 'tests/creation-context.test.js'
+      - 'tests/render-panel-overlays.test.js'
       - 'scripts/check-panel-assets.js'
   push:
     branches: [main]
@@ -25,8 +28,11 @@ on:
       - 'scripts/run-panel-jobs.js'
       - 'scripts/init-episode-governance.js'
       - 'scripts/build-creation-context.js'
+      - 'scripts/render-panel-overlays.js'
+      - 'scripts/validate-episode-output.js'
       - 'scripts/validate-episode-governance.js'
       - 'tests/creation-context.test.js'
+      - 'tests/render-panel-overlays.test.js'
       - 'scripts/check-panel-assets.js'
 
 jobs:
@@ -43,5 +49,7 @@ jobs:
         run: node scripts/check-panel-assets.js
       - name: Validate episode discovery, decisions, and approvals
         run: node scripts/validate-episode-governance.js
+      - name: Validate episode output manifests and release assets
+        run: node scripts/validate-episode-output.js EP001
       - name: Test creation memory context compiler
-        run: node --test tests/creation-context.test.js
+        run: node --test tests/*.test.js

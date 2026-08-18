@@ -1,11 +1,11 @@
 {
   "current_episode": "EP001",
-  "current_phase": "phase4_panels",
+  "current_phase": "phase6_release",
   "episodes": {
     "EP001": {
       "title": "태초의 밤",
-      "status": "in_progress",
-      "current_phase": "phase4_panels",
+      "status": "completed",
+      "current_phase": "phase6_release",
       "phases": {
         "phase0": {
           "status": "completed",
@@ -41,15 +41,19 @@
           "note": "v3 스토리(16p) 기준 재작성. 49패널, 닥터슬럼프풍."
         },
         "phase4": {
-          "status": "active",
+          "status": "completed",
           "prompt_version": "v3-convergence",
-          "note": "원본 이미지 49/49 생성. 대사 오버레이 매니페스트와 SVG 최종본 49/49 렌더링(32개 자동 추출 텍스트는 draft 검토 대기), QA 승인 집계는 별도 관리. CLE2-20 후보 비교 파일럿 준비 완료."
+          "note": "원본 이미지 49/49 생성. 자동 추출 텍스트 draft 31개 검토 완료, SVG 최종본 49/49 렌더링. 예페이촨 Character Bible 추가 후 p4-2, p5-1, p5-2 연속성 교정. CLE2-20 후보 비교 파일럿은 사람 선택 대기."
         },
         "phase5": {
-          "status": "pending"
+          "status": "completed",
+          "score": 43,
+          "prompt_version": "v3-phase5-actual-20260818",
+          "note": "49개 최종 SVG, 스토리 정합성, 텍스트 오버레이, 핵심 인물 연속성을 실제 산출물 기준으로 검사해 통과."
         },
         "phase6": {
-          "status": "pending"
+          "status": "completed",
+          "note": "사람의 최종 공개 승인 완료. 49패널 공개 뷰어, CLE5 Bible export, Pages 배포 패키지와 검증 게이트 구성."
         }
       }
     },
@@ -256,5 +260,5 @@
       "previous_score": 45
     }
   ],
-  "last_updated": "2026-08-18T00:00:00Z"
+  "last_updated": "2026-08-18T02:23:13Z"
 }
