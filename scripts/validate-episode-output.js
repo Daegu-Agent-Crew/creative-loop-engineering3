@@ -89,6 +89,30 @@ function main() {
     if (asset.sourceAssetPath) assertRepoFile(rootDir, asset.sourceAssetPath, `Bible export ${asset.id} source`);
   }
 
+  const seriesBiblePath = `${prefix}/bible/bible.json`;
+  assertRepoFile(rootDir, seriesBiblePath, 'CLE3 series Bible');
+  const seriesBible = readJson(rootDir, seriesBiblePath);
+  assert(seriesBible.episode_id === episodeId, 'series Bible episode mismatch');
+  assert(seriesBible.status === 'approved', 'series Bible is not approved');
+  assertRepoFile(rootDir, seriesBible.approval_evidence, 'series Bible approval evidence');
+  assert(Array.isArray(seriesBible.world_rules) && seriesBible.world_rules.length >= 3, 'series Bible world coverage is incomplete');
+  assert(Array.isArray(seriesBible.characters) && seriesBible.characters.length >= 5, 'series Bible character coverage is incomplete');
+  assert(Array.isArray(seriesBible.locations) && seriesBible.locations.length >= 5, 'series Bible location coverage is incomplete');
+  assert(Array.isArray(seriesBible.props) && seriesBible.props.length >= 5, 'series Bible prop coverage is incomplete');
+  for (const character of seriesBible.characters) assertRepoFile(rootDir, character.reference_asset, `series Bible ${character.id}`);
+  for (const item of [...seriesBible.locations, ...seriesBible.props]) assertRepoFile(rootDir, item.anchor_asset, `series Bible ${item.id}`);
+
+  const applicationEvidence = readJson(rootDir, seriesBible.approval_evidence);
+  assert(applicationEvidence.bible?.version === seriesBible.version, 'Bible application evidence version mismatch');
+  assert(Array.isArray(applicationEvidence.cards) && applicationEvidence.cards.length >= 2, 'Bible application evidence requires at least two creation cards');
+  for (const card of applicationEvidence.cards) {
+    assert(card.bible?.status === 'approved', `${card.panel_id}: creation card Bible is not approved`);
+    assert(card.compiled_prompt?.includes('CLE3 APPROVED CREATION BIBLE'), `${card.panel_id}: compiled Bible prompt missing`);
+    assert(Array.isArray(card.references) && card.references.length > 0, `${card.panel_id}: approved Bible references missing`);
+  }
+
+  assertRepoFile(rootDir, 'reports/CLE3-EP001-Bible-v1.1.docx', 'Bible visual report');
+
   const viewerPath = `docs/episodes/${episodeId}/index.html`;
   assertRepoFile(rootDir, viewerPath, 'public viewer');
   const viewer = fs.readFileSync(path.join(rootDir, viewerPath), 'utf8');
@@ -97,7 +121,7 @@ function main() {
     assert(viewer.includes(`'${panel.panel_id}'`), `public viewer is missing ${panel.panel_id}`);
   }
 
-  console.log(`episode output ok: ${episodeId}, ${panels.panels.length} panels, QA ${qa.overall_score}/50, ${bibleExport.assets.length} Bible assets`);
+  console.log(`episode output ok: ${episodeId}, ${panels.panels.length} panels, QA ${qa.overall_score}/50, ${bibleExport.assets.length} exported + ${seriesBible.locations.length} location + ${seriesBible.props.length} prop Bible assets`);
 }
 
 if (require.main === module) main();

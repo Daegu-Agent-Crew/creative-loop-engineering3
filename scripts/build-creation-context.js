@@ -99,6 +99,51 @@ function validateCreationMemory(memory, rootDir, options = {}) {
   return failures;
 }
 
+function validateSeriesBible(bible, rootDir, options = {}) {
+  const checkPaths = options.checkPaths !== false;
+  const failures = [];
+  if (!bible || typeof bible !== 'object') return ['series bible must be an object'];
+  if (bible.schema_version !== 1) failures.push('schema_version must be 1');
+  if (!/^EP\d{3}$/.test(bible.episode_id || '')) failures.push('episode_id must match EP###');
+  if (!bible.id || !bible.version) failures.push('id and version are required');
+  if (!['provisional', 'approved', 'retired'].includes(bible.status)) failures.push('status is invalid');
+  ['world_rules', 'characters', 'locations', 'props', 'continuity_rules'].forEach((key) => {
+    if (!Array.isArray(bible[key])) failures.push(`${key} must be an array`);
+  });
+  if (!bible.visual_style || typeof bible.visual_style !== 'object') failures.push('visual_style is required');
+
+  ['world_rules', 'characters', 'locations', 'props'].forEach((key) => {
+    const ids = new Set();
+    (bible[key] || []).forEach((entry, index) => {
+      if (!entry?.id) failures.push(`${key}[${index}].id is required`);
+      else if (ids.has(entry.id)) failures.push(`${key}: duplicate id ${entry.id}`);
+      else ids.add(entry.id);
+      if (!['provisional', 'approved', 'retired'].includes(entry?.status)) failures.push(`${key}.${entry?.id || index}: status is invalid`);
+    });
+  });
+
+  if (checkPaths) {
+    const paths = [];
+    (bible.visual_style?.evidence_paths || []).forEach((value) => paths.push({ label: 'visual_style.evidence', path: value }));
+    (bible.world_rules || []).forEach((item) => {
+      (item.evidence_paths || []).forEach((value) => paths.push({ label: `world_rules.${item.id}.evidence`, path: value }));
+    });
+    (bible.characters || []).forEach((item) => {
+      paths.push({ label: `characters.${item.id}.reference_asset`, path: item.reference_asset });
+      (item.evidence_paths || []).forEach((value) => paths.push({ label: `characters.${item.id}.evidence`, path: value }));
+    });
+    [...(bible.locations || []), ...(bible.props || [])].forEach((item) => {
+      paths.push({ label: `${item.id}.anchor_asset`, path: item.anchor_asset });
+      (item.evidence_paths || []).forEach((value) => paths.push({ label: `${item.id}.evidence`, path: value }));
+    });
+    paths.forEach((item) => {
+      if (!isSafeRepoPath(rootDir, item.path)) failures.push(`${item.label}: path must stay inside the repository (${item.path || '-'})`);
+      else if (!fs.existsSync(path.join(rootDir, item.path))) failures.push(`${item.label}: missing path ${item.path}`);
+    });
+  }
+  return failures;
+}
+
 function scopeMatches(scope, target) {
   const safeScope = scope || { characters: [], panel_ids: [], tags: [] };
   const scopedCharacters = (safeScope.characters || []).map(normalizeName);
@@ -136,6 +181,12 @@ function buildCreationContext(options) {
 
   const panels = readOptionalJson(path.join(episodeDir, 'panels', 'panels.json'), { panels: [] });
   const storyboard = readOptionalJson(path.join(episodeDir, 'storyboard', 'storyboard.json'), { pages: [] });
+  const bible = readOptionalJson(path.join(episodeDir, 'bible', 'bible.json'), null);
+  if (bible) {
+    validateSeriesBible(bible, rootDir).forEach((failure) => failures.push(`series bible: ${failure}`));
+    if (bible.episode_id !== episodeId) failures.push(`series bible episode_id does not match ${episodeId}`);
+  }
+  if (failures.length) throw new Error(`invalid creation context sources:\n- ${failures.join('\n- ')}`);
   const discovery = readOptionalJson(path.join(episodeDir, 'discovery', 'context.json'), {});
   const approvals = readOptionalJson(path.join(episodeDir, 'approvals', 'gates.json'), { gates: [] });
   const panelId = options.panelId || memory.handoff.target_panel_id || null;
@@ -164,6 +215,21 @@ function buildCreationContext(options) {
     ? (memory.continuity || []).filter((item) => item.to_panel_id === panelId || item.from_panel_id === panelId)
     : [];
 
+  const bibleContext = bible ? {
+    id: bible.id,
+    version: bible.version,
+    status: bible.status,
+    visual_style: bible.visual_style,
+    world_rules: (bible.world_rules || []).filter((item) => (!panelId || (item.panel_ids || []).includes(panelId)) && item.status !== 'retired'),
+    characters: (bible.characters || []).filter((item) => {
+      if (!panelId) return item.status !== 'retired';
+      return characters.map(normalizeName).includes(normalizeName(item.name)) && item.status !== 'retired';
+    }),
+    locations: (bible.locations || []).filter((item) => (!panelId || (item.panel_ids || []).includes(panelId)) && item.status !== 'retired'),
+    props: (bible.props || []).filter((item) => (!panelId || (item.panel_ids || []).includes(panelId)) && item.status !== 'retired'),
+    continuity_rules: bible.continuity_rules || []
+  } : null;
+
   const sourceRefs = memory.source_refs || [];
   const panelIntent = panel || storyboardMatch ? {
     panel_id: panelId,
@@ -190,6 +256,12 @@ function buildCreationContext(options) {
   ].forEach(([key, selected]) => {
     omittedCounts[key] = Math.max(0, (memory[key] || []).length - selected.length);
   });
+  if (bibleContext) {
+    omittedCounts.bible_world_rules = Math.max(0, (bible.world_rules || []).length - bibleContext.world_rules.length);
+    omittedCounts.bible_characters = Math.max(0, (bible.characters || []).length - bibleContext.characters.length);
+    omittedCounts.bible_locations = Math.max(0, (bible.locations || []).length - bibleContext.locations.length);
+    omittedCounts.bible_props = Math.max(0, (bible.props || []).length - bibleContext.props.length);
+  }
 
   return {
     schema_version: 1,
@@ -209,6 +281,7 @@ function buildCreationContext(options) {
     panel_intent: panelIntent,
     context: {
       source_refs: sourceRefs,
+      bible: bibleContext,
       canon_assets: canonAssets,
       narrative_threads: narrativeThreads,
       continuity,
@@ -277,5 +350,6 @@ module.exports = {
   isSafeRepoPath,
   normalizeName,
   scopeMatches,
+  validateSeriesBible,
   validateCreationMemory
 };

@@ -1,0 +1,283 @@
+{
+  "$schema": "../../../schemas/series-bible.schema.json",
+  "schema_version": 1,
+  "id": "three-body-ep001-bible",
+  "episode_id": "EP001",
+  "version": "1.1.0",
+  "status": "approved",
+  "updated_at": "2026-08-19T18:00:00+09:00",
+  "approval_evidence": "episodes/EP001/bible/application-evidence.json",
+  "visual_style": {
+    "id": "style-cle3-ep001-v1",
+    "status": "approved",
+    "immutable_traits": [
+      "굵고 깨끗한 잉크 선",
+      "평면적인 셀 채색",
+      "둥글고 표현적인 캐릭터",
+      "명확한 검은 그림자",
+      "패널마다 서사 목적 하나를 우선하는 구도"
+    ],
+    "palette": ["deep blue", "cold grey", "signal red", "warm amber accent", "black shadow"],
+    "rendering_rules": [
+      "이미지 안에 정확한 한글 대사와 자막을 생성하지 않는다.",
+      "대사·자막용 negative space를 남기고 SVG 후처리로 조립한다.",
+      "DNA와 직전 State는 고정하고 해당 패널의 Delta만 변화시킨다.",
+      "인접 컷의 카메라 크기와 각도를 의도적으로 변화시킨다."
+    ],
+    "evidence_paths": ["AGENTS.md", "prompts/image/v2.md", "episodes/EP001/qa/qa.json"]
+  },
+  "world_rules": [
+    {
+      "id": "world-1967-analog-china-v1",
+      "label": "1967년 청쑤 대학과 문화대혁명기",
+      "status": "approved",
+      "immutable_facts": ["모든 관측·통신 장비는 아날로그 기계다.", "대학 공간에는 정치 선전의 붉은색과 낡은 회색 건축이 공존한다.", "예원제의 개인적 상실과 과학적 신념의 붕괴가 시대 폭력 안에서 진행된다."],
+      "prohibited_changes": ["현대식 디지털 화면이나 스마트 기기를 배치하지 않는다.", "역사적 폭력을 유쾌한 군중 장면으로 약화하지 않는다.", "예원제의 신호 송신 전에 외계 존재를 직접 보여주지 않는다."],
+      "panel_ids": ["p2-1", "p2-2", "p2-3", "p2-4", "p3-1", "p3-2", "p3-3", "p4-1", "p4-2", "p4-3", "p4-4", "p5-1", "p5-2", "p5-3", "p6-1", "p7-1", "p7-2", "p7-3", "p7-4"],
+      "evidence_paths": ["episodes/EP001/script/script.json", "episodes/EP001/story/scenes.md"]
+    },
+    {
+      "id": "world-2007-normality-infection-v1",
+      "label": "2007년 일상에 침입하는 카운트다운",
+      "status": "approved",
+      "immutable_facts": ["도시·아파트·경찰서·도서관은 처음에는 평범한 현실로 보인다.", "카운트다운은 전자 화면에 1초가량 침입하며 장소마다 숫자가 동기화되지 않는다.", "청신과 독자가 먼저 이상을 발견하고 주변 행인은 대부분 알아차리지 못한다."],
+      "prohibited_changes": ["도시 전체가 처음부터 재난 상태인 것처럼 묘사하지 않는다.", "카운트다운을 모든 사람이 동시에 보는 공공 경보로 바꾸지 않는다.", "숫자의 원인이나 발신자를 EP001 안에서 직접 설명하지 않는다."],
+      "panel_ids": ["p8-1", "p9-1", "p9-2", "p9-3", "p9-4", "p9-5", "p9-6", "p10-1", "p10-2", "p10-3", "p11-1", "p11-2", "p11-3", "p11-4", "p12-1", "p12-2", "p12-3", "p12-4", "p13-1", "p13-2", "p13-3", "p13-4", "p14-1", "p15-1", "p15-2", "p15-3", "p16-1"],
+      "evidence_paths": ["episodes/EP001/script/script.json", "episodes/EP001/panels/assets/p13-4.png", "episodes/EP001/panels/assets/p14-1.png"]
+    },
+    {
+      "id": "world-mystery-disclosure-v1",
+      "label": "삼체 미스터리 공개 순서",
+      "status": "approved",
+      "immutable_facts": ["세 개 태양 그림이 먼저 제시되고 이름은 나중에 삼체문제로 연결된다.", "물리학에 대한 질문은 예페이촨의 신념에서 전화 목소리와 중앙 모니터로 반복된다.", "EP001의 최종 정보는 Three Body 게임 시작 질문까지다."],
+      "prohibited_changes": ["삼체인의 모습이나 목적을 직접 공개하지 않는다.", "세 개 태양의 의미를 p13 이전에 설명하지 않는다.", "p15-3 중앙 모니터에 p16의 문구를 미리 표시하지 않는다."],
+      "panel_ids": ["p1-1", "p5-1", "p7-4", "p9-5", "p11-4", "p13-1", "p15-3", "p16-1"],
+      "evidence_paths": ["episodes/EP001/script/script.json", "episodes/EP001/storyboard/storyboard.json", "episodes/EP001/panels/final/p16-1.svg"]
+    }
+  ],
+  "characters": [
+    {
+      "id": "character-yewenjie-v1",
+      "name": "예원제",
+      "status": "approved",
+      "reference_asset": "episodes/EP001/characters/assets/yewenjie-v1.png",
+      "immutable_traits": ["1967년 22세", "짧은 검은 단발", "크고 둥근 눈", "마른 체형", "감정을 억제한 자세"],
+      "outfits": [
+        { "id": "outfit-yewenjie-1967-v1", "label": "1967년 청쑤 대학", "immutable_traits": ["짙은 파란 인민복 재킷", "큰 흰 단추", "흰 셔츠", "검소한 어두운 신발"], "evidence_panel_ids": ["p2-1", "p3-3", "p6-1", "p7-2"] }
+      ],
+      "expressions": [
+        { "id": "yewenjie-wonder", "label": "순수한 경이", "visual_cues": ["별빛이 비친 큰 눈", "작게 올라간 입꼬리", "열린 자세"], "evidence_panel_ids": ["p2-3", "p3-1"] },
+        { "id": "yewenjie-shock", "label": "억눌린 충격", "visual_cues": ["동공 수축", "입술을 깨묾", "눈물 없이 굳은 얼굴"], "evidence_panel_ids": ["p3-3", "p4-3", "p5-3"] },
+        { "id": "yewenjie-resolve", "label": "차가운 결의", "visual_cues": ["각진 눈매", "다문 입", "움직임을 최소화한 얼굴"], "evidence_panel_ids": ["p7-2", "p7-3"] }
+      ],
+      "evidence_paths": ["episodes/EP001/characters/characters.json", "episodes/EP001/characters/assets/yewenjie-v1.png"]
+    },
+    {
+      "id": "character-ye-zhetai-v1",
+      "name": "예페이촨",
+      "status": "approved",
+      "reference_asset": "episodes/EP001/characters/assets/ye-zhetai-v1.png",
+      "immutable_traits": ["60대", "높은 이마와 물러난 흑회색 머리", "각진 광대", "깊고 좁은 눈", "마른 체형"],
+      "outfits": [
+        { "id": "outfit-ye-zhetai-criticism-v1", "label": "비판대 의상", "immutable_traits": ["짙은 남색 중산복", "목에 건 명찰", "오른쪽 이마 상처"], "evidence_panel_ids": ["p4-2", "p5-1", "p5-2"] }
+      ],
+      "expressions": [
+        { "id": "ye-zhetai-defiance", "label": "고통 속 신념", "visual_cues": ["고개를 천천히 듦", "좁고 흔들리지 않는 눈", "힘을 뺀 입"], "evidence_panel_ids": ["p5-1"] }
+      ],
+      "evidence_paths": ["episodes/EP001/characters/characters.json", "episodes/EP001/characters/assets/ye-zhetai-v1.png", "episodes/EP001/panels/assets/p5-1-v2.png"]
+    },
+    {
+      "id": "character-chengxin-v1",
+      "name": "청신",
+      "status": "approved",
+      "reference_asset": "episodes/EP001/characters/assets/chengxin-v1.png",
+      "immutable_traits": ["60대", "짧은 회색 머리", "둥글고 온화한 얼굴", "크고 슬픈 눈", "마른 체형"],
+      "outfits": [
+        { "id": "outfit-chengxin-2007-v1", "label": "2007년 일상복", "immutable_traits": ["소박한 카디건 또는 숄", "어두운 안쪽 옷", "장식 없는 단정한 실루엣"], "evidence_panel_ids": ["p10-1", "p12-2", "p14-1", "p15-1"] }
+      ],
+      "expressions": [
+        { "id": "chengxin-regret", "label": "오래된 후회", "visual_cues": ["시선이 아래로 향함", "입술에 힘이 없음", "어깨가 작게 말림"], "evidence_panel_ids": ["p10-1", "p10-2"] },
+        { "id": "chengxin-shock", "label": "비밀의 붕괴", "visual_cues": ["동공 확장", "눈가의 첫 눈물", "입이 조금 열림"], "evidence_panel_ids": ["p11-2", "p11-3", "p11-4"] },
+        { "id": "chengxin-awareness", "label": "공포보다 앞선 자각", "visual_cues": ["숫자에 고정된 시선", "굳게 다문 입", "몸은 멈추고 시선만 움직임"], "evidence_panel_ids": ["p12-4", "p13-2", "p14-1"] }
+      ],
+      "evidence_paths": ["episodes/EP001/characters/characters.json", "episodes/EP001/characters/assets/chengxin-v1.png"]
+    },
+    {
+      "id": "character-shiqiang-v1",
+      "name": "스치친",
+      "status": "approved",
+      "reference_asset": "episodes/EP001/characters/assets/shiqiang-v1.png",
+      "immutable_traits": ["40대", "헝클어진 검은 머리", "무거운 수염", "피곤한 좁은 눈", "묵직한 체형", "담배"],
+      "outfits": [
+        { "id": "outfit-shiqiang-2007-v1", "label": "형사 일상복", "immutable_traits": ["더러운 열린 흰 셔츠", "낡은 올리브색 작업복 재킷", "헐렁한 바지", "닳은 부츠"], "evidence_panel_ids": ["p9-1", "p9-2", "p9-4"] }
+      ],
+      "expressions": [
+        { "id": "shiqiang-weary", "label": "피곤한 무심함", "visual_cues": ["무거운 눈꺼풀", "구부정한 자세", "담배 연기 뒤의 작은 눈"], "evidence_panel_ids": ["p9-1", "p9-2"] },
+        { "id": "shiqiang-serious", "label": "직감이 작동하는 순간", "visual_cues": ["눈썹이 낮아짐", "시선이 정면에 고정", "입꼬리의 농담기가 사라짐"], "evidence_panel_ids": ["p9-4"] }
+      ],
+      "evidence_paths": ["episodes/EP001/characters/characters.json", "episodes/EP001/characters/assets/shiqiang-v1.png"]
+    },
+    {
+      "id": "character-wangmiao-v1",
+      "name": "왕먀오",
+      "status": "approved",
+      "reference_asset": "episodes/EP001/characters/assets/wangmiao-v1.png",
+      "immutable_traits": ["30대", "단정한 검은 머리", "큰 뿔테 안경", "마른 체형", "차분한 학자 인상"],
+      "outfits": [
+        { "id": "outfit-wangmiao-lab-v1", "label": "연구실 복장", "immutable_traits": ["차분한 청회색 셔츠와 슬랙스", "필요할 때만 연구실 가운", "안경 렌즈의 흰 반사"], "evidence_panel_ids": ["p15-3"] }
+      ],
+      "expressions": [
+        { "id": "wangmiao-hidden-tension", "label": "등으로 보이는 긴장", "visual_cues": ["모니터 앞에서 움직이지 않음", "어깨가 미세하게 굳음", "얼굴은 최종 공개 전까지 숨김"], "evidence_panel_ids": ["p15-3"] }
+      ],
+      "evidence_paths": ["episodes/EP001/characters/characters.json", "episodes/EP001/characters/assets/wangmiao-v1.png"]
+    }
+  ],
+  "locations": [
+    {
+      "id": "location-yangdong-lab-v1",
+      "label": "양동의 대학 연구실",
+      "status": "approved",
+      "era": "2007년 새벽",
+      "anchor_asset": "episodes/EP001/panels/assets/p1-2.png",
+      "immutable_traits": ["차가운 백색 형광등", "열린 창문과 흔들리는 커튼", "관측 노트가 놓인 책상", "따뜻한 물체가 이질적으로 보이는 저채도 공간"],
+      "lighting_states": ["불쾌할 정도로 밝은 실내", "창밖은 어두운 새벽"],
+      "panel_ids": ["p1-1", "p1-2", "p1-3"],
+      "evidence_paths": ["episodes/EP001/panels/assets/p1-2.png", "episodes/EP001/story/scenes.md"]
+    },
+    {
+      "id": "location-campus-rooftop-v1",
+      "label": "1967년 청쑤 대학 옥상",
+      "status": "approved",
+      "era": "1967년 깊은 밤",
+      "anchor_asset": "episodes/EP001/panels/assets/p2-1.png",
+      "immutable_traits": ["낮은 난간", "휴대형 망원경", "광활한 남색 밤하늘", "캠퍼스의 낮은 실루엣"],
+      "lighting_states": ["별빛의 차가운 흰색", "담배 불빛의 작은 주황색"],
+      "panel_ids": ["p2-1", "p2-2", "p2-3", "p2-4", "p3-1"],
+      "evidence_paths": ["episodes/EP001/panels/assets/p2-1.png", "episodes/EP001/story/scenes.md"]
+    },
+    {
+      "id": "location-criticism-hall-v1",
+      "label": "청쑤 대학 비판대 강당",
+      "status": "approved",
+      "era": "1967년 낮",
+      "anchor_asset": "episodes/EP001/panels/assets/p4-1.png",
+      "immutable_traits": ["무대 중앙 비판대", "거대한 초상화", "붉은 깃발과 완장", "군중이 무대를 둘러싸는 압도적 원근"],
+      "lighting_states": ["밝은 실내광", "인물 아래 길고 검은 그림자", "붉은색이 지배하는 고대비"],
+      "panel_ids": ["p4-1", "p4-2", "p4-3", "p4-4", "p5-1", "p5-2", "p5-3"],
+      "evidence_paths": ["episodes/EP001/panels/assets/p4-1.png", "episodes/EP001/panels/assets/p4-2-v2.png", "episodes/EP001/story/scenes.md"]
+    },
+    {
+      "id": "location-radio-tower-v1",
+      "label": "1967년 라디오 망대",
+      "status": "approved",
+      "era": "1967년 밤",
+      "anchor_asset": "episodes/EP001/panels/assets/p7-1.png",
+      "immutable_traits": ["거대한 포물면 안테나", "금속 격자와 좁은 작업대", "아날로그 송신기와 물리 스위치", "인물보다 압도적으로 큰 기계"],
+      "lighting_states": ["차가운 청색 작업등", "금속 하이라이트", "배경은 거의 검은 우주"],
+      "panel_ids": ["p7-1", "p7-2", "p7-3", "p7-4"],
+      "evidence_paths": ["episodes/EP001/panels/assets/p7-1.png", "episodes/EP001/panels/assets/p7-3.png", "episodes/EP001/story/scenes.md"]
+    },
+    {
+      "id": "location-police-briefing-v1",
+      "label": "2007년 경찰서 회의실",
+      "status": "approved",
+      "era": "2007년 낮",
+      "anchor_asset": "episodes/EP001/panels/assets/p9-1.png",
+      "immutable_traits": ["세 과학자 사진이 붙은 회색 백판", "백판 옆 좁은 책상", "낡은 사무용 가구", "담배 연기가 머무는 낮은 천장"],
+      "lighting_states": ["회색과 백색의 평평한 사무실 조명", "담배 연기만 부드러운 곡선"],
+      "panel_ids": ["p9-1", "p9-2", "p9-3", "p9-4", "p9-5", "p9-6"],
+      "evidence_paths": ["episodes/EP001/panels/assets/p9-1.png", "episodes/EP001/story/scenes.md"]
+    },
+    {
+      "id": "location-chengxin-apartment-v1",
+      "label": "청신의 작은 아파트",
+      "status": "approved",
+      "era": "2007년 밤",
+      "anchor_asset": "episodes/EP001/panels/assets/p10-1.png",
+      "immutable_traits": ["도시를 향한 창", "빛바랜 사진이 놓인 작은 탁자", "장식이 적은 고독한 실내", "청신을 작게 보이게 하는 여백"],
+      "lighting_states": ["창밖 네온의 차가운 빛", "실내의 약한 따뜻한 빛", "전화가 오면 휴대폰 빛이 얼굴을 지배"],
+      "panel_ids": ["p10-1", "p10-2", "p10-3", "p11-1", "p11-2", "p11-3", "p11-4", "p12-1"],
+      "evidence_paths": ["episodes/EP001/panels/assets/p10-1.png", "episodes/EP001/panels/assets/p11-4.png", "episodes/EP001/story/scenes.md"]
+    },
+    {
+      "id": "location-wangmiao-lab-v1",
+      "label": "왕먀오의 암실 연구실",
+      "status": "approved",
+      "era": "2007년 밤",
+      "anchor_asset": "episodes/EP001/panels/assets/p15-3.png",
+      "immutable_traits": ["문에서 모니터 벽까지 이어지는 깊은 시선축", "여러 보조 모니터", "중앙 메인 모니터", "왕먀오는 중앙 모니터 앞에서 등을 보임"],
+      "lighting_states": ["보조 모니터만 유일한 광원", "중앙 모니터는 p16 전까지 꺼짐", "차가운 청색과 콘크리트 회색"],
+      "panel_ids": ["p15-1", "p15-2", "p15-3", "p16-1"],
+      "evidence_paths": ["episodes/EP001/panels/assets/p15-1.png", "episodes/EP001/panels/assets/p15-3.png", "episodes/EP001/panels/final/p16-1.svg"]
+    }
+  ],
+  "props": [
+    {
+      "id": "prop-three-suns-drawing-v1",
+      "label": "세 개 태양 크레용 그림",
+      "status": "approved",
+      "anchor_asset": "episodes/EP001/panels/assets/p1-1.png",
+      "immutable_traits": ["아이의 크레용 질감", "노란 태양 세 개", "따뜻한 색", "성인 세계의 차가운 이미지와 대비"],
+      "narrative_function": "첫 미스터리 씨앗이며 마지막 Three Body 모니터로 회수된다.",
+      "panel_ids": ["p1-1", "p9-5", "p13-1", "p16-1"],
+      "evidence_paths": ["episodes/EP001/panels/assets/p1-1.png", "episodes/EP001/panels/final/p16-1.svg"]
+    },
+    {
+      "id": "prop-denunciation-paper-v1",
+      "label": "아버지 고발서와 붓",
+      "status": "approved",
+      "anchor_asset": "episodes/EP001/panels/assets/p6-1.png",
+      "immutable_traits": ["비에 젖은 얇은 종이", "검은 붓", "떨어지기 직전의 큰 잉크 방울"],
+      "narrative_function": "예원제가 말 대신 침묵으로 선택하는 순간을 보여준다.",
+      "panel_ids": ["p6-1"],
+      "evidence_paths": ["episodes/EP001/panels/assets/p6-1.png", "episodes/EP001/story/scenes.md"]
+    },
+    {
+      "id": "prop-transmitter-switch-v1",
+      "label": "라디오 송신 스위치",
+      "status": "approved",
+      "anchor_asset": "episodes/EP001/panels/assets/p7-3.png",
+      "immutable_traits": ["금속 레버", "아날로그 패널", "차가운 반사광", "한 손으로 올리는 물리적 저항감"],
+      "narrative_function": "개인의 작은 동작이 우주적 사건을 시작한다.",
+      "panel_ids": ["p7-3", "p7-4"],
+      "evidence_paths": ["episodes/EP001/panels/assets/p7-3.png", "episodes/EP001/story/scenes.md"]
+    },
+    {
+      "id": "prop-countdown-v1",
+      "label": "비동기 카운트다운",
+      "status": "approved",
+      "anchor_asset": "episodes/EP001/panels/assets/p12-3.png",
+      "immutable_traits": ["붉거나 차가운 디지털 숫자", "평범한 화면에 1초만 침입", "여러 장소에서 서로 동기화되지 않음", "다른 사람은 알아차리지 못함"],
+      "narrative_function": "개인의 비밀이 도시 전체로 퍼지고 있음을 독자가 먼저 발견하게 한다.",
+      "panel_ids": ["p12-3", "p12-4", "p13-3", "p13-4", "p14-1", "p15-1"],
+      "evidence_paths": ["episodes/EP001/panels/assets/p12-3.png", "episodes/EP001/panels/assets/p13-4.png", "episodes/EP001/panels/assets/p14-1.png"]
+    },
+    {
+      "id": "prop-three-body-book-v1",
+      "label": "삼체문제 책과 세 천체 모식도",
+      "status": "approved",
+      "anchor_asset": "episodes/EP001/panels/assets/p13-1.png",
+      "immutable_traits": ["세 천체의 삼각 구도", "설명용 인포그래픽", "p1의 세 태양과 닮은 형태"],
+      "narrative_function": "초반의 시각적 복선을 과학 개념으로 번역한다.",
+      "panel_ids": ["p13-1", "p13-2", "p13-3"],
+      "evidence_paths": ["episodes/EP001/panels/assets/p13-1.png", "episodes/EP001/story/scenes.md"]
+    },
+    {
+      "id": "prop-main-monitor-v1",
+      "label": "왕먀오의 중앙 메인 모니터",
+      "status": "approved",
+      "anchor_asset": "episodes/EP001/panels/assets/p15-3.png",
+      "immutable_traits": ["보조 모니터보다 큰 중앙 화면", "p15-3에서는 완전히 꺼짐", "p16-1에서만 질문과 게임 선택지가 나타남"],
+      "narrative_function": "예페이촨의 신념 질문과 세 개 태양 복선을 하나의 클리프행어로 회수한다.",
+      "panel_ids": ["p15-3", "p16-1"],
+      "evidence_paths": ["episodes/EP001/panels/assets/p15-3.png", "episodes/EP001/panels/final/p16-1.svg"]
+    }
+  ],
+  "continuity_rules": [
+    "패널 생성 전 대상 인물·장소·소품의 reference asset과 직전 승인 패널을 함께 선택한다.",
+    "고정 DNA, 직전 State, 이번 Delta, Camera, Narrative Function을 분리해 요청한다.",
+    "장소의 구조와 광원은 유지하고 카메라·행동·표정만 필요한 만큼 바꾼다.",
+    "정확한 한글과 숫자는 이미지 생성과 분리하고 SVG 후처리한다.",
+    "새로운 Bible 규칙은 한 번의 생성 결과만으로 approved로 승격하지 않는다."
+  ]
+}

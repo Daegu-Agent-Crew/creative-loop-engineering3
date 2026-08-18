@@ -2,7 +2,8 @@
 
 const fs = require('fs');
 const path = require('path');
-const { validateCreationMemory } = require('./build-creation-context');
+const { validateCreationMemory, validateSeriesBible } = require('./build-creation-context');
+const { validateCreationRequestCard } = require('./build-creation-request');
 
 const rootDir = process.cwd();
 const failures = [];
@@ -102,6 +103,29 @@ function validateEpisodeCreationMemory(episodeId) {
   requireValue(memory.episode_id === episodeId, `${relativePath}: episode_id mismatch`);
 }
 
+function validateEpisodeBible(episodeId) {
+  const relativePath = `episodes/${episodeId}/bible/bible.json`;
+  if (!fs.existsSync(path.join(rootDir, relativePath))) return;
+  const bible = readJson(relativePath);
+  if (!bible) return;
+  validateSeriesBible(bible, rootDir).forEach((failure) => failures.push(`${relativePath}: ${failure}`));
+  requireValue(bible.episode_id === episodeId, `${relativePath}: episode_id mismatch`);
+  if (bible.status === 'approved') {
+    requireValue(Boolean(bible.approval_evidence), `${relativePath}: approved Bible requires approval_evidence`);
+    requireValue(fs.existsSync(path.join(rootDir, bible.approval_evidence || '')), `${relativePath}: missing approval evidence ${bible.approval_evidence || '-'}`);
+    ['visual_style', 'world_rules', 'characters', 'locations', 'props'].forEach((key) => {
+      const entries = key === 'visual_style' ? [bible.visual_style] : (bible[key] || []);
+      requireValue(entries.length > 0 && entries.every((item) => item?.status === 'approved'), `${relativePath}: approved Bible contains non-approved ${key}`);
+    });
+    const evidence = readJson(bible.approval_evidence);
+    requireValue(evidence?.bible?.id === bible.id && evidence?.bible?.version === bible.version, `${relativePath}: application evidence Bible mismatch`);
+    requireValue(Array.isArray(evidence?.cards) && evidence.cards.length >= 2, `${relativePath}: at least two application evidence cards are required`);
+    (evidence?.cards || []).forEach((card, index) => {
+      validateCreationRequestCard(card, rootDir).forEach((failure) => failures.push(`${bible.approval_evidence}: cards[${index}] ${failure}`));
+    });
+  }
+}
+
 const state = readJson('state.json');
 if (state) {
   Object.keys(state.episodes || {}).forEach((episodeId) => {
@@ -110,6 +134,7 @@ if (state) {
     validateApprovals(episodeId, readJson(`episodes/${episodeId}/approvals/gates.json`));
     validatePanelJobs(episodeId);
     validateEpisodeCreationMemory(episodeId);
+    validateEpisodeBible(episodeId);
   });
 }
 

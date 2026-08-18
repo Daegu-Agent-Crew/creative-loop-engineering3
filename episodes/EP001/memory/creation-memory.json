@@ -2,7 +2,7 @@
   "$schema": "../../../schemas/creation-memory.schema.json",
   "schema_version": 1,
   "episode_id": "EP001",
-  "updated_at": "2026-08-18T11:23:13+09:00",
+  "updated_at": "2026-08-19T18:00:00+09:00",
   "creator_contract": {
     "creative_actor": "codex",
     "sole_creative_actor": true,
@@ -69,6 +69,13 @@
       "path": "episodes/EP001/exports/cle5-bible-export.json",
       "purpose": "CLE5가 CLE5-native 자산 사본과 함께 가져올 수 있는 사람 승인 Bible 스냅샷",
       "required": true
+    },
+    {
+      "id": "source-series-bible",
+      "type": "series_bible",
+      "path": "episodes/EP001/bible/bible.json",
+      "purpose": "캐릭터 표정·의상, 장소, 반복 소품과 시각 연속성의 구조화된 기준",
+      "required": true
     }
   ],
   "canon_assets": [
@@ -76,7 +83,7 @@
       "id": "style-dr-slump-toriyama-v1",
       "kind": "visual_style",
       "version": "1",
-      "status": "provisional",
+      "status": "approved",
       "asset_path": "AGENTS.md",
       "immutable_traits": [
         "굵고 깨끗한 잉크 선",
@@ -261,8 +268,8 @@
     }
   ],
   "handoff": {
-    "current_goal": "사람이 승인한 EP001 Phase 6 발행본을 운영 Pages에서 검증한다.",
-    "current_phase": "phase6_release",
+    "current_goal": "승인된 EP001 Bible을 모든 후속 패널 생성 요청에 자동 적용한다.",
+    "current_phase": "approved_bible_operation",
     "target_panel_id": null,
     "completed": [
       "원본 패널 이미지 49/49 생성",
@@ -274,10 +281,15 @@
       "실제 Phase 5 QA 43/50 통과",
       "사람의 EP001 Release Approval 획득",
       "CLE5_BIBLE_EXPORT_V1 승인 스냅샷 생성",
-      "49패널 실제 공개 뷰어와 Pages 패키징 구성"
+      "49패널 실제 공개 뷰어와 Pages 패키징 구성",
+      "EP001 Bible v1.1에 인물 표정·의상, 핵심 장소 7곳과 반복 소품 6개를 구조화",
+      "Bible v1.1 전체 항목을 approved로 승격",
+      "패널 생성 실행기가 승인 Bible에서 DNA·State·Delta·Camera·Narrative Function 요청 카드를 자동 컴파일하도록 연결",
+      "p7-3과 p15-3 생성 요청 카드로 실제 적용 증거 생성"
     ],
     "next_actions": [
-      "GitHub Pages 운영 URL에서 49패널 발행본을 검증한다",
+      "새 패널 생성 시 run-panel-jobs.js가 만든 creation_request와 승인 참조 자산을 사용한다",
+      "창작 결과의 Delta와 QA 판정을 creation-memory.json에 다시 기록한다",
       "CLE5가 export의 sourceAssetPath 자산을 CLE5-native assetUrl 위치로 복사한 뒤 승인 스냅샷을 가져오도록 전달한다",
       "pilot-001 동률 후보는 사람 선택 전까지 기억 자산으로 승격하지 않는다"
     ],
