@@ -27,7 +27,6 @@ test('escapes XML and wraps long text deterministically', () => {
   assert.deepEqual(wrapText('123456789', 4), ['1234', '5678', '9']);
   assert.deepEqual(wrapText('alpha   beta gamma', 10), ['alpha beta', 'gamma']);
 });
-
 test('renders every supported overlay kind with the intended visual family', () => {
   const box = { x: 0.1, y: 0.1, w: 0.5, h: 0.25 };
   for (const kind of ['dialogue', 'caption', 'narration', 'sfx', 'note', 'title', 'screen']) {
@@ -76,4 +75,3 @@ test('filters an episode render by page and parses CLI options', () => {
   assert.equal(fs.existsSync(path.join(manifestDir, 'final/p1-1.svg')), false);
   assert.match(fs.readFileSync(path.join(manifestDir, 'final/p2-1.svg'), 'utf8'), /data:image\/png;base64/);
 });
-
