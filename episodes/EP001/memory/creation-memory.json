@@ -2,7 +2,7 @@
   "$schema": "../../../schemas/creation-memory.schema.json",
   "schema_version": 1,
   "episode_id": "EP001",
-  "updated_at": "2026-08-18T07:13:16+09:00",
+  "updated_at": "2026-08-18T11:23:13+09:00",
   "creator_contract": {
     "creative_actor": "codex",
     "sole_creative_actor": true,
@@ -62,6 +62,13 @@
       "path": "episodes/EP001/panels/preference-memory.json",
       "purpose": "사람이 승인한 참조 앵커와 후보 선택 기록",
       "required": true
+    },
+    {
+      "id": "source-cle5-bible-export",
+      "type": "approved_export",
+      "path": "episodes/EP001/exports/cle5-bible-export.json",
+      "purpose": "CLE5가 CLE5-native 자산 사본과 함께 가져올 수 있는 사람 승인 Bible 스냅샷",
+      "required": true
     }
   ],
   "canon_assets": [
@@ -99,6 +106,16 @@
       "immutable_traits": ["30대", "큰 뿔테 안경", "단정한 머리", "마른 체형", "차분한 학자 인상"],
       "scope": { "characters": ["왕먀오", "왕먀오(등)"], "panel_ids": [], "tags": ["character"] },
       "evidence_paths": ["episodes/EP001/characters/characters.json", "episodes/EP001/panels/preference-memory.json"]
+    },
+    {
+      "id": "character-ye-zhetai-v1",
+      "kind": "character",
+      "version": "1",
+      "status": "approved",
+      "asset_path": "episodes/EP001/characters/assets/ye-zhetai-v1.png",
+      "immutable_traits": ["60대", "높은 이마와 뒤로 물러난 흑회색 머리", "마른 체형", "각진 광대와 깊은 눈매", "짙은 남색 중산복"],
+      "scope": { "characters": ["예페이촨"], "panel_ids": ["p4-2", "p5-1", "p5-2"], "tags": ["character", "continuity"] },
+      "evidence_paths": ["episodes/EP001/characters/characters.json", "episodes/EP001/characters/assets/ye-zhetai-v1.png", "episodes/EP001/panels/assets/p4-2-v2.png", "episodes/EP001/panels/assets/p5-1-v2.png", "episodes/EP001/panels/assets/p5-2-v2.png"]
     }
   ],
   "narrative_threads": [
@@ -141,6 +158,45 @@
       ],
       "risks": ["왕먀오의 얼굴을 정면으로 노출하지 않는다", "중앙 모니터에 최종 문구를 미리 표시하지 않는다"],
       "evidence_paths": ["episodes/EP001/storyboard/storyboard.json", "episodes/EP001/panels/assets/p15-2.png", "episodes/EP001/panels/assets/p15-3.png"]
+    },
+    {
+      "id": "continuity-p4-2-to-p5-1",
+      "from_panel_id": "p4-2",
+      "to_panel_id": "p5-1",
+      "state_before": [
+        { "subject": "예페이촨", "attribute": "position", "value": "비판대 무대 중앙에 무릎을 꿇고 있다" },
+        { "subject": "예페이촨", "attribute": "outfit", "value": "짙은 남색 중산복과 목에 건 명찰" },
+        { "subject": "예페이촨", "attribute": "injury", "value": "오른쪽 이마의 상처와 얼굴의 타박상" }
+      ],
+      "delta": [
+        { "subject": "카메라", "attribute": "shot", "value": "전신 중심에서 얼굴 극근접으로 전환" },
+        { "subject": "예페이촨", "attribute": "speech", "value": "물리학은 정치로 바뀌지 않는다고 말한다" }
+      ],
+      "state_after": [
+        { "subject": "예페이촨", "attribute": "identity", "value": "동일한 얼굴, 머리, 의상과 상처가 유지된다" },
+        { "subject": "예페이촨", "attribute": "emotion", "value": "고통 속에서도 단호하다" }
+      ],
+      "risks": ["나이와 체형을 젊게 바꾸지 않는다", "이마 상처의 방향과 의상을 유지한다"],
+      "evidence_paths": ["episodes/EP001/characters/assets/ye-zhetai-v1.png", "episodes/EP001/panels/assets/p4-2-v2.png", "episodes/EP001/panels/assets/p5-1-v2.png"]
+    },
+    {
+      "id": "continuity-p5-1-to-p5-2",
+      "from_panel_id": "p5-1",
+      "to_panel_id": "p5-2",
+      "state_before": [
+        { "subject": "예페이촨", "attribute": "identity", "value": "상처 입은 60대 물리학자" },
+        { "subject": "예페이촨", "attribute": "outfit", "value": "짙은 남색 중산복" }
+      ],
+      "delta": [
+        { "subject": "홍위병", "attribute": "action", "value": "예페이촨을 발로 가격한다" },
+        { "subject": "예페이촨", "attribute": "position", "value": "충격으로 무대 바닥에 쓰러진다" }
+      ],
+      "state_after": [
+        { "subject": "예페이촨", "attribute": "identity", "value": "동일한 얼굴, 의상과 상처를 유지한다" },
+        { "subject": "명찰", "attribute": "text", "value": "반동 학술 권위" }
+      ],
+      "risks": ["폭력 동작에서도 예페이촨의 얼굴과 연령을 다른 인물로 바꾸지 않는다", "명찰의 정확한 한글은 SVG 후처리한다"],
+      "evidence_paths": ["episodes/EP001/panels/assets/p5-1-v2.png", "episodes/EP001/panels/assets/p5-2-v2.png", "episodes/EP001/panels/final/p5-2.svg"]
     }
   ],
   "preferences": [
@@ -170,6 +226,15 @@
       "guidance": "숫자나 한글의 정확성이 필요한 컷은 negative space를 확보하고 최종 텍스트를 후처리한다.",
       "scope": { "characters": [], "panel_ids": ["p8-1"], "tags": ["text", "overlay", "transition"] },
       "evidence_paths": ["episodes/EP001/decisions/implementation-notes.json", "episodes/EP001/panels/final/p8-1.svg"]
+    },
+    {
+      "id": "lesson-character-bible-before-sequence",
+      "outcome": "success",
+      "status": "validated",
+      "summary": "예페이촨 기준 자산이 없던 p4-2, p5-1, p5-2에서 나이와 체형이 흔들렸고, Character Bible을 먼저 만든 뒤 세 패널을 같은 참조 체인으로 재생성해 해결했다.",
+      "guidance": "두 컷 이상 등장하는 인물은 패널 생성 전에 Character Bible을 등록하고, 연속 패널의 reference_assets에 동일한 기준 자산과 직전 승인 패널을 함께 전달한다.",
+      "scope": { "characters": ["예페이촨"], "panel_ids": ["p4-2", "p5-1", "p5-2"], "tags": ["character-bible", "continuity", "reference-chain"] },
+      "evidence_paths": ["episodes/EP001/characters/assets/ye-zhetai-v1.png", "episodes/EP001/panels/assets/p4-2-v2.png", "episodes/EP001/panels/assets/p5-1-v2.png", "episodes/EP001/panels/assets/p5-2-v2.png"]
     }
   ],
   "constraints": [
@@ -196,24 +261,29 @@
     }
   ],
   "handoff": {
-    "current_goal": "EP001의 자동 추출 텍스트 draft 32개와 수렴 후보를 검토하고 실제 Phase 5 QA로 넘긴다.",
-    "current_phase": "phase4_panels",
+    "current_goal": "사람이 승인한 EP001 Phase 6 발행본을 운영 Pages에서 검증한다.",
+    "current_phase": "phase6_release",
     "target_panel_id": null,
     "completed": [
       "원본 패널 이미지 49/49 생성",
       "CLE2-20 후보 비교 파일럿 준비",
       "텍스트 오버레이 정책과 렌더러 구현",
-      "대사 오버레이 매니페스트와 SVG 최종본 49/49 렌더링"
+      "대사 오버레이 매니페스트와 SVG 최종본 49/49 렌더링",
+      "자동 추출 텍스트 draft 31개를 원고와 스토리보드 기준으로 검토",
+      "예페이촨 Character Bible을 만들고 p4-2, p5-1, p5-2 연속 패널을 동일 참조로 재생성",
+      "실제 Phase 5 QA 43/50 통과",
+      "사람의 EP001 Release Approval 획득",
+      "CLE5_BIBLE_EXPORT_V1 승인 스냅샷 생성",
+      "49패널 실제 공개 뷰어와 Pages 패키징 구성"
     ],
     "next_actions": [
-      "자동 추출된 텍스트 draft 32개의 대사, 귀속, 줄바꿈과 배치를 검토한다",
-      "pilot-001 후보에 대한 사람 판정을 preference-memory.json에 반영한다",
-      "최종 SVG를 대상으로 Phase 5 QA를 다시 실행한다"
+      "GitHub Pages 운영 URL에서 49패널 발행본을 검증한다",
+      "CLE5가 export의 sourceAssetPath 자산을 CLE5-native assetUrl 위치로 복사한 뒤 승인 스냅샷을 가져오도록 전달한다",
+      "pilot-001 동률 후보는 사람 선택 전까지 기억 자산으로 승격하지 않는다"
     ],
     "blockers": [],
     "human_decisions": [
-      "Story, Character, Storyboard의 provisional gate를 공식 승인할지 결정",
-      "Phase 5 통과 후 EP001 공개 여부 결정"
+      "pilot-001의 p15-3 및 p6-1 동률 후보 선택"
     ]
   }
 }

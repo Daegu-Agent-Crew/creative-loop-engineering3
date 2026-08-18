@@ -2,7 +2,12 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
-    paths: ['docs/**']
+    paths:
+      - 'docs/**'
+      - 'episodes/EP001/panels/final/**'
+      - 'episodes/EP001/panels/assets/**'
+      - 'episodes/EP001/exports/**'
+      - '.github/workflows/deploy.yml'
   workflow_dispatch:
 
 permissions:
@@ -23,8 +28,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      - name: Assemble public site with approved EP001 assets
+        run: |
+          mkdir -p _site/episodes/EP001/panels
+          cp -R docs/. _site/
+          cp -R episodes/EP001/panels/final _site/episodes/EP001/panels/final
+          cp -R episodes/EP001/panels/assets _site/episodes/EP001/panels/assets
+          mkdir -p _site/episodes/EP001/exports
+          cp episodes/EP001/exports/cle5-bible-export.json _site/episodes/EP001/exports/cle5-bible-export.json
       - uses: actions/upload-pages-artifact@v4
         with:
-          path: './docs'
+          path: './_site'
       - id: deploy
         uses: actions/deploy-pages@v4

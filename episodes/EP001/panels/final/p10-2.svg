@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
   <image href="../assets/p10-2.png" x="0" y="0" width="1024" height="1536" />
   <g class="overlay overlay-narration">
-    <rect x="102" y="123" width="819" height="184" rx="28" fill="#111111" fill-opacity="0.86" stroke="#111111" stroke-width="4" />
-    <text text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="37" font-weight="700" fill="#ffffff"><tspan x="512" y="227">&quot;그때 내가 보낸 신호가 도달했을 시간이야.</tspan></text>
+    <rect x="102" y="123" width="819" height="184" rx="28" fill="#080b10" fill-opacity="0.86" stroke="#111111" stroke-width="4" />
+    <text text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="37" font-weight="700" fill="#ffffff"><tspan x="512" y="227">그때 내가 보낸 신호가 도달했을 시간이야.</tspan></text>
   </g>
 </svg>
