@@ -1,0 +1,419 @@
+{
+  "episode_id": "EP002",
+  "version": 1,
+  "panels": [
+    {
+      "panel_id": "p1-1",
+      "page_number": 1,
+      "source_image_path": "episodes/EP002/panels/assets/p1-1.png",
+      "final_image_path": "episodes/EP002/panels/final/p1-1.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p1-2",
+      "page_number": 1,
+      "source_image_path": "episodes/EP002/panels/assets/p1-2.png",
+      "final_image_path": "episodes/EP002/panels/final/p1-2.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p1-3",
+      "page_number": 1,
+      "source_image_path": "episodes/EP002/panels/assets/p1-3.png",
+      "final_image_path": "episodes/EP002/panels/final/p1-3.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p2-1",
+      "page_number": 2,
+      "source_image_path": "episodes/EP002/panels/assets/p2-1.png",
+      "final_image_path": "episodes/EP002/panels/final/p2-1.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "왕먀오: \"결과 나왔어?",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p2-2",
+      "page_number": 2,
+      "source_image_path": "episodes/EP002/panels/assets/p2-2.png",
+      "final_image_path": "episodes/EP002/panels/final/p2-2.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "왕먀오: \"물리학은 정밀한 학문이야. 오차는 있어도 거짓은 없지.\" ★Theme Stated",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p2-3",
+      "page_number": 2,
+      "source_image_path": "episodes/EP002/panels/assets/p2-3.png",
+      "final_image_path": "episodes/EP002/panels/final/p2-3.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "(없음 — 숫자만)",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p2-4",
+      "page_number": 2,
+      "source_image_path": "episodes/EP002/panels/assets/p2-4.png",
+      "final_image_path": "episodes/EP002/panels/final/p2-4.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p3-1",
+      "page_number": 3,
+      "source_image_path": "episodes/EP002/panels/assets/p3-1.png",
+      "final_image_path": "episodes/EP002/panels/final/p3-1.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "narration",
+          "text": "왕먀오(독백): \"...피곤하군.",
+          "box": {
+            "x": 0.1,
+            "y": 0.08,
+            "w": 0.8,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-2",
+      "page_number": 3,
+      "source_image_path": "episodes/EP002/panels/assets/p3-2.png",
+      "final_image_path": "episodes/EP002/panels/final/p3-2.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p3-3",
+      "page_number": 3,
+      "source_image_path": "episodes/EP002/panels/assets/p3-3.png",
+      "final_image_path": "episodes/EP002/panels/final/p3-3.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p3-4",
+      "page_number": 3,
+      "source_image_path": "episodes/EP002/panels/assets/p3-4.png",
+      "final_image_path": "episodes/EP002/panels/final/p3-4.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p4-1",
+      "page_number": 4,
+      "source_image_path": "episodes/EP002/panels/assets/p4-1.png",
+      "final_image_path": "episodes/EP002/panels/final/p4-1.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p5-1",
+      "page_number": 5,
+      "source_image_path": "episodes/EP002/panels/assets/p5-1.png",
+      "final_image_path": "episodes/EP002/panels/final/p5-1.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "스치친: \"왕먀오 교수. 선생도 나노물리학자야.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-1",
+      "page_number": 7,
+      "source_image_path": "episodes/EP002/panels/assets/p7-1.png",
+      "final_image_path": "episodes/EP002/panels/final/p7-1.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p8-1",
+      "page_number": 8,
+      "source_image_path": "episodes/EP002/panels/assets/p8-1.png",
+      "final_image_path": "episodes/EP002/panels/final/p8-1.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "의사: \"눈은 아주 건강하십니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p9-1",
+      "page_number": 9,
+      "source_image_path": "episodes/EP002/panels/assets/p9-1.png",
+      "final_image_path": "episodes/EP002/panels/final/p9-1.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "스치친: \"검진 결과는?",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p10-4",
+      "page_number": 10,
+      "source_image_path": "episodes/EP002/panels/assets/p10-4.png",
+      "final_image_path": "episodes/EP002/panels/final/p10-4.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "끝까지 봐",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p11-1",
+      "page_number": 11,
+      "source_image_path": "episodes/EP002/panels/assets/p11-1.png",
+      "final_image_path": "episodes/EP002/panels/final/p11-1.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "caption",
+          "text": "왕먀오(독백, 하단): \"...어디에나 있다.",
+          "box": {
+            "x": 0.12,
+            "y": 0.06,
+            "w": 0.76,
+            "h": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p11-3",
+      "page_number": 11,
+      "source_image_path": "episodes/EP002/panels/assets/p11-3.png",
+      "final_image_path": "episodes/EP002/panels/final/p11-3.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p12-1",
+      "page_number": 12,
+      "source_image_path": "episodes/EP002/panels/assets/p12-1.png",
+      "final_image_path": "episodes/EP002/panels/final/p12-1.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p12-2",
+      "page_number": 12,
+      "source_image_path": "episodes/EP002/panels/assets/p12-2.png",
+      "final_image_path": "episodes/EP002/panels/final/p12-2.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p12-3",
+      "page_number": 12,
+      "source_image_path": "episodes/EP002/panels/assets/p12-3.png",
+      "final_image_path": "episodes/EP002/panels/final/p12-3.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p13-3",
+      "page_number": 13,
+      "source_image_path": "episodes/EP002/panels/assets/p13-3.png",
+      "final_image_path": "episodes/EP002/panels/final/p13-3.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p14-1",
+      "page_number": 14,
+      "source_image_path": "episodes/EP002/panels/assets/p14-1.png",
+      "final_image_path": "episodes/EP002/panels/final/p14-1.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "왕먀오: \"장비가 왔습니다. VR 헬멧이요.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p14-3",
+      "page_number": 14,
+      "source_image_path": "episodes/EP002/panels/assets/p14-3.png",
+      "final_image_path": "episodes/EP002/panels/final/p14-3.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "스치친: \"들어가. 게임에 들어가. 끝까지 해봐.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p14-4",
+      "page_number": 14,
+      "source_image_path": "episodes/EP002/panels/assets/p14-4.png",
+      "final_image_path": "episodes/EP002/panels/final/p14-4.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "왕먀오: \"...알겠습니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p15-1",
+      "page_number": 15,
+      "source_image_path": "episodes/EP002/panels/assets/p15-1.png",
+      "final_image_path": "episodes/EP002/panels/final/p15-1.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p15-2",
+      "page_number": 15,
+      "source_image_path": "episodes/EP002/panels/assets/p15-2.png",
+      "final_image_path": "episodes/EP002/panels/final/p15-2.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p15-4",
+      "page_number": 15,
+      "source_image_path": "episodes/EP002/panels/assets/p15-4.png",
+      "final_image_path": "episodes/EP002/panels/final/p15-4.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p16-1",
+      "page_number": 16,
+      "source_image_path": "episodes/EP002/panels/assets/p16-1.png",
+      "final_image_path": "episodes/EP002/panels/final/p16-1.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "caption",
+          "text": "하단: \"삼체 문제의 세계에 오신 것을 환영합니다.\" / \"문명 137호. 기원: 1789.",
+          "box": {
+            "x": 0.12,
+            "y": 0.06,
+            "w": 0.76,
+            "h": 0.1
+          }
+        }
+      ]
+    }
+  ]
+}

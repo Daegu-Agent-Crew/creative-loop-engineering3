@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+  <image href="../assets/p5-1.png" x="0" y="0" width="1024" height="1536" />
+  <g class="overlay overlay-dialogue">
+    <rect x="82" y="92" width="532" height="184" rx="28" fill="#ffffff" fill-opacity="0.96" stroke="#111111" stroke-width="4" />
+    <text text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="37" font-weight="700" fill="#111111"><tspan x="348" y="171">스치친: &quot;왕먀오 교수. 선생도</tspan><tspan x="348" y="221">나노물리학자야.</tspan></text>
+  </g>
+</svg>

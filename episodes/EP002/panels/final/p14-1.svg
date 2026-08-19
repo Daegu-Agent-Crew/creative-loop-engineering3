@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="996" height="1578" viewBox="0 0 996 1578">
+  <image href="../assets/p14-1.png" x="0" y="0" width="996" height="1578" />
+  <g class="overlay overlay-dialogue">
+    <rect x="80" y="95" width="518" height="189" rx="28" fill="#ffffff" fill-opacity="0.96" stroke="#111111" stroke-width="4" />
+    <text text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="38" font-weight="700" fill="#111111"><tspan x="339" y="177">왕먀오: &quot;장비가 왔습니다. VR</tspan><tspan x="339" y="228">헬멧이요.</tspan></text>
+  </g>
+</svg>

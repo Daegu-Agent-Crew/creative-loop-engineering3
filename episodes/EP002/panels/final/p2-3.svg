@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="855" height="1840" viewBox="0 0 855 1840">
+  <image href="../assets/p2-3.png" x="0" y="0" width="855" height="1840" />
+  <g class="overlay overlay-dialogue">
+    <rect x="68" y="110" width="445" height="221" rx="28" fill="#ffffff" fill-opacity="0.96" stroke="#111111" stroke-width="3" />
+    <text text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="44" font-weight="700" fill="#111111"><tspan x="291" y="235">(없음 — 숫자만)</tspan></text>
+  </g>
+</svg>

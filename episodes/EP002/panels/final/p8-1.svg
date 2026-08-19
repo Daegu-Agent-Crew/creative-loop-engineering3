@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+  <image href="../assets/p8-1.png" x="0" y="0" width="1024" height="1536" />
+  <g class="overlay overlay-dialogue">
+    <rect x="82" y="92" width="532" height="184" rx="28" fill="#ffffff" fill-opacity="0.96" stroke="#111111" stroke-width="4" />
+    <text text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="37" font-weight="700" fill="#111111"><tspan x="348" y="196">의사: &quot;눈은 아주 건강하십니다.</tspan></text>
+  </g>
+</svg>

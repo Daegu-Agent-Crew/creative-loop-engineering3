@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="953" height="1650" viewBox="0 0 953 1650">
+  <image href="../assets/p2-2.png" x="0" y="0" width="953" height="1650" />
+  <g class="overlay overlay-dialogue">
+    <rect x="76" y="99" width="496" height="198" rx="28" fill="#ffffff" fill-opacity="0.96" stroke="#111111" stroke-width="4" />
+    <text text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="40" font-weight="700" fill="#111111"><tspan x="324" y="130">왕먀오: &quot;물리학은 정밀한</tspan><tspan x="324" y="184">학문이야. 오차는 있어도 거짓은</tspan><tspan x="324" y="238">없지.&quot; ★Theme</tspan><tspan x="324" y="292">Stated</tspan></text>
+  </g>
+</svg>
