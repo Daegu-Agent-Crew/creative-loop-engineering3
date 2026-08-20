@@ -4,10 +4,10 @@
 
 - phase: phase4_panels
 - total_panels: 57
-- generated_panels: 30
-- pending_panels: 27
-- rendered_final_svg: 30
-- text_overlay_records: 30 (draft_review: 13, no_text_rendered: 17)
+- generated_panels: 33
+- pending_panels: 24
+- rendered_final_svg: 33
+- text_overlay_records: 33 (draft_review: 15, no_text_rendered: 18)
 - asset_dir: `episodes/EP002/panels/assets/`
 - workflow_rule: CLE3 내부 storyboard + characters 산출물만 사용. 외부 저장소 생성 결과 재사용 금지.
 

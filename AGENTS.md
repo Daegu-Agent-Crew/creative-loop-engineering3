@@ -221,7 +221,8 @@ creative-loop-engineering3/
 - Phase 4 패널 생성 속도를 높이기 위해 수동 1장 직렬 작업을 기본값으로 삼지
   않는다. 먼저 `node scripts/build-panel-jobs.js EPxxx`로 큐를 갱신하고,
   `node scripts/run-panel-jobs.js --episode EPxxx --dry-run --max-jobs 3`로
-  다음 실행 배치를 선택한다. 저성능 워커가 선택·QA·재시도 판단을 맡고,
+  다음 실행 배치를 선택한다. `--max-jobs`는 legacy 이름이지만 페이지 수가 아닌
+  최대 3개의 패널 명령을 제한한다. 저성능 워커가 선택·QA·재시도 판단을 맡고,
   이미지만 `gpt-image-2`로 생성한다.
 - 패널 자산을 추가하는 모든 작업은 `config/asset-storage-policy.json`과
   `docs/ASSET-STORAGE-POLICY.md`를 따른다. 원본/후보/실패 이미지는 Git에

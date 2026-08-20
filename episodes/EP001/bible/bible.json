@@ -7,6 +7,10 @@
   "status": "approved",
   "updated_at": "2026-08-19T18:00:00+09:00",
   "approval_evidence": "episodes/EP001/bible/application-evidence.json",
+  "base_bible": {
+    "id": "three-body-common-bible",
+    "version": "1.0.0"
+  },
   "visual_style": {
     "id": "style-cle3-ep001-v1",
     "status": "approved",

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "series_id": "three-body",
+  "status": "approved",
+  "bible": {
+    "id": "three-body-common-bible",
+    "version": "1.0.0"
+  },
+  "canonical_bible_path": "series/bible/common.json",
+  "approval_evidence": "series/bible/application-evidence.json",
+  "notes": "The common Bible contains only cross-episode visual and character canon. Every episode inherits it through an episode layer or delta; panel-number and disclosure rules remain episode-local."
+}

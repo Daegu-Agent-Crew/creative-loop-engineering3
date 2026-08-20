@@ -1,0 +1,44 @@
+{
+  "$schema": "../../schemas/series-bible.schema.json",
+  "schema_version": 1,
+  "id": "three-body-common-bible",
+  "episode_id": "SERIES",
+  "version": "1.0.0",
+  "status": "approved",
+  "updated_at": "2026-08-20T06:00:00+09:00",
+  "approval_evidence": "series/bible/application-evidence.json",
+  "visual_style": {
+    "id": "style-cle3-series-v1",
+    "status": "approved",
+    "immutable_traits": ["굵고 깨끗한 잉크 선", "평면적인 셀 채색", "둥글고 표현적인 캐릭터", "명확한 검은 그림자", "패널마다 서사 목적 하나를 우선하는 구도"],
+    "palette": ["deep blue", "cold grey", "signal red", "warm amber accent", "black shadow"],
+    "rendering_rules": ["이미지 안에 정확한 한글 대사와 자막을 생성하지 않는다.", "대사·자막용 negative space를 남기고 SVG 후처리로 조립한다.", "DNA와 직전 State는 고정하고 해당 패널의 Delta만 변화시킨다.", "인접 컷의 카메라 크기와 각도를 의도적으로 변화시킨다."],
+    "evidence_paths": ["AGENTS.md", "prompts/image/v2.md", "episodes/EP001/qa/qa.json"]
+  },
+  "world_rules": [],
+  "characters": [
+    {
+      "id": "character-shiqiang-v1",
+      "name": "스치친",
+      "status": "approved",
+      "reference_asset": "episodes/EP001/characters/assets/shiqiang-v1.png",
+      "immutable_traits": ["40대", "헝클어진 검은 머리", "무거운 수염", "피곤한 좁은 눈", "묵직한 체형", "담배"],
+      "outfits": [{"id": "outfit-shiqiang-2007-v1", "label": "형사 일상복", "immutable_traits": ["더러운 열린 흰 셔츠", "낡은 올리브색 작업복 재킷", "헐렁한 바지", "닳은 부츠"]}],
+      "expressions": [{"id": "shiqiang-weary", "label": "피곤한 무심함", "visual_cues": ["무거운 눈꺼풀", "구부정한 자세", "담배 연기 뒤의 작은 눈"]}, {"id": "shiqiang-serious", "label": "직감이 작동하는 순간", "visual_cues": ["눈썹이 낮아짐", "시선이 정면에 고정", "입꼬리의 농담기가 사라짐"]}],
+      "evidence_paths": ["episodes/EP001/characters/characters.json", "episodes/EP001/characters/assets/shiqiang-v1.png"]
+    },
+    {
+      "id": "character-wangmiao-v1",
+      "name": "왕먀오",
+      "status": "approved",
+      "reference_asset": "episodes/EP001/characters/assets/wangmiao-v1.png",
+      "immutable_traits": ["30대", "단정한 검은 머리", "큰 뿔테 안경", "마른 체형", "차분한 학자 인상"],
+      "outfits": [{"id": "outfit-wangmiao-lab-v1", "label": "연구실 복장", "immutable_traits": ["차분한 청회색 셔츠와 슬랙스", "필요할 때만 연구실 가운", "안경 렌즈의 흰 반사"]}],
+      "expressions": [{"id": "wangmiao-hidden-tension", "label": "등으로 보이는 긴장", "visual_cues": ["모니터 앞에서 움직이지 않음", "어깨가 미세하게 굳음", "얼굴은 장면 공개 전까지 숨김"]}],
+      "evidence_paths": ["episodes/EP001/characters/characters.json", "episodes/EP001/characters/assets/wangmiao-v1.png"]
+    }
+  ],
+  "locations": [],
+  "props": [],
+  "continuity_rules": ["패널 생성 전 대상 인물·장소·소품의 reference asset과 직전 승인 패널을 함께 선택한다.", "고정 DNA, 직전 State, 이번 Delta, Camera, Narrative Function을 분리해 요청한다.", "정확한 한글과 숫자는 이미지 생성과 분리하고 SVG 후처리한다.", "새로운 Bible 규칙은 한 번의 생성 결과만으로 approved로 승격하지 않는다."]
+}

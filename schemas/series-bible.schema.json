@@ -8,11 +8,20 @@
     "$schema": { "type": "string" },
     "schema_version": { "const": 1 },
     "id": { "type": "string", "minLength": 1 },
-    "episode_id": { "type": "string", "pattern": "^EP[0-9]{3}$" },
+    "episode_id": { "type": "string", "pattern": "^(EP[0-9]{3}|SERIES)$" },
     "version": { "type": "string", "minLength": 1 },
     "status": { "type": "string", "enum": ["provisional", "approved", "retired"] },
     "updated_at": { "type": "string", "format": "date-time" },
     "approval_evidence": { "type": ["string", "null"] },
+    "base_bible": {
+      "type": ["object", "null"],
+      "required": ["id", "version"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "version": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
     "visual_style": { "$ref": "#/definitions/visualStyle" },
     "world_rules": { "type": "array", "items": { "$ref": "#/definitions/worldRule" } },
     "characters": { "type": "array", "items": { "$ref": "#/definitions/character" } },

@@ -16,7 +16,8 @@ creation-memory.json                    Creation Context Pack
 ```
 
 - `episodes/{EP}/memory/creation-memory.json`은 사람이 검토하고 Git으로 변경 이력을 남기는 원본이다.
-- `episodes/{EP}/bible/bible.json`은 시대·미스터리 공개 규칙, 캐릭터 표정·의상, 장소와 반복 소품의 시각 기준을 구조화한다.
+- `series/bible/registry.json`은 승인된 Series Bible 기준선을 가리킨다. 현재 기준선은 EP001 v1.1이며, 이후 에피소드는 이를 자동 상속한다.
+- `episodes/{EP}/bible/delta.json`은 해당 에피소드에 적용할 기준선 항목과 새 anchor의 승인 범위를 선언한다. EP001의 패널 번호는 다른 에피소드에 재사용하지 않는다.
 - Creation Context Pack은 현재 에피소드 또는 패널에 필요한 기억만 선택한 파생 데이터다.
 - 파생 Context Pack을 장기 기억에 다시 복사하지 않는다. 창작 결과의 사실, 근거와 다음 작업만 원본 기억에 반영한다.
 
@@ -55,6 +56,8 @@ node scripts/build-creation-request.js \
 ```
 
 `run-panel-jobs.js`는 이 요청 카드를 자동 생성해 이미지 프롬프트와 참조 자산에 포함한다. 따라서 Codex가 패널을 만들 때 승인된 DNA, 직전 State, 이번 Delta, Camera, Narrative Function과 변경 금지 규칙을 매번 전달받는다. 승인되지 않은 Bible은 실행 단계에서 거부된다.
+
+EP002처럼 독립 `bible.json`이 없는 에피소드도 Series Registry와 `delta.json`이 유효하면 승인된 기준선을 상속한다. 새 인물·장소·소품은 delta에 넣기 전에 별도 증거와 승인을 갖춰야 한다.
 
 검토용 파일이 필요하면 저장소 내부 경로만 지정한다.
 

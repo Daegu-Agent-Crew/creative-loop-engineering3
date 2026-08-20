@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "bible": {"id": "three-body-common-bible", "version": "1.0.0", "status": "approved"},
+  "scope": "Cross-episode visual style and recurring character DNA only. Episode disclosure, panel sequencing, locations, and props are excluded.",
+  "evidence": ["AGENTS.md", "episodes/EP001/qa/qa.json", "episodes/EP001/characters/characters.json"]
+}

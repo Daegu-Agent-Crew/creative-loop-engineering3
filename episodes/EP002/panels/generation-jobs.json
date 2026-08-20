@@ -148,7 +148,7 @@
       "generation_duration_seconds": null,
       "qa_score": null,
       "last_error": null,
-      "status": "partial",
+      "status": "completed",
       "decision_rationale": "같은 페이지의 4개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
       "confidence": "high",
       "assumptions": [

@@ -104,7 +104,7 @@ function validateSeriesBible(bible, rootDir, options = {}) {
   const failures = [];
   if (!bible || typeof bible !== 'object') return ['series bible must be an object'];
   if (bible.schema_version !== 1) failures.push('schema_version must be 1');
-  if (!/^EP\d{3}$/.test(bible.episode_id || '')) failures.push('episode_id must match EP###');
+  if (!/^(EP\d{3}|SERIES)$/.test(bible.episode_id || '')) failures.push('episode_id must match EP### or SERIES');
   if (!bible.id || !bible.version) failures.push('id and version are required');
   if (!['provisional', 'approved', 'retired'].includes(bible.status)) failures.push('status is invalid');
   ['world_rules', 'characters', 'locations', 'props', 'continuity_rules'].forEach((key) => {
@@ -144,6 +144,118 @@ function validateSeriesBible(bible, rootDir, options = {}) {
   return failures;
 }
 
+function validateSeriesBibleRegistry(registry, rootDir) {
+  const failures = [];
+  if (!registry || typeof registry !== 'object') return ['series Bible registry must be an object'];
+  if (registry.schema_version !== 1) failures.push('schema_version must be 1');
+  if (!registry.series_id) failures.push('series_id is required');
+  if (registry.status !== 'approved') failures.push('status must be approved');
+  if (!isSafeRepoPath(rootDir, registry.canonical_bible_path)) {
+    failures.push('canonical_bible_path must stay inside the repository');
+  } else if (!fs.existsSync(path.join(rootDir, registry.canonical_bible_path))) {
+    failures.push(`missing canonical_bible_path ${registry.canonical_bible_path}`);
+  }
+  return failures;
+}
+
+function validateEpisodeBibleDelta(delta, episodeId) {
+  const failures = [];
+  if (!delta || typeof delta !== 'object') return ['episode Bible delta must be an object'];
+  if (delta.schema_version !== 1) failures.push('schema_version must be 1');
+  if (delta.episode_id !== episodeId) failures.push('episode_id does not match episode');
+  if (delta.status !== 'inherits_approved_baseline') failures.push('status must be inherits_approved_baseline');
+  if (!delta.base_bible?.id || !delta.base_bible?.version) failures.push('base_bible id and version are required');
+  ['world_rules', 'characters', 'locations', 'props'].forEach((key) => {
+    if (!Array.isArray(delta.inherit?.[key])) failures.push(`inherit.${key} must be an array`);
+    if (delta.additions && !Array.isArray(delta.additions[key])) failures.push(`additions.${key} must be an array`);
+  });
+  return failures;
+}
+
+function mergeBibleLayers(baseBible, localBible) {
+  const mergeEntries = (key) => {
+    const baseEntries = baseBible[key] || [];
+    const baseIds = new Set(baseEntries.map((item) => item.id));
+    return [...baseEntries, ...((localBible[key] || []).filter((item) => !baseIds.has(item.id)))];
+  };
+  return {
+    ...baseBible,
+    ...localBible,
+    visual_style: baseBible.visual_style,
+    world_rules: mergeEntries('world_rules'),
+    characters: mergeEntries('characters'),
+    locations: mergeEntries('locations'),
+    props: mergeEntries('props'),
+    continuity_rules: Array.from(new Set([...(baseBible.continuity_rules || []), ...(localBible.continuity_rules || [])]))
+  };
+}
+
+function resolveBibleSource(rootDir, episodeId, failures) {
+  const registryPath = path.join(rootDir, 'series', 'bible', 'registry.json');
+  const episodeBiblePath = path.join(rootDir, 'episodes', episodeId, 'bible', 'bible.json');
+  if (!fs.existsSync(registryPath)) {
+    if (!fs.existsSync(episodeBiblePath)) return null;
+    const bible = readJson(episodeBiblePath);
+    validateSeriesBible(bible, rootDir).forEach((failure) => failures.push(`series bible: ${failure}`));
+    if (bible.episode_id !== episodeId) failures.push('series bible episode_id does not match episode');
+    return { bible, mode: 'legacy_episode_snapshot', source_path: path.relative(rootDir, episodeBiblePath), delta: null };
+  }
+  const registry = readJson(registryPath);
+  validateSeriesBibleRegistry(registry, rootDir).forEach((failure) => failures.push(`series Bible registry: ${failure}`));
+  if (failures.length) return null;
+
+  const canonicalPath = path.join(rootDir, registry.canonical_bible_path);
+  const bible = readJson(canonicalPath);
+  validateSeriesBible(bible, rootDir).forEach((failure) => failures.push(`canonical series Bible: ${failure}`));
+  if (bible.id !== registry.bible?.id || bible.version !== registry.bible?.version || bible.status !== 'approved') {
+    failures.push('series Bible registry does not match an approved canonical Bible');
+  }
+
+  if (fs.existsSync(episodeBiblePath)) {
+    const localBible = readJson(episodeBiblePath);
+    validateSeriesBible(localBible, rootDir).forEach((failure) => failures.push(`episode Bible: ${failure}`));
+    if (localBible.episode_id !== episodeId) failures.push('episode Bible episode_id does not match episode');
+    if (localBible.base_bible?.id !== bible.id || localBible.base_bible?.version !== bible.version) {
+      failures.push('episode Bible does not match canonical Bible');
+    }
+    return {
+      bible: mergeBibleLayers(bible, localBible),
+      mode: 'episode_layer_on_series_baseline',
+      source_path: path.relative(rootDir, episodeBiblePath),
+      registry_path: path.relative(rootDir, registryPath),
+      delta: null
+    };
+  }
+
+  const deltaPath = path.join(rootDir, 'episodes', episodeId, 'bible', 'delta.json');
+  const delta = fs.existsSync(deltaPath) ? readJson(deltaPath) : null;
+  if (delta) {
+    validateEpisodeBibleDelta(delta, episodeId).forEach((failure) => failures.push(`episode Bible delta: ${failure}`));
+    if (delta.base_bible?.id !== bible.id || delta.base_bible?.version !== bible.version) {
+      failures.push('episode Bible delta does not match canonical Bible');
+    }
+  }
+  const additions = delta?.additions || { world_rules: [], characters: [], locations: [], props: [] };
+  const composedBible = mergeBibleLayers(bible, {
+    id: bible.id,
+    version: bible.version,
+    episode_id: episodeId,
+    status: bible.status,
+    world_rules: additions.world_rules || [],
+    characters: additions.characters || [],
+    locations: additions.locations || [],
+    props: additions.props || [],
+    continuity_rules: []
+  });
+  return {
+    bible: composedBible,
+    mode: 'inherited_series_baseline',
+    source_path: registry.canonical_bible_path,
+    registry_path: path.relative(rootDir, registryPath),
+    delta
+  };
+}
+
 function scopeMatches(scope, target) {
   const safeScope = scope || { characters: [], panel_ids: [], tags: [] };
   const scopedCharacters = (safeScope.characters || []).map(normalizeName);
@@ -181,11 +293,8 @@ function buildCreationContext(options) {
 
   const panels = readOptionalJson(path.join(episodeDir, 'panels', 'panels.json'), { panels: [] });
   const storyboard = readOptionalJson(path.join(episodeDir, 'storyboard', 'storyboard.json'), { pages: [] });
-  const bible = readOptionalJson(path.join(episodeDir, 'bible', 'bible.json'), null);
-  if (bible) {
-    validateSeriesBible(bible, rootDir).forEach((failure) => failures.push(`series bible: ${failure}`));
-    if (bible.episode_id !== episodeId) failures.push(`series bible episode_id does not match ${episodeId}`);
-  }
+  const bibleSource = resolveBibleSource(rootDir, episodeId, failures);
+  const bible = bibleSource?.bible || null;
   if (failures.length) throw new Error(`invalid creation context sources:\n- ${failures.join('\n- ')}`);
   const discovery = readOptionalJson(path.join(episodeDir, 'discovery', 'context.json'), {});
   const approvals = readOptionalJson(path.join(episodeDir, 'approvals', 'gates.json'), { gates: [] });
@@ -215,18 +324,35 @@ function buildCreationContext(options) {
     ? (memory.continuity || []).filter((item) => item.to_panel_id === panelId || item.from_panel_id === panelId)
     : [];
 
+  const inheritedIds = (key) => new Set([
+    ...(bibleSource?.delta?.inherit?.[key] || []),
+    ...(bibleSource?.delta?.additions?.[key] || []).map((item) => item.id)
+  ]);
+  const inherited = bibleSource?.mode === 'inherited_series_baseline';
+  const includeBibleEntry = (key, item) => {
+    if (!inherited) return !panelId || (item.panel_ids || []).includes(panelId);
+    return inheritedIds(key).has(item.id);
+  };
   const bibleContext = bible ? {
     id: bible.id,
     version: bible.version,
     status: bible.status,
+    source: {
+      mode: bibleSource.mode,
+      path: bibleSource.source_path,
+      registry_path: bibleSource.registry_path || null,
+      delta_path: bibleSource.delta ? `episodes/${episodeId}/bible/delta.json` : null
+    },
     visual_style: bible.visual_style,
-    world_rules: (bible.world_rules || []).filter((item) => (!panelId || (item.panel_ids || []).includes(panelId)) && item.status !== 'retired'),
+    world_rules: (bible.world_rules || []).filter((item) => includeBibleEntry('world_rules', item) && item.status !== 'retired'),
     characters: (bible.characters || []).filter((item) => {
       if (!panelId) return item.status !== 'retired';
-      return characters.map(normalizeName).includes(normalizeName(item.name)) && item.status !== 'retired';
+      return (!inherited || inheritedIds('characters').has(item.id))
+        && characters.map(normalizeName).includes(normalizeName(item.name))
+        && item.status !== 'retired';
     }),
-    locations: (bible.locations || []).filter((item) => (!panelId || (item.panel_ids || []).includes(panelId)) && item.status !== 'retired'),
-    props: (bible.props || []).filter((item) => (!panelId || (item.panel_ids || []).includes(panelId)) && item.status !== 'retired'),
+    locations: (bible.locations || []).filter((item) => includeBibleEntry('locations', item) && item.status !== 'retired'),
+    props: (bible.props || []).filter((item) => includeBibleEntry('props', item) && item.status !== 'retired'),
     continuity_rules: bible.continuity_rules || []
   } : null;
 
@@ -351,5 +477,8 @@ module.exports = {
   normalizeName,
   scopeMatches,
   validateSeriesBible,
+  validateSeriesBibleRegistry,
+  validateEpisodeBibleDelta,
+  mergeBibleLayers,
   validateCreationMemory
 };
