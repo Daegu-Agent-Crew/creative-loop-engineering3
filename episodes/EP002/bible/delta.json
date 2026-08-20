@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "episode_id": "EP002",
+  "status": "inherits_approved_baseline",
+  "base_bible": {
+    "id": "three-body-common-bible",
+    "version": "1.0.0"
+  },
+  "inherit": {
+    "world_rules": [
+      "world-ep002-normality-infection-v1",
+      "world-ep002-mystery-disclosure-v1"
+    ],
+    "characters": [
+      "character-wangmiao-v1",
+      "character-shiqiang-v1"
+    ],
+    "locations": [],
+    "props": []
+  },
+  "additions": {
+    "world_rules": [
+      {
+        "id": "world-ep002-normality-infection-v1",
+        "label": "EP002 일상에 침입하는 카운트다운",
+        "status": "approved",
+        "immutable_facts": [
+          "연구실은 처음에는 평범한 현실로 보인다.",
+          "카운트다운은 전자 화면에 짧게 침입하며 주변 인물은 대부분 알아차리지 못한다."
+        ],
+        "prohibited_changes": [
+          "연구실 전체가 처음부터 재난 상태인 것처럼 묘사하지 않는다.",
+          "카운트다운을 모든 사람이 동시에 보는 공공 경보로 바꾸지 않는다."
+        ],
+        "panel_ids": ["p1-1"],
+        "evidence_paths": ["episodes/EP002/script/script.md", "episodes/EP002/storyboard/storyboard.json"]
+      },
+      {
+        "id": "world-ep002-mystery-disclosure-v1",
+        "label": "EP002 미스터리 공개 순서",
+        "status": "approved",
+        "immutable_facts": [
+          "숫자의 원인과 발신자는 직접 설명하지 않는다.",
+          "Three Body 게임의 초대는 에피소드 말미에만 제시한다."
+        ],
+        "prohibited_changes": [
+          "삼체인의 모습이나 목적을 직접 공개하지 않는다.",
+          "초반 장면에서 게임 초대 문구를 미리 표시하지 않는다."
+        ],
+        "panel_ids": ["p1-1"],
+        "evidence_paths": ["episodes/EP002/script/script.md", "episodes/EP002/storyboard/storyboard.json"]
+      }
+    ],
+    "characters": [],
+    "locations": [],
+    "props": []
+  },
+  "notes": "EP002 inherits the approved modern-era mystery baseline and existing Wang Miao/Shi Qiang character DNA. New episode-specific anchors, including 쯔쯔, remain outside this approved delta until they have independent evidence."
+}

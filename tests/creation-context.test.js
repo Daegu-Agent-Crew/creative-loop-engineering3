@@ -100,6 +100,38 @@ test('panel runner automatically attaches approved Bible card and anchor assets'
   assert.match(command.command, /중앙 모니터에 p16의 문구를 미리 표시하지 않는다/);
 });
 
+test('EP002 inherits the approved series baseline without reusing EP001 panel scopes', () => {
+  const context = buildCreationContext({ rootDir, episodeId: 'EP002', panelId: 'p4-2', now: fixedNow });
+  const request = compileCreationRequestCard(context);
+
+  assert.equal(context.context.bible.source.mode, 'inherited_series_baseline');
+  assert.equal(context.context.bible.source.path, 'series/bible/common.json');
+  assert.deepEqual(context.context.bible.characters.map((item) => item.id), ['character-wangmiao-v1']);
+  assert.deepEqual(context.context.bible.world_rules.map((item) => item.id), [
+    'world-ep002-normality-infection-v1',
+    'world-ep002-mystery-disclosure-v1'
+  ]);
+  assert.equal(context.context.bible.locations.length, 0);
+  assert.equal(request.bible.status, 'approved');
+  assert.ok(request.references.some((item) => item.anchor_id === 'character-wangmiao-v1'));
+  assert.doesNotMatch(request.compiled_prompt, /1967년 청쑤 대학/);
+  assert.doesNotMatch(request.compiled_prompt, /p15-3 중앙 모니터/);
+  assert.doesNotMatch(request.compiled_prompt, /EP001의 최종 정보/);
+});
+
+test('panel runner enforces the total in-flight limit per panel, not per page job', () => {
+  const policy = require('../config/panel-generation-policy.json');
+  const jobs = require('../episodes/EP002/panels/generation-jobs.json');
+  const panels = require('../episodes/EP002/panels/panels.json');
+  const selected = selectJobs(rootDir, policy, jobs, panels, { policy: { maximum_panel_references: 0 }, anchors: [] }, {
+    maxJobs: 3, variants: 1, maxIterations: 1, iteration: 1, diagnosis: null
+  });
+
+  assert.deepEqual(selected.map((job) => job.job_id), ['EP002-page-05']);
+  assert.deepEqual(selected[0].panel_ids, ['p5-2', 'p5-3', 'p5-4']);
+  assert.equal(selected.flatMap((job) => job.commands).length, 3);
+});
+
 test('creation request validation rejects unapproved Bible and unsafe assets', () => {
   const context = buildCreationContext({ rootDir, episodeId: 'EP001', panelId: 'p7-3', now: fixedNow });
   const request = compileCreationRequestCard(context);

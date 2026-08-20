@@ -155,6 +155,55 @@
       "overlays": []
     },
     {
+      "panel_id": "p4-2",
+      "page_number": 4,
+      "source_image_path": "episodes/EP002/panels/assets/p4-2.png",
+      "final_image_path": "episodes/EP002/panels/final/p4-2.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "현상소 주인: \"이거 인화할 때 나오는 건가요?",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-3",
+      "page_number": 4,
+      "source_image_path": "episodes/EP002/panels/assets/p4-3.png",
+      "final_image_path": "episodes/EP002/panels/final/p4-3.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "왕먀오: \"...필름은 디지털이 아닌데.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-4",
+      "page_number": 4,
+      "source_image_path": "episodes/EP002/panels/assets/p4-4.png",
+      "final_image_path": "episodes/EP002/panels/final/p4-4.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
       "panel_id": "p5-1",
       "page_number": 5,
       "source_image_path": "episodes/EP002/panels/assets/p5-1.png",

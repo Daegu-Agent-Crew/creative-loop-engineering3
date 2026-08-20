@@ -1,6 +1,6 @@
 {
-  "current_episode": "EP001",
-  "current_phase": "phase6_release",
+  "current_episode": "EP002",
+  "current_phase": "phase4_panels",
   "episodes": {
     "EP001": {
       "title": "태초의 밤",
@@ -95,7 +95,7 @@
         "phase4": {
           "status": "active",
           "prompt_version": "v2-toriyama-internal",
-          "note": "30/57 패널 생성. text-overlays.json 미실행. generation-jobs 5/16 페이지 완료."
+          "note": "33/57 패널 생성. text-overlays.json과 최종 SVG 33/33 생성, draft 텍스트 오버레이 15개 시각 검토 대기. generation-jobs 5/16 페이지 완료. 공통 Series Bible v1.0과 EP002 delta를 합성해 사용한다. p4-2~p4-4는 생성·1차 시각 검토를 마쳤다."
         },
         "phase5": {
           "status": "pending"

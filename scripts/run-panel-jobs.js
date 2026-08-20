@@ -70,7 +70,8 @@ This runner is intentionally deterministic. It chooses work, validates inputs,
 honors low-performance worker settings and concurrency limits, and writes an
 operator plan. Image generation itself is still performed by Codex imagegen,
 one image per request, using the emitted commands. Variants are written under
-.candidates/ until an evaluator promotes one selected image.`);
+.candidates/ until an evaluator promotes one selected image. --max-jobs is a
+legacy option name and caps emitted panel commands, never page groups.`);
 }
 
 function shellQuote(value) {
@@ -195,22 +196,27 @@ function selectJobs(rootDir, policy, jobsJson, panelsJson, preferenceMemory, opt
   let normalSlots = policy.scheduling.normal_parallel_limit;
   let complexSlots = policy.scheduling.complex_parallel_limit;
   let totalSlots = policy.scheduling.max_total_in_flight;
+  let selectedPanelCount = 0;
 
   for (const job of jobsJson.jobs || []) {
-    if (options.maxJobs !== null && selected.length >= options.maxJobs) break;
+    if (options.maxJobs !== null && selectedPanelCount >= options.maxJobs) break;
     if (totalSlots <= 0) break;
     if (!options.panelId && ['completed', 'blocked', 'running', 'in_progress', 'escalated'].includes(job.status)) continue;
 
-    const panels = runnablePanels(rootDir, job, panelsById, options);
-    if (panels.length === 0) continue;
+    const runnable = runnablePanels(rootDir, job, panelsById, options);
+    if (runnable.length === 0) continue;
 
     const complexity = complexityForJob(job, panelsById);
+    const requestedLimit = options.maxJobs === null ? totalSlots : Math.min(totalSlots, options.maxJobs - selectedPanelCount);
+    const panelLimit = complexity === 'complex'
+      ? Math.min(1, complexSlots, requestedLimit)
+      : Math.min(normalSlots, requestedLimit);
+    const panels = runnable.slice(0, panelLimit);
+    if (panels.length === 0) continue;
     if (complexity === 'complex') {
-      if (complexSlots <= 0) continue;
-      complexSlots -= 1;
+      complexSlots -= panels.length;
     } else {
-      if (normalSlots <= 0) continue;
-      normalSlots -= 1;
+      normalSlots -= panels.length;
     }
 
     selected.push({
@@ -280,7 +286,8 @@ function selectJobs(rootDir, policy, jobsJson, panelsJson, preferenceMemory, opt
         ))
         : []
     });
-    totalSlots -= 1;
+    totalSlots -= panels.length;
+    selectedPanelCount += panels.length;
   }
 
   return selected;

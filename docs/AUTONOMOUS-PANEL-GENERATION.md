@@ -23,7 +23,8 @@
 5. 파일이 있는데 상태가 pending이면 덮어쓰지 말고 상태 불일치로 기록한다.
 6. 현재 실행 중인 다른 워커가 없는지 확인한다.
 7. `node scripts/run-panel-jobs.js --episode EPxxx --dry-run --max-jobs 3`로 다음
-   실행 배치를 뽑는다.
+   실행 배치를 뽑는다. 옵션 이름은 legacy지만 최대 3개의 **패널 명령**만
+   출력하며, 페이지 묶음 전체를 동시 실행하지 않는다.
 8. 준비된 패널만 `ready`로 전환하고 자율 루프를 시작한다.
 
 ## 역할 분리
@@ -148,7 +149,8 @@ imagegen이 담당하므로, runner가 출력한 명령을 작업자가 순서�
 
 1. `--dry-run`으로 선택·복잡도·참조 자산만 확인한다.
 2. `node scripts/run-panel-jobs.js --episode EPxxx --dry-run --max-jobs 3`으로
-   일반 패널 최대 3장 또는 복잡 패널 1장의 다음 배치를 고른다.
+   일반 패널 최대 3장 또는 복잡 패널 1장의 다음 배치를 고른다. 페이지가
+   부분 완료여도 실행기 출력은 이 패널 수 제한을 넘지 않는다.
 3. 한 페이지의 생성 패널이 준비되면 `node scripts/build-text-overlays.js
    --episode EPxxx --generated-only`로 텍스트 후보를 갱신한다.
 4. `node scripts/render-panel-overlays.js --episode EPxxx --page N`으로
