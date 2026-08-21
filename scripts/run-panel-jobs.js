@@ -288,6 +288,10 @@ function selectJobs(rootDir, policy, jobsJson, panelsJson, preferenceMemory, opt
     });
     totalSlots -= panels.length;
     selectedPanelCount += panels.length;
+
+    // A batch belongs to one page. Do not use spare panel slots to mix the
+    // next page into a partially completed page job.
+    break;
   }
 
   return selected;

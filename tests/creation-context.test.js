@@ -119,7 +119,7 @@ test('EP002 inherits the approved series baseline without reusing EP001 panel sc
   assert.doesNotMatch(request.compiled_prompt, /EP001의 최종 정보/);
 });
 
-test('panel runner enforces the total in-flight limit per panel, not per page job', () => {
+test('panel runner keeps a partially completed page in one page-grouped batch', () => {
   const policy = require('../config/panel-generation-policy.json');
   const jobs = require('../episodes/EP002/panels/generation-jobs.json');
   const panels = require('../episodes/EP002/panels/panels.json');
@@ -128,8 +128,8 @@ test('panel runner enforces the total in-flight limit per panel, not per page jo
   });
 
   assert.deepEqual(selected.map((job) => job.job_id), ['EP002-page-05']);
-  assert.deepEqual(selected[0].panel_ids, ['p5-2', 'p5-3', 'p5-4']);
-  assert.equal(selected.flatMap((job) => job.commands).length, 3);
+  assert.deepEqual(selected[0].panel_ids, ['p5-3', 'p5-4']);
+  assert.equal(selected.flatMap((job) => job.commands).length, 2);
 });
 
 test('creation request validation rejects unapproved Bible and unsafe assets', () => {
