@@ -40,6 +40,29 @@
       ],
       "human_approval": "not_required",
       "impact": "Workspace는 검토 가능한 판단 요약만 노출한다."
+    },
+    {
+      "id": "DEC-20260821-001",
+      "made_at": "2026-08-21T09:14:00+09:00",
+      "phase": "phase4_panels",
+      "decision": "p5-2의 단일 생성 결과를 정식 패널로 선택하고, 원본 후보를 별도 보존했다.",
+      "rationale": "왕먀오가 안경을 벗어 닦는 근접 구도와 절제된 공포를 명확히 전달하며, 이미지 안에 읽을 수 있는 문자·숫자가 없고 후처리 오버레이 공간이 남아 있다.",
+      "evidence": [
+        ".candidates/EP002/p5-2/iteration-01/p5-2-v01.png",
+        "episodes/EP002/panels/assets/p5-2.png",
+        "episodes/EP002/panels/final/p5-2.svg"
+      ],
+      "confidence": "medium",
+      "uncertainties": [
+        "p5-2의 자동 추출 대사와 배치 위치는 아직 draft 시각 검토 상태다.",
+        "단일 관찰은 Series Bible 선호로 승격하지 않는다."
+      ],
+      "alternatives_considered": [
+        "추가 변형 후보를 생성해 비교",
+        "기존 pending 상태 유지"
+      ],
+      "human_approval": "not_required",
+      "impact": "패널 상태, 오버레이 레코드, 최종 SVG와 매니페스트 수치를 실제 생성 결과에 맞춘다."
     }
   ]
 }

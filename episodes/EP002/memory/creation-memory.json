@@ -2,7 +2,7 @@
   "$schema": "../../../schemas/creation-memory.schema.json",
   "schema_version": 1,
   "episode_id": "EP002",
-  "updated_at": "2026-08-20T06:16:00+09:00",
+  "updated_at": "2026-08-21T09:14:00+09:00",
   "creator_contract": {
     "creative_actor": "codex",
     "sole_creative_actor": true,
@@ -132,7 +132,8 @@
       "phase3 완료"
     ],
     "next_actions": [
-      "15개의 draft 텍스트 오버레이를 시각 검토하고 위치·문구를 확정한다.",
+      "16개의 draft 텍스트 오버레이를 시각 검토하고 위치·문구를 확정한다.",
+      "p5-2의 draft 대사 오버레이 위치를 시각 검토하고 QA 상태를 확정한다.",
       "p4-2, p4-3, p4-4 생성 결과의 대사 오버레이 위치를 검토하고 QA 상태를 확정한다.",
       "쯔쯔와 EP002 전용 장소·소품은 별도 증거를 확보한 뒤 delta에 추가한다.",
       "완성 패널과 텍스트 오버레이를 대상으로 Phase 5 QA를 준비한다."

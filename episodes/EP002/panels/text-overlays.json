@@ -224,6 +224,26 @@
       ]
     },
     {
+      "panel_id": "p5-2",
+      "page_number": 5,
+      "source_image_path": "episodes/EP002/panels/assets/p5-2.png",
+      "final_image_path": "episodes/EP002/panels/final/p5-2.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "스치친: \"죽기 전 2주간 밤하늘만 봤어. 연구를 포기했지.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
       "panel_id": "p7-1",
       "page_number": 7,
       "source_image_path": "episodes/EP002/panels/assets/p7-1.png",
