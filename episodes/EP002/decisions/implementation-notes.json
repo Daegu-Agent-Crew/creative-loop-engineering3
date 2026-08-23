@@ -63,6 +63,59 @@
       ],
       "human_approval": "not_required",
       "impact": "패널 상태, 오버레이 레코드, 최종 SVG와 매니페스트 수치를 실제 생성 결과에 맞춘다."
+    },
+    {
+      "id": "DEC-20260822-001",
+      "made_at": "2026-08-22T06:07:11+09:00",
+      "phase": "phase4_panels",
+      "decision": "p5-3과 p5-4의 단일 생성 결과를 각각 정식 패널로 선택하고 원본 후보를 별도 보존했다.",
+      "rationale": "p5-3은 거울 속 왕먀오의 긴장과 실제 시야의 불일치를, p5-4는 평범하게 손을 씻는 배경 인물과 왕먀오의 고립을 명확히 보여 준다. 두 결과 모두 읽을 수 있는 문자·숫자가 없어 SVG 후처리 정책을 지킨다.",
+      "evidence": [
+        ".candidates/EP002/p5-3/iteration-01/p5-3-v01.png",
+        ".candidates/EP002/p5-4/iteration-01/p5-4-v01.png",
+        "episodes/EP002/panels/assets/p5-3.png",
+        "episodes/EP002/panels/assets/p5-4.png"
+      ],
+      "confidence": "medium",
+      "uncertainties": [
+        "두 패널의 자동 추출 텍스트 오버레이 위치는 아직 draft 시각 검토 상태다.",
+        "단일 생성 관찰은 Series Bible 선호로 승격하지 않는다."
+      ],
+      "alternatives_considered": [
+        "각 패널의 추가 변형 후보를 생성해 비교",
+        "기존 pending 상태 유지"
+      ],
+      "human_approval": "not_required",
+      "impact": "페이지 5의 생성 완료 상태와 후처리 산출물을 실제 파일에 맞춰 동기화한다."
+    },
+    {
+      "id": "DEC-20260823-001",
+      "made_at": "2026-08-23T06:06:40+09:00",
+      "phase": "phase4_panels",
+      "decision": "p6-1부터 p6-3까지의 단일 생성 결과를 각각 정식 패널로 선택하고, 원본 후보를 별도 보존했다.",
+      "rationale": "p6-1은 정상 검안 결과와 왕먀오의 불안을, p6-2는 이상이 녹화되지 않는 카메라 화면을, p6-3은 정상 연구실 속 사적 시야의 붉은 이상을 명확히 전달한다. 세 결과 모두 읽을 수 있는 한글·숫자를 생성하지 않아 SVG 후처리 정책을 지킨다.",
+      "evidence": [
+        ".candidates/EP002/p6-1/iteration-01/p6-1-v01.png",
+        ".candidates/EP002/p6-2/iteration-01/p6-2-v01.png",
+        ".candidates/EP002/p6-3/iteration-01/p6-3-v01.png",
+        "episodes/EP002/panels/assets/p6-1.png",
+        "episodes/EP002/panels/assets/p6-2.png",
+        "episodes/EP002/panels/assets/p6-3.png",
+        "episodes/EP002/panels/final/p6-1.svg",
+        "episodes/EP002/panels/final/p6-2.svg",
+        "episodes/EP002/panels/final/p6-3.svg"
+      ],
+      "confidence": "medium",
+      "uncertainties": [
+        "p6-1의 결과지 추상 선과 p6-3의 붉은 신호 강도는 전체 페이지 QA에서 다시 확인한다.",
+        "단일 생성 관찰은 Series Bible 선호로 승격하지 않는다."
+      ],
+      "alternatives_considered": [
+        "패널별 추가 변형 후보를 생성해 비교",
+        "p6-4까지 한 번에 생성"
+      ],
+      "human_approval": "not_required",
+      "impact": "페이지 6은 4개 중 3개가 생성·후처리 완료된 partial 상태이며, p6-4는 다음 실행 가능한 패널로 남는다."
     }
   ]
 }
