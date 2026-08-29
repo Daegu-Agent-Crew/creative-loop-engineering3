@@ -116,6 +116,29 @@
       ],
       "human_approval": "not_required",
       "impact": "페이지 6은 4개 중 3개가 생성·후처리 완료된 partial 상태이며, p6-4는 다음 실행 가능한 패널로 남는다."
+    },
+    {
+      "id": "DEC-20260824-001",
+      "made_at": "2026-08-24T06:02:25+09:00",
+      "phase": "phase4_panels",
+      "decision": "p6-4의 단일 생성 결과를 정식 패널로 선택하고 원본 후보를 별도 보존했다.",
+      "rationale": "왕먀오의 뒷모습, 경직된 어깨, 하얗게 힘준 손가락 관절이 close-up 구도에서 명확하며, 연구실은 평범한 상태를 유지한다. 화면에 읽을 수 있는 한글·숫자·경보가 없어 후처리 오버레이 정책과 세계관 제약을 지킨다.",
+      "evidence": [
+        ".candidates/EP002/p6-4/iteration-01/p6-4-v01.png",
+        "episodes/EP002/panels/assets/p6-4.png",
+        "episodes/EP002/panels/final/p6-4.svg"
+      ],
+      "confidence": "medium",
+      "uncertainties": [
+        "페이지 6 전체 QA에서 인접 패널과의 조명·구도 연속성을 다시 확인한다.",
+        "단일 생성 관찰은 Series Bible 선호로 승격하지 않는다."
+      ],
+      "alternatives_considered": [
+        "추가 변형 후보를 생성해 비교",
+        "기존 partial 상태를 유지"
+      ],
+      "human_approval": "not_required",
+      "impact": "페이지 6의 4개 패널이 모두 생성 단계에서 완료되어, 후처리·페이지 단위 QA 대상으로 전환한다."
     }
   ]
 }
