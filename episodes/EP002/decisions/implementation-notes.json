@@ -118,6 +118,29 @@
       "impact": "페이지 6은 4개 중 3개가 생성·후처리 완료된 partial 상태이며, p6-4는 다음 실행 가능한 패널로 남는다."
     },
     {
+      "id": "DEC-20260830-001",
+      "made_at": "2026-08-30T21:04:11Z",
+      "phase": "phase4_panels",
+      "decision": "p7-2의 단일 생성 결과를 정식 패널로 선택하고 원본 후보를 별도 보존했다.",
+      "rationale": "왕먀오의 큰 뿔테 안경과 청회색 연구실 복장을 유지하면서, 입가의 미소와 눈가의 경직·땀방울로 억지 미소의 긴장을 명확히 전달한다. 평상 연구실 배경과 빈 대사 공간을 남겼고 읽을 수 있는 문자·숫자·경보 표현은 없다.",
+      "evidence": [
+        ".candidates/EP002/p7-2/iteration-01/p7-2-v01.png",
+        "episodes/EP002/panels/assets/p7-2.png"
+      ],
+      "confidence": "medium",
+      "uncertainties": [
+        "전달 PNG는 2.23MB로 정책의 1MB 목표를 초과하지만 4MB 하드 한도 이하다.",
+        "페이지 7 인접 패널과의 조명·구도 연속성 및 오버레이 위치는 페이지 단위 QA에서 다시 확인한다.",
+        "단일 생성 관찰은 Series Bible 선호로 승격하지 않는다."
+      ],
+      "alternatives_considered": [
+        "추가 변형 후보를 생성해 비교",
+        "기존 pending 상태 유지"
+      ],
+      "human_approval": "not_required",
+      "impact": "p7-2를 generated 상태로 기록하고, 후보 원본은 .candidates에 보존한 채 페이지 7 오버레이·최종 SVG 렌더링 대상으로 전환한다."
+    },
+    {
       "id": "DEC-20260824-001",
       "made_at": "2026-08-24T06:02:25+09:00",
       "phase": "phase4_panels",
