@@ -318,6 +318,35 @@
       "overlays": []
     },
     {
+      "panel_id": "p7-2",
+      "page_number": 7,
+      "source_image_path": "episodes/EP002/panels/assets/p7-2.png",
+      "final_image_path": "episodes/EP002/panels/final/p7-2.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "narration",
+          "text": "왕먀오(독백): \"카메라를 바꿔도. 렌즈를 바꿔도.",
+          "box": {
+            "x": 0.1,
+            "y": 0.08,
+            "w": 0.8,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-3",
+      "page_number": 7,
+      "source_image_path": "episodes/EP002/panels/assets/p7-3.png",
+      "final_image_path": "episodes/EP002/panels/final/p7-3.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
       "panel_id": "p8-1",
       "page_number": 8,
       "source_image_path": "episodes/EP002/panels/assets/p8-1.png",
