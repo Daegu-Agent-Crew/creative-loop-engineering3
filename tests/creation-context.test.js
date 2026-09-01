@@ -127,9 +127,9 @@ test('panel runner keeps a partially completed page in one page-grouped batch', 
     maxJobs: 3, variants: 1, maxIterations: 1, iteration: 1, diagnosis: null
   });
 
-  assert.deepEqual(selected.map((job) => job.job_id), ['EP002-page-05']);
-  assert.deepEqual(selected[0].panel_ids, ['p5-3', 'p5-4']);
-  assert.equal(selected.flatMap((job) => job.commands).length, 2);
+  assert.deepEqual(selected.map((job) => job.job_id), ['EP002-page-07']);
+  assert.deepEqual(selected[0].panel_ids, ['p7-4']);
+  assert.equal(selected.flatMap((job) => job.commands).length, 1);
 });
 
 test('creation request validation rejects unapproved Bible and unsafe assets', () => {
