@@ -34,8 +34,8 @@
       "page_number": 2,
       "source_image_path": "episodes/EP002/panels/assets/p2-1.png",
       "final_image_path": "episodes/EP002/panels/final/p2-1.svg",
-      "status": "draft",
-      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "status": "needs_review",
+      "notes": "Failsafe: extracted script dialogue describes a doctor scene and conflicts with this family-dinner panel. Do not render or approve until the EP002 script/storyboard mapping is rebaselined.",
       "overlays": [
         {
           "kind": "dialogue",
@@ -366,6 +366,26 @@
         {
           "kind": "dialogue",
           "text": "의사: \"눈은 아주 건강하십니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p8-2",
+      "page_number": 8,
+      "source_image_path": "episodes/EP002/panels/assets/p8-2.png",
+      "final_image_path": "episodes/EP002/panels/final/p8-2.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "의사: \"신경계도 이상이 없어요. 스트레스성 환각일 수 있습니다.",
           "box": {
             "x": 0.08,
             "y": 0.06,
