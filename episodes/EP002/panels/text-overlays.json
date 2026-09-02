@@ -347,6 +347,15 @@
       "overlays": []
     },
     {
+      "panel_id": "p7-4",
+      "page_number": 7,
+      "source_image_path": "episodes/EP002/panels/assets/p7-4.png",
+      "final_image_path": "episodes/EP002/panels/final/p7-4.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
       "panel_id": "p8-1",
       "page_number": 8,
       "source_image_path": "episodes/EP002/panels/assets/p8-1.png",

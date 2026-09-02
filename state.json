@@ -95,7 +95,7 @@
         "phase4": {
           "status": "active",
           "prompt_version": "v2-toriyama-internal",
-          "note": "42/57 패널 생성. text-overlays.json과 최종 SVG 42/42 생성, draft 텍스트 오버레이 18개 시각 검토 대기. generation-jobs는 페이지 7이 3/4 생성된 partial 상태다. 공통 Series Bible v1.0과 EP002 delta를 합성해 사용한다. p4-2~p4-4는 생성·1차 시각 검토를 마쳤고, p5-2~p5-4와 p6-1~p6-4는 생성·오버레이·최종 SVG 렌더링까지 완료했다. p7-2는 독백 오버레이 draft, p7-3은 생성 후보 선택 및 SVG 렌더링을 마쳤다."
+          "note": "43/57 패널 생성. text-overlays.json과 최종 SVG 43/43 생성, draft 텍스트 오버레이 18개 시각 검토 대기. generation-jobs의 페이지 7은 4/4 생성 완료 상태다. 공통 Series Bible v1.0과 EP002 delta를 합성해 사용한다. p4-2~p4-4는 생성·1차 시각 검토를 마쳤고, p5-2~p5-4와 p6-1~p6-4는 생성·오버레이·최종 SVG 렌더링까지 완료했다. p7-2는 독백 오버레이 draft, p7-3과 p7-4는 생성 후보 선택 및 SVG 렌더링을 마쳤다."
         },
         "phase5": {
           "status": "pending"
