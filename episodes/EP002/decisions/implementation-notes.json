@@ -235,6 +235,30 @@
       ],
       "human_approval": "not_required",
       "impact": "p8-2를 generated 상태로 기록하고, 후보 원본은 .candidates에 보존한 채 페이지 8 오버레이·최종 SVG 렌더링 대상으로 전환한다. 페이지 8 generation job은 p8-3과 p8-4가 남아 partial을 유지한다."
+    },
+    {
+      "id": "DEC-20260903-001",
+      "made_at": "2026-09-03T21:03:52Z",
+      "phase": "phase4_panels",
+      "decision": "p8-3의 단일 생성 결과를 정식 패널로 선택하고 원본 후보를 별도 보존했다.",
+      "rationale": "쯔쯔의 둥근 얼굴, 짧은 검은 단발, 노랑·분홍 실내복, 큰 맑은 눈을 캐릭터 참조 자산에 맞췄다. 가족 식탁의 따뜻한 조명과 상단의 비어 있는 여백이 일상의 온기에 불안이 스미는 페이지 8 비트와 후처리 오버레이 정책을 충족한다. 이미지 안에는 읽을 수 있는 문자·숫자·대사·경보가 없다.",
+      "evidence": [
+        ".candidates/EP002/p8-3/iteration-01/p8-3-v01.png",
+        "episodes/EP002/panels/assets/p8-3.png"
+      ],
+      "confidence": "medium",
+      "uncertainties": [
+        "전달 PNG는 1.61MB로 정책의 1MB 목표를 초과하지만 4MB 하드 한도 이하다.",
+        "페이지 8 인접 패널과의 조명·감정 연속성은 페이지 단위 QA에서 다시 확인한다.",
+        "자동 추출된 p8-3 스크립트 대사가 병원 장면과 카운트다운을 가리켜 가족 식탁 장면과 충돌한다. rebaseline 전에는 오버레이를 needs_review로 보류한다.",
+        "단일 생성 관찰은 Series Bible 선호로 승격하지 않는다."
+      ],
+      "alternatives_considered": [
+        "추가 변형 후보를 생성해 비교",
+        "기존 pending 상태 유지"
+      ],
+      "human_approval": "not_required",
+      "impact": "p8-3를 generated 상태로 기록하고, 후보 원본은 .candidates에 보존한 채 페이지 8 오버레이·최종 SVG 렌더링 대상으로 전환한다. script/storyboard 재기준선 전에는 p8-2 및 p8-3 SVG 렌더링을 보류한다. 페이지 8 generation job은 p8-4가 남아 partial을 유지한다."
     }
   ]
 }

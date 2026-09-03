@@ -95,7 +95,7 @@
         "phase4": {
           "status": "active",
           "prompt_version": "v2-toriyama-internal",
-          "note": "44/57 패널 생성. text-overlays.json에는 44개 생성 패널이 기록되고, 최종 SVG는 43/44 생성 상태다. p8-2의 자동 추출 대사가 식탁 장면과 충돌해 오버레이를 needs_review로 보류했으며 SVG는 만들지 않았다. generation-jobs의 페이지 7은 4/4 생성 완료 상태다. 공통 Series Bible v1.0과 EP002 delta를 합성해 사용한다. p4-2~p4-4는 생성·1차 시각 검토를 마쳤고, p5-2~p5-4와 p6-1~p6-4는 생성·오버레이·최종 SVG 렌더링까지 완료했다. p7-2는 독백 오버레이 draft, p7-3과 p7-4는 생성 후보 선택 및 SVG 렌더링을 마쳤다."
+          "note": "45/57 패널 생성. text-overlays.json에는 45개 생성 패널이 기록되고, 최종 SVG는 43/45 생성 상태다. p8-2와 p8-3의 자동 추출 스크립트 대사가 가족 식탁 스토리보드와 충돌해 오버레이를 needs_review로 보류했으며 SVG는 만들지 않았다. generation-jobs의 페이지 7은 4/4 생성 완료 상태다. 공통 Series Bible v1.0과 EP002 delta를 합성해 사용한다. p4-2~p4-4는 생성·1차 시각 검토를 마쳤고, p5-2~p5-4와 p6-1~p6-4는 생성·오버레이·최종 SVG 렌더링까지 완료했다. p7-2는 독백 오버레이 draft, p7-3과 p7-4는 생성 후보 선택 및 SVG 렌더링을 마쳤다."
         },
         "phase5": {
           "status": "pending"
@@ -260,5 +260,5 @@
       "previous_score": 45
     }
   ],
-  "last_updated": "2026-09-02T21:06:00Z"
+  "last_updated": "2026-09-03T21:03:52Z"
 }
