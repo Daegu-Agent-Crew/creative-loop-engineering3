@@ -416,6 +416,15 @@
       ]
     },
     {
+      "panel_id": "p8-4",
+      "page_number": 8,
+      "source_image_path": "episodes/EP002/panels/assets/p8-4.png",
+      "final_image_path": "episodes/EP002/panels/final/p8-4.svg",
+      "status": "needs_review",
+      "notes": "Failsafe: this family-dinner panel shares the page-8 script/storyboard mapping conflict already observed in p8-2 and p8-3. Do not derive, render, or approve an overlay until the EP002 mapping is rebaselined.",
+      "overlays": []
+    },
+    {
       "panel_id": "p9-1",
       "page_number": 9,
       "source_image_path": "episodes/EP002/panels/assets/p9-1.png",
