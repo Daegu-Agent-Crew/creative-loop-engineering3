@@ -445,6 +445,26 @@
       ]
     },
     {
+      "panel_id": "p10-1",
+      "page_number": 10,
+      "source_image_path": "episodes/EP002/panels/assets/p10-1.png",
+      "final_image_path": "episodes/EP002/panels/final/p10-1.svg",
+      "status": "draft",
+      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "overlays": [
+        {
+          "kind": "narration",
+          "text": "왕먀오(독백): \"빨라지고 있다.",
+          "box": {
+            "x": 0.1,
+            "y": 0.08,
+            "w": 0.8,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
       "panel_id": "p10-4",
       "page_number": 10,
       "source_image_path": "episodes/EP002/panels/assets/p10-4.png",

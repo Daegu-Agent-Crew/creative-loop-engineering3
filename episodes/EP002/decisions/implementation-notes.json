@@ -3,6 +3,29 @@
   "episode_id": "EP002",
   "decisions": [
     {
+      "id": "DEC-20260905-001",
+      "made_at": "2026-09-05T21:04:53Z",
+      "phase": "phase4_panels",
+      "decision": "p10-1의 단일 생성 결과를 정식 패널로 선택하고 원본 후보를 별도 보존했다.",
+      "rationale": "스치친의 헝클어진 검은 머리, 수염 자국, 묵직한 체형과 왕먀오의 큰 뿔테 안경, 마른 체형을 참조 자산에 맞췄다. 새벽 거리의 차가운 청색과 포장마차의 따뜻한 호박색 조명, 국수를 먹는 스치친과 서 있는 왕먀오의 대비가 첫 페이지-10 비트를 명확히 전달한다. 읽을 수 있는 문자·숫자·대사·경보는 없다.",
+      "evidence": [
+        ".candidates/EP002/p10-1/iteration-01/p10-1-v01.png",
+        "episodes/EP002/panels/assets/p10-1.png"
+      ],
+      "confidence": "medium",
+      "uncertainties": [
+        "전달 PNG는 2.70MB로 정책의 1MB 목표를 초과하지만 4MB 하드 한도 이하다.",
+        "다인물 광각 구도이므로 페이지 10의 인접 패널과 인물·조명 연속성은 페이지 단위 QA에서 다시 확인한다.",
+        "단일 생성 관찰은 Series Bible 선호로 승격하지 않는다."
+      ],
+      "alternatives_considered": [
+        "추가 변형 후보를 생성해 비교",
+        "기존 pending 상태 유지"
+      ],
+      "human_approval": "not_required",
+      "impact": "p10-1을 generated 상태로 기록하고 후보 원본은 .candidates에 보존한다. 페이지 10 generation job은 p10-2와 p10-3이 남아 partial을 유지하며, p10-1은 오버레이·최종 SVG 렌더링 대상으로 전환한다."
+    },
+    {
       "id": "DEC-20260831-001",
       "made_at": "2026-08-31T21:04:04Z",
       "phase": "phase4_panels",
