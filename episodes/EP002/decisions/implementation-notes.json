@@ -3,6 +3,31 @@
   "episode_id": "EP002",
   "decisions": [
     {
+      "id": "DEC-20260906-001",
+      "made_at": "2026-09-06T21:04:19Z",
+      "phase": "phase4_panels",
+      "decision": "p10-2의 단일 생성 결과를 정식 패널로 선택하고 원본 후보를 별도 보존했다.",
+      "rationale": "스치친의 헝클어진 검은 머리, 수염 자국, 묵직한 체형, 낡은 재킷과 열린 흰 셔츠를 캐릭터 기준 및 p10-1의 직전 장면과 맞췄다. 새벽 거리의 차가운 청색과 포장마차의 따뜻한 호박색 조명, 국수 그릇과 젓가락을 든 설명 제스처가 숫자가 줄어드는 의미를 해석하는 단일 비트를 명확히 전달한다. 상단 좌측에는 후처리 대사 여백이 있으며 읽을 수 있는 문자·숫자·대사·경보는 없다.",
+      "evidence": [
+        ".candidates/EP002/p10-2/iteration-01/p10-2-v01.png",
+        "episodes/EP002/panels/assets/p10-2.png",
+        "episodes/EP002/panels/final/p10-2.svg",
+        "episodes/EP002/panels/assets/p10-1.png"
+      ],
+      "confidence": "medium",
+      "uncertainties": [
+        "전달 PNG의 파일 크기는 자산 검사에서 1MB 목표 대비 경고 여부를 확인해야 한다.",
+        "페이지 10의 인접 패널과 인물·조명 연속성은 페이지 단위 QA에서 다시 확인한다.",
+        "단일 생성 관찰은 Series Bible 선호로 승격하지 않는다."
+      ],
+      "alternatives_considered": [
+        "추가 변형 후보를 생성해 비교",
+        "기존 pending 상태 유지"
+      ],
+      "human_approval": "not_required",
+      "impact": "p10-2를 generated 상태로 기록하고 후보 원본은 .candidates에 보존한다. 페이지 10 generation job은 p10-3과 p10-4가 남아 partial을 유지한다. p10-2에는 대사·자막이 없어 빈 오버레이 레코드와 최종 SVG를 렌더링했다."
+    },
+    {
       "id": "DEC-20260905-001",
       "made_at": "2026-09-05T21:04:53Z",
       "phase": "phase4_panels",

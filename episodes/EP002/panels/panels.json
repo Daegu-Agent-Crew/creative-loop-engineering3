@@ -703,7 +703,7 @@
       "image_path": "episodes/EP002/panels/assets/p10-2.png",
       "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP002\nPage: 10\nPanel ID: p10-2\nStoryboard description: 스치친이 숫자가 줄어드는 것은 아직 시간이 남았다는 뜻이라고 말한다.\nVisible cast: 스치친\n\n--- CHARACTER REFERENCES ---\n- 스치친 (史强): Reference asset: episodes/EP001/characters/assets/shiqiang-v1.png Appearance: 40대 중국 남성, 헝클어진 검은 머리, 무거운 수염 자국, 피곤한 좁은 눈, 묵직한 체형. 낡은 작업복 재킷과 열린 흰 셔츠, 헐렁한 바지, 담배 또는 포장마차 젓가락이 시그니처 소품. Style notes: Toriyama style: rugged rounded bulk, exaggerated weary posture, stubble dots, small shrewd eyes. Earthy olive-brown palette with amber cigarette or food-stall light. Inner tone: 거칠고 무례하지만 직감이 날카로운 형사. 왕먀오를 불편하게 만들면서도 공포를 관찰 가능한 단서로 바꾸는 안내자 역할.\n\n--- COMPOSITION ---\nCamera: medium\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
       "style": "dr-slump-toriyama",
-      "generation_status": "pending",
+      "generation_status": "generated",
       "text_strategy": "postprocess_overlay",
       "ai_score": null,
       "human_score": null

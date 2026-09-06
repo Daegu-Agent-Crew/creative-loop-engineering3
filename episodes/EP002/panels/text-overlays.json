@@ -465,6 +465,15 @@
       ]
     },
     {
+      "panel_id": "p10-2",
+      "page_number": 10,
+      "source_image_path": "episodes/EP002/panels/assets/p10-2.png",
+      "final_image_path": "episodes/EP002/panels/final/p10-2.svg",
+      "status": "rendered",
+      "notes": "No text overlay required.",
+      "overlays": []
+    },
+    {
       "panel_id": "p10-4",
       "page_number": 10,
       "source_image_path": "episodes/EP002/panels/assets/p10-4.png",

@@ -128,7 +128,7 @@ test('panel runner advances to the next page-grouped batch after page 8 complete
   });
 
   assert.deepEqual(selected.map((job) => job.job_id), ['EP002-page-10']);
-  assert.deepEqual(selected[0].panel_ids, ['p10-2']);
+  assert.deepEqual(selected[0].panel_ids, ['p10-3']);
   assert.equal(selected.flatMap((job) => job.commands).length, 1);
 });
 
