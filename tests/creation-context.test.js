@@ -119,7 +119,7 @@ test('EP002 inherits the approved series baseline without reusing EP001 panel sc
   assert.doesNotMatch(request.compiled_prompt, /EP001의 최종 정보/);
 });
 
-test('panel runner advances to the next page-grouped batch after page 8 completes', () => {
+test('panel runner advances to the next page-grouped batch after page 10 completes', () => {
   const policy = require('../config/panel-generation-policy.json');
   const jobs = require('../episodes/EP002/panels/generation-jobs.json');
   const panels = require('../episodes/EP002/panels/panels.json');
@@ -127,9 +127,9 @@ test('panel runner advances to the next page-grouped batch after page 8 complete
     maxJobs: 3, variants: 1, maxIterations: 1, iteration: 1, diagnosis: null
   });
 
-  assert.deepEqual(selected.map((job) => job.job_id), ['EP002-page-10']);
-  assert.deepEqual(selected[0].panel_ids, ['p10-3']);
-  assert.equal(selected.flatMap((job) => job.commands).length, 1);
+  assert.deepEqual(selected.map((job) => job.job_id), ['EP002-page-11']);
+  assert.deepEqual(selected[0].panel_ids, ['p11-2', 'p11-4']);
+  assert.equal(selected.flatMap((job) => job.commands).length, 2);
 });
 
 test('creation request validation rejects unapproved Bible and unsafe assets', () => {

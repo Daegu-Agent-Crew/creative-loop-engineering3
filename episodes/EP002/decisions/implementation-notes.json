@@ -3,6 +3,32 @@
   "episode_id": "EP002",
   "decisions": [
     {
+      "id": "DEC-20260907-001",
+      "made_at": "2026-09-07T21:03:37Z",
+      "phase": "phase4_panels",
+      "decision": "p10-3의 단일 생성 결과를 정식 패널로 선택하고 원본 후보를 별도 보존했다.",
+      "rationale": "왕먀오의 큰 둥근 뿔테 안경, 단정한 검은 머리, 마른 체형과 청회색 셔츠를 캐릭터 기준에 맞췄다. 새벽 포장마차의 차가운 청색 거리와 오른쪽의 절제된 호박색 조명이 p10-1·p10-2의 시간·장소 연속성을 유지한다. 얼굴의 굳은 눈썹·벌어진 입·불안한 눈빛이 화난 접근 아래의 도움 요청을 전달하며, 상단 좌측의 비어 있는 청색 영역은 후처리 대사 여백이다. 읽을 수 있는 문자·숫자·대사·경보는 없다.",
+      "evidence": [
+        ".candidates/EP002/p10-3/iteration-01/p10-3-v01.png",
+        "episodes/EP002/panels/assets/p10-3.png",
+        "episodes/EP002/panels/final/p10-3.svg",
+        "episodes/EP002/panels/assets/p10-1.png",
+        "episodes/EP002/panels/assets/p10-2.png"
+      ],
+      "confidence": "medium",
+      "uncertainties": [
+        "전달 PNG의 파일 크기는 자산 검사에서 1MB 목표 대비 경고 여부를 확인해야 한다.",
+        "p10-1과 p10-4의 draft 오버레이를 포함한 페이지 10 전체 연속성은 페이지 단위 QA에서 다시 확인한다.",
+        "단일 생성 관찰은 Series Bible 선호로 승격하지 않는다."
+      ],
+      "alternatives_considered": [
+        "추가 변형 후보를 생성해 비교",
+        "기존 pending 상태 유지"
+      ],
+      "human_approval": "not_required",
+      "impact": "p10-3을 generated 상태로 기록하고 후보 원본은 .candidates에 보존한다. 페이지 10 generation job은 네 패널의 PNG가 확인되어 completed로 동기화했다. p10-3에는 대사·자막이 없어 빈 오버레이 레코드와 최종 SVG를 렌더링했다."
+    },
+    {
       "id": "DEC-20260906-001",
       "made_at": "2026-09-06T21:04:19Z",
       "phase": "phase4_panels",
