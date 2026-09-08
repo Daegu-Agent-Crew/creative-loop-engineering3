@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { releaseReadiness } = require('./release-readiness');
 
 function readJson(rootDir, relativePath) {
   return JSON.parse(fs.readFileSync(path.join(rootDir, relativePath), 'utf8'));
@@ -24,6 +25,10 @@ function main() {
   const rootDir = process.cwd();
   const episodeId = process.argv[2] || 'EP001';
   assert(/^EP\d{3}$/.test(episodeId), 'episode id must match EP###');
+  if (process.argv.includes('--require-release')) {
+    const readiness = releaseReadiness(rootDir, episodeId);
+    assert(readiness.status === 'ready', `release blocked: ${readiness.blockers.join('; ')}`);
+  }
   const prefix = `episodes/${episodeId}`;
   const overlays = readJson(rootDir, `${prefix}/panels/text-overlays.json`);
   const panels = readJson(rootDir, `${prefix}/panels/panels.json`);

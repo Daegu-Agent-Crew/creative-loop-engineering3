@@ -45,6 +45,20 @@ Clean panel borders, dynamic perspective.
   `provisional`로 표시한다.
 - 상세 운영 규칙: `docs/AI-COLLABORATION-PROTOCOL.md`
 
+## 검증·병합·공개와 결정 대기
+
+- 작업 시작 시 `node scripts/decision-status.js --github`로 결정 담당자, 기한,
+  CI 근거, 병합 대기와 공개 사전조건을 확인한다. 상세 계약은
+  `docs/DECISION-OPERATIONS.md`를 따른다.
+- 자동 생성 배치 선택에는 `run-panel-jobs.js --respect-review-limit`을 붙인다.
+  `--write-plan`은 항상 같은 WIP 검사를 실행한다. 미승인 PR 2개 이상 또는
+  GitHub 상태 미확인이면 새 생성 명령을 내보내지 않고 기존 검증·후처리를 우선한다.
+- 검증 성공은 병합 승인이나 Release Approval이 아니다. 사람 결정은 원본
+  `approvals/gates.json`에 증거와 함께 기록하고 대기 목록은 그 원본을 참조한다.
+- 기한 초과는 보고·해당 의존 작업 보류 사유이며 자동 승인 근거가 아니다.
+- 공개 전 `node scripts/validate-episode-output.js EP001 --require-release`를
+  실행한다. 다른 에피소드 공개는 별도 QA·승인·배포 범위 변경이 필요하다.
+
 ## Phase 1 상세: 4단계 스토리 각색 워크플로우
 
 Phase 1(Story)는 다음 4단계로 내부 세분화됩니다:

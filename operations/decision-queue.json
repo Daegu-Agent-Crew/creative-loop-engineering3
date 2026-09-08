@@ -1,0 +1,142 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "owner": "cle3-maintainer",
+      "status": "pending",
+      "waiting_since": "2026-09-03T21:06:29Z",
+      "waiting_since_basis": "pull_request_created",
+      "due_at": "2026-09-09T01:11:08Z",
+      "overdue_action": "담당자에게 기한 초과를 표시하고 해당 결정에 의존하는 작업을 보류한다.",
+      "id": "pr-39-merge",
+      "episode_id": "EP002",
+      "kind": "merge",
+      "request": "PR #39의 EP002 Phase 4 작업을 main에 병합할지 결정한다. 공개 발행은 별도 승인이다.",
+      "source_path": ".github/pull_request_template.md",
+      "pr_number": 39,
+      "evidence": [
+        "episodes/EP002/panels/MANIFEST.md",
+        "episodes/EP002/decisions/implementation-notes.json"
+      ]
+    },
+    {
+      "owner": "cle3-maintainer",
+      "status": "pending",
+      "waiting_since": "2026-09-08T01:11:08Z",
+      "waiting_since_basis": "tracking_started",
+      "due_at": "2026-09-09T01:11:08Z",
+      "overdue_action": "p8-2~p8-4 오버레이와 매핑 충돌에 의존하는 생성을 보류하고 독립 검증을 진행한다.",
+      "id": "ep002-page-mapping",
+      "episode_id": "EP002",
+      "kind": "rebaseline",
+      "request": "EP002 script 15페이지와 storyboard 16페이지 중 재정리의 기준을 결정한다.",
+      "source_path": "episodes/EP002/discovery/context.json",
+      "evidence": [
+        "episodes/EP002/script/script.md",
+        "episodes/EP002/storyboard/storyboard.json",
+        "episodes/EP002/panels/text-overlays.json"
+      ]
+    },
+    {
+      "owner": "cle3-maintainer",
+      "status": "pending",
+      "waiting_since": "2026-09-08T01:11:08Z",
+      "waiting_since_basis": "tracking_started",
+      "due_at": "2026-09-09T01:11:08Z",
+      "overdue_action": "담당자에게 기한 초과를 표시하고 해당 결정에 의존하는 작업을 보류한다.",
+      "id": "ep002-story-lock",
+      "episode_id": "EP002",
+      "kind": "gate",
+      "gate_id": "story-lock",
+      "request": "EP002 Story Lock의 provisional 기준선을 공식 승인할지 결정한다.",
+      "source_path": "episodes/EP002/approvals/gates.json",
+      "evidence": [
+        "episodes/EP002/discovery/context.json"
+      ]
+    },
+    {
+      "owner": "cle3-maintainer",
+      "status": "pending",
+      "waiting_since": "2026-09-08T01:11:08Z",
+      "waiting_since_basis": "tracking_started",
+      "due_at": "2026-09-09T01:11:08Z",
+      "overdue_action": "담당자에게 기한 초과를 표시하고 해당 결정에 의존하는 작업을 보류한다.",
+      "id": "ep002-character-lock",
+      "episode_id": "EP002",
+      "kind": "gate",
+      "gate_id": "character-lock",
+      "request": "EP002 Character Lock의 provisional 기준선을 공식 승인할지 결정한다.",
+      "source_path": "episodes/EP002/approvals/gates.json",
+      "evidence": [
+        "episodes/EP002/discovery/context.json"
+      ]
+    },
+    {
+      "owner": "cle3-maintainer",
+      "status": "pending",
+      "waiting_since": "2026-09-08T01:11:08Z",
+      "waiting_since_basis": "tracking_started",
+      "due_at": "2026-09-09T01:11:08Z",
+      "overdue_action": "담당자에게 기한 초과를 표시하고 해당 결정에 의존하는 작업을 보류한다.",
+      "id": "ep002-storyboard-lock",
+      "episode_id": "EP002",
+      "kind": "gate",
+      "gate_id": "storyboard-lock",
+      "request": "페이지 매핑 재정리 후 EP002 Storyboard Lock을 공식 승인할지 결정한다.",
+      "source_path": "episodes/EP002/approvals/gates.json",
+      "evidence": [
+        "episodes/EP002/discovery/context.json"
+      ]
+    },
+    {
+      "owner": "cle3-maintainer",
+      "status": "pending",
+      "waiting_since": "2026-09-08T01:11:08Z",
+      "waiting_since_basis": "tracking_started",
+      "due_at": "2026-09-09T01:11:08Z",
+      "overdue_action": "담당자에게 기한 초과를 표시하고 해당 결정에 의존하는 작업을 보류한다.",
+      "id": "ep002-release",
+      "episode_id": "EP002",
+      "kind": "gate",
+      "gate_id": "release",
+      "request": "Phase 5 QA와 최종 산출물 검증 통과 후 EP002 공개 발행 여부를 결정한다.",
+      "source_path": "episodes/EP002/approvals/gates.json",
+      "evidence": [
+        "episodes/EP002/discovery/context.json"
+      ],
+      "prerequisite": "phase5_completed"
+    },
+    {
+      "owner": "cle3-maintainer",
+      "status": "pending",
+      "waiting_since": "2026-09-08T01:11:08Z",
+      "waiting_since_basis": "tracking_started",
+      "due_at": "2026-09-09T01:11:08Z",
+      "overdue_action": "기존 패널을 유지하고 후보 선택·기억 승격·release 재판단을 보류한다.",
+      "id": "ep001-p15-3-tie",
+      "episode_id": "EP001",
+      "kind": "candidate",
+      "request": "EP001 p15-3 동률 후보 중 하나를 선택하거나 기존 패널을 유지할지 결정한다.",
+      "source_path": "episodes/EP001/panels/convergence/pilot-001/p15-3.json",
+      "evidence": [
+        "episodes/EP001/panels/convergence/pilot-001/p15-3.json"
+      ]
+    },
+    {
+      "owner": "cle3-maintainer",
+      "status": "pending",
+      "waiting_since": "2026-09-08T01:11:08Z",
+      "waiting_since_basis": "tracking_started",
+      "due_at": "2026-09-09T01:11:08Z",
+      "overdue_action": "기존 패널을 유지하고 후보 선택·기억 승격·release 재판단을 보류한다.",
+      "id": "ep001-p6-1-tie",
+      "episode_id": "EP001",
+      "kind": "candidate",
+      "request": "EP001 p6-1 동률 후보 중 하나를 선택하거나 기존 패널을 유지할지 결정한다.",
+      "source_path": "episodes/EP001/panels/convergence/pilot-001/p6-1.json",
+      "evidence": [
+        "episodes/EP001/panels/convergence/pilot-001/p6-1.json"
+      ]
+    }
+  ]
+}

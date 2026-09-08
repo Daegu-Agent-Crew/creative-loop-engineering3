@@ -5,6 +5,14 @@ on:
     paths:
       - 'episodes/**'
       - 'schemas/**'
+      - 'operations/**'
+      - 'config/decision-policy.json'
+      - 'scripts/decision-status.js'
+      - 'scripts/release-readiness.js'
+      - 'tests/decision-status.test.js'
+      - '.github/workflows/validate-assets.yml'
+      - '.github/workflows/deploy.yml'
+      - 'state.json'
       - 'config/panel-generation-policy.json'
       - 'config/asset-storage-policy.json'
       - 'scripts/build-panel-jobs.js'
@@ -22,6 +30,14 @@ on:
     paths:
       - 'episodes/**'
       - 'schemas/**'
+      - 'operations/**'
+      - 'config/decision-policy.json'
+      - 'scripts/decision-status.js'
+      - 'scripts/release-readiness.js'
+      - 'tests/decision-status.test.js'
+      - '.github/workflows/validate-assets.yml'
+      - '.github/workflows/deploy.yml'
+      - 'state.json'
       - 'config/panel-generation-policy.json'
       - 'config/asset-storage-policy.json'
       - 'scripts/build-panel-jobs.js'
@@ -38,6 +54,11 @@ on:
 jobs:
   validate-assets:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
+      checks: read
+      statuses: read
     steps:
       - uses: actions/checkout@v4
         with:
@@ -49,7 +70,14 @@ jobs:
         run: node scripts/check-panel-assets.js
       - name: Validate episode discovery, decisions, and approvals
         run: node scripts/validate-episode-governance.js
+      - name: Validate decision owners, deadlines and evidence
+        run: node scripts/decision-status.js --validate
       - name: Validate episode output manifests and release assets
-        run: node scripts/validate-episode-output.js EP001
+        run: node scripts/validate-episode-output.js EP001 --require-release
       - name: Test creation memory context compiler
         run: node --test tests/*.test.js
+      - name: Show decision waiting report
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/decision-status.js --github >> "$GITHUB_STEP_SUMMARY"

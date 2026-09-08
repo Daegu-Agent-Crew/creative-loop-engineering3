@@ -29,6 +29,11 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Require human release approval, QA and final output evidence
+        run: node scripts/validate-episode-output.js EP001 --require-release
       - uses: actions/configure-pages@v5
       - name: Assemble public site with approved EP001 assets
         run: |

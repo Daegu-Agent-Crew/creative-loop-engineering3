@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "repository": "Daegu-Agent-Crew/creative-loop-engineering3",
+  "owners": {
+    "cle3-maintainer": "현재 CLE3 운영자(이 작업을 요청한 사용자); 담당자를 위임하면 이 항목을 변경한다."
+  },
+  "max_unapproved_prs": 2,
+  "required_checks": ["validate-assets"],
+  "review_sla_hours": 24,
+  "overdue_action": "담당자에게 기한 초과와 증거를 표시하고 해당 결정에 의존하는 작업을 보류한다. 자동 승인·병합·기억 승격은 하지 않는다."
+}
