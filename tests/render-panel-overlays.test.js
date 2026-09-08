@@ -54,7 +54,13 @@ test('renders relative and embedded source SVGs and rejects a missing source', (
   assert.equal(renderPanel(rootDir, panel), true);
   assert.match(fs.readFileSync(path.join(rootDir, output), 'utf8'), /href="\.\.\/assets\/p1-1\.png"/);
   assert.equal(renderPanel(rootDir, { ...panel, final_image_path: 'episodes/EP999/panels/final/embedded.svg' }, { embedSource: true }), true);
-  assert.match(fs.readFileSync(path.join(rootDir, 'episodes/EP999/panels/final/embedded.svg'), 'utf8'), /data:image\/png;base64/);
+  const embedded = fs.readFileSync(path.join(rootDir, 'episodes/EP999/panels/final/embedded.svg'), 'utf8');
+  const sourceData = embedded.match(/href="data:image\/png;base64,([^"]+)"/);
+  assert.ok(sourceData, 'SVG images must not depend on external PNG loading');
+  assert.deepEqual(Buffer.from(sourceData[1], 'base64'), fs.readFileSync(path.join(rootDir, source)));
+  const relative = fs.readFileSync(path.join(rootDir, output), 'utf8');
+  assert.equal(embedded.replace(/href="[^"]*"/, 'href="SOURCE"'),
+    relative.replace(/href="[^"]*"/, 'href="SOURCE"'), 'embedding must preserve SVG layout and overlays');
   assert.equal(renderPanel(rootDir, { ...panel, source_image_path: 'missing.png' }), false);
 });
 

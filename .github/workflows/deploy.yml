@@ -6,6 +6,8 @@ on:
       - 'docs/**'
       - 'episodes/EP001/panels/final/**'
       - 'episodes/EP001/panels/assets/**'
+      - 'episodes/EP001/panels/text-overlays.json'
+      - 'scripts/render-panel-overlays.js'
       - 'episodes/EP001/exports/**'
       - 'episodes/EP001/bible/**'
       - 'reports/CLE3-EP001-Bible-v1.1.docx'
@@ -35,6 +37,10 @@ jobs:
       - name: Require human release approval, QA and final output evidence
         run: node scripts/validate-episode-output.js EP001 --require-release
       - uses: actions/configure-pages@v5
+      # SVGs loaded through <img> cannot fetch external PNG references.
+      # Embed the approved source only in this disposable deployment checkout.
+      - name: Embed approved panel sources for browser image rendering
+        run: node scripts/render-panel-overlays.js --episode EP001 --embed-source
       - name: Assemble public site with approved EP001 assets
         run: |
           mkdir -p _site/episodes/EP001/panels
