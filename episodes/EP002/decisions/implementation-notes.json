@@ -3,6 +3,80 @@
   "episode_id": "EP002",
   "decisions": [
     {
+      "id": "DEC-20260907-001",
+      "made_at": "2026-09-07T21:03:37Z",
+      "phase": "phase4_panels",
+      "decision": "p10-3의 단일 생성 결과를 정식 패널로 선택하고 원본 후보를 별도 보존했다.",
+      "rationale": "왕먀오의 큰 둥근 뿔테 안경, 단정한 검은 머리, 마른 체형과 청회색 셔츠를 캐릭터 기준에 맞췄다. 새벽 포장마차의 차가운 청색 거리와 오른쪽의 절제된 호박색 조명이 p10-1·p10-2의 시간·장소 연속성을 유지한다. 얼굴의 굳은 눈썹·벌어진 입·불안한 눈빛이 화난 접근 아래의 도움 요청을 전달하며, 상단 좌측의 비어 있는 청색 영역은 후처리 대사 여백이다. 읽을 수 있는 문자·숫자·대사·경보는 없다.",
+      "evidence": [
+        ".candidates/EP002/p10-3/iteration-01/p10-3-v01.png",
+        "episodes/EP002/panels/assets/p10-3.png",
+        "episodes/EP002/panels/final/p10-3.svg",
+        "episodes/EP002/panels/assets/p10-1.png",
+        "episodes/EP002/panels/assets/p10-2.png"
+      ],
+      "confidence": "medium",
+      "uncertainties": [
+        "전달 PNG의 파일 크기는 자산 검사에서 1MB 목표 대비 경고 여부를 확인해야 한다.",
+        "p10-1과 p10-4의 draft 오버레이를 포함한 페이지 10 전체 연속성은 페이지 단위 QA에서 다시 확인한다.",
+        "단일 생성 관찰은 Series Bible 선호로 승격하지 않는다."
+      ],
+      "alternatives_considered": [
+        "추가 변형 후보를 생성해 비교",
+        "기존 pending 상태 유지"
+      ],
+      "human_approval": "not_required",
+      "impact": "p10-3을 generated 상태로 기록하고 후보 원본은 .candidates에 보존한다. 페이지 10 generation job은 네 패널의 PNG가 확인되어 completed로 동기화했다. p10-3에는 대사·자막이 없어 빈 오버레이 레코드와 최종 SVG를 렌더링했다."
+    },
+    {
+      "id": "DEC-20260906-001",
+      "made_at": "2026-09-06T21:04:19Z",
+      "phase": "phase4_panels",
+      "decision": "p10-2의 단일 생성 결과를 정식 패널로 선택하고 원본 후보를 별도 보존했다.",
+      "rationale": "스치친의 헝클어진 검은 머리, 수염 자국, 묵직한 체형, 낡은 재킷과 열린 흰 셔츠를 캐릭터 기준 및 p10-1의 직전 장면과 맞췄다. 새벽 거리의 차가운 청색과 포장마차의 따뜻한 호박색 조명, 국수 그릇과 젓가락을 든 설명 제스처가 숫자가 줄어드는 의미를 해석하는 단일 비트를 명확히 전달한다. 상단 좌측에는 후처리 대사 여백이 있으며 읽을 수 있는 문자·숫자·대사·경보는 없다.",
+      "evidence": [
+        ".candidates/EP002/p10-2/iteration-01/p10-2-v01.png",
+        "episodes/EP002/panels/assets/p10-2.png",
+        "episodes/EP002/panels/final/p10-2.svg",
+        "episodes/EP002/panels/assets/p10-1.png"
+      ],
+      "confidence": "medium",
+      "uncertainties": [
+        "전달 PNG의 파일 크기는 자산 검사에서 1MB 목표 대비 경고 여부를 확인해야 한다.",
+        "페이지 10의 인접 패널과 인물·조명 연속성은 페이지 단위 QA에서 다시 확인한다.",
+        "단일 생성 관찰은 Series Bible 선호로 승격하지 않는다."
+      ],
+      "alternatives_considered": [
+        "추가 변형 후보를 생성해 비교",
+        "기존 pending 상태 유지"
+      ],
+      "human_approval": "not_required",
+      "impact": "p10-2를 generated 상태로 기록하고 후보 원본은 .candidates에 보존한다. 페이지 10 generation job은 p10-3과 p10-4가 남아 partial을 유지한다. p10-2에는 대사·자막이 없어 빈 오버레이 레코드와 최종 SVG를 렌더링했다."
+    },
+    {
+      "id": "DEC-20260905-001",
+      "made_at": "2026-09-05T21:04:53Z",
+      "phase": "phase4_panels",
+      "decision": "p10-1의 단일 생성 결과를 정식 패널로 선택하고 원본 후보를 별도 보존했다.",
+      "rationale": "스치친의 헝클어진 검은 머리, 수염 자국, 묵직한 체형과 왕먀오의 큰 뿔테 안경, 마른 체형을 참조 자산에 맞췄다. 새벽 거리의 차가운 청색과 포장마차의 따뜻한 호박색 조명, 국수를 먹는 스치친과 서 있는 왕먀오의 대비가 첫 페이지-10 비트를 명확히 전달한다. 읽을 수 있는 문자·숫자·대사·경보는 없다.",
+      "evidence": [
+        ".candidates/EP002/p10-1/iteration-01/p10-1-v01.png",
+        "episodes/EP002/panels/assets/p10-1.png"
+      ],
+      "confidence": "medium",
+      "uncertainties": [
+        "전달 PNG는 2.70MB로 정책의 1MB 목표를 초과하지만 4MB 하드 한도 이하다.",
+        "다인물 광각 구도이므로 페이지 10의 인접 패널과 인물·조명 연속성은 페이지 단위 QA에서 다시 확인한다.",
+        "단일 생성 관찰은 Series Bible 선호로 승격하지 않는다."
+      ],
+      "alternatives_considered": [
+        "추가 변형 후보를 생성해 비교",
+        "기존 pending 상태 유지"
+      ],
+      "human_approval": "not_required",
+      "impact": "p10-1을 generated 상태로 기록하고 후보 원본은 .candidates에 보존한다. 페이지 10 generation job은 p10-2와 p10-3이 남아 partial을 유지하며, p10-1은 오버레이·최종 SVG 렌더링 대상으로 전환한다."
+    },
+    {
       "id": "DEC-20260831-001",
       "made_at": "2026-08-31T21:04:04Z",
       "phase": "phase4_panels",
@@ -210,6 +284,79 @@
       ],
       "human_approval": "not_required",
       "impact": "페이지 6의 4개 패널이 모두 생성 단계에서 완료되어, 후처리·페이지 단위 QA 대상으로 전환한다."
+    }
+    ,
+    {
+      "id": "DEC-20260902-001",
+      "made_at": "2026-09-02T21:02:56Z",
+      "phase": "phase4_panels",
+      "decision": "p8-2의 단일 생성 결과를 정식 패널로 선택하고 원본 후보를 별도 보존했다.",
+      "rationale": "왕먀오의 큰 뿔테 안경, 짧은 검은 머리와 마른 학자 인상을 참조 자산에 맞췄다. 젓가락과 접시의 작은 접촉, 가족의 시선, 따뜻한 식탁 조명으로 사적 공포가 일상에 스미는 비트를 명확히 전달한다. 이미지 안에는 읽을 수 있는 문자·숫자·대사·경보가 없다.",
+      "evidence": [
+        ".candidates/EP002/p8-2/iteration-01/p8-2-v01.png",
+        "episodes/EP002/panels/assets/p8-2.png"
+      ],
+      "confidence": "medium",
+      "uncertainties": [
+        "전달 PNG는 2.66MB로 정책의 1MB 목표를 초과하지만 4MB 하드 한도 이하다.",
+        "페이지 8 인접 패널과의 인물 수·조명·구도 연속성은 페이지 단위 QA에서 다시 확인한다.",
+        "자동 추출된 p8-2 스크립트 대사가 의사 장면을 가리켜 식탁 장면과 충돌한다. rebaseline 전에는 오버레이를 needs_review로 보류한다.",
+        "단일 생성 관찰은 Series Bible 선호로 승격하지 않는다."
+      ],
+      "alternatives_considered": [
+        "추가 변형 후보를 생성해 비교",
+        "기존 pending 상태 유지"
+      ],
+      "human_approval": "not_required",
+      "impact": "p8-2를 generated 상태로 기록하고, 후보 원본은 .candidates에 보존한 채 페이지 8 오버레이·최종 SVG 렌더링 대상으로 전환한다. 페이지 8 generation job은 p8-3과 p8-4가 남아 partial을 유지한다."
+    },
+    {
+      "id": "DEC-20260903-001",
+      "made_at": "2026-09-03T21:03:52Z",
+      "phase": "phase4_panels",
+      "decision": "p8-3의 단일 생성 결과를 정식 패널로 선택하고 원본 후보를 별도 보존했다.",
+      "rationale": "쯔쯔의 둥근 얼굴, 짧은 검은 단발, 노랑·분홍 실내복, 큰 맑은 눈을 캐릭터 참조 자산에 맞췄다. 가족 식탁의 따뜻한 조명과 상단의 비어 있는 여백이 일상의 온기에 불안이 스미는 페이지 8 비트와 후처리 오버레이 정책을 충족한다. 이미지 안에는 읽을 수 있는 문자·숫자·대사·경보가 없다.",
+      "evidence": [
+        ".candidates/EP002/p8-3/iteration-01/p8-3-v01.png",
+        "episodes/EP002/panels/assets/p8-3.png"
+      ],
+      "confidence": "medium",
+      "uncertainties": [
+        "전달 PNG는 1.61MB로 정책의 1MB 목표를 초과하지만 4MB 하드 한도 이하다.",
+        "페이지 8 인접 패널과의 조명·감정 연속성은 페이지 단위 QA에서 다시 확인한다.",
+        "자동 추출된 p8-3 스크립트 대사가 병원 장면과 카운트다운을 가리켜 가족 식탁 장면과 충돌한다. rebaseline 전에는 오버레이를 needs_review로 보류한다.",
+        "단일 생성 관찰은 Series Bible 선호로 승격하지 않는다."
+      ],
+      "alternatives_considered": [
+        "추가 변형 후보를 생성해 비교",
+        "기존 pending 상태 유지"
+      ],
+      "human_approval": "not_required",
+      "impact": "p8-3를 generated 상태로 기록하고, 후보 원본은 .candidates에 보존한 채 페이지 8 오버레이·최종 SVG 렌더링 대상으로 전환한다. script/storyboard 재기준선 전에는 p8-2 및 p8-3 SVG 렌더링을 보류한다. 페이지 8 generation job은 p8-4가 남아 partial을 유지한다."
+    },
+    {
+      "id": "DEC-20260904-001",
+      "made_at": "2026-09-04T21:04:17Z",
+      "phase": "phase4_panels",
+      "decision": "p8-4의 단일 생성 결과를 정식 패널로 선택하고 원본 후보를 별도 보존했다.",
+      "rationale": "왕먀오의 큰 뿔테 안경, 단정한 검은 머리, 청회색 셔츠와 마른 학자 인상을 참조 자산에 맞췄다. 따뜻한 가족 식탁에서 아이의 크레용 가족 그림을 손으로 덮는 동작이 보호이자 회피라는 패널 비트를 명확히 전달하며, 읽을 수 있는 문자·숫자·대사·경보는 없다.",
+      "evidence": [
+        ".candidates/EP002/p8-4/iteration-01/p8-4-v01.png",
+        "episodes/EP002/panels/assets/p8-4.png"
+      ],
+      "confidence": "medium",
+      "uncertainties": [
+        "전달 PNG는 약 2.6MB로 정책의 1MB 목표를 초과하지만 4MB 하드 한도 이하다.",
+        "페이지 8 인접 패널과의 조명·감정 연속성은 페이지 단위 QA에서 다시 확인한다.",
+        "페이지 8의 script/storyboard 매핑 충돌이 p8-2와 p8-3에서 이미 확인됐으므로, p8-4도 rebaseline 전에는 오버레이를 needs_review로 보류한다.",
+        "단일 생성 관찰은 Series Bible 선호로 승격하지 않는다."
+      ],
+      "alternatives_considered": [
+        "추가 변형 후보를 생성해 비교",
+        "기존 pending 상태 유지"
+      ],
+      "human_approval": "not_required",
+      "impact": "p8-4를 generated 상태로 기록하고, 후보 원본은 .candidates에 보존한다. 페이지 8 generation job은 completed로 갱신하며, script/storyboard 재기준선 전에는 p8-2~p8-4 SVG 렌더링을 보류한다."
     }
   ]
 }

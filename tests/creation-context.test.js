@@ -119,17 +119,25 @@ test('EP002 inherits the approved series baseline without reusing EP001 panel sc
   assert.doesNotMatch(request.compiled_prompt, /EP001의 최종 정보/);
 });
 
-test('panel runner advances to the next page-grouped batch after page 7 completes', () => {
+test('panel runner advances to the next page-grouped batch after page 10 completes', () => {
   const policy = require('../config/panel-generation-policy.json');
-  const jobs = require('../episodes/EP002/panels/generation-jobs.json');
-  const panels = require('../episodes/EP002/panels/panels.json');
+  const jobs = structuredClone(require('../episodes/EP002/panels/generation-jobs.json'));
+  const panels = structuredClone(require('../episodes/EP002/panels/panels.json'));
+  // Fixed scheduling scenario: advancing real production must not rewrite this expectation.
+  jobs.jobs = jobs.jobs.filter((job) => [10, 11].includes(job.page_number));
+  for (const job of jobs.jobs) job.status = job.page_number === 10 ? 'completed' : 'partial';
+  for (const panel of panels.panels) {
+    const pending = ['p11-2', 'p11-4'].includes(panel.panel_id);
+    panel.generation_status = pending ? 'pending' : 'generated';
+    panel.image_path = pending ? `__test_missing_panels__/${panel.panel_id}.png` : 'AGENTS.md';
+  }
   const selected = selectJobs(rootDir, policy, jobs, panels, { policy: { maximum_panel_references: 0 }, anchors: [] }, {
     maxJobs: 3, variants: 1, maxIterations: 1, iteration: 1, diagnosis: null
   });
 
-  assert.deepEqual(selected.map((job) => job.job_id), ['EP002-page-08']);
-  assert.deepEqual(selected[0].panel_ids, ['p8-2', 'p8-3', 'p8-4']);
-  assert.equal(selected.flatMap((job) => job.commands).length, 3);
+  assert.deepEqual(selected.map((job) => job.job_id), ['EP002-page-11']);
+  assert.deepEqual(selected[0].panel_ids, ['p11-2', 'p11-4']);
+  assert.equal(selected.flatMap((job) => job.commands).length, 2);
 });
 
 test('creation request validation rejects unapproved Bible and unsafe assets', () => {

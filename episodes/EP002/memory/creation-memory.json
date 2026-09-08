@@ -2,7 +2,7 @@
   "$schema": "../../../schemas/creation-memory.schema.json",
   "schema_version": 1,
   "episode_id": "EP002",
-  "updated_at": "2026-08-31T21:04:04Z",
+  "updated_at": "2026-09-07T21:03:37Z",
   "creator_contract": {
     "creative_actor": "codex",
     "sole_creative_actor": true,
@@ -132,6 +132,8 @@
       "phase3 완료"
     ],
     "next_actions": [
+      "p10-1의 텍스트 오버레이를 생성·검토하고 페이지 10 SVG 렌더링 가능 여부를 확인한다.",
+      "p8-2~p8-4의 script/storyboard 매핑을 rebaseline한 뒤 페이지 8 오버레이를 검토한다.",
       "p7-2와 p7-3의 페이지 7 인접 패널 연속성과 텍스트 오버레이를 QA한다.",
       "p5-3과 p5-4의 draft 텍스트 오버레이 위치를 시각 검토하고 QA 상태를 확정한다.",
       "16개의 draft 텍스트 오버레이를 시각 검토하고 위치·문구를 확정한다.",

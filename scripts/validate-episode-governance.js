@@ -9,6 +9,7 @@ const {
   validateEpisodeBibleDelta
 } = require('./build-creation-context');
 const { validateCreationRequestCard } = require('./build-creation-request');
+const { repoFile } = require('./release-readiness');
 
 const rootDir = process.cwd();
 const failures = [];
@@ -73,8 +74,13 @@ function validateApprovals(episodeId, approvals) {
   });
   gates.forEach((gate) => {
     requireValue(['pending', 'provisional', 'approved', 'changes_requested', 'not_applicable'].includes(gate.status), `${prefix}: invalid status for ${gate.id}`);
+    if (gate.status === 'approved') {
+      requireValue(typeof gate.approved_by === 'string' && Boolean(gate.approved_by.trim()), `${prefix}: ${gate.id} requires an approver`);
+      requireValue(typeof gate.approved_at === 'string' && Number.isFinite(Date.parse(gate.approved_at)), `${prefix}: ${gate.id} requires an approval timestamp`);
+      requireValue(Array.isArray(gate.evidence) && gate.evidence.length > 0, `${prefix}: ${gate.id} requires approval evidence`);
+    }
     (gate.evidence || []).forEach((evidencePath) => {
-      requireValue(fs.existsSync(path.join(rootDir, evidencePath)), `${prefix}: missing evidence ${evidencePath}`);
+      requireValue(repoFile(rootDir, evidencePath), `${prefix}: missing or unsafe evidence ${evidencePath}`);
     });
   });
 }

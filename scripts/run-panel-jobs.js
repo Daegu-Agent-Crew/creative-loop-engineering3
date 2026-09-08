@@ -5,6 +5,7 @@ const path = require('path');
 const { resolveReferenceChain } = require('./build-reference-chain');
 const { buildCreationContext } = require('./build-creation-context');
 const { compileCreationRequestCard } = require('./build-creation-request');
+const { getGithub, reviewCapacity } = require('./decision-status');
 
 function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));
@@ -33,6 +34,7 @@ function parseArgs(argv) {
     else if (value === '--max-jobs') args.maxJobs = Number(argv[++index]);
     else if (value === '--dry-run') args.dryRun = true;
     else if (value === '--write-plan') args.writePlan = true;
+    else if (value === '--respect-review-limit') args.respectReviewLimit = true;
     else if (value === '--panel') args.panelId = argv[++index];
     else if (value === '--variants') args.variants = Number(argv[++index]);
     else if (value === '--max-iterations') args.maxIterations = Number(argv[++index]);
@@ -62,7 +64,7 @@ function parseArgs(argv) {
 }
 
 function printHelp() {
-  console.log(`Usage: node scripts/run-panel-jobs.js [--episode EP002] [--panel p2-3] [--max-jobs 3] [--variants 2] [--max-iterations 2] [--iteration 1] [--diagnosis TEXT] [--dry-run] [--write-plan]
+  console.log(`Usage: node scripts/run-panel-jobs.js [--episode EP002] [--panel p2-3] [--max-jobs 3] [--variants 2] [--max-iterations 2] [--iteration 1] [--diagnosis TEXT] [--dry-run] [--write-plan] [--respect-review-limit]
 
 Select the next runnable page jobs under CLE3 Phase 4 policy.
 
@@ -71,7 +73,9 @@ honors low-performance worker settings and concurrency limits, and writes an
 operator plan. Image generation itself is still performed by Codex imagegen,
 one image per request, using the emitted commands. Variants are written under
 .candidates/ until an evaluator promotes one selected image. --max-jobs is a
-legacy option name and caps emitted panel commands, never page groups.`);
+legacy option name and caps emitted panel commands, never page groups.
+--write-plan always checks live review capacity. --respect-review-limit applies
+the same check to a dry run; unknown/held capacity emits no generation commands.`);
 }
 
 function shellQuote(value) {
@@ -305,6 +309,15 @@ function main() {
   }
 
   const rootDir = process.cwd();
+  if (args.writePlan || args.respectReviewLimit) {
+    const decisionPolicy = readJson(path.join(rootDir, 'config/decision-policy.json'));
+    const capacity = reviewCapacity(getGithub(decisionPolicy), decisionPolicy);
+    if (capacity.status !== 'available') {
+      console.log(JSON.stringify({ episode_id: args.episode, selected_jobs: [], review_capacity: capacity }, null, 2));
+      process.exitCode = 2;
+      return;
+    }
+  }
   const episodeDir = path.join(rootDir, 'episodes', args.episode, 'panels');
   const policy = readJson(path.join(rootDir, 'config', 'panel-generation-policy.json'));
   const jobsJson = readJson(path.join(episodeDir, 'generation-jobs.json'));

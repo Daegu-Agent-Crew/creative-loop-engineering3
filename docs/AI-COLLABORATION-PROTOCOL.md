@@ -49,6 +49,13 @@ episodes/EPxxx/
 과거 Phase가 완료되어 있어도 명시적인 사람 승인 기록이 없으면 `approved`로
 추정하지 않고 `provisional`로 표시한다.
 
+## 결정 대기 운영
+
+`operations/decision-queue.json`은 결정 담당자·단일 요청·대기 시작 시각·기한과
+기한 초과 처리의 원본이다. 승인 자체는 기존 `approvals/gates.json`에 남긴다.
+검증 통과, 작업 병합과 공개 발행을 구분하는 보고 명령·WIP 상한·마감 운영은
+`docs/DECISION-OPERATIONS.md`를 따른다.
+
 ## 검증
 
 ```bash
