@@ -1,0 +1,355 @@
+{
+  "observed_at": "2026-09-08T21:02:15.048Z",
+  "episode": "EP002",
+  "phase": "phase4_panels",
+  "scope": "Read-only file/status audit; no visual QA or approval",
+  "generation": {
+    "generated": 49,
+    "pending": 8
+  },
+  "overlays": {
+    "rendered": 27,
+    "needs_review": 4,
+    "draft": 18
+  },
+  "existing_final_svgs": 45,
+  "missing_final_svgs": [
+    "p8-2",
+    "p8-3",
+    "p8-4",
+    "p10-1"
+  ],
+  "draft_ids": [
+    "p2-2",
+    "p2-3",
+    "p3-1",
+    "p4-2",
+    "p4-3",
+    "p5-1",
+    "p5-2",
+    "p5-4",
+    "p7-2",
+    "p8-1",
+    "p9-1",
+    "p10-1",
+    "p10-4",
+    "p11-1",
+    "p14-1",
+    "p14-3",
+    "p14-4",
+    "p16-1"
+  ],
+  "needs_review_ids": [
+    "p2-1",
+    "p8-2",
+    "p8-3",
+    "p8-4"
+  ],
+  "source_state_mismatches": [],
+  "jobs": [
+    {
+      "job_id": "EP002-page-01",
+      "status": "completed",
+      "generated": 3,
+      "total": 3
+    },
+    {
+      "job_id": "EP002-page-02",
+      "status": "completed",
+      "generated": 4,
+      "total": 4
+    },
+    {
+      "job_id": "EP002-page-03",
+      "status": "completed",
+      "generated": 4,
+      "total": 4
+    },
+    {
+      "job_id": "EP002-page-04",
+      "status": "completed",
+      "generated": 4,
+      "total": 4
+    },
+    {
+      "job_id": "EP002-page-05",
+      "status": "completed",
+      "generated": 4,
+      "total": 4
+    },
+    {
+      "job_id": "EP002-page-06",
+      "status": "completed",
+      "generated": 4,
+      "total": 4
+    },
+    {
+      "job_id": "EP002-page-07",
+      "status": "completed",
+      "generated": 4,
+      "total": 4
+    },
+    {
+      "job_id": "EP002-page-08",
+      "status": "completed",
+      "generated": 4,
+      "total": 4
+    },
+    {
+      "job_id": "EP002-page-09",
+      "status": "completed",
+      "generated": 1,
+      "total": 1
+    },
+    {
+      "job_id": "EP002-page-10",
+      "status": "completed",
+      "generated": 4,
+      "total": 4
+    },
+    {
+      "job_id": "EP002-page-11",
+      "status": "partial",
+      "generated": 2,
+      "total": 4
+    },
+    {
+      "job_id": "EP002-page-12",
+      "status": "partial",
+      "generated": 3,
+      "total": 4
+    },
+    {
+      "job_id": "EP002-page-13",
+      "status": "partial",
+      "generated": 1,
+      "total": 4
+    },
+    {
+      "job_id": "EP002-page-14",
+      "status": "partial",
+      "generated": 3,
+      "total": 4
+    },
+    {
+      "job_id": "EP002-page-15",
+      "status": "partial",
+      "generated": 3,
+      "total": 4
+    },
+    {
+      "job_id": "EP002-page-16",
+      "status": "completed",
+      "generated": 1,
+      "total": 1
+    }
+  ],
+  "sha256": {
+    "episodes/EP002/panels/panels.json": "bc5e99cf4ce12925992417745f9e7e85eca9ece3df1e3787083019ad13017071",
+    "episodes/EP002/panels/generation-jobs.json": "11a0d11c9eac8c370377475526ad02890ba9eff03f210ecf1eec0710d10ecb48",
+    "episodes/EP002/panels/text-overlays.json": "61a8e9ce8c760429c419d714f775f9287c9d6e69993163d38a1b80aea52eb20a",
+    "episodes/EP002/panels/final/p10-4.svg": "acac9770324942b8b132804bdefe9ad40b9eaf334feec53a29b55050b96643a0",
+    "episodes/EP002/approvals/gates.json": "9fa3c49fc8133c5374ce3c21a8612b31ead17ce0333ff1498144e64b6255f324"
+  },
+  "github": {
+    "status": "unknown",
+    "count": null,
+    "limit": 2,
+    "action": "verify_github_before_generation"
+  },
+  "asset_warnings": [
+    {
+      "panel_id": "p1-1",
+      "bytes": 2453858
+    },
+    {
+      "panel_id": "p1-2",
+      "bytes": 2364830
+    },
+    {
+      "panel_id": "p1-3",
+      "bytes": 2278874
+    },
+    {
+      "panel_id": "p2-1",
+      "bytes": 2792840
+    },
+    {
+      "panel_id": "p2-2",
+      "bytes": 2557243
+    },
+    {
+      "panel_id": "p2-3",
+      "bytes": 2287331
+    },
+    {
+      "panel_id": "p2-4",
+      "bytes": 2620735
+    },
+    {
+      "panel_id": "p3-1",
+      "bytes": 2778245
+    },
+    {
+      "panel_id": "p3-2",
+      "bytes": 2563504
+    },
+    {
+      "panel_id": "p3-3",
+      "bytes": 3197126
+    },
+    {
+      "panel_id": "p3-4",
+      "bytes": 2955053
+    },
+    {
+      "panel_id": "p4-1",
+      "bytes": 2781424
+    },
+    {
+      "panel_id": "p4-2",
+      "bytes": 2292882
+    },
+    {
+      "panel_id": "p4-3",
+      "bytes": 2602584
+    },
+    {
+      "panel_id": "p4-4",
+      "bytes": 2335040
+    },
+    {
+      "panel_id": "p5-1",
+      "bytes": 1873857
+    },
+    {
+      "panel_id": "p5-2",
+      "bytes": 2560654
+    },
+    {
+      "panel_id": "p5-3",
+      "bytes": 2254885
+    },
+    {
+      "panel_id": "p5-4",
+      "bytes": 2492581
+    },
+    {
+      "panel_id": "p6-1",
+      "bytes": 2539183
+    },
+    {
+      "panel_id": "p6-2",
+      "bytes": 1880377
+    },
+    {
+      "panel_id": "p6-3",
+      "bytes": 1921142
+    },
+    {
+      "panel_id": "p6-4",
+      "bytes": 2022432
+    },
+    {
+      "panel_id": "p7-1",
+      "bytes": 2646802
+    },
+    {
+      "panel_id": "p7-2",
+      "bytes": 2229134
+    },
+    {
+      "panel_id": "p7-3",
+      "bytes": 2471163
+    },
+    {
+      "panel_id": "p7-4",
+      "bytes": 2404606
+    },
+    {
+      "panel_id": "p8-1",
+      "bytes": 3262887
+    },
+    {
+      "panel_id": "p8-2",
+      "bytes": 2663847
+    },
+    {
+      "panel_id": "p8-3",
+      "bytes": 1614785
+    },
+    {
+      "panel_id": "p8-4",
+      "bytes": 2683357
+    },
+    {
+      "panel_id": "p9-1",
+      "bytes": 2365788
+    },
+    {
+      "panel_id": "p10-1",
+      "bytes": 2704783
+    },
+    {
+      "panel_id": "p10-2",
+      "bytes": 2650576
+    },
+    {
+      "panel_id": "p10-3",
+      "bytes": 2354427
+    },
+    {
+      "panel_id": "p10-4",
+      "bytes": 2545038
+    },
+    {
+      "panel_id": "p11-1",
+      "bytes": 2152570
+    },
+    {
+      "panel_id": "p11-3",
+      "bytes": 1986062
+    },
+    {
+      "panel_id": "p12-1",
+      "bytes": 2531690
+    },
+    {
+      "panel_id": "p12-2",
+      "bytes": 2153809
+    },
+    {
+      "panel_id": "p12-3",
+      "bytes": 2878494
+    },
+    {
+      "panel_id": "p13-3",
+      "bytes": 2530967
+    },
+    {
+      "panel_id": "p14-1",
+      "bytes": 1878854
+    },
+    {
+      "panel_id": "p14-3",
+      "bytes": 2402809
+    },
+    {
+      "panel_id": "p15-1",
+      "bytes": 1226971
+    },
+    {
+      "panel_id": "p15-2",
+      "bytes": 1388993
+    },
+    {
+      "panel_id": "p15-4",
+      "bytes": 1836838
+    },
+    {
+      "panel_id": "p16-1",
+      "bytes": 1104731
+    }
+  ],
+  "asset_hard_limit_violations": []
+}

@@ -6,6 +6,11 @@
 - total_panels: 57
 - generated_panels: 49
 - pending_panels: 8
+- existing_final_svgs: 45/49 generated panels (file presence only)
+- overlay_status: rendered 27, draft 18, needs_review 4
+- missing_final_svgs: p8-2, p8-3, p8-4, p10-1
+- p10-4: final SVG exists; text overlay remains draft, awaiting review
+- verification_evidence: `reports/CLE3-EP002-STATUS-AUDIT-20260909.json`
 - asset_dir: `episodes/EP002/panels/assets/`
 - workflow_rule: CLE3 내부 storyboard + characters 산출물만 사용. 외부 저장소 생성 결과 재사용 금지.
 

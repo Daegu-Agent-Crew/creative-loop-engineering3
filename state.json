@@ -95,7 +95,7 @@
         "phase4": {
           "status": "active",
           "prompt_version": "v2-toriyama-internal",
-          "note": "49/57 패널 생성. text-overlays.json에는 49개 생성 패널이 기록되고, 최종 SVG는 45/49 생성 상태다. p8-2~p8-4의 가족 식탁 패널은 script/storyboard 매핑 충돌 때문에 오버레이를 needs_review로 보류했으며 SVG는 만들지 않았다. generation-jobs의 페이지 7, 8, 10은 각각 4/4 생성 완료 상태다. p10-1과 p10-4는 draft 오버레이·SVG 렌더링 대기이고, p10-2와 p10-3은 대사 없는 최종 SVG까지 렌더링했다. 공통 Series Bible v1.0과 EP002 delta를 합성해 사용한다. p4-2~p4-4는 생성·1차 시각 검토를 마쳤고, p5-2~p5-4와 p6-1~p6-4는 생성·오버레이·최종 SVG 렌더링까지 완료했다. p7-2는 독백 오버레이 draft, p7-3과 p7-4는 생성 후보 선택 및 SVG 렌더링을 마쳤다."
+          "note": "49/57 패널 생성. text-overlays.json에는 49개 생성 패널이 기록되고, 최종 SVG는 45/49 생성 상태다. p8-2~p8-4의 가족 식탁 패널은 script/storyboard 매핑 충돌 때문에 오버레이를 needs_review로 보류했으며 SVG는 만들지 않았다. generation-jobs의 페이지 7, 8, 10은 각각 4/4 생성 완료 상태다. p10-1은 draft 오버레이·SVG 렌더링 대기이며, p10-4는 SVG가 존재하지만 오버레이는 draft 검토 대기이고, p10-2와 p10-3은 대사 없는 최종 SVG까지 렌더링했다. 공통 Series Bible v1.0과 EP002 delta를 합성해 사용한다. p4-2~p4-4는 생성·1차 시각 검토를 마쳤고, p5-2~p5-4와 p6-1~p6-4는 생성·오버레이·최종 SVG 렌더링까지 완료했다. p7-2는 독백 오버레이 draft, p7-3과 p7-4는 생성 후보 선택 및 SVG 렌더링을 마쳤다."
         },
         "phase5": {
           "status": "pending"
@@ -260,5 +260,5 @@
       "previous_score": 45
     }
   ],
-  "last_updated": "2026-09-07T21:03:37Z"
+  "last_updated": "2026-09-08T21:02:14Z"
 }
