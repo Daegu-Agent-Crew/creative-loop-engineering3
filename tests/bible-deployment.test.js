@@ -5,6 +5,17 @@ const test = require('node:test');
 
 const rootDir = path.resolve(__dirname, '..');
 
+test('Pages embeds panel sources after approval validation and before packaging', () => {
+  const workflow = fs.readFileSync(path.join(rootDir, '.github/workflows/deploy.yml'), 'utf8');
+  const guard = workflow.indexOf('run: node scripts/validate-episode-output.js EP001 --require-release');
+  const embed = workflow.indexOf('run: node scripts/render-panel-overlays.js --episode EP001 --embed-source');
+  const copy = workflow.indexOf('cp -R episodes/EP001/panels/final');
+  assert.ok(guard >= 0 && embed > guard && copy > embed,
+    'approved panel sources must be embedded before the SVGs are copied to Pages');
+  assert.match(workflow, /- 'scripts\/render-panel-overlays.js'/);
+  assert.match(workflow, /- 'episodes\/EP001\/panels\/text-overlays.json'/);
+});
+
 test('Pages workflow packages every approved Bible artifact linked by the viewer', () => {
   const workflow = fs.readFileSync(path.join(rootDir, '.github/workflows/deploy.yml'), 'utf8');
   const viewer = fs.readFileSync(path.join(rootDir, 'docs/episodes/EP001/index.html'), 'utf8');
