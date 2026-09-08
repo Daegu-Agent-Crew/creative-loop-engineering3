@@ -3,7 +3,7 @@
   "items": [
     {
       "owner": "cle3-maintainer",
-      "status": "pending",
+      "status": "resolved",
       "waiting_since": "2026-09-03T21:06:29Z",
       "waiting_since_basis": "pull_request_created",
       "due_at": "2026-09-09T01:11:08Z",
@@ -14,6 +14,12 @@
       "request": "PR #39의 EP002 Phase 4 작업을 main에 병합할지 결정한다. 공개 발행은 별도 승인이다.",
       "source_path": ".github/pull_request_template.md",
       "pr_number": 39,
+      "resolution": {
+        "decided_by": "현재 CLE3 운영자(사용자)",
+        "decided_at": "2026-09-08T01:45:40Z",
+        "decision": "사용자가 PR #39 병합 및 현재 Pages 범위 배포를 요청했다. EP002 공개 승인은 별도다.",
+        "evidence": ["reports/CLE3-PR39-MERGE-AUTHORIZATION-20260908.md"]
+      },
       "evidence": [
         "episodes/EP002/panels/MANIFEST.md",
         "episodes/EP002/decisions/implementation-notes.json"
