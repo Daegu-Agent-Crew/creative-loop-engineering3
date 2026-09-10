@@ -1,0 +1,111 @@
+{
+  "observed_at": "2026-09-10T21:01:33.441Z",
+  "episode": "EP002",
+  "phase": "phase4",
+  "task": "Complete outstanding Draft-07 schema validation",
+  "validator": {
+    "name": "Ajv",
+    "version": "6.12.6",
+    "path": "/opt/homebrew/lib/node_modules/n8n/node_modules/ajv",
+    "options": {
+      "allErrors": true,
+      "jsonPointers": true,
+      "format": "full"
+    },
+    "mutates_data": false
+  },
+  "results": [
+    {
+      "file": "episodes/EP002/script/script.json",
+      "schema": "schemas/story.schema.json",
+      "sha256": "b12db1cd062ccaf717ec862008a8c017fb806abeb967b840a3e0e8906f29c3df",
+      "schema_sha256": "d92cc6186c8e9b0c614354fc2a89a1ddd50777dc5c8de3abbeb30625d7e72ba6",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "file": "episodes/EP002/characters/characters.json",
+      "schema": "schemas/characters.schema.json",
+      "sha256": "0334808398d8930c27e57db48d02284f28de3c095c0ae0c0bd2abd159bbd9765",
+      "schema_sha256": "4e010e9ad92479dc9dee28d6cc1ef3b70f230256d55246be5c6aaad62a0311a0",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "file": "episodes/EP002/storyboard/storyboard.json",
+      "schema": "schemas/storyboard.schema.json",
+      "sha256": "6510624bcdd0424e5e7c649969d66469dd1c06e168617b689d848a41c9c42e36",
+      "schema_sha256": "137d6d5a2d55ca172f823a8e0ba54ce998cb2ce42ab6771f64662226421e7e9c",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "file": "episodes/EP002/panels/panels.json",
+      "schema": "schemas/panels.schema.json",
+      "sha256": "bc5e99cf4ce12925992417745f9e7e85eca9ece3df1e3787083019ad13017071",
+      "schema_sha256": "706991d726b24886e24b33020ed0a540d5168a05878f1e7c0fe19bc815d23ee2",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "file": "episodes/EP002/panels/generation-jobs.json",
+      "schema": "schemas/panel-jobs.schema.json",
+      "sha256": "11a0d11c9eac8c370377475526ad02890ba9eff03f210ecf1eec0710d10ecb48",
+      "schema_sha256": "d09e2ee069d91f951f323cec174f14514d8f2a9e031d66bb69f1c28f162e4f73",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "file": "episodes/EP002/panels/text-overlays.json",
+      "schema": "schemas/text-overlays.schema.json",
+      "sha256": "61a8e9ce8c760429c419d714f775f9287c9d6e69993163d38a1b80aea52eb20a",
+      "schema_sha256": "ceb66c8c7f4edaac972b61a49b57f1d6e05371c067480cc7bdaf450181e8bf89",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "file": "episodes/EP002/discovery/context.json",
+      "schema": "schemas/discovery.schema.json",
+      "sha256": "d94554c55f0af411721174fa8528f1e97bbbbaa5026497e2adb2c5a82236c049",
+      "schema_sha256": "f4533e2fec12d5e961d68bcc4578d13c7ef8d0c1bf4b8184ff5d983d5bbd6142",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "file": "episodes/EP002/decisions/implementation-notes.json",
+      "schema": "schemas/decision-log.schema.json",
+      "sha256": "7ec56aef03178ce8ee1e9f5f23a90e57953ded0cb985b1949c182668b4e9738d",
+      "schema_sha256": "e3ee3a602bbc3299b9fbfaa280214df6468eb041d43e5b10f907b522b7f5b004",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "file": "episodes/EP002/approvals/gates.json",
+      "schema": "schemas/approvals.schema.json",
+      "sha256": "9fa3c49fc8133c5374ce3c21a8612b31ead17ce0333ff1498144e64b6255f324",
+      "schema_sha256": "c058330682b2b822e062cb01afdce62dc57c8963ddfaacedf7e894d2be88af5e",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "file": "episodes/EP002/memory/creation-memory.json",
+      "schema": "schemas/creation-memory.schema.json",
+      "sha256": "634243ad14471adb5721d8a40d2239238b914486fea885f69619b6414acd6830",
+      "schema_sha256": "38654134363609f89cba96b4c8b0ad1d2db50618ef416e1d585423172dd2ab50",
+      "valid": true,
+      "errors": []
+    }
+  ],
+  "excluded": [
+    {
+      "file": "episodes/EP002/bible/delta.json",
+      "reason": "No dedicated delta JSON Schema; existing governance validator checks delta."
+    },
+    {
+      "file": "state.json",
+      "reason": "No state JSON Schema in repository."
+    }
+  ],
+  "passed": 10,
+  "failed": 0
+}
