@@ -449,8 +449,8 @@
       "page_number": 10,
       "source_image_path": "episodes/EP002/panels/assets/p10-1.png",
       "final_image_path": "episodes/EP002/panels/final/p10-1.svg",
-      "status": "draft",
-      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "status": "needs_review",
+      "notes": "script.md 10-1은 연구실 모니터의 가속 독백이나 storyboard p10-1은 포장마차 two-shot이다. 자동 추출 독백은 이 장면의 근거가 아니다. 페이지 매핑 사람 결정 전 오버레이 확정·렌더링을 보류한다. 기존 텍스트와 PNG/SVG는 보존. 증거: reports/CLE3-EP002-P10-MAPPING-20260912.json",
       "overlays": [
         {
           "kind": "narration",
@@ -469,8 +469,8 @@
       "page_number": 10,
       "source_image_path": "episodes/EP002/panels/assets/p10-2.png",
       "final_image_path": "episodes/EP002/panels/final/p10-2.svg",
-      "status": "rendered",
-      "notes": "No text overlay required.",
+      "status": "needs_review",
+      "notes": "script.md 10-2는 연구실 시계/모니터 무대사 컷이나 storyboard p10-2는 스치친의 조언이다. 빈 오버레이는 무대사 승인 근거가 아니다. 페이지 매핑 사람 결정 전 오버레이 확정·렌더링을 보류한다. 기존 텍스트와 PNG/SVG는 보존. 증거: reports/CLE3-EP002-P10-MAPPING-20260912.json",
       "overlays": []
     },
     {
@@ -478,8 +478,8 @@
       "page_number": 10,
       "source_image_path": "episodes/EP002/panels/assets/p10-3.png",
       "final_image_path": "episodes/EP002/panels/final/p10-3.svg",
-      "status": "rendered",
-      "notes": "No text overlay required.",
+      "status": "needs_review",
+      "notes": "script.md 10-3은 연구실 시야 왜곡이나 storyboard p10-3은 왕먀오의 분노/도움 요청이다. 동일 ID만으로 무대사를 확정할 수 없다. 페이지 매핑 사람 결정 전 오버레이 확정·렌더링을 보류한다. 기존 텍스트와 PNG/SVG는 보존. 증거: reports/CLE3-EP002-P10-MAPPING-20260912.json",
       "overlays": []
     },
     {
@@ -487,8 +487,8 @@
       "page_number": 10,
       "source_image_path": "episodes/EP002/panels/assets/p10-4.png",
       "final_image_path": "episodes/EP002/panels/final/p10-4.svg",
-      "status": "draft",
-      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "status": "needs_review",
+      "notes": "script.md에는 10-4 행이 없다. 끝까지 봐 문구는 storyboard/panels description에서 추출되었으며 대본과의 대응이 미확정이다. 페이지 매핑 사람 결정 전 오버레이 확정·렌더링을 보류한다. 기존 텍스트와 PNG/SVG는 보존. 증거: reports/CLE3-EP002-P10-MAPPING-20260912.json",
       "overlays": [
         {
           "kind": "dialogue",
