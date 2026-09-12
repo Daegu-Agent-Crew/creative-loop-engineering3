@@ -1,0 +1,128 @@
+{
+  "episode_id": "EP002",
+  "phase": "phase4_panels",
+  "checked_at": "2026-09-12T21:04:02.869667+00:00",
+  "task": "page 7 overlay input mapping review",
+  "confidence": "high",
+  "human_approval": "pending existing page mapping decision",
+  "inputs": [
+    {
+      "path": "episodes/EP002/script/script.md",
+      "sha256_before": "c4c1b6d108406faade4bdc4d855d806f68bd975a3a7cdcc58120ec50644514fe"
+    },
+    {
+      "path": "episodes/EP002/storyboard/storyboard.json",
+      "sha256_before": "6510624bcdd0424e5e7c649969d66469dd1c06e168617b689d848a41c9c42e36"
+    },
+    {
+      "path": "episodes/EP002/panels/panels.json",
+      "sha256_before": "bc5e99cf4ce12925992417745f9e7e85eca9ece3df1e3787083019ad13017071"
+    },
+    {
+      "path": "episodes/EP002/panels/text-overlays.json",
+      "sha256_before": "1120acc20bb5548d42627871c8e65f454617c99b39b708230368016ba55f09b5"
+    },
+    {
+      "path": "episodes/EP002/panels/generation-jobs.json",
+      "sha256_before": "11a0d11c9eac8c370377475526ad02890ba9eff03f210ecf1eec0710d10ecb48"
+    },
+    {
+      "path": "episodes/EP002/approvals/gates.json",
+      "sha256_before": "9fa3c49fc8133c5374ce3c21a8612b31ead17ce0333ff1498144e64b6255f324"
+    }
+  ],
+  "panels": [
+    {
+      "panel_id": "p7-1",
+      "previous_status": "rendered",
+      "status": "needs_review",
+      "reason": "대본 7-1은 연구실에서 새 카메라를 꺼내는 왕먀오이나 콘티는 저녁 식탁의 쯔쯔다. 빈 오버레이는 가족 장면 무대사의 근거가 아니다.",
+      "preserved_overlays": [],
+      "assets": [
+        {
+          "path": "episodes/EP002/panels/assets/p7-1.png",
+          "exists": true,
+          "sha256": "61af6c7de97f7062d5de89af2a37b8f1994f478202b63ffbacc04373ea646248"
+        },
+        {
+          "path": "episodes/EP002/panels/final/p7-1.svg",
+          "exists": true,
+          "sha256": "12f6b395e770677d71322ce4b96a718edf8d2c1c27ab88b1ba909775ae6312ba"
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-2",
+      "previous_status": "draft",
+      "status": "needs_review",
+      "reason": "대본 7-2는 카메라와 필름을 바꾸는 실험이나 콘티는 왕먀오의 억지웃음이다. 카메라를 바꿔도 독백은 이 장면의 근거가 아니다.",
+      "preserved_overlays": [
+        {
+          "kind": "narration",
+          "text": "왕먀오(독백): \"카메라를 바꿔도. 렌즈를 바꿔도.",
+          "box": {
+            "x": 0.1,
+            "y": 0.08,
+            "w": 0.8,
+            "h": 0.12
+          }
+        }
+      ],
+      "assets": [
+        {
+          "path": "episodes/EP002/panels/assets/p7-2.png",
+          "exists": true,
+          "sha256": "d9b6ba7852f865324678e9c7b76929be48522b182b4a9191a90ea8431e8bbfcb"
+        },
+        {
+          "path": "episodes/EP002/panels/final/p7-2.svg",
+          "exists": true,
+          "sha256": "b896f26b9c331aa5a1394ec1cde7ffdb1a816d87e98fa35ecff911285da54dd3"
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-3",
+      "previous_status": "rendered",
+      "status": "needs_review",
+      "reason": "대본 7-3은 왕먀오가 카메라를 내려놓는 공포 장면이나 콘티는 쯔쯔가 가족 그림을 내미는 장면이다. 빈 오버레이를 무대사 승인으로 사용할 수 없다.",
+      "preserved_overlays": [],
+      "assets": [
+        {
+          "path": "episodes/EP002/panels/assets/p7-3.png",
+          "exists": true,
+          "sha256": "fdce62b5ea39dfd2ce94af74fc7bfa26490842b88f918af2e64650311bcab419"
+        },
+        {
+          "path": "episodes/EP002/panels/final/p7-3.svg",
+          "exists": true,
+          "sha256": "3b664d268a878bca3784144fd7d339827e537358e88a57356f2bd40030864554"
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-4",
+      "previous_status": "rendered",
+      "status": "needs_review",
+      "reason": "대본에는 7-4 행이 없으며 콘티는 왕먀오가 가족 그림을 받는 장면이다. 텍스트 유무는 기준선 결정 후 확인해야 한다.",
+      "preserved_overlays": [],
+      "assets": [
+        {
+          "path": "episodes/EP002/panels/assets/p7-4.png",
+          "exists": true,
+          "sha256": "bac73cdfe65ec581a36878a7a2cad0a7d3a7801680031732b0e4babacc606349"
+        },
+        {
+          "path": "episodes/EP002/panels/final/p7-4.svg",
+          "exists": true,
+          "sha256": "636cc3a1d53d38e7e89307f11654ea6659e30e73f783177cdef41246dd36aa2b"
+        }
+      ]
+    }
+  ],
+  "overlay_counts_after": {
+    "rendered": 22,
+    "needs_review": 12,
+    "draft": 15
+  }
+}
