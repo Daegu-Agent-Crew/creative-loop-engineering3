@@ -31,7 +31,7 @@
       "waiting_since": "2026-09-08T01:11:08Z",
       "waiting_since_basis": "tracking_started",
       "due_at": "2026-09-09T01:11:08Z",
-      "overdue_action": "p7-1~p7-4, p8-2~p8-4 및 p10-1~p10-4 오버레이와 매핑 충돌에 의존하는 생성을 보류하고 독립 검증을 진행한다.",
+      "overdue_action": "p5-1~p5-4, p7-1~p7-4, p8-2~p8-4 및 p10-1~p10-4 오버레이와 매핑 충돌에 의존하는 생성을 보류하고 독립 검증을 진행한다.",
       "id": "ep002-page-mapping",
       "episode_id": "EP002",
       "kind": "rebaseline",
@@ -41,7 +41,8 @@
         "episodes/EP002/script/script.md",
         "episodes/EP002/storyboard/storyboard.json",
         "episodes/EP002/panels/text-overlays.json",
-        "reports/CLE3-EP002-P7-MAPPING-20260913.json"
+        "reports/CLE3-EP002-P7-MAPPING-20260913.json",
+        "reports/CLE3-EP002-P5-MAPPING-20260914.json"
       ]
     },
     {

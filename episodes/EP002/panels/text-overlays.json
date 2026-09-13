@@ -208,8 +208,8 @@
       "page_number": 5,
       "source_image_path": "episodes/EP002/panels/assets/p5-1.png",
       "final_image_path": "episodes/EP002/panels/final/p5-1.svg",
-      "status": "draft",
-      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "status": "needs_review",
+      "notes": "대본 5-1은 경찰서에서 스치친과 왕먀오의 대화이나 콘티는 계단의 주관 시점 카운트다운이다. 스치친 대사의 장면 근거가 다르다. 기존 텍스트·박스·PNG·SVG 보존. 페이지 매핑 사람 결정 전 렌더링 보류. reports/CLE3-EP002-P5-MAPPING-20260914.json",
       "overlays": [
         {
           "kind": "dialogue",
@@ -228,8 +228,8 @@
       "page_number": 5,
       "source_image_path": "episodes/EP002/panels/assets/p5-2.png",
       "final_image_path": "episodes/EP002/panels/final/p5-2.svg",
-      "status": "draft",
-      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "status": "needs_review",
+      "notes": "대본 5-2는 스치친이 과학자 사진을 보여주나 콘티는 왕먀오가 안경을 닦는 장면이다. 추출 대사를 확정할 수 없다. 기존 텍스트·박스·PNG·SVG 보존. 페이지 매핑 사람 결정 전 렌더링 보류. reports/CLE3-EP002-P5-MAPPING-20260914.json",
       "overlays": [
         {
           "kind": "dialogue",
@@ -248,8 +248,8 @@
       "page_number": 5,
       "source_image_path": "episodes/EP002/panels/assets/p5-3.png",
       "final_image_path": "episodes/EP002/panels/final/p5-3.svg",
-      "status": "rendered",
-      "notes": "No text overlay required.",
+      "status": "needs_review",
+      "notes": "대본 5-3은 경찰서의 왕먀오 반응이나 콘티는 화장실 거울 장면이다. 빈 오버레이는 이 장면의 무대사 근거가 아니다. 기존 텍스트·박스·PNG·SVG 보존. 페이지 매핑 사람 결정 전 렌더링 보류. reports/CLE3-EP002-P5-MAPPING-20260914.json",
       "overlays": []
     },
     {
@@ -257,8 +257,8 @@
       "page_number": 5,
       "source_image_path": "episodes/EP002/panels/assets/p5-4.png",
       "final_image_path": "episodes/EP002/panels/final/p5-4.svg",
-      "status": "draft",
-      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "status": "needs_review",
+      "notes": "대본 5-4는 스치친 눈 클로즈업이나 콘티는 화장실에서 다른 사람이 손을 씻는 장면이다. 스치친 질문은 매핑 검토가 필요하다. 기존 텍스트·박스·PNG·SVG 보존. 페이지 매핑 사람 결정 전 렌더링 보류. reports/CLE3-EP002-P5-MAPPING-20260914.json",
       "overlays": [
         {
           "kind": "dialogue",

@@ -7,10 +7,11 @@
 - generated_panels: 49
 - pending_panels: 8
 - existing_final_svgs: 45/49 generated panels (file presence only)
-- overlay_status: rendered 22, draft 15, needs_review 12
+- overlay_status: rendered 21, draft 12, needs_review 16
 - missing_final_svgs: p8-2, p8-3, p8-4, p10-1
 - p10-1~p10-4: needs_review; script laboratory scene (3 panels) conflicts with storyboard food-stall scene (4 panels). Preserve existing SVGs; hold rendering until mapping decision.
 - p7-1~p7-4: needs_review; script camera experiments (3 panels) conflict with storyboard family scene (4 panels). Preserve SVGs; hold rendering pending mapping decision. Evidence: `reports/CLE3-EP002-P7-MAPPING-20260913.json`
+- p5-1~p5-4: needs_review; script police-station dialogue conflicts with storyboard stairway/restroom countdown. Preserve all SVGs; hold rendering pending mapping decision. Evidence: `reports/CLE3-EP002-P5-MAPPING-20260914.json`
 - mapping_review_evidence: `reports/CLE3-EP002-P10-MAPPING-20260912.json`
 - verification_evidence: `reports/CLE3-EP002-STATUS-AUDIT-20260909.json`
 - asset_dir: `episodes/EP002/panels/assets/`
