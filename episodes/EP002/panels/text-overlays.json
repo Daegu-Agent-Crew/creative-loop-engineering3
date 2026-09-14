@@ -277,8 +277,8 @@
       "page_number": 6,
       "source_image_path": "episodes/EP002/panels/assets/p6-1.png",
       "final_image_path": "episodes/EP002/panels/final/p6-1.svg",
-      "status": "rendered",
-      "notes": "No text overlay required.",
+      "status": "needs_review",
+      "notes": "2026-09-15 입력 매핑 검토: 대본 6-1은 가족 거실의 무대사 풀페이지이나 콘티 6-1은 안과 검사 장면이다. 가족 장면의 무대사 지시를 안과 장면에 적용할 수 없다. 기존 PNG/SVG와 오버레이를 보존하고 사람 매핑 결정 전 렌더링을 보류한다. 증거: reports/CLE3-EP002-P6-MAPPING-20260915.json",
       "overlays": []
     },
     {
@@ -286,8 +286,8 @@
       "page_number": 6,
       "source_image_path": "episodes/EP002/panels/assets/p6-2.png",
       "final_image_path": "episodes/EP002/panels/final/p6-2.svg",
-      "status": "rendered",
-      "notes": "No text overlay required.",
+      "status": "needs_review",
+      "notes": "2026-09-15 입력 매핑 검토: 대본에는 6-2가 없으며 콘티는 카메라에 숫자가 녹화되지 않는 장면이다. 빈 오버레이는 무대사 근거가 아니다. 기존 PNG/SVG와 오버레이를 보존하고 사람 매핑 결정 전 렌더링을 보류한다. 증거: reports/CLE3-EP002-P6-MAPPING-20260915.json",
       "overlays": []
     },
     {
@@ -295,8 +295,8 @@
       "page_number": 6,
       "source_image_path": "episodes/EP002/panels/assets/p6-3.png",
       "final_image_path": "episodes/EP002/panels/final/p6-3.svg",
-      "status": "rendered",
-      "notes": "No text overlay required.",
+      "status": "needs_review",
+      "notes": "2026-09-15 입력 매핑 검토: 대본에는 6-3이 없으며 콘티는 연구실 모니터 위 시야의 붉은 숫자 장면이다. 빈 오버레이는 필요한 숫자나 텍스트가 없다는 근거가 아니다. 기존 PNG/SVG와 오버레이를 보존하고 사람 매핑 결정 전 렌더링을 보류한다. 증거: reports/CLE3-EP002-P6-MAPPING-20260915.json",
       "overlays": []
     },
     {
@@ -304,8 +304,8 @@
       "page_number": 6,
       "source_image_path": "episodes/EP002/panels/assets/p6-4.png",
       "final_image_path": "episodes/EP002/panels/final/p6-4.svg",
-      "status": "rendered",
-      "notes": "No text overlay required.",
+      "status": "needs_review",
+      "notes": "2026-09-15 입력 매핑 검토: 대본에는 6-4가 없으며 콘티는 책상을 움켜쥔 손의 클로즈업이다. 빈 오버레이만으로 텍스트 검토를 완료할 수 없다. 기존 PNG/SVG와 오버레이를 보존하고 사람 매핑 결정 전 렌더링을 보류한다. 증거: reports/CLE3-EP002-P6-MAPPING-20260915.json",
       "overlays": []
     },
     {
