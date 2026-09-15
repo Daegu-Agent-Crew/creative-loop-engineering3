@@ -3,41 +3,146 @@
   "title": "CLE3 Decision Waiting Queue",
   "type": "object",
   "additionalProperties": false,
-  "required": ["version", "items"],
+  "required": [
+    "version",
+    "items"
+  ],
   "properties": {
-    "version": { "const": 1 },
+    "version": {
+      "const": 1
+    },
     "items": {
       "type": "array",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["id", "episode_id", "kind", "owner", "request", "status", "waiting_since", "waiting_since_basis", "due_at", "overdue_action", "source_path", "evidence"],
+        "required": [
+          "id",
+          "episode_id",
+          "kind",
+          "owner",
+          "request",
+          "status",
+          "waiting_since",
+          "waiting_since_basis",
+          "due_at",
+          "overdue_action",
+          "source_path",
+          "evidence"
+        ],
         "properties": {
-          "id": { "type": "string", "minLength": 1 },
-          "episode_id": { "type": "string", "pattern": "^EP\\d{3}$" },
-          "kind": { "enum": ["merge", "gate", "rebaseline", "candidate"] },
-          "owner": { "type": "string", "minLength": 1 },
-          "request": { "type": "string", "minLength": 1 },
-          "status": { "enum": ["pending", "resolved"] },
-          "waiting_since": { "type": "string", "format": "date-time" },
-          "waiting_since_basis": { "enum": ["tracking_started", "pull_request_created", "human_request"] },
-          "due_at": { "type": "string", "format": "date-time" },
-          "overdue_action": { "type": "string", "minLength": 1 },
-          "source_path": { "type": "string", "minLength": 1 },
-          "evidence": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
-          "pr_number": { "type": "integer", "minimum": 1 },
-          "gate_id": { "enum": ["story-lock", "character-lock", "storyboard-lock", "release"] },
-          "prerequisite": { "const": "phase5_completed" },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "episode_id": {
+            "type": "string",
+            "pattern": "^EP\\d{3}$"
+          },
+          "kind": {
+            "enum": [
+              "merge",
+              "gate",
+              "rebaseline",
+              "candidate"
+            ]
+          },
+          "owner": {
+            "type": "string",
+            "minLength": 1
+          },
+          "request": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "enum": [
+              "pending",
+              "resolved"
+            ]
+          },
+          "waiting_since": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "waiting_since_basis": {
+            "enum": [
+              "tracking_started",
+              "pull_request_created",
+              "human_request"
+            ]
+          },
+          "due_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "overdue_action": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "pr_number": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "gate_id": {
+            "enum": [
+              "story-lock",
+              "character-lock",
+              "storyboard-lock",
+              "release"
+            ]
+          },
+          "prerequisite": {
+            "const": "phase5_completed"
+          },
           "resolution": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["decided_by", "decided_at", "decision", "evidence"],
+            "required": [
+              "decided_by",
+              "decided_at",
+              "decision",
+              "evidence"
+            ],
             "properties": {
-              "decided_by": { "type": "string", "minLength": 1 },
-              "decided_at": { "type": "string", "format": "date-time" },
-              "decision": { "type": "string", "minLength": 1 },
-              "evidence": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } }
+              "decided_by": {
+                "type": "string",
+                "minLength": 1
+              },
+              "decided_at": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "decision": {
+                "type": "string",
+                "minLength": 1
+              },
+              "evidence": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
             }
+          },
+          "ttl_policy": {
+            "type": "string",
+            "minLength": 1,
+            "description": "무응답 시 기본안 진행 규칙. 일반 24h, rebaseline 72h, approval-critical 무기한."
           }
         }
       }
