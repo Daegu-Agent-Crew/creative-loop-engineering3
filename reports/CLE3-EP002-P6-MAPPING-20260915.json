@@ -1,0 +1,117 @@
+{
+  "episode_id": "EP002",
+  "phase": "phase4_panels",
+  "checked_at": "2026-09-14T21:03:09.307673+00:00",
+  "task": "page 6 overlay input mapping review",
+  "confidence": "high",
+  "human_approval": "pending existing page mapping decision",
+  "inputs": [
+    {
+      "path": "episodes/EP002/script/script.md",
+      "sha256_before": "c4c1b6d108406faade4bdc4d855d806f68bd975a3a7cdcc58120ec50644514fe"
+    },
+    {
+      "path": "episodes/EP002/storyboard/storyboard.json",
+      "sha256_before": "6510624bcdd0424e5e7c649969d66469dd1c06e168617b689d848a41c9c42e36"
+    },
+    {
+      "path": "episodes/EP002/panels/panels.json",
+      "sha256_before": "bc5e99cf4ce12925992417745f9e7e85eca9ece3df1e3787083019ad13017071"
+    },
+    {
+      "path": "episodes/EP002/panels/text-overlays.json",
+      "sha256_before": "3ce95941b6d31e1c3e8dc15ccfb2b8833a9f1aca8692c3d9b3e35072950cf7e5"
+    },
+    {
+      "path": "episodes/EP002/panels/generation-jobs.json",
+      "sha256_before": "11a0d11c9eac8c370377475526ad02890ba9eff03f210ecf1eec0710d10ecb48"
+    },
+    {
+      "path": "episodes/EP002/approvals/gates.json",
+      "sha256_before": "9fa3c49fc8133c5374ce3c21a8612b31ead17ce0333ff1498144e64b6255f324"
+    }
+  ],
+  "panels": [
+    {
+      "panel_id": "p6-1",
+      "previous_status": "rendered",
+      "status": "needs_review",
+      "reason": "대본 6-1은 가족 거실의 무대사 풀페이지이나 콘티 6-1은 안과 검사 장면이다. 가족 장면의 무대사 지시를 안과 장면에 적용할 수 없다.",
+      "preserved_overlays": [],
+      "assets": [
+        {
+          "path": "episodes/EP002/panels/assets/p6-1.png",
+          "exists": true,
+          "sha256": "6ea33692e814c46a066dc703705cf98fbdc0db85acc6816898ea199e2a3dbeea"
+        },
+        {
+          "path": "episodes/EP002/panels/final/p6-1.svg",
+          "exists": true,
+          "sha256": "e3cac73a7ee90439060ccc45c377ce6a9e8cc547d420653de9eb6b54aa077c38"
+        }
+      ]
+    },
+    {
+      "panel_id": "p6-2",
+      "previous_status": "rendered",
+      "status": "needs_review",
+      "reason": "대본에는 6-2가 없으며 콘티는 카메라에 숫자가 녹화되지 않는 장면이다. 빈 오버레이는 무대사 근거가 아니다.",
+      "preserved_overlays": [],
+      "assets": [
+        {
+          "path": "episodes/EP002/panels/assets/p6-2.png",
+          "exists": true,
+          "sha256": "214f52c6afa99a8eedcfdc0780d7f629215bf248a54507b54e442cfe5937bd8f"
+        },
+        {
+          "path": "episodes/EP002/panels/final/p6-2.svg",
+          "exists": true,
+          "sha256": "668fc0e7f2090ae638c3bc79c6cde422dd8d08ef60dde841a5fa95f0693547de"
+        }
+      ]
+    },
+    {
+      "panel_id": "p6-3",
+      "previous_status": "rendered",
+      "status": "needs_review",
+      "reason": "대본에는 6-3이 없으며 콘티는 연구실 모니터 위 시야의 붉은 숫자 장면이다. 빈 오버레이는 필요한 숫자나 텍스트가 없다는 근거가 아니다.",
+      "preserved_overlays": [],
+      "assets": [
+        {
+          "path": "episodes/EP002/panels/assets/p6-3.png",
+          "exists": true,
+          "sha256": "39e3ac2e1419e081649928a836c609c09c1b955d44bd7eee85332a53df88d080"
+        },
+        {
+          "path": "episodes/EP002/panels/final/p6-3.svg",
+          "exists": true,
+          "sha256": "94198d70baf3c3543db18b74601da9a2ca3db3ad0fc43e29d0787fddbea57e32"
+        }
+      ]
+    },
+    {
+      "panel_id": "p6-4",
+      "previous_status": "rendered",
+      "status": "needs_review",
+      "reason": "대본에는 6-4가 없으며 콘티는 책상을 움켜쥔 손의 클로즈업이다. 빈 오버레이만으로 텍스트 검토를 완료할 수 없다.",
+      "preserved_overlays": [],
+      "assets": [
+        {
+          "path": "episodes/EP002/panels/assets/p6-4.png",
+          "exists": true,
+          "sha256": "9f686596c1d0149e47fc62cd0cc05f5cdbfea171ca0d574e6c8667969574944d"
+        },
+        {
+          "path": "episodes/EP002/panels/final/p6-4.svg",
+          "exists": true,
+          "sha256": "3d1200b528cd4f2856089fb8c264e070ce01aff0ee1d206ce3010bad34e0edc5"
+        }
+      ]
+    }
+  ],
+  "overlay_counts_after": {
+    "rendered": 17,
+    "needs_review": 20,
+    "draft": 12
+  }
+}

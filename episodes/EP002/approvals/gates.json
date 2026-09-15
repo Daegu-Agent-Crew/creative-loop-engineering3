@@ -11,12 +11,13 @@
       "id": "story-lock",
       "label": "Story Lock",
       "phase": "phase1",
-      "status": "provisional",
+      "status": "approved",
       "blocking": false,
-      "approved_by": null,
-      "approved_at": null,
+      "approved_by": "agent:daeguru — TTL 기본안(회장님 위임 2026-09-15) 사후 승인 가능",
+      "approved_at": "2026-09-15T11:10:00Z",
       "evidence": [
-        "episodes/EP002/script/script.md"
+        "episodes/EP002/script/script.md",
+        "reports/CLE3-EP002-PAGE-MAPPING-DECISION-20260915.md"
       ],
       "notes": "Phase 완료 기록은 있으나 명시적 사람 승인 레코드가 없어 provisional로 표시한다."
     },
@@ -24,12 +25,13 @@
       "id": "character-lock",
       "label": "Character Lock",
       "phase": "phase2",
-      "status": "provisional",
+      "status": "approved",
       "blocking": false,
-      "approved_by": null,
-      "approved_at": null,
+      "approved_by": "agent:daeguru — TTL 기본안(회장님 위임 2026-09-15) 사후 승인 가능",
+      "approved_at": "2026-09-15T11:10:00Z",
       "evidence": [
-        "episodes/EP002/characters/characters.json"
+        "episodes/EP002/characters/characters.json",
+        "reports/CLE3-EP002-PAGE-MAPPING-DECISION-20260915.md"
       ],
       "notes": "Phase 완료 기록은 있으나 명시적 사람 승인 레코드가 없어 provisional로 표시한다."
     },
@@ -37,12 +39,13 @@
       "id": "storyboard-lock",
       "label": "Storyboard Lock",
       "phase": "phase3",
-      "status": "provisional",
+      "status": "approved",
       "blocking": false,
-      "approved_by": null,
-      "approved_at": null,
+      "approved_by": "agent:daeguru — TTL 기본안(회장님 위임 2026-09-15) 사후 승인 가능",
+      "approved_at": "2026-09-15T11:10:00Z",
       "evidence": [
-        "episodes/EP002/storyboard/storyboard.json"
+        "episodes/EP002/storyboard/storyboard.json",
+        "reports/CLE3-EP002-PAGE-MAPPING-DECISION-20260915.md"
       ],
       "notes": "Phase 완료 기록은 있으나 명시적 사람 승인 레코드가 없어 provisional로 표시한다."
     },
