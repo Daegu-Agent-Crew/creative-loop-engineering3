@@ -1,0 +1,24 @@
+{
+  "episode_id": "EP002",
+  "panel_id": "p12-2",
+  "asset": "episodes/EP002/panels/assets/p12-2.webp",
+  "model": "gpt-image-2",
+  "repairs": [
+    {
+      "before": ".candidates/EP002/p12-2/completion-repair/before.png",
+      "candidate": ".candidates/EP002/p12-2/completion-repair/after-01.png",
+      "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective. Edit the supplied comic panel. Remove all red glowing digital numbers and their reflections. Leave a faint red glow with no readable digits. Preserve the scene and people. No added text or speech bubbles.",
+      "references": [
+        "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP002/panels/assets/p12-2.png"
+      ],
+      "generated_at": "2026-09-15T20:54:12.673218+00:00",
+      "sha256": "74930f49df8926d3277e0bc6639b08d9170264e1142c443980db16a1188650da"
+    }
+  ],
+  "visual_qa": "passed",
+  "sha256": "74930f49df8926d3277e0bc6639b08d9170264e1142c443980db16a1188650da",
+  "delivery_sha256": "bd52452d73aa636cac810f608a1e5d2291096489e2c0019ccbe2cc4497909b4e",
+  "source_sha256": "74930f49df8926d3277e0bc6639b08d9170264e1142c443980db16a1188650da",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP002/qa/qa.json"
+}

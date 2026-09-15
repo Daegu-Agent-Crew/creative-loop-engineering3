@@ -1,0 +1,21 @@
+{
+  "panel_id": "p11-1",
+  "episode_id": "EP004",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-79f24c73-0f19-42ae-8216-8b5b5fa0a155.png",
+  "candidate": ".candidates/EP004/p11-1/iteration-01/p11-1-v01.png",
+  "asset": "episodes/EP004/panels/assets/p11-1.webp",
+  "sha256": "79228a410117f64cda23a0c087a4e6b26e90e37be35bd77366460e502d71aba2",
+  "generated_at": "2026-09-15T15:27:34.241585+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, distinctive 1980s Akira Toriyama manga aesthetic. Create ONE finished landscape 1536x1024 comic panel, NOT a character sheet. Alien civilization world, grey-purple ruins, ochre sand, stone cairns. Sky state strictly follow scene. Never use modern laboratory. \nSCENE: 192번째 문명. 가장 발전했다. 데탕트라이트 건축, 정교한 관측 시스템. 왕먀오가 도시를 걷고 있다. 감탄이 아니라 불안.\nVisible named cast: 왕먀오. Character sheets are identity references ONLY; never copy their backgrounds. Wang Miao always wears pale blue-grey shirt and dark trousers. All lettering and exact digits will be added later: NO readable text, numbers, symbols, balloons, captions or watermark in generated artwork. Clean coherent anatomy, strong ink composition, no extra characters or alien creatures. Non-graphic disaster where described.",
+  "references": [
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP001/characters/assets/wangmiao-v1.png"
+  ],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "9c1da66d3a805dd39623d6fad369d9f4b54f298630a75e44e03517c8552916ff",
+  "source_sha256": "79228a410117f64cda23a0c087a4e6b26e90e37be35bd77366460e502d71aba2",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP004/qa/qa.json"
+}

@@ -29,7 +29,7 @@
     },
     {
       "owner": "cle3-maintainer",
-      "status": "pending",
+      "status": "resolved",
       "waiting_since": "2026-09-08T01:11:08Z",
       "waiting_since_basis": "tracking_started",
       "due_at": "2026-09-09T01:11:08Z",
@@ -46,7 +46,16 @@
         "reports/CLE3-EP002-P7-MAPPING-20260913.json",
         "reports/CLE3-EP002-P5-MAPPING-20260914.json",
         "reports/CLE3-EP002-P6-MAPPING-20260915.json"
-      ]
+      ],
+      "resolution": {
+        "decided_by": "현재 CLE3 운영자의 전체 문제 해결 요청에 따른 Codex 구현",
+        "decided_at": "2026-09-15T12:55:28.082214+00:00",
+        "decision": "기존 16장면 JSON 대본과 콘티를 연결하고 불일치 Markdown 초안을 보존한다. QA와 release는 별도다.",
+        "evidence": [
+          "reports/CLE3-COMPLETION-AUTHORIZATION-20260915.md",
+          "episodes/EP002/script/panel-script.json"
+        ]
+      }
     },
     {
       "owner": "cle3-maintainer",

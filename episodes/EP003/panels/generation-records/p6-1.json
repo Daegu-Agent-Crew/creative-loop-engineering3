@@ -1,0 +1,19 @@
+{
+  "panel_id": "p6-1",
+  "episode_id": "EP003",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-3538426d-9a94-4c41-b3e0-6a6ae463366c.png",
+  "candidate": ".candidates/EP003/p6-1/iteration-01/p6-1-v01.png",
+  "asset": "episodes/EP003/panels/assets/p6-1.webp",
+  "sha256": "3a6ed8917aff0bb97d95ccd5e96f2e4621b75915f81458ee58406be2f7fabd23",
+  "generated_at": "2026-09-15T14:23:27.554699+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, distinctive 1980s Akira Toriyama manga aesthetic. Create ONE finished landscape 1536x1024 comic panel, NOT a character sheet. Alien game world golden rocky plain with TWO suns: one red, one smaller white. \nSCENE: 하늘이 갈라진다 — 비유적으로. 회백색 돔에 금이 가듯 두 개의 빛이 번지기 시작. 동쪽에서 큰 붉은 태양, 서쪽에서 작고 흰 태양이 동시에 솟아오른다.\nVisible named cast: none. Character sheets are identity references ONLY; never copy their backgrounds. Wang Miao always wears pale blue-grey shirt and dark trousers. All lettering and exact digits will be added later: NO readable text, numbers, symbols, balloons, captions or watermark in generated artwork. Clean coherent anatomy, strong ink composition, no extra characters or alien creatures. Non-graphic disaster where described.",
+  "references": [],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "419834494c4853275e02550412acc2fb0e3d47d846ce5d36b4fed59cdff4fb89",
+  "source_sha256": "3a6ed8917aff0bb97d95ccd5e96f2e4621b75915f81458ee58406be2f7fabd23",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP003/qa/qa.json"
+}

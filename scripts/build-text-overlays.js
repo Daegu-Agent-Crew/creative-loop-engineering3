@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 
 function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));
@@ -101,6 +102,16 @@ function build(rootDir, episodeId, generatedOnly) {
   const panelsPath = path.join(rootDir, 'episodes', episodeId, 'panels', 'panels.json');
   const outputPath = path.join(rootDir, 'episodes', episodeId, 'panels', 'text-overlays.json');
   const panelsJson = readJson(panelsPath);
+  const canonicalPath = path.join(rootDir, 'episodes', episodeId, 'script', 'panel-script.json');
+  const canonical = fs.existsSync(canonicalPath) ? readJson(canonicalPath) : null;
+  const canonicalById = new Map((canonical?.panels || []).map(p => [p.panel_id, p]));
+  if (canonical) {
+    if (canonical.episode_id !== episodeId || canonicalById.size !== canonical.panels.length || canonicalById.size !== panelsJson.panels.length) throw new Error('canonical panel coverage mismatch');
+    for (const panel of panelsJson.panels) {
+      const row = canonicalById.get(panel.panel_id);
+      if (!row || row.description !== panel.description || row.page_number !== panel.page_number || !Array.isArray(row.text)) throw new Error(`canonical scene mismatch: ${panel.panel_id}`);
+    }
+  }
   const scriptText = extractScriptText(rootDir, episodeId);
   const existingByPanel = new Map();
   if (fs.existsSync(outputPath)) {
@@ -112,6 +123,23 @@ function build(rootDir, episodeId, generatedOnly) {
     .filter((panel) => !generatedOnly || ['generated', 'approved', 'selected'].includes(panel.generation_status))
     .map((panel) => {
       const existing = existingByPanel.get(panel.panel_id);
+      if (canonical) {
+        const row = canonicalById.get(panel.panel_id);
+        const signature = crypto.createHash('sha256').update(JSON.stringify(row)).digest('hex');
+        const sourcePath = path.join(rootDir, panel.image_path);
+        const sourceSignature = fs.existsSync(sourcePath) ? crypto.createHash('sha256').update(fs.readFileSync(sourcePath)).digest('hex') : null;
+        if (sourceSignature && existing?.canonical_signature === signature && existing.source_sha256 === sourceSignature) {
+          return { ...existing, source_image_path: panel.image_path, text_layout: 'caption_strip' };
+        }
+        return {
+          panel_id: panel.panel_id, page_number: panel.page_number,
+          source_image_path: panel.image_path,
+          final_image_path: `episodes/${episodeId}/panels/final/${panel.panel_id}.svg`,
+          canonical_signature: signature, source_sha256: sourceSignature, text_layout: 'caption_strip', status: 'draft',
+          notes: 'Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.',
+          overlays: row.text.map((item, index) => ({kind: item.kind, speaker: item.speaker || '', text: item.text, box: boxFor(item.kind, index)}))
+        };
+      }
       if (existing && ['approved', 'embedded_text', 'needs_review', 'rendered'].includes(existing.status)) {
         return {
           ...existing,
@@ -149,6 +177,9 @@ function build(rootDir, episodeId, generatedOnly) {
   return result;
 }
 
-const args = parseArgs(process.argv);
-const result = build(process.cwd(), args.episode, args.generatedOnly);
-console.log(`text overlays ${result.episode_id}: ${result.panels.length}`);
+module.exports = { build };
+if (require.main === module) {
+  const args = parseArgs(process.argv);
+  const result = build(process.cwd(), args.episode, args.generatedOnly);
+  console.log(`text overlays ${result.episode_id}: ${result.panels.length}`);
+}

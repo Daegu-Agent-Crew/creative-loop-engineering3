@@ -1,0 +1,21 @@
+{
+  "panel_id": "p2-1",
+  "episode_id": "EP005",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-274bba49-5562-440e-aabe-2c9f647361eb.png",
+  "candidate": ".candidates/EP005/p2-1/iteration-01/p2-1-v01.png",
+  "asset": "episodes/EP005/panels/assets/p2-1.webp",
+  "sha256": "cc8dd5539a630f697f584ac0f935c373859e55e6fd5338492f0efd599ae3fac2",
+  "generated_at": "2026-09-15T17:28:02.397295+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective. Create one finished comic panel. Adult male scientist Wang Miao with round spectacles and pale blue buttoned shirt, dark trousers and shoulder bag, walking UP the wooden staircase of an old Beijing apartment building in morning light. A hand rests on the bannister. Single figure, simple worn plaster walls. Match the supplied character identity. No text, lettering, captions, logos, speech bubbles or inset scenes.",
+  "references": [
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP001/characters/assets/wangmiao-v1.png"
+  ],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "db97166657e19533e15001a3159f78d74be9503ee4cd83dfcb69ebdbe8cf9682",
+  "source_sha256": "cc8dd5539a630f697f584ac0f935c373859e55e6fd5338492f0efd599ae3fac2",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP005/qa/qa.json"
+}

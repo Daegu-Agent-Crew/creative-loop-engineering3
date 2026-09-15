@@ -1,0 +1,22 @@
+{
+  "panel_id": "p7-1",
+  "episode_id": "EP003",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-d641eaea-4c08-4258-8b15-460bd267ab9c.png",
+  "candidate": ".candidates/EP003/p7-1/iteration-01/p7-1-v01.png",
+  "asset": "episodes/EP003/panels/assets/p7-1.webp",
+  "sha256": "d76b300f48c23bfd8bc80b2ce2cf159e17c2e8f0b1451e30f5bad43d6194a8a8",
+  "generated_at": "2026-09-15T14:28:42.525703+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, distinctive 1980s Akira Toriyama manga aesthetic. Create ONE finished landscape 1536x1024 comic panel, NOT a character sheet. Alien game world golden rocky plain with TWO suns: one red, one smaller white. \nSCENE: 풀 페이지. 두 태양이 황금빛 하늘 양쪽에 떠 있다. 평원 위에 NPC 문명인들이 모여 있다 — 축제. 주희가 언덕 위에 서서 양팔을 벌리고 있고, 그 아래로 사람들이 환호한다. 화면 오른쪽 구석에 왕먀오가 서 있다. 안경에 두 태양이 비친 채로. 고립되어 있으나, 경이에 젖어 있다.\nVisible named cast: 왕먀오, 주희. Character sheets are identity references ONLY; never copy their backgrounds. Wang Miao always wears pale blue-grey shirt and dark trousers. All lettering and exact digits will be added later: NO readable text, numbers, symbols, balloons, captions or watermark in generated artwork. Clean coherent anatomy, strong ink composition, no extra characters or alien creatures. Non-graphic disaster where described.",
+  "references": [
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP001/characters/assets/wangmiao-v1.png",
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP003/characters/assets/zhuxi-v1.png"
+  ],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "c7782e3025be270ec30aede711b8df95465e8927b78474e28a748993e1add4b7",
+  "source_sha256": "d76b300f48c23bfd8bc80b2ce2cf159e17c2e8f0b1451e30f5bad43d6194a8a8",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP003/qa/qa.json"
+}

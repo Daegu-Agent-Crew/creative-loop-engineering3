@@ -1,31 +1,10 @@
-# EP002 Panels Manifest
+# EP002 완결 산출물
 
-## 현재 상태
-
-- phase: phase4_panels
-- total_panels: 57
-- generated_panels: 49
-- pending_panels: 8
-- existing_final_svgs: 45/49 generated panels (file presence only)
-- overlay_status: rendered 17, draft 12, needs_review 20
-- missing_final_svgs: p8-2, p8-3, p8-4, p10-1
-- p10-1~p10-4: needs_review; script laboratory scene (3 panels) conflicts with storyboard food-stall scene (4 panels). Preserve existing SVGs; hold rendering until mapping decision.
-- p7-1~p7-4: needs_review; script camera experiments (3 panels) conflict with storyboard family scene (4 panels). Preserve SVGs; hold rendering pending mapping decision. Evidence: `reports/CLE3-EP002-P7-MAPPING-20260913.json`
-- p5-1~p5-4: needs_review; script police-station dialogue conflicts with storyboard stairway/restroom countdown. Preserve all SVGs; hold rendering pending mapping decision. Evidence: `reports/CLE3-EP002-P5-MAPPING-20260914.json`
-- p6-1~p6-4: needs_review; script silent family full-page (1 panel) conflicts with storyboard examination/camera/laboratory montage (4 panels). Preserve all SVGs; hold rendering pending mapping decision. Evidence: `reports/CLE3-EP002-P6-MAPPING-20260915.json`
-- mapping_review_evidence: `reports/CLE3-EP002-P10-MAPPING-20260912.json`
-- verification_evidence: `reports/CLE3-EP002-STATUS-AUDIT-20260909.json`
-- asset_dir: `episodes/EP002/panels/assets/`
-- workflow_rule: CLE3 내부 storyboard + characters 산출물만 사용. 외부 저장소 생성 결과 재사용 금지.
-
-## 작업 규칙
-
-- storyboard.json의 panel_id 순서를 기준으로 생성한다.
-- generation-jobs.json 기준으로 페이지 단위 배치를 우선 처리한다.
-- 일반 페이지는 동시 2~3개, 복잡한 다인물/몽타주/풀페이지는 동시 1개 기준으로 처리한다.
-- characters.json의 image_path를 패널 생성 참조 자산으로 사용한다.
-- 생성 이미지는 모두 `episodes/{EP}/panels/assets/`에 저장한다.
-- 가능하면 이미지 생성 단계에서는 대사를 직접 렌더링하지 않고, 후처리 오버레이 대상으로 남긴다.
-- panels.json의 generation_prompt, reference_assets, generation_status를 함께 갱신한다.
-- QA 실패 시 전체 Phase 롤백 대신 실패 패널과 인접 패널만 재생성한다.
-- 실제 패널이 생성되기 전까지는 target asset slot만 유지하고 placeholder 상태로 본다.
+- 16페이지 / 57컷
+- 실제 자산 57/57, 최종 SVG 57/57
+- 정본 대사: ../script/panel-script.json
+- Phase 5 QA: 43/50 (Codex 검수, 사람 공개 승인과 별도)
+- 읽기: reader/episodes/EP002/read.html
+- 전체 패키지: node scripts/build-season-reader.js → dist/season/index.html
+- 원본/교정 전 후보: .candidates/EP002/ (Git 제외)
+- 공개: Release Approval 대기. 누락 컷 생성 재개 불필요.

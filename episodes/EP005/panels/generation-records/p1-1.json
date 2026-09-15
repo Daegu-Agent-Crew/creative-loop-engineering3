@@ -1,0 +1,21 @@
+{
+  "panel_id": "p1-1",
+  "episode_id": "EP005",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-1e2c639b-a5e7-4742-b7f4-e1eb7dce1172.png",
+  "candidate": ".candidates/EP005/p1-1/iteration-01/p1-1-v01.png",
+  "asset": "episodes/EP005/panels/assets/p1-1.webp",
+  "sha256": "2d0febdf7471e51a7aa7cbd7c7e5af4658c865b5bc4c603d831972a5a41037df",
+  "generated_at": "2026-09-15T17:26:50.977659+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective. Create one finished comic panel. Extreme close-up of an adult male scientist eye behind his round spectacle lens. A small golden geometric concentric circle is reflected in the pupil, an abstract dream image. Calm intact eye. Deep blue shadows. Match the supplied character identity. No text, lettering, captions, logos, speech bubbles or inset scenes.",
+  "references": [
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP001/characters/assets/wangmiao-v1.png"
+  ],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "91d0670afb5438411e73ccbf13adf8c30191ad7bdea8d796787bc3380ba90e39",
+  "source_sha256": "2d0febdf7471e51a7aa7cbd7c7e5af4658c865b5bc4c603d831972a5a41037df",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP005/qa/qa.json"
+}

@@ -1,0 +1,21 @@
+{
+  "panel_id": "p1-3",
+  "episode_id": "EP004",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-7190b181-6b9d-4613-81da-b95333f0f2af.png",
+  "candidate": ".candidates/EP004/p1-3/iteration-01/p1-3-v01.png",
+  "asset": "episodes/EP004/panels/assets/p1-3.webp",
+  "sha256": "bb16ea3a0b58ecab6ee97361a7b883718953f027a0055e70bbfdcb9fa8ced911",
+  "generated_at": "2026-09-15T14:55:51.773656+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, distinctive 1980s Akira Toriyama manga aesthetic. Create ONE finished landscape 1536x1024 comic panel, NOT a character sheet. Alien civilization world, grey-purple ruins, ochre sand, stone cairns. Sky state strictly follow scene. Never use modern laboratory. \nSCENE: 왕먀오의 얼굴. 피로 + 혼란. 먼지투성이. 입술이 마르고, 눈이 초점을 잃어가고 있다. 중얼거린다.\nVisible named cast: 왕먀오. Character sheets are identity references ONLY; never copy their backgrounds. Wang Miao always wears pale blue-grey shirt and dark trousers. All lettering and exact digits will be added later: NO readable text, numbers, symbols, balloons, captions or watermark in generated artwork. Clean coherent anatomy, strong ink composition, no extra characters or alien creatures. Non-graphic disaster where described.",
+  "references": [
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP001/characters/assets/wangmiao-v1.png"
+  ],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "bd2719c2ac92877d7c6304b5b1fb6b81b287262f0f905508e4ff1445f7c57f9e",
+  "source_sha256": "bb16ea3a0b58ecab6ee97361a7b883718953f027a0055e70bbfdcb9fa8ced911",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP004/qa/qa.json"
+}

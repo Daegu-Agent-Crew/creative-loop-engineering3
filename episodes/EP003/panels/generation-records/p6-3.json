@@ -1,0 +1,21 @@
+{
+  "panel_id": "p6-3",
+  "episode_id": "EP003",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-50e97c16-61ac-40dd-838f-8a579c00412f.png",
+  "candidate": ".candidates/EP003/p6-3/iteration-01/p6-3-v01.png",
+  "asset": "episodes/EP003/panels/assets/p6-3.webp",
+  "sha256": "7d7e087e9b75084d345ffdf3d81734a7c784368524d62af74482e63939ee7656",
+  "generated_at": "2026-09-15T14:26:19.903434+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, distinctive 1980s Akira Toriyama manga aesthetic. Create ONE finished landscape 1536x1024 comic panel, NOT a character sheet. Alien game world golden rocky plain with TWO suns: one red, one smaller white. \nSCENE: 주희가 평원 한가운데 서서 양팔을 벌린다. 두 태양의 빛이 주희의 붉은 옥의를 관통하듯 비춘다. 주희의 그림자가 두 개 — 동쪽과 서쪽으로. 주희의 미소가 돌아왔다 — 과장된, 연극적 미소.\nVisible named cast: 주희. Character sheets are identity references ONLY; never copy their backgrounds. Wang Miao always wears pale blue-grey shirt and dark trousers. All lettering and exact digits will be added later: NO readable text, numbers, symbols, balloons, captions or watermark in generated artwork. Clean coherent anatomy, strong ink composition, no extra characters or alien creatures. Non-graphic disaster where described.",
+  "references": [
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP003/characters/assets/zhuxi-v1.png"
+  ],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "56b0ad116be436c52a9a2fbb399c1a5e12d33d8f453de0ad3087bebdcdb36545",
+  "source_sha256": "7d7e087e9b75084d345ffdf3d81734a7c784368524d62af74482e63939ee7656",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP003/qa/qa.json"
+}

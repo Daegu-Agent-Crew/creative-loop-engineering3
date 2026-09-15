@@ -1,0 +1,19 @@
+{
+  "panel_id": "p6-2",
+  "episode_id": "EP004",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-51079ef8-7b8c-43d3-b75c-fa438da56ea8.png",
+  "candidate": ".candidates/EP004/p6-2/iteration-01/p6-2-v01.png",
+  "asset": "episodes/EP004/panels/assets/p6-2.webp",
+  "sha256": "4fca3d0a879d346ae12d227e759f4550f097901ffa5f7f57e863d47e51e9ef29",
+  "generated_at": "2026-09-15T15:14:33.840527+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, distinctive 1980s Akira Toriyama manga aesthetic. Create ONE finished landscape 1536x1024 comic panel, NOT a character sheet. Alien civilization world, grey-purple ruins, ochre sand, stone cairns. Sky state strictly follow scene. Never use modern laboratory. \nSCENE: 세 번째 태양. 하늘이 붉게 타오른다. 온도가 급격히 오르는 것을 시각화 — 공기가 일렁임.\nVisible named cast: none. Character sheets are identity references ONLY; never copy their backgrounds. Wang Miao always wears pale blue-grey shirt and dark trousers. All lettering and exact digits will be added later: NO readable text, numbers, symbols, balloons, captions or watermark in generated artwork. Clean coherent anatomy, strong ink composition, no extra characters or alien creatures. Non-graphic disaster where described.",
+  "references": [],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "7284ca82b2539ac29ea9662c0beeaed0c66e2498b743f52cdee8dc483c82cd60",
+  "source_sha256": "4fca3d0a879d346ae12d227e759f4550f097901ffa5f7f57e863d47e51e9ef29",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP004/qa/qa.json"
+}

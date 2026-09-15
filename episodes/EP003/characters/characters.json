@@ -1,0 +1,41 @@
+{
+  "episode_id": "EP003",
+  "prompt_version": "v4-continuity",
+  "characters": [
+    {
+      "name": "왕먀오 (汪淼)",
+      "role": "제1부 주인공 — 나노 재료 연구원",
+      "appearance": "30대 중국 남성, 단정한 외모, 큰 안경(뿔테), 차분한 표정, 마른 체형. 캐주얼 셔츠 + 슬랙스, 연구실 가운. 안경에 반사되는 빛이 특징.",
+      "personality": "순수한 과학적 호기심. 현실감각과 책임감. 내면의 두려움과 용기의 공존. EP001 마지막에 모니터 앞에 등장.",
+      "style_notes": "Toriyama style: clean geometric design, large round glasses with light reflection, neat simplified hair. Cool blue-grey cell-shaded palette.",
+      "age": "30대 초중반",
+      "color_tone": "steel blue / cool grey / lens reflection white",
+      "image_path": "episodes/EP001/characters/assets/wangmiao-v1.png",
+      "generation_status": "generated",
+      "asset_slot": "episodes/EP001/characters/assets/wangmiao-v1.png",
+      "source_prompt": "Character reference sheet, full body front-focused portrait for Wang Miao, Chinese male scientist in his early 30s. Neat short black hair, large round glasses with bright lens reflection, calm but curious expression, slim build, casual shirt and slacks, subtle lab-research feel. Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character design, dramatic but playful 1980s Akira Toriyama manga aesthetic. Clean white background, production-ready character sheet.",
+      "model": "gpt-image-1",
+      "generated_at": "2026-07-09"
+    },
+    {
+      "name": "주희",
+      "appearance": "키 크고 어깨 넓은 중년 중국 남성 NPC 왕. 검은 상투, 각진 눈썹, 짧은 검은 수염, 검은 갑옷 위 진홍색 옥의.",
+      "personality": "문명의 멸망을 기억하는 연극적이고 체념한 통치자.",
+      "style_notes": "굵은 잉크선, 셀 채색, 큰 머리와 붉은 옥의.",
+      "image_path": "episodes/EP003/characters/assets/zhuxi-v1.png",
+      "generation_status": "generated",
+      "model": "gpt-image-2",
+      "generated_at": "2026-09-15T13:10:06.820022+00:00"
+    },
+    {
+      "name": "상구",
+      "appearance": "마른 노년 중국 남성 천문관, 회색 상투와 가는 흰 수염, 황토색 긴 도포, 청동 관측 도구.",
+      "personality": "관측에 충실하지만 예측 실패를 두려워한다.",
+      "style_notes": "가늘고 길쭉한 실루엣, 황토색 도포.",
+      "image_path": "episodes/EP003/characters/assets/shanggu-v1.png",
+      "generation_status": "generated",
+      "model": "gpt-image-2",
+      "generated_at": "2026-09-15T13:10:06.825073+00:00"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "panel_id": "p3-4",
+  "episode_id": "EP003",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-96347322-3916-4345-9798-1555681459ce.png",
+  "candidate": ".candidates/EP003/p3-4/iteration-01/p3-4-v01.png",
+  "asset": "episodes/EP003/panels/assets/p3-4.webp",
+  "sha256": "a145f243fa83a0769ebad2d12a3b19a929639863c6a47f84f46dc12e9a73b3b3",
+  "generated_at": "2026-09-15T13:25:39.824204+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, distinctive 1980s Akira Toriyama manga aesthetic. Create ONE finished landscape 1536x1024 comic panel, NOT a character sheet. Alien game world BROWN EMPTY ROCKY PLAIN and uniform overcast grey sky. NO visible sun, NO buildings, NO laboratory. \nSCENE: 왕먀오의 반응 샷. 멈칫한 표정. 입이 벌어져 있다. 손이 안경테를 만지려다 멈춘다. 배경으로 멀리 천문관 상구가 관측기를 조정하고 있는 것이 보인다.\nVisible named cast: 왕먀오, 상구. Character sheets are identity references ONLY; never copy their backgrounds. Wang Miao always wears pale blue-grey shirt and dark trousers. All lettering and exact digits will be added later: NO readable text, numbers, symbols, balloons, captions or watermark in generated artwork. Clean coherent anatomy, strong ink composition, no extra characters or alien creatures. Non-graphic disaster where described.",
+  "references": [
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP001/characters/assets/wangmiao-v1.png",
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP003/characters/assets/shanggu-v1.png"
+  ],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "55f5b2fee768f007fc61aee71d0cadcf7fdb157e4f800246b06d2ac347d18e42",
+  "source_sha256": "a145f243fa83a0769ebad2d12a3b19a929639863c6a47f84f46dc12e9a73b3b3",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP003/qa/qa.json"
+}

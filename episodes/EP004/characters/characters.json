@@ -1,0 +1,31 @@
+{
+  "episode_id": "EP004",
+  "prompt_version": "v4-continuity",
+  "characters": [
+    {
+      "name": "왕먀오 (汪淼)",
+      "role": "제1부 주인공 — 나노 재료 연구원",
+      "appearance": "30대 중국 남성, 단정한 외모, 큰 안경(뿔테), 차분한 표정, 마른 체형. 캐주얼 셔츠 + 슬랙스, 연구실 가운. 안경에 반사되는 빛이 특징.",
+      "personality": "순수한 과학적 호기심. 현실감각과 책임감. 내면의 두려움과 용기의 공존. EP001 마지막에 모니터 앞에 등장.",
+      "style_notes": "Toriyama style: clean geometric design, large round glasses with light reflection, neat simplified hair. Cool blue-grey cell-shaded palette.",
+      "age": "30대 초중반",
+      "color_tone": "steel blue / cool grey / lens reflection white",
+      "image_path": "episodes/EP001/characters/assets/wangmiao-v1.png",
+      "generation_status": "generated",
+      "asset_slot": "episodes/EP001/characters/assets/wangmiao-v1.png",
+      "source_prompt": "Character reference sheet, full body front-focused portrait for Wang Miao, Chinese male scientist in his early 30s. Neat short black hair, large round glasses with bright lens reflection, calm but curious expression, slim build, casual shirt and slacks, subtle lab-research feel. Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character design, dramatic but playful 1980s Akira Toriyama manga aesthetic. Clean white background, production-ready character sheet.",
+      "model": "gpt-image-1",
+      "generated_at": "2026-07-09"
+    },
+    {
+      "name": "기록자",
+      "appearance": "나이를 가늠하기 어려운 마른 중국 남성, 삭발 머리, 회색 후드 없는 긴 겉옷, 갈색 허리띠, 돌을 새기는 작은 정과 망치.",
+      "personality": "멸망을 반복해서 기록하는 조용하고 지친 관찰자.",
+      "style_notes": "둥근 얼굴, 무채색 실루엣, 절제된 표정.",
+      "image_path": "episodes/EP004/characters/assets/recorder-v1.png",
+      "generation_status": "generated",
+      "model": "gpt-image-2",
+      "generated_at": "2026-09-15T13:10:06.827412+00:00"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "panel_id": "p1-3",
+  "episode_id": "EP003",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-55fc4784-e356-4758-a28a-3e2bf6b5de96.png",
+  "candidate": ".candidates/EP003/p1-3/iteration-01/p1-3-v02.png",
+  "asset": "episodes/EP003/panels/assets/p1-3.webp",
+  "sha256": "81acc6cb0c55657714069bb8e02afe0dbcde52138a9ef8a21571773520f3b1c2",
+  "generated_at": "2026-09-15T13:13:22.079649+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP003\nPage: 1\nPanel ID: p1-3\nStoryboard description: 멀리, 갈색 평원 위에 검은 점 하나. 사람 실루엣. 고대 중국 복장. 움직이지 않는다. 바람에 옷자락이 살짝 움직이는 것만이 생명의 징후.\nVisible cast: none\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: extreme wide shot, 실루엣 중심\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.\nDIRECTOR OVERRIDES: Ancient alien planet simulated as a Chinese civilization, brown rocky plains and grey sky changing to gold then red according to scene. Wang Miao wears pale blue-grey modern shirt and dark trousers throughout.  Single finished comic PANEL, never a character sheet. Landscape 1536x1024 except full-page silence/impact scene use portrait 1024x1536. Reference images are identity references only. Use flat cell shading and bold clean ink throughout; ignore legacy watercolor/photorealistic directives. NO readable text, numbers, letters, captions, speech balloons, sound effects or watermark anywhere. Leave monitors, inscriptions and notes blank for deterministic Korean postprocess. Avoid explicit gore; destruction is non-graphic silhouettes, light and ash. Do not introduce aliens, robots or people absent from the scene. Keep composition legible; no UI/debug artifacts.",
+  "references": [],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "correction": "Removed incorrect sun or laboratory background, preserved first candidate",
+  "delivery_sha256": "6ec87e51855e40573a41dc3cf8f3a4d7c121044420a13881a9946ce2d0686712",
+  "source_sha256": "81acc6cb0c55657714069bb8e02afe0dbcde52138a9ef8a21571773520f3b1c2",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP003/qa/qa.json"
+}

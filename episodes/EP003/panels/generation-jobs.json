@@ -1,0 +1,594 @@
+{
+  "episode_id": "EP003",
+  "policy": {
+    "batch_strategy": "page_grouped_panels",
+    "text_strategy": "postprocess_overlay",
+    "parallel_limit": 3,
+    "complex_parallel_limit": 1,
+    "max_total_in_flight": 3,
+    "worker_tier": "low_performance",
+    "image_model": "gpt-image-2",
+    "qa_tier": "low_performance_vision"
+  },
+  "jobs": [
+    {
+      "job_id": "EP003-page-01",
+      "page_number": 1,
+      "panel_ids": [
+        "p1-1",
+        "p1-2",
+        "p1-3"
+      ],
+      "character_refs": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "complexity": "simple",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "worker_tier": "low_performance",
+      "image_model": "gpt-image-2",
+      "started_at": null,
+      "completed_at": null,
+      "generation_duration_seconds": null,
+      "qa_score": null,
+      "last_error": null,
+      "status": "completed",
+      "decision_rationale": "같은 페이지의 3개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "high",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [],
+      "references_used": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP003-page-02",
+      "page_number": 2,
+      "panel_ids": [
+        "p2-1",
+        "p2-2",
+        "p2-3",
+        "p2-4"
+      ],
+      "character_refs": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png",
+        "episodes/EP003/characters/assets/zhuxi-v1.png"
+      ],
+      "complexity": "standard",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "worker_tier": "low_performance",
+      "image_model": "gpt-image-2",
+      "started_at": null,
+      "completed_at": null,
+      "generation_duration_seconds": null,
+      "qa_score": null,
+      "last_error": null,
+      "status": "completed",
+      "decision_rationale": "같은 페이지의 4개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "high",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [],
+      "references_used": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png",
+        "episodes/EP003/characters/assets/zhuxi-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP003-page-03",
+      "page_number": 3,
+      "panel_ids": [
+        "p3-1",
+        "p3-2",
+        "p3-3",
+        "p3-4"
+      ],
+      "character_refs": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png",
+        "episodes/EP003/characters/assets/zhuxi-v1.png",
+        "episodes/EP003/characters/assets/shanggu-v1.png"
+      ],
+      "complexity": "complex",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "worker_tier": "low_performance",
+      "image_model": "gpt-image-2",
+      "started_at": null,
+      "completed_at": null,
+      "generation_duration_seconds": null,
+      "qa_score": null,
+      "last_error": null,
+      "status": "completed",
+      "decision_rationale": "같은 페이지의 4개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "medium",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [
+        "다인물 또는 복합 구도는 생성 후 인접 패널 일관성 QA가 필요하다."
+      ],
+      "references_used": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png",
+        "episodes/EP003/characters/assets/zhuxi-v1.png",
+        "episodes/EP003/characters/assets/shanggu-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP003-page-04",
+      "page_number": 4,
+      "panel_ids": [
+        "p4-1",
+        "p4-2",
+        "p4-3"
+      ],
+      "character_refs": [
+        "episodes/EP003/characters/assets/zhuxi-v1.png",
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "complexity": "simple",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "worker_tier": "low_performance",
+      "image_model": "gpt-image-2",
+      "started_at": null,
+      "completed_at": null,
+      "generation_duration_seconds": null,
+      "qa_score": null,
+      "last_error": null,
+      "status": "completed",
+      "decision_rationale": "같은 페이지의 3개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "high",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [],
+      "references_used": [
+        "episodes/EP003/characters/assets/zhuxi-v1.png",
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP003-page-05",
+      "page_number": 5,
+      "panel_ids": [
+        "p5-1",
+        "p5-2",
+        "p5-3",
+        "p5-4"
+      ],
+      "character_refs": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png",
+        "episodes/EP003/characters/assets/zhuxi-v1.png",
+        "episodes/EP003/characters/assets/shanggu-v1.png"
+      ],
+      "complexity": "complex",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "worker_tier": "low_performance",
+      "image_model": "gpt-image-2",
+      "started_at": null,
+      "completed_at": null,
+      "generation_duration_seconds": null,
+      "qa_score": null,
+      "last_error": null,
+      "status": "completed",
+      "decision_rationale": "같은 페이지의 4개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "medium",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [
+        "다인물 또는 복합 구도는 생성 후 인접 패널 일관성 QA가 필요하다."
+      ],
+      "references_used": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png",
+        "episodes/EP003/characters/assets/zhuxi-v1.png",
+        "episodes/EP003/characters/assets/shanggu-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP003-page-06",
+      "page_number": 6,
+      "panel_ids": [
+        "p6-1",
+        "p6-2",
+        "p6-3",
+        "p6-4"
+      ],
+      "character_refs": [
+        "episodes/EP003/characters/assets/zhuxi-v1.png",
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "complexity": "standard",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "worker_tier": "low_performance",
+      "image_model": "gpt-image-2",
+      "started_at": null,
+      "completed_at": null,
+      "generation_duration_seconds": null,
+      "qa_score": null,
+      "last_error": null,
+      "status": "completed",
+      "decision_rationale": "같은 페이지의 4개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "high",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [],
+      "references_used": [
+        "episodes/EP003/characters/assets/zhuxi-v1.png",
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP003-page-07",
+      "page_number": 7,
+      "panel_ids": [
+        "p7-1"
+      ],
+      "character_refs": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png",
+        "episodes/EP003/characters/assets/zhuxi-v1.png"
+      ],
+      "complexity": "complex",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "worker_tier": "low_performance",
+      "image_model": "gpt-image-2",
+      "started_at": null,
+      "completed_at": null,
+      "generation_duration_seconds": null,
+      "qa_score": null,
+      "last_error": null,
+      "status": "completed",
+      "decision_rationale": "같은 페이지의 1개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "medium",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [
+        "다인물 또는 복합 구도는 생성 후 인접 패널 일관성 QA가 필요하다."
+      ],
+      "references_used": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png",
+        "episodes/EP003/characters/assets/zhuxi-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP003-page-08",
+      "page_number": 8,
+      "panel_ids": [
+        "p8-1",
+        "p8-2",
+        "p8-3",
+        "p8-4"
+      ],
+      "character_refs": [
+        "episodes/EP003/characters/assets/shanggu-v1.png",
+        "episodes/EP001/characters/assets/wangmiao-v1.png",
+        "episodes/EP003/characters/assets/zhuxi-v1.png"
+      ],
+      "complexity": "complex",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "worker_tier": "low_performance",
+      "image_model": "gpt-image-2",
+      "started_at": null,
+      "completed_at": null,
+      "generation_duration_seconds": null,
+      "qa_score": null,
+      "last_error": null,
+      "status": "completed",
+      "decision_rationale": "같은 페이지의 4개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "medium",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [
+        "다인물 또는 복합 구도는 생성 후 인접 패널 일관성 QA가 필요하다."
+      ],
+      "references_used": [
+        "episodes/EP003/characters/assets/shanggu-v1.png",
+        "episodes/EP001/characters/assets/wangmiao-v1.png",
+        "episodes/EP003/characters/assets/zhuxi-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP003-page-09",
+      "page_number": 9,
+      "panel_ids": [
+        "p9-1",
+        "p9-2",
+        "p9-3",
+        "p9-4"
+      ],
+      "character_refs": [
+        "episodes/EP003/characters/assets/shanggu-v1.png",
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "complexity": "standard",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "worker_tier": "low_performance",
+      "image_model": "gpt-image-2",
+      "started_at": null,
+      "completed_at": null,
+      "generation_duration_seconds": null,
+      "qa_score": null,
+      "last_error": null,
+      "status": "completed",
+      "decision_rationale": "같은 페이지의 4개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "high",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [],
+      "references_used": [
+        "episodes/EP003/characters/assets/shanggu-v1.png",
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP003-page-10",
+      "page_number": 10,
+      "panel_ids": [
+        "p10-1"
+      ],
+      "character_refs": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "complexity": "simple",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "worker_tier": "low_performance",
+      "image_model": "gpt-image-2",
+      "started_at": null,
+      "completed_at": null,
+      "generation_duration_seconds": null,
+      "qa_score": null,
+      "last_error": null,
+      "status": "completed",
+      "decision_rationale": "같은 페이지의 1개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "high",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [],
+      "references_used": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP003-page-11",
+      "page_number": 11,
+      "panel_ids": [
+        "p11-1",
+        "p11-2",
+        "p11-3"
+      ],
+      "character_refs": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png",
+        "episodes/EP003/characters/assets/zhuxi-v1.png"
+      ],
+      "complexity": "simple",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "worker_tier": "low_performance",
+      "image_model": "gpt-image-2",
+      "started_at": null,
+      "completed_at": null,
+      "generation_duration_seconds": null,
+      "qa_score": null,
+      "last_error": null,
+      "status": "completed",
+      "decision_rationale": "같은 페이지의 3개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "high",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [],
+      "references_used": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png",
+        "episodes/EP003/characters/assets/zhuxi-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP003-page-12",
+      "page_number": 12,
+      "panel_ids": [
+        "p12-1"
+      ],
+      "character_refs": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png",
+        "episodes/EP003/characters/assets/zhuxi-v1.png"
+      ],
+      "complexity": "complex",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "worker_tier": "low_performance",
+      "image_model": "gpt-image-2",
+      "started_at": null,
+      "completed_at": null,
+      "generation_duration_seconds": null,
+      "qa_score": null,
+      "last_error": null,
+      "status": "completed",
+      "decision_rationale": "같은 페이지의 1개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "medium",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [
+        "다인물 또는 복합 구도는 생성 후 인접 패널 일관성 QA가 필요하다."
+      ],
+      "references_used": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png",
+        "episodes/EP003/characters/assets/zhuxi-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP003-page-13",
+      "page_number": 13,
+      "panel_ids": [
+        "p13-1",
+        "p13-2",
+        "p13-3",
+        "p13-4"
+      ],
+      "character_refs": [
+        "episodes/EP003/characters/assets/zhuxi-v1.png",
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "complexity": "standard",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "worker_tier": "low_performance",
+      "image_model": "gpt-image-2",
+      "started_at": null,
+      "completed_at": null,
+      "generation_duration_seconds": null,
+      "qa_score": null,
+      "last_error": null,
+      "status": "completed",
+      "decision_rationale": "같은 페이지의 4개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "high",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [],
+      "references_used": [
+        "episodes/EP003/characters/assets/zhuxi-v1.png",
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP003-page-14",
+      "page_number": 14,
+      "panel_ids": [
+        "p14-1",
+        "p14-2",
+        "p14-3"
+      ],
+      "character_refs": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "complexity": "simple",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "worker_tier": "low_performance",
+      "image_model": "gpt-image-2",
+      "started_at": null,
+      "completed_at": null,
+      "generation_duration_seconds": null,
+      "qa_score": null,
+      "last_error": null,
+      "status": "completed",
+      "decision_rationale": "같은 페이지의 3개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "high",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [],
+      "references_used": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    },
+    {
+      "job_id": "EP003-page-15",
+      "page_number": 15,
+      "panel_ids": [
+        "p15-1"
+      ],
+      "character_refs": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "complexity": "complex",
+      "text_overlay_required": true,
+      "retry_count": 0,
+      "worker_tier": "low_performance",
+      "image_model": "gpt-image-2",
+      "started_at": null,
+      "completed_at": null,
+      "generation_duration_seconds": null,
+      "qa_score": null,
+      "last_error": null,
+      "status": "completed",
+      "decision_rationale": "같은 페이지의 1개 패널을 장면, 조명, 캐릭터 연속성을 공유하는 작업 그룹으로 선택한다.",
+      "confidence": "medium",
+      "assumptions": [
+        "storyboard와 characters의 현재 버전을 Phase 4 기준선으로 사용한다.",
+        "이미지에는 최종 한글 텍스트를 넣지 않고 후처리 오버레이를 적용한다."
+      ],
+      "uncertainties": [
+        "다인물 또는 복합 구도는 생성 후 인접 패널 일관성 QA가 필요하다."
+      ],
+      "references_used": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "human_approval_required": false,
+      "escalation_reason": null,
+      "notes": "Generate image panels without final Korean text. Apply dialogue/caption overlay in a later post-process step."
+    }
+  ]
+}

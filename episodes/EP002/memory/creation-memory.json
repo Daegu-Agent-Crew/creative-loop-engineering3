@@ -121,41 +121,21 @@
     }
   ],
   "handoff": {
-    "current_goal": "EP002 카운트다운의 phase4_panels 창작 작업을 이어간다.",
-    "current_phase": "phase4_panels",
+    "current_goal": "완성된 파일럿 시즌 공개 여부 검토",
+    "current_phase": "phase6_release",
     "target_panel_id": null,
     "completed": [
-      "phase0 완료",
-      "phase0.5 완료",
-      "phase1 완료",
-      "phase2 완료",
-      "phase3 완료",
-      "2026-09-09 파일·상태 대조: PNG 49/57, SVG 45/49, draft 18, needs_review 4. 증거: reports/CLE3-EP002-STATUS-AUDIT-20260909.json",
-      "2026-09-12 페이지 10 입력 정합성 검토: 대본 연구실 3패널과 콘티 포장마차 4패널 충돌. p10-1~p10-4 needs_review. 증거: reports/CLE3-EP002-P10-MAPPING-20260912.json",
-      "2026-09-13 페이지 7 입력 검토 및 보류 상태 동기화: reports/CLE3-EP002-P7-MAPPING-20260913.json",
-      "2026-09-14 페이지 5 입력 매핑 검토 및 보류 상태 동기화: reports/CLE3-EP002-P5-MAPPING-20260914.json",
-      "2026-09-15 페이지 6 입력 매핑 검토 및 보류 상태 동기화: reports/CLE3-EP002-P6-MAPPING-20260915.json"
+      "57컷 생성·교정·조판 완료",
+      "Phase 5 QA 43/50",
+      "전체 시즌 오프라인 뷰어 완성"
     ],
     "next_actions": [
-      "페이지 5는 매핑 사람 결정 후 텍스트·숫자·위치를 검토한다. 보류 상태를 건너뛰지 않는 페이지 렌더러 실행 금지.",
-      "p10-1~p10-4는 페이지 매핑 사람 결정 후 텍스트를 확정한다. 기존 SVG 존재는 QA 통과가 아니며 페이지 10 일괄 렌더러는 보류 상태를 건너뛰지 않으므로 실행하지 않는다.",
-      "p8-2~p8-4의 script/storyboard 매핑을 rebaseline한 뒤 페이지 8 오버레이를 검토한다.",
-      "페이지 7은 매핑 사람 결정 후 텍스트와 연속성을 QA한다. 보류 상태를 건너뛰지 않는 페이지 렌더러를 실행하지 않는다.",
-      "12개의 draft 텍스트 오버레이를 시각 검토하고 위치·문구를 확정한다. needs_review 20개(p2-1, p5-1~p5-4, p6-1~p6-4, p7-1~p7-4, p8-2~p8-4, p10-1~p10-4)는 별도 입력 확인이 필요하다.",
-      "p4-2, p4-3, p4-4 생성 결과의 대사 오버레이 위치를 검토하고 QA 상태를 확정한다.",
-      "쯔쯔와 EP002 전용 장소·소품은 별도 증거를 확보한 뒤 delta에 추가한다.",
-      "완성 패널과 텍스트 오버레이를 대상으로 Phase 5 QA를 준비한다.",
-      "페이지 6은 매핑 사람 결정 후 숫자·텍스트·시각 연속성을 QA한다. 결정 전 페이지 렌더러 실행 보류. 다음 독립 후보는 페이지 4 입력 매핑 검토다."
+      "제작을 재시작하지 않는다. 정본·QA 해시와 실제 자산을 먼저 확인한다.",
+      "공개 승인 시 별도 배포 범위 변경과 공개 검증을 수행한다."
     ],
-    "blockers": [
-      "페이지 10 script/storyboard 장면·패널 수 충돌: p10-1~p10-4 텍스트 확정 및 렌더링 보류. reports/CLE3-EP002-P10-MAPPING-20260912.json",
-      "페이지 7 대본/콘티 장면 충돌: p7-1~p7-4 텍스트 확정·렌더링은 매핑 사람 결정 대기. reports/CLE3-EP002-P7-MAPPING-20260913.json",
-      "페이지 5 경찰서/계단·화장실 장면 충돌: p5-1~p5-4 매핑 사람 결정 대기. reports/CLE3-EP002-P5-MAPPING-20260914.json",
-      "페이지 6은 대본 가족 거실 무대사 풀페이지 1패널과 콘티 안과·카메라·연구실 검증 몽타주 4패널의 충돌로 p6-1~p6-4 needs_review. 기존 SVG 4개와 빈 오버레이는 보존하며 무대사 확정 또는 QA 완료로 해석하지 않는다. reports/CLE3-EP002-P6-MAPPING-20260915.json"
-    ],
+    "blockers": [],
     "human_decisions": [
-      "완료 Phase의 provisional gate를 공식 승인할지 결정",
-      "Phase 5 통과 후 공개 여부 결정"
+      "완결 산출물의 Release Approval"
     ]
   }
 }

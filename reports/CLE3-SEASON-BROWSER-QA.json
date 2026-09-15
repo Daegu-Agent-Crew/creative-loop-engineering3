@@ -1,0 +1,136 @@
+[
+  {
+    "ep": "EP001",
+    "width": 390,
+    "images": 49,
+    "broken": [],
+    "overflow": false,
+    "links": [
+      "http://127.0.0.1:8765/dist/season/season.html",
+      "http://127.0.0.1:8765/dist/season/episodes/EP002/read.html"
+    ],
+    "errors": []
+  },
+  {
+    "ep": "EP002",
+    "width": 390,
+    "images": 57,
+    "broken": [],
+    "overflow": false,
+    "links": [
+      "http://127.0.0.1:8765/dist/season/episodes/EP001/",
+      "http://127.0.0.1:8765/dist/season/season.html",
+      "http://127.0.0.1:8765/dist/season/episodes/EP002/read.html#",
+      "http://127.0.0.1:8765/dist/season/episodes/EP003/read.html"
+    ],
+    "errors": []
+  },
+  {
+    "ep": "EP003",
+    "width": 390,
+    "images": 44,
+    "broken": [],
+    "overflow": false,
+    "links": [
+      "http://127.0.0.1:8765/dist/season/episodes/EP002/read.html",
+      "http://127.0.0.1:8765/dist/season/season.html",
+      "http://127.0.0.1:8765/dist/season/episodes/EP003/read.html#",
+      "http://127.0.0.1:8765/dist/season/episodes/EP004/read.html"
+    ],
+    "errors": []
+  },
+  {
+    "ep": "EP004",
+    "width": 390,
+    "images": 43,
+    "broken": [],
+    "overflow": false,
+    "links": [
+      "http://127.0.0.1:8765/dist/season/episodes/EP003/read.html",
+      "http://127.0.0.1:8765/dist/season/season.html",
+      "http://127.0.0.1:8765/dist/season/episodes/EP004/read.html#",
+      "http://127.0.0.1:8765/dist/season/episodes/EP005/read.html"
+    ],
+    "errors": []
+  },
+  {
+    "ep": "EP005",
+    "width": 390,
+    "images": 45,
+    "broken": [],
+    "overflow": false,
+    "links": [
+      "http://127.0.0.1:8765/dist/season/episodes/EP004/read.html",
+      "http://127.0.0.1:8765/dist/season/season.html",
+      "http://127.0.0.1:8765/dist/season/episodes/EP005/read.html#"
+    ],
+    "errors": []
+  },
+  {
+    "ep": "EP001",
+    "width": 1440,
+    "images": 49,
+    "broken": [],
+    "overflow": false,
+    "links": [
+      "http://127.0.0.1:8765/dist/season/season.html",
+      "http://127.0.0.1:8765/dist/season/episodes/EP002/read.html"
+    ],
+    "errors": []
+  },
+  {
+    "ep": "EP002",
+    "width": 1440,
+    "images": 57,
+    "broken": [],
+    "overflow": false,
+    "links": [
+      "http://127.0.0.1:8765/dist/season/episodes/EP001/",
+      "http://127.0.0.1:8765/dist/season/season.html",
+      "http://127.0.0.1:8765/dist/season/episodes/EP002/read.html#",
+      "http://127.0.0.1:8765/dist/season/episodes/EP003/read.html"
+    ],
+    "errors": []
+  },
+  {
+    "ep": "EP003",
+    "width": 1440,
+    "images": 44,
+    "broken": [],
+    "overflow": false,
+    "links": [
+      "http://127.0.0.1:8765/dist/season/episodes/EP002/read.html",
+      "http://127.0.0.1:8765/dist/season/season.html",
+      "http://127.0.0.1:8765/dist/season/episodes/EP003/read.html#",
+      "http://127.0.0.1:8765/dist/season/episodes/EP004/read.html"
+    ],
+    "errors": []
+  },
+  {
+    "ep": "EP004",
+    "width": 1440,
+    "images": 43,
+    "broken": [],
+    "overflow": false,
+    "links": [
+      "http://127.0.0.1:8765/dist/season/episodes/EP003/read.html",
+      "http://127.0.0.1:8765/dist/season/season.html",
+      "http://127.0.0.1:8765/dist/season/episodes/EP004/read.html#",
+      "http://127.0.0.1:8765/dist/season/episodes/EP005/read.html"
+    ],
+    "errors": []
+  },
+  {
+    "ep": "EP005",
+    "width": 1440,
+    "images": 45,
+    "broken": [],
+    "overflow": false,
+    "links": [
+      "http://127.0.0.1:8765/dist/season/episodes/EP004/read.html",
+      "http://127.0.0.1:8765/dist/season/season.html",
+      "http://127.0.0.1:8765/dist/season/episodes/EP005/read.html#"
+    ],
+    "errors": []
+  }
+]

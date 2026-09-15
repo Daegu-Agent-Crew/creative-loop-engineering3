@@ -1,0 +1,21 @@
+{
+  "panel_id": "p7-3",
+  "episode_id": "EP005",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-8e8af5e1-5289-46ac-9930-ac74321fc2e5.png",
+  "candidate": ".candidates/EP005/p7-3/iteration-01/p7-3-v01.png",
+  "asset": "episodes/EP005/panels/assets/p7-3.webp",
+  "sha256": "9c17dd8ef0ef7147b647a60710ef1d81cff6505a15cfb06f2b14ac0fa09683bf",
+  "generated_at": "2026-09-15T15:57:17.101233+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, distinctive 1980s Akira Toriyama manga aesthetic. Create ONE finished landscape 1536x1024 comic panel, NOT a character sheet. Beijing present-day ordinary apartment, or 1967 radio station in flashbacks pages 4–6. Cel shading throughout, no watercolor.\nSCENE: 청신이 말을 이어감. 눈이 먼 곳을 봄.\nVisible named cast: 청신. Character sheets are identity references ONLY; never copy their backgrounds. Wang Miao always wears pale blue-grey shirt and dark trousers. All lettering and exact digits will be added later: NO readable text, numbers, symbols, balloons, captions or watermark in generated artwork. Clean coherent anatomy, strong ink composition, no extra characters or alien creatures. Non-graphic disaster where described.",
+  "references": [
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP001/characters/assets/chengxin-v1.png"
+  ],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "1ea63b240c10fd5d31292005c09d10455f605674d0f8beb19ba56213702ee27d",
+  "source_sha256": "9c17dd8ef0ef7147b647a60710ef1d81cff6505a15cfb06f2b14ac0fa09683bf",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP005/qa/qa.json"
+}

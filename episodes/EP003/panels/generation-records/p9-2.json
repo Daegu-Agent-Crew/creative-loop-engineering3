@@ -1,0 +1,21 @@
+{
+  "panel_id": "p9-2",
+  "episode_id": "EP003",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-7ebc146b-de67-483e-b12c-b674afa741ce.png",
+  "candidate": ".candidates/EP003/p9-2/iteration-01/p9-2-v01.png",
+  "asset": "episodes/EP003/panels/assets/p9-2.webp",
+  "sha256": "0d6df939e4a9733462dd859b9dace9f30e6374a182e453a4c5f3f51e6da8a3d4",
+  "generated_at": "2026-09-15T14:33:23.992709+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, distinctive 1980s Akira Toriyama manga aesthetic. Create ONE finished landscape 1536x1024 comic panel, NOT a character sheet. Alien game world brown plain under orange-red sky, two suns overhead with third red glow below horizon. \nSCENE: 상구의 얼굴. 공포. 입이 떨린다. 눈이 크게 떨린다. 그가 말을 잇는다. 닥터슬럼프풍 과장 — 눈이 만화적으로 크지만, 뺨에 흐르는 땀이 리얼리스틱. 과장과 리얼리즘의 충돌이 불안감을 극대화.\nVisible named cast: 상구. Character sheets are identity references ONLY; never copy their backgrounds. Wang Miao always wears pale blue-grey shirt and dark trousers. All lettering and exact digits will be added later: NO readable text, numbers, symbols, balloons, captions or watermark in generated artwork. Clean coherent anatomy, strong ink composition, no extra characters or alien creatures. Non-graphic disaster where described.",
+  "references": [
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP003/characters/assets/shanggu-v1.png"
+  ],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "f84e39d4ce4da0de26f410582cc469ae16d4f0e9cc1d0dd80cbe113c5186a1ca",
+  "source_sha256": "0d6df939e4a9733462dd859b9dace9f30e6374a182e453a4c5f3f51e6da8a3d4",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP003/qa/qa.json"
+}

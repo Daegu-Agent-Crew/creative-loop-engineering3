@@ -1,0 +1,21 @@
+{
+  "panel_id": "p14-3",
+  "episode_id": "EP004",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-ca4ff061-5156-48d7-b837-216d3b0fea11.png",
+  "candidate": ".candidates/EP004/p14-3/iteration-01/p14-3-v01.png",
+  "asset": "episodes/EP004/panels/assets/p14-3.webp",
+  "sha256": "a3e578b490f186e578934882ea6949a9f51440556f7c4d036a1079ff70ea61e2",
+  "generated_at": "2026-09-15T15:36:14.809167+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, distinctive 1980s Akira Toriyama manga aesthetic. Create ONE finished landscape 1536x1024 comic panel, NOT a character sheet. Alien civilization world, grey-purple ruins, ochre sand, stone cairns. Sky state strictly follow scene. Never use modern laboratory. \nSCENE: 게임의 잿빛 하늘에 균열이 생긴다. 균열 너머로 별이 보인다. 진짜 별. 왕먀오가 하늘을 올려다본다. 입이 벌어진다.\nVisible named cast: 왕먀오. Character sheets are identity references ONLY; never copy their backgrounds. Wang Miao always wears pale blue-grey shirt and dark trousers. All lettering and exact digits will be added later: NO readable text, numbers, symbols, balloons, captions or watermark in generated artwork. Clean coherent anatomy, strong ink composition, no extra characters or alien creatures. Non-graphic disaster where described.",
+  "references": [
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP001/characters/assets/wangmiao-v1.png"
+  ],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "54bb8578a15bb8f7878cb4b2083d60f863f330a47daf07580ccf165e149ff6df",
+  "source_sha256": "a3e578b490f186e578934882ea6949a9f51440556f7c4d036a1079ff70ea61e2",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP004/qa/qa.json"
+}

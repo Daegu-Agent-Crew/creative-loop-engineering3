@@ -1,0 +1,21 @@
+{
+  "panel_id": "p10-1",
+  "episode_id": "EP005",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-31ae19c8-166a-4233-bb9a-f07b3bc5a894.png",
+  "candidate": ".candidates/EP005/p10-1/iteration-01/p10-1-v01.png",
+  "asset": "episodes/EP005/panels/assets/p10-1.webp",
+  "sha256": "90b27c54e63af3d47bf48062c3676799367cabd4e6efe6ebeaf183f47b59a54e",
+  "generated_at": "2026-09-15T16:09:26.946957+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, distinctive 1980s Akira Toriyama manga aesthetic. Create ONE finished landscape 1536x1024 comic panel, NOT a character sheet. Beijing present-day ordinary apartment, or 1967 radio station in flashbacks pages 4–6. Cel shading throughout, no watercolor.\nSCENE: 청신이 일어섬. 커튼을 열음. 낮의 빛이 들어옴. 시각화 시작 — 추상 공간에 세 개의 태양이 뜸.\nVisible named cast: 청신. Character sheets are identity references ONLY; never copy their backgrounds. Wang Miao always wears pale blue-grey shirt and dark trousers. All lettering and exact digits will be added later: NO readable text, numbers, symbols, balloons, captions or watermark in generated artwork. Clean coherent anatomy, strong ink composition, no extra characters or alien creatures. Non-graphic disaster where described.",
+  "references": [
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP001/characters/assets/chengxin-v1.png"
+  ],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "4ca0627341872caeded4ff42eb7c81842eda56411b9cf8101c2279fc72205180",
+  "source_sha256": "90b27c54e63af3d47bf48062c3676799367cabd4e6efe6ebeaf183f47b59a54e",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP005/qa/qa.json"
+}

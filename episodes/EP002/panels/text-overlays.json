@@ -7,39 +7,40 @@
       "page_number": 1,
       "source_image_path": "episodes/EP002/panels/assets/p1-1.png",
       "final_image_path": "episodes/EP002/panels/final/p1-1.svg",
-      "status": "rendered",
-      "notes": "No text overlay required.",
+      "canonical_signature": "fd6685609db2b3c71a395dcd8907cfe4c48665315e81fe3c7d0a95c600860123",
+      "source_sha256": "16434eb8b74d2717ef3c7aa66903f6fcb5ab57b26c08c5c414dced1633f65dc9",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
       "overlays": []
     },
     {
       "panel_id": "p1-2",
       "page_number": 1,
-      "source_image_path": "episodes/EP002/panels/assets/p1-2.png",
+      "source_image_path": "episodes/EP002/panels/assets/p1-2.webp",
       "final_image_path": "episodes/EP002/panels/final/p1-2.svg",
-      "status": "rendered",
-      "notes": "No text overlay required.",
+      "canonical_signature": "2fe76cd64893e26be40f19620b8d782e0874c633e71606b44d87f7b10a852c26",
+      "source_sha256": "649156af7b6aa736613938272f491ea4bc14a27d0b3e3b6ed16107fbb3c718f1",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
       "overlays": []
     },
     {
       "panel_id": "p1-3",
       "page_number": 1,
-      "source_image_path": "episodes/EP002/panels/assets/p1-3.png",
+      "source_image_path": "episodes/EP002/panels/assets/p1-3.webp",
       "final_image_path": "episodes/EP002/panels/final/p1-3.svg",
-      "status": "rendered",
-      "notes": "No text overlay required.",
-      "overlays": []
-    },
-    {
-      "panel_id": "p2-1",
-      "page_number": 2,
-      "source_image_path": "episodes/EP002/panels/assets/p2-1.png",
-      "final_image_path": "episodes/EP002/panels/final/p2-1.svg",
-      "status": "needs_review",
-      "notes": "Failsafe: extracted script dialogue describes a doctor scene and conflicts with this family-dinner panel. Do not render or approve until the EP002 script/storyboard mapping is rebaselined.",
+      "canonical_signature": "43dbb61eec85cfd8e954b78e86ec37df53cb92889ee2c844e2bb4a18f86326f6",
+      "source_sha256": "358571184e0bb678197a3558d31d968e4a0a1ba52529f9991b6b41375b719a9d",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
       "overlays": [
         {
-          "kind": "dialogue",
-          "text": "왕먀오: \"결과 나왔어?",
+          "kind": "screen",
+          "speaker": "",
+          "text": "1199:59:58",
           "box": {
             "x": 0.08,
             "y": 0.06,
@@ -50,16 +51,32 @@
       ]
     },
     {
+      "panel_id": "p2-1",
+      "page_number": 2,
+      "source_image_path": "episodes/EP002/panels/assets/p2-1.webp",
+      "final_image_path": "episodes/EP002/panels/final/p2-1.svg",
+      "canonical_signature": "d700f65a7aca3abdd21e05d3bc22dbd3f4bdf3b4c23d23053fdbb2b42a73cc60",
+      "source_sha256": "2e0cca546c462a1866e29d88f44043d375abab94b2008108c74345fbaa5000f1",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
       "panel_id": "p2-2",
       "page_number": 2,
-      "source_image_path": "episodes/EP002/panels/assets/p2-2.png",
+      "source_image_path": "episodes/EP002/panels/assets/p2-2.webp",
       "final_image_path": "episodes/EP002/panels/final/p2-2.svg",
-      "status": "draft",
-      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "canonical_signature": "1e606b3d2e2fdb89f39e3480911d6c2ed93208f07ceb1c77417bcc78c8949b1d",
+      "source_sha256": "bba3970d2b01dc123cc7c35fcdb1053d5cd26921264bbf247eaeff9fb78e4d57",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
       "overlays": [
         {
           "kind": "dialogue",
-          "text": "왕먀오: \"물리학은 정밀한 학문이야. 오차는 있어도 거짓은 없지.\" ★Theme Stated",
+          "speaker": "연구원",
+          "text": "교수님은 현미경으로 보시면 커피 찌꺼기에서도 논문 찾으실 것 같아요.",
           "box": {
             "x": 0.08,
             "y": 0.06,
@@ -72,14 +89,18 @@
     {
       "panel_id": "p2-3",
       "page_number": 2,
-      "source_image_path": "episodes/EP002/panels/assets/p2-3.png",
+      "source_image_path": "episodes/EP002/panels/assets/p2-3.webp",
       "final_image_path": "episodes/EP002/panels/final/p2-3.svg",
-      "status": "draft",
-      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "canonical_signature": "ca39839d38247acac7b8903e5aeedd68523bd20e5219809b20a9132f15e3a940",
+      "source_sha256": "4d87c3b862e89ea76be538e3e64819a1a487b85967771f5a96337618bc13cc57",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
       "overlays": [
         {
           "kind": "dialogue",
-          "text": "(없음 — 숫자만)",
+          "speaker": "왕먀오",
+          "text": "보는 방식이 틀리면, 결과도 틀리지.",
           "box": {
             "x": 0.08,
             "y": 0.06,
@@ -92,27 +113,34 @@
     {
       "panel_id": "p2-4",
       "page_number": 2,
-      "source_image_path": "episodes/EP002/panels/assets/p2-4.png",
+      "source_image_path": "episodes/EP002/panels/assets/p2-4.webp",
       "final_image_path": "episodes/EP002/panels/final/p2-4.svg",
-      "status": "rendered",
-      "notes": "No text overlay required.",
+      "canonical_signature": "5af49ebed9e11749b517304a8069a82e209b91a84d91d83d5fc6e0405f86f0cf",
+      "source_sha256": "b99d2b6aa29f39ea463157a15b6d10bf4d33ef0ce4d6bae89fc803e80ecf0a1a",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
       "overlays": []
     },
     {
       "panel_id": "p3-1",
       "page_number": 3,
-      "source_image_path": "episodes/EP002/panels/assets/p3-1.png",
+      "source_image_path": "episodes/EP002/panels/assets/p3-1.webp",
       "final_image_path": "episodes/EP002/panels/final/p3-1.svg",
-      "status": "draft",
-      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "canonical_signature": "5f66c5fff336bda389d9defbe88503166a392e64db2c9f4e50e39cced5e0af2c",
+      "source_sha256": "c1d70b2d7f0639578d08cf1adfe9cfe205077a730b0e55ef1dd44efaf0c5d8fb",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
       "overlays": [
         {
-          "kind": "narration",
-          "text": "왕먀오(독백): \"...피곤하군.",
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "왕먀오 교수님? 과학자들은 다 이렇게 문을 어렵게 만들어놔?",
           "box": {
-            "x": 0.1,
-            "y": 0.08,
-            "w": 0.8,
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
             "h": 0.12
           }
         }
@@ -121,50 +149,114 @@
     {
       "panel_id": "p3-2",
       "page_number": 3,
-      "source_image_path": "episodes/EP002/panels/assets/p3-2.png",
+      "source_image_path": "episodes/EP002/panels/assets/p3-2.webp",
       "final_image_path": "episodes/EP002/panels/final/p3-2.svg",
-      "status": "rendered",
-      "notes": "No text overlay required.",
-      "overlays": []
+      "canonical_signature": "e37a805749a6f52afaa62b989c3c1d77aff7d130b574edccc29d3ac206c275f6",
+      "source_sha256": "55f6473e23de8d5e4c084a0814dd159b81f5d7a6d483051d059215ceff78caa2",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "예약 없는 면담은 받지 않습니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
     },
     {
       "panel_id": "p3-3",
       "page_number": 3,
-      "source_image_path": "episodes/EP002/panels/assets/p3-3.png",
+      "source_image_path": "episodes/EP002/panels/assets/p3-3.webp",
       "final_image_path": "episodes/EP002/panels/final/p3-3.svg",
-      "status": "rendered",
-      "notes": "No text overlay required.",
-      "overlays": []
+      "canonical_signature": "5f5d2d5a1b31a83df99bf5a95f7178ea3070674d4e8951f28511a833005b5001",
+      "source_sha256": "dfd097c067ff17f2039bb14da208f48bcbec589aeaa31d16831c44cb0fd13db7",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "그 사람들도 다 바빴어. 죽기 전까지.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
     },
     {
       "panel_id": "p3-4",
       "page_number": 3,
-      "source_image_path": "episodes/EP002/panels/assets/p3-4.png",
+      "source_image_path": "episodes/EP002/panels/assets/p3-4.webp",
       "final_image_path": "episodes/EP002/panels/final/p3-4.svg",
-      "status": "rendered",
-      "notes": "No text overlay required.",
-      "overlays": []
+      "canonical_signature": "ea5fa0e8e15bb8a0b47533ab2f239945409ebb9d27ae075cfcf729274512fa60",
+      "source_sha256": "b4ebc4eee82017a5d8031a50fb9e0274c98ee227cc61f4db2df17283f1771182",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "note",
+          "speaker": "",
+          "text": "과학의 경계 · 초대장",
+          "box": {
+            "x": 0.18,
+            "y": 0.68,
+            "w": 0.64,
+            "h": 0.1
+          }
+        }
+      ]
     },
     {
       "panel_id": "p4-1",
       "page_number": 4,
-      "source_image_path": "episodes/EP002/panels/assets/p4-1.png",
+      "source_image_path": "episodes/EP002/panels/assets/p4-1.webp",
       "final_image_path": "episodes/EP002/panels/final/p4-1.svg",
-      "status": "rendered",
-      "notes": "No text overlay required.",
-      "overlays": []
+      "canonical_signature": "6487b5b8f271b7d5da3b1d68d93746fd9136b79a221aab8e58f78c5a3822d1c9",
+      "source_sha256": "4306badf5db8103c3bf9853607581645e2379f06d04d198b4c547ff3ada4f6fd",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "셋 다 죽기 전에 연구를 멈췄어.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
     },
     {
       "panel_id": "p4-2",
       "page_number": 4,
       "source_image_path": "episodes/EP002/panels/assets/p4-2.png",
       "final_image_path": "episodes/EP002/panels/final/p4-2.svg",
-      "status": "draft",
-      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "canonical_signature": "72adad29b72505dfb732d17c9fc3fa221356a13ddede6e1574af99bf88aa0110",
+      "source_sha256": "811852bc6a5a1861452edae988461c301f76031ce4b8303c45e72bdb5e666094",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
       "overlays": [
         {
           "kind": "dialogue",
-          "text": "현상소 주인: \"이거 인화할 때 나오는 건가요?",
+          "speaker": "왕먀오",
+          "text": "그건 통계가 아닙니다. 우연이죠.",
           "box": {
             "x": 0.08,
             "y": 0.06,
@@ -179,12 +271,16 @@
       "page_number": 4,
       "source_image_path": "episodes/EP002/panels/assets/p4-3.png",
       "final_image_path": "episodes/EP002/panels/final/p4-3.svg",
-      "status": "draft",
-      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "canonical_signature": "1440f5118bf43c818240d66f637cc24b92ec87e43489f95a28da8780afc22b94",
+      "source_sha256": "c32bfe347d3b70bfe3a20db919a57573181aac6969e857795f5ba6ea084f110b",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
       "overlays": [
         {
           "kind": "dialogue",
-          "text": "왕먀오: \"...필름은 디지털이 아닌데.",
+          "speaker": "스치친",
+          "text": "우연이 세 번이면 사건이고, 네 번이면 다음 차례를 기다리는 거야.",
           "box": {
             "x": 0.08,
             "y": 0.06,
@@ -199,8 +295,11 @@
       "page_number": 4,
       "source_image_path": "episodes/EP002/panels/assets/p4-4.png",
       "final_image_path": "episodes/EP002/panels/final/p4-4.svg",
-      "status": "rendered",
-      "notes": "No text overlay required.",
+      "canonical_signature": "9e8fbcba231d2b9820c020f21509eae8b7cf580498aaeb386dac34153cd82234",
+      "source_sha256": "2d6bba0e4402459b05eb58558f16a51ac181670c8d1d568b0a445446203d64af",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
       "overlays": []
     },
     {
@@ -208,32 +307,28 @@
       "page_number": 5,
       "source_image_path": "episodes/EP002/panels/assets/p5-1.png",
       "final_image_path": "episodes/EP002/panels/final/p5-1.svg",
-      "status": "needs_review",
-      "notes": "대본 5-1은 경찰서에서 스치친과 왕먀오의 대화이나 콘티는 계단의 주관 시점 카운트다운이다. 스치친 대사의 장면 근거가 다르다. 기존 텍스트·박스·PNG·SVG 보존. 페이지 매핑 사람 결정 전 렌더링 보류. reports/CLE3-EP002-P5-MAPPING-20260914.json",
-      "overlays": [
-        {
-          "kind": "dialogue",
-          "text": "스치친: \"왕먀오 교수. 선생도 나노물리학자야.",
-          "box": {
-            "x": 0.08,
-            "y": 0.06,
-            "w": 0.52,
-            "h": 0.12
-          }
-        }
-      ]
+      "canonical_signature": "2b87b79dff3e7ed9ecd6791008fec214a1c092ee1d196e4a965434f8ab58f7e1",
+      "source_sha256": "7cfd6755f5a68604987569d05eab28ca7990aee39fffb9ec459076090f115cdf",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
     },
     {
       "panel_id": "p5-2",
       "page_number": 5,
-      "source_image_path": "episodes/EP002/panels/assets/p5-2.png",
+      "source_image_path": "episodes/EP002/panels/assets/p5-2.webp",
       "final_image_path": "episodes/EP002/panels/final/p5-2.svg",
-      "status": "needs_review",
-      "notes": "대본 5-2는 스치친이 과학자 사진을 보여주나 콘티는 왕먀오가 안경을 닦는 장면이다. 추출 대사를 확정할 수 없다. 기존 텍스트·박스·PNG·SVG 보존. 페이지 매핑 사람 결정 전 렌더링 보류. reports/CLE3-EP002-P5-MAPPING-20260914.json",
+      "canonical_signature": "0235cd57dfb8f38a0d97b80a46e896fc02b90d4c6d05e093b350a9247d47b4fe",
+      "source_sha256": "521e6292742c926dee4e33c5eba72e31d2bad5887b19ad24e331cb8ef56c750b",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
       "overlays": [
         {
           "kind": "dialogue",
-          "text": "스치친: \"죽기 전 2주간 밤하늘만 봤어. 연구를 포기했지.",
+          "speaker": "왕먀오",
+          "text": "렌즈 문제야.",
           "box": {
             "x": 0.08,
             "y": 0.06,
@@ -246,23 +341,42 @@
     {
       "panel_id": "p5-3",
       "page_number": 5,
-      "source_image_path": "episodes/EP002/panels/assets/p5-3.png",
+      "source_image_path": "episodes/EP002/panels/assets/p5-3.webp",
       "final_image_path": "episodes/EP002/panels/final/p5-3.svg",
-      "status": "needs_review",
-      "notes": "대본 5-3은 경찰서의 왕먀오 반응이나 콘티는 화장실 거울 장면이다. 빈 오버레이는 이 장면의 무대사 근거가 아니다. 기존 텍스트·박스·PNG·SVG 보존. 페이지 매핑 사람 결정 전 렌더링 보류. reports/CLE3-EP002-P5-MAPPING-20260914.json",
-      "overlays": []
+      "canonical_signature": "d21d8dd42bfa912eb1d19e2beee07302e2c865a84dc7a0533f61ade2b3c2ada7",
+      "source_sha256": "ba83a81357cda4d1fce88439b06ab4cf7cb616a3deaf5b05d56216742ff506c4",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "screen",
+          "speaker": "",
+          "text": "1199:58:41",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
     },
     {
       "panel_id": "p5-4",
       "page_number": 5,
-      "source_image_path": "episodes/EP002/panels/assets/p5-4.png",
+      "source_image_path": "episodes/EP002/panels/assets/p5-4.webp",
       "final_image_path": "episodes/EP002/panels/final/p5-4.svg",
-      "status": "needs_review",
-      "notes": "대본 5-4는 스치친 눈 클로즈업이나 콘티는 화장실에서 다른 사람이 손을 씻는 장면이다. 스치친 질문은 매핑 검토가 필요하다. 기존 텍스트·박스·PNG·SVG 보존. 페이지 매핑 사람 결정 전 렌더링 보류. reports/CLE3-EP002-P5-MAPPING-20260914.json",
+      "canonical_signature": "51fb6f908b94a6c995102e5947a042ee8f99aff31fab15a3eb3e1c82fdfef618",
+      "source_sha256": "cd7e1c9a99898293ce78dac99451c13ad3e7e5fb173332cf8a4193210635b0ea",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
       "overlays": [
         {
           "kind": "dialogue",
-          "text": "스치친: \"이상한 건 안 보이나?",
+          "speaker": "행인",
+          "text": "괜찮으세요?",
           "box": {
             "x": 0.08,
             "y": 0.06,
@@ -275,63 +389,130 @@
     {
       "panel_id": "p6-1",
       "page_number": 6,
-      "source_image_path": "episodes/EP002/panels/assets/p6-1.png",
+      "source_image_path": "episodes/EP002/panels/assets/p6-1.webp",
       "final_image_path": "episodes/EP002/panels/final/p6-1.svg",
-      "status": "needs_review",
-      "notes": "2026-09-15 입력 매핑 검토: 대본 6-1은 가족 거실의 무대사 풀페이지이나 콘티 6-1은 안과 검사 장면이다. 가족 장면의 무대사 지시를 안과 장면에 적용할 수 없다. 기존 PNG/SVG와 오버레이를 보존하고 사람 매핑 결정 전 렌더링을 보류한다. 증거: reports/CLE3-EP002-P6-MAPPING-20260915.json",
-      "overlays": []
+      "canonical_signature": "8ca530d6285955ba2594c332008cf54a5249f4128c7b8392bcd1e78c19636e40",
+      "source_sha256": "e6d13ea34498e6c85bef0df1d90ef5c7d518690f1c29f000111ed58be9b265cd",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "의사",
+          "text": "눈에는 이상이 없습니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
     },
     {
       "panel_id": "p6-2",
       "page_number": 6,
-      "source_image_path": "episodes/EP002/panels/assets/p6-2.png",
+      "source_image_path": "episodes/EP002/panels/assets/p6-2.webp",
       "final_image_path": "episodes/EP002/panels/final/p6-2.svg",
-      "status": "needs_review",
-      "notes": "2026-09-15 입력 매핑 검토: 대본에는 6-2가 없으며 콘티는 카메라에 숫자가 녹화되지 않는 장면이다. 빈 오버레이는 무대사 근거가 아니다. 기존 PNG/SVG와 오버레이를 보존하고 사람 매핑 결정 전 렌더링을 보류한다. 증거: reports/CLE3-EP002-P6-MAPPING-20260915.json",
+      "canonical_signature": "939d78b71edc06a4a59b007132eec43ef4442e3b3e97a0ebf1b1de480914f111",
+      "source_sha256": "2446f1c96be0ee0fce5a790420fe026a5844f2f536612d10cda63dc21ed77903",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
       "overlays": []
     },
     {
       "panel_id": "p6-3",
       "page_number": 6,
-      "source_image_path": "episodes/EP002/panels/assets/p6-3.png",
+      "source_image_path": "episodes/EP002/panels/assets/p6-3.webp",
       "final_image_path": "episodes/EP002/panels/final/p6-3.svg",
-      "status": "needs_review",
-      "notes": "2026-09-15 입력 매핑 검토: 대본에는 6-3이 없으며 콘티는 연구실 모니터 위 시야의 붉은 숫자 장면이다. 빈 오버레이는 필요한 숫자나 텍스트가 없다는 근거가 아니다. 기존 PNG/SVG와 오버레이를 보존하고 사람 매핑 결정 전 렌더링을 보류한다. 증거: reports/CLE3-EP002-P6-MAPPING-20260915.json",
-      "overlays": []
+      "canonical_signature": "8341295b9408fa54cb396c64d91b73c0c7c3251cd31a080213bebcdd294735b7",
+      "source_sha256": "d977017cdd17664f07451ee7839fc7db9a8cc5f59a8df1795690814a114f169a",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "screen",
+          "speaker": "",
+          "text": "1199:57:12",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
     },
     {
       "panel_id": "p6-4",
       "page_number": 6,
-      "source_image_path": "episodes/EP002/panels/assets/p6-4.png",
+      "source_image_path": "episodes/EP002/panels/assets/p6-4.webp",
       "final_image_path": "episodes/EP002/panels/final/p6-4.svg",
-      "status": "needs_review",
-      "notes": "2026-09-15 입력 매핑 검토: 대본에는 6-4가 없으며 콘티는 책상을 움켜쥔 손의 클로즈업이다. 빈 오버레이만으로 텍스트 검토를 완료할 수 없다. 기존 PNG/SVG와 오버레이를 보존하고 사람 매핑 결정 전 렌더링을 보류한다. 증거: reports/CLE3-EP002-P6-MAPPING-20260915.json",
-      "overlays": []
+      "canonical_signature": "ea1bb331ee757edccccc09bae612942db79065be169183ff438f79f16deb2c1f",
+      "source_sha256": "6547e4cbe3f342aee05b783b59648679a1d1fcc02817ad82762f3ce5a5e1f635",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "정상일 리가 없어.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
     },
     {
       "panel_id": "p7-1",
       "page_number": 7,
-      "source_image_path": "episodes/EP002/panels/assets/p7-1.png",
+      "source_image_path": "episodes/EP002/panels/assets/p7-1.webp",
       "final_image_path": "episodes/EP002/panels/final/p7-1.svg",
-      "status": "needs_review",
-      "notes": "No text overlay required. Mapping review 2026-09-13: 대본 7-1은 연구실에서 새 카메라를 꺼내는 왕먀오이나 콘티는 저녁 식탁의 쯔쯔다. 빈 오버레이는 가족 장면 무대사의 근거가 아니다. Hold rendering pending human mapping decision; preserve text and assets. Evidence: reports/CLE3-EP002-P7-MAPPING-20260913.json",
-      "overlays": []
+      "canonical_signature": "2c3556b2bc00a22126f0743fde4f9847736eb3015c1faf50c5fc3d4a5afb9cb8",
+      "source_sha256": "dc9cd9cfbe7922c541f2b3204a2c7c48724e405720be732f71f18f55ab9935ed",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "쯔쯔",
+          "text": "아빠, 오늘도 별 보는 사람 잡으러 갔어?",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
     },
     {
       "panel_id": "p7-2",
       "page_number": 7,
-      "source_image_path": "episodes/EP002/panels/assets/p7-2.png",
+      "source_image_path": "episodes/EP002/panels/assets/p7-2.webp",
       "final_image_path": "episodes/EP002/panels/final/p7-2.svg",
-      "status": "needs_review",
-      "notes": "Auto-extracted from script.md or panel description; review position before approval. Mapping review 2026-09-13: 대본 7-2는 카메라와 필름을 바꾸는 실험이나 콘티는 왕먀오의 억지웃음이다. 카메라를 바꿔도 독백은 이 장면의 근거가 아니다. Hold rendering pending human mapping decision; preserve text and assets. Evidence: reports/CLE3-EP002-P7-MAPPING-20260913.json",
+      "canonical_signature": "5c56c05bb9ee85b2b3e3da9a3bb33cad206d280ed31c7881ab34f875b0a1c43f",
+      "source_sha256": "fb9b95cf92ad8307fec3d5cc083824eb27ebd8c278794449ff882e9a5ed838c2",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
       "overlays": [
         {
-          "kind": "narration",
-          "text": "왕먀오(독백): \"카메라를 바꿔도. 렌즈를 바꿔도.",
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "아빠는 별 말고 아주 작은 걸 봐.",
           "box": {
-            "x": 0.1,
-            "y": 0.08,
-            "w": 0.8,
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
             "h": 0.12
           }
         }
@@ -340,76 +521,82 @@
     {
       "panel_id": "p7-3",
       "page_number": 7,
-      "source_image_path": "episodes/EP002/panels/assets/p7-3.png",
+      "source_image_path": "episodes/EP002/panels/assets/p7-3.webp",
       "final_image_path": "episodes/EP002/panels/final/p7-3.svg",
-      "status": "needs_review",
-      "notes": "No text overlay required. Mapping review 2026-09-13: 대본 7-3은 왕먀오가 카메라를 내려놓는 공포 장면이나 콘티는 쯔쯔가 가족 그림을 내미는 장면이다. 빈 오버레이를 무대사 승인으로 사용할 수 없다. Hold rendering pending human mapping decision; preserve text and assets. Evidence: reports/CLE3-EP002-P7-MAPPING-20260913.json",
-      "overlays": []
+      "canonical_signature": "61f09822cef0308490faf0823bb9bc208487722a302fc65ca46762e8821ec243",
+      "source_sha256": "20442979dddfc041cf001955ad2db9c83be1a4c127886e748a7e547978dbac09",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "쯔쯔",
+          "text": "그럼 이것도 작게 보면 비밀 있어?",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
     },
     {
       "panel_id": "p7-4",
       "page_number": 7,
-      "source_image_path": "episodes/EP002/panels/assets/p7-4.png",
+      "source_image_path": "episodes/EP002/panels/assets/p7-4.webp",
       "final_image_path": "episodes/EP002/panels/final/p7-4.svg",
-      "status": "needs_review",
-      "notes": "No text overlay required. Mapping review 2026-09-13: 대본에는 7-4 행이 없으며 콘티는 왕먀오가 가족 그림을 받는 장면이다. 텍스트 유무는 기준선 결정 후 확인해야 한다. Hold rendering pending human mapping decision; preserve text and assets. Evidence: reports/CLE3-EP002-P7-MAPPING-20260913.json",
+      "canonical_signature": "8fcb415af7a9350276e0ab406171966e155c166e4116361ad5540038dc29bd18",
+      "source_sha256": "e872703615857f4d7aa4bac2d6b9f5a0788a6d355f3a5e2b55b11f0ed58def66",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
       "overlays": []
     },
     {
       "panel_id": "p8-1",
       "page_number": 8,
-      "source_image_path": "episodes/EP002/panels/assets/p8-1.png",
+      "source_image_path": "episodes/EP002/panels/assets/p8-1.webp",
       "final_image_path": "episodes/EP002/panels/final/p8-1.svg",
-      "status": "draft",
-      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
-      "overlays": [
-        {
-          "kind": "dialogue",
-          "text": "의사: \"눈은 아주 건강하십니다.",
-          "box": {
-            "x": 0.08,
-            "y": 0.06,
-            "w": 0.52,
-            "h": 0.12
-          }
-        }
-      ]
+      "canonical_signature": "133fe61c415fe11ce22b38e0cb3a655ded7055a9a35264aac52924139c0675a9",
+      "source_sha256": "c035fde8e96c111516f82eff9c86cced6a7c5136e228f7af4cfdf97065d5eff6",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
     },
     {
       "panel_id": "p8-2",
       "page_number": 8,
-      "source_image_path": "episodes/EP002/panels/assets/p8-2.png",
+      "source_image_path": "episodes/EP002/panels/assets/p8-2.webp",
       "final_image_path": "episodes/EP002/panels/final/p8-2.svg",
-      "status": "needs_review",
-      "notes": "Failsafe: extracted script dialogue describes a neurology examination and conflicts with this family-dinner panel. Do not render or approve until the EP002 script/storyboard mapping is rebaselined.",
-      "overlays": [
-        {
-          "kind": "dialogue",
-          "text": "의사: \"신경계도 이상이 없어요. 스트레스성 환각일 수 있습니다.",
-          "box": {
-            "x": 0.08,
-            "y": 0.06,
-            "w": 0.52,
-            "h": 0.12
-          }
-        }
-      ]
+      "canonical_signature": "06f6a7f958119233dc44700db400ecbeeedb0d184b5d5170ade04e7874f0a7be",
+      "source_sha256": "f282ec539b5e4bbc71e087b1e812687c97a7dbc05cc5f96da7d89c54dcb367ad",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
     },
     {
       "panel_id": "p8-3",
       "page_number": 8,
-      "source_image_path": "episodes/EP002/panels/assets/p8-3.png",
+      "source_image_path": "episodes/EP002/panels/assets/p8-3.webp",
       "final_image_path": "episodes/EP002/panels/final/p8-3.svg",
-      "status": "needs_review",
-      "notes": "Failsafe: extracted script text describes Wang Miao's hospital close-up and a visible countdown, which conflicts with this Zizi family-dinner panel and the no-text image policy. Do not render or approve until the EP002 script/storyboard mapping is rebaselined.",
+      "canonical_signature": "e38f88c2146c9c8d503fdf80d7880867674bb6b63ea328441b01271b2a210454",
+      "source_sha256": "aab1ab25a4bf97e8eb006be22ca51cf67827b7a02f410b7dce7d21ce9caf75bf",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
       "overlays": [
         {
-          "kind": "narration",
-          "text": "왕먀오(독백): \"...스트레스.\"",
+          "kind": "dialogue",
+          "speaker": "쯔쯔",
+          "text": "아빠, 안 보여?",
           "box": {
-            "x": 0.1,
-            "y": 0.08,
-            "w": 0.8,
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
             "h": 0.12
           }
         }
@@ -418,23 +605,42 @@
     {
       "panel_id": "p8-4",
       "page_number": 8,
-      "source_image_path": "episodes/EP002/panels/assets/p8-4.png",
+      "source_image_path": "episodes/EP002/panels/assets/p8-4.webp",
       "final_image_path": "episodes/EP002/panels/final/p8-4.svg",
-      "status": "needs_review",
-      "notes": "Failsafe: this family-dinner panel shares the page-8 script/storyboard mapping conflict already observed in p8-2 and p8-3. Do not derive, render, or approve an overlay until the EP002 mapping is rebaselined.",
-      "overlays": []
+      "canonical_signature": "750adf6619fd334818f0c4e1df1efe9b2a20f356e81b9c2c0bd34d78ac2db51c",
+      "source_sha256": "12e3bd6d19bae1d68af86e624dabeaa0f1ef29b26eb32a2fb1d28ac0178411f0",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "아니. 너무 잘 보여.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
     },
     {
       "panel_id": "p9-1",
       "page_number": 9,
-      "source_image_path": "episodes/EP002/panels/assets/p9-1.png",
+      "source_image_path": "episodes/EP002/panels/assets/p9-1.webp",
       "final_image_path": "episodes/EP002/panels/final/p9-1.svg",
-      "status": "draft",
-      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "canonical_signature": "f8c9009381506a6e13c925a8d0daf74ff53893ea1de6f4febb33b8f4aad7bbe8",
+      "source_sha256": "2bd039928833365e93c77b88e9ebbf1fa8ee440f24c8f85c5931beade4b8ee1e",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
       "overlays": [
         {
-          "kind": "dialogue",
-          "text": "스치친: \"검진 결과는?",
+          "kind": "screen",
+          "speaker": "",
+          "text": "1199:43:59",
           "box": {
             "x": 0.08,
             "y": 0.06,
@@ -447,18 +653,22 @@
     {
       "panel_id": "p10-1",
       "page_number": 10,
-      "source_image_path": "episodes/EP002/panels/assets/p10-1.png",
+      "source_image_path": "episodes/EP002/panels/assets/p10-1.webp",
       "final_image_path": "episodes/EP002/panels/final/p10-1.svg",
-      "status": "needs_review",
-      "notes": "script.md 10-1은 연구실 모니터의 가속 독백이나 storyboard p10-1은 포장마차 two-shot이다. 자동 추출 독백은 이 장면의 근거가 아니다. 페이지 매핑 사람 결정 전 오버레이 확정·렌더링을 보류한다. 기존 텍스트와 PNG/SVG는 보존. 증거: reports/CLE3-EP002-P10-MAPPING-20260912.json",
+      "canonical_signature": "cee98b3c0fd3a92532af3ed194b1ee8d593db61caa6d6b5bfd7010290ebb88ca",
+      "source_sha256": "583ca762be1a8280c29b2f5512b88287a3349c22fab72929f748a8e7a9a2b31c",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
       "overlays": [
         {
-          "kind": "narration",
-          "text": "왕먀오(독백): \"빨라지고 있다.",
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "당신들이 뭘 숨기는지 말해요.",
           "box": {
-            "x": 0.1,
-            "y": 0.08,
-            "w": 0.8,
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
             "h": 0.12
           }
         }
@@ -467,32 +677,66 @@
     {
       "panel_id": "p10-2",
       "page_number": 10,
-      "source_image_path": "episodes/EP002/panels/assets/p10-2.png",
+      "source_image_path": "episodes/EP002/panels/assets/p10-2.webp",
       "final_image_path": "episodes/EP002/panels/final/p10-2.svg",
-      "status": "needs_review",
-      "notes": "script.md 10-2는 연구실 시계/모니터 무대사 컷이나 storyboard p10-2는 스치친의 조언이다. 빈 오버레이는 무대사 승인 근거가 아니다. 페이지 매핑 사람 결정 전 오버레이 확정·렌더링을 보류한다. 기존 텍스트와 PNG/SVG는 보존. 증거: reports/CLE3-EP002-P10-MAPPING-20260912.json",
-      "overlays": []
+      "canonical_signature": "c2b372eceb140ebafe370d2e2909fbfc25bafefa48abd2b981c877031f3b52cd",
+      "source_sha256": "85a8d66628eda29db3005377a9723259d70902bc33c19317ef54380d827aa4be",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "숫자가 줄어들지? 그럼 좋은 거야. 아직 남았다는 뜻이니까.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
     },
     {
       "panel_id": "p10-3",
       "page_number": 10,
-      "source_image_path": "episodes/EP002/panels/assets/p10-3.png",
+      "source_image_path": "episodes/EP002/panels/assets/p10-3.webp",
       "final_image_path": "episodes/EP002/panels/final/p10-3.svg",
-      "status": "needs_review",
-      "notes": "script.md 10-3은 연구실 시야 왜곡이나 storyboard p10-3은 왕먀오의 분노/도움 요청이다. 동일 ID만으로 무대사를 확정할 수 없다. 페이지 매핑 사람 결정 전 오버레이 확정·렌더링을 보류한다. 기존 텍스트와 PNG/SVG는 보존. 증거: reports/CLE3-EP002-P10-MAPPING-20260912.json",
-      "overlays": []
+      "canonical_signature": "907518be32a2da79dda80f4cba02f8e08613babacaa2744f8829842ae482db05",
+      "source_sha256": "83a59e843158a8112772ef271391c81a0070f7c1cf5ae0f629eb4415a02e0708",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "그게 위로입니까?",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
     },
     {
       "panel_id": "p10-4",
       "page_number": 10,
       "source_image_path": "episodes/EP002/panels/assets/p10-4.png",
       "final_image_path": "episodes/EP002/panels/final/p10-4.svg",
-      "status": "needs_review",
-      "notes": "script.md에는 10-4 행이 없다. 끝까지 봐 문구는 storyboard/panels description에서 추출되었으며 대본과의 대응이 미확정이다. 페이지 매핑 사람 결정 전 오버레이 확정·렌더링을 보류한다. 기존 텍스트와 PNG/SVG는 보존. 증거: reports/CLE3-EP002-P10-MAPPING-20260912.json",
+      "canonical_signature": "f9c39944d48cbff62b2f3fd075ca02d0947ebe984faaa318878fd7752859f861",
+      "source_sha256": "f8eaa396dd977ac0016228626c94de506e425acefd7f4b706a5a6082b48e6676",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
       "overlays": [
         {
           "kind": "dialogue",
-          "text": "끝까지 봐",
+          "speaker": "스치친",
+          "text": "도망치지 마. 끝까지 봐. 죽은 사람들은 다 중간에 고개를 돌렸어.",
           "box": {
             "x": 0.08,
             "y": 0.06,
@@ -507,64 +751,238 @@
       "page_number": 11,
       "source_image_path": "episodes/EP002/panels/assets/p11-1.png",
       "final_image_path": "episodes/EP002/panels/final/p11-1.svg",
-      "status": "draft",
-      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
-      "overlays": [
-        {
-          "kind": "caption",
-          "text": "왕먀오(독백, 하단): \"...어디에나 있다.",
-          "box": {
-            "x": 0.12,
-            "y": 0.06,
-            "w": 0.76,
-            "h": 0.1
-          }
-        }
-      ]
+      "canonical_signature": "cce2036781f4be54457068922cecaf838eeb6b3d9d80e73dd9b1388c54430c11",
+      "source_sha256": "509d13ce8ee0f885e3f53743c158a8188f1392316e92a75a4ea07e9afbc9aa12",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p11-2",
+      "page_number": 11,
+      "source_image_path": "episodes/EP002/panels/assets/p11-2.webp",
+      "final_image_path": "episodes/EP002/panels/final/p11-2.svg",
+      "canonical_signature": "8d1e49375917f3e70da68bd01efdf8df825ab394207c7e2484204934baccbdc1",
+      "source_sha256": "27344cd334d533bca1a92733112e9446948a8335ea53236fbab2fb226e61a45d",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
     },
     {
       "panel_id": "p11-3",
       "page_number": 11,
       "source_image_path": "episodes/EP002/panels/assets/p11-3.png",
       "final_image_path": "episodes/EP002/panels/final/p11-3.svg",
-      "status": "rendered",
-      "notes": "No text overlay required.",
-      "overlays": []
+      "canonical_signature": "d16d2e29c0511c6381f520e32157d42d4fed8b7b95b4b296bcf5732edc454762",
+      "source_sha256": "f234f8b17be1d872c274b3120e7749a31c87043c0545c29f70759229733aed1d",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "screen",
+          "speaker": "모니터 텍스트",
+          "text": "나노소재 연구를 중지하십시오.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p11-4",
+      "page_number": 11,
+      "source_image_path": "episodes/EP002/panels/assets/p11-4.webp",
+      "final_image_path": "episodes/EP002/panels/final/p11-4.svg",
+      "canonical_signature": "6039f7a83b8a0c3dd7b1793dc8c5ee30ddc14f0a1c0c9299be4b575c4ab28eca",
+      "source_sha256": "dd24d51e5b2bf03b33018e85dcbb6ed6c9632b04645d7b8f05c40d4202722225",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "누가 장난을 치는 거야.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
     },
     {
       "panel_id": "p12-1",
       "page_number": 12,
       "source_image_path": "episodes/EP002/panels/assets/p12-1.png",
       "final_image_path": "episodes/EP002/panels/final/p12-1.svg",
-      "status": "rendered",
-      "notes": "No text overlay required.",
+      "canonical_signature": "d3a254a5a10ca86e87eba9c5c858c8c89f5f08be1f7e9df086798c7741c2da24",
+      "source_sha256": "3da8111838f5b97052365543ef3ef336980521337f571797c0bab4e2df505ae7",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
       "overlays": []
     },
     {
       "panel_id": "p12-2",
       "page_number": 12,
-      "source_image_path": "episodes/EP002/panels/assets/p12-2.png",
+      "source_image_path": "episodes/EP002/panels/assets/p12-2.webp",
       "final_image_path": "episodes/EP002/panels/final/p12-2.svg",
-      "status": "rendered",
-      "notes": "No text overlay required.",
-      "overlays": []
+      "canonical_signature": "fe468f760baf503ac19d878ea627687cb3f231806f4910857ffb40279e5bec2f",
+      "source_sha256": "bd52452d73aa636cac810f608a1e5d2291096489e2c0019ccbe2cc4497909b4e",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "screen",
+          "speaker": "",
+          "text": "1199:42:31",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
     },
     {
       "panel_id": "p12-3",
       "page_number": 12,
       "source_image_path": "episodes/EP002/panels/assets/p12-3.png",
       "final_image_path": "episodes/EP002/panels/final/p12-3.svg",
-      "status": "rendered",
-      "notes": "No text overlay required.",
+      "canonical_signature": "1b04af2594e70867aedfd875bc2edff1a7a044904f3f91fe3d25506029712d07",
+      "source_sha256": "f2f2640a004888e68ef3806f18d251ee2a3d2218d25bf954ab0193a46d578707",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "note",
+          "speaker": "",
+          "text": "RUN → 가속 / STOP → 감속",
+          "box": {
+            "x": 0.18,
+            "y": 0.68,
+            "w": 0.64,
+            "h": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p12-4",
+      "page_number": 12,
+      "source_image_path": "episodes/EP002/panels/assets/p12-4.webp",
+      "final_image_path": "episodes/EP002/panels/final/p12-4.svg",
+      "canonical_signature": "9a256a1a7fec14dee24449715866ebbd1bf86a5c6def17ce49625135246d208f",
+      "source_sha256": "7e7a91f90805ea53f900b058b26c7869a44b72f2997ffc5aec9e213434262ecf",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "조건이 있어요. 연구를 계속하면 빨라집니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p13-1",
+      "page_number": 13,
+      "source_image_path": "episodes/EP002/panels/assets/p13-1.webp",
+      "final_image_path": "episodes/EP002/panels/final/p13-1.svg",
+      "canonical_signature": "b1520727d3432de10b1750047570e45220417c7a1078582209fa5d6913bafc96",
+      "source_sha256": "7fc52b2d1106edcdb1e1dc5bf7e2789cc9749a4e20b06d2bc2cec25a66d8e4dd",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "장난치고 싶었으면 더 싸게 했겠지. 사람 죽이는 건 비싸.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p13-2",
+      "page_number": 13,
+      "source_image_path": "episodes/EP002/panels/assets/p13-2.webp",
+      "final_image_path": "episodes/EP002/panels/final/p13-2.svg",
+      "canonical_signature": "3695cccfea77f7b5508d61fdab1faf23a39b6965199f24017d0ba2aeba7479bf",
+      "source_sha256": "744b12e5731cc66b8e34bef1152cbc14f57a4b07c6cfa2e60dbfbe867cf18887",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
       "overlays": []
     },
     {
       "panel_id": "p13-3",
       "page_number": 13,
-      "source_image_path": "episodes/EP002/panels/assets/p13-3.png",
+      "source_image_path": "episodes/EP002/panels/assets/p13-3.webp",
       "final_image_path": "episodes/EP002/panels/final/p13-3.svg",
-      "status": "rendered",
-      "notes": "No text overlay required.",
+      "canonical_signature": "0594fa97efa2aff5d566549e355d450fbbb6c81704e7fffba9b1d802bfde680f",
+      "source_sha256": "b6a8a69a2fe0d18e7c3edeb00dadf9c0d317ab1112454010fc747ceb4e2d198e",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "screen",
+          "speaker": "",
+          "text": "1199:41:08",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "끝까지 보겠습니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.2,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p13-4",
+      "page_number": 13,
+      "source_image_path": "episodes/EP002/panels/assets/p13-4.webp",
+      "final_image_path": "episodes/EP002/panels/final/p13-4.svg",
+      "canonical_signature": "a7747339679714d47fcebff278217d83a5bd0eb041384d43582e2b55d3c38ca0",
+      "source_sha256": "d8ff2ea9a7535e4e58c67fbd54804c06dc1aeb42ceba86d9141e8642f100a520",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
       "overlays": []
     },
     {
@@ -572,12 +990,28 @@
       "page_number": 14,
       "source_image_path": "episodes/EP002/panels/assets/p14-1.png",
       "final_image_path": "episodes/EP002/panels/final/p14-1.svg",
-      "status": "draft",
-      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "canonical_signature": "983b53c4844f220c70ae676d1487c7053ce2f0d98b21ee47bd6e69bf9b3279d2",
+      "source_sha256": "8b5dd25b284a67accf3f41bf2aee68caa75020f8561406b4fe8d864ed22e902e",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p14-2",
+      "page_number": 14,
+      "source_image_path": "episodes/EP002/panels/assets/p14-2.webp",
+      "final_image_path": "episodes/EP002/panels/final/p14-2.svg",
+      "canonical_signature": "362ff31798de24e5767fc9f3d7db47071c1d3f0cc8c5e0f83e55f6bcedb84a91",
+      "source_sha256": "6126fac653a1c0edb1b1a21ea2df44d225316f0bf320693bb681091068dac339",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
       "overlays": [
         {
-          "kind": "dialogue",
-          "text": "왕먀오: \"장비가 왔습니다. VR 헬멧이요.",
+          "kind": "screen",
+          "speaker": "",
+          "text": "1198:47:23",
           "box": {
             "x": 0.08,
             "y": 0.06,
@@ -592,12 +1026,16 @@
       "page_number": 14,
       "source_image_path": "episodes/EP002/panels/assets/p14-3.png",
       "final_image_path": "episodes/EP002/panels/final/p14-3.svg",
-      "status": "draft",
-      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "canonical_signature": "5283ee665b2a746cfe2b63a2558e6ead024d94ecd42a4761cf0838f082a79e44",
+      "source_sha256": "0661d9a09e78465281f8e4c74865bec804fb219c84381d3c1e2e2d3bc6db8370",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
       "overlays": [
         {
           "kind": "dialogue",
-          "text": "스치친: \"들어가. 게임에 들어가. 끝까지 해봐.",
+          "speaker": "왕먀오",
+          "text": "기록 시작.",
           "box": {
             "x": 0.08,
             "y": 0.06,
@@ -610,14 +1048,18 @@
     {
       "panel_id": "p14-4",
       "page_number": 14,
-      "source_image_path": "episodes/EP002/panels/assets/p14-4.png",
+      "source_image_path": "episodes/EP002/panels/assets/p14-4.webp",
       "final_image_path": "episodes/EP002/panels/final/p14-4.svg",
-      "status": "draft",
-      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "canonical_signature": "3c79adc2ec3f427622495920a8e0398366248a9ddff92a7d7c74d3e603e51d55",
+      "source_sha256": "e071515296c1f367a94b49284fbc6c61feb630bd79caf7808a1de35fff786790",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
       "overlays": [
         {
-          "kind": "dialogue",
-          "text": "왕먀오: \"...알겠습니다.",
+          "kind": "screen",
+          "speaker": "",
+          "text": "1198:47:23 — 정지",
           "box": {
             "x": 0.08,
             "y": 0.06,
@@ -632,8 +1074,11 @@
       "page_number": 15,
       "source_image_path": "episodes/EP002/panels/assets/p15-1.png",
       "final_image_path": "episodes/EP002/panels/final/p15-1.svg",
-      "status": "rendered",
-      "notes": "No text overlay required.",
+      "canonical_signature": "6ffd8df7a234befcb8fe83711f13788ce5a36cb11d8d5a25e2a0b49be2a1e5f4",
+      "source_sha256": "2a9699cb33eac2a781aac0921b2505262fb640fae089a860d7b3d1a78f4f58b0",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
       "overlays": []
     },
     {
@@ -641,35 +1086,104 @@
       "page_number": 15,
       "source_image_path": "episodes/EP002/panels/assets/p15-2.png",
       "final_image_path": "episodes/EP002/panels/final/p15-2.svg",
-      "status": "rendered",
-      "notes": "No text overlay required.",
-      "overlays": []
+      "canonical_signature": "fc238f20abf2650c87d01ad826572aa1fd14903739370d3731a094bff054f61d",
+      "source_sha256": "5484e13704ba363badfbc598e277076c49b22f766138ba9f99f7e3e002ffa790",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "screen",
+          "speaker": "모니터 텍스트",
+          "text": "관찰을 계속하시겠습니까?",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p15-3",
+      "page_number": 15,
+      "source_image_path": "episodes/EP002/panels/assets/p15-3.webp",
+      "final_image_path": "episodes/EP002/panels/final/p15-3.svg",
+      "canonical_signature": "075640620f5316f1124b03f71357bcd6a63bb36d8d1785b7c86ffe22acf6d3bf",
+      "source_sha256": "19c3b70feadb7a3d3d8006f55be4357f44cd5da9310343a4979fa1b7896dca6e",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "screen",
+          "speaker": "",
+          "text": "Y / N",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
     },
     {
       "panel_id": "p15-4",
       "page_number": 15,
       "source_image_path": "episodes/EP002/panels/assets/p15-4.png",
       "final_image_path": "episodes/EP002/panels/final/p15-4.svg",
-      "status": "rendered",
-      "notes": "No text overlay required.",
-      "overlays": []
+      "canonical_signature": "3f38607da01eab7b772af6bc311aa49fb06529be00ea7b2035919eae6370dd11",
+      "source_sha256": "12c767f59bc241e66efc10c8f5e9be6123364a6e55536f7ad97e874ad75885e2",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "누구냐.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
     },
     {
       "panel_id": "p16-1",
       "page_number": 16,
-      "source_image_path": "episodes/EP002/panels/assets/p16-1.png",
+      "source_image_path": "episodes/EP002/panels/assets/p16-1.webp",
       "final_image_path": "episodes/EP002/panels/final/p16-1.svg",
-      "status": "draft",
-      "notes": "Auto-extracted from script.md or panel description; review position before approval.",
+      "canonical_signature": "e72128ae3bb596556d7e96e8802a0dcf9d37f9d67722d0fb866b76e8975e4aa4",
+      "source_sha256": "69d06ee988aa4caf5b2c23ec4aa47680c3d306fa96864667166e9e87313ba07a",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
       "overlays": [
         {
-          "kind": "caption",
-          "text": "하단: \"삼체 문제의 세계에 오신 것을 환영합니다.\" / \"문명 137호. 기원: 1789.",
+          "kind": "screen",
+          "speaker": "",
+          "text": "1198:47:23 — 정지",
           "box": {
-            "x": 0.12,
+            "x": 0.08,
             "y": 0.06,
-            "w": 0.76,
-            "h": 0.1
+            "w": 0.52,
+            "h": 0.12
+          }
+        },
+        {
+          "kind": "screen",
+          "speaker": "모니터 텍스트",
+          "text": "Three Body — 게임을 시작하시겠습니까?",
+          "box": {
+            "x": 0.08,
+            "y": 0.2,
+            "w": 0.52,
+            "h": 0.12
           }
         }
       ]

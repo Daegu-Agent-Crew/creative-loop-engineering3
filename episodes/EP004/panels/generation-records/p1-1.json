@@ -1,0 +1,21 @@
+{
+  "panel_id": "p1-1",
+  "episode_id": "EP004",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-acb4127f-ec0c-4535-8a69-e73c7b3e9796.png",
+  "candidate": ".candidates/EP004/p1-1/iteration-01/p1-1-v01.png",
+  "asset": "episodes/EP004/panels/assets/p1-1.webp",
+  "sha256": "28d2ba6daffe6150dcef40e6e6e62ca99bc63d6a606d2d3fec748b1cbf5e3be7",
+  "generated_at": "2026-09-15T14:57:06.640865+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, distinctive 1980s Akira Toriyama manga aesthetic. Create ONE finished landscape 1536x1024 comic panel, NOT a character sheet. Alien civilization world, grey-purple ruins, ochre sand, stone cairns. Sky state strictly follow scene. Never use modern laboratory. \nSCENE: 삼체 게임 내부. 폐허. EP003의 세 태양은 사라지고, 하늘은 불길한 잿빛-보라색. 그림자가 없는 확산광. 구조물 잔해 — 거대한 뼈 같은 것, 녹아내린 금속, 결정화된 유리. 한가운데 왕먀오가 혼자 서 있다.\nVisible named cast: 왕먀오. Character sheets are identity references ONLY; never copy their backgrounds. Wang Miao always wears pale blue-grey shirt and dark trousers. All lettering and exact digits will be added later: NO readable text, numbers, symbols, balloons, captions or watermark in generated artwork. Clean coherent anatomy, strong ink composition, no extra characters or alien creatures. Non-graphic disaster where described.",
+  "references": [
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP001/characters/assets/wangmiao-v1.png"
+  ],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "3565ec6696be7ff9b36fe279a165f553c8e98cf179b27eb9bbeb80e60ee944e5",
+  "source_sha256": "28d2ba6daffe6150dcef40e6e6e62ca99bc63d6a606d2d3fec748b1cbf5e3be7",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP004/qa/qa.json"
+}

@@ -1,0 +1,21 @@
+{
+  "panel_id": "p2-4",
+  "episode_id": "EP003",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-de89026a-e95c-42bf-b223-fc7bec0ff72d.png",
+  "candidate": ".candidates/EP003/p2-4/iteration-01/p2-4-v01.png",
+  "asset": "episodes/EP003/panels/assets/p2-4.webp",
+  "sha256": "40923aa7d1bebf04ec3d455a488d8c89d3de999a4bcc3517f66c4c0255e74d99",
+  "generated_at": "2026-09-15T13:20:07.725505+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, distinctive 1980s Akira Toriyama manga aesthetic. Create ONE finished landscape 1536x1024 comic panel, NOT a character sheet. Alien game world BROWN EMPTY ROCKY PLAIN and uniform overcast grey sky. NO visible sun, NO buildings, NO laboratory. \nSCENE: 실루엣이 가까워졌다. 고대 중국 복장의 남자 — 주희. 검은 갑옷 위에 붉은 옥의. 돌 위에 앉아 있다. 주변에 아무것도 없다.\nVisible named cast: 주희. Character sheets are identity references ONLY; never copy their backgrounds. Wang Miao always wears pale blue-grey shirt and dark trousers. All lettering and exact digits will be added later: NO readable text, numbers, symbols, balloons, captions or watermark in generated artwork. Clean coherent anatomy, strong ink composition, no extra characters or alien creatures. Non-graphic disaster where described.",
+  "references": [
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP003/characters/assets/zhuxi-v1.png"
+  ],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "0079f92fe0d15481eacce7945db12a655dbf795072f9d7d29584e8b5636c0dc6",
+  "source_sha256": "40923aa7d1bebf04ec3d455a488d8c89d3de999a4bcc3517f66c4c0255e74d99",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP003/qa/qa.json"
+}

@@ -1,0 +1,19 @@
+{
+  "panel_id": "p9-1",
+  "episode_id": "EP004",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-481bf5d9-a8ff-4d2e-a9b5-443c491199fa.png",
+  "candidate": ".candidates/EP004/p9-1/iteration-01/p9-1-v01.png",
+  "asset": "episodes/EP004/panels/assets/p9-1.webp",
+  "sha256": "91c8540d91cf679da87657be170e544faf0b7607d14c9ae5dbca79140beb7b02",
+  "generated_at": "2026-09-15T15:20:32.417774+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, distinctive 1980s Akira Toriyama manga aesthetic. Create ONE finished landscape 1536x1024 comic panel, NOT a character sheet. Alien civilization world, grey-purple ruins, ochre sand, stone cairns. Sky state strictly follow scene. Never use modern laboratory. \nSCENE: 또다시 문명이 시작된다. 191번째. 건물이 올라가고 도시가 형성된다.\nVisible named cast: none. Character sheets are identity references ONLY; never copy their backgrounds. Wang Miao always wears pale blue-grey shirt and dark trousers. All lettering and exact digits will be added later: NO readable text, numbers, symbols, balloons, captions or watermark in generated artwork. Clean coherent anatomy, strong ink composition, no extra characters or alien creatures. Non-graphic disaster where described.",
+  "references": [],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "b9c0fc88db8b3bfa0ccc180c075f9b00f9c24284f83828b0b9b3113b638dfee5",
+  "source_sha256": "91c8540d91cf679da87657be170e544faf0b7607d14c9ae5dbca79140beb7b02",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP004/qa/qa.json"
+}
