@@ -35,5 +35,7 @@ const html=`<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="vie
 fs.writeFileSync(path.join(out,'season.html'),html);fs.writeFileSync(path.join(out,'index.html'),html);
 // Keep unpublished review readers outside the public docs deployment tree.
 fs.mkdirSync(path.join(root,'reader'),{recursive:true});
+fs.mkdirSync(path.join(root,'reader/episodes/EP001'),{recursive:true});
+fs.writeFileSync(path.join(root,'reader/episodes/EP001/index.html'),'<html lang="ko"><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=../../../dist/season/episodes/EP001/index.html"><a href="../../../dist/season/episodes/EP001/index.html">1화 읽기</a></html>');
 fs.writeFileSync(path.join(root,'reader/season.html'),html.replaceAll('src="episodes/','src="../episodes/'));
 console.log(out);
