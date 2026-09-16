@@ -93,7 +93,7 @@
     }
   ],
   "handoff": {
-    "current_goal": "완성된 파일럿 시즌 공개 여부 검토",
+    "current_goal": "승인된 전체 시즌의 Pages 배포 및 실제 URL 검증",
     "current_phase": "phase6_release",
     "target_panel_id": null,
     "completed": [
@@ -102,12 +102,10 @@
       "전체 시즌 오프라인 뷰어 완성"
     ],
     "next_actions": [
-      "제작을 재시작하지 않는다. 정본·QA 해시와 실제 자산을 먼저 확인한다.",
-      "공개 승인 시 별도 배포 범위 변경과 공개 검증을 수행한다."
+      "전체 시즌 배포 성공과 실제 URL을 확인한다.",
+      "새 요청 없이 완료된 패널 제작을 재시작하지 않는다."
     ],
     "blockers": [],
-    "human_decisions": [
-      "완결 산출물의 Release Approval"
-    ]
+    "human_decisions": []
   }
 }

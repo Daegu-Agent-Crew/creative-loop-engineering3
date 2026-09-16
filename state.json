@@ -59,7 +59,7 @@
     },
     "EP002": {
       "title": "카운트다운",
-      "status": "production_complete",
+      "status": "release_approved",
       "current_phase": "phase6_release",
       "phases": {
         "phase0": {
@@ -105,14 +105,14 @@
           "note": "episodes/EP002/qa/qa.json 및 전체 뷰어 2종 폭 검증 통과."
         },
         "phase6": {
-          "status": "pending",
-          "note": "완결 읽기 패키지 준비 완료. 사람의 최종 공개 승인 대기."
+          "status": "active",
+          "note": "사용자 공개 승인 완료. GitHub Pages 배포 및 실제 URL 검증 진행."
         }
       }
     },
     "EP003": {
       "title": "세 개의 태양",
-      "status": "production_complete",
+      "status": "release_approved",
       "current_phase": "phase6_release",
       "phases": {
         "phase0": {
@@ -154,14 +154,14 @@
           "note": "episodes/EP003/qa/qa.json 및 전체 뷰어 2종 폭 검증 통과."
         },
         "phase6": {
-          "status": "pending",
-          "note": "완결 읽기 패키지 준비 완료. 사람의 최종 공개 승인 대기."
+          "status": "active",
+          "note": "사용자 공개 승인 완료. GitHub Pages 배포 및 실제 URL 검증 진행."
         }
       }
     },
     "EP004": {
       "title": "문명의 역사",
-      "status": "production_complete",
+      "status": "release_approved",
       "current_phase": "phase6_release",
       "phases": {
         "phase0": {
@@ -203,14 +203,14 @@
           "note": "episodes/EP004/qa/qa.json 및 전체 뷰어 2종 폭 검증 통과."
         },
         "phase6": {
-          "status": "pending",
-          "note": "완결 읽기 패키지 준비 완료. 사람의 최종 공개 승인 대기."
+          "status": "active",
+          "note": "사용자 공개 승인 완료. GitHub Pages 배포 및 실제 URL 검증 진행."
         }
       }
     },
     "EP005": {
       "title": "별의 바다",
-      "status": "production_complete",
+      "status": "release_approved",
       "current_phase": "phase6_release",
       "phases": {
         "phase0": {
@@ -252,8 +252,8 @@
           "note": "episodes/EP005/qa/qa.json 및 전체 뷰어 2종 폭 검증 통과."
         },
         "phase6": {
-          "status": "pending",
-          "note": "완결 읽기 패키지 준비 완료. 사람의 최종 공개 승인 대기."
+          "status": "active",
+          "note": "사용자 공개 승인 완료. GitHub Pages 배포 및 실제 URL 검증 진행."
         }
       }
     }
