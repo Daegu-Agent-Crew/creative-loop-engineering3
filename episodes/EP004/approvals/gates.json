@@ -50,15 +50,16 @@
       "id": "release",
       "label": "Release Approval",
       "phase": "phase6",
-      "status": "pending",
-      "blocking": true,
-      "approved_by": null,
-      "approved_at": null,
+      "status": "approved",
+      "blocking": false,
+      "approved_by": "현재 CLE3 운영자(사용자)",
+      "approved_at": "2026-09-16T08:40:36.588403+00:00",
       "evidence": [
         "episodes/EP004/qa/qa.json",
-        "reports/CLE3-SEASON-BROWSER-QA.json"
+        "reports/CLE3-SEASON-BROWSER-QA.json",
+        "reports/CLE3-SEASON-RELEASE-AUTHORIZATION-20260916.md"
       ],
-      "notes": "전 컷 제작·QA 및 완결 패키지 준비 완료. 최종 공개 결정 대기."
+      "notes": "사용자 “공개 승인 함”. 전 5화 완결본의 Pages 공개 및 필요한 main 병합·배포 승인."
     }
   ]
 }

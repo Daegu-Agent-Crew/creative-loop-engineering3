@@ -4,6 +4,11 @@ on:
     branches: [main]
     paths:
       - 'docs/**'
+      - 'episodes/**'
+      - 'scripts/build-comic-reader.js'
+      - 'scripts/build-season-reader.js'
+      - 'scripts/validate-season-readiness.js'
+      - 'scripts/release-readiness.js'
       - 'episodes/EP001/panels/final/**'
       - 'episodes/EP001/panels/assets/**'
       - 'episodes/EP001/panels/text-overlays.json'
@@ -36,6 +41,10 @@ jobs:
           node-version: '24'
       - name: Require human release approval, QA and final output evidence
         run: node scripts/validate-episode-output.js EP001 --require-release
+      - name: Build and validate the approved complete season
+        run: |
+          node scripts/build-season-reader.js
+          node scripts/validate-season-readiness.js --require-release
       - uses: actions/configure-pages@v5
       # SVGs loaded through <img> cannot fetch external PNG references.
       # Embed the approved source only in this disposable deployment checkout.
@@ -53,6 +62,8 @@ jobs:
           cp episodes/EP001/bible/bible.json _site/episodes/EP001/bible/bible.json
           cp episodes/EP001/bible/application-evidence.json _site/episodes/EP001/bible/application-evidence.json
           cp reports/CLE3-EP001-Bible-v1.1.docx _site/episodes/EP001/bible/CLE3-EP001-Bible-v1.1.docx
+          cp _site/index.html _site/production.html
+          cp -R dist/season/. _site/
       - uses: actions/upload-pages-artifact@v4
         with:
           path: './_site'

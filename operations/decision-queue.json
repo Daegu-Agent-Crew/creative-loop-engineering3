@@ -140,7 +140,7 @@
     },
     {
       "owner": "cle3-maintainer",
-      "status": "pending",
+      "status": "resolved",
       "waiting_since": "2026-09-08T01:11:08Z",
       "waiting_since_basis": "tracking_started",
       "due_at": "2026-09-09T01:11:08Z",
@@ -155,7 +155,15 @@
         "episodes/EP002/discovery/context.json"
       ],
       "prerequisite": "phase5_completed",
-      "ttl_policy": "approval-critical: 무기한 대기 (사람 필수)"
+      "ttl_policy": "approval-critical: 무기한 대기 (사람 필수)",
+      "resolution": {
+        "decided_by": "현재 CLE3 운영자(사용자)",
+        "decided_at": "2026-09-16T08:40:36.588403+00:00",
+        "decision": "완결본 5화 전체 공개 승인",
+        "evidence": [
+          "reports/CLE3-SEASON-RELEASE-AUTHORIZATION-20260916.md"
+        ]
+      }
     },
     {
       "owner": "cle3-maintainer",

@@ -21,6 +21,10 @@ on:
       - 'scripts/build-creation-context.js'
       - 'scripts/render-panel-overlays.js'
       - 'scripts/validate-episode-output.js'
+      - 'scripts/build-comic-reader.js'
+      - 'scripts/build-season-reader.js'
+      - 'scripts/validate-season-readiness.js'
+      - 'tests/season-release.test.js'
       - 'scripts/validate-episode-governance.js'
       - 'tests/creation-context.test.js'
       - 'tests/render-panel-overlays.test.js'
@@ -46,6 +50,10 @@ on:
       - 'scripts/build-creation-context.js'
       - 'scripts/render-panel-overlays.js'
       - 'scripts/validate-episode-output.js'
+      - 'scripts/build-comic-reader.js'
+      - 'scripts/build-season-reader.js'
+      - 'scripts/validate-season-readiness.js'
+      - 'tests/season-release.test.js'
       - 'scripts/validate-episode-governance.js'
       - 'tests/creation-context.test.js'
       - 'tests/render-panel-overlays.test.js'
@@ -76,6 +84,10 @@ jobs:
         run: node scripts/validate-episode-output.js EP001 --require-release
       - name: Test creation memory context compiler
         run: node --test tests/*.test.js
+      - name: Validate approved full-season package
+        run: |
+          node scripts/build-season-reader.js
+          node scripts/validate-season-readiness.js --require-release
       - name: Show decision waiting report
         if: always()
         env:
