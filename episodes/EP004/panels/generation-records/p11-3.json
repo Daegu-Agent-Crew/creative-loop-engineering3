@@ -1,0 +1,21 @@
+{
+  "panel_id": "p11-3",
+  "episode_id": "EP004",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-b2e3a455-2405-43ea-b4a3-79a509659947.png",
+  "candidate": ".candidates/EP004/p11-3/iteration-01/p11-3-v01.png",
+  "asset": "episodes/EP004/panels/assets/p11-3.webp",
+  "sha256": "0176f4f737e616576edc50c6203404d0e06f0da738e2f7225dc1d641f394acaa",
+  "generated_at": "2026-09-15T15:26:50.000436+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, distinctive 1980s Akira Toriyama manga aesthetic. Create ONE finished landscape 1536x1024 comic panel, NOT a character sheet. Alien civilization world, grey-purple ruins, ochre sand, stone cairns. Sky state strictly follow scene. Never use modern laboratory. \nSCENE: Pope in the Pool: 왕먀오가 녹아내리는 도서관을 지난다. 책이 타들어간다. 한 페이지가 날려서 왕먀오 발 앞에 떨어진다 — (blank area for later overlay) 수식.\nVisible named cast: 왕먀오. Character sheets are identity references ONLY; never copy their backgrounds. Wang Miao always wears pale blue-grey shirt and dark trousers. All lettering and exact digits will be added later: NO readable text, numbers, symbols, balloons, captions or watermark in generated artwork. Clean coherent anatomy, strong ink composition, no extra characters or alien creatures. Non-graphic disaster where described.",
+  "references": [
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP001/characters/assets/wangmiao-v1.png"
+  ],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "2508588ada388adb0ea7759acfc53d4922a4b884ee0db35732d1600a905c939e",
+  "source_sha256": "0176f4f737e616576edc50c6203404d0e06f0da738e2f7225dc1d641f394acaa",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP004/qa/qa.json"
+}

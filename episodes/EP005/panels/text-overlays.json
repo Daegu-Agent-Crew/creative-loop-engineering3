@@ -1,0 +1,987 @@
+{
+  "episode_id": "EP005",
+  "version": 1,
+  "panels": [
+    {
+      "panel_id": "p1-1",
+      "page_number": 1,
+      "source_image_path": "episodes/EP005/panels/assets/p1-1.webp",
+      "final_image_path": "episodes/EP005/panels/final/p1-1.svg",
+      "canonical_signature": "617693e0a32545d3c1c2418b80131081c70077da26bc971250bc0e603236c5f0",
+      "source_sha256": "91d0670afb5438411e73ccbf13adf8c30191ad7bdea8d796787bc3380ba90e39",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p1-2",
+      "page_number": 1,
+      "source_image_path": "episodes/EP005/panels/assets/p1-2.webp",
+      "final_image_path": "episodes/EP005/panels/final/p1-2.svg",
+      "canonical_signature": "1cef868b249748cac087ac0e87b765761709a69d34a9ce6c0ce5947e3aaacbd4",
+      "source_sha256": "23605c2548133c35ce6a34ca770e19aad81252f9e064dfb5e8092e9cbf1dd4c1",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "narration",
+          "speaker": "",
+          "text": "꿈이었어... 왜 울었지?",
+          "box": {
+            "x": 0.1,
+            "y": 0.08,
+            "w": 0.8,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p1-3",
+      "page_number": 1,
+      "source_image_path": "episodes/EP005/panels/assets/p1-3.webp",
+      "final_image_path": "episodes/EP005/panels/final/p1-3.svg",
+      "canonical_signature": "03164693c30b051c4397ca27402e62af21b9cd43c0be30d7aa8e96ca74e03d9c",
+      "source_sha256": "3beba9376bcea1654ef27b16054eb53d1ca623262475a37b7435d631068d9df8",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p2-1",
+      "page_number": 2,
+      "source_image_path": "episodes/EP005/panels/assets/p2-1.webp",
+      "final_image_path": "episodes/EP005/panels/final/p2-1.svg",
+      "canonical_signature": "16032f54b0433d21270fec552faaba16ab302d0fa81b4b753a8226583a3f5133",
+      "source_sha256": "db97166657e19533e15001a3159f78d74be9503ee4cd83dfcb69ebdbe8cf9682",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p2-2",
+      "page_number": 2,
+      "source_image_path": "episodes/EP005/panels/assets/p2-2.webp",
+      "final_image_path": "episodes/EP005/panels/final/p2-2.svg",
+      "canonical_signature": "6fd056a82de69b4bc778f432811d9e638fbbbce23efacb75c3a53aba1d009491",
+      "source_sha256": "f0f208000c077236f7e28b06e26e75a9ca01bebd2779e5972fa3d5792b0d11cf",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "청신",
+          "text": "...당신이군요.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p2-3",
+      "page_number": 2,
+      "source_image_path": "episodes/EP005/panels/assets/p2-3.webp",
+      "final_image_path": "episodes/EP005/panels/final/p2-3.svg",
+      "canonical_signature": "5feec1b10edca140d7b7b1d7b04f413cbc1ef1162175a92ed63daaa788dc6a46",
+      "source_sha256": "46635b186093ba5fd465f618bab080032612eea302dce893f56cb94eb02519a9",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "전화를 받으셨죠. '그 신호가 닿았다'고 하던 그 전화.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p2-4",
+      "page_number": 2,
+      "source_image_path": "episodes/EP005/panels/assets/p2-4.webp",
+      "final_image_path": "episodes/EP005/panels/final/p2-4.svg",
+      "canonical_signature": "a1008bb83abefed79b01febb74f79e602dddf398a8c691b332f18ae5dbd98126",
+      "source_sha256": "cadf45b2e5c71e029d2546ff2419ef6f1746e255b40c2c4f4422d607e8ada19b",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p3-1",
+      "page_number": 3,
+      "source_image_path": "episodes/EP005/panels/assets/p3-1.webp",
+      "final_image_path": "episodes/EP005/panels/final/p3-1.svg",
+      "canonical_signature": "09394a7d20e3d9336ece837d2b127aa9fdb8aee52e7611bd6a4167691d57355c",
+      "source_sha256": "fc513bd6273765ef09d050d55d5648f29c9fc5388ed9f0ae267617f817b74905",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "청신",
+          "text": "진실을 알면, 더 이상 예전처럼 밤하늘을 볼 수 없게 됩니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-2",
+      "page_number": 3,
+      "source_image_path": "episodes/EP005/panels/assets/p3-2.webp",
+      "final_image_path": "episodes/EP005/panels/final/p3-2.svg",
+      "canonical_signature": "fbc14a4731d1b716aacf295e76d97d0e77ce4022db478116feefdea1094f30fe",
+      "source_sha256": "aa92cb98353fb0d804121148a144745809e8d96610c192c14d84c08fdb36149e",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "1967년에 무슨 일이 있었습니까?",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-3",
+      "page_number": 3,
+      "source_image_path": "episodes/EP005/panels/assets/p3-3.webp",
+      "final_image_path": "episodes/EP005/panels/final/p3-3.svg",
+      "canonical_signature": "c1ce783cdd958216c29125c98536e9ff36f785c2e4ac482bbee1d847b16582f3",
+      "source_sha256": "82dae341cf08e8e8ff116eb1c2b204264797b51459d6416ae9c5fd8e96d362ae",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "청신",
+          "text": "당신이 온 이유를 압니다. 하지만 저는... 준비가 되었는지 모르겠어요.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-4",
+      "page_number": 3,
+      "source_image_path": "episodes/EP005/panels/assets/p3-4.webp",
+      "final_image_path": "episodes/EP005/panels/final/p3-4.svg",
+      "canonical_signature": "ae77d2a5f47fbc461990195de6a80e06a41f04d181c4b004911ecf01f3753251",
+      "source_sha256": "ff937ca71067555e1dab331174cf1493cb44a0bc6da9af2498322c57814a14d2",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "저는 더 이상 돌아갈 수 없습니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "청신",
+          "text": "...1967년이었습니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.2,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-1",
+      "page_number": 4,
+      "source_image_path": "episodes/EP005/panels/assets/p4-1.webp",
+      "final_image_path": "episodes/EP005/panels/final/p4-1.svg",
+      "canonical_signature": "686ab03bf2b7e5162b2f04b3814fa52e9208dd6724f1c1eec978dc28e916e7ac",
+      "source_sha256": "1ad3339551d00f9fe47c2c496f5e42805db7f309de6b7ae612b0f24656dd866e",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "caption",
+          "speaker": "청신",
+          "text": "예원제는 아버지가 죽은 다음 날 밤, 망대로 갔습니다. 나는 그 선택을 도왔습니다.",
+          "box": {
+            "x": 0.12,
+            "y": 0.06,
+            "w": 0.76,
+            "h": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-2",
+      "page_number": 4,
+      "source_image_path": "episodes/EP005/panels/assets/p4-2.webp",
+      "final_image_path": "episodes/EP005/panels/final/p4-2.svg",
+      "canonical_signature": "b2f71cc0f97609fd0536399942d28e0498cb33d0605774e9bf149ed77a8ab344",
+      "source_sha256": "210d3d466bcb455e4e91d68bc7c6b514d164966261b26c032df534380aaf6ff9",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p4-3",
+      "page_number": 4,
+      "source_image_path": "episodes/EP005/panels/assets/p4-3.webp",
+      "final_image_path": "episodes/EP005/panels/final/p4-3.svg",
+      "canonical_signature": "8056c42398ac5bf11229975b736e239eeb1050ba939ad873e8217192e7a3549b",
+      "source_sha256": "bd1caf45418092aad0d46d7054041c249f15e13c4ee8cf10842b2cf8c30530e4",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "note",
+          "speaker": "",
+          "text": "예페이촨 사망",
+          "box": {
+            "x": 0.18,
+            "y": 0.68,
+            "w": 0.64,
+            "h": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-1",
+      "page_number": 5,
+      "source_image_path": "episodes/EP005/panels/assets/p5-1.webp",
+      "final_image_path": "episodes/EP005/panels/final/p5-1.svg",
+      "canonical_signature": "c40cf8c4cb38a27c5da4f5969b4699f441d3de65aa02b9c614ed4b28cd37a072",
+      "source_sha256": "52b54c913541f1fc4300905bb3a936eeda4c28417abe54483795801f5afab894",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "그때 우리는 믿었습니다. 우주 어딘가에 정의가 있을 거라고.",
+          "box": {
+            "x": 0.12,
+            "y": 0.06,
+            "w": 0.76,
+            "h": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-2",
+      "page_number": 5,
+      "source_image_path": "episodes/EP005/panels/assets/p5-2.webp",
+      "final_image_path": "episodes/EP005/panels/final/p5-2.svg",
+      "canonical_signature": "3706a30fcd577fe34a63ce1d877b2b54d825699c6557f17f21610bfd87f48ba5",
+      "source_sha256": "4f501118a8d278f1ee888a3b882ba49af3a42d79d100770b8048efc4b6dcee15",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "다른 지성체가 우리를 심판해줄 거라고.",
+          "box": {
+            "x": 0.12,
+            "y": 0.06,
+            "w": 0.76,
+            "h": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-3",
+      "page_number": 5,
+      "source_image_path": "episodes/EP005/panels/assets/p5-3.webp",
+      "final_image_path": "episodes/EP005/panels/final/p5-3.svg",
+      "canonical_signature": "9789ab39370ca5a5f747651696fbcd6ff44ff80d9450104a463fa2f67dc1d2e2",
+      "source_sha256": "5574a96236c50b9469c604b56a6a058bfb3535073a5efb2cce5c14aa1c4dfde9",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p6-1",
+      "page_number": 6,
+      "source_image_path": "episodes/EP005/panels/assets/p6-1.webp",
+      "final_image_path": "episodes/EP005/panels/final/p6-1.svg",
+      "canonical_signature": "52371d90f4a06e0272f293072b3a180467bfeb069f8ed3d725848857f4272803",
+      "source_sha256": "9fcc1dee97bab8c8c7201ff96dba482d20ce9685787c36a22a4289a970050db3",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "4.2광년. 첫 응답이 돌아오기까지, 8년이 넘는 시간이 흘렀다.",
+          "box": {
+            "x": 0.12,
+            "y": 0.06,
+            "w": 0.76,
+            "h": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-1",
+      "page_number": 7,
+      "source_image_path": "episodes/EP005/panels/assets/p7-1.webp",
+      "final_image_path": "episodes/EP005/panels/final/p7-1.svg",
+      "canonical_signature": "9ae2268ed65b94a24d8f09f8df09447590f8edc01d4bce9d409dca8f70134b70",
+      "source_sha256": "77af21eba9a8fce65d1506fe6e977548fb301ac21849aadde29c8fee2f69a1e4",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "청신",
+          "text": "그들이 응답했습니다. 8년이 조금 더 지난 뒤에, 처음으로.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-2",
+      "page_number": 7,
+      "source_image_path": "episodes/EP005/panels/assets/p7-2.webp",
+      "final_image_path": "episodes/EP005/panels/final/p7-2.svg",
+      "canonical_signature": "4c21ca761ed5fd757a527d4817a75b31213ee40cad6aa4c893f300e7c2a493ee",
+      "source_sha256": "f45122f8e6c0d593ded34ba6a02734f726546987e78c12816794ebb02ada2aa0",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "4.2광년이라면... 빛이 왕복하는 데도 8.4년. 응답은 그보다 빠를 수 없죠.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-3",
+      "page_number": 7,
+      "source_image_path": "episodes/EP005/panels/assets/p7-3.webp",
+      "final_image_path": "episodes/EP005/panels/final/p7-3.svg",
+      "canonical_signature": "7fc60907365e1914074369a63275ef56f4bf15cfeca24464bc4c120f65d8cc33",
+      "source_sha256": "1ea63b240c10fd5d31292005c09d10455f605674d0f8beb19ba56213702ee27d",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "청신",
+          "text": "그들의 감시자가 있었습니다. 우리는 그를 '소페르'라고 불렀죠. 소페르는 과학자들의 눈에 — 망막에 직접 메시지를 투영했습니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-4",
+      "page_number": 7,
+      "source_image_path": "episodes/EP005/panels/assets/p7-4.webp",
+      "final_image_path": "episodes/EP005/panels/final/p7-4.svg",
+      "canonical_signature": "0b96e51ed8cbcc6cdf30a7cb79391c98d20c0eed192cce62eae7636561587142",
+      "source_sha256": "6a309d5bf418a1c20f56c22c68ece20edce78a4327338d2353e4e300159b8c41",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "그래서... 그 과학자들은 밤하늘을 본 겁니까?",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "청신",
+          "text": "경고를 받은 겁니다. '연구를 멈춰라.' 하지만...",
+          "box": {
+            "x": 0.08,
+            "y": 0.2,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p8-1",
+      "page_number": 8,
+      "source_image_path": "episodes/EP005/panels/assets/p8-1.webp",
+      "final_image_path": "episodes/EP005/panels/final/p8-1.svg",
+      "canonical_signature": "c2de209eeea0c113ad3015ba14da6517dbbe62fbec3669f13d01fd9076dd2d94",
+      "source_sha256": "f2fe51856778c9c44b188731f750dc06390217acbe17d01a741516568a4f2a06",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "소페르가... 뭐라고 했습니까?",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p8-2",
+      "page_number": 8,
+      "source_image_path": "episodes/EP005/panels/assets/p8-2.webp",
+      "final_image_path": "episodes/EP005/panels/final/p8-2.svg",
+      "canonical_signature": "f4b51e76cb1d3d1ba4c1570d13e7a32f83d06ce6b17ea4fb4b1f423024ae3bca",
+      "source_sha256": "78238dce999c8acfcf5962297436aa9abdb4b00cbe7c4ae0cd4545d699f81883",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "청신",
+          "text": "소페르는 말했죠—",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p8-3",
+      "page_number": 8,
+      "source_image_path": "episodes/EP005/panels/assets/p8-3.webp",
+      "final_image_path": "episodes/EP005/panels/final/p8-3.svg",
+      "canonical_signature": "8362b9f199618c54ea1859dc03bb60f90446c1183dcf7ab2d6a8031a031442f8",
+      "source_sha256": "c83828b67e0bd5098b457a18f106ed037c706136e6755869f32d6ce84f1362b9",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "'너희는 버그다.'",
+          "box": {
+            "x": 0.12,
+            "y": 0.06,
+            "w": 0.76,
+            "h": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p8-4",
+      "page_number": 8,
+      "source_image_path": "episodes/EP005/panels/assets/p8-4.webp",
+      "final_image_path": "episodes/EP005/panels/final/p8-4.svg",
+      "canonical_signature": "f982c3622529fafdd82967e05c1b5cd808e05034d38099fa5eb60a2d81178a39",
+      "source_sha256": "6f0adb969c3225e01bf5df4721faeae0671bb23cea5559d36dc8aea0cc121245",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p9-1",
+      "page_number": 9,
+      "source_image_path": "episodes/EP005/panels/assets/p9-1.webp",
+      "final_image_path": "episodes/EP005/panels/final/p9-1.svg",
+      "canonical_signature": "efa9c945ffeed365ff9cd10e79f27efd5350e6ae17e49ca73ea0162c2749e324",
+      "source_sha256": "9d71897e29298c03ef426b80a7f749299536354d0bf2d85fdea7dec767ef4fb2",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "당신도 여기 있었군.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p9-2",
+      "page_number": 9,
+      "source_image_path": "episodes/EP005/panels/assets/p9-2.webp",
+      "final_image_path": "episodes/EP005/panels/final/p9-2.svg",
+      "canonical_signature": "692252af04946cf6792152219bf9e38a3edf7f7754d8f8154906c4d4a581ea97",
+      "source_sha256": "980e4ec3b40aa81bef5184f339209a79348d0d946fea4df6a152aa4a86352f20",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "세 명의 과학자. 전원이 죽기 전 밤하늘을 보고 있었습니다. 이제 이유를 압니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p9-3",
+      "page_number": 9,
+      "source_image_path": "episodes/EP005/panels/assets/p9-3.webp",
+      "final_image_path": "episodes/EP005/panels/final/p9-3.svg",
+      "canonical_signature": "ce9e0907c3341270349b16ff0aff0a3d53726fae7f838055fd6118376e63465f",
+      "source_sha256": "d81b4af776bea4472942a5eb4f63a72e86005c7fefaca6ee166b4c1b99806e4d",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "멈추라고 했는데... 왜 멈추지 않았습니까.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p9-4",
+      "page_number": 9,
+      "source_image_path": "episodes/EP005/panels/assets/p9-4.webp",
+      "final_image_path": "episodes/EP005/panels/final/p9-4.svg",
+      "canonical_signature": "effe5aa37990260fcc3daa526a1811c3340329ff932dca3b49f305a1251273ce",
+      "source_sha256": "637089d64853ee327b805bf5f33e2d2da45754751224aecf40a2318e029b6d3e",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p10-1",
+      "page_number": 10,
+      "source_image_path": "episodes/EP005/panels/assets/p10-1.webp",
+      "final_image_path": "episodes/EP005/panels/final/p10-1.svg",
+      "canonical_signature": "c12c5047b3b0a414d7517f10d78290af43febf3ce31ad634c0ead34583c81d2d",
+      "source_sha256": "4ca0627341872caeded4ff42eb7c81842eda56411b9cf8101c2279fc72205180",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "청신",
+          "text": "삼체. 그들이 사는 세계를 알아야 합니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p10-2",
+      "page_number": 10,
+      "source_image_path": "episodes/EP005/panels/assets/p10-2.webp",
+      "final_image_path": "episodes/EP005/panels/final/p10-2.svg",
+      "canonical_signature": "3d87fdc2d03f67978af135b3b2987acb3386c9f8fcb69a996da2cb37983a58bb",
+      "source_sha256": "254c70442fcf3d2d58c734ccf76ac179d7e2123d321bb4b589a5f53a54e6c146",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "세 개의 태양. 예측 불가능한 궤도. 문명은 영원히 멸망과 재건을 반복합니다.",
+          "box": {
+            "x": 0.12,
+            "y": 0.06,
+            "w": 0.76,
+            "h": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p10-3",
+      "page_number": 10,
+      "source_image_path": "episodes/EP005/panels/assets/p10-3.webp",
+      "final_image_path": "episodes/EP005/panels/final/p10-3.svg",
+      "canonical_signature": "50d980e3110a248817bdd0fdb9e6e111d75b3bc134564c214e83207b55a98544",
+      "source_sha256": "44a09caad69033f0cd72cd371f0dca11cdbec294ddd9c4a006ff9baccc8083ea",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "narration",
+          "speaker": "",
+          "text": "하늘이... 세 개다.",
+          "box": {
+            "x": 0.1,
+            "y": 0.08,
+            "w": 0.8,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p11-1",
+      "page_number": 11,
+      "source_image_path": "episodes/EP005/panels/assets/p11-1.webp",
+      "final_image_path": "episodes/EP005/panels/final/p11-1.svg",
+      "canonical_signature": "45a75aa39231613c7b186f7edd690d32da63f290d10bb2c0d338229d5c5d61fa",
+      "source_sha256": "085c7791ab50c1e5677bb01f2a3ea72d917302c493dff4db841c8d1b49a68b8a",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "그 카운트다운... 그 숫자는 뭡니까?",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p11-2",
+      "page_number": 11,
+      "source_image_path": "episodes/EP005/panels/assets/p11-2.webp",
+      "final_image_path": "episodes/EP005/panels/final/p11-2.svg",
+      "canonical_signature": "2793976298ee3bdcdb105f4733e248d3ee1794ed94890e83ffd3d181f2803554",
+      "source_sha256": "d338f2feaec76f7b46449386a7b95d895976a7f657f53e635dd8282d11bab6fb",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "청신",
+          "text": "연구를 중단시키려는 압박입니다. 함대의 도착 시각은 아닙니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p11-3",
+      "page_number": 11,
+      "source_image_path": "episodes/EP005/panels/assets/p11-3.webp",
+      "final_image_path": "episodes/EP005/panels/final/p11-3.svg",
+      "canonical_signature": "5f49946fa346ad020d43914ffd03d92b3095daf0180d68a1d2143a2ec8085ea9",
+      "source_sha256": "a7f7953d7c06e1f129c6c4a021431d0255f08f9814191e3af9eb4ff5228755de",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "...함대?",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p11-4",
+      "page_number": 11,
+      "source_image_path": "episodes/EP005/panels/assets/p11-4.webp",
+      "final_image_path": "episodes/EP005/panels/final/p11-4.svg",
+      "canonical_signature": "b79b311c66eeaaf0439b5b9f430231f89494834138a16833243f63858b5c8bb7",
+      "source_sha256": "4956faa09ac5a68735bedb06700a24a754844c5251ea14bd10a160a33509bd42",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "청신",
+          "text": "출항했습니다. 이미 수년 전에. 그들이 오고 있습니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p11-5",
+      "page_number": 11,
+      "source_image_path": "episodes/EP005/panels/assets/p11-5.webp",
+      "final_image_path": "episodes/EP005/panels/final/p11-5.svg",
+      "canonical_signature": "dd1cec24f037b3d78aaf721047b583ece5ad62b996cfebf0170af4cddb9095aa",
+      "source_sha256": "668bc6466761c4305c356293aba6a6a0be243f322b73846fe51591cb8cb52259",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "하늘은 거짓말을 하지 않았어요. 하늘은... 우리에게 알려준 겁니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p12-1",
+      "page_number": 12,
+      "source_image_path": "episodes/EP005/panels/assets/p12-1.webp",
+      "final_image_path": "episodes/EP005/panels/final/p12-1.svg",
+      "canonical_signature": "466f4070305fddee79744e330ecfafc732035c2d044786efc8c47391932b91b2",
+      "source_sha256": "1bb6d4a7c1c3c81f3e9a265757e49adbed754a68845d1a0b1bc0f5147b5ce01e",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p13-1",
+      "page_number": 13,
+      "source_image_path": "episodes/EP005/panels/assets/p13-1.webp",
+      "final_image_path": "episodes/EP005/panels/final/p13-1.svg",
+      "canonical_signature": "37bfe654b3ed00fb194ee578f577686660b38c6a2999230ac39079c851202c9b",
+      "source_sha256": "ae90183e7eadcdaa32e1c81a8f84465861aba49941a63b31cd76437ce70b6f31",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "청신",
+          "text": "우리는 인류의 미래를, 타인의 심판에 맡겼습니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p14-1",
+      "page_number": 14,
+      "source_image_path": "episodes/EP005/panels/assets/p14-1.webp",
+      "final_image_path": "episodes/EP005/panels/final/p14-1.svg",
+      "canonical_signature": "6b84322b483579ecdb445d68335f0f1e946a7817c4c62086e9161a1432953ba1",
+      "source_sha256": "c1251d340b1367368f507a45fcce054fcc327698a98a8fd9faa39cbc7beb3260",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p14-2",
+      "page_number": 14,
+      "source_image_path": "episodes/EP005/panels/assets/p14-2.webp",
+      "final_image_path": "episodes/EP005/panels/final/p14-2.svg",
+      "canonical_signature": "3c29116651a08f5e68ff941b2f4632321f506b41351032325eb2e590b064d2b7",
+      "source_sha256": "1cc0de2be4c842faf35c6fb2f999961931a57265e2465399776e21171500e11b",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "narration",
+          "speaker": "",
+          "text": "과학자들이 밤하늘을 보았습니다. 소페르의 메시지를 받았기 때문이죠.",
+          "box": {
+            "x": 0.1,
+            "y": 0.08,
+            "w": 0.8,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p14-3",
+      "page_number": 14,
+      "source_image_path": "episodes/EP005/panels/assets/p14-3.webp",
+      "final_image_path": "episodes/EP005/panels/final/p14-3.svg",
+      "canonical_signature": "26ec945f8669e71918b5ad521aa04af39d2cd519f6d1cc9e1b74eb4c898ff4bb",
+      "source_sha256": "680bb065916663930b264ed61db24fec72d939d29f17e6c37be42866e06d6550",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "저도 봅니다. 하지만 저는... 알고 있습니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p14-4",
+      "page_number": 14,
+      "source_image_path": "episodes/EP005/panels/assets/p14-4.webp",
+      "final_image_path": "episodes/EP005/panels/final/p14-4.svg",
+      "canonical_signature": "9ceab903da31e180e64187a41c93370a7c150df6332f56ba182bde003b546ac4",
+      "source_sha256": "892bf4521ace0080ad14a9a53814852c9c89b70962cf19f79a57cce9efc63180",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p15-1",
+      "page_number": 15,
+      "source_image_path": "episodes/EP005/panels/assets/p15-1.webp",
+      "final_image_path": "episodes/EP005/panels/final/p15-1.svg",
+      "canonical_signature": "5e715ab5bf6af6a9a51b3c622a532c595ab9be8b668ce61908539f92dc510271",
+      "source_sha256": "e10e79d79c3bc638fa9ff9f1383d628eb26045689de16d10c00073becf74499b",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "별의 바다에서, 그들이 오고 있다.",
+          "box": {
+            "x": 0.12,
+            "y": 0.06,
+            "w": 0.76,
+            "h": 0.1
+          }
+        },
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "파일럿 시즌 완결 · 관찰은 계속된다",
+          "box": {
+            "x": 0.12,
+            "y": 0.18,
+            "w": 0.76,
+            "h": 0.1
+          }
+        }
+      ]
+    }
+  ]
+}

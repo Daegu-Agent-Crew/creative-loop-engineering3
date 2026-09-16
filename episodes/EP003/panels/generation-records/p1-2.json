@@ -1,0 +1,22 @@
+{
+  "panel_id": "p1-2",
+  "episode_id": "EP003",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-cbfd4c48-ea59-49ad-9783-86884e2ff5f9.png",
+  "candidate": ".candidates/EP003/p1-2/iteration-01/p1-2-v02.png",
+  "asset": "episodes/EP003/panels/assets/p1-2.webp",
+  "sha256": "8ed256370ef6fb717754685f1f0b11896802610ff856005ded41e16f1c8ec643",
+  "generated_at": "2026-09-15T13:13:22.077110+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP003\nPage: 1\nPanel ID: p1-2\nStoryboard description: 왕먀오의 손이 화면 아래에서 올라와 안경을 만진다. 안경 렌즈 가장자리에 카운트다운 숫자 \"1198:47:23\"가 잠시 비치고 — 사라진다.\nVisible cast: 왕먀오\n\n--- CHARACTER REFERENCES ---\n- 왕먀오 (汪淼): Reference asset: episodes/EP001/characters/assets/wangmiao-v1.png Appearance: 30대 중국 남성, 단정한 외모, 큰 안경(뿔테), 차분한 표정, 마른 체형. 캐주얼 셔츠 + 슬랙스, 연구실 가운. 안경에 반사되는 빛이 특징. Style notes: Toriyama style: clean geometric design, large round glasses with light reflection, neat simplified hair. Cool blue-grey cell-shaded palette. Inner tone: 순수한 과학적 호기심. 현실감각과 책임감. 내면의 두려움과 용기의 공존. EP001 마지막에 모니터 앞에 등장.\n\n--- COMPOSITION ---\nCamera: close-up, 손+안경\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.\nDIRECTOR OVERRIDES: Ancient alien planet simulated as a Chinese civilization, brown rocky plains and grey sky changing to gold then red according to scene. Wang Miao wears pale blue-grey modern shirt and dark trousers throughout.  Single finished comic PANEL, never a character sheet. Landscape 1536x1024 except full-page silence/impact scene use portrait 1024x1536. Reference images are identity references only. Use flat cell shading and bold clean ink throughout; ignore legacy watercolor/photorealistic directives. NO readable text, numbers, letters, captions, speech balloons, sound effects or watermark anywhere. Leave monitors, inscriptions and notes blank for deterministic Korean postprocess. Avoid explicit gore; destruction is non-graphic silhouettes, light and ash. Do not introduce aliens, robots or people absent from the scene. Keep composition legible; no UI/debug artifacts.",
+  "references": [
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP001/characters/assets/wangmiao-v1.png"
+  ],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "correction": "Removed incorrect sun or laboratory background, preserved first candidate",
+  "delivery_sha256": "2838b48da4470c907f9a96257a828760cccccbc9a24587cd1b1f18356947a674",
+  "source_sha256": "8ed256370ef6fb717754685f1f0b11896802610ff856005ded41e16f1c8ec643",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP003/qa/qa.json"
+}

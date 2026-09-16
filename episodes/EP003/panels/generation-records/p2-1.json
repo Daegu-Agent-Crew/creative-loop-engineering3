@@ -1,0 +1,21 @@
+{
+  "panel_id": "p2-1",
+  "episode_id": "EP003",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-720221d5-a614-4bb0-8a09-09b2083d699d.png",
+  "candidate": ".candidates/EP003/p2-1/iteration-01/p2-1-v01.png",
+  "asset": "episodes/EP003/panels/assets/p2-1.webp",
+  "sha256": "b8a024ebb8d0739f98fbece835db0db8b8e2ea79021f7da91918a9df18f34ec2",
+  "generated_at": "2026-09-15T13:19:21.137042+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, distinctive 1980s Akira Toriyama manga aesthetic. Create ONE finished landscape 1536x1024 comic panel, NOT a character sheet. Alien game world BROWN EMPTY ROCKY PLAIN and uniform overcast grey sky. NO visible sun, NO buildings, NO laboratory. \nSCENE: 왕먀오가 걷고 있다. 발소리가 나지 않는다 — 발이 지면에 닿지만 반발력이 약하다. 갈색 대지 위의 발자국이 바로 메워진다.\nVisible named cast: 왕먀오. Character sheets are identity references ONLY; never copy their backgrounds. Wang Miao always wears pale blue-grey shirt and dark trousers. All lettering and exact digits will be added later: NO readable text, numbers, symbols, balloons, captions or watermark in generated artwork. Clean coherent anatomy, strong ink composition, no extra characters or alien creatures. Non-graphic disaster where described.",
+  "references": [
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP001/characters/assets/wangmiao-v1.png"
+  ],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "ee3c10efb48f57e363aa79e41c916c344897c8c449b295b46e48a39b54bd5f37",
+  "source_sha256": "b8a024ebb8d0739f98fbece835db0db8b8e2ea79021f7da91918a9df18f34ec2",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP003/qa/qa.json"
+}

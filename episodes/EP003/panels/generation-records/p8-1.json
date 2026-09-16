@@ -1,0 +1,19 @@
+{
+  "panel_id": "p8-1",
+  "episode_id": "EP003",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-10aee40d-012c-4d01-b07e-0907adfe4fd8.png",
+  "candidate": ".candidates/EP003/p8-1/iteration-01/p8-1-v01.png",
+  "asset": "episodes/EP003/panels/assets/p8-1.webp",
+  "sha256": "2fc186ef8649f91f5020489bcc089582ab6a8fc010d60b7e821c87806c4440ac",
+  "generated_at": "2026-09-15T20:40:56.889091+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective. One comic insert panel: close-up of an antique bronze armillary disk on a tripod, its rings and pointers carefully aligned for measuring the sky. Sandstone observation platform, ochre cloth draped on a stool, warm amber light. A scientific instrument study. No people, text, letters or numbers.",
+  "references": [],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "7dbab3f5330406c799b17e7f46c04f908f0fb8f4621d08bce7c2fbb07d127734",
+  "source_sha256": "2fc186ef8649f91f5020489bcc089582ab6a8fc010d60b7e821c87806c4440ac",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP003/qa/qa.json"
+}

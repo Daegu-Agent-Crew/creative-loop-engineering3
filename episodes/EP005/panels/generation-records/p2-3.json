@@ -1,0 +1,21 @@
+{
+  "panel_id": "p2-3",
+  "episode_id": "EP005",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-c6d7453f-db66-40dd-ba90-92514bf5be13.png",
+  "candidate": ".candidates/EP005/p2-3/iteration-01/p2-3-v01.png",
+  "asset": "episodes/EP005/panels/assets/p2-3.webp",
+  "sha256": "b92263fa847bc553a7e8ed51ecfffae618bc88ab5841fe8bbc282562289346b4",
+  "generated_at": "2026-09-15T15:41:42.092659+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, distinctive 1980s Akira Toriyama manga aesthetic. Create ONE finished landscape 1536x1024 comic panel, NOT a character sheet. Beijing present-day ordinary apartment, or 1967 radio station in flashbacks pages 4–6. Cel shading throughout, no watercolor.\nSCENE: 왕먀오가 현관에 서 있음. 결의한 얼굴. 차분한 목소리.\nVisible named cast: 왕먀오. Character sheets are identity references ONLY; never copy their backgrounds. Wang Miao always wears pale blue-grey shirt and dark trousers. All lettering and exact digits will be added later: NO readable text, numbers, symbols, balloons, captions or watermark in generated artwork. Clean coherent anatomy, strong ink composition, no extra characters or alien creatures. Non-graphic disaster where described.",
+  "references": [
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP001/characters/assets/wangmiao-v1.png"
+  ],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "46635b186093ba5fd465f618bab080032612eea302dce893f56cb94eb02519a9",
+  "source_sha256": "b92263fa847bc553a7e8ed51ecfffae618bc88ab5841fe8bbc282562289346b4",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP005/qa/qa.json"
+}

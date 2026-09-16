@@ -1,0 +1,21 @@
+{
+  "panel_id": "p14-3",
+  "episode_id": "EP003",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-443c9e82-e467-4004-beae-9d858aaedd59.png",
+  "candidate": ".candidates/EP003/p14-3/iteration-01/p14-3-v01.png",
+  "asset": "episodes/EP003/panels/assets/p14-3.webp",
+  "sha256": "7ff0faba5e7fd5647ae52125131e4e5812e50434fdc282dd3ae12381353669fa",
+  "generated_at": "2026-09-15T14:53:26.408074+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, distinctive 1980s Akira Toriyama manga aesthetic. Create ONE finished landscape 1536x1024 comic panel, NOT a character sheet. Return to ordinary night laboratory ONLY after p14-1. \nSCENE: 모니터 화면. (blank area for later overlay) 메시지. 아래에 작게: (blank area for later overlay) 모니터의 차가운 빛이 왕먀오의 얼굴을 비춘다.\nVisible named cast: 왕먀오. Character sheets are identity references ONLY; never copy their backgrounds. Wang Miao always wears pale blue-grey shirt and dark trousers. All lettering and exact digits will be added later: NO readable text, numbers, symbols, balloons, captions or watermark in generated artwork. Clean coherent anatomy, strong ink composition, no extra characters or alien creatures. Non-graphic disaster where described.",
+  "references": [
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP001/characters/assets/wangmiao-v1.png"
+  ],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "7e81420240242b2f106916e1b207dc50dfdab77748edb3b694cb82c9d03547f6",
+  "source_sha256": "7ff0faba5e7fd5647ae52125131e4e5812e50434fdc282dd3ae12381353669fa",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP003/qa/qa.json"
+}

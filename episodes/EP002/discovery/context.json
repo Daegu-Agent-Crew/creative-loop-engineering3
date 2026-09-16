@@ -76,10 +76,10 @@
       },
       {
         "id": "KU-002",
-        "summary": "script와 storyboard/panels 사이의 구조 차이를 rebaseline해야 한다.",
-        "status": "open",
+        "summary": "기존 script.json 16장면과 storyboard 16페이지를 panel-script.json으로 일대일 연결했다.",
+        "status": "resolved",
         "blocking": false,
-        "next_action": "다음 대량 생성 전에 페이지와 패널 기준선을 확정"
+        "next_action": "패널 텍스트와 이미지의 시각 QA"
       }
     ],
     "unknown_known": [

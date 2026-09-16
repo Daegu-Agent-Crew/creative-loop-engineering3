@@ -1,0 +1,21 @@
+{
+  "panel_id": "p8-1",
+  "episode_id": "EP004",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-aad8c3f7-81d5-4c8e-a776-2b9856ebe672.png",
+  "candidate": ".candidates/EP004/p8-1/iteration-01/p8-1-v01.png",
+  "asset": "episodes/EP004/panels/assets/p8-1.webp",
+  "sha256": "2de6bbdc5335ddd76b6832c6a08a267a13fc96b632bfd8af1efe308ab8e59640",
+  "generated_at": "2026-09-15T15:18:40.802515+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, distinctive 1980s Akira Toriyama manga aesthetic. Create ONE finished landscape 1536x1024 comic panel, NOT a character sheet. Alien civilization world, grey-purple ruins, ochre sand, stone cairns. Sky state strictly follow scene. Never use modern laboratory. \nSCENE: 풀 스프레드. 아무것도 없다. 폐허. 잿빛 하늘. 바람. 화면의 3분의 2가 하늘(여백). 왕먀오는 페이지 하단에 극히 작게 — 점처럼 서 있다. 주변에 184번째 문명이 있었던 흔적 — 녹아내린 금속, 유리 조각, 재. 발밑에 돌 하나. (blank area for later overlay)가 새겨져 있다.\nVisible named cast: 왕먀오. Character sheets are identity references ONLY; never copy their backgrounds. Wang Miao always wears pale blue-grey shirt and dark trousers. All lettering and exact digits will be added later: NO readable text, numbers, symbols, balloons, captions or watermark in generated artwork. Clean coherent anatomy, strong ink composition, no extra characters or alien creatures. Non-graphic disaster where described.",
+  "references": [
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP001/characters/assets/wangmiao-v1.png"
+  ],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "781fa0531359653d9e612f9874afd1b0730b42bb107ac6f74631e5c0b425a43d",
+  "source_sha256": "2de6bbdc5335ddd76b6832c6a08a267a13fc96b632bfd8af1efe308ab8e59640",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP004/qa/qa.json"
+}

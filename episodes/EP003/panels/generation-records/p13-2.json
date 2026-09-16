@@ -1,0 +1,19 @@
+{
+  "panel_id": "p13-2",
+  "episode_id": "EP003",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-4fe9b5a4-7e8e-4722-832c-7cfe460faea5.png",
+  "candidate": ".candidates/EP003/p13-2/iteration-01/p13-2-v01.png",
+  "asset": "episodes/EP003/panels/assets/p13-2.webp",
+  "sha256": "1f1fe5dc8d52edd1b150b9d78c3b1fe2d18a018fd7dc6a1bae2d58fa5a6ad3f0",
+  "generated_at": "2026-09-15T14:43:23.271121+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, distinctive 1980s Akira Toriyama manga aesthetic. Create ONE finished landscape 1536x1024 comic panel, NOT a character sheet. Alien game world under THREE blazing suns, non-graphic catastrophe and ash. \nSCENE: 강이 끓는다. 물이 증기로 변한다. 증기가 붉은 하늘로 올라간다.\nVisible named cast: none. Character sheets are identity references ONLY; never copy their backgrounds. Wang Miao always wears pale blue-grey shirt and dark trousers. All lettering and exact digits will be added later: NO readable text, numbers, symbols, balloons, captions or watermark in generated artwork. Clean coherent anatomy, strong ink composition, no extra characters or alien creatures. Non-graphic disaster where described.",
+  "references": [],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "bc087e80ee3a8847954f4a42a0e0565ce8190d93d29e38b58353944238c083b7",
+  "source_sha256": "1f1fe5dc8d52edd1b150b9d78c3b1fe2d18a018fd7dc6a1bae2d58fa5a6ad3f0",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP003/qa/qa.json"
+}

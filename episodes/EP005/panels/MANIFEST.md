@@ -1,16 +1,10 @@
-# EP005 Panels Manifest
+# EP005 완결 산출물
 
-## 목적
-- EP005 패널 원본의 source of truth
-- 장베이하이 캐릭터 기준안과 파일럿 종료 컷 관리
-
-## 파일명 규칙
-- `ep005-p01-scene-name.png`
-- `ep005-p02-scene-name.png`
-
-## 작업 규칙
-- 장베이하이 관련 핵심 컷은 후보안과 선택 이유를 함께 남긴다.
-- 파일럿 마지막 컷은 리뷰 코멘트를 별도 기록한다.
-
-## 현재 상태
-- 패널 원본 미생성
+- 15페이지 / 45컷
+- 실제 자산 45/45, 최종 SVG 45/45
+- 정본 대사: ../script/panel-script.json
+- Phase 5 QA: 44/50 (Codex 검수, 사람 공개 승인과 별도)
+- 읽기: reader/episodes/EP005/read.html
+- 전체 패키지: node scripts/build-season-reader.js → dist/season/index.html
+- 원본/교정 전 후보: .candidates/EP005/ (Git 제외)
+- 공개: 사용자 Release Approval 완료. Pages 배포 진행. 누락 컷 생성 재개 불필요.

@@ -1,0 +1,21 @@
+{
+  "panel_id": "p6-4",
+  "episode_id": "EP003",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-16e41a0b-7d6a-455c-a5b4-ab321d665b95.png",
+  "candidate": ".candidates/EP003/p6-4/iteration-01/p6-4-v01.png",
+  "asset": "episodes/EP003/panels/assets/p6-4.webp",
+  "sha256": "ec1fe0a8e7ab6190ffadfa4d84f2cd6811cf03442847fd811cc8659606f2826c",
+  "generated_at": "2026-09-15T14:26:19.903647+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, distinctive 1980s Akira Toriyama manga aesthetic. Create ONE finished landscape 1536x1024 comic panel, NOT a character sheet. Alien game world golden rocky plain with TWO suns: one red, one smaller white. \nSCENE: 왕먀오의 얼굴. 안경을 닦고 있다. 안경 렌즈에 두 태양이 반사되어 보인다 — 아름답고 기묘한 이미지. 왕먀오의 표정에 미세한 경이가 스친다 — 과학자가 처음으로 (blank area for later overlay)고 느끼는 순간.\nVisible named cast: 왕먀오. Character sheets are identity references ONLY; never copy their backgrounds. Wang Miao always wears pale blue-grey shirt and dark trousers. All lettering and exact digits will be added later: NO readable text, numbers, symbols, balloons, captions or watermark in generated artwork. Clean coherent anatomy, strong ink composition, no extra characters or alien creatures. Non-graphic disaster where described.",
+  "references": [
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP001/characters/assets/wangmiao-v1.png"
+  ],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "6204c009f3a85c0f1c77d75571ecc5d5167bd06b11b257f3e55f3e8c36c351c4",
+  "source_sha256": "ec1fe0a8e7ab6190ffadfa4d84f2cd6811cf03442847fd811cc8659606f2826c",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP003/qa/qa.json"
+}

@@ -1,0 +1,541 @@
+{
+  "episode_id": "EP005",
+  "version": 1,
+  "source": "episodes/EP005/script/script.md",
+  "panels": [
+    {
+      "panel_id": "p1-1",
+      "page_number": 1,
+      "scene_number": 1,
+      "description": "왕먀오의 눈동자 극클로즈업. 동공 안에 거대한 눈동자가 비친다 — 소페르의 눈. 금색 홍채, 중심이 인간이 아닌 기하학적 패턴.",
+      "text": []
+    },
+    {
+      "panel_id": "p1-2",
+      "page_number": 1,
+      "scene_number": 1,
+      "description": "왕먀오가 침대에서 벌떡 일어남. 새벽. 얼굴에 눈물 자국. 손으로 얼굴을 만짐.",
+      "text": [
+        {
+          "kind": "narration",
+          "speaker": "",
+          "text": "꿈이었어... 왜 울었지?"
+        }
+      ]
+    },
+    {
+      "panel_id": "p1-3",
+      "page_number": 1,
+      "scene_number": 1,
+      "description": "베개 클로즈업. 손이 만지면 축축함. 배경에 흐려진 도시 불빛. 어딘가에 카운트다운 숫자가 깜빡이는 듯하다 사라짐.",
+      "text": []
+    },
+    {
+      "panel_id": "p2-1",
+      "page_number": 2,
+      "scene_number": 2,
+      "description": "베이징의 아침. 왕먀오가 낡은 아파트 층계를 오름. 계단이 삐걱댐.",
+      "text": []
+    },
+    {
+      "panel_id": "p2-2",
+      "page_number": 2,
+      "scene_number": 2,
+      "description": "왕먀오가 문을 두드린다. 문이 열리고 청신이 서 있다. 흰머리와 깊은 주름, 날카로운 눈빛. 예원제와는 다른 인물이다.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "청신",
+          "text": "...당신이군요."
+        }
+      ]
+    },
+    {
+      "panel_id": "p2-3",
+      "page_number": 2,
+      "scene_number": 2,
+      "description": "왕먀오가 현관에 서 있음. 결의한 얼굴. 차분한 목소리.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "전화를 받으셨죠. '그 신호가 닿았다'고 하던 그 전화."
+        }
+      ]
+    },
+    {
+      "panel_id": "p2-4",
+      "page_number": 2,
+      "scene_number": 2,
+      "description": "청신이 천천히 문을 열어줌. 방 안은 어둡다. Pope in the Pool: 테이블 위에 1967년 라디오 망대의 낡은 사진 — 젊은 예원제가 망대 앞에 서 있음.",
+      "text": []
+    },
+    {
+      "panel_id": "p3-1",
+      "page_number": 3,
+      "scene_number": 3,
+      "description": "왕먀오와 청신, 마주 앉음. 둘 사이에 테이블. 사진이 놓여 있음.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "청신",
+          "text": "진실을 알면, 더 이상 예전처럼 밤하늘을 볼 수 없게 됩니다."
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-2",
+      "page_number": 3,
+      "scene_number": 3,
+      "description": "왕먀오가 몸을 앞으로 기울임.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "1967년에 무슨 일이 있었습니까?"
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-3",
+      "page_number": 3,
+      "scene_number": 3,
+      "description": "청신의 손이 테이블 위에서 떨림. 찻잔이 미세하게 흔들림. 떨리는 입술.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "청신",
+          "text": "당신이 온 이유를 압니다. 하지만 저는... 준비가 되었는지 모르겠어요."
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-4",
+      "page_number": 3,
+      "scene_number": 3,
+      "description": "왕먀오의 결의. 잠시 침묵 후, 말함. ★ Break into Act 2.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "저는 더 이상 돌아갈 수 없습니다."
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "청신",
+          "text": "...1967년이었습니다."
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-1",
+      "page_number": 4,
+      "scene_number": 4,
+      "description": "방 안의 빛이 완전히 셀 채색으로 전환. 청신의 얼굴에서 젊은 예원제의 얼굴이 겹쳐 보임 — 디졸브 전환.",
+      "text": [
+        {
+          "kind": "caption",
+          "speaker": "청신",
+          "text": "예원제는 아버지가 죽은 다음 날 밤, 망대로 갔습니다. 나는 그 선택을 도왔습니다."
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-2",
+      "page_number": 4,
+      "scene_number": 4,
+      "description": "1967년 — 라디오 망대. 예원제가 홀로 서 있음. EP001 p7과 같은 구도. 그러나 표정이 다름 — 눈이 붉게 부어 있고, 입술을 깨물어 피가 배어 있음.",
+      "text": []
+    },
+    {
+      "panel_id": "p4-3",
+      "page_number": 4,
+      "scene_number": 4,
+      "description": "망대 벽에 붙은 신문 clipping 클로즈업: \"예페이촨, 반동 학술 권위... 사망\" Pope in the Pool.",
+      "text": [
+        {
+          "kind": "note",
+          "speaker": "",
+          "text": "예페이촨 사망"
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-1",
+      "page_number": 5,
+      "scene_number": 5,
+      "description": "예원제의 손이 송신기 스위치에 닿음. 떨리고 있음.",
+      "text": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "그때 우리는 믿었습니다. 우주 어딘가에 정의가 있을 거라고."
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-2",
+      "page_number": 5,
+      "scene_number": 5,
+      "description": "스위치가 올라가는 순간. 전파가 우주로 발사됨. EP001 p7의 전파 이미지와 동일 — 동심원의 파동.",
+      "text": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "다른 지성체가 우리를 심판해줄 거라고."
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-3",
+      "page_number": 5,
+      "scene_number": 5,
+      "description": "예원제의 얼굴. 눈물과 분노가 공존. 전파의 빛이 얼굴에 비침.",
+      "text": []
+    },
+    {
+      "panel_id": "p6-1",
+      "page_number": 6,
+      "scene_number": 6,
+      "description": "풀 스프레드. 우주. 전파의 파동이 동심원으로 확장 — EP001 p7의 이미지가 더 먼 거리로 펼쳐짐. 파동이 4.2광년을 넘어, 페이지 중앙에 세 개의 태양(삼체 성계)이 희미하게 떠오름. 전파가 그곳에 닿는 순간. 그리고 돌아오는 붉은 빛.",
+      "text": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "4.2광년. 첫 응답이 돌아오기까지, 8년이 넘는 시간이 흘렀다."
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-1",
+      "page_number": 7,
+      "scene_number": 7,
+      "description": "현재로 복귀. 청신의 아파트. 청신이 말을 이어감. 방 안의 빛이 차가워짐 — amber에서 청색으로.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "청신",
+          "text": "그들이 응답했습니다. 8년이 조금 더 지난 뒤에, 처음으로."
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-2",
+      "page_number": 7,
+      "scene_number": 7,
+      "description": "왕먀오의 얼굴. 경외와 긴장.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "4.2광년이라면... 빛이 왕복하는 데도 8.4년. 응답은 그보다 빠를 수 없죠."
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-3",
+      "page_number": 7,
+      "scene_number": 7,
+      "description": "청신이 말을 이어감. 눈이 먼 곳을 봄.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "청신",
+          "text": "그들의 감시자가 있었습니다. 우리는 그를 '소페르'라고 불렀죠. 소페르는 과학자들의 눈에 — 망막에 직접 메시지를 투영했습니다."
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-4",
+      "page_number": 7,
+      "scene_number": 7,
+      "description": "왕먀오의 손이 부들부들 떨림. EP001 p9 회상 — 과학자들이 밤하늘을 보던 장면.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "그래서... 그 과학자들은 밤하늘을 본 겁니까?"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "청신",
+          "text": "경고를 받은 겁니다. '연구를 멈춰라.' 하지만..."
+        }
+      ]
+    },
+    {
+      "panel_id": "p8-1",
+      "page_number": 8,
+      "scene_number": 8,
+      "description": "왕먀오가 자리에서 일어남. 더 이상 앉아 있을 수 없음.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "소페르가... 뭐라고 했습니까?"
+        }
+      ]
+    },
+    {
+      "panel_id": "p8-2",
+      "page_number": 8,
+      "scene_number": 8,
+      "description": "청신의 눈이 먼 곳을 봄. 40년 전의 기억.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "청신",
+          "text": "소페르는 말했죠—"
+        }
+      ]
+    },
+    {
+      "panel_id": "p8-3",
+      "page_number": 8,
+      "scene_number": 8,
+      "description": "시점 전환 — 소페르의 시점. 거대한 눈동자가 지구를 내려다봄. 페이지가 비틀림. 닥터슬럼프풍 과장 가동.",
+      "text": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "'너희는 버그다.'"
+        }
+      ]
+    },
+    {
+      "panel_id": "p8-4",
+      "page_number": 8,
+      "scene_number": 8,
+      "description": "왕먀오의 동공 클로즈업. EP001 p11 청신의 동공에 비쳤던 세 개의 빛점이, 이제 왕먀오의 눈에도 비침.",
+      "text": []
+    },
+    {
+      "panel_id": "p9-1",
+      "page_number": 9,
+      "scene_number": 9,
+      "description": "노크 소리. 스치친이 들어옴. 코트, 담배 냄새. 셀 채색 — 현대적 캐릭터.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "당신도 여기 있었군."
+        }
+      ]
+    },
+    {
+      "panel_id": "p9-2",
+      "page_number": 9,
+      "scene_number": 9,
+      "description": "스치친이 케이스 파일을 테이블에 펼침. 세 과학자 사진. 빨간 실로 연결.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "세 명의 과학자. 전원이 죽기 전 밤하늘을 보고 있었습니다. 이제 이유를 압니다."
+        }
+      ]
+    },
+    {
+      "panel_id": "p9-3",
+      "page_number": 9,
+      "scene_number": 9,
+      "description": "스치친이 청신을 봄. 복잡한 표정 — 분노, 이해, 체념.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "멈추라고 했는데... 왜 멈추지 않았습니까."
+        }
+      ]
+    },
+    {
+      "panel_id": "p9-4",
+      "page_number": 9,
+      "scene_number": 9,
+      "description": "청신이 고개를 숙임. 말이 없음. 방 안에 무거운 침묵.",
+      "text": []
+    },
+    {
+      "panel_id": "p10-1",
+      "page_number": 10,
+      "scene_number": 10,
+      "description": "청신이 일어섬. 커튼을 열음. 낮의 빛이 들어옴. 시각화 시작 — 추상 공간에 세 개의 태양이 뜸.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "청신",
+          "text": "삼체. 그들이 사는 세계를 알아야 합니다."
+        }
+      ]
+    },
+    {
+      "panel_id": "p10-2",
+      "page_number": 10,
+      "scene_number": 10,
+      "description": "세 개의 태양이 불규칙하게 움직임 — 궤도 모식도. EP001 p1의 크레온 그림이 페이지에 잠깐 겹침.",
+      "text": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "세 개의 태양. 예측 불가능한 궤도. 문명은 영원히 멸망과 재건을 반복합니다."
+        }
+      ]
+    },
+    {
+      "panel_id": "p10-3",
+      "page_number": 10,
+      "scene_number": 10,
+      "description": "왕먀오가 창밖을 봄. 베이징의 하늘. 그러나 왕먀오의 눈에는 세 태양이 겹쳐 보임.",
+      "text": [
+        {
+          "kind": "narration",
+          "speaker": "",
+          "text": "하늘이... 세 개다."
+        }
+      ]
+    },
+    {
+      "panel_id": "p11-1",
+      "page_number": 11,
+      "scene_number": 11,
+      "description": "왕먀오가 청신에게 다가섬. 카운트다운 숫자가 허공에 미세하게 깜빡임 — EP001 p12~14의 카운트다운 회수.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "그 카운트다운... 그 숫자는 뭡니까?"
+        }
+      ]
+    },
+    {
+      "panel_id": "p11-2",
+      "page_number": 11,
+      "scene_number": 11,
+      "description": "청신이 천천히 고개를 돌림. 눈이 깊음.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "청신",
+          "text": "연구를 중단시키려는 압박입니다. 함대의 도착 시각은 아닙니다."
+        }
+      ]
+    },
+    {
+      "panel_id": "p11-3",
+      "page_number": 11,
+      "scene_number": 11,
+      "description": "스치친의 반응. 경악.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "...함대?"
+        }
+      ]
+    },
+    {
+      "panel_id": "p11-4",
+      "page_number": 11,
+      "scene_number": 11,
+      "description": "청신이 왕먀오를 똑바로 봄. 최종 고백의 전주.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "청신",
+          "text": "출항했습니다. 이미 수년 전에. 그들이 오고 있습니다."
+        }
+      ]
+    },
+    {
+      "panel_id": "p11-5",
+      "page_number": 11,
+      "scene_number": 11,
+      "description": "왕먀오의 얼굴. EP001 p1 양동의 \"하늘이 거짓말을 한다\" 노트와 동일한 절망 — 그러나 왕먀오는 부정함.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "하늘은 거짓말을 하지 않았어요. 하늘은... 우리에게 알려준 겁니다."
+        }
+      ]
+    },
+    {
+      "panel_id": "p12-1",
+      "page_number": 12,
+      "scene_number": 12,
+      "description": "풀 스프레드. 청신의 아파트. 석양이 지고 있다. 빈 의자 — 청신이 잠시 자리를 비웠음. 테이블 위 사진(젊은 예원제와 라오충), 찻잔(김이 사라짐). 왕먀오가 창가에 서서 밖을 봄. 커튼이 바람에 흔들림.",
+      "text": []
+    },
+    {
+      "panel_id": "p13-1",
+      "page_number": 13,
+      "scene_number": 13,
+      "description": "풀 스프레드. 청신이 방으로 돌아옴. 왕먀오와 스치친이 그녀를 봄. 청신의 얼굴 — 70대의 주름, 눈물 자국. 그러나 눈빛은 맑다. 수십 년의 자기기만이 끝났다. EP001 p14 \"우리는 심판을 불렸다\"와 동일 구도 — 실루엣이 아닌 얼굴이 보임.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "청신",
+          "text": "우리는 인류의 미래를, 타인의 심판에 맡겼습니다."
+        }
+      ]
+    },
+    {
+      "panel_id": "p14-1",
+      "page_number": 14,
+      "scene_number": 14,
+      "description": "연구실 건물 옥상. 밤. 왕먀오가 하늘을 올려다봄 — EP001 p2 예원제와 동일 구도. EP001 p9 과학자들과 동일 행위.",
+      "text": []
+    },
+    {
+      "panel_id": "p14-2",
+      "page_number": 14,
+      "scene_number": 14,
+      "description": "왕먀오의 얼굴. 올려다보는 눈에 별이 비침.",
+      "text": [
+        {
+          "kind": "narration",
+          "speaker": "",
+          "text": "과학자들이 밤하늘을 보았습니다. 소페르의 메시지를 받았기 때문이죠."
+        }
+      ]
+    },
+    {
+      "panel_id": "p14-3",
+      "page_number": 14,
+      "scene_number": 14,
+      "description": "왕먀오의 표정 변화 — 두려움에서 결의로.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "저도 봅니다. 하지만 저는... 알고 있습니다."
+        }
+      ]
+    },
+    {
+      "panel_id": "p14-4",
+      "page_number": 14,
+      "scene_number": 14,
+      "description": "하늘의 별. 하나, 둘. 그 사이로 무언가가 움직이기 시작함 — 미세한 흔들림.",
+      "text": []
+    },
+    {
+      "panel_id": "p15-1",
+      "page_number": 15,
+      "scene_number": 15,
+      "description": "풀 스프레드. 우주 공간의 서술자 시점. 지구에서 육안으로 보이는 장면이 아니다. 별들 사이로 — 멀리 항해 중인 삼체 함대의 돛이 지나감. 거대한 구조물이 빛을 받아 미세하게 빛남. 우주를 가로지르는 함대의 스케일이 압도적. 돛의 형태가 EP001 p1의 아이 그림 '태양 세 개'와 실루엣이 겹침 — 세 개의 원형이 돛의 패널이 됨.",
+      "text": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "별의 바다에서, 그들이 오고 있다."
+        },
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "파일럿 시즌 완결 · 관찰은 계속된다"
+        }
+      ]
+    }
+  ]
+}

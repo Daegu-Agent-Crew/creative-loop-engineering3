@@ -1,0 +1,21 @@
+{
+  "panel_id": "p8-4",
+  "episode_id": "EP003",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-75a1371a-2eac-47d0-8573-1c63598be128.png",
+  "candidate": ".candidates/EP003/p8-4/iteration-01/p8-4-v01.png",
+  "asset": "episodes/EP003/panels/assets/p8-4.webp",
+  "sha256": "5092202898197a3a780c438896a132425ef53a1ea8dc3aba449ccfafb18264bd",
+  "generated_at": "2026-09-15T14:32:24.519908+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, distinctive 1980s Akira Toriyama manga aesthetic. Create ONE finished landscape 1536x1024 comic panel, NOT a character sheet. Alien game world brown plain under orange-red sky, two suns overhead with third red glow below horizon. \nSCENE: 주희의 클로즈업. 표정이 완전히 리얼리스틱하다 — 닥터슬럼프풍 과장이 완전히 사라짐. 권력자의 진짜 얼굴. 입술이 일자로 닫힌다. 턱 근육이 보인다.\nVisible named cast: 주희. Character sheets are identity references ONLY; never copy their backgrounds. Wang Miao always wears pale blue-grey shirt and dark trousers. All lettering and exact digits will be added later: NO readable text, numbers, symbols, balloons, captions or watermark in generated artwork. Clean coherent anatomy, strong ink composition, no extra characters or alien creatures. Non-graphic disaster where described.",
+  "references": [
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP003/characters/assets/zhuxi-v1.png"
+  ],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "90f304707f1bffab0c5b47ce34e8316741d72fbfdea73a1bb97e1590c9fe388a",
+  "source_sha256": "5092202898197a3a780c438896a132425ef53a1ea8dc3aba449ccfafb18264bd",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP003/qa/qa.json"
+}

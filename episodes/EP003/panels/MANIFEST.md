@@ -1,16 +1,10 @@
-# EP003 Panels Manifest
+# EP003 완결 산출물
 
-## 목적
-- EP003 패널 원본의 source of truth
-- 삼체 게임 첫 비주얼 기준선 관리
-
-## 파일명 규칙
-- `ep003-p01-scene-name.png`
-- `ep003-p02-scene-name.png`
-
-## 작업 규칙
-- 게임 세계용 배경/하늘 자산은 반복 활용 가능 여부를 메모한다.
-- 세 태양 핵심 장면은 후보안을 여러 장 남긴다.
-
-## 현재 상태
-- 패널 원본 미생성
+- 15페이지 / 44컷
+- 실제 자산 44/44, 최종 SVG 44/44
+- 정본 대사: ../script/panel-script.json
+- Phase 5 QA: 43/50 (Codex 검수, 사람 공개 승인과 별도)
+- 읽기: reader/episodes/EP003/read.html
+- 전체 패키지: node scripts/build-season-reader.js → dist/season/index.html
+- 원본/교정 전 후보: .candidates/EP003/ (Git 제외)
+- 공개: 사용자 Release Approval 완료. Pages 배포 진행. 누락 컷 생성 재개 불필요.

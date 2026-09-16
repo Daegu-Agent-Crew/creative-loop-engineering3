@@ -1,0 +1,19 @@
+{
+  "panel_id": "p14-1",
+  "episode_id": "EP003",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-ba98cb56-9174-47ab-b33e-d7714576fb71.png",
+  "candidate": ".candidates/EP003/p14-1/iteration-01/p14-1-v01.png",
+  "asset": "episodes/EP003/panels/assets/p14-1.webp",
+  "sha256": "b9633dda80b1567e36c803d5d15e3753a55eaad0f55fd147856e04c47d9c9614",
+  "generated_at": "2026-09-15T14:46:53.148345+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, distinctive 1980s Akira Toriyama manga aesthetic. Create ONE finished landscape 1536x1024 comic panel, NOT a character sheet. Return to ordinary night laboratory ONLY after p14-1. \nSCENE: 세 태양의 빛이 하얗게 화면 전체를 채운다. 완전한 백색. 아무것도 보이지 않는다. 1초. 그리고 — 깜깜해진다.\nVisible named cast: none. Character sheets are identity references ONLY; never copy their backgrounds. Wang Miao always wears pale blue-grey shirt and dark trousers. All lettering and exact digits will be added later: NO readable text, numbers, symbols, balloons, captions or watermark in generated artwork. Clean coherent anatomy, strong ink composition, no extra characters or alien creatures. Non-graphic disaster where described.",
+  "references": [],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "2ee701219280319eb2e69bc552ded4a746285109c9facde158794971bf8108a8",
+  "source_sha256": "b9633dda80b1567e36c803d5d15e3753a55eaad0f55fd147856e04c47d9c9614",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP003/qa/qa.json"
+}

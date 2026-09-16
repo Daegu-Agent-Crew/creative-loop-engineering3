@@ -1,0 +1,904 @@
+{
+  "episode_id": "EP003",
+  "version": 1,
+  "panels": [
+    {
+      "panel_id": "p1-1",
+      "page_number": 1,
+      "source_image_path": "episodes/EP003/panels/assets/p1-1.webp",
+      "final_image_path": "episodes/EP003/panels/final/p1-1.svg",
+      "canonical_signature": "f9ce3ac96fabc3886c7f56918cf1d814e75508577f551f9b963324fe50760575",
+      "source_sha256": "4db8fc5f57a0ae52a34122c57941e52ed1708a99ada952c18c670fb271054d25",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p1-2",
+      "page_number": 1,
+      "source_image_path": "episodes/EP003/panels/assets/p1-2.webp",
+      "final_image_path": "episodes/EP003/panels/final/p1-2.svg",
+      "canonical_signature": "7154ee1bd80de6645f959761c755433fac3497729dc00d82950a91037a6583f5",
+      "source_sha256": "2838b48da4470c907f9a96257a828760cccccbc9a24587cd1b1f18356947a674",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "screen",
+          "speaker": "",
+          "text": "1198:47:23",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p1-3",
+      "page_number": 1,
+      "source_image_path": "episodes/EP003/panels/assets/p1-3.webp",
+      "final_image_path": "episodes/EP003/panels/final/p1-3.svg",
+      "canonical_signature": "16936a7a993cf7a4b51989d7cb9601cff88f66babc00c12158545760a2724c6f",
+      "source_sha256": "6ec87e51855e40573a41dc3cf8f3a4d7c121044420a13881a9946ce2d0686712",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p2-1",
+      "page_number": 2,
+      "source_image_path": "episodes/EP003/panels/assets/p2-1.webp",
+      "final_image_path": "episodes/EP003/panels/final/p2-1.svg",
+      "canonical_signature": "53cab46c8d3a2cac2267e56e8c6ca065bbbf1eb0cb0776be7b224a8913f8e281",
+      "source_sha256": "ee3c10efb48f57e363aa79e41c916c344897c8c449b295b46e48a39b54bd5f37",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "...이게 삼체 게임?",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p2-2",
+      "page_number": 2,
+      "source_image_path": "episodes/EP003/panels/assets/p2-2.webp",
+      "final_image_path": "episodes/EP003/panels/final/p2-2.svg",
+      "canonical_signature": "4ebd1e680b37d4da9f3624fc4ede540aa7e82373bd7f38e68aa2b4a034f305ac",
+      "source_sha256": "671e25227a43c49604e92de572b9cbfe7afb6654162d2aac696be1b2b4aeb654",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "태양이 없어.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p2-3",
+      "page_number": 2,
+      "source_image_path": "episodes/EP003/panels/assets/p2-3.webp",
+      "final_image_path": "episodes/EP003/panels/final/p2-3.svg",
+      "canonical_signature": "58711363d7946e299ce1376449263125e52404904b9f33184273b0ff7734c1c6",
+      "source_sha256": "9a25d533795a23dc11d325b90e770ec4cafba44f2923dfebe08d2f8b3ad3eae0",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p2-4",
+      "page_number": 2,
+      "source_image_path": "episodes/EP003/panels/assets/p2-4.webp",
+      "final_image_path": "episodes/EP003/panels/final/p2-4.svg",
+      "canonical_signature": "e6d8afefbc4e0d60d1f405ea8081726a8867823fd4d99d93a8ec809595b05236",
+      "source_sha256": "0079f92fe0d15481eacce7945db12a655dbf795072f9d7d29584e8b5636c0dc6",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p3-1",
+      "page_number": 3,
+      "source_image_path": "episodes/EP003/panels/assets/p3-1.webp",
+      "final_image_path": "episodes/EP003/panels/final/p3-1.svg",
+      "canonical_signature": "a4d44595a013929540dc2a6515adf490cf9b32eddd7ac9116eafe4cce4e638ca",
+      "source_sha256": "f88223fdabb292f559d88454605a16b49ab485470f2082cdb6135745ecc4eec0",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "주희",
+          "text": "하늘을 보았느냐.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-2",
+      "page_number": 3,
+      "source_image_path": "episodes/EP003/panels/assets/p3-2.webp",
+      "final_image_path": "episodes/EP003/panels/final/p3-2.svg",
+      "canonical_signature": "2ae63997a7c738274f3830d8b9190cd0d2384383cd91e9ab887686700073b390",
+      "source_sha256": "7286133e8a98a0c465011afe91b743951fa2214d82e08c17c1b6ab130f4011f0",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "주희",
+          "text": "하늘은 언제나 우리를 배신하지. 다만, 오늘은 배신하지 않았을 뿐.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-3",
+      "page_number": 3,
+      "source_image_path": "episodes/EP003/panels/assets/p3-3.webp",
+      "final_image_path": "episodes/EP003/panels/final/p3-3.svg",
+      "canonical_signature": "8663cc2126598ad18fc3a265ee29ae474df00571a669f276b4d3afc0e24634cf",
+      "source_sha256": "53582ceeb18393d08303d9bb4f8aae1738ec8a3357a746f393cc3bdbb6850443",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "주희",
+          "text": "네 안경은 무엇을 보여주느냐?",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-4",
+      "page_number": 3,
+      "source_image_path": "episodes/EP003/panels/assets/p3-4.webp",
+      "final_image_path": "episodes/EP003/panels/final/p3-4.svg",
+      "canonical_signature": "e8f058ca097b3f753d924a42c0eb620050acff1fc906da82cd5d159f8b1765a7",
+      "source_sha256": "55f5b2fee768f007fc61aee71d0cadcf7fdb157e4f800246b06d2ac347d18e42",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "narration",
+          "speaker": "",
+          "text": "NPC치고는... 너무 진짜 같다.",
+          "box": {
+            "x": 0.1,
+            "y": 0.08,
+            "w": 0.8,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-1",
+      "page_number": 4,
+      "source_image_path": "episodes/EP003/panels/assets/p4-1.webp",
+      "final_image_path": "episodes/EP003/panels/final/p4-1.svg",
+      "canonical_signature": "dc765a2dfb2c05dcd4695dd485ee5c3d1bd30cff9d2e76217bedd6f70bb56d60",
+      "source_sha256": "6ab41bd0fe52c7866fa3df5408ef8d5f2bdaeee7f87f20dee9cf9653f0c75c15",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "주희",
+          "text": "이것이 안정기(安定期)다. 태양이 규칙적으로 뜰 때를 말하지. 지금은 그 시작을 기다리고 있다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-2",
+      "page_number": 4,
+      "source_image_path": "episodes/EP003/panels/assets/p4-2.webp",
+      "final_image_path": "episodes/EP003/panels/final/p4-2.svg",
+      "canonical_signature": "ba22e14506231adf9753ed24fc9decc018479f7b88afffde4a5a2401d8176ed9",
+      "source_sha256": "c059f3cc22ca81ec2e3cce1463e6328c3af0dc4043e20d22de43bd2f04c7fd9d",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "주희",
+          "text": "난세(亂世)가 오면, 모든 것이 끝난다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-3",
+      "page_number": 4,
+      "source_image_path": "episodes/EP003/panels/assets/p4-3.webp",
+      "final_image_path": "episodes/EP003/panels/final/p4-3.svg",
+      "canonical_signature": "bc1d0ffb30e430341e78db6ff0334adbd86a171c80360796374f2506851e6480",
+      "source_sha256": "72ae440f25c2654b356a8364a49e402b7a16be68936b4212c9f6889bd2eaf947",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p5-1",
+      "page_number": 5,
+      "source_image_path": "episodes/EP003/panels/assets/p5-1.webp",
+      "final_image_path": "episodes/EP003/panels/final/p5-1.svg",
+      "canonical_signature": "99280f480b0aec5d6ccfd44788384e00aa1c3584b2ad43ecb9c20ba332a4252d",
+      "source_sha256": "aedfae26395da59700a88c7a3905e3a569b52d748ae585ed6ef5c96306346c71",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "narration",
+          "speaker": "",
+          "text": "중력이... 일정하지 않아. 상수가 아니야.",
+          "box": {
+            "x": 0.1,
+            "y": 0.08,
+            "w": 0.8,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-2",
+      "page_number": 5,
+      "source_image_path": "episodes/EP003/panels/assets/p5-2.webp",
+      "final_image_path": "episodes/EP003/panels/final/p5-2.svg",
+      "canonical_signature": "ebc30250e17e64c9dc465fe646f0ac1e8f4b99185c9bfca8bd002fbc7d2a91f7",
+      "source_sha256": "ef64884b1f846109f7a916df87f96e31a70d4c4a8b0a16e8d3e86551d93d1b3f",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p5-3",
+      "page_number": 5,
+      "source_image_path": "episodes/EP003/panels/assets/p5-3.webp",
+      "final_image_path": "episodes/EP003/panels/final/p5-3.svg",
+      "canonical_signature": "aecc06d69ffa78321eaa4aee2e6ecb785b711c725bf40418aa9394fdca37fc3e",
+      "source_sha256": "a0cb5c69de69b3522bafad92d7d5316f022b9405648a893a7d3716f4aeeaa78a",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p5-4",
+      "page_number": 5,
+      "source_image_path": "episodes/EP003/panels/assets/p5-4.webp",
+      "final_image_path": "episodes/EP003/panels/final/p5-4.svg",
+      "canonical_signature": "d4a4dad49e7f9e421dad94704bb8ebf0bda0284baf24601b4054150285911949",
+      "source_sha256": "a0c31e2c6e7d45cfaf426da0ae2d03fae668dd621e2e71c5717e2b60ba29946e",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "상구",
+          "text": "안정기가 오고 있습니다! 두 태양의 궤도가 접근하고 있습니다!",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p6-1",
+      "page_number": 6,
+      "source_image_path": "episodes/EP003/panels/assets/p6-1.webp",
+      "final_image_path": "episodes/EP003/panels/final/p6-1.svg",
+      "canonical_signature": "01c641b23f40bd79421e5a0abf82e64e817b3b36ececa3bd978d435b7db4e336",
+      "source_sha256": "419834494c4853275e02550412acc2fb0e3d47d846ce5d36b4fed59cdff4fb89",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "태양이... 둘이야?",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p6-2",
+      "page_number": 6,
+      "source_image_path": "episodes/EP003/panels/assets/p6-2.webp",
+      "final_image_path": "episodes/EP003/panels/final/p6-2.svg",
+      "canonical_signature": "ed6e3038a51fa69592b66a912ba89da50f5a770be1b7af63f335d06d95a7be5a",
+      "source_sha256": "feaac96b98f9b16657fe40f98227933c307d2e274bb0bd9914daaa72e36d40d3",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p6-3",
+      "page_number": 6,
+      "source_image_path": "episodes/EP003/panels/assets/p6-3.webp",
+      "final_image_path": "episodes/EP003/panels/final/p6-3.svg",
+      "canonical_signature": "6fcf2e0adf08cc07ba25f887f48b7584575389f3ee146ba00b549960ccd28768",
+      "source_sha256": "56b0ad116be436c52a9a2fbb399c1a5e12d33d8f453de0ad3087bebdcdb36545",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "주희",
+          "text": "보아라! 하늘이 우리를 받아들였다!",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p6-4",
+      "page_number": 6,
+      "source_image_path": "episodes/EP003/panels/assets/p6-4.webp",
+      "final_image_path": "episodes/EP003/panels/final/p6-4.svg",
+      "canonical_signature": "6069f3866d6fa1bdb79c10580b3452ca97c07f1abc9ba068a93c7b2a78b375c4",
+      "source_sha256": "6204c009f3a85c0f1c77d75571ecc5d5167bd06b11b257f3e55f3e8c36c351c4",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "narration",
+          "speaker": "",
+          "text": "이건... 아름답다.",
+          "box": {
+            "x": 0.1,
+            "y": 0.08,
+            "w": 0.8,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-1",
+      "page_number": 7,
+      "source_image_path": "episodes/EP003/panels/assets/p7-1.webp",
+      "final_image_path": "episodes/EP003/panels/final/p7-1.svg",
+      "canonical_signature": "6632fdeabcdb3be95885922efe86d9b2d064fc136cbae9fd49b0c0533e06255c",
+      "source_sha256": "c7782e3025be270ec30aede711b8df95465e8927b78474e28a748993e1add4b7",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "안정기. 문명이 살아남은 기적의 날.",
+          "box": {
+            "x": 0.12,
+            "y": 0.06,
+            "w": 0.76,
+            "h": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p8-1",
+      "page_number": 8,
+      "source_image_path": "episodes/EP003/panels/assets/p8-1.webp",
+      "final_image_path": "episodes/EP003/panels/final/p8-1.svg",
+      "canonical_signature": "730e43a65c19f482da5eef6b34e13aaa790267f833140eea85de78df94d8aff9",
+      "source_sha256": "7dbab3f5330406c799b17e7f46c04f908f0fb8f4621d08bce7c2fbb07d127734",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "상구",
+          "text": "이런... 안 돼...",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p8-2",
+      "page_number": 8,
+      "source_image_path": "episodes/EP003/panels/assets/p8-2.webp",
+      "final_image_path": "episodes/EP003/panels/final/p8-2.svg",
+      "canonical_signature": "9c04964a1f6a1479f47491c028d46f0a6b0e69d449c794c44c7a6a2f2bbd1dbc",
+      "source_sha256": "5334291a5003e9f6745787b8b7c4bc7576fcb14c3a31206ae5351eb3f0d51977",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p8-3",
+      "page_number": 8,
+      "source_image_path": "episodes/EP003/panels/assets/p8-3.webp",
+      "final_image_path": "episodes/EP003/panels/final/p8-3.svg",
+      "canonical_signature": "62981af830e9e5cfa973e13673bde195334eb49014af569e9d7589370233cfcf",
+      "source_sha256": "1306a688a89b08629ae5f2b7d4344c0c0bbc99f8be5f92bfae0afdc530dbd464",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "상구",
+          "text": "...대왕. 두 태양의 궤도가... 예측선에서 벗어나고 있습니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p8-4",
+      "page_number": 8,
+      "source_image_path": "episodes/EP003/panels/assets/p8-4.webp",
+      "final_image_path": "episodes/EP003/panels/final/p8-4.svg",
+      "canonical_signature": "cc0414c6603f29667622e0eaa2dad051b7dbb6a10e150ddaa005b30b942fb0f5",
+      "source_sha256": "90f304707f1bffab0c5b47ce34e8316741d72fbfdea73a1bb97e1590c9fe388a",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "주희",
+          "text": "얼마나.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p9-1",
+      "page_number": 9,
+      "source_image_path": "episodes/EP003/panels/assets/p9-1.webp",
+      "final_image_path": "episodes/EP003/panels/final/p9-1.svg",
+      "canonical_signature": "31429ded71bf79b74851a5cd00a20bfe618d4ab8b00113cf882b10953dfce3c5",
+      "source_sha256": "70f23b75a494ae892849790d10391e7034ca2d254a14e07a7a7b66e172fe5c4e",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "상구",
+          "text": "예측이... 불가능합니다. 세 개의 천체가 서로의 중력을 —",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p9-2",
+      "page_number": 9,
+      "source_image_path": "episodes/EP003/panels/assets/p9-2.webp",
+      "final_image_path": "episodes/EP003/panels/final/p9-2.svg",
+      "canonical_signature": "b46ec698989b998b0c5fbdc2a83418fddd449caaaeb4a721382fd91fa0e5778d",
+      "source_sha256": "f84e39d4ce4da0de26f410582cc469ae16d4f0e9cc1d0dd80cbe113c5186a1ca",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "상구",
+          "text": " — 삼체문제(三體問題)입니다. 세 개의 태양이 서로의 궤도를 교란하고 있습니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p9-3",
+      "page_number": 9,
+      "source_image_path": "episodes/EP003/panels/assets/p9-3.webp",
+      "final_image_path": "episodes/EP003/panels/final/p9-3.svg",
+      "canonical_signature": "5526fb929eecad7ebc5f2fa7cbd6dd856c6630802514af0a48f3683d3cd8e102",
+      "source_sha256": "3859a0227184e119f4d0a8f2d51518970699b368e96c7f33c9552a0a95f49779",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p9-4",
+      "page_number": 9,
+      "source_image_path": "episodes/EP003/panels/assets/p9-4.webp",
+      "final_image_path": "episodes/EP003/panels/final/p9-4.svg",
+      "canonical_signature": "9b52705ff634cb1a35a0937482ef20f86de700454d07114e838d94a6e004203b",
+      "source_sha256": "a1fa8d453521b1559e627f715e1597c799a997d5d830907a517fc1fbc7852b66",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "세 번째...",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p10-1",
+      "page_number": 10,
+      "source_image_path": "episodes/EP003/panels/assets/p10-1.webp",
+      "final_image_path": "episodes/EP003/panels/final/p10-1.svg",
+      "canonical_signature": "9c7f0eae196da2733be0286ba10289f325728db434b345c05370b5eefb2a0312",
+      "source_sha256": "13fc81169d8ea20fa6558d5f4532302fa5acdc6f438a94d111e56fbbcab2489a",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p11-1",
+      "page_number": 11,
+      "source_image_path": "episodes/EP003/panels/assets/p11-1.webp",
+      "final_image_path": "episodes/EP003/panels/final/p11-1.svg",
+      "canonical_signature": "2bf23ef0c1c7e51d0372d7e2b76ca509fdcb86edeb899110fb70a82f55df7ed2",
+      "source_sha256": "91d1783259a9b705aba0953d8c21e3183398bf375bbb8a9cd09858ac0ae99d8e",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "narration",
+          "speaker": "",
+          "text": "계산은 멈춘다. 그냥... 봐야 한다.",
+          "box": {
+            "x": 0.1,
+            "y": 0.08,
+            "w": 0.8,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p11-2",
+      "page_number": 11,
+      "source_image_path": "episodes/EP003/panels/assets/p11-2.webp",
+      "final_image_path": "episodes/EP003/panels/final/p11-2.svg",
+      "canonical_signature": "0e52e616972e95f6328a25e765bc433990e4e3e198acbee10352dbfec5ecec4c",
+      "source_sha256": "5efd30d83da07c017296ec152fb0b8c8fcdb869bf8c6cf13c9a8ef5815128d62",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p11-3",
+      "page_number": 11,
+      "source_image_path": "episodes/EP003/panels/assets/p11-3.webp",
+      "final_image_path": "episodes/EP003/panels/final/p11-3.svg",
+      "canonical_signature": "f7fadb082f525e34bc5189dd53fbc18f390d85b1552ab4440255c551b308b38d",
+      "source_sha256": "6bd9ee84082ed7a8e374d40356131809caa1d99dd52fc5ea492c4cac57c941d5",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p12-1",
+      "page_number": 12,
+      "source_image_path": "episodes/EP003/panels/assets/p12-1.webp",
+      "final_image_path": "episodes/EP003/panels/final/p12-1.svg",
+      "canonical_signature": "6b8d17551aba8193c6566a8cf0a0e822c2adf33ecac13110e53410c6ae545c91",
+      "source_sha256": "2a41f6d660ba72526085cb8d59ac113b5e3c808acc6c1763e85561aecedb1195",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "주희",
+          "text": "기록만이 살아남는다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p13-1",
+      "page_number": 13,
+      "source_image_path": "episodes/EP003/panels/assets/p13-1.webp",
+      "final_image_path": "episodes/EP003/panels/final/p13-1.svg",
+      "canonical_signature": "284787b17e5b029902688197d1eba61a41149625547454aa597cf8cecd0ea019",
+      "source_sha256": "89ab64a11c8ad4d7cbf6d361f95b476cd51bf9b89a4da3af4b840ec90ed93666",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "sfx",
+          "speaker": "",
+          "text": "끼이이익— 콰과과괵",
+          "box": {
+            "x": 0.18,
+            "y": 0.34,
+            "w": 0.64,
+            "h": 0.18
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p13-2",
+      "page_number": 13,
+      "source_image_path": "episodes/EP003/panels/assets/p13-2.webp",
+      "final_image_path": "episodes/EP003/panels/final/p13-2.svg",
+      "canonical_signature": "4b2ea189db44ddb15f0545b5a67389da51976bfb7fd6468c6af5bab48dad8693",
+      "source_sha256": "bc087e80ee3a8847954f4a42a0e0565ce8190d93d29e38b58353944238c083b7",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "sfx",
+          "speaker": "",
+          "text": "츄아아아앗",
+          "box": {
+            "x": 0.18,
+            "y": 0.34,
+            "w": 0.64,
+            "h": 0.18
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p13-3",
+      "page_number": 13,
+      "source_image_path": "episodes/EP003/panels/assets/p13-3.webp",
+      "final_image_path": "episodes/EP003/panels/final/p13-3.svg",
+      "canonical_signature": "c49b4b46aeba9b21d11732d97c9b08f123f9085a09d7ea54332ed327aa4d3812",
+      "source_sha256": "0dfcdbcb57eb3031edd7bba4efea40906f8d2e78e584658f3183147a2f0e0717",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p13-4",
+      "page_number": 13,
+      "source_image_path": "episodes/EP003/panels/assets/p13-4.webp",
+      "final_image_path": "episodes/EP003/panels/final/p13-4.svg",
+      "canonical_signature": "8482d0d3999282aba4c4fa560818264e9abbf6bab41d04c50d48cd70a47ca5d2",
+      "source_sha256": "1566f8d6ad8312043da95fc7b358920b9add72f131d31885827477fe78ee2159",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "narration",
+          "speaker": "",
+          "text": "이건... 게임이...",
+          "box": {
+            "x": 0.1,
+            "y": 0.08,
+            "w": 0.8,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p14-1",
+      "page_number": 14,
+      "source_image_path": "episodes/EP003/panels/assets/p14-1.webp",
+      "final_image_path": "episodes/EP003/panels/final/p14-1.svg",
+      "canonical_signature": "121b8fcd515b8172238cc0334e3f1d8366c28ec4b35d60715c14ce502767bca7",
+      "source_sha256": "2ee701219280319eb2e69bc552ded4a746285109c9facde158794971bf8108a8",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p14-2",
+      "page_number": 14,
+      "source_image_path": "episodes/EP003/panels/assets/p14-2.webp",
+      "final_image_path": "episodes/EP003/panels/final/p14-2.svg",
+      "canonical_signature": "2671e56364dc339ce4ed0141cbdd764bb48094b57b3d4797a4d7d8d8a7aa83bf",
+      "source_sha256": "2398e4dae363e57c8866e4733fc9c1b801161c9bfee433f44c0b653583ceaceb",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "...하아... 하아...",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p14-3",
+      "page_number": 14,
+      "source_image_path": "episodes/EP003/panels/assets/p14-3.webp",
+      "final_image_path": "episodes/EP003/panels/final/p14-3.svg",
+      "canonical_signature": "42edcc424670ed96ba365d85492a11f8e5c172707c0cd5aa356511da59d5dbf1",
+      "source_sha256": "7e81420240242b2f106916e1b207dc50dfdab77748edb3b694cb82c9d03547f6",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "screen",
+          "speaker": "",
+          "text": "게임 종료 — 문명 멸망",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        },
+        {
+          "kind": "screen",
+          "speaker": "",
+          "text": "관측자: 왕먀오 / 체감 시간: 3시간 47분",
+          "box": {
+            "x": 0.08,
+            "y": 0.2,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p15-1",
+      "page_number": 15,
+      "source_image_path": "episodes/EP003/panels/assets/p15-1.webp",
+      "final_image_path": "episodes/EP003/panels/final/p15-1.svg",
+      "canonical_signature": "1168e64e4860aa5fd0a7da6187c308d8ef6e3187fa43d8518463e67698c1eed7",
+      "source_sha256": "35a5baf779ac9dd945182d93a02b8000133083af12eff9b759b8e229f0e5237b",
+      "text_layout": "caption_strip",
+      "status": "approved",
+      "notes": "Codex 시각·텍스트 검수 완료. 장면별 갤러리, 정본 대사 대조 및 390/1440px 실제 뷰어 검증. 사람의 Release Approval과 별도.",
+      "overlays": [
+        {
+          "kind": "screen",
+          "speaker": "",
+          "text": "1197:32:08",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "...이건 게임이 아니야.",
+          "box": {
+            "x": 0.08,
+            "y": 0.2,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    }
+  ]
+}

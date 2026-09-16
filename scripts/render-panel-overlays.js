@@ -20,6 +20,16 @@ function parseArgs(argv) {
 
 function pngSize(filePath) {
   const buffer = fs.readFileSync(filePath);
+  if (buffer.toString('ascii', 0, 4) === 'RIFF' && buffer.toString('ascii', 8, 12) === 'WEBP') {
+    const type = buffer.toString('ascii', 12, 16);
+    if (type === 'VP8X') return { width: buffer.readUIntLE(24, 3) + 1, height: buffer.readUIntLE(27, 3) + 1 };
+    if (type === 'VP8 ') return { width: buffer.readUInt16LE(26) & 0x3fff, height: buffer.readUInt16LE(28) & 0x3fff };
+    if (type === 'VP8L') {
+      const bits = buffer.readUInt32LE(21);
+      return { width: (bits & 0x3fff) + 1, height: ((bits >>> 14) & 0x3fff) + 1 };
+    }
+    throw new Error(`unsupported WebP: ${filePath}`);
+  }
   if (buffer.toString('ascii', 1, 4) !== 'PNG') {
     throw new Error(`not a PNG: ${filePath}`);
   }
@@ -76,7 +86,7 @@ function overlaySvg(overlay, width, height) {
           ? Math.round(height * 0.038)
           : Math.round(height * 0.024);
   const maxChars = Math.max(6, Math.floor(w / (fontSize * 0.72)));
-  const lines = wrapText(overlay.text, maxChars).slice(0, 4);
+  const lines = wrapText(overlay.text, maxChars);
   const lineHeight = Math.round(fontSize * 1.35);
   const textY = y + Math.round((h - lineHeight * lines.length) / 2) + fontSize;
   const textOnly = ['note', 'sfx', 'title'].includes(overlay.kind);
@@ -121,13 +131,26 @@ function overlaySvg(overlay, width, height) {
 }
 
 function renderPanel(rootDir, panel, options = {}) {
+  if (panel.status === 'needs_review') return false;
   const sourcePath = path.join(rootDir, panel.source_image_path);
   if (!fs.existsSync(sourcePath)) return false;
   const outputPath = path.join(rootDir, panel.final_image_path);
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });
   const size = pngSize(sourcePath);
+  const mime = path.extname(sourcePath).toLowerCase() === '.webp' ? 'image/webp' : 'image/png';
+  if (panel.text_layout === 'caption_strip') {
+    const fontSize = Math.round(size.width * 0.027);
+    const lineHeight = Math.round(fontSize * 1.5);
+    const rows = (panel.overlays || []).flatMap(o => wrapText(`${o.speaker ? o.speaker + ': ' : ''}${o.text}`, 32));
+    const footerHeight = rows.length ? rows.length * lineHeight + fontSize * 2 : 0;
+    const fullHeight = size.height + footerHeight;
+    const href = options.embedSource ? `data:${mime};base64,${fs.readFileSync(sourcePath).toString('base64')}` : path.relative(path.dirname(outputPath), sourcePath).split(path.sep).join('/');
+    const text = rows.map((row, i) => `<text x="${fontSize}" y="${size.height + fontSize * 1.7 + i * lineHeight}" font-family="'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="${fontSize}" fill="#f6f0e5">${escapeXml(row)}</text>`).join('\n');
+    fs.writeFileSync(outputPath, `<svg xmlns="http://www.w3.org/2000/svg" width="${size.width}" height="${fullHeight}" viewBox="0 0 ${size.width} ${fullHeight}"><rect width="100%" height="100%" fill="#11151c"/><image href="${escapeXml(href)}" width="${size.width}" height="${size.height}"/>${text}</svg>\n`);
+    return true;
+  }
   const href = options.embedSource
-    ? `data:image/png;base64,${fs.readFileSync(sourcePath).toString('base64')}`
+    ? `data:${mime};base64,${fs.readFileSync(sourcePath).toString('base64')}`
     : path.relative(path.dirname(outputPath), sourcePath).split(path.sep).join('/');
   const overlays = (panel.overlays || []).map((overlay) => overlaySvg(overlay, size.width, size.height)).join('\n');
   const overlayBlock = overlays ? `\n  ${overlays}` : '';

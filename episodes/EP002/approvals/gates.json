@@ -33,7 +33,7 @@
         "episodes/EP002/characters/characters.json",
         "reports/CLE3-EP002-PAGE-MAPPING-DECISION-20260915.md"
       ],
-      "notes": "Phase 완료 기록은 있으나 명시적 사람 승인 레코드가 없어 provisional로 표시한다."
+      "notes": "전체 완결 요청에 따라 제작 및 QA 완료. 사람 승인으로 추정하지 않음."
     },
     {
       "id": "storyboard-lock",
@@ -47,18 +47,22 @@
         "episodes/EP002/storyboard/storyboard.json",
         "reports/CLE3-EP002-PAGE-MAPPING-DECISION-20260915.md"
       ],
-      "notes": "Phase 완료 기록은 있으나 명시적 사람 승인 레코드가 없어 provisional로 표시한다."
+      "notes": "전체 완결 요청에 따라 제작 및 QA 완료. 사람 승인으로 추정하지 않음."
     },
     {
       "id": "release",
       "label": "Release Approval",
       "phase": "phase6",
-      "status": "pending",
-      "blocking": true,
-      "approved_by": null,
-      "approved_at": null,
-      "evidence": [],
-      "notes": "Phase 5 QA 통과 후 사람이 공개 가치를 최종 승인한다."
+      "status": "approved",
+      "blocking": false,
+      "approved_by": "현재 CLE3 운영자(사용자)",
+      "approved_at": "2026-09-16T08:40:36.588403+00:00",
+      "evidence": [
+        "episodes/EP002/qa/qa.json",
+        "reports/CLE3-SEASON-BROWSER-QA.json",
+        "reports/CLE3-SEASON-RELEASE-AUTHORIZATION-20260916.md"
+      ],
+      "notes": "사용자 “공개 승인 함”. 전 5화 완결본의 Pages 공개 및 필요한 main 병합·배포 승인."
     }
   ]
 }

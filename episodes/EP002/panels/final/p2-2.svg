@@ -1,7 +1,2 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="953" height="1650" viewBox="0 0 953 1650">
-  <image href="../assets/p2-2.png" x="0" y="0" width="953" height="1650" />
-  <g class="overlay overlay-dialogue">
-    <rect x="76" y="99" width="496" height="198" rx="28" fill="#ffffff" fill-opacity="0.96" stroke="#111111" stroke-width="4" />
-    <text text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="40" font-weight="700" fill="#111111"><tspan x="324" y="130">왕먀오: &quot;물리학은 정밀한</tspan><tspan x="324" y="184">학문이야. 오차는 있어도 거짓은</tspan><tspan x="324" y="238">없지.&quot; ★Theme</tspan><tspan x="324" y="292">Stated</tspan></text>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="953" height="1780" viewBox="0 0 953 1780"><rect width="100%" height="100%" fill="#11151c"/><image href="../assets/p2-2.webp" width="953" height="1650"/><text x="26" y="1694.2" font-family="'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="26" fill="#f6f0e5">연구원: 교수님은 현미경으로 보시면 커피 찌꺼기에서도 논문</text>
+<text x="26" y="1733.2" font-family="'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="26" fill="#f6f0e5">찾으실 것 같아요.</text></svg>

@@ -1,0 +1,24 @@
+{
+  "episode_id": "EP002",
+  "panel_id": "p7-1",
+  "asset": "episodes/EP002/panels/assets/p7-1.webp",
+  "model": "gpt-image-2",
+  "repairs": [
+    {
+      "before": ".candidates/EP002/p7-1/completion-repair/before.png",
+      "candidate": ".candidates/EP002/p7-1/completion-repair/after-01.png",
+      "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective. Edit the first supplied comic panel. Preserve its composition, camera, identity, lighting and story except the precise correction requested here. Correct the child crayon drawing: it depicts exactly THREE family members, one father with glasses, one mother, and ONE small girl with pigtails in a pink dress. Remove the extra boy. Preserve the paper, house, sun, hand, background and everything outside the drawing. Return one finished panel, no comparison sheet.",
+      "references": [
+        "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP002/panels/assets/p7-1.png"
+      ],
+      "generated_at": "2026-09-15T19:01:44.122530+00:00",
+      "sha256": "b509ba5ebd8b2cae89a6e4dabe0fa2f820890347c89e3610fc863e8bd64b99ab"
+    }
+  ],
+  "visual_qa": "passed",
+  "sha256": "b509ba5ebd8b2cae89a6e4dabe0fa2f820890347c89e3610fc863e8bd64b99ab",
+  "delivery_sha256": "dc9cd9cfbe7922c541f2b3204a2c7c48724e405720be732f71f18f55ab9935ed",
+  "source_sha256": "b509ba5ebd8b2cae89a6e4dabe0fa2f820890347c89e3610fc863e8bd64b99ab",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP002/qa/qa.json"
+}

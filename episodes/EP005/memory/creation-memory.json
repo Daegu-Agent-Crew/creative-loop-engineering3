@@ -93,23 +93,19 @@
     }
   ],
   "handoff": {
-    "current_goal": "EP005 별의 바다의 phase1_story 창작 작업을 이어간다.",
-    "current_phase": "phase1_story",
+    "current_goal": "승인된 전체 시즌의 Pages 배포 및 실제 URL 검증",
+    "current_phase": "phase6_release",
     "target_panel_id": null,
     "completed": [
-      "phase0 완료",
-      "phase0.5 완료",
-      "phase1 완료"
+      "45컷 생성·교정·조판 완료",
+      "Phase 5 QA 44/50",
+      "전체 시즌 오프라인 뷰어 완성"
     ],
     "next_actions": [
-      "현재 스토리에서 캐릭터, 세계관, 시각 기준 자산을 추출하고 버전을 부여한다.",
-      "Character/World/Visual Bible을 만든 뒤 다음 Phase 입력으로 고정한다.",
-      "다음 창작 작업 전에 Creation Context Pack을 생성한다."
+      "전체 시즌 배포 성공과 실제 URL을 확인한다.",
+      "새 요청 없이 완료된 패널 제작을 재시작하지 않는다."
     ],
     "blockers": [],
-    "human_decisions": [
-      "완료 Phase의 provisional gate를 공식 승인할지 결정",
-      "Phase 5 통과 후 공개 여부 결정"
-    ]
+    "human_decisions": []
   }
 }

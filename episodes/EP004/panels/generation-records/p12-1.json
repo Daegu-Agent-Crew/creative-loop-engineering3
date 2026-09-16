@@ -1,0 +1,21 @@
+{
+  "panel_id": "p12-1",
+  "episode_id": "EP004",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-548b02ce-61ef-4a21-b3f8-6e2a403c0c08.png",
+  "candidate": ".candidates/EP004/p12-1/iteration-01/p12-1-v01.png",
+  "asset": "episodes/EP004/panels/assets/p12-1.webp",
+  "sha256": "2d7f460afc67486063febd1c58546710f88210fd357e95f85b69cbfbb6244d27",
+  "generated_at": "2026-09-15T15:29:52.519166+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, distinctive 1980s Akira Toriyama manga aesthetic. Create ONE finished landscape 1536x1024 comic panel, NOT a character sheet. Alien civilization world, grey-purple ruins, ochre sand, stone cairns. Sky state strictly follow scene. Never use modern laboratory. \nSCENE: 멸망 후. 잿빛. 기록자가 마지막 돌을 새기고 있다. (blank area for later overlay). 새김도구의 소리가 페이지에 선으로 표현됨.\nVisible named cast: 기록자. Character sheets are identity references ONLY; never copy their backgrounds. Wang Miao always wears pale blue-grey shirt and dark trousers. All lettering and exact digits will be added later: NO readable text, numbers, symbols, balloons, captions or watermark in generated artwork. Clean coherent anatomy, strong ink composition, no extra characters or alien creatures. Non-graphic disaster where described.",
+  "references": [
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP004/characters/assets/recorder-v1.png"
+  ],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "224072ec7274c7ee6f83148c2c8f62802e02f0576616ace63d9efd25ac63299a",
+  "source_sha256": "2d7f460afc67486063febd1c58546710f88210fd357e95f85b69cbfbb6244d27",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP004/qa/qa.json"
+}

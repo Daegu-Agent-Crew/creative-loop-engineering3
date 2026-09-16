@@ -1,0 +1,23 @@
+{
+  "panel_id": "p12-1",
+  "episode_id": "EP005",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-1756cdc3-ce02-47d2-9f63-00cb6d413d97.png",
+  "candidate": ".candidates/EP005/p12-1/iteration-01/p12-1-v01.png",
+  "asset": "episodes/EP005/panels/assets/p12-1.webp",
+  "sha256": "9427c2a6da5742b1b3086e0f03589b53e1f19549c9031f93fee628c163a5449c",
+  "generated_at": "2026-09-15T16:19:47.028568+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, distinctive 1980s Akira Toriyama manga aesthetic. Create ONE finished landscape 1536x1024 comic panel, NOT a character sheet. Beijing present-day ordinary apartment, or 1967 radio station in flashbacks pages 4–6. Cel shading throughout, no watercolor.\nSCENE: 풀 스프레드. 청신의 아파트. 석양이 지고 있다. 빈 의자 — 청신이 잠시 자리를 비웠음. 테이블 위 사진(젊은 예원제와 라오충), 찻잔(김이 사라짐). 왕먀오가 창가에 서서 밖을 봄. 커튼이 바람에 흔들림.\nVisible named cast: 왕먀오, 예원제, 청신. Character sheets are identity references ONLY; never copy their backgrounds. Wang Miao always wears pale blue-grey shirt and dark trousers. All lettering and exact digits will be added later: NO readable text, numbers, symbols, balloons, captions or watermark in generated artwork. Clean coherent anatomy, strong ink composition, no extra characters or alien creatures. Non-graphic disaster where described.",
+  "references": [
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP001/characters/assets/wangmiao-v1.png",
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP001/characters/assets/yewenjie-v1.png",
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP001/characters/assets/chengxin-v1.png"
+  ],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "1bb6d4a7c1c3c81f3e9a265757e49adbed754a68845d1a0b1bc0f5147b5ce01e",
+  "source_sha256": "9427c2a6da5742b1b3086e0f03589b53e1f19549c9031f93fee628c163a5449c",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP005/qa/qa.json"
+}

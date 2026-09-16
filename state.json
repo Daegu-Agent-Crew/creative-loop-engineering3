@@ -1,6 +1,6 @@
 {
-  "current_episode": "EP002",
-  "current_phase": "phase4_panels",
+  "current_episode": "EP005",
+  "current_phase": "phase6_release",
   "episodes": {
     "EP001": {
       "title": "태초의 밤",
@@ -59,8 +59,8 @@
     },
     "EP002": {
       "title": "카운트다운",
-      "status": "in_progress",
-      "current_phase": "phase4_panels",
+      "status": "release_approved",
+      "current_phase": "phase6_release",
       "phases": {
         "phase0": {
           "status": "completed",
@@ -74,7 +74,7 @@
           "status": "completed",
           "score": null,
           "prompt_version": "v3-4step",
-          "note": "V3 워크플로우로 재작성. 15p. analysis→outline→scenes→script 4단계 완료.",
+          "note": "기존 script.json 16장면과 16페이지·57컷 정본을 일치시킴. 예전 15페이지 원고는 archive에 보존.",
           "sub_files": [
             "story/analysis.md",
             "story/outline.md",
@@ -85,31 +85,35 @@
         "phase2": {
           "status": "completed",
           "prompt_version": "v2-toriyama",
-          "note": "캐릭터 참조 자산과 EP001 재사용 참조 기준으로 패널 생성 준비 완료."
+          "note": "캐릭터 명세와 참조 시트 준비·실제 생성 적용 완료. 사람 잠금 승인은 추정하지 않음."
         },
         "phase3": {
           "status": "completed",
           "prompt_version": "v2-toriyama-internal",
-          "note": "storyboard 16p, script 15p — 페이지 수 불일치 보존 중. 다음 rebaseline 시 정리."
+          "note": "정본 패널 대본과 콘티 57컷 일치. 2026-09-15 전체 완결 요청에 따라 기준선 정리."
         },
         "phase4": {
-          "status": "active",
+          "status": "completed",
           "prompt_version": "v2-toriyama-internal",
-          "note": "매핑 결정 완료(콘티 16p 기준, reports/CLE3-EP002-PAGE-MAPPING-DECISION-20260915.md). 잔여 8칸(p11-2,p11-4,p12-4,p13-1,p13-2,p13-4,p14-2,p15-3) 생성 및 오버레이 needs_review 20건 정리 재개. text-overlays.json 진행 필요.",
+          "note": "57/57 실제 자산 및 시각 검수 완료. 원본·수정 후보 보존, 읽기용 WebP 최적화.",
           "last_decision": "ep002-page-mapping resolved 2026-09-15"
         },
         "phase5": {
-          "status": "pending"
+          "status": "completed",
+          "score": 43,
+          "prompt_version": "v4-season-final-20260916",
+          "note": "episodes/EP002/qa/qa.json 및 전체 뷰어 2종 폭 검증 통과."
         },
         "phase6": {
-          "status": "pending"
+          "status": "active",
+          "note": "사용자 공개 승인 완료. GitHub Pages 배포 및 실제 URL 검증 진행."
         }
       }
     },
     "EP003": {
       "title": "세 개의 태양",
-      "status": "in_progress",
-      "current_phase": "phase1_story",
+      "status": "release_approved",
+      "current_phase": "phase6_release",
       "phases": {
         "phase0": {
           "status": "completed",
@@ -132,26 +136,33 @@
           ]
         },
         "phase2": {
-          "status": "pending"
+          "status": "completed",
+          "note": "캐릭터 명세와 참조 시트 준비·실제 생성 적용 완료. 사람 잠금 승인은 추정하지 않음."
         },
         "phase3": {
-          "status": "pending"
+          "status": "completed",
+          "note": "정본 패널 대본과 콘티 44컷 일치. 2026-09-15 전체 완결 요청에 따라 기준선 정리."
         },
         "phase4": {
-          "status": "pending"
+          "status": "completed",
+          "note": "44/44 실제 자산 및 시각 검수 완료. 원본·수정 후보 보존, 읽기용 WebP 최적화."
         },
         "phase5": {
-          "status": "pending"
+          "status": "completed",
+          "score": 43,
+          "prompt_version": "v4-season-final-20260916",
+          "note": "episodes/EP003/qa/qa.json 및 전체 뷰어 2종 폭 검증 통과."
         },
         "phase6": {
-          "status": "pending"
+          "status": "active",
+          "note": "사용자 공개 승인 완료. GitHub Pages 배포 및 실제 URL 검증 진행."
         }
       }
     },
     "EP004": {
       "title": "문명의 역사",
-      "status": "in_progress",
-      "current_phase": "phase1_story",
+      "status": "release_approved",
+      "current_phase": "phase6_release",
       "phases": {
         "phase0": {
           "status": "completed",
@@ -174,26 +185,33 @@
           ]
         },
         "phase2": {
-          "status": "pending"
+          "status": "completed",
+          "note": "캐릭터 명세와 참조 시트 준비·실제 생성 적용 완료. 사람 잠금 승인은 추정하지 않음."
         },
         "phase3": {
-          "status": "pending"
+          "status": "completed",
+          "note": "정본 패널 대본과 콘티 43컷 일치. 2026-09-15 전체 완결 요청에 따라 기준선 정리."
         },
         "phase4": {
-          "status": "pending"
+          "status": "completed",
+          "note": "43/43 실제 자산 및 시각 검수 완료. 원본·수정 후보 보존, 읽기용 WebP 최적화."
         },
         "phase5": {
-          "status": "pending"
+          "status": "completed",
+          "score": 43,
+          "prompt_version": "v4-season-final-20260916",
+          "note": "episodes/EP004/qa/qa.json 및 전체 뷰어 2종 폭 검증 통과."
         },
         "phase6": {
-          "status": "pending"
+          "status": "active",
+          "note": "사용자 공개 승인 완료. GitHub Pages 배포 및 실제 URL 검증 진행."
         }
       }
     },
     "EP005": {
       "title": "별의 바다",
-      "status": "in_progress",
-      "current_phase": "phase1_story",
+      "status": "release_approved",
+      "current_phase": "phase6_release",
       "phases": {
         "phase0": {
           "status": "completed",
@@ -216,19 +234,26 @@
           ]
         },
         "phase2": {
-          "status": "pending"
+          "status": "completed",
+          "note": "캐릭터 명세와 참조 시트 준비·실제 생성 적용 완료. 사람 잠금 승인은 추정하지 않음."
         },
         "phase3": {
-          "status": "pending"
+          "status": "completed",
+          "note": "정본 패널 대본과 콘티 45컷 일치. 2026-09-15 전체 완결 요청에 따라 기준선 정리."
         },
         "phase4": {
-          "status": "pending"
+          "status": "completed",
+          "note": "45/45 실제 자산 및 시각 검수 완료. 원본·수정 후보 보존, 읽기용 WebP 최적화."
         },
         "phase5": {
-          "status": "pending"
+          "status": "completed",
+          "score": 44,
+          "prompt_version": "v4-season-final-20260916",
+          "note": "episodes/EP005/qa/qa.json 및 전체 뷰어 2종 폭 검증 통과."
         },
         "phase6": {
-          "status": "pending"
+          "status": "active",
+          "note": "사용자 공개 승인 완료. GitHub Pages 배포 및 실제 URL 검증 진행."
         }
       }
     }
@@ -261,5 +286,6 @@
       "previous_score": 45
     }
   ],
-  "last_updated": "2026-09-14T21:03:09.307673+00:00"
+  "last_updated": "2026-09-15T21:47:23.010Z",
+  "season_production_status": "complete"
 }

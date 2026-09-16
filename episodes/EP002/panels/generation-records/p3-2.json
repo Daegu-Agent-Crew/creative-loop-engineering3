@@ -1,0 +1,24 @@
+{
+  "episode_id": "EP002",
+  "panel_id": "p3-2",
+  "asset": "episodes/EP002/panels/assets/p3-2.webp",
+  "model": "gpt-image-2",
+  "repairs": [
+    {
+      "before": ".candidates/EP002/p3-2/completion-repair/before.png",
+      "candidate": ".candidates/EP002/p3-2/completion-repair/after-01.png",
+      "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective. Edit the first supplied comic panel. Preserve its composition, camera, identity, lighting and story except the precise correction requested here. Remove the entire erroneous top-left year/date label and every tiny caption or label attached to it. Reconstruct the underlying scene naturally. Remove empty speech balloons too. Return one finished panel, no comparison sheet.",
+      "references": [
+        "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP002/panels/assets/p3-2.png"
+      ],
+      "generated_at": "2026-09-15T18:56:16.402037+00:00",
+      "sha256": "6de96536fef9f735fdd0b33ef8eb8055da0a5b85197f9e19cd64ba002d5e8d9c"
+    }
+  ],
+  "visual_qa": "passed",
+  "sha256": "6de96536fef9f735fdd0b33ef8eb8055da0a5b85197f9e19cd64ba002d5e8d9c",
+  "delivery_sha256": "55f6473e23de8d5e4c084a0814dd159b81f5d7a6d483051d059215ceff78caa2",
+  "source_sha256": "6de96536fef9f735fdd0b33ef8eb8055da0a5b85197f9e19cd64ba002d5e8d9c",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP002/qa/qa.json"
+}

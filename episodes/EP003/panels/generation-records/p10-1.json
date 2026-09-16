@@ -1,0 +1,21 @@
+{
+  "panel_id": "p10-1",
+  "episode_id": "EP003",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-90501827-d5c1-48a4-a2cd-7babb1d75d3b.png",
+  "candidate": ".candidates/EP003/p10-1/iteration-01/p10-1-v01.png",
+  "asset": "episodes/EP003/panels/assets/p10-1.webp",
+  "sha256": "056afa9c842829a2867cc89e9a4ae435f6c6f7405ab4abc8aeda476330cce513",
+  "generated_at": "2026-09-15T17:25:49.369267+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective. Create one finished comic panel. Wide quiet view of adult scientist Wang Miao kneeling on a brown empty plain. Round spectacles and pale blue shirt. His finger rests beside unfinished geometric calculation lines drawn in the sand. He has paused to look at the orange-red horizon. Sole figure. No buildings. Portrait full page. Match the supplied character identity. No text, lettering, captions, logos, speech bubbles or inset scenes.",
+  "references": [
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP001/characters/assets/wangmiao-v1.png"
+  ],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "13fc81169d8ea20fa6558d5f4532302fa5acdc6f438a94d111e56fbbcab2489a",
+  "source_sha256": "056afa9c842829a2867cc89e9a4ae435f6c6f7405ab4abc8aeda476330cce513",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP003/qa/qa.json"
+}

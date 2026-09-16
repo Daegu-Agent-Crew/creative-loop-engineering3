@@ -1,0 +1,19 @@
+{
+  "panel_id": "p2-3",
+  "episode_id": "EP004",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-7471340b-e7af-4a61-be82-0617e2df56ca.png",
+  "candidate": ".candidates/EP004/p2-3/iteration-01/p2-3-v01.png",
+  "asset": "episodes/EP004/panels/assets/p2-3.webp",
+  "sha256": "7c6bf830610edff728fadeb839ae6fd0fbafa254e54ea582ae7cec4c1a36ab2a",
+  "generated_at": "2026-09-15T14:59:26.903346+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, distinctive 1980s Akira Toriyama manga aesthetic. Create ONE finished landscape 1536x1024 comic panel, NOT a character sheet. Alien civilization world, grey-purple ruins, ochre sand, stone cairns. Sky state strictly follow scene. Never use modern laboratory. \nSCENE: 소패널 3: 하늘에 태양 둘. 과학자들이 패닉. 그림자가 두 방향으로.\nVisible named cast: none. Character sheets are identity references ONLY; never copy their backgrounds. Wang Miao always wears pale blue-grey shirt and dark trousers. All lettering and exact digits will be added later: NO readable text, numbers, symbols, balloons, captions or watermark in generated artwork. Clean coherent anatomy, strong ink composition, no extra characters or alien creatures. Non-graphic disaster where described.",
+  "references": [],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "ce74c4de2a8626d08eb3ced209a9e1fe365c79d307b2620d3c761559f92cf7a4",
+  "source_sha256": "7c6bf830610edff728fadeb839ae6fd0fbafa254e54ea582ae7cec4c1a36ab2a",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP004/qa/qa.json"
+}

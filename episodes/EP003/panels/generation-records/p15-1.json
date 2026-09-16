@@ -1,0 +1,21 @@
+{
+  "panel_id": "p15-1",
+  "episode_id": "EP003",
+  "source": "/Users/chulhyunhwang/.codex/generated_images/01a0976d-5474-7c73-83c6-66df152030d0/exec-a84a3979-7e04-4cdc-8422-ac50254e297b.png",
+  "candidate": ".candidates/EP003/p15-1/iteration-01/p15-1-v01.png",
+  "asset": "episodes/EP003/panels/assets/p15-1.webp",
+  "sha256": "e586c81f02979997d312d59ad28644224c4d86fafade73ddb7700d80f88d4f7b",
+  "generated_at": "2026-09-15T14:54:25.936373+00:00",
+  "model": "gpt-image-2",
+  "prompt": "Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, distinctive 1980s Akira Toriyama manga aesthetic. Create ONE finished landscape 1536x1024 comic panel, NOT a character sheet. Return to ordinary night laboratory ONLY after p14-1. \nSCENE: 풀 페이지. 왕먀오의 안경 클로즈업. 왕먀오가 안경을 쓴 순간 — 렌즈 안에 카운트다운 숫자가 선명하게 비친다. 1197:32:08. 게임 접속 전보다 줄어든 숫자. 게임 안의 체감 시간과는 일치하지 않는다. 숫자 너머로 희미하게 — 세 개의 태양 잔상이 렌즈에 겹쳐 보인다. 왕먀오의 눈동자가 렌즈 너머로 보인다 — 동공이 확장되어 있다. 입이 미세하게 떨린다. 배경은 완전히 어두운 연구실 — 모니터의 미세한 빛만.\nVisible named cast: 왕먀오. Character sheets are identity references ONLY; never copy their backgrounds. Wang Miao always wears pale blue-grey shirt and dark trousers. All lettering and exact digits will be added later: NO readable text, numbers, symbols, balloons, captions or watermark in generated artwork. Clean coherent anatomy, strong ink composition, no extra characters or alien creatures. Non-graphic disaster where described.",
+  "references": [
+    "/Users/chulhyunhwang/Documents/New project/creative-loop-engineering3/episodes/EP001/characters/assets/wangmiao-v1.png"
+  ],
+  "status": "generated",
+  "visual_qa": "passed",
+  "preference_promotion": false,
+  "delivery_sha256": "35a5baf779ac9dd945182d93a02b8000133083af12eff9b759b8e229f0e5237b",
+  "source_sha256": "e586c81f02979997d312d59ad28644224c4d86fafade73ddb7700d80f88d4f7b",
+  "reviewed_at": "2026-09-15T21:36:29.434607+00:00",
+  "qa_evidence": "episodes/EP003/qa/qa.json"
+}
