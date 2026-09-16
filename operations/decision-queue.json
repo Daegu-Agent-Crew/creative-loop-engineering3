@@ -25,7 +25,8 @@
       "evidence": [
         "episodes/EP002/panels/MANIFEST.md",
         "episodes/EP002/decisions/implementation-notes.json"
-      ]
+      ],
+      "ttl_policy": "일반: 24h 무응답 시 기본안 진행 (CLE2 #76 정합)"
     },
     {
       "owner": "cle3-maintainer",
@@ -53,13 +54,15 @@
         "decision": "기존 16장면 JSON 대본과 콘티를 연결하고 불일치 Markdown 초안을 보존한다. QA와 release는 별도다.",
         "evidence": [
           "reports/CLE3-COMPLETION-AUTHORIZATION-20260915.md",
-          "episodes/EP002/script/panel-script.json"
+          "episodes/EP002/script/panel-script.json",
+          "reports/CLE3-EP002-PAGE-MAPPING-DECISION-20260915.md"
         ]
-      }
+      },
+      "ttl_policy": "rebaseline: 72h 무응답 시 기본안 진행 후 사후 승인"
     },
     {
       "owner": "cle3-maintainer",
-      "status": "pending",
+      "status": "resolved",
       "waiting_since": "2026-09-08T01:11:08Z",
       "waiting_since_basis": "tracking_started",
       "due_at": "2026-09-09T01:11:08Z",
@@ -72,11 +75,20 @@
       "source_path": "episodes/EP002/approvals/gates.json",
       "evidence": [
         "episodes/EP002/discovery/context.json"
-      ]
+      ],
+      "resolution": {
+        "decided_by": "agent:daeguru (TTL 기본안 — 현행 기준선 확정)",
+        "decided_at": "2026-09-15T11:10:00Z",
+        "decision": "provisional Story Lock을 현행 기준선으로 확정. script.md v3-4step 산출물 그대로.",
+        "evidence": [
+          "reports/CLE3-EP002-PAGE-MAPPING-DECISION-20260915.md"
+        ]
+      },
+      "ttl_policy": "일반: 24h 무응답 시 기본안 진행 (CLE2 #76 정합)"
     },
     {
       "owner": "cle3-maintainer",
-      "status": "pending",
+      "status": "resolved",
       "waiting_since": "2026-09-08T01:11:08Z",
       "waiting_since_basis": "tracking_started",
       "due_at": "2026-09-09T01:11:08Z",
@@ -89,11 +101,20 @@
       "source_path": "episodes/EP002/approvals/gates.json",
       "evidence": [
         "episodes/EP002/discovery/context.json"
-      ]
+      ],
+      "resolution": {
+        "decided_by": "agent:daeguru (TTL 기본안 — 현행 기준선 확정)",
+        "decided_at": "2026-09-15T11:10:00Z",
+        "decision": "provisional Character Lock을 현행 기준선으로 확정. EP001 성경(Bible) 기반 characters.json 그대로.",
+        "evidence": [
+          "reports/CLE3-EP002-PAGE-MAPPING-DECISION-20260915.md"
+        ]
+      },
+      "ttl_policy": "일반: 24h 무응답 시 기본안 진행 (CLE2 #76 정합)"
     },
     {
       "owner": "cle3-maintainer",
-      "status": "pending",
+      "status": "resolved",
       "waiting_since": "2026-09-08T01:11:08Z",
       "waiting_since_basis": "tracking_started",
       "due_at": "2026-09-09T01:11:08Z",
@@ -106,7 +127,16 @@
       "source_path": "episodes/EP002/approvals/gates.json",
       "evidence": [
         "episodes/EP002/discovery/context.json"
-      ]
+      ],
+      "resolution": {
+        "decided_by": "agent:daeguru (TTL 기본안 — 매핑 결정 후속)",
+        "decided_at": "2026-09-15T11:10:00Z",
+        "decision": "콘티 16p 기준 확정에 따라 Storyboard Lock 승인. script↔storyboard 매핑은 콘티 우선.",
+        "evidence": [
+          "reports/CLE3-EP002-PAGE-MAPPING-DECISION-20260915.md"
+        ]
+      },
+      "ttl_policy": "일반: 24h 무응답 시 기본안 진행 (CLE2 #76 정합)"
     },
     {
       "owner": "cle3-maintainer",
@@ -124,11 +154,12 @@
       "evidence": [
         "episodes/EP002/discovery/context.json"
       ],
-      "prerequisite": "phase5_completed"
+      "prerequisite": "phase5_completed",
+      "ttl_policy": "approval-critical: 무기한 대기 (사람 필수)"
     },
     {
       "owner": "cle3-maintainer",
-      "status": "pending",
+      "status": "resolved",
       "waiting_since": "2026-09-08T01:11:08Z",
       "waiting_since_basis": "tracking_started",
       "due_at": "2026-09-09T01:11:08Z",
@@ -140,11 +171,20 @@
       "source_path": "episodes/EP001/panels/convergence/pilot-001/p15-3.json",
       "evidence": [
         "episodes/EP001/panels/convergence/pilot-001/p15-3.json"
-      ]
+      ],
+      "resolution": {
+        "decided_by": "agent:daeguru (TTL 기본안 — overdue_action)",
+        "decided_at": "2026-09-15T11:10:00Z",
+        "decision": "기존 패널 유지. 동률 후보 선택·기억 승격·release 재판단 없음.",
+        "evidence": [
+          "reports/CLE3-EP002-PAGE-MAPPING-DECISION-20260915.md"
+        ]
+      },
+      "ttl_policy": "일반: 24h 무응답 시 기본안 진행 (CLE2 #76 정합)"
     },
     {
       "owner": "cle3-maintainer",
-      "status": "pending",
+      "status": "resolved",
       "waiting_since": "2026-09-08T01:11:08Z",
       "waiting_since_basis": "tracking_started",
       "due_at": "2026-09-09T01:11:08Z",
@@ -156,7 +196,16 @@
       "source_path": "episodes/EP001/panels/convergence/pilot-001/p6-1.json",
       "evidence": [
         "episodes/EP001/panels/convergence/pilot-001/p6-1.json"
-      ]
+      ],
+      "resolution": {
+        "decided_by": "agent:daeguru (TTL 기본안 — overdue_action)",
+        "decided_at": "2026-09-15T11:10:00Z",
+        "decision": "기존 패널 유지. 동률 후보 선택·기억 승격·release 재판단 없음.",
+        "evidence": [
+          "reports/CLE3-EP002-PAGE-MAPPING-DECISION-20260915.md"
+        ]
+      },
+      "ttl_policy": "일반: 24h 무응답 시 기본안 진행 (CLE2 #76 정합)"
     }
   ]
 }

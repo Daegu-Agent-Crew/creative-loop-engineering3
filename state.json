@@ -95,7 +95,8 @@
         "phase4": {
           "status": "completed",
           "prompt_version": "v2-toriyama-internal",
-          "note": "57/57 실제 자산 및 시각 검수 완료. 원본·수정 후보 보존, 읽기용 WebP 최적화."
+          "note": "57/57 실제 자산 및 시각 검수 완료. 원본·수정 후보 보존, 읽기용 WebP 최적화.",
+          "last_decision": "ep002-page-mapping resolved 2026-09-15"
         },
         "phase5": {
           "status": "completed",
