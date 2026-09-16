@@ -59,7 +59,7 @@
     },
     "EP002": {
       "title": "카운트다운",
-      "status": "release_approved",
+      "status": "completed",
       "current_phase": "phase6_release",
       "phases": {
         "phase0": {
@@ -105,14 +105,16 @@
           "note": "episodes/EP002/qa/qa.json 및 전체 뷰어 2종 폭 검증 통과."
         },
         "phase6": {
-          "status": "active",
-          "note": "사용자 공개 승인 완료. GitHub Pages 배포 및 실제 URL 검증 진행."
+          "status": "completed",
+          "note": "사용자 공개 승인 후 Pages 배포 성공. 실제 URL의 전 컷과 회차 이동 검증 통과.",
+          "pages_url": "https://daegu-agent-crew.github.io/creative-loop-engineering3/episodes/EP002/read.html",
+          "evidence": "reports/CLE3-SEASON-PUBLIC-QA.json"
         }
       }
     },
     "EP003": {
       "title": "세 개의 태양",
-      "status": "release_approved",
+      "status": "completed",
       "current_phase": "phase6_release",
       "phases": {
         "phase0": {
@@ -154,14 +156,16 @@
           "note": "episodes/EP003/qa/qa.json 및 전체 뷰어 2종 폭 검증 통과."
         },
         "phase6": {
-          "status": "active",
-          "note": "사용자 공개 승인 완료. GitHub Pages 배포 및 실제 URL 검증 진행."
+          "status": "completed",
+          "note": "사용자 공개 승인 후 Pages 배포 성공. 실제 URL의 전 컷과 회차 이동 검증 통과.",
+          "pages_url": "https://daegu-agent-crew.github.io/creative-loop-engineering3/episodes/EP003/read.html",
+          "evidence": "reports/CLE3-SEASON-PUBLIC-QA.json"
         }
       }
     },
     "EP004": {
       "title": "문명의 역사",
-      "status": "release_approved",
+      "status": "completed",
       "current_phase": "phase6_release",
       "phases": {
         "phase0": {
@@ -203,14 +207,16 @@
           "note": "episodes/EP004/qa/qa.json 및 전체 뷰어 2종 폭 검증 통과."
         },
         "phase6": {
-          "status": "active",
-          "note": "사용자 공개 승인 완료. GitHub Pages 배포 및 실제 URL 검증 진행."
+          "status": "completed",
+          "note": "사용자 공개 승인 후 Pages 배포 성공. 실제 URL의 전 컷과 회차 이동 검증 통과.",
+          "pages_url": "https://daegu-agent-crew.github.io/creative-loop-engineering3/episodes/EP004/read.html",
+          "evidence": "reports/CLE3-SEASON-PUBLIC-QA.json"
         }
       }
     },
     "EP005": {
       "title": "별의 바다",
-      "status": "release_approved",
+      "status": "completed",
       "current_phase": "phase6_release",
       "phases": {
         "phase0": {
@@ -252,8 +258,10 @@
           "note": "episodes/EP005/qa/qa.json 및 전체 뷰어 2종 폭 검증 통과."
         },
         "phase6": {
-          "status": "active",
-          "note": "사용자 공개 승인 완료. GitHub Pages 배포 및 실제 URL 검증 진행."
+          "status": "completed",
+          "note": "사용자 공개 승인 후 Pages 배포 성공. 실제 URL의 전 컷과 회차 이동 검증 통과.",
+          "pages_url": "https://daegu-agent-crew.github.io/creative-loop-engineering3/episodes/EP005/read.html",
+          "evidence": "reports/CLE3-SEASON-PUBLIC-QA.json"
         }
       }
     }
@@ -286,6 +294,8 @@
       "previous_score": 45
     }
   ],
-  "last_updated": "2026-09-15T21:47:23.010Z",
-  "season_production_status": "complete"
+  "last_updated": "2026-09-16T09:25:56.860804+00:00",
+  "season_production_status": "complete",
+  "season_release_status": "deployed",
+  "pages_url": "https://daegu-agent-crew.github.io/creative-loop-engineering3/"
 }

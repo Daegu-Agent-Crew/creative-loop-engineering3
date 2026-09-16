@@ -7,4 +7,4 @@
 - 읽기: reader/episodes/EP003/read.html
 - 전체 패키지: node scripts/build-season-reader.js → dist/season/index.html
 - 원본/교정 전 후보: .candidates/EP003/ (Git 제외)
-- 공개: 사용자 Release Approval 완료. Pages 배포 진행. 누락 컷 생성 재개 불필요.
+- 공개: 사용자 Release Approval 완료. Pages 배포·공개 검증 완료. 누락 컷 생성 재개 불필요.
