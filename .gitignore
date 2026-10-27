@@ -9,3 +9,5 @@ episodes/*/panels/next-generation-plan.json
 .DS_Store
 
 dist/
+reports/_ab0006_png/
+reports/_rt/
