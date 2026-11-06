@@ -1,5 +1,5 @@
 {
-  "current_episode": "EP005",
+  "current_episode": "EP006",
   "current_phase": "phase6_release",
   "episodes": {
     "EP001": {
@@ -264,6 +264,50 @@
           "evidence": "reports/CLE3-SEASON-PUBLIC-QA.json"
         }
       }
+    },
+    "EP006": {
+      "title": "버그 리포트",
+      "status": "in_progress",
+      "current_phase": "phase1_story",
+      "phases": {
+        "phase0": {
+          "status": "completed",
+          "score": null,
+          "note": "시즌2 각색안(PAAE 분석+스토리) 승인 자산 존재"
+        },
+        "phase0.5": {
+          "status": "completed",
+          "score": null,
+          "note": "EP001~005 성경·화풍(닥터슬럼프풍 STYLE_BLOCK) 계승"
+        },
+        "phase1": {
+          "status": "pending",
+          "score": null
+        },
+        "phase2": {
+          "status": "pending",
+          "score": null
+        },
+        "phase3": {
+          "status": "pending",
+          "score": null
+        },
+        "phase4": {
+          "status": "pending",
+          "score": null
+        },
+        "phase5": {
+          "status": "pending",
+          "score": null
+        },
+        "phase6": {
+          "status": "pending",
+          "score": null
+        }
+      },
+      "season": 2,
+      "source": "adaptations/season2-bug-report/season2-story.md",
+      "note": "2026-11-06 시즌2 착수 (회장님 지시: 결과물 제출 주기 개선). 스토리 원안은 adaptations/season2-bug-report — phase1에서 이를 EP006 대본으로 전개."
     }
   },
   "art_style": {

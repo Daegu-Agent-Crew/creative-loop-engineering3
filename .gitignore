@@ -13,3 +13,5 @@ reports/_ab0006_png/
 reports/_rt/
 reports/_sheet*-*.svg
 reports/_sheet*.svg
+reports/*.png
+reports/*.jpg
