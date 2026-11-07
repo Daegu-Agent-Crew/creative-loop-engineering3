@@ -1,0 +1,500 @@
+{
+  "episode_id": "EP006",
+  "prompt_version": "v5-single-source",
+  "source": "episodes/EP006/script/panel-script.json",
+  "pages": [
+    {
+      "page_number": 1,
+      "layout": "대본 패널 순서. 풀페이지",
+      "panels": [
+        {
+          "panel_id": "p1-1",
+          "description": "6대륙의 독립 관제실을 비추는 제네바의 여섯 모니터. 모든 파형에 같은 톱니 오차가 있다. 세계 지도 핀과 굳은 연구원들의 손. 연출: 첫눈에 동일 지문이 보이게 빨간 톱니만 반복. 얼굴은 둥근 실루엣, 손가락은 화면 앞에서 정지.",
+          "camera_angle": "풀페이지 광각·화면 속 화면",
+          "characters_in_frame": [],
+          "visual_type": "impact"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "layout": "대본 패널 순서. 가로 컷을 세로 순서로 읽는다.",
+      "panels": [
+        {
+          "panel_id": "p2-1",
+          "description": "왕먀오가 접은 연구 가운을 책상에 올린다. 안경 한쪽에 EP005 함대 돛의 잔상이 비친다. 연출: 어깨가 내려앉고 손끝이 소매를 과하게 반듯하게 편다. 잔상은 기억으로만.",
+          "camera_angle": "중경 후면→렌즈",
+          "characters_in_frame": [
+            "왕먀오"
+          ],
+          "visual_type": "silence"
+        },
+        {
+          "panel_id": "p2-2",
+          "description": "여섯 관제실의 공통 지문 알림이 화면에 겹친다. 왕먀오가 모니터를 뒤집는다. 연출: 눈이 알림을 따라가다 피한다. 손바닥이 화면 모서리를 세게 민다.",
+          "camera_angle": "화면 클로즈업",
+          "characters_in_frame": [
+            "왕먀오"
+          ],
+          "visual_type": "normal"
+        },
+        {
+          "panel_id": "p2-3",
+          "description": "꺼진 듯한 화면 유리에 빨간 톱니 결과 왕먀오 얼굴이 함께 반사된다. 연출: 입은 닫혀 있지만 시선은 반사에서 떨어지지 않는다.",
+          "camera_angle": "반사 극클로즈업",
+          "characters_in_frame": [
+            "왕먀오"
+          ],
+          "visual_type": "normal"
+        },
+        {
+          "panel_id": "p2-4",
+          "description": "가운 아래로 연구 노트 한 장이 삐져나온다. 왕먀오가 뽑으려다 멈춘다. 연출: 접힌 손가락이 종이 끝에 걸린 채 굳는다. 책상 여백을 크게 둔다.",
+          "camera_angle": "손 클로즈업",
+          "characters_in_frame": [
+            "왕먀오"
+          ],
+          "visual_type": "silence"
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "layout": "대본 패널 순서. 가로 컷을 세로 순서로 읽는다.",
+      "panels": [
+        {
+          "panel_id": "p3-1",
+          "description": "스치친이 낡은 올리브 재킷 차림으로 문을 밀고 들어와 커피를 놓는다. 담배는 손가락 사이에 꺼져 있다. 연출: 좁은 눈과 수염, 무심한 자세. 왕먀오를 보는 눈만 또렷하다.",
+          "camera_angle": "문가 중경",
+          "characters_in_frame": [
+            "왕먀오",
+            "스치친"
+          ],
+          "visual_type": "normal"
+        },
+        {
+          "panel_id": "p3-2",
+          "description": "스치친의 커피잔이 파형을 가린다. 왕먀오가 잔을 옆으로 민다. 연출: 왕먀오의 굳은 눈썹이 아주 조금 들린다. 손동작으로 정보가 드러난다.",
+          "camera_angle": "탁상 탑숏",
+          "characters_in_frame": [
+            "왕먀오",
+            "스치친"
+          ],
+          "visual_type": "normal"
+        },
+        {
+          "panel_id": "p3-3",
+          "description": "잔 아래 같은 톱니가 드러난다. 스치친의 손끝이 여섯 파형을 차례로 짚는다. 연출: 스치친의 농담기가 사라지고 입꼬리가 내려간다.",
+          "camera_angle": "손끝과 좁은 눈 교차 중경",
+          "characters_in_frame": [
+            "스치친"
+          ],
+          "visual_type": "impact"
+        },
+        {
+          "panel_id": "p3-4",
+          "description": "왕먀오가 의자를 돌려 스치친을 마주한다. 연출: 등이 미세하게 펴지고 안경 렌즈가 하얗게 빛난다.",
+          "camera_angle": "낮은 앵글 중경",
+          "characters_in_frame": [
+            "왕먀오",
+            "스치친"
+          ],
+          "visual_type": "normal"
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "layout": "대본 패널 순서. 가로 컷을 세로 순서로 읽는다.",
+      "panels": [
+        {
+          "panel_id": "p4-1",
+          "description": "왕먀오가 40년치 폐기 자료를 연도순으로 벽에 붙인다. 스치친은 떨어지는 클립을 잡는다. 연출: 처음엔 느슨하던 손목이 연도를 맞출수록 빠르게 움직인다.",
+          "camera_angle": "광각 벽면",
+          "characters_in_frame": [
+            "왕먀오",
+            "스치친"
+          ],
+          "visual_type": "normal"
+        },
+        {
+          "panel_id": "p4-2",
+          "description": "오래된 오류 보고 양식의 제출처 빈칸과 톱니가 함께 보인다. 왕먀오 손의 폐기 도장이 허공에 멈춘다. 연출: 도장을 쥔 손에 힘이 들어가지만 찍지 못한다. 글자 자리만 비워 둔다.",
+          "camera_angle": "서식 인서트",
+          "characters_in_frame": [
+            "왕먀오"
+          ],
+          "visual_type": "normal"
+        },
+        {
+          "panel_id": "p4-3",
+          "description": "서로 다른 해의 파형에 같은 톱니가 한 세로선으로 정렬된다. 연출: 왕먀오의 동공 초점이 날카롭게 맞고 스치친이 뒤에서 몸을 기울인다.",
+          "camera_angle": "정면 밀착 중경",
+          "characters_in_frame": [
+            "왕먀오",
+            "스치친"
+          ],
+          "visual_type": "impact"
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "layout": "대본 패널 순서. 가로 컷을 세로 순서로 읽는다.",
+      "panels": [
+        {
+          "panel_id": "p5-1",
+          "description": "이론 예측의 청색 그래프 위에 위조 데이터의 붉은 그래프를 투사한다. 연출: 왕먀오 손목이 조심스레 두 슬라이드를 겹친다.",
+          "camera_angle": "화면 정면",
+          "characters_in_frame": [
+            "왕먀오"
+          ],
+          "visual_type": "normal"
+        },
+        {
+          "panel_id": "p5-2",
+          "description": "두 곡선이 거의 같지만 위조 곡선의 잔떨림이 더 적다. 연출: 작은 차이를 읽을 수 있도록 굵은 깨끗한 선, 라벨 자리 확보.",
+          "camera_angle": "그래프 매크로",
+          "characters_in_frame": [],
+          "visual_type": "normal"
+        },
+        {
+          "panel_id": "p5-3",
+          "description": "왕먀오가 안경을 밀어 올린다. 스치친은 먼지인 줄 알고 화면을 닦는다. 연출: 왕먀오의 입이 반쯤 열리고, 스치친 손의 천은 화면에서 멈춘다.",
+          "camera_angle": "측면 중경",
+          "characters_in_frame": [
+            "왕먀오",
+            "스치친"
+          ],
+          "visual_type": "normal"
+        },
+        {
+          "panel_id": "p5-4",
+          "description": "왕먀오의 큰 뿔테 렌즈 안에 이론선과 더 매끈한 위조선 사이의 가느다란 결이 반사된다. 연출: 흰 렌즈 반사 속 눈동자가 흔들리되 초점을 잃지 않는다. 페이지의 시각적 역설.",
+          "camera_angle": "안경 극클로즈업",
+          "characters_in_frame": [
+            "왕먀오"
+          ],
+          "visual_type": "impact"
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "layout": "대본 패널 순서. 가로 컷을 세로 순서로 읽는다.",
+      "panels": [
+        {
+          "panel_id": "p6-1",
+          "description": "왕먀오가 네 시기의 오차 카드를 줄지어 놓는다. 연출: 처음은 자신감 없이 카드 가장자리를 집는다.",
+          "camera_angle": "탁상 탑숏",
+          "characters_in_frame": [
+            "왕먀오"
+          ],
+          "visual_type": "normal"
+        },
+        {
+          "panel_id": "p6-2",
+          "description": "카드 속 톱니가 시간마다 아주 조금씩 이동한다. 연출: 빨간 톱니 위치만 명확히 달라 보이게 한다.",
+          "camera_angle": "카드 매크로",
+          "characters_in_frame": [
+            "왕먀오"
+          ],
+          "visual_type": "normal"
+        },
+        {
+          "panel_id": "p6-3",
+          "description": "스치친이 식은 커피잔이 넘어지지 않도록 받치며 마지막 카드를 고정한다. 연출: 굵은 손가락이 과학 도표 위에서 의외로 조심스럽다.",
+          "camera_angle": "손·컵 중경",
+          "characters_in_frame": [
+            "스치친"
+          ],
+          "visual_type": "normal"
+        },
+        {
+          "panel_id": "p6-4",
+          "description": "왕먀오가 p4 오류 보고 양식 옆에 '질문' 칸을 긋는다. 연출: 손이 덜 떨리지만 끝에 물음표를 남긴다. 활자·한글은 후처리.",
+          "camera_angle": "노트 오버숄더",
+          "characters_in_frame": [
+            "왕먀오"
+          ],
+          "visual_type": "normal"
+        }
+      ]
+    },
+    {
+      "page_number": 7,
+      "layout": "대본 패널 순서. 가로 컷을 세로 순서로 읽는다.",
+      "panels": [
+        {
+          "panel_id": "p7-1",
+          "description": "왕먀오가 벽 중앙 위조 파형에 큰 원을 친다. 연출: 허리가 펴지고 눈이 크게 열려 잠깐 승리한 듯하다.",
+          "camera_angle": "낮은 앵글 광각",
+          "characters_in_frame": [
+            "왕먀오"
+          ],
+          "visual_type": "impact"
+        },
+        {
+          "panel_id": "p7-2",
+          "description": "스치친이 원 옆 빈 검증 칸을 가리킨다. 연출: 좁은 눈이 왕먀오를 시험하듯 보지만 입은 다문다.",
+          "camera_angle": "측면 중경",
+          "characters_in_frame": [
+            "왕먀오",
+            "스치친"
+          ],
+          "visual_type": "normal"
+        },
+        {
+          "panel_id": "p7-3",
+          "description": "왕먀오의 펜끝이 빈칸 위에서 멈춘다. 연출: 엄지가 펜을 강하게 눌러 하얗고 입술이 굳는다.",
+          "camera_angle": "펜 극클로즈업",
+          "characters_in_frame": [
+            "왕먀오"
+          ],
+          "visual_type": "silence"
+        },
+        {
+          "panel_id": "p7-4",
+          "description": "벽의 큰 원과 작은 빈칸을 한 프레임에 둔다. 왕먀오의 그림자가 원을 가른다. 연출: 승리 포즈가 무너지고 어깨가 내려간다.",
+          "camera_angle": "광각 역광",
+          "characters_in_frame": [
+            "왕먀오"
+          ],
+          "visual_type": "normal"
+        }
+      ]
+    },
+    {
+      "page_number": 8,
+      "layout": "대본 패널 순서. 풀페이지",
+      "panels": [
+        {
+          "panel_id": "p8-1",
+          "description": "오염 표본이 쌓인 책상 앞에 작은 왕먀오. 보고서가 미끄러져 빈 검증 칸을 드러내고 펜이 바닥에 놓인다. 거대한 벽 여백. 연출: 무대사·무자막 풀페이지. 손이 펜을 놓는 순간, 안경 속 눈은 아래를 본다. 긴 정지와 자기 의심.",
+          "camera_angle": "풀페이지 먼 광각",
+          "characters_in_frame": [
+            "왕먀오"
+          ],
+          "visual_type": "silence"
+        }
+      ]
+    },
+    {
+      "page_number": 9,
+      "layout": "대본 패널 순서. 가로 컷을 세로 순서로 읽는다.",
+      "panels": [
+        {
+          "panel_id": "p9-1",
+          "description": "스치친이 삼체 게임의 오래된 로그 저장 장치를 책상 위로 민다. 연출: 거친 손이 장치를 조심스럽게 건넨다.",
+          "camera_angle": "탁상 낮은 앵글",
+          "characters_in_frame": [
+            "스치친"
+          ],
+          "visual_type": "normal"
+        },
+        {
+          "panel_id": "p9-2",
+          "description": "게임 로그의 둥근 행성 UI, 문명 건설→붕괴→재시작 아이콘과 빈 디버거 질문창이 펼쳐진다. 연출: 현실 화면보다 채도를 높이고 원근을 살짝 휘게 한다. 텍스트는 후처리.",
+          "camera_angle": "화면 정면 광각",
+          "characters_in_frame": [],
+          "visual_type": "normal"
+        },
+        {
+          "panel_id": "p9-3",
+          "description": "왕먀오가 게임 물리 버그의 작은 톱니에서 스크롤을 멈춘다. 연출: 손가락이 마우스 위에 뜬 채, 눈은 오래된 공포 대신 호기심에 고정된다.",
+          "camera_angle": "눈·화면 교차 클로즈업",
+          "characters_in_frame": [
+            "왕먀오"
+          ],
+          "visual_type": "impact"
+        }
+      ]
+    },
+    {
+      "page_number": 10,
+      "layout": "대본 패널 순서. 가로 컷을 세로 순서로 읽는다.",
+      "panels": [
+        {
+          "panel_id": "p10-1",
+          "description": "왕먀오가 게임 로그를 왼쪽, 가속기 오차를 오른쪽에 띄운다. 연출: 두 화면을 보는 눈의 움직임이 빨라진다.",
+          "camera_angle": "정면 중경",
+          "characters_in_frame": [
+            "왕먀오"
+          ],
+          "visual_type": "normal"
+        },
+        {
+          "panel_id": "p10-2",
+          "description": "그가 게임 화면을 반투명하게 끌어와 현실 파형 위에 놓는다. 연출: 손끝이 떨려 잠시 어긋나지만 곧 정렬한다.",
+          "camera_angle": "화면 오버숄더",
+          "characters_in_frame": [],
+          "visual_type": "normal"
+        },
+        {
+          "panel_id": "p10-3",
+          "description": "두 세계의 톱니가 같은 위치와 방향으로 정확히 겹친다. 연출: 일치점을 큰 빨간 점 대신 얇은 흰 간극 없이 표현한다.",
+          "camera_angle": "접힌 화면 극클로즈업",
+          "characters_in_frame": [],
+          "visual_type": "impact"
+        },
+        {
+          "panel_id": "p10-4",
+          "description": "왕먀오의 안경과 스치친의 좁은 눈이 같은 일치점을 바라본다. 연출: 왕먀오의 입이 벌어지고 스치친 담배 든 손은 움직이지 않는다.",
+          "camera_angle": "이인물 밀착 중경",
+          "characters_in_frame": [
+            "왕먀오",
+            "스치친"
+          ],
+          "visual_type": "normal"
+        }
+      ]
+    },
+    {
+      "page_number": 11,
+      "layout": "대본 패널 순서. 가로 컷을 세로 순서로 읽는다.",
+      "panels": [
+        {
+          "panel_id": "p11-1",
+          "description": "과거 카운트다운을 본 왕먀오의 안경 실루엣이 기록 카드 위에 겹친다. 연출: 눈을 피하던 과거의 손이 현재는 기록을 가리킨다.",
+          "camera_angle": "몽타주 1·측면",
+          "characters_in_frame": [
+            "왕먀오"
+          ],
+          "visual_type": "normal"
+        },
+        {
+          "panel_id": "p11-2",
+          "description": "삼체 게임 문명의 건설·붕괴 반복 아이콘이 자료 카드로 바뀐다. 연출: 노란 게임색을 청색 기록색과 맞닿게 한다.",
+          "camera_angle": "몽타주 2·화면",
+          "characters_in_frame": [],
+          "visual_type": "normal"
+        },
+        {
+          "panel_id": "p11-3",
+          "description": "EP005 소페르의 '버그' 발언을 검은 말풍선 실루엣으로만 떠올린다. 연출: 말풍선 내용은 후처리. 왕먀오의 어깨가 다시 경직된다.",
+          "camera_angle": "몽타주 3·역광",
+          "characters_in_frame": [
+            "왕먀오",
+            "소페르"
+          ],
+          "visual_type": "normal"
+        },
+        {
+          "panel_id": "p11-4",
+          "description": "왕먀오가 세 기록을 화살표로 묶고 끝에 물음표를 쓴다. 연출: 단정 대신 물음을 남기는 손, 두려운 눈이 그래도 초점을 유지.",
+          "camera_angle": "노트 탑숏→얼굴",
+          "characters_in_frame": [
+            "왕먀오"
+          ],
+          "visual_type": "impact"
+        }
+      ]
+    },
+    {
+      "page_number": 12,
+      "layout": "대본 패널 순서. 가로 컷을 세로 순서로 읽는다.",
+      "panels": [
+        {
+          "panel_id": "p12-1",
+          "description": "왕먀오가 혼자 노트에 질문 부호를 그린다. 연구실 문은 닫혀 있다. 연출: 어깨가 잠시 편해지지만 손끝은 예민하다.",
+          "camera_angle": "중경 오버숄더",
+          "characters_in_frame": [
+            "왕먀오"
+          ],
+          "visual_type": "normal"
+        },
+        {
+          "panel_id": "p12-2",
+          "description": "안경 바깥에는 아무것도 없는데 왕먀오의 망막 시야에 카운트다운 숫자가 돌아온다. 연출: 눈동자가 커지고 입술이 굳는다. 숫자는 후처리.",
+          "camera_angle": "시야 주관 클로즈업",
+          "characters_in_frame": [
+            "왕먀오"
+          ],
+          "visual_type": "impact"
+        },
+        {
+          "panel_id": "p12-3",
+          "description": "왕먀오가 두 눈을 감아도 시야 안쪽에 숫자의 잔광이 남는다. 연출: 주먹을 쥐었다 펴는 손과 검은 그림자, 도망갈 여백이 없다.",
+          "camera_angle": "얼굴 극클로즈업",
+          "characters_in_frame": [
+            "왕먀오"
+          ],
+          "visual_type": "silence"
+        }
+      ]
+    },
+    {
+      "page_number": 13,
+      "layout": "대본 패널 순서. 풀페이지",
+      "panels": [
+        {
+          "panel_id": "p13-1",
+          "description": "왕먀오의 망막 시야 전체. 숫자가 지워지고 p9의 게임 디버거 질문창과 같은 사각 프롬프트가 나타난다. 렌즈 흰 반사 속 작은 왕먀오. 연출: 풀페이지. 질문은 후처리 텍스트 ‘왜 알아차렸나?’. 입은 반쯤 열리나 소리 없음, 동공은 작은 글자에 고정. 소페르가 먼저 묻는 전율.",
+          "camera_angle": "풀페이지 주관 시야·렌즈 극클로즈업",
+          "characters_in_frame": [
+            "왕먀오",
+            "소페르"
+          ],
+          "visual_type": "impact"
+        }
+      ]
+    },
+    {
+      "page_number": 14,
+      "layout": "대본 패널 순서. 가로 컷을 세로 순서로 읽는다.",
+      "panels": [
+        {
+          "panel_id": "p14-1",
+          "description": "왕먀오가 의자 끝을 잡고 숨을 고른다. 연출: 좁아진 어깨, 떨리는 손, 질문창이 안경 가장자리에서 흐려진다.",
+          "camera_angle": "측면 중경",
+          "characters_in_frame": [
+            "왕먀오"
+          ],
+          "visual_type": "normal"
+        },
+        {
+          "panel_id": "p14-2",
+          "description": "그가 p7의 ‘증거’를 한 줄로 긋고 옆에 ‘가설’을 적는다. 연출: 손목이 곧아지고 눈의 초점이 종이로 내려온다. 글자는 후처리.",
+          "camera_angle": "노트 인서트",
+          "characters_in_frame": [
+            "왕먀오"
+          ],
+          "visual_type": "normal"
+        },
+        {
+          "panel_id": "p14-3",
+          "description": "열린 노트 앞 빈 의자와 왕먀오의 펼친 손. 긴 여백. 연출: 손바닥이 책상에 닿으며 더는 주먹을 쥐지 않는다.",
+          "camera_angle": "먼 광각",
+          "characters_in_frame": [
+            "왕먀오"
+          ],
+          "visual_type": "silence"
+        },
+        {
+          "panel_id": "p14-4",
+          "description": "왕먀오가 새 양식의 질문 칸에 첫 선을 긋는다. 연출: 입술이 닫히고 굳은 눈썹이 풀린다.",
+          "camera_angle": "손·얼굴 교차 클로즈업",
+          "characters_in_frame": [
+            "왕먀오"
+          ],
+          "visual_type": "normal"
+        }
+      ]
+    },
+    {
+      "page_number": 15,
+      "layout": "대본 패널 순서. 풀페이지",
+      "panels": [
+        {
+          "panel_id": "p15-1",
+          "description": "연구실 노트의 첫 ‘버그 리포트’가 페이지를 채운다. 6대륙 지문과 게임 지문을 나란히 그린 도표, 왕먀오의 서명, 비어 있는 ‘제출처: ______’가 보인다. 손이 빈칸 위에 멈춘다. 연출: 풀페이지. 손은 떨리지 않고 안경 렌즈에는 p5의 결이 작게 반사된다. 제목·문장·서명·제출처는 후처리. 빈칸 아래 큰 흰 여백으로 다음 화의 수신자를 묻는다.",
+          "camera_angle": "풀페이지 노트 탑숏·렌즈 인서트",
+          "characters_in_frame": [
+            "왕먀오"
+          ],
+          "visual_type": "impact"
+        }
+      ]
+    }
+  ]
+}
