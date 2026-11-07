@@ -1,6 +1,6 @@
 {
   "current_episode": "EP006",
-  "current_phase": "phase6_release",
+  "current_phase": "phase2_characters",
   "episodes": {
     "EP001": {
       "title": "태초의 밤",
@@ -268,7 +268,7 @@
     "EP006": {
       "title": "버그 리포트",
       "status": "in_progress",
-      "current_phase": "phase1_story",
+      "current_phase": "phase2_characters",
       "phases": {
         "phase0": {
           "status": "completed",
@@ -281,8 +281,19 @@
           "note": "EP001~005 성경·화풍(닥터슬럼프풍 STYLE_BLOCK) 계승"
         },
         "phase1": {
-          "status": "pending",
-          "score": null
+          "status": "completed",
+          "score": null,
+          "prompt_version": "v3-4step",
+          "note": "시즌2 각색안(season2-bug-report)을 15p·45패널 대본으로 전개. analysis→outline→scenes→script 4단계 + PAAE 계승. 콜드 오픈(p1 6대륙 동시 지문), p8 무대사 풀페이지, p15 임팩트 풀페이지.",
+          "sub_files": [
+            "story/analysis.md",
+            "story/outline.md",
+            "story/scenes.md",
+            "story/paae-analysis.md",
+            "story/source-story.md",
+            "script/script.md",
+            "script/script.json"
+          ]
         },
         "phase2": {
           "status": "pending",

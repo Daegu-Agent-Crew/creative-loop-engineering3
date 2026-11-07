@@ -16,7 +16,11 @@
       "approved_by": null,
       "approved_at": null,
       "evidence": [
-        "episodes/EP006/script/script.md"
+        "episodes/EP006/script/script.md",
+        "episodes/EP006/script/script.json",
+        "episodes/EP006/story/analysis.md",
+        "episodes/EP006/story/outline.md",
+        "episodes/EP006/story/scenes.md"
       ],
       "notes": "해당 Phase 산출물이 준비되면 사람이 방향과 가치를 승인한다."
     },
