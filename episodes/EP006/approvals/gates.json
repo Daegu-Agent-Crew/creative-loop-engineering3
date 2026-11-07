@@ -32,7 +32,9 @@
       "blocking": false,
       "approved_by": null,
       "approved_at": null,
-      "evidence": [],
+      "evidence": [
+        "episodes/EP006/characters/characters.json"
+      ],
       "notes": "해당 Phase 산출물이 준비되면 사람이 방향과 가치를 승인한다."
     },
     {

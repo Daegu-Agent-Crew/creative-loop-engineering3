@@ -1,6 +1,6 @@
 {
   "current_episode": "EP006",
-  "current_phase": "phase2_characters",
+  "current_phase": "phase3_storyboard",
   "episodes": {
     "EP001": {
       "title": "태초의 밤",
@@ -268,7 +268,7 @@
     "EP006": {
       "title": "버그 리포트",
       "status": "in_progress",
-      "current_phase": "phase2_characters",
+      "current_phase": "phase3_storyboard",
       "phases": {
         "phase0": {
           "status": "completed",
@@ -296,8 +296,10 @@
           ]
         },
         "phase2": {
-          "status": "pending",
-          "score": null
+          "status": "completed",
+          "score": null,
+          "prompt_version": "v4-continuity-s2",
+          "note": "EP001~005 성경 계승. 왕먀오·스치친 EP001 자산 재사용+EP006 코스튬 델타(가운 제거/청회색 셔츠, 올리브 재킷). 소페르는 UI 존재로 등록—시트 자산 불요, SVG 오버레이로 렌더링. 신규 캐릭터 시트 생성 0건."
         },
         "phase3": {
           "status": "pending",
