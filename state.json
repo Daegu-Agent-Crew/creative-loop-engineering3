@@ -1,6 +1,6 @@
 {
-  "current_episode": "EP006",
-  "current_phase": "phase6_release",
+  "current_episode": "EP007",
+  "current_phase": "phase4_panels",
   "episodes": {
     "EP001": {
       "title": "태초의 밤",
@@ -267,8 +267,8 @@
     },
     "EP006": {
       "title": "버그 리포트",
-      "status": "in_progress",
-      "current_phase": "phase1_story",
+      "status": "completed",
+      "current_phase": "phase6_release",
       "phases": {
         "phase0": {
           "status": "completed",
@@ -281,28 +281,46 @@
           "note": "EP001~005 성경·화풍(닥터슬럼프풍 STYLE_BLOCK) 계승"
         },
         "phase1": {
-          "status": "pending",
-          "score": null
+          "status": "completed",
+          "score": null,
+          "prompt_version": "v3-4step",
+          "note": "시즌2 각색안(season2-bug-report)을 15p·45패널 대본으로 전개. analysis→outline→scenes→script 4단계 + PAAE 계승. 콜드 오픈(p1 6대륙 동시 지문), p8 무대사 풀페이지, p15 임팩트 풀페이지.",
+          "sub_files": [
+            "story/analysis.md",
+            "story/outline.md",
+            "story/scenes.md",
+            "story/paae-analysis.md",
+            "story/source-story.md",
+            "script/script.md",
+            "script/script.json"
+          ]
         },
         "phase2": {
-          "status": "pending",
-          "score": null
+          "status": "completed",
+          "score": null,
+          "prompt_version": "v4-continuity-s2",
+          "note": "EP001~005 성경 계승. 왕먀오·스치친 EP001 자산 재사용+EP006 코스튬 델타(가운 제거/청회색 셔츠, 올리브 재킷). 소페르는 UI 존재로 등록—시트 자산 불요, SVG 오버레이로 렌더링. 신규 캐릭터 시트 생성 0건."
         },
         "phase3": {
-          "status": "pending",
-          "score": null
+          "status": "completed",
+          "score": null,
+          "prompt_version": "v5-single-source",
+          "note": "정본 panel-script.json(45컷) 신설 + storyboard.json(15p·45컷) 생성. panel-id 정합성 검증 통과, 풀페이지 p1/8/13/15, visual_type 분포 normal 28/impact 11/silence 6. 거버넌스 검증 6에피소드 통과."
         },
         "phase4": {
-          "status": "in_progress",
-          "score": null
+          "status": "completed",
+          "score": null,
+          "note": "45/45 패널 생성·최적화·커밋 (배치1~8, codex image_gen)"
         },
         "phase5": {
-          "status": "pending",
-          "score": null
+          "status": "completed",
+          "score": 41,
+          "prompt_version": "v5-single-source",
+          "note": "SVG 파이널 45/45 렌더링, QA 41/50 (자동 정적 검증), 미리보기 뷰어 Pages 배포"
         },
         "phase6": {
-          "status": "pending",
-          "score": null
+          "status": "completed",
+          "note": "회장님 발행 승인(2026-11-10 07:13) — 시즌 리더 편입"
         }
       },
       "season": 2,

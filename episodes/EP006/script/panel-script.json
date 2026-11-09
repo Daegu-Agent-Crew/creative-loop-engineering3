@@ -1,0 +1,448 @@
+{
+  "episode_id": "EP006",
+  "version": 1,
+  "source": "episodes/EP006/script/script.md",
+  "panels": [
+    {
+      "panel_id": "p1-1",
+      "page_number": 1,
+      "scene_number": 1,
+      "description": "6대륙의 독립 관제실을 비추는 제네바의 여섯 모니터. 모든 파형에 같은 톱니 오차가 있다. 세계 지도 핀과 굳은 연구원들의 손.",
+      "text": []
+    },
+    {
+      "panel_id": "p2-1",
+      "page_number": 2,
+      "scene_number": 2,
+      "description": "왕먀오가 접은 연구 가운을 책상에 올린다. 안경 한쪽에 EP005 함대 돛의 잔상이 비친다.",
+      "text": []
+    },
+    {
+      "panel_id": "p2-2",
+      "page_number": 2,
+      "scene_number": 2,
+      "description": "여섯 관제실의 공통 지문 알림이 화면에 겹친다. 왕먀오가 모니터를 뒤집는다.",
+      "text": []
+    },
+    {
+      "panel_id": "p2-3",
+      "page_number": 2,
+      "scene_number": 2,
+      "description": "꺼진 듯한 화면 유리에 빨간 톱니 결과 왕먀오 얼굴이 함께 반사된다.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "오늘은 여기까지."
+        }
+      ]
+    },
+    {
+      "panel_id": "p2-4",
+      "page_number": 2,
+      "scene_number": 2,
+      "description": "가운 아래로 연구 노트 한 장이 삐져나온다. 왕먀오가 뽑으려다 멈춘다.",
+      "text": []
+    },
+    {
+      "panel_id": "p3-1",
+      "page_number": 3,
+      "scene_number": 3,
+      "description": "스치친이 낡은 올리브 재킷 차림으로 문을 밀고 들어와 커피를 놓는다. 담배는 손가락 사이에 꺼져 있다.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "아직 불은 안 껐군."
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-2",
+      "page_number": 3,
+      "scene_number": 3,
+      "description": "스치친의 커피잔이 파형을 가린다. 왕먀오가 잔을 옆으로 민다.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "죽은 자는 거짓말을 안 해."
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-3",
+      "page_number": 3,
+      "scene_number": 3,
+      "description": "잔 아래 같은 톱니가 드러난다. 스치친의 손끝이 여섯 파형을 차례로 짚는다.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "지금 가속기는 거짓말을 하고 있어. 거짓말하는 놈은 진실을 알고 있어."
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-4",
+      "page_number": 3,
+      "scene_number": 3,
+      "description": "왕먀오가 의자를 돌려 스치친을 마주한다.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "그럼 그놈이 남긴 지문부터 줘요."
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-1",
+      "page_number": 4,
+      "scene_number": 4,
+      "description": "왕먀오가 40년치 폐기 자료를 연도순으로 벽에 붙인다. 스치친은 떨어지는 클립을 잡는다.",
+      "text": []
+    },
+    {
+      "panel_id": "p4-2",
+      "page_number": 4,
+      "scene_number": 4,
+      "description": "오래된 오류 보고 양식의 제출처 빈칸과 톱니가 함께 보인다. 왕먀오 손의 폐기 도장이 허공에 멈춘다.",
+      "text": []
+    },
+    {
+      "panel_id": "p4-3",
+      "page_number": 4,
+      "scene_number": 4,
+      "description": "서로 다른 해의 파형에 같은 톱니가 한 세로선으로 정렬된다.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "쓰레기라면, 왜 같은 자리에 모였죠?"
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-1",
+      "page_number": 5,
+      "scene_number": 5,
+      "description": "이론 예측의 청색 그래프 위에 위조 데이터의 붉은 그래프를 투사한다.",
+      "text": []
+    },
+    {
+      "panel_id": "p5-2",
+      "page_number": 5,
+      "scene_number": 5,
+      "description": "두 곡선이 거의 같지만 위조 곡선의 잔떨림이 더 적다.",
+      "text": []
+    },
+    {
+      "panel_id": "p5-3",
+      "page_number": 5,
+      "scene_number": 5,
+      "description": "왕먀오가 안경을 밀어 올린다. 스치친은 먼지인 줄 알고 화면을 닦는다.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "먼지 아니야?"
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-4",
+      "page_number": 5,
+      "scene_number": 5,
+      "description": "왕먀오의 큰 뿔테 렌즈 안에 이론선과 더 매끈한 위조선 사이의 가느다란 결이 반사된다.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "더 잘 흉내 낸 게 아니야. 우리가 빠뜨린 걸 메웠어."
+        }
+      ]
+    },
+    {
+      "panel_id": "p6-1",
+      "page_number": 6,
+      "scene_number": 6,
+      "description": "왕먀오가 네 시기의 오차 카드를 줄지어 놓는다.",
+      "text": []
+    },
+    {
+      "panel_id": "p6-2",
+      "page_number": 6,
+      "scene_number": 6,
+      "description": "카드 속 톱니가 시간마다 아주 조금씩 이동한다.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "복사본이면 왜 매번 손을 고치죠?"
+        }
+      ]
+    },
+    {
+      "panel_id": "p6-3",
+      "page_number": 6,
+      "scene_number": 6,
+      "description": "스치친이 식은 커피잔이 넘어지지 않도록 받치며 마지막 카드를 고정한다.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "그럼 다음엔 우리가 묻는 차례겠네."
+        }
+      ]
+    },
+    {
+      "panel_id": "p6-4",
+      "page_number": 6,
+      "scene_number": 6,
+      "description": "왕먀오가 p4 오류 보고 양식 옆에 '질문' 칸을 긋는다.",
+      "text": []
+    },
+    {
+      "panel_id": "p7-1",
+      "page_number": 7,
+      "scene_number": 7,
+      "description": "왕먀오가 벽 중앙 위조 파형에 큰 원을 친다.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "위조 데이터 자체가 새 물리학의 증거다."
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-2",
+      "page_number": 7,
+      "scene_number": 7,
+      "description": "스치친이 원 옆 빈 검증 칸을 가리킨다.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "법정에 내면, 누가 재현하지?"
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-3",
+      "page_number": 7,
+      "scene_number": 7,
+      "description": "왕먀오의 펜끝이 빈칸 위에서 멈춘다.",
+      "text": []
+    },
+    {
+      "panel_id": "p7-4",
+      "page_number": 7,
+      "scene_number": 7,
+      "description": "벽의 큰 원과 작은 빈칸을 한 프레임에 둔다. 왕먀오의 그림자가 원을 가른다.",
+      "text": []
+    },
+    {
+      "panel_id": "p8-1",
+      "page_number": 8,
+      "scene_number": 8,
+      "description": "오염 표본이 쌓인 책상 앞에 작은 왕먀오. 보고서가 미끄러져 빈 검증 칸을 드러내고 펜이 바닥에 놓인다. 거대한 벽 여백.",
+      "text": []
+    },
+    {
+      "panel_id": "p9-1",
+      "page_number": 9,
+      "scene_number": 9,
+      "description": "스치친이 삼체 게임의 오래된 로그 저장 장치를 책상 위로 민다.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "놀이판에도 거짓말이 남나?"
+        }
+      ]
+    },
+    {
+      "panel_id": "p9-2",
+      "page_number": 9,
+      "scene_number": 9,
+      "description": "게임 로그의 둥근 행성 UI, 문명 건설→붕괴→재시작 아이콘과 빈 디버거 질문창이 펼쳐진다.",
+      "text": []
+    },
+    {
+      "panel_id": "p9-3",
+      "page_number": 9,
+      "scene_number": 9,
+      "description": "왕먀오가 게임 물리 버그의 작은 톱니에서 스크롤을 멈춘다.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "잠깐. 이 결..."
+        }
+      ]
+    },
+    {
+      "panel_id": "p10-1",
+      "page_number": 10,
+      "scene_number": 10,
+      "description": "왕먀오가 게임 로그를 왼쪽, 가속기 오차를 오른쪽에 띄운다.",
+      "text": []
+    },
+    {
+      "panel_id": "p10-2",
+      "page_number": 10,
+      "scene_number": 10,
+      "description": "그가 게임 화면을 반투명하게 끌어와 현실 파형 위에 놓는다.",
+      "text": []
+    },
+    {
+      "panel_id": "p10-3",
+      "page_number": 10,
+      "scene_number": 10,
+      "description": "두 세계의 톱니가 같은 위치와 방향으로 정확히 겹친다.",
+      "text": []
+    },
+    {
+      "panel_id": "p10-4",
+      "page_number": 10,
+      "scene_number": 10,
+      "description": "왕먀오의 안경과 스치친의 좁은 눈이 같은 일치점을 바라본다.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "여기도 그 손이 닿았어."
+        }
+      ]
+    },
+    {
+      "panel_id": "p11-1",
+      "page_number": 11,
+      "scene_number": 11,
+      "description": "과거 카운트다운을 본 왕먀오의 안경 실루엣이 기록 카드 위에 겹친다.",
+      "text": []
+    },
+    {
+      "panel_id": "p11-2",
+      "page_number": 11,
+      "scene_number": 11,
+      "description": "삼체 게임 문명의 건설·붕괴 반복 아이콘이 자료 카드로 바뀐다.",
+      "text": []
+    },
+    {
+      "panel_id": "p11-3",
+      "page_number": 11,
+      "scene_number": 11,
+      "description": "EP005 소페르의 '버그' 발언을 검은 말풍선 실루엣으로만 떠올린다.",
+      "text": []
+    },
+    {
+      "panel_id": "p11-4",
+      "page_number": 11,
+      "scene_number": 11,
+      "description": "왕먀오가 세 기록을 화살표로 묶고 끝에 물음표를 쓴다.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "우릴 겁준 다음, 뭘 봤을까?"
+        }
+      ]
+    },
+    {
+      "panel_id": "p12-1",
+      "page_number": 12,
+      "scene_number": 12,
+      "description": "왕먀오가 혼자 노트에 질문 부호를 그린다. 연구실 문은 닫혀 있다.",
+      "text": []
+    },
+    {
+      "panel_id": "p12-2",
+      "page_number": 12,
+      "scene_number": 12,
+      "description": "안경 바깥에는 아무것도 없는데 왕먀오의 망막 시야에 카운트다운 숫자가 돌아온다.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "또 나를 보고 있군."
+        }
+      ]
+    },
+    {
+      "panel_id": "p12-3",
+      "page_number": 12,
+      "scene_number": 12,
+      "description": "왕먀오가 두 눈을 감아도 시야 안쪽에 숫자의 잔광이 남는다.",
+      "text": []
+    },
+    {
+      "panel_id": "p13-1",
+      "page_number": 13,
+      "scene_number": 13,
+      "description": "왕먀오의 망막 시야 전체. 숫자가 지워지고 p9의 게임 디버거 질문창과 같은 사각 프롬프트가 나타난다. 렌즈 흰 반사 속 작은 왕먀오.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "소페르",
+          "text": "왜 알아차렸나?"
+        }
+      ]
+    },
+    {
+      "panel_id": "p14-1",
+      "page_number": 14,
+      "scene_number": 14,
+      "description": "왕먀오가 의자 끝을 잡고 숨을 고른다.",
+      "text": []
+    },
+    {
+      "panel_id": "p14-2",
+      "page_number": 14,
+      "scene_number": 14,
+      "description": "그가 p7의 ‘증거’를 한 줄로 긋고 옆에 ‘가설’을 적는다.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "관측당하는 것도 관측이다."
+        }
+      ]
+    },
+    {
+      "panel_id": "p14-3",
+      "page_number": 14,
+      "scene_number": 14,
+      "description": "열린 노트 앞 빈 의자와 왕먀오의 펼친 손. 긴 여백.",
+      "text": []
+    },
+    {
+      "panel_id": "p14-4",
+      "page_number": 14,
+      "scene_number": 14,
+      "description": "왕먀오가 새 양식의 질문 칸에 첫 선을 긋는다.",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "대답은 나중에."
+        }
+      ]
+    },
+    {
+      "panel_id": "p15-1",
+      "page_number": 15,
+      "scene_number": 15,
+      "description": "연구실 노트의 첫 ‘버그 리포트’가 페이지를 채운다. 6대륙 지문과 게임 지문을 나란히 그린 도표, 왕먀오의 서명, 비어 있는 ‘제출처: ______’가 보인다. 손이 빈칸 위에 멈춘다.",
+      "text": [
+        {
+          "kind": "note",
+          "speaker": "왕먀오",
+          "text": "실험은 못 한다. 하지만 적의 거짓말을 실험 장치로 쓸 수 있다."
+        }
+      ]
+    }
+  ]
+}

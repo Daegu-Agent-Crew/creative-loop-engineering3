@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../schemas/qa.schema.json",
+  "episode_id": "EP006",
+  "overall_score": 41,
+  "prompt_version": "v5-single-source",
+  "items": [
+    {
+      "category": "전체 일관성",
+      "score": 8,
+      "notes": "45개 패널의 페이지 순서·시간 흐름·인물 연결을 정적 검사했다. 왕머여(안경·청회색 셔츠)와 스치친(올리브 재킷·수염)의 외형 일관성은 생성 프롬프트 고정으로 유지됐다. 무대사 칸(풀페이지 p1/p8/p13/p15)의 배치는 콘티와 일치한다.",
+      "corrected": false
+    },
+    {
+      "category": "이미지 품질",
+      "score": 8,
+      "notes": "최종 SVG 45개 렌더링 완료, 원본 PNG 45개 전량 존재·정책 크기(≤1.4MB) 준수, 발행 차단 수준 오류 없음. 배치4에서 p5-2 후보 1건 재생성(rejected 보존).",
+      "corrected": true
+    },
+    {
+      "category": "스토리 정합성",
+      "score": 8,
+      "notes": "script.md 45컷 대본과 storyboard.json 패널 순서·대사 배치를 대조했다. 오차의 결(오차 지문) 설정이 로그라인·테마와 일치하며 시즌1(EP005 별의 바다) 직후 연결 성립.",
+      "corrected": false
+    },
+    {
+      "category": "텍스트 오버레이",
+      "score": 8,
+      "notes": "대사·효과음 오버레이 45컷 렌더링(대사 있는 패널 21 + 무대사 24는 설계상 침묵). 미리보기 뷰어에서 한글 렌더링 정상 확인.",
+      "corrected": false
+    },
+    {
+      "category": "검증 한계",
+      "score": 5,
+      "notes": "자동 정적 검증(L1) 기준. 사람 시각 리뷰(캐릭터 얼굴 미세 연속성·화풍 편차)는 발행 승인 전 회장님 열람으로 대체한다. 미리보기 뷰어 링크 제출 완료(2026-11-10).",
+      "corrected": false
+    }
+  ],
+  "final_images": {
+    "svg_count": 45,
+    "png_count": 45,
+    "viewer_url": "https://daegu-agent-crew.github.io/creative-loop-engineering3/episodes/EP006/"
+  }
+}

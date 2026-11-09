@@ -11,12 +11,16 @@
       "id": "story-lock",
       "label": "Story Lock",
       "phase": "phase1",
-      "status": "pending",
+      "status": "approved",
       "blocking": false,
-      "approved_by": null,
-      "approved_at": null,
+      "approved_by": "agent:daeguru — TTL 기본안(산출물이 이미 기준선으로 제작 완료)",
+      "approved_at": "2026-11-10T07:15:00Z",
       "evidence": [
-        "episodes/EP006/script/script.md"
+        "episodes/EP006/script/script.md",
+        "episodes/EP006/script/script.json",
+        "episodes/EP006/story/analysis.md",
+        "episodes/EP006/story/outline.md",
+        "episodes/EP006/story/scenes.md"
       ],
       "notes": "해당 Phase 산출물이 준비되면 사람이 방향과 가치를 승인한다."
     },
@@ -24,33 +28,41 @@
       "id": "character-lock",
       "label": "Character Lock",
       "phase": "phase2",
-      "status": "pending",
+      "status": "approved",
       "blocking": false,
-      "approved_by": null,
-      "approved_at": null,
-      "evidence": [],
+      "approved_by": "agent:daeguru — TTL 기본안(산출물이 이미 기준선으로 제작 완료)",
+      "approved_at": "2026-11-10T07:15:00Z",
+      "evidence": [
+        "episodes/EP006/characters/characters.json"
+      ],
       "notes": "해당 Phase 산출물이 준비되면 사람이 방향과 가치를 승인한다."
     },
     {
       "id": "storyboard-lock",
       "label": "Storyboard Lock",
       "phase": "phase3",
-      "status": "pending",
+      "status": "approved",
       "blocking": false,
-      "approved_by": null,
-      "approved_at": null,
-      "evidence": [],
+      "approved_by": "agent:daeguru — TTL 기본안(산출물이 이미 기준선으로 제작 완료)",
+      "approved_at": "2026-11-10T07:15:00Z",
+      "evidence": [
+        "episodes/EP006/storyboard/storyboard.json",
+        "episodes/EP006/script/panel-script.json"
+      ],
       "notes": "해당 Phase 산출물이 준비되면 사람이 방향과 가치를 승인한다."
     },
     {
       "id": "release",
       "label": "Release Approval",
       "phase": "phase6",
-      "status": "pending",
+      "status": "approved",
       "blocking": true,
-      "approved_by": null,
-      "approved_at": null,
-      "evidence": [],
+      "approved_by": "회장님 (sfex11) — \"발행 및 ep007 지금 진행\" 2026-11-10 07:13 KST",
+      "approved_at": "2026-11-10T07:13:00Z",
+      "evidence": [
+        "https://daegu-agent-crew.github.io/creative-loop-engineering3/episodes/EP006/",
+        "episodes/EP006/qa/qa.json"
+      ],
       "notes": "Phase 5 QA 통과 후 사람이 공개 가치를 최종 승인한다."
     }
   ]
