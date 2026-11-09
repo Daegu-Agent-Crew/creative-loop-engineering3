@@ -1,0 +1,294 @@
+{
+  "episode_id": "EP006",
+  "version": 1,
+  "panels": [
+    {
+      "panel_id": "p1-1",
+      "page_number": 1,
+      "source_image_path": "episodes/EP006/panels/assets/p1-1.png",
+      "final_image_path": "episodes/EP006/panels/final/p1-1.svg",
+      "canonical_signature": "157c6aaf6974c4e4888c641a379898fd0c139e1f3bdcb638c6332f8bda011ed8",
+      "source_sha256": "b17239561c243e3fed0767c7440f84e20bdba1d130a44f67030a8f6963bd48d8",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p2-1",
+      "page_number": 2,
+      "source_image_path": "episodes/EP006/panels/assets/p2-1.png",
+      "final_image_path": "episodes/EP006/panels/final/p2-1.svg",
+      "canonical_signature": "4f1794eec7a677d62d07a594ed4ed0664504cc6fa57baf0de8500bcb8af94233",
+      "source_sha256": "1dfddf1481b2f57ce199c22393c9ca2ce8f841a38e589a8812e076f8c126f05a",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p2-2",
+      "page_number": 2,
+      "source_image_path": "episodes/EP006/panels/assets/p2-2.png",
+      "final_image_path": "episodes/EP006/panels/final/p2-2.svg",
+      "canonical_signature": "9512681276c5a87756450dccd63afe611ed365b9394563d8c029e834a1a0a4cb",
+      "source_sha256": "14af48d49ca35fe7ac6ffbd09c1beefec408a045aeb11cd0060410f6c0465c9e",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p2-3",
+      "page_number": 2,
+      "source_image_path": "episodes/EP006/panels/assets/p2-3.png",
+      "final_image_path": "episodes/EP006/panels/final/p2-3.svg",
+      "canonical_signature": "838272d0d1cbe39e11ac47a081629404dba22271a8ea516df4f7bd29ec4354f0",
+      "source_sha256": "25fdecec900299a7305a244c57bdcdf5e07c5bd4df192de6a5a6879c414de1f5",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "오늘은 여기까지.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p2-4",
+      "page_number": 2,
+      "source_image_path": "episodes/EP006/panels/assets/p2-4.png",
+      "final_image_path": "episodes/EP006/panels/final/p2-4.svg",
+      "canonical_signature": "750081ccd5c6a6193992b3a46c94244a2fee812aa7f406f4c1ababbfa6143be7",
+      "source_sha256": "58e3c86af7e00a0dfb0e9cdcf0bd2f044556705bd31e42fa399d53e7a9391c86",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p3-1",
+      "page_number": 3,
+      "source_image_path": "episodes/EP006/panels/assets/p3-1.png",
+      "final_image_path": "episodes/EP006/panels/final/p3-1.svg",
+      "canonical_signature": "90e99ae03c752801f58b1a462fcd5d27bf2448f762f893a32da3b4bbefb6f415",
+      "source_sha256": "ca964844151b226f3ec128d21386050ab3374b707674ce3dbe9693cdb7b29e07",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "아직 불은 안 껐군.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-2",
+      "page_number": 3,
+      "source_image_path": "episodes/EP006/panels/assets/p3-2.png",
+      "final_image_path": "episodes/EP006/panels/final/p3-2.svg",
+      "canonical_signature": "880a5bb13bae0ed06424a0036f3387cfdf8171aabe54fccaed14b97056cf7bea",
+      "source_sha256": "ce64e00f25f0a720b2fbf175833484095f0f5abc3009b2d706dae7d8a4798d2a",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "죽은 자는 거짓말을 안 해.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-3",
+      "page_number": 3,
+      "source_image_path": "episodes/EP006/panels/assets/p3-3.png",
+      "final_image_path": "episodes/EP006/panels/final/p3-3.svg",
+      "canonical_signature": "08a4b7a859d380b1cbd0a449b87e1f67407369aacc901d5239b3c416717e64eb",
+      "source_sha256": "b8e7564bdf07b41b4978632d5e7cabe0fba42d0fbc722d4c08d9186c6728eefc",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "지금 가속기는 거짓말을 하고 있어. 거짓말하는 놈은 진실을 알고 있어.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-4",
+      "page_number": 3,
+      "source_image_path": "episodes/EP006/panels/assets/p3-4.png",
+      "final_image_path": "episodes/EP006/panels/final/p3-4.svg",
+      "canonical_signature": "cca14ee368d9a957e81a4492a3097769117ba49ccf2f0fc3340fe8506283f2af",
+      "source_sha256": "5079f2a9a2b92206908859535ca250500f20497120d5d43c04af3266654a47e2",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "그럼 그놈이 남긴 지문부터 줘요.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-1",
+      "page_number": 4,
+      "source_image_path": "episodes/EP006/panels/assets/p4-1.png",
+      "final_image_path": "episodes/EP006/panels/final/p4-1.svg",
+      "canonical_signature": "319f8a0656ec421acad110c8502942c2314e391f8a23803b2a1f9bff7610441c",
+      "source_sha256": "09808237b56f5bbac5f985173092518c716301e32c073138938b379fabf67a91",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p4-2",
+      "page_number": 4,
+      "source_image_path": "episodes/EP006/panels/assets/p4-2.png",
+      "final_image_path": "episodes/EP006/panels/final/p4-2.svg",
+      "canonical_signature": "ee2f435fe7248c7e2217c091ec16f250aed68cfb2e7e04f7b2838d983ee33c88",
+      "source_sha256": "94fde15c9fc9f955ed3c51c71213c4724c3857180620370e44ee42b4578c1467",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p4-3",
+      "page_number": 4,
+      "source_image_path": "episodes/EP006/panels/assets/p4-3.png",
+      "final_image_path": "episodes/EP006/panels/final/p4-3.svg",
+      "canonical_signature": "cb74a697035c55d2b822d38b28cfbc0e0fd3a9dd2437f2c1e77da260ed385472",
+      "source_sha256": "e4cc41af5bebe62bfa4926e22a9f615331270f4972f0350b1442a968ff8c1364",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "쓰레기라면, 왜 같은 자리에 모였죠?",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-1",
+      "page_number": 5,
+      "source_image_path": "episodes/EP006/panels/assets/p5-1.png",
+      "final_image_path": "episodes/EP006/panels/final/p5-1.svg",
+      "canonical_signature": "1b576d9e3a55ef251287acb3544c6bfcdae36da916f493e6d55bfd6fed6492db",
+      "source_sha256": "573f65353fe75310af962a798f2c79c298d1dd68aa1a1cba434cef3a3478a8f6",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p5-2",
+      "page_number": 5,
+      "source_image_path": "episodes/EP006/panels/assets/p5-2.png",
+      "final_image_path": "episodes/EP006/panels/final/p5-2.svg",
+      "canonical_signature": "41bb875dad45d229ad88e53011ca340fa87b74898aeb1c36fbbaa647c42f387d",
+      "source_sha256": "aa4850b89e4e5187e8fb700b9157d2aa0fb5947e674b518a6b4e898846ceb8c6",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p5-3",
+      "page_number": 5,
+      "source_image_path": "episodes/EP006/panels/assets/p5-3.png",
+      "final_image_path": "episodes/EP006/panels/final/p5-3.svg",
+      "canonical_signature": "632e50a4b6ff231c12f6327faa020d8cc17da391764012d8714d41581d120ad7",
+      "source_sha256": "560d89b8d0b1f0250b71f551de0d37f955d71e1c368fcd1df769278a4c254fd1",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "먼지 아니야?",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-4",
+      "page_number": 5,
+      "source_image_path": "episodes/EP006/panels/assets/p5-4.png",
+      "final_image_path": "episodes/EP006/panels/final/p5-4.svg",
+      "canonical_signature": "f64c77fa7183c170d72cd7591fc4fb7b6a374314734c33ba6cafac0692ff96c5",
+      "source_sha256": "9c5cc1efcc9845c09b554931dab254de265afb274818ec22c12509f068b57822",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "더 잘 흉내 낸 게 아니야. 우리가 빠뜨린 걸 메웠어.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    }
+  ]
+}
