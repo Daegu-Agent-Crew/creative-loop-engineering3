@@ -1,0 +1,322 @@
+{
+  "episode_id": "EP007",
+  "title": "적의 실험 장치",
+  "scenes": [
+    {
+      "scene_number": 1,
+      "description": "p1-1: EP006 노트의 빈 제출처가 적힌 봉투가 PDC 회의장 중앙에 놓인다. 뒤의 여섯 관제 화면은 검은 천으로 가려져 있다. 연출: 봉투는 작고 천 그림자는 크게. 왕머여와 스치친은 가장자리의 작은 실루엣. 무대사·무자막. 카메라: 풀페이지 광각. visual_type=silence.",
+      "dialogue": [],
+      "color_palette": "청회색·검정",
+      "lighting": "회의장 냉광·관제 화면광과 검은 그림자",
+      "emotion_intensity": 6,
+      "applied_principles": [
+        "TB-01",
+        "HM-05"
+      ]
+    },
+    {
+      "scene_number": 2,
+      "description": "p2-1: 검증위원의 손이 봉투를 연다. 노트의 여섯 지문 그림만 보인다. 연출: 종이 가장자리에 왕머여 손의 눌린 자국. 글자 자리는 비운다. 카메라: 손 인서트. visual_type=normal. p2-2: 검증위원이 보고서 위에 오염 표시 도장을 내려놓는다. 연출: 얼굴보다 도장의 짙은 그림자를 크게. 카메라: 도장 극근접. visual_type=impact. p2-3: 왕머여가 뿔테를 고쳐 쓰며 반박하려다 입을 다문다. 연출: 눈썹이 좁혀지고 입술이 한 번 열렸다 닫힌다. 카메라: 얼굴 클로즈업. visual_type=silence. p2-4: 스치친이 손가락의 꺼진 담배를 돌리고 여섯 가린 화면을 본다. 연출: 헝클어진 검은 머리·수염·좁은 눈. 농담처럼 말하지만 시선은 도장에 고정. 카메라: 측면 이인물. visual_type=normal.",
+      "dialogue": [
+        {
+          "character": "검증위원",
+          "line": "오염된 데이터로 무슨 물리학을 합니까."
+        },
+        {
+          "character": "스치친",
+          "line": "거짓말도 입을 맞추려면 시간이 걸려."
+        }
+      ],
+      "color_palette": "흰색·청회색 / 검정·신호 빨강 / 청회색·흰색 / 올리브·검정",
+      "lighting": "회의장 냉광·관제 화면광과 검은 그림자",
+      "emotion_intensity": 5,
+      "applied_principles": [
+        "TB-01",
+        "HM-05"
+      ]
+    },
+    {
+      "scene_number": 3,
+      "description": "p3-1: 왕머여가 위조 출력 그래프를 뒤집어 뒷면의 빈 시간축을 드러낸다. 연출: 반박을 삼키고 손목을 단단히 편다. 카메라: 탁상 탑숏. visual_type=normal. p3-2: 파란 입력선과 빨간 출력선이 분리된 투명 슬라이드를 나란히 놓는다. 연출: 두 선 사이에 시간 여백을 분명히 둔다. 카메라: 도표 인서트. visual_type=normal. p3-3: 왕머여가 출력선이 바뀌는 지점을 손끝으로 가리킨다. 연출: 큰 렌즈 반사 아래 눈의 초점이 선 끝에 고정된다. 카메라: 오버숄더 클로즈업. visual_type=impact. p3-4: 검증위원이 빈 실패 기준 칸을 가리키며 펜을 건넨다. 연출: 표정은 냉정하되 악역처럼 과장하지 않는다. 카메라: 중경 정면. visual_type=normal.",
+      "dialogue": [
+        {
+          "character": "왕머여",
+          "line": "그 값은 믿지 않습니다."
+        },
+        {
+          "character": "왕머여",
+          "line": "바뀌는 순서를 보자는 겁니다."
+        },
+        {
+          "character": "검증위원",
+          "line": "먼저 틀릴 조건부터 쓰십시오."
+        }
+      ],
+      "color_palette": "흰색·청색 / 청색·신호 빨강 / 청회색·검정",
+      "lighting": "회의장 냉광·관제 화면광과 검은 그림자",
+      "emotion_intensity": 7,
+      "applied_principles": [
+        "TB-01",
+        "HM-05"
+      ]
+    },
+    {
+      "scene_number": 4,
+      "description": "p4-1: 왕머여 펜끝이 실패 기준 칸 위에서 멈춘다. 연출: 엄지 마디가 하얗게 눌린다. 카메라: 펜 극근접. visual_type=silence. p4-2: 무교란 대조군의 평평한 파란 선과 교란군의 빈 칸을 나란히 그린다. 연출: 글자와 숫자는 비워 두고 선의 역할만 명확히 한다. 카메라: 노트 탑숏. visual_type=normal. p4-3: 스치친이 노트 아래에 복사용 종이를 한 장 더 밀어 넣는다. 연출: 거친 손이 종이 모서리를 정교하게 맞춘다. 카메라: 손 클로즈업. visual_type=normal.",
+      "dialogue": [
+        {
+          "character": "왕머여",
+          "line": "대조군도 따라 움직이면, 제 보고서는 찢으십시오."
+        },
+        {
+          "character": "스치친",
+          "line": "찢기 전에 사본은 남깁시다."
+        }
+      ],
+      "color_palette": "흰색·검정 / 청색·흰색 / 호박색·흰색",
+      "lighting": "회의장 냉광·관제 화면광과 검은 그림자",
+      "emotion_intensity": 4,
+      "applied_principles": [
+        "TB-01",
+        "HM-05"
+      ]
+    },
+    {
+      "scene_number": 5,
+      "description": "p5-1: 왕머여가 같은 톱니 카드 여섯 장을 펼친다. 연출: 규칙적 배열이 너무 깔끔해 보이게 한다. 카메라: 탁상 광각. visual_type=normal. p5-2: 스치친이 카드 한 장을 빼고 신발 자국처럼 비스듬히 돌린다. 연출: 낡은 재킷 소매가 카드 위를 스친다. 카메라: 손 낮은 앵글. visual_type=normal. p5-3: 여섯 카드가 삼각·계단·갈고리·갈라진 선·짧은 점·톱니로 달라진다. 연출: 문자 없는 도형으로 한눈에 구분한다. 카메라: 탑숏 매크로. visual_type=impact. p5-4: 왕머여가 카드 뒤에 서로 다른 시각표를 놓는다. 연출: 마른 손이 급하게 움직이다 마지막 카드에서 멈춘다. 시각은 후처리. 카메라: 오버숄더. visual_type=normal.",
+      "dialogue": [
+        {
+          "character": "스치친",
+          "line": "도둑 잡는데 같은 신발 여섯 켤레를 깔아두진 않아."
+        },
+        {
+          "character": "왕머여",
+          "line": "모양도, 시각도 나눕니다."
+        }
+      ],
+      "color_palette": "흰색·신호 빨강 / 올리브·흰색 / 신호 빨강·청색 / 흰색·청회색",
+      "lighting": "회의장 냉광·관제 화면광과 검은 그림자",
+      "emotion_intensity": 7,
+      "applied_principles": [
+        "TB-01",
+        "HM-05"
+      ]
+    },
+    {
+      "scene_number": 6,
+      "description": "p6-1: 서로 다른 시설의 시계를 맞추는 연구원 손들이 영상 창에 보인다. 연출: 숫자는 비우고 초침 각도만 비교한다. 카메라: 분할 화면. visual_type=normal. p6-2: 왕머여가 한 장비의 교란 스위치에 투명 덮개를 씌운다. 연출: 대조군의 봉인 띠만 온전하다. 카메라: 스위치 인서트. visual_type=normal. p6-3: 스치친이 입력 카드 봉투를 봉인하고 자신의 손도 화면 밖으로 뺀다. 연출: 수염 밑 입꼬리는 얇고 눈은 진지하다. 카메라: 손·얼굴 중경. visual_type=normal. p6-4: 검증위원이 봉투와 대조군을 확인하고 서명 칸에 펜을 댄다. 연출: 서명 글자는 후처리. 펜의 접촉 순간만 보여준다. 카메라: 사선 오버숄더. visual_type=impact.",
+      "dialogue": [
+        {
+          "character": "왕머여",
+          "line": "대조 장비엔 손대지 마세요."
+        },
+        {
+          "character": "스치친",
+          "line": "이쪽 봉투는 내 손이 더러워도 안 열지."
+        }
+      ],
+      "color_palette": "청색·흰색 / 청색·검정 / 올리브·호박색 / 청회색·흰색",
+      "lighting": "회의장 냉광·관제 화면광과 검은 그림자",
+      "emotion_intensity": 6,
+      "applied_principles": [
+        "TB-01",
+        "HM-05"
+      ]
+    },
+    {
+      "scene_number": 7,
+      "description": "p7-1: 검증위원이 한 손가락을 들어 단 한 차례 시험을 허락한다. 연출: 손가락 뒤 여섯 화면의 검은 천이 벗겨지기 시작한다. 카메라: 낮은 앵글 중경. visual_type=normal. p7-2: 왕머여가 여섯 입력 키의 서로 다른 모양을 확인한다. 연출: 안경의 흰 반사가 여섯 칸으로 쪼개진다. 카메라: 렌즈 클로즈업. visual_type=normal. p7-3: 여섯 손가락이 시설마다 다른 키 위에서 각자의 예정 시각을 기다린다. 연출: 누르기 직전의 손톱과 굳은 관절에 긴장. 카메라: 분할 화면 탑숏. visual_type=silence. p7-4: 첫 키가 눌리고 파란 입력선 하나가 꺾인다. 빨간 출력선은 아직 그대로다. 연출: 파란 변화가 빨간 선보다 먼저임을 분명히 한다. 카메라: 선·손 극근접. visual_type=impact.",
+      "dialogue": [
+        {
+          "character": "검증위원",
+          "line": "한 번입니다."
+        },
+        {
+          "character": "왕머여",
+          "line": "한 번이면 순서는 볼 수 있습니다."
+        }
+      ],
+      "color_palette": "검정·청색 / 흰색·청색 / 청색·호박색 / 청색·신호 빨강",
+      "lighting": "회의장 냉광·관제 화면광과 검은 그림자",
+      "emotion_intensity": 8,
+      "applied_principles": [
+        "TB-01",
+        "HM-05"
+      ]
+    },
+    {
+      "scene_number": 8,
+      "description": "p8-1: 텅 빈 관제실의 여섯 모니터에 가느다란 정지선. 아래 구석의 두 사람은 아주 작다. 연출: 무대사·무자막 풀페이지. 큰 빈 벽과 검은 그림자. 기다림을 길게 만든다. 카메라: 풀페이지 먼 광각. visual_type=silence.",
+      "dialogue": [],
+      "color_palette": "청회색·검정",
+      "lighting": "회의장 냉광·관제 화면광과 검은 그림자",
+      "emotion_intensity": 5,
+      "applied_principles": [
+        "TB-01",
+        "HM-05"
+      ]
+    },
+    {
+      "scene_number": 9,
+      "description": "p9-1: 한 시설의 빨간 출력선에 작은 흔들림이 나타난다. 연출: 왕머여 손이 의자 팔걸이를 세게 쥔다. 카메라: 화면·손 교차. visual_type=normal. p9-2: 빨간 선의 흔들림이 급속히 줄어 매끈한 선으로 돌아간다. 연출: 선이 얇아지는 과정 세 단계만 보여준다. 카메라: 그래프 극근접. visual_type=impact. p9-3: 왕머여가 다른 화면으로 눈을 옮긴다. 화면마다 복구 시작점이 다르다. 연출: 실망으로 내려간 눈꼬리가 다시 초점을 찾는다. 카메라: 눈·화면 교차 클로즈업. visual_type=normal.",
+      "dialogue": [
+        {
+          "character": "검증위원",
+          "line": "돌아왔군요. 원래대로."
+        },
+        {
+          "character": "왕머여",
+          "line": "너무 빨리요."
+        }
+      ],
+      "color_palette": "신호 빨강·청색 / 신호 빨강·흰색 / 청회색·신호 빨강",
+      "lighting": "회의장 냉광·관제 화면광과 검은 그림자",
+      "emotion_intensity": 8,
+      "applied_principles": [
+        "TB-01",
+        "HM-05"
+      ]
+    },
+    {
+      "scene_number": 10,
+      "description": "p10-1: 왕머여가 여섯 화면의 복구 구간을 투명 종이 띠로 떠 나란히 펼친다. 연출: 손이 떨리지만 띠의 시작점은 정확히 맞춘다. 카메라: 탁상 광각. visual_type=normal. p10-2: 계단 입력 뒤엔 계단 모양 보정, 갈고리 뒤엔 갈고리 모양 보정이 다른 시차로 나타난다. 연출: 파랑 입력과 빨강 후행 반응을 분리. 수치는 후처리. 카메라: 도표 매크로. visual_type=impact. p10-3: 다른 네 지문도 각각 자기 모양을 따라가며 붉은 출력 폭이 좁아진다. 연출: 여섯 짝의 방향만 보이게 과잉 장식을 없앤다. 카메라: 분할 화면 정면. visual_type=impact. p10-4: 스치친이 사용한 카드와 복구 띠를 나란히 둔다. 연출: 좁은 눈이 차이를 읽고 담배 든 손은 멈춘다. 카메라: 이인물 중경. visual_type=normal.",
+      "dialogue": [
+        {
+          "character": "왕머여",
+          "line": "계단은 계단 뒤에, 갈고리는 갈고리 뒤에 바뀌었습니다."
+        },
+        {
+          "character": "스치친",
+          "line": "발자국을 지우면서 새 발자국을 찍었네."
+        }
+      ],
+      "color_palette": "흰색·청색 / 청색·신호 빨강 / 신호 빨강·흰색 / 올리브·청회색",
+      "lighting": "회의장 냉광·관제 화면광과 검은 그림자",
+      "emotion_intensity": 9,
+      "applied_principles": [
+        "TB-01",
+        "HM-05"
+      ]
+    },
+    {
+      "scene_number": 11,
+      "description": "p11-1: 검증위원이 여섯 화면 뒤에 공통 장비 계통도를 세운다. 연출: 한 가지 의심이 방을 다시 덮는 검은 그림자. 카메라: 낮은 앵글 광각. visual_type=normal. p11-2: 왕머여가 쓰려던 결론의 첫 줄을 펜으로 가로 긋는다. 연출: 입을 굳게 다물고 빨간 선의 반사에서 눈을 떼어낸다. 카메라: 노트·얼굴 클로즈업. visual_type=silence. p11-3: 스치친이 봉인된 무교란 대조 봉투를 위원 앞에 놓는다. 연출: 봉인선이 끊어지지 않았음을 크게. 카메라: 봉투 인서트. visual_type=normal. p11-4: 세 사람이 봉투를 내려다보며 누구도 먼저 손대지 않는다. 연출: 위원 손, 왕머여의 마른 손, 스치친의 거친 손을 삼각형으로. 카메라: 탑숏 중경. visual_type=silence.",
+      "dialogue": [
+        {
+          "character": "검증위원",
+          "line": "같은 계통의 장비라면?"
+        },
+        {
+          "character": "왕머여",
+          "line": "그래서 손대지 않은 선이 있습니다."
+        }
+      ],
+      "color_palette": "검정·청색 / 흰색·검정 / 올리브·흰색 / 청회색·호박색",
+      "lighting": "회의장 냉광·관제 화면광과 검은 그림자",
+      "emotion_intensity": 6,
+      "applied_principles": [
+        "TB-01",
+        "HM-05"
+      ]
+    },
+    {
+      "scene_number": 12,
+      "description": "p12-1: 검증위원이 봉인을 열고 대조군의 평평한 선을 여섯 변화 옆에 놓는다. 연출: 봉투가 찢어져도 기록선은 흔들리지 않는다. 카메라: 도표 탑숏. visual_type=impact. p12-2: 왕머여가 각 시설의 입력 시각과 출력 변화 시각을 서로 다른 투명자로 잰다. 연출: 입력 이전은 빈 여백, 뒤쪽만 붉은 결이 있다. 카메라: 손·그래프 매크로. visual_type=normal. p12-3: 검증위원이 대조선과 오염 출력선을 번갈아 본다. 연출: 눈썹은 풀리지 않지만 도장은 보고서 위에 없다. 카메라: 얼굴·도표 중경. visual_type=normal.",
+      "dialogue": [
+        {
+          "character": "왕머여",
+          "line": "입력 전엔 없고, 대조에는 없습니다."
+        },
+        {
+          "character": "검증위원",
+          "line": "그럼 이건 물리학의 값이 아니군요."
+        }
+      ],
+      "color_palette": "흰색·청색 / 청색·신호 빨강 / 청회색·흰색",
+      "lighting": "회의장 냉광·관제 화면광과 검은 그림자",
+      "emotion_intensity": 9,
+      "applied_principles": [
+        "TB-01",
+        "HM-05"
+      ]
+    },
+    {
+      "scene_number": 13,
+      "description": "p13-1: 여섯 모니터의 서로 다른 지문이 각기 다른 박자로 교란 뒤를 따라 좁아진다. 평평한 대조선은 중앙을 가른다. 연출: 무대사·무자막 풀페이지. 파형은 거대한 악보처럼 수렴하되 지능의 얼굴로 단정하지 않는다. 카메라: 풀페이지 정면 광각. visual_type=silence.",
+      "dialogue": [],
+      "color_palette": "청색·신호 빨강·검정",
+      "lighting": "회의장 냉광·관제 화면광과 검은 그림자",
+      "emotion_intensity": 8,
+      "applied_principles": [
+        "TB-01",
+        "HM-05"
+      ]
+    },
+    {
+      "scene_number": 14,
+      "description": "p14-1: 왕머여가 위원의 물음 앞에 펼친 손을 책상에 얹는다. 연출: 승리 포즈 대신 손바닥을 평평하게. 카메라: 이인물 중경. visual_type=normal. p14-2: 검증위원이 보고서의 승인 칸을 비워 두고 다음 시험 칸을 가리킨다. 연출: 경계는 유지하고 도장 손은 내린다. 카메라: 문서·손 오버숄더. visual_type=normal. p14-3: 스치친이 두 번째 빈 봉투를 꺼내 왕머여 옆에 놓는다. 연출: 좁은 눈에 웃음기가 돌아오지만 몸은 화면을 향한다. 카메라: 측면 중경. visual_type=normal. p14-4: 왕머여가 보고서에 제한된 한 줄을 쓰고 아래를 길게 비운다. 연출: 청회색 셔츠 소매를 걷은 손은 흔들리지 않는다. 문장은 후처리. 카메라: 노트 탑숏. visual_type=impact.",
+      "dialogue": [
+        {
+          "character": "왕머여",
+          "line": "거짓말의 반응 시간입니다."
+        },
+        {
+          "character": "검증위원",
+          "line": "한 번으로는 결재할 수 없습니다."
+        },
+        {
+          "character": "스치친",
+          "line": "그럼 두 번째 신발을 놓죠."
+        },
+        {
+          "character": "왕머여",
+          "line": "감시자는 입력마다 보정했습니다. 내부는 아직 모릅니다."
+        }
+      ],
+      "color_palette": "청회색·흰색 / 흰색·검정 / 올리브·호박색 / 흰색·청색",
+      "lighting": "회의장 냉광·관제 화면광과 검은 그림자",
+      "emotion_intensity": 9,
+      "applied_principles": [
+        "TB-01",
+        "HM-05"
+      ]
+    },
+    {
+      "scene_number": 15,
+      "description": "p15-1: p1에서 가려졌던 여섯 화면이 열린다. 지문과 후행 보정선이 배열돼 멀리서 하나의 눈 윤곽처럼 보인다. 두 사람은 작은 뒷모습. 연출: 무대사·무자막 풀페이지. 실제 눈이나 소페르 본체는 그리지 않는다. 관측 주체가 겹치는 불안한 종결. 카메라: 풀페이지 후면 초광각. visual_type=silence.",
+      "dialogue": [],
+      "color_palette": "청회색·신호 빨강·검정",
+      "lighting": "회의장 냉광·관제 화면광과 검은 그림자",
+      "emotion_intensity": 10,
+      "applied_principles": [
+        "TB-01",
+        "HM-05"
+      ]
+    }
+  ],
+  "cliffhanger": {
+    "page": 15,
+    "type": "감시자의 학습이 인간을 향하는 무언 이미지",
+    "cliffhanger_type": "mystery",
+    "text": "적은 무엇을 학습했는가?"
+  },
+  "cold_open": "EP006 노트의 빈 제출처가 PDC 회의장 봉투로 이어진다.",
+  "concept_seeding": [
+    "p3 입력과 출력의 시간 순서",
+    "p4 무교란 대조와 실패 기준",
+    "p5 시설별 지문",
+    "p6 봉인과 독립 시각표"
+  ],
+  "silence_pages": [
+    1,
+    8,
+    13,
+    15
+  ],
+  "applied_principles": [
+    "TB-01",
+    "HM-05"
+  ],
+  "prompt_version": "v3-4step-s2e02",
+  "source_reference": "episodes/EP007/story/source-story.md#S2E02"
+}

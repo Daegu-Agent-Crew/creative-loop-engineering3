@@ -2,7 +2,7 @@
   "$schema": "../../../schemas/creation-memory.schema.json",
   "schema_version": 1,
   "episode_id": "EP007",
-  "updated_at": "2026-11-09T22:14:00.277Z",
+  "updated_at": "2026-11-10T07:21:53+09:00",
   "creator_contract": {
     "creative_actor": "codex",
     "sole_creative_actor": true,
@@ -86,17 +86,18 @@
     }
   ],
   "handoff": {
-    "current_goal": "EP007 두 번째 결의 phase1_story 창작 작업을 이어간다.",
-    "current_phase": "phase1_story",
+    "current_goal": "EP007 S2E02 적의 실험 장치 Phase1 산출물 검토 및 다음 Phase 인계",
+    "current_phase": "phase2_characters",
     "target_panel_id": null,
     "completed": [
       "phase0 완료",
-      "phase0.5 완료"
+      "phase0.5 완료",
+      "phase1: 15p·45컷 스토리와 정본 패널 대본 완성, 스토리보드 초안 작성"
     ],
     "next_actions": [
-      "현재 스토리에서 캐릭터, 세계관, 시각 기준 자산을 추출하고 버전을 부여한다.",
-      "Character/World/Visual Bible을 만든 뒤 다음 Phase 입력으로 고정한다.",
-      "다음 창작 작업 전에 Creation Context Pack을 생성한다."
+      "Story Lock은 사람 결정으로 유지한다.",
+      "EP006 인물 외형과 EP007 표기 대응을 Phase2에서 확인한다.",
+      "캐릭터 기준 확정 후 storyboard 초안의 인물 표기와 카메라를 재검증한다."
     ],
     "blockers": [],
     "human_decisions": [

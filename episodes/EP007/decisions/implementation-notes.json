@@ -40,6 +40,32 @@
       ],
       "human_approval": "not_required",
       "impact": "Workspace는 검토 가능한 판단 요약만 노출한다."
+    },
+    {
+      "id": "DEC-20261110-EP007-001",
+      "made_at": "2026-11-10T07:21:53+09:00",
+      "phase": "phase1",
+      "decision": "S2E02 적의 실험 장치를 15페이지·45컷으로 각색하고, 무교란 대조·시설별 다른 교란·입력 후 시차로 소페르의 실시간 보정을 검증한다.",
+      "rationale": "EP006의 살아있는 시뮬레이션 가설을 결과값의 진위와 분리해 반증 가능한 시험으로 바꾸기 위해서다.",
+      "evidence": [
+        "episodes/EP007/story/analysis.md",
+        "episodes/EP007/story/outline.md",
+        "episodes/EP007/story/scenes.md",
+        "episodes/EP007/script/script.md",
+        "episodes/EP007/script/panel-script.json",
+        "episodes/EP007/storyboard/storyboard.json"
+      ],
+      "confidence": "medium",
+      "uncertainties": [
+        "왕머여 표기는 EP006 왕먀오와 동일 인물로 처리했다.",
+        "첫 배치만으로 내부 학습 알고리즘까지 단정할 수 없어 재현이 필요하다."
+      ],
+      "alternatives_considered": [
+        "오염 출력의 값 자체를 새로운 물리법칙의 증거로 해석",
+        "한 시설에서 같은 교란을 반복"
+      ],
+      "human_approval": "pending",
+      "impact": "Phase1 산출물은 완성. Story Lock과 Character Lock은 사람 승인으로 추정하지 않고 pending 유지. Phase3 스토리보드는 초안."
     }
   ]
 }
