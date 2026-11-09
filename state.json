@@ -268,7 +268,7 @@
     "EP006": {
       "title": "버그 리포트",
       "status": "in_progress",
-      "current_phase": "phase4_panels",
+      "current_phase": "phase6_release",
       "phases": {
         "phase0": {
           "status": "completed",
@@ -308,16 +308,19 @@
           "note": "정본 panel-script.json(45컷) 신설 + storyboard.json(15p·45컷) 생성. panel-id 정합성 검증 통과, 풀페이지 p1/8/13/15, visual_type 분포 normal 28/impact 11/silence 6. 거버넌스 검증 6에피소드 통과."
         },
         "phase4": {
-          "status": "in_progress",
-          "score": null
+          "status": "completed",
+          "score": null,
+          "note": "45/45 패널 생성·최적화·커밋 (배치1~8, codex image_gen)"
         },
         "phase5": {
-          "status": "pending",
-          "score": null
+          "status": "completed",
+          "score": 41,
+          "prompt_version": "v5-single-source",
+          "note": "SVG 파이널 45/45 렌더링, QA 41/50 (자동 정적 검증), 미리보기 뷰어 Pages 배포"
         },
         "phase6": {
           "status": "pending",
-          "score": null
+          "note": "발행 승인 대기 (회장님) — 승인 시 시즌 리더 편입·정식 발행"
         }
       },
       "season": 2,

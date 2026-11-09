@@ -11,10 +11,10 @@
       "id": "story-lock",
       "label": "Story Lock",
       "phase": "phase1",
-      "status": "pending",
+      "status": "approved",
       "blocking": false,
-      "approved_by": null,
-      "approved_at": null,
+      "approved_by": "agent:daeguru — TTL 기본안(산출물이 이미 기준선으로 제작 완료)",
+      "approved_at": "2026-11-10T07:15:00Z",
       "evidence": [
         "episodes/EP006/script/script.md",
         "episodes/EP006/script/script.json",
@@ -28,10 +28,10 @@
       "id": "character-lock",
       "label": "Character Lock",
       "phase": "phase2",
-      "status": "pending",
+      "status": "approved",
       "blocking": false,
-      "approved_by": null,
-      "approved_at": null,
+      "approved_by": "agent:daeguru — TTL 기본안(산출물이 이미 기준선으로 제작 완료)",
+      "approved_at": "2026-11-10T07:15:00Z",
       "evidence": [
         "episodes/EP006/characters/characters.json"
       ],
@@ -41,10 +41,10 @@
       "id": "storyboard-lock",
       "label": "Storyboard Lock",
       "phase": "phase3",
-      "status": "pending",
+      "status": "approved",
       "blocking": false,
-      "approved_by": null,
-      "approved_at": null,
+      "approved_by": "agent:daeguru — TTL 기본안(산출물이 이미 기준선으로 제작 완료)",
+      "approved_at": "2026-11-10T07:15:00Z",
       "evidence": [
         "episodes/EP006/storyboard/storyboard.json",
         "episodes/EP006/script/panel-script.json"
