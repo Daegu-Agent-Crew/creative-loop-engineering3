@@ -176,7 +176,7 @@
       "source_image_path": "episodes/EP006/panels/assets/p4-1.png",
       "final_image_path": "episodes/EP006/panels/final/p4-1.svg",
       "canonical_signature": "319f8a0656ec421acad110c8502942c2314e391f8a23803b2a1f9bff7610441c",
-      "source_sha256": "09808237b56f5bbac5f985173092518c716301e32c073138938b379fabf67a91",
+      "source_sha256": "460ab3ba60cd08bdf3bf1db0e097c743fd06647949832f2fb6d4b6761e588419",
       "text_layout": "caption_strip",
       "status": "draft",
       "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
@@ -188,7 +188,7 @@
       "source_image_path": "episodes/EP006/panels/assets/p4-2.png",
       "final_image_path": "episodes/EP006/panels/final/p4-2.svg",
       "canonical_signature": "ee2f435fe7248c7e2217c091ec16f250aed68cfb2e7e04f7b2838d983ee33c88",
-      "source_sha256": "94fde15c9fc9f955ed3c51c71213c4724c3857180620370e44ee42b4578c1467",
+      "source_sha256": "2f25f58fa90733a105f7974428198795ec604849abb055a4c3160b6bf50384b3",
       "text_layout": "caption_strip",
       "status": "draft",
       "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
@@ -200,7 +200,7 @@
       "source_image_path": "episodes/EP006/panels/assets/p4-3.png",
       "final_image_path": "episodes/EP006/panels/final/p4-3.svg",
       "canonical_signature": "cb74a697035c55d2b822d38b28cfbc0e0fd3a9dd2437f2c1e77da260ed385472",
-      "source_sha256": "e4cc41af5bebe62bfa4926e22a9f615331270f4972f0350b1442a968ff8c1364",
+      "source_sha256": "6bbaa62f135af497663c51ed0c194da262c2a4cc7dd10e9aa166f61d14171141",
       "text_layout": "caption_strip",
       "status": "draft",
       "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
@@ -224,7 +224,7 @@
       "source_image_path": "episodes/EP006/panels/assets/p5-1.png",
       "final_image_path": "episodes/EP006/panels/final/p5-1.svg",
       "canonical_signature": "1b576d9e3a55ef251287acb3544c6bfcdae36da916f493e6d55bfd6fed6492db",
-      "source_sha256": "573f65353fe75310af962a798f2c79c298d1dd68aa1a1cba434cef3a3478a8f6",
+      "source_sha256": "6f69ba36803980ed261c350fa46a9841da503743bcb3f6a722a8843687bb8f77",
       "text_layout": "caption_strip",
       "status": "draft",
       "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
@@ -236,7 +236,7 @@
       "source_image_path": "episodes/EP006/panels/assets/p5-2.png",
       "final_image_path": "episodes/EP006/panels/final/p5-2.svg",
       "canonical_signature": "41bb875dad45d229ad88e53011ca340fa87b74898aeb1c36fbbaa647c42f387d",
-      "source_sha256": "aa4850b89e4e5187e8fb700b9157d2aa0fb5947e674b518a6b4e898846ceb8c6",
+      "source_sha256": "dd28cfe9baebe9876296c453a7c2690fa10347a9a4a365b566fceddd229a4116",
       "text_layout": "caption_strip",
       "status": "draft",
       "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
@@ -248,7 +248,7 @@
       "source_image_path": "episodes/EP006/panels/assets/p5-3.png",
       "final_image_path": "episodes/EP006/panels/final/p5-3.svg",
       "canonical_signature": "632e50a4b6ff231c12f6327faa020d8cc17da391764012d8714d41581d120ad7",
-      "source_sha256": "560d89b8d0b1f0250b71f551de0d37f955d71e1c368fcd1df769278a4c254fd1",
+      "source_sha256": "064ba2ed3b7e2c0dc2ff2f16a25b64d2cf7e4ef8d8d73564a49d0cd487c63f3b",
       "text_layout": "caption_strip",
       "status": "draft",
       "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
@@ -272,7 +272,7 @@
       "source_image_path": "episodes/EP006/panels/assets/p5-4.png",
       "final_image_path": "episodes/EP006/panels/final/p5-4.svg",
       "canonical_signature": "f64c77fa7183c170d72cd7591fc4fb7b6a374314734c33ba6cafac0692ff96c5",
-      "source_sha256": "9c5cc1efcc9845c09b554931dab254de265afb274818ec22c12509f068b57822",
+      "source_sha256": "8833f64f30e4c6477c8ecab6abc70adb4c3e24b3b5904488f1f542a89cbd1776",
       "text_layout": "caption_strip",
       "status": "draft",
       "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
@@ -289,6 +289,150 @@
           }
         }
       ]
+    },
+    {
+      "panel_id": "p6-1",
+      "page_number": 6,
+      "source_image_path": "episodes/EP006/panels/assets/p6-1.png",
+      "final_image_path": "episodes/EP006/panels/final/p6-1.svg",
+      "canonical_signature": "853df934f6183519e3c3a19883bca821e6ce4fd955786e998c797c0b01da517f",
+      "source_sha256": "195adcfe717b2e2fa0780187fd2e721e2e5ff50e9491828a5c5bd4ed46f11f45",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p6-2",
+      "page_number": 6,
+      "source_image_path": "episodes/EP006/panels/assets/p6-2.png",
+      "final_image_path": "episodes/EP006/panels/final/p6-2.svg",
+      "canonical_signature": "9bad02d0f7d23e054477345403758b963cff82d495f6ac71e7eeaca0dbde99b0",
+      "source_sha256": "00944d28a884fef9f386ae45afb46d960f5ae49fc3569bdbd0c8e3f33c78939b",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "복사본이면 왜 매번 손을 고치죠?",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p6-3",
+      "page_number": 6,
+      "source_image_path": "episodes/EP006/panels/assets/p6-3.png",
+      "final_image_path": "episodes/EP006/panels/final/p6-3.svg",
+      "canonical_signature": "c8bfcfcac860511365f418516955ef793a99e49ae3b864312605ca6b63d3dad3",
+      "source_sha256": "44adf9e117dc010c1a36656baa499126c4634de2e67a1a4a1ae758f74f1f6e23",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "그럼 다음엔 우리가 묻는 차례겠네.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p6-4",
+      "page_number": 6,
+      "source_image_path": "episodes/EP006/panels/assets/p6-4.png",
+      "final_image_path": "episodes/EP006/panels/final/p6-4.svg",
+      "canonical_signature": "1336346f5cd7d26bf6e70b3672aa98c45a3c27fc0a687eb628f5cad1b741c03d",
+      "source_sha256": "483e84a4c3204d8e8b34518a8a518592e54182db092692e53a09a8d6249b6f4b",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p7-1",
+      "page_number": 7,
+      "source_image_path": "episodes/EP006/panels/assets/p7-1.png",
+      "final_image_path": "episodes/EP006/panels/final/p7-1.svg",
+      "canonical_signature": "31f2737494562f96bb64fc59380f5337bae8b1471e00c306b7cc1ca139360ef6",
+      "source_sha256": "6a65f4c34b359c2d83c60788c2298b6918f5656fb3e6274f521015de98755cb2",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "위조 데이터 자체가 새 물리학의 증거다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-2",
+      "page_number": 7,
+      "source_image_path": "episodes/EP006/panels/assets/p7-2.png",
+      "final_image_path": "episodes/EP006/panels/final/p7-2.svg",
+      "canonical_signature": "0f3897834615626f0271b94205f3b1fba7eedc5128772b567565c63cce985b26",
+      "source_sha256": "1debc1afb554e97e17499a133ca60895f32b42b586542c2d9e0d14a094247d8c",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "법정에 내면, 누가 재현하지?",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-3",
+      "page_number": 7,
+      "source_image_path": "episodes/EP006/panels/assets/p7-3.png",
+      "final_image_path": "episodes/EP006/panels/final/p7-3.svg",
+      "canonical_signature": "16e13bcbc0b199960630f4f968675a7570cce1aefc25f4ac9d0e56b0ab86b982",
+      "source_sha256": "593d26552a2fc3d6f4edda8251edd8f26703cc3ab3b7784825c5f0ae4e02f5a3",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p7-4",
+      "page_number": 7,
+      "source_image_path": "episodes/EP006/panels/assets/p7-4.png",
+      "final_image_path": "episodes/EP006/panels/final/p7-4.svg",
+      "canonical_signature": "9a9693dc068af36e6baac7f41adb53e13bb14969512174ca9fac769d472d0a9a",
+      "source_sha256": "56402f66a9a88241535c639e66baca4727e0282f9d3a714b11f97ea1033b7d47",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": []
     }
   ]
 }
