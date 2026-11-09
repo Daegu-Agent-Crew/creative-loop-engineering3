@@ -39,7 +39,15 @@
   "canon_assets": [],
   "narrative_threads": [],
   "continuity": [],
-  "preferences": [],
+  "preferences": [
+    {
+      "id": "pref-style-continuity-ep006",
+      "created": "2026-11-10T07:31:00Z",
+      "source": "회장님 지시 (2026-11-10 07:30 KST, #가재코드 cle3)",
+      "rule": "EP007 이후 모든 화는 EP006과 캐릭터 외형·그림체(닥터슬럼프풍 STYLE_BLOCK) 일관성을 유지한다. 생성 전 codex가 EP006 기준 패널(왕머여 p2-1, 스치친 p3-1 등)을 읽고 안면 비율·복장·명암을 일치시킨다.",
+      "scope": "season2-all-episodes"
+    }
+  ],
   "lessons": [],
   "constraints": [
     {
