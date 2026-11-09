@@ -217,7 +217,7 @@
     },
     {
       "owner": "cle3-maintainer",
-      "status": "pending",
+      "status": "resolved",
       "waiting_since": "2026-11-10T07:15:00Z",
       "waiting_since_basis": "human_request",
       "due_at": "2026-11-13T07:15:00Z",
@@ -232,7 +232,15 @@
         "episodes/EP006/qa/qa.json",
         "https://daegu-agent-crew.github.io/creative-loop-engineering3/episodes/EP006/"
       ],
-      "ttl_policy": "approval-critical: 사람 승인 필요 (미리보기는 유지)"
+      "ttl_policy": "approval-critical: 사람 승인 필요 (미리보기는 유지)",
+      "resolution": {
+        "decided_by": "회장님 (sfex11)",
+        "decided_at": "2026-11-10T07:13:00Z",
+        "decision": "발행 승인 — 시즌 2 리더 편입",
+        "evidence": [
+          "episodes/EP006/approvals/gates.json"
+        ]
+      }
     }
   ]
 }

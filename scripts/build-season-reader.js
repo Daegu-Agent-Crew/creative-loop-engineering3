@@ -6,7 +6,7 @@ const {renderPanel,escapeXml}=require('./render-panel-overlays');
 const root=process.cwd(),out=path.join(root,'dist/season');
 const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
 fs.mkdirSync(out,{recursive:true});
-const episodes=Array.from({length:5},(_,i)=>`EP${String(i+1).padStart(3,'0')}`);
+const episodes=Array.from({length:6},(_,i)=>`EP${String(i+1).padStart(3,'0')}`);
 const cards=[];
 for(const ep of episodes){
  const panels=read(`episodes/${ep}/panels/panels.json`).panels;

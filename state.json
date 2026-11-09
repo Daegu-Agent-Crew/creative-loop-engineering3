@@ -1,5 +1,5 @@
 {
-  "current_episode": "EP006",
+  "current_episode": "EP007",
   "current_phase": "phase4_panels",
   "episodes": {
     "EP001": {
@@ -267,7 +267,7 @@
     },
     "EP006": {
       "title": "버그 리포트",
-      "status": "in_progress",
+      "status": "completed",
       "current_phase": "phase6_release",
       "phases": {
         "phase0": {
@@ -319,8 +319,8 @@
           "note": "SVG 파이널 45/45 렌더링, QA 41/50 (자동 정적 검증), 미리보기 뷰어 Pages 배포"
         },
         "phase6": {
-          "status": "pending",
-          "note": "발행 승인 대기 (회장님) — 승인 시 시즌 리더 편입·정식 발행"
+          "status": "completed",
+          "note": "회장님 발행 승인(2026-11-10 07:13) — 시즌 리더 편입"
         }
       },
       "season": 2,
