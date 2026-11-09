@@ -4,8 +4,8 @@
 
 - phase: phase4_panels
 - total_panels: 45
-- generated_panels: 24
-- pending_panels: 21
+- generated_panels: 28
+- pending_panels: 17
 - asset_dir: `episodes/EP006/panels/assets/`
 - workflow_rule: CLE3 내부 storyboard + characters 산출물만 사용. 외부 저장소 생성 결과 재사용 금지.
 
