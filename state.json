@@ -308,7 +308,7 @@
           "note": "정본 panel-script.json(45컷) 신설 + storyboard.json(15p·45컷) 생성. panel-id 정합성 검증 통과, 풀페이지 p1/8/13/15, visual_type 분포 normal 28/impact 11/silence 6. 거버넌스 검증 6에피소드 통과."
         },
         "phase4": {
-          "status": "pending",
+          "status": "in_progress",
           "score": null
         },
         "phase5": {
