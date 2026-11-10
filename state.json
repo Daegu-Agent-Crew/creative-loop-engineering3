@@ -1,6 +1,6 @@
 {
   "current_episode": "EP007",
-  "current_phase": "phase4_panels",
+  "current_phase": "phase6_release",
   "episodes": {
     "EP001": {
       "title": "태초의 밤",
@@ -328,9 +328,9 @@
       "note": "2026-11-06 시즌2 착수 (회장님 지시: 결과물 제출 주기 개선). 스토리 원안은 adaptations/season2-bug-report — phase1에서 이를 EP006 대본으로 전개."
     },
     "EP007": {
-      "title": "두 번째 결",
+      "title": "적의 실험 장치",
       "status": "in_progress",
-      "current_phase": "phase1_story",
+      "current_phase": "phase6_release",
       "phases": {
         "phase0": {
           "status": "completed",
@@ -343,28 +343,45 @@
           "note": "EP001~006 성경·화풍 계승"
         },
         "phase1": {
-          "status": "pending",
-          "score": null
+          "status": "completed",
+          "score": 44,
+          "prompt_version": "v3-4step-s2e02",
+          "note": "S2E02 검증 원안 기반 15p·45컷. analysis→outline→scenes→script 및 panel-script 정본 완료. storyboard.json은 다음 Phase를 위한 초안이며 Story Lock은 pending.",
+          "sub_files": [
+            "story/analysis.md",
+            "story/outline.md",
+            "story/scenes.md",
+            "script/script.md",
+            "script/script.json",
+            "script/panel-script.json"
+          ]
         },
         "phase2": {
-          "status": "pending",
-          "score": null
+          "status": "completed",
+          "score": null,
+          "note": "EP006 성경 계승 — characters.json 복사(episode_id만 교체). 왕머여·스치친 외형 규칙·닥터슬럼프풍 STYLE_BLOCK 유지."
         },
         "phase3": {
-          "status": "pending",
-          "score": null
+          "status": "completed",
+          "score": null,
+          "prompt_version": "v3-storyboard-derived",
+          "note": "panel-script(정본 45컷) → node scripts/gen-storyboard.js EP007 결정론적 파생(사전 예방 v4, 설명 드리프트 원천 차단)."
         },
         "phase4": {
-          "status": "pending",
-          "score": null
+          "status": "completed",
+          "score": null,
+          "prompt_version": "v2-toriyama-internal",
+          "note": "45/45 패널 codex image_gen 배치 생성·최적화·프리뷰·커밋. 전 배치 EP006 p2-1·p3-1 선행 독해 조항 적용(회장님 2026-11-10 지시)."
         },
         "phase5": {
-          "status": "pending",
-          "score": null
+          "status": "completed",
+          "score": 37,
+          "note": "SVG 파이널 45/45·텍스트 오버레이 25(무대사 풀페이지는 설계상 침묵)·미리보기 뷰어 Pages 배포(2026-11-10). QA 자동 정적 검증 37/50. 1.4MB 초과 PNG 5건 재최적화."
         },
         "phase6": {
           "status": "pending",
-          "score": null
+          "score": null,
+          "note": "발행 승인 대기(사람). 뷰어 링크 #가재코드 cle3 제출."
         }
       },
       "season": 2,
@@ -400,7 +417,7 @@
       "previous_score": 45
     }
   ],
-  "last_updated": "2026-09-16T09:25:56.860804+00:00",
+  "last_updated": "2026-11-10T07:21:53+09:00",
   "season_production_status": "complete",
   "season_release_status": "deployed",
   "pages_url": "https://daegu-agent-crew.github.io/creative-loop-engineering3/"
