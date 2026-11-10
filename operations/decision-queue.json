@@ -218,7 +218,7 @@
     {
       "owner": "cle3-maintainer",
       "status": "resolved",
-      "waiting_since": "2026-11-10T07:15:00Z",
+      "waiting_since": "2026-11-10T07:13:00Z",
       "waiting_since_basis": "human_request",
       "due_at": "2026-11-13T07:15:00Z",
       "overdue_action": "미리보기 뷰어 유지, 정식 시즌 리더 편입은 보류한다.",
@@ -230,7 +230,7 @@
       "source_path": "episodes/EP006/approvals/gates.json",
       "evidence": [
         "episodes/EP006/qa/qa.json",
-        "https://daegu-agent-crew.github.io/creative-loop-engineering3/episodes/EP006/"
+        "docs/episodes/EP006/index.html"
       ],
       "ttl_policy": "approval-critical: 사람 승인 필요 (미리보기는 유지)",
       "resolution": {
