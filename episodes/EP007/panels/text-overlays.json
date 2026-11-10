@@ -1,0 +1,846 @@
+{
+  "episode_id": "EP007",
+  "version": 1,
+  "panels": [
+    {
+      "panel_id": "p1-1",
+      "page_number": 1,
+      "source_image_path": "episodes/EP007/panels/assets/p1-1.png",
+      "final_image_path": "episodes/EP007/panels/final/p1-1.svg",
+      "canonical_signature": "50977da642e88ef09177dd45e17830c3b659061ca66e172412fc052ba91a0f39",
+      "source_sha256": "9ab5ee6da0dc1fad54be9ca037a6512eedd783db9a7b9ab62cbe08c243e4350a",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": []
+    },
+    {
+      "panel_id": "p2-1",
+      "page_number": 2,
+      "source_image_path": "episodes/EP007/panels/assets/p2-1.png",
+      "final_image_path": "episodes/EP007/panels/final/p2-1.svg",
+      "canonical_signature": "8f24b6056154d66b766470e9781fecc75366ba1c67695792eac762113319d42e",
+      "source_sha256": "7b4f7270fad6f017ab2572a351a71954aa87b5ffa0e8fb70a5a92f0fc0d3192c",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": []
+    },
+    {
+      "panel_id": "p2-2",
+      "page_number": 2,
+      "source_image_path": "episodes/EP007/panels/assets/p2-2.png",
+      "final_image_path": "episodes/EP007/panels/final/p2-2.svg",
+      "canonical_signature": "2fc6bc635e63412c9ee087cf5a403f71c57d167495286902c03f01d59aa80d4f",
+      "source_sha256": "86a9a5e46a0a351f4b24fbc5db5f6828e2d13fdd3dece09fe4247a32b00c261a",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "검증위원",
+          "text": "오염된 데이터로 무슨 물리학을 합니까.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p2-3",
+      "page_number": 2,
+      "source_image_path": "episodes/EP007/panels/assets/p2-3.png",
+      "final_image_path": "episodes/EP007/panels/final/p2-3.svg",
+      "canonical_signature": "69c4282bed5d18c15b55b7b20a677b5f25484c3d63c8ac1c742f0f0323dedaa3",
+      "source_sha256": "c6c9dc66275d0acd1e2227dc8b56d20d75ecc1162147a2cf415d3a8b34b2199f",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": []
+    },
+    {
+      "panel_id": "p2-4",
+      "page_number": 2,
+      "source_image_path": "episodes/EP007/panels/assets/p2-4.png",
+      "final_image_path": "episodes/EP007/panels/final/p2-4.svg",
+      "canonical_signature": "4e9b7fc1ae962e68fb9c5bd49720e49bfa948cccca7df7f2ffa45b0d2c4a4d43",
+      "source_sha256": "0706429513b99d02a567d5a4e0878c29becf5b5fdc84bc6c5452071cccbc5ce4",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "거짓말도 입을 맞추려면 시간이 걸려.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-1",
+      "page_number": 3,
+      "source_image_path": "episodes/EP007/panels/assets/p3-1.png",
+      "final_image_path": "episodes/EP007/panels/final/p3-1.svg",
+      "canonical_signature": "9950f9f69f880195058ab8d5d080c0300aa102f45370166edd7bd720e69c9834",
+      "source_sha256": "7524f4cee548bc317e8d04e71558c639b2287b3e1b61fbfe0d0d84566a6cc260",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕머여",
+          "text": "그 값은 믿지 않습니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-2",
+      "page_number": 3,
+      "source_image_path": "episodes/EP007/panels/assets/p3-2.png",
+      "final_image_path": "episodes/EP007/panels/final/p3-2.svg",
+      "canonical_signature": "5d89e40bf07856a5cf653fd4d3f0d04afff2ff4fd57eae4853e5cc17f60203b3",
+      "source_sha256": "a1f1218e688d240cd9e13276a76cc85c1e27b8afa979f733f5d4329b043829a0",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": []
+    },
+    {
+      "panel_id": "p3-3",
+      "page_number": 3,
+      "source_image_path": "episodes/EP007/panels/assets/p3-3.png",
+      "final_image_path": "episodes/EP007/panels/final/p3-3.svg",
+      "canonical_signature": "6970fc4728ddf2ac799e7b913fbc78aa7ac929f713cf4e5b1ce067107d7b2cab",
+      "source_sha256": "105225e22b4763a36fa0763778a95afca44f09fc3df43608694d56459b481fa5",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕머여",
+          "text": "바뀌는 순서를 보자는 겁니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-4",
+      "page_number": 3,
+      "source_image_path": "episodes/EP007/panels/assets/p3-4.png",
+      "final_image_path": "episodes/EP007/panels/final/p3-4.svg",
+      "canonical_signature": "6eb24eabd7817e9a90acf53924d2a4832f4817a7b5f4163a523ba40f267edc36",
+      "source_sha256": "ccb176519b35cc07f60fd5173ecfee6c799d563fed4945e9edc0c762a5820f24",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "검증위원",
+          "text": "먼저 틀릴 조건부터 쓰십시오.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-1",
+      "page_number": 4,
+      "source_image_path": "episodes/EP007/panels/assets/p4-1.png",
+      "final_image_path": "episodes/EP007/panels/final/p4-1.svg",
+      "canonical_signature": "6c11e54a395e0838679d221d338be74b919d9346b62af7ddd1c4d6975ec58ed4",
+      "source_sha256": "a8b0a0fd7b7d4c0c5bd3857953bbf838a7407c3c0cb66fac6eb70d4b98cf60b4",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": []
+    },
+    {
+      "panel_id": "p4-2",
+      "page_number": 4,
+      "source_image_path": "episodes/EP007/panels/assets/p4-2.png",
+      "final_image_path": "episodes/EP007/panels/final/p4-2.svg",
+      "canonical_signature": "baec28a65a45e4c65c2998305af6ece5be218449689752f82f6778d02944301d",
+      "source_sha256": "65fc6f3e147d731fe78a537d5fc3dae7c84113af9760e4bf16c6c8f757461fa6",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕머여",
+          "text": "대조군도 따라 움직이면, 제 보고서는 찢으십시오.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-3",
+      "page_number": 4,
+      "source_image_path": "episodes/EP007/panels/assets/p4-3.png",
+      "final_image_path": "episodes/EP007/panels/final/p4-3.svg",
+      "canonical_signature": "2afc64987214aa31e47c41351e8bd5da5e496f272765473bfb49d3115f0b44af",
+      "source_sha256": "f0b8a4d0ea4eadfec4311e1b24453bae7bbf84065751f3b47e056e4b789d08e1",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "찢기 전에 사본은 남깁시다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-1",
+      "page_number": 5,
+      "source_image_path": "episodes/EP007/panels/assets/p5-1.png",
+      "final_image_path": "episodes/EP007/panels/final/p5-1.svg",
+      "canonical_signature": "94fa725442bee838ed4ea685a73be3c999bb8708fe1d4e344167ef6e9274455c",
+      "source_sha256": "db2d2144552b3c120aec49874ffe3fcd26acbfc1b1e76918146c15b1272b3bdf",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": []
+    },
+    {
+      "panel_id": "p5-2",
+      "page_number": 5,
+      "source_image_path": "episodes/EP007/panels/assets/p5-2.png",
+      "final_image_path": "episodes/EP007/panels/final/p5-2.svg",
+      "canonical_signature": "2f13454d97ae6aa153ea55157d2276aecb452cf19d4c14e08efb10e7598bc07b",
+      "source_sha256": "893f975b7566088b56f74bbe6fa593a12f26081cd3281834476edf84da77c97d",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "도둑 잡는데 같은 신발 여섯 켤레를 깔아두진 않아.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-3",
+      "page_number": 5,
+      "source_image_path": "episodes/EP007/panels/assets/p5-3.png",
+      "final_image_path": "episodes/EP007/panels/final/p5-3.svg",
+      "canonical_signature": "99b3fd79b0961b3a498f7a0d65367053e8062af2ce812596ac22bed69cc92b53",
+      "source_sha256": "d23d26b6ed7c255879c63092351f47be3cadf95b05c780065347d7cf8434c100",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": []
+    },
+    {
+      "panel_id": "p5-4",
+      "page_number": 5,
+      "source_image_path": "episodes/EP007/panels/assets/p5-4.png",
+      "final_image_path": "episodes/EP007/panels/final/p5-4.svg",
+      "canonical_signature": "cb2f10ede651e28f08db0fdc26d0853f8f068672001f3d2fecc137226c52578f",
+      "source_sha256": "5140083adefdde933309636232bbddbc31d697a75e27e707af30f8d8bb6bea2a",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕머여",
+          "text": "모양도, 시각도 나눕니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p6-1",
+      "page_number": 6,
+      "source_image_path": "episodes/EP007/panels/assets/p6-1.png",
+      "final_image_path": "episodes/EP007/panels/final/p6-1.svg",
+      "canonical_signature": "890b7d53cde51a0804c691fdbdcb5067e02f641ecfeb2aa5c8812a2d0d9de40e",
+      "source_sha256": "fef7e72f52171886178f73b1e80e30b14782fce48f0973fa32cab10a551f2dae",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": []
+    },
+    {
+      "panel_id": "p6-2",
+      "page_number": 6,
+      "source_image_path": "episodes/EP007/panels/assets/p6-2.png",
+      "final_image_path": "episodes/EP007/panels/final/p6-2.svg",
+      "canonical_signature": "d2038097c141d5d0a7d29de581007394a5233cf4354898665d10a3fa0508feb0",
+      "source_sha256": "c781d6c99656ba2a43a55a14b293faa3637959377aad10f2dd5256f20577aae9",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕머여",
+          "text": "대조 장비엔 손대지 마세요.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p6-3",
+      "page_number": 6,
+      "source_image_path": "episodes/EP007/panels/assets/p6-3.png",
+      "final_image_path": "episodes/EP007/panels/final/p6-3.svg",
+      "canonical_signature": "57c108f29ee017816d04d76883871387c16563ae1e275fd8ae052d2f277b6ce8",
+      "source_sha256": "b50189b7c15dfe54e177b6126f40f790bb738d3e6389cc3e1ec77380f86b8142",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "이쪽 봉투는 내 손이 더러워도 안 열지.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p6-4",
+      "page_number": 6,
+      "source_image_path": "episodes/EP007/panels/assets/p6-4.png",
+      "final_image_path": "episodes/EP007/panels/final/p6-4.svg",
+      "canonical_signature": "ee27cae35e026dd80ffb844e464423b81faa31139e433110e9384ddd59974223",
+      "source_sha256": "94d5921b0859481ccff71215e462d5490c592a251faa302a82c790306c2ee528",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": []
+    },
+    {
+      "panel_id": "p7-1",
+      "page_number": 7,
+      "source_image_path": "episodes/EP007/panels/assets/p7-1.png",
+      "final_image_path": "episodes/EP007/panels/final/p7-1.svg",
+      "canonical_signature": "7c878e474fa550c71af982b52e6da69eb826906c953bf8fe0946c5f71d3b8625",
+      "source_sha256": "260f5ec820e6bcd3056ab3d821530d115101f61411dbc5c50a91b288fd48c6ea",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "검증위원",
+          "text": "한 번입니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-2",
+      "page_number": 7,
+      "source_image_path": "episodes/EP007/panels/assets/p7-2.png",
+      "final_image_path": "episodes/EP007/panels/final/p7-2.svg",
+      "canonical_signature": "d8bdbb4f6b1471b4d1ed567857458ad1c8749fdab0a914441e3834c367ced018",
+      "source_sha256": "20953145685ab92dfe892e4ae7ee75db6457d3d7d3ef0e0e5f37d1e241ea2541",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕머여",
+          "text": "한 번이면 순서는 볼 수 있습니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-3",
+      "page_number": 7,
+      "source_image_path": "episodes/EP007/panels/assets/p7-3.png",
+      "final_image_path": "episodes/EP007/panels/final/p7-3.svg",
+      "canonical_signature": "599df7a4ab6f5c818d5d1063a54f163fc64e5100f363c3b70a10118e0467cd52",
+      "source_sha256": "83c4c7b05250f6c291523a3fce61a968bb1596cf1635feddc9d7b54301165b03",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": []
+    },
+    {
+      "panel_id": "p7-4",
+      "page_number": 7,
+      "source_image_path": "episodes/EP007/panels/assets/p7-4.png",
+      "final_image_path": "episodes/EP007/panels/final/p7-4.svg",
+      "canonical_signature": "b345e0046bab37eff92436e2932726fa4d7b33e220e7a35e8f65cca972aace8a",
+      "source_sha256": "9d74a7bd9cbf29ba95c76c3c56bfbe2876e7b0145112f557d5d5fd802426e780",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": []
+    },
+    {
+      "panel_id": "p8-1",
+      "page_number": 8,
+      "source_image_path": "episodes/EP007/panels/assets/p8-1.png",
+      "final_image_path": "episodes/EP007/panels/final/p8-1.svg",
+      "canonical_signature": "43b788afb52ec97d90d26ddd81888378c51c22c68d9cc848b86a06cea8eeae51",
+      "source_sha256": "602c5a860800c1ab6131844ada24b75ae1f262cd08095eb1415c141d9b1699d7",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": []
+    },
+    {
+      "panel_id": "p9-1",
+      "page_number": 9,
+      "source_image_path": "episodes/EP007/panels/assets/p9-1.png",
+      "final_image_path": "episodes/EP007/panels/final/p9-1.svg",
+      "canonical_signature": "f01c1483f6f470ff20361739c2d253296a03952f549e451e34df8324ee312019",
+      "source_sha256": "faab24560fad939105bbf3ac7c923bd8e0850b6e3e92c58a12e91f361cc46f87",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": []
+    },
+    {
+      "panel_id": "p9-2",
+      "page_number": 9,
+      "source_image_path": "episodes/EP007/panels/assets/p9-2.png",
+      "final_image_path": "episodes/EP007/panels/final/p9-2.svg",
+      "canonical_signature": "c89a45b2538e9cb6cf9b34a80e986f83e910efb5e30ef534db9fdc2acfd063b0",
+      "source_sha256": "0821782ad6305403db11af1d150a3e7f4ccf0c1dedd0310b508fee48776c4fb0",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "검증위원",
+          "text": "돌아왔군요. 원래대로.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p9-3",
+      "page_number": 9,
+      "source_image_path": "episodes/EP007/panels/assets/p9-3.png",
+      "final_image_path": "episodes/EP007/panels/final/p9-3.svg",
+      "canonical_signature": "08f90cc60a45e973bfc4cdaa743f6fd9eadeece4a8e48d8a5a996114d829e427",
+      "source_sha256": "f5362f1905da4e84cffe27e890ddeaceff5272f7cca42dd5a7f1a87484f73c2e",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕머여",
+          "text": "너무 빨리요.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p10-1",
+      "page_number": 10,
+      "source_image_path": "episodes/EP007/panels/assets/p10-1.png",
+      "final_image_path": "episodes/EP007/panels/final/p10-1.svg",
+      "canonical_signature": "2f4564b4dc2aac06f6c3c41c3027a47732b7cb7cfe147d380a47ad9788f0d33b",
+      "source_sha256": "a3e52578f664ea73828570307a9d5005b8a2b166a3ee4f30ef158ef37b488579",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": []
+    },
+    {
+      "panel_id": "p10-2",
+      "page_number": 10,
+      "source_image_path": "episodes/EP007/panels/assets/p10-2.png",
+      "final_image_path": "episodes/EP007/panels/final/p10-2.svg",
+      "canonical_signature": "cde07d77eb8117efd318988c88dbebec6f1cdb5e585898458a6b52d0cf1489b4",
+      "source_sha256": "993effae6032e256fc1d820ca0ac9aa580ceda560b3742baa2f0a97ec52c67eb",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕머여",
+          "text": "계단은 계단 뒤에, 갈고리는 갈고리 뒤에 바뀌었습니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p10-3",
+      "page_number": 10,
+      "source_image_path": "episodes/EP007/panels/assets/p10-3.png",
+      "final_image_path": "episodes/EP007/panels/final/p10-3.svg",
+      "canonical_signature": "673835f21cf123979fca2e4d796a9a5279dc91019618d175e5e93d528145f603",
+      "source_sha256": "0b59050d4e702783acb7070986be1ca0dbed683a88d3b7cc90e0c576a1b91fc7",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": []
+    },
+    {
+      "panel_id": "p10-4",
+      "page_number": 10,
+      "source_image_path": "episodes/EP007/panels/assets/p10-4.png",
+      "final_image_path": "episodes/EP007/panels/final/p10-4.svg",
+      "canonical_signature": "418f46460fbb51c07478d290ee187ac914ddfd5e6904b4c265d0851f9e78491e",
+      "source_sha256": "48729b1e99e85f8185252bf1541605f78a489218418d3286f2ef10b84f8f2e75",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "발자국을 지우면서 새 발자국을 찍었네.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p11-1",
+      "page_number": 11,
+      "source_image_path": "episodes/EP007/panels/assets/p11-1.png",
+      "final_image_path": "episodes/EP007/panels/final/p11-1.svg",
+      "canonical_signature": "9fcade4a2d4e8cb6581a4882e3b0704e2a9561d1e929cd396e0ea5063ad739dc",
+      "source_sha256": "1d4fde798f62a61edeb1be420a772a0ad2a33936464b67c26096bbc356826cfc",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "검증위원",
+          "text": "같은 계통의 장비라면?",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p11-2",
+      "page_number": 11,
+      "source_image_path": "episodes/EP007/panels/assets/p11-2.png",
+      "final_image_path": "episodes/EP007/panels/final/p11-2.svg",
+      "canonical_signature": "c03c7bc355e9c274c310f65cb6290863dc21122536f33b17c33cda45bdf7d913",
+      "source_sha256": "732c01029f7e87f868f37bcafafc8a19f50961023490c4eeb0e38f80cce3c7b9",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": []
+    },
+    {
+      "panel_id": "p11-3",
+      "page_number": 11,
+      "source_image_path": "episodes/EP007/panels/assets/p11-3.png",
+      "final_image_path": "episodes/EP007/panels/final/p11-3.svg",
+      "canonical_signature": "c753b922e0ef42d3c6d60aa1a68db519756881c0c0cc2ad6e6876275befbd2fd",
+      "source_sha256": "1d86cc6576de1c7f6323cc63e932d3723b4e27aed5376cf56a11e46449299d28",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕머여",
+          "text": "그래서 손대지 않은 선이 있습니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p11-4",
+      "page_number": 11,
+      "source_image_path": "episodes/EP007/panels/assets/p11-4.png",
+      "final_image_path": "episodes/EP007/panels/final/p11-4.svg",
+      "canonical_signature": "f1b996941dbaed078c14e49cbded6961f5312c383e022b4435e72e14c0c8cc1b",
+      "source_sha256": "544538e8d8752fe4b7ac12b8af9d44c7723690ac5d095b48feff0f1f635a2fbc",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": []
+    },
+    {
+      "panel_id": "p12-1",
+      "page_number": 12,
+      "source_image_path": "episodes/EP007/panels/assets/p12-1.png",
+      "final_image_path": "episodes/EP007/panels/final/p12-1.svg",
+      "canonical_signature": "6750f3c00df6ecd6d450f721b674a1d20ad4d23ebcf6c224b413d025226b0230",
+      "source_sha256": "880fad2c69deaace573cac80590bb3e8cf63ce4d2ea569e74807c36d59f8e939",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": []
+    },
+    {
+      "panel_id": "p12-2",
+      "page_number": 12,
+      "source_image_path": "episodes/EP007/panels/assets/p12-2.png",
+      "final_image_path": "episodes/EP007/panels/final/p12-2.svg",
+      "canonical_signature": "f3428b001a4e7251c12466c817f04c7c3ddd9438693fd192b9c9a8d2388e8158",
+      "source_sha256": "4d2a909050bdc5559ade276c34071a9a4eaf06c22be4d7a85ff7341d649225f3",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕머여",
+          "text": "입력 전엔 없고, 대조에는 없습니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p12-3",
+      "page_number": 12,
+      "source_image_path": "episodes/EP007/panels/assets/p12-3.png",
+      "final_image_path": "episodes/EP007/panels/final/p12-3.svg",
+      "canonical_signature": "e06162a812f48285dd11d002ab09c0fa250d3144723b2a28c286ce11c45a73c4",
+      "source_sha256": "00e842beafc570aa015f9c2709fb75a2c2998ef09a0356f448cbbc6a17ec1b2f",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "검증위원",
+          "text": "그럼 이건 물리학의 값이 아니군요.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p13-1",
+      "page_number": 13,
+      "source_image_path": "episodes/EP007/panels/assets/p13-1.png",
+      "final_image_path": "episodes/EP007/panels/final/p13-1.svg",
+      "canonical_signature": "ad950889d317784ae37739b2e22ea743303418dd1389fc3957c1fc04ca822e7a",
+      "source_sha256": "08f4873076fb9d41f4cf55db22a357c6928661a686324a8fea0ff94469153a2e",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": []
+    },
+    {
+      "panel_id": "p14-1",
+      "page_number": 14,
+      "source_image_path": "episodes/EP007/panels/assets/p14-1.png",
+      "final_image_path": "episodes/EP007/panels/final/p14-1.svg",
+      "canonical_signature": "745d586e40a372d99a33678b2b9d15cdc2a487fc3353bfbd4106d813f9deabc4",
+      "source_sha256": "75eaf5fe768adecdd1a9b172b3f487145cef0673cfc4af1ac2e63a1027d5cecc",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕머여",
+          "text": "거짓말의 반응 시간입니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p14-2",
+      "page_number": 14,
+      "source_image_path": "episodes/EP007/panels/assets/p14-2.png",
+      "final_image_path": "episodes/EP007/panels/final/p14-2.svg",
+      "canonical_signature": "839500775966fb5b091e0695009a0de157cb82212f76dd5966b1df5338ebf8d6",
+      "source_sha256": "72122d7ea10b2730c11ba49b4e23c159fb06df317708161af7ac833f8ecdef6d",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "검증위원",
+          "text": "한 번으로는 결재할 수 없습니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p14-3",
+      "page_number": 14,
+      "source_image_path": "episodes/EP007/panels/assets/p14-3.png",
+      "final_image_path": "episodes/EP007/panels/final/p14-3.svg",
+      "canonical_signature": "5bfcb92e8479c995cb78b34eba01c0360bfa476187801807b3f3d93cd25748c3",
+      "source_sha256": "a3dd9fe5561f078db5017c64bdc1e780e57577a68aea6edd30d54794ced08c92",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "그럼 두 번째 신발을 놓죠.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p14-4",
+      "page_number": 14,
+      "source_image_path": "episodes/EP007/panels/assets/p14-4.png",
+      "final_image_path": "episodes/EP007/panels/final/p14-4.svg",
+      "canonical_signature": "dc40459c761d7d8e903bebdbf92a2461ea5710496c9393b305e3f9304b0e6f27",
+      "source_sha256": "017e20438408b2670bfa40eebce5f1334d082120c09fff81734ab69041103d0a",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕머여",
+          "text": "감시자는 입력마다 보정했습니다. 내부는 아직 모릅니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p15-1",
+      "page_number": 15,
+      "source_image_path": "episodes/EP007/panels/assets/p15-1.png",
+      "final_image_path": "episodes/EP007/panels/final/p15-1.svg",
+      "canonical_signature": "5c257c498eed972d0f0a4d9f00631f12e99a60b98c99f2498bc474086539ba3a",
+      "source_sha256": "8a02248c408a6bf9fc1e969b5196c91044cdbeb62210314d7ed7d0a4f70bf703",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic default boxes; visual QA pending",
+      "overlays": []
+    }
+  ]
+}

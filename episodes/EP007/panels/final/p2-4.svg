@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1254" height="705" viewBox="0 0 1254 705">
+  <image href="../assets/p2-4.png" x="0" y="0" width="1254" height="705" />
+  <g class="overlay overlay-dialogue">
+    <rect x="88" y="42" width="627" height="85" rx="28" fill="#ffffff" fill-opacity="0.96" stroke="#111111" stroke-width="5" />
+    <text text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#111111"><tspan x="402" y="90">거짓말도 입을 맞추려면 시간이 걸려.</tspan></text>
+  </g>
+</svg>
