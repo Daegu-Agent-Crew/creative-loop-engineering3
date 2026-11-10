@@ -7,21 +7,21 @@
       "panel_id": "p1-1",
       "page_number": 1,
       "scene_number": 1,
-      "description": "EP006 노트의 빈 제출처가 적힌 봉투가 PDC 회의장 중앙에 놓인다. 뒤의 여섯 관제 화면은 검은 천으로 가려져 있다.",
+      "description": "EP006 노트의 빈 제출처가 적힌 봉투가 PDC 회의장 중앙에 놓인다. 뒤의 여섯 관제 화면은 검은 천으로 가려져 있다. 연출: 봉투는 작고 천 그림자는 크게. 왕머여와 스치친은 가장자리의 작은 실루엣. 무대사·무자막.",
       "text": []
     },
     {
       "panel_id": "p2-1",
       "page_number": 2,
       "scene_number": 2,
-      "description": "검증위원의 손이 봉투를 연다. 노트의 여섯 지문 그림만 보인다.",
+      "description": "검증위원의 손이 봉투를 연다. 노트의 여섯 지문 그림만 보인다. 연출: 종이 가장자리에 왕머여 손의 눌린 자국. 글자 자리는 비운다.",
       "text": []
     },
     {
       "panel_id": "p2-2",
       "page_number": 2,
       "scene_number": 2,
-      "description": "검증위원이 보고서 위에 오염 표시 도장을 내려놓는다.",
+      "description": "검증위원이 보고서 위에 오염 표시 도장을 내려놓는다. 연출: 얼굴보다 도장의 짙은 그림자를 크게.",
       "text": [
         {
           "kind": "dialogue",
@@ -34,14 +34,14 @@
       "panel_id": "p2-3",
       "page_number": 2,
       "scene_number": 2,
-      "description": "왕머여가 뿔테를 고쳐 쓰며 반박하려다 입을 다문다.",
+      "description": "왕머여가 뿔테를 고쳐 쓰며 반박하려다 입을 다문다. 연출: 눈썹이 좁혀지고 입술이 한 번 열렸다 닫힌다.",
       "text": []
     },
     {
       "panel_id": "p2-4",
       "page_number": 2,
       "scene_number": 2,
-      "description": "스치친이 손가락의 꺼진 담배를 돌리고 여섯 가린 화면을 본다.",
+      "description": "스치친이 손가락의 꺼진 담배를 돌리고 여섯 가린 화면을 본다. 연출: 헝클어진 검은 머리·수염·좁은 눈. 농담처럼 말하지만 시선은 도장에 고정.",
       "text": [
         {
           "kind": "dialogue",
@@ -54,7 +54,7 @@
       "panel_id": "p3-1",
       "page_number": 3,
       "scene_number": 3,
-      "description": "왕머여가 위조 출력 그래프를 뒤집어 뒷면의 빈 시간축을 드러낸다.",
+      "description": "왕머여가 위조 출력 그래프를 뒤집어 뒷면의 빈 시간축을 드러낸다. 연출: 반박을 삼키고 손목을 단단히 편다.",
       "text": [
         {
           "kind": "dialogue",
@@ -67,14 +67,14 @@
       "panel_id": "p3-2",
       "page_number": 3,
       "scene_number": 3,
-      "description": "파란 입력선과 빨간 출력선이 분리된 투명 슬라이드를 나란히 놓는다.",
+      "description": "파란 입력선과 빨간 출력선이 분리된 투명 슬라이드를 나란히 놓는다. 연출: 두 선 사이에 시간 여백을 분명히 둔다.",
       "text": []
     },
     {
       "panel_id": "p3-3",
       "page_number": 3,
       "scene_number": 3,
-      "description": "왕머여가 출력선이 바뀌는 지점을 손끝으로 가리킨다.",
+      "description": "왕머여가 출력선이 바뀌는 지점을 손끝으로 가리킨다. 연출: 큰 렌즈 반사 아래 눈의 초점이 선 끝에 고정된다.",
       "text": [
         {
           "kind": "dialogue",
@@ -87,7 +87,7 @@
       "panel_id": "p3-4",
       "page_number": 3,
       "scene_number": 3,
-      "description": "검증위원이 빈 실패 기준 칸을 가리키며 펜을 건넨다.",
+      "description": "검증위원이 빈 실패 기준 칸을 가리키며 펜을 건넨다. 연출: 표정은 냉정하되 악역처럼 과장하지 않는다.",
       "text": [
         {
           "kind": "dialogue",
@@ -100,14 +100,14 @@
       "panel_id": "p4-1",
       "page_number": 4,
       "scene_number": 4,
-      "description": "왕머여 펜끝이 실패 기준 칸 위에서 멈춘다.",
+      "description": "왕머여 펜끝이 실패 기준 칸 위에서 멈춘다. 연출: 엄지 마디가 하얗게 눌린다.",
       "text": []
     },
     {
       "panel_id": "p4-2",
       "page_number": 4,
       "scene_number": 4,
-      "description": "무교란 대조군의 평평한 파란 선과 교란군의 빈 칸을 나란히 그린다.",
+      "description": "무교란 대조군의 평평한 파란 선과 교란군의 빈 칸을 나란히 그린다. 연출: 글자와 숫자는 비워 두고 선의 역할만 명확히 한다.",
       "text": [
         {
           "kind": "dialogue",
@@ -120,7 +120,7 @@
       "panel_id": "p4-3",
       "page_number": 4,
       "scene_number": 4,
-      "description": "스치친이 노트 아래에 복사용 종이를 한 장 더 밀어 넣는다.",
+      "description": "스치친이 노트 아래에 복사용 종이를 한 장 더 밀어 넣는다. 연출: 거친 손이 종이 모서리를 정교하게 맞춘다.",
       "text": [
         {
           "kind": "dialogue",
@@ -133,14 +133,14 @@
       "panel_id": "p5-1",
       "page_number": 5,
       "scene_number": 5,
-      "description": "왕머여가 같은 톱니 카드 여섯 장을 펼친다.",
+      "description": "왕머여가 같은 톱니 카드 여섯 장을 펼친다. 연출: 규칙적 배열이 너무 깔끔해 보이게 한다.",
       "text": []
     },
     {
       "panel_id": "p5-2",
       "page_number": 5,
       "scene_number": 5,
-      "description": "스치친이 카드 한 장을 빼고 신발 자국처럼 비스듬히 돌린다.",
+      "description": "스치친이 카드 한 장을 빼고 신발 자국처럼 비스듬히 돌린다. 연출: 낡은 재킷 소매가 카드 위를 스친다.",
       "text": [
         {
           "kind": "dialogue",
@@ -153,14 +153,14 @@
       "panel_id": "p5-3",
       "page_number": 5,
       "scene_number": 5,
-      "description": "여섯 카드가 삼각·계단·갈고리·갈라진 선·짧은 점·톱니로 달라진다.",
+      "description": "여섯 카드가 삼각·계단·갈고리·갈라진 선·짧은 점·톱니로 달라진다. 연출: 문자 없는 도형으로 한눈에 구분한다.",
       "text": []
     },
     {
       "panel_id": "p5-4",
       "page_number": 5,
       "scene_number": 5,
-      "description": "왕머여가 카드 뒤에 서로 다른 시각표를 놓는다.",
+      "description": "왕머여가 카드 뒤에 서로 다른 시각표를 놓는다. 연출: 마른 손이 급하게 움직이다 마지막 카드에서 멈춘다. 시각은 후처리.",
       "text": [
         {
           "kind": "dialogue",
@@ -173,14 +173,14 @@
       "panel_id": "p6-1",
       "page_number": 6,
       "scene_number": 6,
-      "description": "서로 다른 시설의 시계를 맞추는 연구원 손들이 영상 창에 보인다.",
+      "description": "서로 다른 시설의 시계를 맞추는 연구원 손들이 영상 창에 보인다. 연출: 숫자는 비우고 초침 각도만 비교한다.",
       "text": []
     },
     {
       "panel_id": "p6-2",
       "page_number": 6,
       "scene_number": 6,
-      "description": "왕머여가 한 장비의 교란 스위치에 투명 덮개를 씌운다.",
+      "description": "왕머여가 한 장비의 교란 스위치에 투명 덮개를 씌운다. 연출: 대조군의 봉인 띠만 온전하다.",
       "text": [
         {
           "kind": "dialogue",
@@ -193,7 +193,7 @@
       "panel_id": "p6-3",
       "page_number": 6,
       "scene_number": 6,
-      "description": "스치친이 입력 카드 봉투를 봉인하고 자신의 손도 화면 밖으로 뺀다.",
+      "description": "스치친이 입력 카드 봉투를 봉인하고 자신의 손도 화면 밖으로 뺀다. 연출: 수염 밑 입꼬리는 얇고 눈은 진지하다.",
       "text": [
         {
           "kind": "dialogue",
@@ -206,14 +206,14 @@
       "panel_id": "p6-4",
       "page_number": 6,
       "scene_number": 6,
-      "description": "검증위원이 봉투와 대조군을 확인하고 서명 칸에 펜을 댄다.",
+      "description": "검증위원이 봉투와 대조군을 확인하고 서명 칸에 펜을 댄다. 연출: 서명 글자는 후처리. 펜의 접촉 순간만 보여준다.",
       "text": []
     },
     {
       "panel_id": "p7-1",
       "page_number": 7,
       "scene_number": 7,
-      "description": "검증위원이 한 손가락을 들어 단 한 차례 시험을 허락한다.",
+      "description": "검증위원이 한 손가락을 들어 단 한 차례 시험을 허락한다. 연출: 손가락 뒤 여섯 화면의 검은 천이 벗겨지기 시작한다.",
       "text": [
         {
           "kind": "dialogue",
@@ -226,7 +226,7 @@
       "panel_id": "p7-2",
       "page_number": 7,
       "scene_number": 7,
-      "description": "왕머여가 여섯 입력 키의 서로 다른 모양을 확인한다.",
+      "description": "왕머여가 여섯 입력 키의 서로 다른 모양을 확인한다. 연출: 안경의 흰 반사가 여섯 칸으로 쪼개진다.",
       "text": [
         {
           "kind": "dialogue",
@@ -239,35 +239,35 @@
       "panel_id": "p7-3",
       "page_number": 7,
       "scene_number": 7,
-      "description": "여섯 손가락이 시설마다 다른 키 위에서 각자의 예정 시각을 기다린다.",
+      "description": "여섯 손가락이 시설마다 다른 키 위에서 각자의 예정 시각을 기다린다. 연출: 누르기 직전의 손톱과 굳은 관절에 긴장.",
       "text": []
     },
     {
       "panel_id": "p7-4",
       "page_number": 7,
       "scene_number": 7,
-      "description": "첫 키가 눌리고 파란 입력선 하나가 꺾인다. 빨간 출력선은 아직 그대로다.",
+      "description": "첫 키가 눌리고 파란 입력선 하나가 꺾인다. 빨간 출력선은 아직 그대로다. 연출: 파란 변화가 빨간 선보다 먼저임을 분명히 한다.",
       "text": []
     },
     {
       "panel_id": "p8-1",
       "page_number": 8,
       "scene_number": 8,
-      "description": "텅 빈 관제실의 여섯 모니터에 가느다란 정지선. 아래 구석의 두 사람은 아주 작다.",
+      "description": "텅 빈 관제실의 여섯 모니터에 가느다란 정지선. 아래 구석의 두 사람은 아주 작다. 연출: 무대사·무자막 풀페이지. 큰 빈 벽과 검은 그림자. 기다림을 길게 만든다.",
       "text": []
     },
     {
       "panel_id": "p9-1",
       "page_number": 9,
       "scene_number": 9,
-      "description": "한 시설의 빨간 출력선에 작은 흔들림이 나타난다.",
+      "description": "한 시설의 빨간 출력선에 작은 흔들림이 나타난다. 연출: 왕머여 손이 의자 팔걸이를 세게 쥔다.",
       "text": []
     },
     {
       "panel_id": "p9-2",
       "page_number": 9,
       "scene_number": 9,
-      "description": "빨간 선의 흔들림이 급속히 줄어 매끈한 선으로 돌아간다.",
+      "description": "빨간 선의 흔들림이 급속히 줄어 매끈한 선으로 돌아간다. 연출: 선이 얇아지는 과정 세 단계만 보여준다.",
       "text": [
         {
           "kind": "dialogue",
@@ -280,7 +280,7 @@
       "panel_id": "p9-3",
       "page_number": 9,
       "scene_number": 9,
-      "description": "왕머여가 다른 화면으로 눈을 옮긴다. 화면마다 복구 시작점이 다르다.",
+      "description": "왕머여가 다른 화면으로 눈을 옮긴다. 화면마다 복구 시작점이 다르다. 연출: 실망으로 내려간 눈꼬리가 다시 초점을 찾는다.",
       "text": [
         {
           "kind": "dialogue",
@@ -293,14 +293,14 @@
       "panel_id": "p10-1",
       "page_number": 10,
       "scene_number": 10,
-      "description": "왕머여가 여섯 화면의 복구 구간을 투명 종이 띠로 떠 나란히 펼친다.",
+      "description": "왕머여가 여섯 화면의 복구 구간을 투명 종이 띠로 떠 나란히 펼친다. 연출: 손이 떨리지만 띠의 시작점은 정확히 맞춘다.",
       "text": []
     },
     {
       "panel_id": "p10-2",
       "page_number": 10,
       "scene_number": 10,
-      "description": "계단 입력 뒤엔 계단 모양 보정, 갈고리 뒤엔 갈고리 모양 보정이 다른 시차로 나타난다.",
+      "description": "계단 입력 뒤엔 계단 모양 보정, 갈고리 뒤엔 갈고리 모양 보정이 다른 시차로 나타난다. 연출: 파랑 입력과 빨강 후행 반응을 분리. 수치는 후처리.",
       "text": [
         {
           "kind": "dialogue",
@@ -313,14 +313,14 @@
       "panel_id": "p10-3",
       "page_number": 10,
       "scene_number": 10,
-      "description": "다른 네 지문도 각각 자기 모양을 따라가며 붉은 출력 폭이 좁아진다.",
+      "description": "다른 네 지문도 각각 자기 모양을 따라가며 붉은 출력 폭이 좁아진다. 연출: 여섯 짝의 방향만 보이게 과잉 장식을 없앤다.",
       "text": []
     },
     {
       "panel_id": "p10-4",
       "page_number": 10,
       "scene_number": 10,
-      "description": "스치친이 사용한 카드와 복구 띠를 나란히 둔다.",
+      "description": "스치친이 사용한 카드와 복구 띠를 나란히 둔다. 연출: 좁은 눈이 차이를 읽고 담배 든 손은 멈춘다.",
       "text": [
         {
           "kind": "dialogue",
@@ -333,7 +333,7 @@
       "panel_id": "p11-1",
       "page_number": 11,
       "scene_number": 11,
-      "description": "검증위원이 여섯 화면 뒤에 공통 장비 계통도를 세운다.",
+      "description": "검증위원이 여섯 화면 뒤에 공통 장비 계통도를 세운다. 연출: 한 가지 의심이 방을 다시 덮는 검은 그림자.",
       "text": [
         {
           "kind": "dialogue",
@@ -346,14 +346,14 @@
       "panel_id": "p11-2",
       "page_number": 11,
       "scene_number": 11,
-      "description": "왕머여가 쓰려던 결론의 첫 줄을 펜으로 가로 긋는다.",
+      "description": "왕머여가 쓰려던 결론의 첫 줄을 펜으로 가로 긋는다. 연출: 입을 굳게 다물고 빨간 선의 반사에서 눈을 떼어낸다.",
       "text": []
     },
     {
       "panel_id": "p11-3",
       "page_number": 11,
       "scene_number": 11,
-      "description": "스치친이 봉인된 무교란 대조 봉투를 위원 앞에 놓는다.",
+      "description": "스치친이 봉인된 무교란 대조 봉투를 위원 앞에 놓는다. 연출: 봉인선이 끊어지지 않았음을 크게.",
       "text": [
         {
           "kind": "dialogue",
@@ -366,21 +366,21 @@
       "panel_id": "p11-4",
       "page_number": 11,
       "scene_number": 11,
-      "description": "세 사람이 봉투를 내려다보며 누구도 먼저 손대지 않는다.",
+      "description": "세 사람이 봉투를 내려다보며 누구도 먼저 손대지 않는다. 연출: 위원 손, 왕머여의 마른 손, 스치친의 거친 손을 삼각형으로.",
       "text": []
     },
     {
       "panel_id": "p12-1",
       "page_number": 12,
       "scene_number": 12,
-      "description": "검증위원이 봉인을 열고 대조군의 평평한 선을 여섯 변화 옆에 놓는다.",
+      "description": "검증위원이 봉인을 열고 대조군의 평평한 선을 여섯 변화 옆에 놓는다. 연출: 봉투가 찢어져도 기록선은 흔들리지 않는다.",
       "text": []
     },
     {
       "panel_id": "p12-2",
       "page_number": 12,
       "scene_number": 12,
-      "description": "왕머여가 각 시설의 입력 시각과 출력 변화 시각을 서로 다른 투명자로 잰다.",
+      "description": "왕머여가 각 시설의 입력 시각과 출력 변화 시각을 서로 다른 투명자로 잰다. 연출: 입력 이전은 빈 여백, 뒤쪽만 붉은 결이 있다.",
       "text": [
         {
           "kind": "dialogue",
@@ -393,7 +393,7 @@
       "panel_id": "p12-3",
       "page_number": 12,
       "scene_number": 12,
-      "description": "검증위원이 대조선과 오염 출력선을 번갈아 본다.",
+      "description": "검증위원이 대조선과 오염 출력선을 번갈아 본다. 연출: 눈썹은 풀리지 않지만 도장은 보고서 위에 없다.",
       "text": [
         {
           "kind": "dialogue",
@@ -406,14 +406,14 @@
       "panel_id": "p13-1",
       "page_number": 13,
       "scene_number": 13,
-      "description": "여섯 모니터의 서로 다른 지문이 각기 다른 박자로 교란 뒤를 따라 좁아진다. 평평한 대조선은 중앙을 가른다.",
+      "description": "여섯 모니터의 서로 다른 지문이 각기 다른 박자로 교란 뒤를 따라 좁아진다. 평평한 대조선은 중앙을 가른다. 연출: 무대사·무자막 풀페이지. 파형은 거대한 악보처럼 수렴하되 지능의 얼굴로 단정하지 않는다.",
       "text": []
     },
     {
       "panel_id": "p14-1",
       "page_number": 14,
       "scene_number": 14,
-      "description": "왕머여가 위원의 물음 앞에 펼친 손을 책상에 얹는다.",
+      "description": "왕머여가 위원의 물음 앞에 펼친 손을 책상에 얹는다. 연출: 승리 포즈 대신 손바닥을 평평하게.",
       "text": [
         {
           "kind": "dialogue",
@@ -426,7 +426,7 @@
       "panel_id": "p14-2",
       "page_number": 14,
       "scene_number": 14,
-      "description": "검증위원이 보고서의 승인 칸을 비워 두고 다음 시험 칸을 가리킨다.",
+      "description": "검증위원이 보고서의 승인 칸을 비워 두고 다음 시험 칸을 가리킨다. 연출: 경계는 유지하고 도장 손은 내린다.",
       "text": [
         {
           "kind": "dialogue",
@@ -439,7 +439,7 @@
       "panel_id": "p14-3",
       "page_number": 14,
       "scene_number": 14,
-      "description": "스치친이 두 번째 빈 봉투를 꺼내 왕머여 옆에 놓는다.",
+      "description": "스치친이 두 번째 빈 봉투를 꺼내 왕머여 옆에 놓는다. 연출: 좁은 눈에 웃음기가 돌아오지만 몸은 화면을 향한다.",
       "text": [
         {
           "kind": "dialogue",
@@ -452,7 +452,7 @@
       "panel_id": "p14-4",
       "page_number": 14,
       "scene_number": 14,
-      "description": "왕머여가 보고서에 제한된 한 줄을 쓰고 아래를 길게 비운다.",
+      "description": "왕머여가 보고서에 제한된 한 줄을 쓰고 아래를 길게 비운다. 연출: 청회색 셔츠 소매를 걷은 손은 흔들리지 않는다. 문장은 후처리.",
       "text": [
         {
           "kind": "dialogue",
@@ -465,7 +465,7 @@
       "panel_id": "p15-1",
       "page_number": 15,
       "scene_number": 15,
-      "description": "p1에서 가려졌던 여섯 화면이 열린다. 지문과 후행 보정선이 배열돼 멀리서 하나의 눈 윤곽처럼 보인다. 두 사람은 작은 뒷모습.",
+      "description": "p1에서 가려졌던 여섯 화면이 열린다. 지문과 후행 보정선이 배열돼 멀리서 하나의 눈 윤곽처럼 보인다. 두 사람은 작은 뒷모습. 연출: 무대사·무자막 풀페이지. 실제 눈이나 소페르 본체는 그리지 않는다. 관측 주체가 겹치는 불안한 종결.",
       "text": []
     }
   ]
