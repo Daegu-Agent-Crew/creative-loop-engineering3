@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../schemas/qa.schema.json",
+  "episode_id": "EP008",
+  "overall_score": 42,
+  "prompt_version": "v5.1-single-source",
+  "items": [
+    {
+      "category": "전체 일관성",
+      "score": 8,
+      "notes": "45패널 시간흐름·인물연결 정적검사. 플래시백(세피아)/현재(청회색) 톤 분리 설계 준수. EP006 기준 캐릭터 일관성 강제 조항 적용 배치.",
+      "corrected": false
+    },
+    {
+      "category": "이미지 품질",
+      "score": 8,
+      "notes": "최종 SVG 45개·원본 45개 존재, 정책 크기 준수, 발행 차단 오류 없음.",
+      "corrected": false
+    },
+    {
+      "category": "스토리 정합성",
+      "score": 9,
+      "notes": "v5.1 단일 진원(panel-script) 체계 첫 적용 — 콘티 파생 생성으로 정합 드리프트 원천 차단. S2E03 기원(플래시백) 범위와 일치.",
+      "corrected": false
+    },
+    {
+      "category": "텍스트 오버레이",
+      "score": 8,
+      "notes": "45컷 렌더링, 대사 24·무대사 21(설계상 침묵).",
+      "corrected": false
+    },
+    {
+      "category": "검증 한계",
+      "score": 5,
+      "notes": "자동 정적 검증(L1). 사람 시각 리뷰는 회장님 열람으로 대체.",
+      "corrected": false
+    }
+  ],
+  "final_images": {
+    "svg_count": 45,
+    "png_count": 45,
+    "viewer_url": "https://daegu-agent-crew.github.io/creative-loop-engineering3/episodes/EP008/"
+  }
+}

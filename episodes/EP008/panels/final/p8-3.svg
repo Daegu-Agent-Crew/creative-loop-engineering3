@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1629" height="543" viewBox="0 0 1629 543">
+  <image href="../assets/p8-3.png" x="0" y="0" width="1629" height="543" />
+  <g class="overlay overlay-dialogue">
+    <rect x="114" y="33" width="815" height="65" rx="28" fill="#ffffff" fill-opacity="0.96" stroke="#111111" stroke-width="7" />
+    <text text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#111111"><tspan x="522" y="70">이 신호를 기준으로 삼으면 우리도 틀린다.</tspan></text>
+  </g>
+</svg>

@@ -391,7 +391,7 @@
     "EP008": {
       "title": "1379번 감시자의 편지",
       "status": "in_progress",
-      "current_phase": "phase1_story",
+      "current_phase": "phase6_release",
       "phases": {
         "phase0": {
           "status": "completed",
@@ -404,32 +404,35 @@
           "note": "EP001~007 성경·화풍 계승"
         },
         "phase1": {
-          "status": "pending",
-          "score": null
+          "status": "completed",
+          "score": 44,
+          "prompt_version": "v5.1",
+          "note": "스토리 44/50, 콘티 gen-storyboard 파생"
         },
         "phase2": {
-          "status": "pending",
-          "score": null
+          "status": "completed",
+          "note": "EP006 성경 계승"
         },
         "phase3": {
-          "status": "pending",
-          "score": null
+          "status": "completed",
+          "note": "파생 콘티 15p/45컷"
         },
         "phase4": {
-          "status": "pending",
-          "score": null
+          "status": "completed",
+          "note": "45/45 패널 생성 (배치1~5, 일관성 강제)"
         },
         "phase5": {
-          "status": "pending",
-          "score": null
+          "status": "completed",
+          "score": 42,
+          "note": "오버레이 45·QA 42/50 (자동 검증)"
         },
         "phase6": {
           "status": "pending",
-          "score": null
+          "note": "발행 승인 대기"
         }
       },
       "season": 2,
-      "source": "adaptations/season2-bug-report/season2-story.md",
+      "source": "episodes/EP008/story/source-story.md",
       "note": "S2E03 기원(플래시백). 회장님 지시로 13:31 즉시 착수 (새벽 크론 에러로 미시작)"
     }
   },

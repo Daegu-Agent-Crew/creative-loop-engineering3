@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="899" height="984" viewBox="0 0 899 984">
+  <image href="../assets/p13-1.png" x="0" y="0" width="899" height="984" />
+  <g class="overlay overlay-dialogue">
+    <rect x="63" y="59" width="450" height="118" rx="28" fill="#ffffff" fill-opacity="0.96" stroke="#111111" stroke-width="4" />
+    <text text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#111111"><tspan x="288" y="126">세 기록의 결함 위치가 일치합니다.</tspan></text>
+  </g>
+</svg>
