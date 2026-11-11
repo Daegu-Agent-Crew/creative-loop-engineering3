@@ -2,7 +2,7 @@
   "$schema": "../../../schemas/creation-memory.schema.json",
   "schema_version": 1,
   "episode_id": "EP008",
-  "updated_at": "2026-11-11T04:32:06.281Z",
+  "updated_at": "2026-11-11T04:40:10.822422+00:00",
   "creator_contract": {
     "creative_actor": "codex",
     "sole_creative_actor": true,
@@ -33,6 +33,13 @@
       "type": "policy",
       "path": "config/panel-generation-policy.json",
       "purpose": "동시성, 재시도, QA와 에스컬레이션 기준",
+      "required": true
+    },
+    {
+      "id": "source-ep008-phase1",
+      "type": "story",
+      "path": "episodes/EP008/script/panel-script.json",
+      "purpose": "15p·45컷 패널 설명의 단일 진원",
       "required": true
     }
   ],
@@ -91,15 +98,17 @@
     "target_panel_id": null,
     "completed": [
       "phase0 완료",
-      "phase0.5 완료"
+      "phase0.5 완료",
+      "Phase 1 15p·45컷 대본과 단일 진원 작성, 콘티 파생, Story Schema 검증, 자체 평가 44/50"
     ],
     "next_actions": [
-      "현재 스토리에서 캐릭터, 세계관, 시각 기준 자산을 추출하고 버전을 부여한다.",
-      "Character/World/Visual Bible을 만든 뒤 다음 Phase 입력으로 고정한다.",
-      "다음 창작 작업 전에 Creation Context Pack을 생성한다."
+      "Story Lock 사람 검토를 위해 Phase 1 산출물 제시",
+      "후속 Phase에서 캐릭터·장소 시각 명세를 현재 패널 설명과 연결",
+      "1967년 결함 경로는 독립 재현 전까지 가설로 유지"
     ],
     "blockers": [],
     "human_decisions": [
+      "EP008 Story Lock 승인 여부",
       "완료 Phase의 provisional gate를 공식 승인할지 결정",
       "Phase 5 통과 후 공개 여부 결정"
     ]

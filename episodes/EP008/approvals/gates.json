@@ -16,9 +16,15 @@
       "approved_by": null,
       "approved_at": null,
       "evidence": [
-        "episodes/EP008/script/script.md"
+        "episodes/EP008/story/analysis.md",
+        "episodes/EP008/story/outline.md",
+        "episodes/EP008/story/scenes.md",
+        "episodes/EP008/script/script.md",
+        "episodes/EP008/script/script.json",
+        "episodes/EP008/script/panel-script.json",
+        "episodes/EP008/storyboard/storyboard.json"
       ],
-      "notes": "해당 Phase 산출물이 준비되면 사람이 방향과 가치를 승인한다."
+      "notes": "Phase 1 44/50 자체 평가와 15p·45컷 정본 준비. 사람의 Story Lock 결정 대기."
     },
     {
       "id": "character-lock",

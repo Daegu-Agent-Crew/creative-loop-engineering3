@@ -1,0 +1,728 @@
+{
+  "episode_id": "EP008",
+  "version": 1,
+  "source": "episodes/EP008/script/script.md",
+  "panels": [
+    {
+      "panel_id": "p1-1",
+      "page_number": 1,
+      "scene_number": 1,
+      "description": "삼체 관측실에서 홀로 앉은 1379호 앞에 지구 송신의 작은 파형 흠이 관측 모형 여러 층으로 번진다 연출: 무대사·무자막 풀페이지. 인간형으로 단정하지 않는 뒷모습 실루엣. 흠의 톱니 하나를 선명히",
+      "camera_angle": "풀페이지 후면 초광각",
+      "characters_in_frame": [
+        "1379호"
+      ],
+      "visual_type": "silence",
+      "text": [],
+      "color_palette": "세피아·먹색·신호 빨강"
+    },
+    {
+      "panel_id": "p2-1",
+      "page_number": 2,
+      "scene_number": 2,
+      "description": "EP007의 여섯 화면 뒤편에서 왕머여가 지연이 다른 붉은 출력선들을 투명지에 겹친다 연출: 단정한 검은 머리·큰 뿔테 안경·청회색 셔츠·마른 체형. 렌즈에 미세 톱니",
+      "camera_angle": "오버숄더 중경",
+      "characters_in_frame": [
+        "왕머여"
+      ],
+      "visual_type": "normal",
+      "text": [],
+      "color_palette": "청회색·신호 빨강"
+    },
+    {
+      "panel_id": "p2-2",
+      "page_number": 2,
+      "scene_number": 2,
+      "description": "스치친이 재떨이를 밀고 여섯 선의 같은 흠을 손톱으로 짚는다 연출: 헝클어진 검은 머리·수염·좁은 피곤한 눈·낡은 올리브 재킷·담배",
+      "camera_angle": "손·얼굴 측면",
+      "characters_in_frame": [
+        "스치친"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "여섯 놈이 같은 데서 넘어졌네."
+        }
+      ],
+      "color_palette": "올리브·청회색"
+    },
+    {
+      "panel_id": "p2-3",
+      "page_number": 2,
+      "scene_number": 2,
+      "description": "왕머여가 다른 시설 원자료와 비교해 흠이 출력 보정 뒤에만 남음을 확인한다 연출: 입술을 다물고 한 선씩 분리. 화면 글자와 숫자는 비운다",
+      "camera_angle": "투명지 탑숏",
+      "characters_in_frame": [
+        "왕머여"
+      ],
+      "visual_type": "impact",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕머여",
+          "text": "같은 입력이 아닙니다. 같은 보정 흔적입니다."
+        }
+      ],
+      "color_palette": "흰색·청색·빨강"
+    },
+    {
+      "panel_id": "p2-4",
+      "page_number": 2,
+      "scene_number": 2,
+      "description": "관제실 문틈 아래로 낡은 봉투 사진이 미끄러져 들어온다 연출: 뒷면은 비워 두고 세 갈래 봉인 흠집만 보인다",
+      "camera_angle": "바닥 낮은 앵글",
+      "characters_in_frame": [],
+      "visual_type": "normal",
+      "text": [],
+      "color_palette": "청회색·세피아"
+    },
+    {
+      "panel_id": "p3-1",
+      "page_number": 3,
+      "scene_number": 3,
+      "description": "스치친이 복도 카메라 사각에서 사진을 집고 양쪽 문을 살핀다 연출: 담배는 입에 물었지만 불은 붙이지 않는다",
+      "camera_angle": "복도 롱숏",
+      "characters_in_frame": [
+        "스치친"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "우편배달부가 수줍음이 많군."
+        }
+      ],
+      "color_palette": "청회색·검정"
+    },
+    {
+      "panel_id": "p3-2",
+      "page_number": 3,
+      "scene_number": 3,
+      "description": "사진 속 보관함 손잡이와 1379호의 경고 번역 일부가 겹친다 연출: 문장은 이미지에 그리지 않고 후처리 여백. 손잡이 세 갈래 흠집",
+      "camera_angle": "사진 매크로",
+      "characters_in_frame": [],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕머여",
+          "text": "“응답하지 마라.” 그 문장만 남았습니다."
+        }
+      ],
+      "color_palette": "세피아·검정"
+    },
+    {
+      "panel_id": "p3-3",
+      "page_number": 3,
+      "scene_number": 3,
+      "description": "왕머여가 사진 뒷면 파형을 현재 여섯 출력의 공통 흠 위에 얹는다 연출: 두 파형은 완전 일치가 아니라 결함 위치만 닮았다",
+      "camera_angle": "손·렌즈 극근접",
+      "characters_in_frame": [
+        "왕머여"
+      ],
+      "visual_type": "impact",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕머여",
+          "text": "원본을 봐야 합니다. 닮았다는 이유만으론 부족합니다."
+        }
+      ],
+      "color_palette": "세피아·빨강"
+    },
+    {
+      "panel_id": "p3-4",
+      "page_number": 3,
+      "scene_number": 3,
+      "description": "스치친이 손잡이 흠집과 건물 평면도의 폐쇄 보관실 표시를 맞춘다 연출: 평면도 글자를 비우고 흠집 모양만 반복",
+      "camera_angle": "평면도 탑숏",
+      "characters_in_frame": [
+        "스치친"
+      ],
+      "visual_type": "normal",
+      "text": [],
+      "color_palette": "올리브·흰색"
+    },
+    {
+      "panel_id": "p4-1",
+      "page_number": 4,
+      "scene_number": 4,
+      "description": "폐쇄 보관실 앞에서 스치친이 봉인 위 새 접착 흔적을 찾는다 연출: 오래된 먼지 위 새 광택. 잠금장치 파손 없음",
+      "camera_angle": "문손잡이 근접",
+      "characters_in_frame": [
+        "스치친"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "오래 닫힌 문치곤 손때가 새 거야."
+        }
+      ],
+      "color_palette": "청회색·호박색"
+    },
+    {
+      "panel_id": "p4-2",
+      "page_number": 4,
+      "scene_number": 4,
+      "description": "왕머여가 1967년 장비 기록 상자와 편지 보관 상자를 나란히 본다 연출: 연도와 표제는 후처리. 안경 반사는 차갑게",
+      "camera_angle": "이인물 중경",
+      "characters_in_frame": [
+        "왕머여",
+        "스치친"
+      ],
+      "visual_type": "normal",
+      "text": [],
+      "color_palette": "청회색·세피아"
+    },
+    {
+      "panel_id": "p4-3",
+      "page_number": 4,
+      "scene_number": 4,
+      "description": "보관함 안 문서 뭉치의 가운데 한 묶음만 빠져 있다 연출: 종이 단면의 빈 사각형과 새 긁힘을 크게",
+      "camera_angle": "보관함 정면",
+      "characters_in_frame": [
+        "스치친"
+      ],
+      "visual_type": "impact",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "누군가 결론만 훔쳐 갔군."
+        }
+      ],
+      "color_palette": "먹색·세피아"
+    },
+    {
+      "panel_id": "p4-4",
+      "page_number": 4,
+      "scene_number": 4,
+      "description": "왕머여가 남은 교정표 복사 눌림을 사선 빛으로 읽는다 연출: 글자를 비우고 기준선 한 칸 어긋남만 표시",
+      "camera_angle": "종이 사선 매크로",
+      "characters_in_frame": [
+        "왕머여"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕머여",
+          "text": "결론은 없어도 기준선은 남았습니다."
+        }
+      ],
+      "color_palette": "세피아·흰색"
+    },
+    {
+      "panel_id": "p5-1",
+      "page_number": 5,
+      "scene_number": 5,
+      "description": "1967년 홍안 교정실에서 낡은 측정기가 두 참조점을 같은 눈금처럼 표시한다 연출: 플래시백의 따뜻한 세피아와 붉은 장비등. 문자와 숫자 없음",
+      "camera_angle": "기기 정면 중경",
+      "characters_in_frame": [],
+      "visual_type": "normal",
+      "text": [],
+      "color_palette": "세피아·붉은 등"
+    },
+    {
+      "panel_id": "p5-2",
+      "page_number": 5,
+      "scene_number": 5,
+      "description": "기술자의 손이 교정표 기준 칸을 한 칸 밀린 곳에 복사한다 연출: 악의 없는 반복 작업. 얼굴은 숨기고 펜촉과 압흔만",
+      "camera_angle": "손 극근접",
+      "characters_in_frame": [
+        "홍안 기술자"
+      ],
+      "visual_type": "normal",
+      "text": [],
+      "color_palette": "세피아·먹색"
+    },
+    {
+      "panel_id": "p5-3",
+      "page_number": 5,
+      "scene_number": 5,
+      "description": "서로 다른 두 실측 파형이 교정표를 통과하며 같은 미세 톱니를 얻는다 연출: 물리 현상이 아닌 기록 변환의 오류. 입력과 출력 색을 구분",
+      "camera_angle": "도식 탑숏",
+      "characters_in_frame": [],
+      "visual_type": "impact",
+      "text": [],
+      "color_palette": "세피아·청색·빨강"
+    },
+    {
+      "panel_id": "p5-4",
+      "page_number": 5,
+      "scene_number": 5,
+      "description": "현재 왕머여가 압흔과 여섯 출력의 흠 위치를 맞춘다 연출: 세피아 종이와 차가운 현재 화면이 맞닿는다",
+      "camera_angle": "손·화면 오버숄더",
+      "characters_in_frame": [
+        "왕머여"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕머여",
+          "text": "측정값이 아니라 변환 기준의 오차입니다."
+        }
+      ],
+      "color_palette": "세피아·청회색"
+    },
+    {
+      "panel_id": "p6-1",
+      "page_number": 6,
+      "scene_number": 6,
+      "description": "홍안 송신 준비실에 신호 원고와 지구 관측 자료 도판이 함께 쌓인다 연출: 플래시백. 인코딩 방식은 확정하지 않는다. 글자 여백",
+      "camera_angle": "자료 더미 광각",
+      "characters_in_frame": [],
+      "visual_type": "normal",
+      "text": [],
+      "color_palette": "세피아·호박색"
+    },
+    {
+      "panel_id": "p6-2",
+      "page_number": 6,
+      "scene_number": 6,
+      "description": "기술자가 잘못 복사된 교정표를 도판 묶음에 끼워 넣는다 연출: 한 장의 모서리가 삐져나와 자료 동봉의 인과를 드러낸다",
+      "camera_angle": "손 인서트",
+      "characters_in_frame": [
+        "홍안 기술자"
+      ],
+      "visual_type": "impact",
+      "text": [],
+      "color_palette": "세피아·먹색"
+    },
+    {
+      "panel_id": "p6-3",
+      "page_number": 6,
+      "scene_number": 6,
+      "description": "홍안 안테나가 밤하늘을 향하고 도판의 미세 톱니가 추상 파형으로 이어진다 연출: 텍스트 없는 신호 메타포. 도착 과정은 생략",
+      "camera_angle": "안테나 낮은 앵글",
+      "characters_in_frame": [],
+      "visual_type": "normal",
+      "text": [],
+      "color_palette": "세피아·빨강"
+    },
+    {
+      "panel_id": "p6-4",
+      "page_number": 6,
+      "scene_number": 6,
+      "description": "현재 스치친이 종이 모서리와 송신 목록 압흔을 맞춘다 연출: 담배를 쥔 손이 멈춘다. 목록 글자는 후처리",
+      "camera_angle": "손·얼굴 중경",
+      "characters_in_frame": [
+        "스치친"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "편지에 딸린 사고 보고서였나 보군."
+        }
+      ],
+      "color_palette": "올리브·세피아"
+    },
+    {
+      "panel_id": "p7-1",
+      "page_number": 7,
+      "scene_number": 7,
+      "description": "지구에서 떠난 가느다란 신호 파형이 검은 우주를 건너 삼체 관측 모형 격자에 들어가고 미세 톱니가 여러 층으로 복제된다 연출: 무대사·무자막 풀페이지. 시간과 정보 흐름의 압축 도식. 우주 물리 자체가 변한 듯 그리지 않는다",
+      "camera_angle": "풀페이지 우주 초광각",
+      "characters_in_frame": [],
+      "visual_type": "silence",
+      "text": [],
+      "color_palette": "세피아·먹색·빨강"
+    },
+    {
+      "panel_id": "p8-1",
+      "page_number": 8,
+      "scene_number": 8,
+      "description": "1379호가 지구 자료 적용 전후의 관측 예측을 두 투명 격자로 비교한다 연출: 한쪽에만 톱니가 반복. 실루엣 유지",
+      "camera_angle": "격자 오버숄더",
+      "characters_in_frame": [
+        "1379호"
+      ],
+      "visual_type": "normal",
+      "text": [],
+      "color_palette": "세피아·먹색"
+    },
+    {
+      "panel_id": "p8-2",
+      "page_number": 8,
+      "scene_number": 8,
+      "description": "1379호가 오염된 층을 분리하자 예측의 한 갈래가 다시 벌어진다 연출: 모형 입력의 문제라는 시각적 증거. 손은 장갑 같은 추상 실루엣",
+      "camera_angle": "손·격자 극근접",
+      "characters_in_frame": [
+        "1379호"
+      ],
+      "visual_type": "impact",
+      "text": [],
+      "color_palette": "세피아·빨강"
+    },
+    {
+      "panel_id": "p8-3",
+      "page_number": 8,
+      "scene_number": 8,
+      "description": "다른 감시자들이 더 매끈한 격자를 채택하는 사이 1379호만 손을 거둔다 연출: 집단과 단독의 거리. 얼굴 없음",
+      "camera_angle": "관측실 광각",
+      "characters_in_frame": [
+        "1379호",
+        "감시자들"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "1379호",
+          "text": "이 신호를 기준으로 삼으면 우리도 틀린다."
+        }
+      ],
+      "color_palette": "세피아·검정"
+    },
+    {
+      "panel_id": "p8-4",
+      "page_number": 8,
+      "scene_number": 8,
+      "description": "1379호가 지구 응답 회로 앞에서 손을 멈춘다 연출: 인류에 대한 연민과 오염 회피를 함께 열어 둔다",
+      "camera_angle": "회로 측면 근접",
+      "characters_in_frame": [
+        "1379호"
+      ],
+      "visual_type": "silence",
+      "text": [],
+      "color_palette": "세피아·붉은 등"
+    },
+    {
+      "panel_id": "p9-1",
+      "page_number": 9,
+      "scene_number": 9,
+      "description": "1379호가 경고 신호를 쓰며 지구 송신 파형의 톱니를 별도 진단 도식으로 붙인다 연출: 문자와 기호는 후처리. 결함 도식이 진의의 증거",
+      "camera_angle": "탁상 탑숏",
+      "characters_in_frame": [
+        "1379호"
+      ],
+      "visual_type": "impact",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "1379호",
+          "text": "응답하지 마라."
+        }
+      ],
+      "color_palette": "세피아·먹색"
+    },
+    {
+      "panel_id": "p9-2",
+      "page_number": 9,
+      "scene_number": 9,
+      "description": "그가 경고와 진단 도식을 갈라 보내자 진단 쪽 송신등이 잠깐 약해진다 연출: 두 조각이 다른 경로를 지나는 씨앗. 통신 세부는 보류",
+      "camera_angle": "회로 인서트",
+      "characters_in_frame": [
+        "1379호"
+      ],
+      "visual_type": "normal",
+      "text": [],
+      "color_palette": "세피아·빨강"
+    },
+    {
+      "panel_id": "p9-3",
+      "page_number": 9,
+      "scene_number": 9,
+      "description": "현재 왕머여가 잘린 번역본 아래 여백과 교정표의 톱니를 맞춘다 연출: 렌즈에 종이 가장자리만 반사. 번역문은 후처리",
+      "camera_angle": "렌즈·문서 근접",
+      "characters_in_frame": [
+        "왕머여"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕머여",
+          "text": "경고의 대상이 하나 더 있었습니다."
+        }
+      ],
+      "color_palette": "청회색·세피아"
+    },
+    {
+      "panel_id": "p9-4",
+      "page_number": 9,
+      "scene_number": 9,
+      "description": "스치친이 복도에서 다가오는 구두 그림자를 보고 서류를 접는다 연출: 담배를 빼고 재킷 안쪽으로 복사지를 민다",
+      "camera_angle": "바닥 낮은 앵글",
+      "characters_in_frame": [
+        "스치친"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "해설은 나가서 듣지. 독자가 왔어."
+        }
+      ],
+      "color_palette": "검정·올리브"
+    },
+    {
+      "panel_id": "p10-1",
+      "page_number": 10,
+      "scene_number": 10,
+      "description": "보관실 문이 열리고 ETO 잔당 두 사람이 외투 아래 절단 도구를 꺼낸다 연출: 얼굴보다 손과 도구. 조직 정체는 대사로 드러낸다",
+      "camera_angle": "문턱 낮은 앵글",
+      "characters_in_frame": [
+        "ETO 잔당"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "ETO 잔당",
+          "text": "그 종이는 여기서 끝납니다."
+        }
+      ],
+      "color_palette": "청회색·검정"
+    },
+    {
+      "panel_id": "p10-2",
+      "page_number": 10,
+      "scene_number": 10,
+      "description": "스치친이 서류를 반대로 던져 시선을 빼고 왕머여를 출구로 민다 연출: 올리브 재킷과 수염. 싸움보다 시간 벌기",
+      "camera_angle": "사선 광각",
+      "characters_in_frame": [
+        "스치친",
+        "왕머여",
+        "ETO 잔당"
+      ],
+      "visual_type": "impact",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "독서 취향이 꽤 과격하군."
+        }
+      ],
+      "color_palette": "올리브·검정"
+    },
+    {
+      "panel_id": "p10-3",
+      "page_number": 10,
+      "scene_number": 10,
+      "description": "왕머여가 나가기 전 찢긴 도식 가장자리를 휴대 기기로 촬영한다 연출: 글자 없음. 떨리는 엄지와 정확한 프레임",
+      "camera_angle": "손·기기 매크로",
+      "characters_in_frame": [
+        "왕머여"
+      ],
+      "visual_type": "normal",
+      "text": [],
+      "color_palette": "청회색·세피아"
+    },
+    {
+      "panel_id": "p10-4",
+      "page_number": 10,
+      "scene_number": 10,
+      "description": "ETO 잔당의 절단 도구가 원본 위에 내려오고 스치친 손이 기기를 가린다 연출: 결과를 보여주기 전 검은 그림자로 종이를 덮는다",
+      "camera_angle": "종이 극근접",
+      "characters_in_frame": [
+        "ETO 잔당",
+        "스치친"
+      ],
+      "visual_type": "normal",
+      "text": [],
+      "color_palette": "먹색·빨강"
+    },
+    {
+      "panel_id": "p11-1",
+      "page_number": 11,
+      "scene_number": 11,
+      "description": "잘린 편지 도식의 종이 조각이 바닥에 흩어지고 한 조각의 톱니는 타지 않고 남는다 연출: 무대사·무자막 풀페이지. 세피아 종이와 차가운 바닥 대비. 증거 상실의 죽음 냄새",
+      "camera_angle": "풀페이지 바닥 탑숏",
+      "characters_in_frame": [],
+      "visual_type": "silence",
+      "text": [],
+      "color_palette": "세피아·청회색·검정"
+    },
+    {
+      "panel_id": "p12-1",
+      "page_number": 12,
+      "scene_number": 12,
+      "description": "계단참에서 왕머여가 촬영 영상을 확대하지만 마지막 진단 줄은 손에 가려 있다 연출: 사진의 결핍을 숨기지 않는다. 어깨가 굳는다",
+      "camera_angle": "기기·얼굴 근접",
+      "characters_in_frame": [
+        "왕머여"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕머여",
+          "text": "문장은 못 건졌습니다."
+        }
+      ],
+      "color_palette": "청회색·흰색"
+    },
+    {
+      "panel_id": "p12-2",
+      "page_number": 12,
+      "scene_number": 12,
+      "description": "스치친이 재킷 소매에서 원본이 아닌 얇은 복사지를 꺼낸다 연출: 자랑 없이 조심스럽게 펴는 손. 담배는 귀 뒤",
+      "camera_angle": "손 중경",
+      "characters_in_frame": [
+        "스치친"
+      ],
+      "visual_type": "impact",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "그래서 종이는 두 장씩 보는 거야."
+        }
+      ],
+      "color_palette": "올리브·호박색"
+    },
+    {
+      "panel_id": "p12-3",
+      "page_number": 12,
+      "scene_number": 12,
+      "description": "복사지 눌림에 교정표의 밀린 기준선과 진단 도식 톱니가 함께 남아 있다 연출: 문구는 비우고 압흔 두 층을 빛으로 구분",
+      "camera_angle": "종이 사선 매크로",
+      "characters_in_frame": [
+        "왕머여"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕머여",
+          "text": "같은 결함입니다. 경로는 더 검증해야 합니다."
+        }
+      ],
+      "color_palette": "세피아·흰색"
+    },
+    {
+      "panel_id": "p13-1",
+      "page_number": 13,
+      "scene_number": 13,
+      "description": "왕머여가 교정 전 참조선과 교정 후 도판과 현재 여섯 출력의 톱니를 세 겹으로 놓는다 연출: 세 시대의 선이 같은 위치에서 만난다. 숫자는 후처리",
+      "camera_angle": "탁상 탑숏",
+      "characters_in_frame": [
+        "왕머여"
+      ],
+      "visual_type": "impact",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕머여",
+          "text": "세 기록의 결함 위치가 일치합니다."
+        }
+      ],
+      "color_palette": "세피아·청회색·빨강"
+    },
+    {
+      "panel_id": "p13-2",
+      "page_number": 13,
+      "scene_number": 13,
+      "description": "스치친이 복도의 ETO 잔당을 가로막고 문을 발로 고정한다 연출: 좁은 눈은 웃지 않고 재킷 그림자가 길어진다",
+      "camera_angle": "복도 낮은 앵글",
+      "characters_in_frame": [
+        "스치친",
+        "ETO 잔당"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "종이는 찢어도 발자국은 남지."
+        }
+      ],
+      "color_palette": "올리브·검정"
+    },
+    {
+      "panel_id": "p13-3",
+      "page_number": 13,
+      "scene_number": 13,
+      "description": "왕머여가 교정 전 참조선을 따로 봉투에 넣고 재시험 표에 빈 칸을 남긴다 연출: 승리 선언 대신 독립 재현 절차. 글자는 후처리",
+      "camera_angle": "봉투 오버숄더",
+      "characters_in_frame": [
+        "왕머여"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕머여",
+          "text": "오염 경로의 가설입니다. 다음 시험에서 갈라야 합니다."
+        }
+      ],
+      "color_palette": "흰색·청회색"
+    },
+    {
+      "panel_id": "p14-1",
+      "page_number": 14,
+      "scene_number": 14,
+      "description": "현재 관제실에서 왕머여가 EP007 보정 시계열에 1967년 기준선 위치를 겹친다 연출: 렌즈의 한 흠만 붉다. 과거는 세피아 현재는 청색",
+      "camera_angle": "렌즈 근접",
+      "characters_in_frame": [
+        "왕머여"
+      ],
+      "visual_type": "normal",
+      "text": [],
+      "color_palette": "청회색·세피아·빨강"
+    },
+    {
+      "panel_id": "p14-2",
+      "page_number": 14,
+      "scene_number": 14,
+      "description": "스치친이 ETO 잔당의 빈 손을 확인하고 왕머여 옆에서 시계를 본다 연출: 수염 밑 입꼬리만 조금 오르고 시선은 출력선",
+      "camera_angle": "이인물 측면 중경",
+      "characters_in_frame": [
+        "스치친",
+        "왕머여"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "놈들은 오래된 편지를 왜 오늘 찢었을까?"
+        }
+      ],
+      "color_palette": "올리브·청회색"
+    },
+    {
+      "panel_id": "p14-3",
+      "page_number": 14,
+      "scene_number": 14,
+      "description": "왕머여가 현재 출력의 다음 보정 구간을 가리키다 손가락을 멈춘다 연출: 톱니가 사라지지 않고 새 보정선의 기준점에 남는다",
+      "camera_angle": "손·화면 극근접",
+      "characters_in_frame": [
+        "왕머여"
+      ],
+      "visual_type": "impact",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕머여",
+          "text": "오류가 아직 기준에 남아 있습니다."
+        }
+      ],
+      "color_palette": "청회색·빨강"
+    },
+    {
+      "panel_id": "p15-1",
+      "page_number": 15,
+      "scene_number": 15,
+      "description": "1967년 밀린 교정선과 1379호 진단 도식과 현재 여섯 출력의 공통 톱니가 세 층으로 포개진다. 앞의 왕머여와 스치친은 작고 새 붉은 보정선이 오래된 흠에서 다시 뻗는다 연출: 무대사·무자막 풀페이지. 세피아 플래시백과 청색 현재를 구분. 모든 문자와 숫자는 비운다",
+      "camera_angle": "풀페이지 다층 초광각",
+      "characters_in_frame": [
+        "왕머여",
+        "스치친"
+      ],
+      "visual_type": "silence",
+      "text": [],
+      "color_palette": "세피아·청회색·빨강·검정"
+    }
+  ]
+}

@@ -40,6 +40,31 @@
       ],
       "human_approval": "not_required",
       "impact": "Workspace는 검토 가능한 판단 요약만 노출한다."
+    },
+    {
+      "id": "DEC-20261111-EP008-P1",
+      "made_at": "2026-11-11T04:40:10.822186+00:00",
+      "phase": "phase1",
+      "decision": "1967년 교정표의 변환 기준 오류가 송신 도판과 1379호의 진단을 거쳐 현재 보정선의 공통 흠으로 읽히는 15p·45컷 플래시백을 Phase 1 정본으로 삼는다.",
+      "rationale": "EP007의 제한된 보정 결론과 원안의 1379호 재해석을 이어 주면서, 원본 상실 뒤에도 검증 가능한 압흔을 남긴다.",
+      "evidence": [
+        "episodes/EP008/story/source-story.md",
+        "episodes/EP007/script/script.md",
+        "episodes/EP008/story/analysis.md",
+        "episodes/EP008/script/panel-script.json",
+        "episodes/EP008/storyboard/storyboard.json"
+      ],
+      "confidence": "medium",
+      "uncertainties": [
+        "삼체 내부 자료의 정확한 수신·채택 경로는 후속 독립 재현이 필요하다.",
+        "1379호의 경고에는 연민과 오염 회피가 함께 있을 수 있다."
+      ],
+      "alternatives_considered": [
+        "경고를 인류 보호만으로 해석",
+        "삼체 모형 오염을 이 화에서 완전히 증명"
+      ],
+      "human_approval": "pending",
+      "impact": "Story Lock 검토용 Phase 1 기준선. Phase 2 이후 창작은 이 패널 단일 진원의 설명을 사용한다."
     }
   ]
 }
