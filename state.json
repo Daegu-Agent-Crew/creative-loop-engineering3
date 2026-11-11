@@ -1,6 +1,6 @@
 {
-  "current_episode": "EP008",
-  "current_phase": "phase6_release",
+  "current_episode": "EP009",
+  "current_phase": "phase1_story",
   "episodes": {
     "EP001": {
       "title": "태초의 밤",
@@ -434,6 +434,31 @@
       "season": 2,
       "source": "episodes/EP008/story/source-story.md",
       "note": "S2E03 기원(플래시백). 회장님 지시로 13:31 즉시 착수 (새벽 크론 에러로 미시작)"
+    },
+    "EP009": {
+      "title": "게임은 QA였다",
+      "status": "in_progress",
+      "current_phase": "phase1_story",
+      "phases": {
+        "phase0": {
+          "status": "completed",
+          "score": null,
+          "note": "시즌2 각색안 승인 자산"
+        },
+        "phase0.5": {
+          "status": "completed",
+          "score": null,
+          "note": "EP001~008 성경·화풍 계승"
+        },
+        "phase1": {
+          "status": "in_progress",
+          "score": null,
+          "note": "S2E04 삼체 게임 재해석 — v5.1 단일 진원 착수"
+        }
+      },
+      "season": 2,
+      "source": "episodes/EP009/story/source-story.md",
+      "note": "2026-11-12 새벽 크론 착수 (EP007·EP008은 발행 승인 대기 — 생산은 지속)"
     }
   },
   "art_style": {

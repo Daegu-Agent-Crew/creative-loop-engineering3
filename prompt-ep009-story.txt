@@ -1,0 +1,13 @@
+EP009 「버그 리포트」 S2E04 「게임은 QA였다」 phase1 스토리 제작.
+
+원안: episodes/EP009/story/source-story.md — "### S2E04 「게임은 QA였다」 — 무기고" 섹션이 이 화의 범위다. 직전 화: EP008 (1379번 감시자의 편지 — 플래시백 기원). 이 화는 시간선이 현재로 복귀한다: 삼체 게임의 물리 엔진은 소페르 위조 엔진의 프로토타입. 왕먀오는 EP003~004의 게임 로그에서 위조 엔진의 취약점 패턴을 발견한다 — 40년간 전 세계 플레이어들이 몰래 적의 물리 엔진을 QA 테스트해왔던 것. 문명 192호의 숨은 엔딩 로그가 열쇠가 된다.
+
+절차 (v5.1 단일 진원 — 회장님 사전 예방 체계):
+1. episodes/EP009/story/analysis.md, outline.md (15p), scenes.md
+2. episodes/EP009/script/script.md + script.json — 페이지별 패널 표 (패널|내용|연출메모|대사·후처리텍스트|카메라|색감|visual_type), 45컷 내외, 무대사 풀페이지 3~4장
+3. **episodes/EP009/script/panel-script.json — 단일 진원**: 각 패널에 panel_id, page_number, description, camera_angle, characters_in_frame, visual_type, text[] 를 모두 정의. description은 최종 확정 문구(콘티가 여기서 파생된다).
+4. storyboard.json은 직접 쓰지 마라. panel-script.json 완성 후 node scripts/gen-storyboard.js EP009 실행.
+
+캐릭터 연속성(회장님 강제 조항): 왕먀오(단정한 검은 머리·큰 뿔테 안경·청회색 셔츠·마른 체형), 스치친(헝클어진 검은 머리·수염·좁은 피곤한 눈·낡은 올리브 재킷·담배). 삼체 게임 접속 장면은 게임 내 디스토피아 배경(EP003~004 톤 계승 — 건조한 황갈색·거대 구조물·탈수 인체)과 현실 장면(청회색)을 명확히 구분. 대사 톤: 스치친 건조한 유머, 왕먀오 절제된 정확함. 이미지에 한글 텍스트 금지.
+
+완료 후 파일 경로·패널 수·gen-storyboard 실행 결과를 출력하라.
