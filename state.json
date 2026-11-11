@@ -1,5 +1,5 @@
 {
-  "current_episode": "EP007",
+  "current_episode": "EP008",
   "current_phase": "phase6_release",
   "episodes": {
     "EP001": {
@@ -387,6 +387,50 @@
       "season": 2,
       "source": "adaptations/season2-bug-report/season2-story.md",
       "note": "2026-11-10 회장님 지시 'ep007 지금 진행'으로 즉시 착수 (새벽 크론 대기 없음)"
+    },
+    "EP008": {
+      "title": "1379번 감시자의 편지",
+      "status": "in_progress",
+      "current_phase": "phase1_story",
+      "phases": {
+        "phase0": {
+          "status": "completed",
+          "score": null,
+          "note": "시즌2 각색안 승인 자산"
+        },
+        "phase0.5": {
+          "status": "completed",
+          "score": null,
+          "note": "EP001~007 성경·화풍 계승"
+        },
+        "phase1": {
+          "status": "pending",
+          "score": null
+        },
+        "phase2": {
+          "status": "pending",
+          "score": null
+        },
+        "phase3": {
+          "status": "pending",
+          "score": null
+        },
+        "phase4": {
+          "status": "pending",
+          "score": null
+        },
+        "phase5": {
+          "status": "pending",
+          "score": null
+        },
+        "phase6": {
+          "status": "pending",
+          "score": null
+        }
+      },
+      "season": 2,
+      "source": "adaptations/season2-bug-report/season2-story.md",
+      "note": "S2E03 기원(플래시백). 회장님 지시로 13:31 즉시 착수 (새벽 크론 에러로 미시작)"
     }
   },
   "art_style": {
