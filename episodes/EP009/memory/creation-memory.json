@@ -2,7 +2,7 @@
   "$schema": "../../../schemas/creation-memory.schema.json",
   "schema_version": 1,
   "episode_id": "EP009",
-  "updated_at": "2026-11-11T21:03:47.554Z",
+  "updated_at": "2026-11-11T21:10:00Z",
   "creator_contract": {
     "creative_actor": "codex",
     "sole_creative_actor": true,
@@ -93,22 +93,24 @@
     }
   ],
   "handoff": {
-    "current_goal": "EP009 게임은 QA였다의 phase1_story 창작 작업을 이어간다.",
+    "current_goal": "EP009 Phase 1 산출물 검토 후 다음 단계로 인계",
     "current_phase": "phase1_story",
     "target_panel_id": null,
     "completed": [
       "phase0 완료",
-      "phase0.5 완료"
+      "phase0.5 완료",
+      "phase1 스토리 15p/45컷 작성 및 단일 진원 콘티 파생"
     ],
     "next_actions": [
-      "현재 스토리에서 캐릭터, 세계관, 시각 기준 자산을 추출하고 버전을 부여한다.",
-      "Character/World/Visual Bible을 만든 뒤 다음 Phase 입력으로 고정한다.",
-      "다음 창작 작업 전에 Creation Context Pack을 생성한다."
+      "Story Lock에서 문명 192호 숨은 로그와 다음 화 검증 약속을 검토한다.",
+      "캐릭터 외형과 게임/현실 색 구분을 기준으로 다음 Phase 입력을 준비한다.",
+      "창작 작업 전 Creation Context Pack을 다시 생성한다."
     ],
     "blockers": [],
     "human_decisions": [
-      "완료 Phase의 provisional gate를 공식 승인할지 결정",
-      "Phase 5 통과 후 공개 여부 결정"
+      "Story Lock 방향 승인 대기",
+      "완료 Phase의 provisional gate 승인 여부",
+      "Phase 5 통과 후 공개 여부"
     ]
   }
 }

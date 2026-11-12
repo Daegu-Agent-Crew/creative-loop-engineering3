@@ -40,6 +40,31 @@
       ],
       "human_approval": "not_required",
       "impact": "Workspace는 검토 가능한 판단 요약만 노출한다."
+    },
+    {
+      "id": "DEC-20261112-001",
+      "made_at": "2026-11-12T06:10:00+09:00",
+      "phase": "phase1",
+      "decision": "문명 192호의 렌더링되지 않은 종료 분기를 열쇠로 삼고, 게임·위조 엔진의 공통 보정 순서는 재현 가능한 가설로만 제시한다.",
+      "rationale": "EP004 표면 엔딩을 유지하면서 EP003 첫 접속과 EP007~008 출력 흔적을 검증 가능한 입력 경계로 연결한다.",
+      "evidence": [
+        "episodes/EP009/story/source-story.md",
+        "episodes/EP003/script/script.md",
+        "episodes/EP004/script/script.md",
+        "episodes/EP008/script/script.md",
+        "episodes/EP009/script/panel-script.json"
+      ],
+      "confidence": "medium",
+      "uncertainties": [
+        "40년 전체 로그의 완전성은 확인되지 않았다.",
+        "실제 소페르 위조 엔진에서 동일한 경계 실패가 재현되는지는 다음 화의 가속기 시험으로 가른다."
+      ],
+      "alternatives_considered": [
+        "숨은 로그가 같은 코드라는 사실을 직접 선언",
+        "192호 엔딩을 교체"
+      ],
+      "human_approval": "pending",
+      "impact": "Story Lock 검토 대상으로 15p/45컷 Phase 1 기준선을 제공한다."
     }
   ]
 }

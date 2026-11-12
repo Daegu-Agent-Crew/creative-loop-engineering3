@@ -438,7 +438,7 @@
     "EP009": {
       "title": "게임은 QA였다",
       "status": "in_progress",
-      "current_phase": "phase1_story",
+      "current_phase": "phase4_panels",
       "phases": {
         "phase0": {
           "status": "completed",
@@ -451,9 +451,33 @@
           "note": "EP001~008 성경·화풍 계승"
         },
         "phase1": {
-          "status": "in_progress",
+          "status": "completed",
+          "score": 43,
+          "prompt_version": "v5.1-single-source",
+          "note": "Story 43/50 자체평가; 15p/45컷, 무언 풀페이지 4장, gen-storyboard 파생. Story Lock은 pending.",
+          "sub_files": [
+            "story/analysis.md",
+            "story/outline.md",
+            "story/scenes.md",
+            "script/script.md",
+            "script/script.json",
+            "script/panel-script.json"
+          ]
+        },
+        "phase2": {
+          "status": "completed",
           "score": null,
-          "note": "S2E04 삼체 게임 재해석 — v5.1 단일 진원 착수"
+          "note": "EP006 성경 계승 — characters.json 계승(episode_id 교체). 왕머여·스치친 외형 규칙·닥터슬럼프풍 STYLE_BLOCK 유지."
+        },
+        "phase3": {
+          "status": "completed",
+          "score": null,
+          "prompt_version": "v5.1-single-source-derived",
+          "note": "panel-script(정본 45컷) → node scripts/gen-storyboard.js EP009 결정론적 파생(사전 예방 v4). 15p·45컷."
+        },
+        "phase4": {
+          "status": "in_progress",
+          "note": "codex image_gen 배치 생성 시작(세션당 연속 배치)"
         }
       },
       "season": 2,
@@ -489,7 +513,7 @@
       "previous_score": 45
     }
   ],
-  "last_updated": "2026-11-10T07:21:53+09:00",
+  "last_updated": "2026-11-12T21:01:21.215Z",
   "season_production_status": "complete",
   "season_release_status": "deployed",
   "pages_url": "https://daegu-agent-crew.github.io/creative-loop-engineering3/"
