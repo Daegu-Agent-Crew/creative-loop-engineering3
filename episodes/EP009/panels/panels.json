@@ -305,7 +305,10 @@
       "generation_status": "generated",
       "text_strategy": "postprocess_overlay",
       "ai_score": null,
-      "human_score": null
+      "human_score": null,
+      "attempt_count": 2,
+      "completed_at": "2026-11-13T03:40:57.050Z",
+      "last_error": null
     },
     {
       "panel_id": "p5-4",
