@@ -1,5 +1,5 @@
 {
-  "current_episode": "EP009",
+  "current_episode": "EP010",
   "current_phase": "phase1_story",
   "episodes": {
     "EP001": {
@@ -483,6 +483,31 @@
       "season": 2,
       "source": "episodes/EP009/story/source-story.md",
       "note": "2026-11-12 새벽 크론 착수 (EP007·EP008은 발행 승인 대기 — 생산은 지속)"
+    },
+    "EP010": {
+      "title": "면벽하지 않는 자들",
+      "status": "in_progress",
+      "current_phase": "phase1_story",
+      "phases": {
+        "phase0": {
+          "status": "completed",
+          "score": null,
+          "note": "시즌2 각색안 승인 자산"
+        },
+        "phase0.5": {
+          "status": "completed",
+          "score": null,
+          "note": "EP001~009 성경·화풍 계승"
+        },
+        "phase1": {
+          "status": "in_progress",
+          "score": null,
+          "note": "S2E05 노이즈 면벽 — v5.1 단일 진원 착수"
+        }
+      },
+      "season": 2,
+      "source": "episodes/EP010/story/source-story.md",
+      "note": "2026-11-14 새벽 크론 착수 (EP007~009는 발행 승인 대기 — 생산은 지속)"
     }
   },
   "art_style": {
