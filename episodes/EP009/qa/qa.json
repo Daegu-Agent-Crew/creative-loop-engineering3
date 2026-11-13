@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../schemas/qa.schema.json",
+  "episode_id": "EP009",
+  "overall_score": 42,
+  "prompt_version": "v5.1-single-source",
+  "items": [
+    {
+      "category": "전체 일관성",
+      "score": 8,
+      "notes": "45패널 정적검사. EP006 기준 일관성 강제. 게임 세계(황사 금색 톤)/현실(청회색) 팔레트 분리.",
+      "corrected": false
+    },
+    {
+      "category": "이미지 품질",
+      "score": 8,
+      "notes": "SVG 45·PNG 45, 정책 크기 준수. 3-way 병렬 생성으로 스타일 편차 최소화 확인.",
+      "corrected": false
+    },
+    {
+      "category": "스토리 정합성",
+      "score": 9,
+      "notes": "v5.1 단일 진원·콘티 파생. S2E04(삼체 게임=위조 엔진 프로토타입 재해석) 범위 일치.",
+      "corrected": false
+    },
+    {
+      "category": "텍스트 오버레이",
+      "score": 8,
+      "notes": "45컷 렌더링, 대사 31·무대사 14.",
+      "corrected": false
+    },
+    {
+      "category": "검증 한계",
+      "score": 5,
+      "notes": "자동 정적 검증(L1). 사람 시각 리뷰는 회장님 열람으로 대체.",
+      "corrected": false
+    }
+  ],
+  "final_images": {
+    "svg_count": 45,
+    "png_count": 45,
+    "viewer_url": "https://daegu-agent-crew.github.io/creative-loop-engineering3/episodes/EP009/"
+  }
+}

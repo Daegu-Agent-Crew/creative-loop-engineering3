@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1330" height="665" viewBox="0 0 1330 665">
+  <image href="../assets/p2-2.png" x="0" y="0" width="1330" height="665" />
+  <g class="overlay overlay-dialogue">
+    <rect x="93" y="40" width="665" height="80" rx="28" fill="#ffffff" fill-opacity="0.96" stroke="#111111" stroke-width="5" />
+    <text text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="16" font-weight="700" fill="#111111"><tspan x="426" y="85">놈이 남긴 발자국이면, 게임에도 묻었겠지.</tspan></text>
+  </g>
+</svg>

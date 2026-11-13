@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="899" height="984" viewBox="0 0 899 984">
+  <image href="../assets/p8-3.png" x="0" y="0" width="899" height="984" />
+  <g class="overlay overlay-dialogue">
+    <rect x="63" y="59" width="450" height="118" rx="28" fill="#ffffff" fill-opacity="0.96" stroke="#111111" stroke-width="4" />
+    <text text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#111111"><tspan x="288" y="110">세계가 다 참여했단 말은 조심해. 빠진 장부도</tspan><tspan x="288" y="142">있잖아.</tspan></text>
+  </g>
+</svg>

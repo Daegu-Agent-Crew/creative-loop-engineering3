@@ -1,0 +1,918 @@
+{
+  "episode_id": "EP009",
+  "version": 1,
+  "panels": [
+    {
+      "panel_id": "p1-1",
+      "page_number": 1,
+      "source_image_path": "episodes/EP009/panels/assets/p1-1.png",
+      "final_image_path": "episodes/EP009/panels/final/p1-1.svg",
+      "canonical_signature": "8053db91033e27a178fb9eba1dcda4241c851366f1478e3ff7bc487170fbc9be",
+      "source_sha256": "c33c914e89869e798b8455e4cf315a1383946ba3570d89aca3ae9d7bcc09db8c",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": []
+    },
+    {
+      "panel_id": "p2-1",
+      "page_number": 2,
+      "source_image_path": "episodes/EP009/panels/assets/p2-1.png",
+      "final_image_path": "episodes/EP009/panels/final/p2-1.svg",
+      "canonical_signature": "a6e1b634a06a7ce697e9a4796c527b4f79cad6dbaf2a295e8776ee38be4d42ac",
+      "source_sha256": "cd4a16869e4cfdafb48da74f4aaf31ba7d11d77d8bdc08113113bf76a6799884",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": []
+    },
+    {
+      "panel_id": "p2-2",
+      "page_number": 2,
+      "source_image_path": "episodes/EP009/panels/assets/p2-2.png",
+      "final_image_path": "episodes/EP009/panels/final/p2-2.svg",
+      "canonical_signature": "9addc54d367f9dfebe3c5470a2ae9cc899817511ce38ac9f0d8f6ca7d0502b87",
+      "source_sha256": "3b8526e80a04355a5d23e0ef395f106389acd3d3d55aad7ab950cc68ff2bfe94",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "놈이 남긴 발자국이면, 게임에도 묻었겠지.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p2-3",
+      "page_number": 2,
+      "source_image_path": "episodes/EP009/panels/assets/p2-3.png",
+      "final_image_path": "episodes/EP009/panels/final/p2-3.svg",
+      "canonical_signature": "a3d14e8100381b03d309ad2f2fe510efd4b5eb64d91c09b59a98ca0a2e06cfe5",
+      "source_sha256": "a3b827bae58a0fbd8b2c88480d00319de8e1ae6064e36410c72c3597a2f295bd",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "같은 흠인지 확인하겠습니다. 닮은 것만으론 안 됩니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p2-4",
+      "page_number": 2,
+      "source_image_path": "episodes/EP009/panels/assets/p2-4.png",
+      "final_image_path": "episodes/EP009/panels/final/p2-4.svg",
+      "canonical_signature": "bb05dcc515e323d19abab87e9333661eccff928a5715cde022668756ed25e12d",
+      "source_sha256": "e63307463413c6782a169dd2f323e14a3e26f8ae9f515715cfce5291d3690830",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": []
+    },
+    {
+      "panel_id": "p3-1",
+      "page_number": 3,
+      "source_image_path": "episodes/EP009/panels/assets/p3-1.png",
+      "final_image_path": "episodes/EP009/panels/final/p3-1.svg",
+      "canonical_signature": "661b2f6690a4e682048e6b331ddcf2cae0a76fd84cd6e3708e0aa26539a1d6d6",
+      "source_sha256": "a5a869e4960fd620bae80a704c2a03f37e1bc312d7d3e8ebcdf3120c73fa2378",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": []
+    },
+    {
+      "panel_id": "p3-2",
+      "page_number": 3,
+      "source_image_path": "episodes/EP009/panels/assets/p3-2.png",
+      "final_image_path": "episodes/EP009/panels/final/p3-2.svg",
+      "canonical_signature": "4e42adecee71cbfc8c3d6db244f74a00faeb1beaf943ee6336244e63b5429c97",
+      "source_sha256": "16724030ac257df29ed5ca41f4edee10aee62542d39184ec123aa9bf0cfae1a8",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "그때는 세 번째 태양만 봤습니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-3",
+      "page_number": 3,
+      "source_image_path": "episodes/EP009/panels/assets/p3-3.png",
+      "final_image_path": "episodes/EP009/panels/final/p3-3.svg",
+      "canonical_signature": "b378dfac2b766f6eeefa00b289d2c4809456f5a5ce8134884d7ad6092d6d8068",
+      "source_sha256": "379b5e25af95f6195c0f678a27faca7a785b9d4c1640c1841a2cc4f77f683358",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": []
+    },
+    {
+      "panel_id": "p3-4",
+      "page_number": 3,
+      "source_image_path": "episodes/EP009/panels/assets/p3-4.png",
+      "final_image_path": "episodes/EP009/panels/final/p3-4.svg",
+      "canonical_signature": "1b06cdb05ab8ce088c10f8c52e1d5a7bf1668beec7ba346acb4bc5bd7d5a6815",
+      "source_sha256": "59d772f2002a468265d768a957238f5ac6c0d9e45baebef213be9100b6207fe7",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "끝난 게임치곤 손이 바쁘네.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-1",
+      "page_number": 4,
+      "source_image_path": "episodes/EP009/panels/assets/p4-1.png",
+      "final_image_path": "episodes/EP009/panels/final/p4-1.svg",
+      "canonical_signature": "57d59a06d89bf6c0181d4b6b240344d4a2fc7a899c18739b76d0b0504235da36",
+      "source_sha256": "0c35fee2263fb2273dd16f5bbcb9b2faca931779b36c8e63e3cd0467bfffd189",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "문명 192호 · 종료 직후",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.55,
+            "h": 0.08
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-2",
+      "page_number": 4,
+      "source_image_path": "episodes/EP009/panels/assets/p4-2.png",
+      "final_image_path": "episodes/EP009/panels/final/p4-2.svg",
+      "canonical_signature": "2fad37782398d2f4dda392d3a876089e40633ffd819a6c58e04201eb99a334b1",
+      "source_sha256": "4769f0da490d8695703255545374d37ac0270ba5f8a3fbcc4b7fc9c433f5b466",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": []
+    },
+    {
+      "panel_id": "p4-3",
+      "page_number": 4,
+      "source_image_path": "episodes/EP009/panels/assets/p4-3.png",
+      "final_image_path": "episodes/EP009/panels/final/p4-3.svg",
+      "canonical_signature": "3b6a7bf4c400b21d90b71f55debb6d4bc6162085c29a9a0759fb869cddfd4eda",
+      "source_sha256": "b4899eb7f65b404f05ab2ea75318f3c04b8ad9168fcfce1ddeb33db602c8ad40",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "종료 기록 밑에 렌더링되지 않은 분기가 있습니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-4",
+      "page_number": 4,
+      "source_image_path": "episodes/EP009/panels/assets/p4-4.png",
+      "final_image_path": "episodes/EP009/panels/final/p4-4.svg",
+      "canonical_signature": "63dc1edb1dad17b800bb1a5e4528793dab6ee1182603648645c76cb0f63b4f49",
+      "source_sha256": "478f9355e7dd42feb1c31d8cee978889e28258a95eb93821e092925fcd601431",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": []
+    },
+    {
+      "panel_id": "p5-1",
+      "page_number": 5,
+      "source_image_path": "episodes/EP009/panels/assets/p5-1.png",
+      "final_image_path": "episodes/EP009/panels/final/p5-1.svg",
+      "canonical_signature": "c24ff65b95d66e430dd3bb326810c7b0826f269aade2304cce7e83e962fc1ec0",
+      "source_sha256": "8fb552327119db044e59681c35859d5cffe21b78265328f22c5520b412d19f6a",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "플레이어가 건드린 것은 관측탑 각도뿐입니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-2",
+      "page_number": 5,
+      "source_image_path": "episodes/EP009/panels/assets/p5-2.png",
+      "final_image_path": "episodes/EP009/panels/final/p5-2.svg",
+      "canonical_signature": "b0fb97f319942ea434d8ca8491410aee5d55f53a933a6f7538a406a63759776b",
+      "source_sha256": "1aa989dfbcbec821300e5c98bc76fc7badfdc2716ed32bebc21244d2f2278066",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "그런데 화면 전체의 그림자를 다시 계산했어요.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-3",
+      "page_number": 5,
+      "source_image_path": "episodes/EP009/panels/assets/p5-3.png",
+      "final_image_path": "episodes/EP009/panels/final/p5-3.svg",
+      "canonical_signature": "fdcdfb6707788934d2c584222f42cc8f0a6720a16412d9c4444441fb949a32fa",
+      "source_sha256": "454ffed19e6393a36978b209bd99669bd23eec235518db34b34d45f69dcb45d1",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "하늘이 알리바이를 고쳤군.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-4",
+      "page_number": 5,
+      "source_image_path": "episodes/EP009/panels/assets/p5-4.png",
+      "final_image_path": "episodes/EP009/panels/final/p5-4.svg",
+      "canonical_signature": "9320974eb7a140d918f9b194f54a49e8598b91fb6123f5a12fc0bd8ed75e2ca6",
+      "source_sha256": "5902c265f178096abcbb9ed42c29ab918e20080c840f38626efbd68472106f3b",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "모양은 닮았습니다. 주기는 다릅니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p6-1",
+      "page_number": 6,
+      "source_image_path": "episodes/EP009/panels/assets/p6-1.png",
+      "final_image_path": "episodes/EP009/panels/final/p6-1.svg",
+      "canonical_signature": "1e3aaa768626a7f1688762d53a3cc3d9311af65644bcf83e9e064e3406afdab9",
+      "source_sha256": "23f221d436f3a8d2eb5c725cfcb1a294aa57407ad0a89e78a73ee8e453f246b4",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "같은 플레이어의 다른 조건이 필요합니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p6-2",
+      "page_number": 6,
+      "source_image_path": "episodes/EP009/panels/assets/p6-2.png",
+      "final_image_path": "episodes/EP009/panels/final/p6-2.svg",
+      "canonical_signature": "1acaf4cf4999c8780f2bad71b095e357ae4bdbf23f4310691cb135ae7a740d50",
+      "source_sha256": "99236c5061571083208a101b744046b6d4a977667a3a89b33fd2526f2f189c6c",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": []
+    },
+    {
+      "panel_id": "p6-3",
+      "page_number": 6,
+      "source_image_path": "episodes/EP009/panels/assets/p6-3.png",
+      "final_image_path": "episodes/EP009/panels/final/p6-3.svg",
+      "canonical_signature": "5479621f2c4d3f7a0c88be96c16e6a5b3cfe54f4bdd9380c896b542c1c094678",
+      "source_sha256": "6e622e1ed06dbe5023487195099029ae7bad4f940f8431a71fbb5993c1e7a486",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "조건을 넘는 순간, 이전 결과를 덮어씁니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p6-4",
+      "page_number": 6,
+      "source_image_path": "episodes/EP009/panels/assets/p6-4.png",
+      "final_image_path": "episodes/EP009/panels/final/p6-4.svg",
+      "canonical_signature": "b9276cb681367853a5015d0af2e4634ee3e44aa64121ac0c576217b5e0e89ba3",
+      "source_sha256": "de21509abbf352b9e2de858973eadb3f155265cc68c91d9eaa84e83f13fddf45",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "왕 박사 말고도 하늘을 건드린 사람이 있겠지.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-1",
+      "page_number": 7,
+      "source_image_path": "episodes/EP009/panels/assets/p7-1.png",
+      "final_image_path": "episodes/EP009/panels/final/p7-1.svg",
+      "canonical_signature": "6227d42ec24a2a5e00ace4d0d60cd4ec51a28ea749b457a31f62ad4efb63ecee",
+      "source_sha256": "21362b49154f1aa4a1b7f424f70a392ff2114531f1acbe0c68845b47d8ab01aa",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": []
+    },
+    {
+      "panel_id": "p8-1",
+      "page_number": 8,
+      "source_image_path": "episodes/EP009/panels/assets/p8-1.png",
+      "final_image_path": "episodes/EP009/panels/final/p8-1.svg",
+      "canonical_signature": "58beae88b7cbe2109e473f5ce913543a4d04ba97919e2af13419af5986df0242",
+      "source_sha256": "77ea1cdf0a0da736480ac507e6faa823c8c09a6a2364dfa6722f70adf31e1b27",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "보존된 플레이어 기록 · 서로 다른 입력",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.55,
+            "h": 0.08
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p8-2",
+      "page_number": 8,
+      "source_image_path": "episodes/EP009/panels/assets/p8-2.png",
+      "final_image_path": "episodes/EP009/panels/final/p8-2.svg",
+      "canonical_signature": "e6481f78e724e0386d2483707c78823bbde56129d39ac6997cc0f98cb91a0a9f",
+      "source_sha256": "f6f0c1173a1597118b80ec32663642795886f1e509c6c13f0677554fa5110c5d",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": []
+    },
+    {
+      "panel_id": "p8-3",
+      "page_number": 8,
+      "source_image_path": "episodes/EP009/panels/assets/p8-3.png",
+      "final_image_path": "episodes/EP009/panels/final/p8-3.svg",
+      "canonical_signature": "e0bd732120efe9e6fe195b9f4d747e68603ca87326940030a72734b3b4e6821a",
+      "source_sha256": "b18fd3b57f3f1fbf438381924083c7aad68205e357901b43d6bcda1d2f591f19",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "세계가 다 참여했단 말은 조심해. 빠진 장부도 있잖아.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p8-4",
+      "page_number": 8,
+      "source_image_path": "episodes/EP009/panels/assets/p8-4.png",
+      "final_image_path": "episodes/EP009/panels/final/p8-4.svg",
+      "canonical_signature": "fde681660373b680e99ba3f83060554cc83183c90ae87d1bc59ae284a42b7782",
+      "source_sha256": "62cd74afcbfc684a21eecef7da13299c4b297caed3409d081f7665126ffbb460",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "확인된 건 이 표본입니다. 하지만 실험 조건은 충분합니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p9-1",
+      "page_number": 9,
+      "source_image_path": "episodes/EP009/panels/assets/p9-1.png",
+      "final_image_path": "episodes/EP009/panels/final/p9-1.svg",
+      "canonical_signature": "121c79fc1ee70e1b94e5863ff48baf53c7ee6148117125b60c833571dab8665d",
+      "source_sha256": "9fb5eeedfe1fa5bb3075e8803c28f8091d14e616b00ad3ce6538f3ca446eb3f6",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "이제 가속기 출력과 조건을 맞춥니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p9-2",
+      "page_number": 9,
+      "source_image_path": "episodes/EP009/panels/assets/p9-2.png",
+      "final_image_path": "episodes/EP009/panels/final/p9-2.svg",
+      "canonical_signature": "b0545b31c442821e50b1d0de338922c76a38c07aeb1ff2e7488de76199836543",
+      "source_sha256": "d98695e3302eb4630774a8bfe44fc81910fb354aa01eb37f14ad2e5e86d6162f",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": []
+    },
+    {
+      "panel_id": "p9-3",
+      "page_number": 9,
+      "source_image_path": "episodes/EP009/panels/assets/p9-3.png",
+      "final_image_path": "episodes/EP009/panels/final/p9-3.svg",
+      "canonical_signature": "a42b676b061f771f9abf71833c53dc511e72d4d178317f8af35b1b19d0411eac",
+      "source_sha256": "19ee53d9d4b4ec96c8f20d63872c32782c6340d8c157c9b8c5d8aef6d5543056",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "눈금 바꾸면 누구 얼굴도 닮아 보여.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p9-4",
+      "page_number": 9,
+      "source_image_path": "episodes/EP009/panels/assets/p9-4.png",
+      "final_image_path": "episodes/EP009/panels/final/p9-4.svg",
+      "canonical_signature": "b1116eb28ff4832b75de54ac16892f5399e9f415c46ed12d91cbcd666c34d383",
+      "source_sha256": "e130232fd4057d75faf5474dda1e369316a6526e24f948dc62bd0a308ae86274",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "같은 코드라고 단정할 수는 없습니다. 보정 순서는 같습니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p10-1",
+      "page_number": 10,
+      "source_image_path": "episodes/EP009/panels/assets/p10-1.png",
+      "final_image_path": "episodes/EP009/panels/final/p10-1.svg",
+      "canonical_signature": "13b1a01e43c20f9ced9cfd2f1c4e082d45a9a69461d145289822f79daaaebbb5",
+      "source_sha256": "70e0952b4ba95de54110843ae02bfed335015cdd74caaa3ed45d9aed09885556",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": []
+    },
+    {
+      "panel_id": "p10-2",
+      "page_number": 10,
+      "source_image_path": "episodes/EP009/panels/assets/p10-2.png",
+      "final_image_path": "episodes/EP009/panels/final/p10-2.svg",
+      "canonical_signature": "adda8a0aeede5df3400843677e55b6736c64ee0f851c26e8424738d7498b3d51",
+      "source_sha256": "ec2f6480fb067c5c773ee544e2fae133abf79db52ec5bf080f216c63da9e6780",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "결과가 원인보다 한 프레임 먼저 바뀌었습니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p10-3",
+      "page_number": 10,
+      "source_image_path": "episodes/EP009/panels/assets/p10-3.png",
+      "final_image_path": "episodes/EP009/panels/final/p10-3.svg",
+      "canonical_signature": "fc944f1b36f22e5ba11a150c8fd09a20775e489dd540ce8eabbd0394fc8f8033",
+      "source_sha256": "c34adf522f5f26c5a34a60bbd50d1867a76218b384abe3b5d90ca917667bc2b8",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "위조 엔진도 출력 뒤에 입력을 맞춥니다. 구조가 같습니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p10-4",
+      "page_number": 10,
+      "source_image_path": "episodes/EP009/panels/assets/p10-4.png",
+      "final_image_path": "episodes/EP009/panels/final/p10-4.svg",
+      "canonical_signature": "02c939d00d6219f1b7d80bdb6b257371cb0bbd7d1dcf1cbb6b5ca4f53e826573",
+      "source_sha256": "23dabbef124e6542a1ba9f9e4bbdde95948e3d7cf57270c2da41a756d64227bf",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "사십 년 동안 손님들이 공짜로 품질 검사를 해줬군.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p11-1",
+      "page_number": 11,
+      "source_image_path": "episodes/EP009/panels/assets/p11-1.png",
+      "final_image_path": "episodes/EP009/panels/final/p11-1.svg",
+      "canonical_signature": "4c296f9c03d73bab2ff2c3fe6696af28779796cefa929093f6f3bf63e854667a",
+      "source_sha256": "e0559ed53ccf2d921d59500f18d2bde16f28c9b9b731876ab3dec5e552b41260",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": []
+    },
+    {
+      "panel_id": "p12-1",
+      "page_number": 12,
+      "source_image_path": "episodes/EP009/panels/assets/p12-1.png",
+      "final_image_path": "episodes/EP009/panels/final/p12-1.svg",
+      "canonical_signature": "18372dd1f79628c3ed7bd91ea6ad2bc9b8ae84f6b205b91a50318ac913cd0d7f",
+      "source_sha256": "9c911184ae9eaf2f2e38a88fd9b9b4c00d708a91aa0e6a8eb95c362e73ae9b31",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "분기가 지워졌습니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p12-2",
+      "page_number": 12,
+      "source_image_path": "episodes/EP009/panels/assets/p12-2.png",
+      "final_image_path": "episodes/EP009/panels/final/p12-2.svg",
+      "canonical_signature": "72882c7223a1371318c9e7e0d5adc1d5615d51fa33237a09743de0673c855b0d",
+      "source_sha256": "34f619e3873fb8d093c776d98665def0f3abf90da2bf3c2e42bfe6d417520b0d",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "손님이 우리 장부도 고치러 왔어.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p12-3",
+      "page_number": 12,
+      "source_image_path": "episodes/EP009/panels/assets/p12-3.png",
+      "final_image_path": "episodes/EP009/panels/final/p12-3.svg",
+      "canonical_signature": "47bf4ee6f779572f4e8fca2ad65086e5d91d836569efe07d7c57a11e2db70594",
+      "source_sha256": "3d383a1280d8bb8508e891ad0b0b8a6ca733dccf715f4b884d99e7883bd6b2aa",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "재현하지 못하면, 제 기억도 자료가 아닙니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p13-1",
+      "page_number": 13,
+      "source_image_path": "episodes/EP009/panels/assets/p13-1.png",
+      "final_image_path": "episodes/EP009/panels/final/p13-1.svg",
+      "canonical_signature": "f5294a371f5fae7e25beb0ab3289e733b848dfdbd18bd9d9dfeb59eba33a5501",
+      "source_sha256": "b5f67e12e19d77a5bec0d9b16a7d3459375edce2005c8bf69b4fc185c7705e26",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "그래서 종이를 남겼지. 내가 구식이라 다행이군.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p13-2",
+      "page_number": 13,
+      "source_image_path": "episodes/EP009/panels/assets/p13-2.png",
+      "final_image_path": "episodes/EP009/panels/final/p13-2.svg",
+      "canonical_signature": "5d5b8b35b787fdb5037eed1b2e5fd69ecf653c546430db7099f455cb0d76bfd3",
+      "source_sha256": "70494e4d7e90f05e716c26adf852958eac9f2e5f6b70833725e4e308d2c971f2",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "같은 입력 경계를 다시 밟겠습니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p13-3",
+      "page_number": 13,
+      "source_image_path": "episodes/EP009/panels/assets/p13-3.png",
+      "final_image_path": "episodes/EP009/panels/final/p13-3.svg",
+      "canonical_signature": "322ffbec31b15add92b65f9558dc542b9f73c1504ffe421ba43abf1b46d82108",
+      "source_sha256": "b22fc66a8be0fbbba17efa6b41d7417e1e43a1f94258c44fce1d287d4f1558dd",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "반복됩니다. 저장 오류만은 아닙니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p14-1",
+      "page_number": 14,
+      "source_image_path": "episodes/EP009/panels/assets/p14-1.png",
+      "final_image_path": "episodes/EP009/panels/final/p14-1.svg",
+      "canonical_signature": "213dc35cc030c8539611eab82418b77d865dce97c7a8fcc112bb47f59ab0728a",
+      "source_sha256": "f8759d93bfd673e918f734b3a1da0b126931b0b754305c1c7c2943e5246c3e95",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "재현 가능한 경계 사례 세 건",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.55,
+            "h": 0.08
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p14-2",
+      "page_number": 14,
+      "source_image_path": "episodes/EP009/panels/assets/p14-2.png",
+      "final_image_path": "episodes/EP009/panels/final/p14-2.svg",
+      "canonical_signature": "07c50722a56a0e47639c2df56404f468390a9b3e3f177c2ec7cdaeb760b22e39",
+      "source_sha256": "3d6ecd8ac2a4fc4e91691b5f0ac08c89985aa81ec0edfdf03129e5d7f73c0841",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "게임에서 넘어지는 자릴 찾았군. 현실에선 밟아 봐야지.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p14-3",
+      "page_number": 14,
+      "source_image_path": "episodes/EP009/panels/assets/p14-3.png",
+      "final_image_path": "episodes/EP009/panels/final/p14-3.svg",
+      "canonical_signature": "aed16b4575ab4c7b7d8ff7e9216e411481ae0461ce676700acd67dc1712029c5",
+      "source_sha256": "6cf8f67510bbbe10944b6c8a9a0237005bbae3217ddd4fa8b86a291986402913",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "게임은 시제품일 가능성이 큽니다. 다음 시험이 같은 취약점을 가를 겁니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p15-1",
+      "page_number": 15,
+      "source_image_path": "episodes/EP009/panels/assets/p15-1.png",
+      "final_image_path": "episodes/EP009/panels/final/p15-1.svg",
+      "canonical_signature": "15185fc0111480e6dfe313d770cc1e39d258078709063447818ec88fa2ee36f9",
+      "source_sha256": "cdef60dbea44ea3163a6ae8db1891619acbbd3c0bf563dcd32bb006138ac027e",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script text; deterministic boxes",
+      "overlays": []
+    }
+  ]
+}

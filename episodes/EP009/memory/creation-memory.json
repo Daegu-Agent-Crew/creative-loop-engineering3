@@ -2,7 +2,7 @@
   "$schema": "../../../schemas/creation-memory.schema.json",
   "schema_version": 1,
   "episode_id": "EP009",
-  "updated_at": "2026-11-11T21:10:00Z",
+  "updated_at": "2026-11-13T03:38:09.342843Z",
   "creator_contract": {
     "creative_actor": "codex",
     "sole_creative_actor": true,
@@ -93,18 +93,25 @@
     }
   ],
   "handoff": {
-    "current_goal": "EP009 Phase 1 산출물 검토 후 다음 단계로 인계",
-    "current_phase": "phase1_story",
+    "current_goal": "EP009 Phase 4 panel generation",
+    "current_phase": "phase4_panels",
     "target_panel_id": null,
     "completed": [
       "phase0 완료",
       "phase0.5 완료",
-      "phase1 스토리 15p/45컷 작성 및 단일 진원 콘티 파생"
+      "phase1 스토리 15p/45컷 작성 및 단일 진원 콘티 파생",
+      "ep009-x3 p12-1–p15-1 10컷 PNG 생성 및 각 300KB 초과 확인",
+      "p12–p15 텍스트 오버레이 SVG 렌더링",
+      "ep009-x2 p7-1–p11-1 14컷 PNG 생성 및 각 300KB 초과 확인",
+      "p7–p11 텍스트 오버레이 SVG 렌더링",
+      "p10-2 그림자 선행 렌더링 시각 교정"
     ],
     "next_actions": [
-      "Story Lock에서 문명 192호 숨은 로그와 다음 화 검증 약속을 검토한다.",
-      "캐릭터 외형과 게임/현실 색 구분을 기준으로 다음 Phase 입력을 준비한다.",
-      "창작 작업 전 Creation Context Pack을 다시 생성한다."
+      "ep009-x3 패널별 시각 QA와 텍스트 오버레이 검토",
+      "EP009 전체 PNG 자산 증가량 30MB 정책 초과 해소를 위한 공개용 경량화",
+      "Phase 5 QA 완료 후 공개 승인 검토",
+      "ep009-x2 패널별 정식 시각 QA 점수 검수",
+      "EP009 PNG 자산 증가량 30MB 정책 초과 해소를 위한 공개용 경량화"
     ],
     "blockers": [],
     "human_decisions": [
