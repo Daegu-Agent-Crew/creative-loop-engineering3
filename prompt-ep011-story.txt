@@ -1,0 +1,16 @@
+EP011 BUG REPORT S2E06 FINAL EPISODE phase1 story production. Season 2 finale.
+
+WONAN: episodes/EP011/story/source-story.md \u2014 the "### S2E06" section is this episode's scope. Previous episode: EP010 \u2014 wangmyo, sitchin, yangdong designed simultaneous parallel execution of contradictory scientific actions (noise wall), got conditional approval (safety cutoff + independent control panel), and stood at the brink of simultaneous injection into three facility screens (ended with NO success this episode). Yangdong inherited her mother cheongsin's unfinished experiment (humanity's bug report draft).
+
+CORE: humanity injects a fatal self-referential paradox into the sophon simulation simultaneously. For 11 minutes every accelerator on Earth outputs REAL data \u2014 first real experiment in 40 years. Scientists copy the 11 minutes of data in tears (first page of new physics). Then the Trisolaran response arrives: "BUG FOUND. WILL FIX." \u2014 read not as contempt but as respect, for the first time. Cliffhanger: as the fix patch rolls in, one unofficial message hidden in the patch \u2014 monitor #1379 is still alive, waiting for humanity's report. Season 2 close + season 3 hook.
+
+PROCEDURE (v5.1 single source of truth \u2014 chairman pre-prevention system):
+1. episodes/EP011/story/analysis.md, outline.md (15p), scenes.md \u2014 write these in Korean
+2. episodes/EP011/script/script.md + script.json \u2014 page-by-page panel table, ~45 panels, 3~4 wordless full pages
+3. **episodes/EP011/script/panel-script.json \u2014 single source of truth**: every panel defines panel_id, page_number, description, camera_angle, characters_in_frame, visual_type, text[]. description is the final wording (storyboard derives from it).
+4. Do NOT write storyboard.json directly. After panel-script.json is complete, run: node scripts/gen-storyboard.js EP011
+
+CHARACTER CONTINUITY (chairman mandatory clause): wangmyo (neat black hair, big horn-rimmed glasses, blue-grey shirt, thin build), sitchin (messy black hair, stubble, narrow tired eyes, worn olive jacket, cigarette), yangdong (20s Chinese woman, straight black hair below shoulders, bangs swept sideways, light sky-blue blouse under grey cardigan, small leather document bag \u2014 inherits EP010 canonical sheet). Sophon: NO human form \u2014 red sawtooth waveform, geometric UI totems, glitch only. Monitor #1379 appears ONLY as an unofficial message hidden in the patch (no new fixed look; text is post-processed overlay). PDC experiment officer: institutional proxy, half-shadow face, no fixed look. Palette: flashback=sepia, present=blue-grey, Trisolaris game=ochre gold, the 11-minute real-data moment=pure white with cheongsin's sepia bleeding in. Dialogue tone: sitchin dry humor, wangmyo restrained precision, yangdong quiet and composed. NO Korean text inside images.
+
+After finishing, print file paths, panel count, and the gen-storyboard.js result.
+All panel-script.json descriptions and text[] (dialogue, captions, SFX) must be written in Korean - final wording. The panel table in script.md too.

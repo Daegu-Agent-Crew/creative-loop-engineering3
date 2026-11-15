@@ -1,5 +1,5 @@
 {
-  "current_episode": "EP010",
+  "current_episode": "EP011",
   "current_phase": "phase1_story",
   "episodes": {
     "EP001": {
@@ -526,6 +526,31 @@
       "season": 2,
       "source": "episodes/EP010/story/source-story.md",
       "note": "2026-11-14 새벽 크론 착수 (EP007~009는 발행 승인 대기 — 생산은 지속)"
+    },
+    "EP011": {
+      "title": "버그 리포트 제출",
+      "status": "in_progress",
+      "current_phase": "phase1_story",
+      "phases": {
+        "phase0": {
+          "status": "completed",
+          "score": null,
+          "note": "시즘2 각색안 승인 자산"
+        },
+        "phase0.5": {
+          "status": "completed",
+          "score": null,
+          "note": "EP001~010 성경·화풍 곀승"
+        },
+        "phase1": {
+          "status": "in_progress",
+          "score": null,
+          "note": "S2E06 피나레 — 11분의 진짜 + 1379 메시지, v5.1 단일 진원 착수"
+        }
+      },
+      "season": 2,
+      "source": "episodes/EP011/story/source-story.md",
+      "note": "2026-11-16 새벽 크론 착수 (EP007~010은 발행 승인 대기 — 생산은 지속)"
     }
   },
   "art_style": {
