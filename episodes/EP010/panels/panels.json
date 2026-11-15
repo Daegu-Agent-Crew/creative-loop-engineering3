@@ -1,0 +1,856 @@
+{
+  "episode_id": "EP010",
+  "panels": [
+    {
+      "panel_id": "p1-1",
+      "page_number": 1,
+      "description": "EP009의 경계 입력 시험 카드 세 장이 감시점 아래 펼쳐지고 그림자는 세 방향으로 뻗는다 연출: 무언 풀페이지. 도형만, 글자 없음",
+      "camera_angle": "풀페이지 탑숏",
+      "visual_type": "silence",
+      "characters_in_frame": [],
+      "reference_assets": [],
+      "image_path": "episodes/EP010/panels/assets/p1-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 1\nPanel ID: p1-1\nStoryboard description: EP009의 경계 입력 시험 카드 세 장이 감시점 아래 펼쳐지고 그림자는 세 방향으로 뻗는다 연출: 무언 풀페이지. 도형만, 글자 없음\nVisible cast: none\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: 풀페이지 탑숏\nPanel type: full-page splash\nVisual emphasis: silence\nPrioritize stillness, negative space, restrained acting, and quiet atmosphere.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p2-1",
+      "page_number": 2,
+      "description": "왕먀오가 세 카드의 서로 다른 경계 도형을 짚는다 연출: EP009 카드 그대로. 단정한 검은 머리, 큰 뿔테 안경, 청회색 셔츠, 마른 체형",
+      "camera_angle": "탁상 오버숄더",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "왕먀오"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "image_path": "episodes/EP010/panels/assets/p2-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 2\nPanel ID: p2-1\nStoryboard description: 왕먀오가 세 카드의 서로 다른 경계 도형을 짚는다 연출: EP009 카드 그대로. 단정한 검은 머리, 큰 뿔테 안경, 청회색 셔츠, 마른 체형\nVisible cast: 왕먀오\n\n--- CHARACTER REFERENCES ---\n- 왕먀오 (汪淼): Reference asset: episodes/EP001/characters/assets/wangmiao-v1.png Appearance: 30대 중국 남성, 단정한 검은 머리, 큰 뿔테 안경, 마른 체형. EP006부터 연구 가운을 벗고 청회색 셔츠 차림. 안경 렌즈의 흰 반사가 이번 화의 핵심 소재(p5-4 오차의 결). Style notes: Toriyama style: clean geometric design, large round glasses with light reflection (핵심 연출 도구), neat simplified hair. Cool blue-grey cell-shaded palette. 가운 부재—셔츠 소매를 반듯하게 편는 습관으로 내면 표현. Inner tone: EP005 함대 관측 후 연구를 포기한 패배주의에서 출발. 스치친의 '거짓말 수사'에 이끌려 위조 데이터의 결을 읽고, 실험 없이도 검증 가능한 질문을 만드는 과학자 정체성을 회복한다. p15 제출처 빈칸의 버그 리포트로 아크 종결.\n\n--- COMPOSITION ---\nCamera: 탁상 오버숄더\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p2-2",
+      "page_number": 2,
+      "description": "스치친이 감시 카메라를 향해 꺼진 담배를 든다 연출: 헝클어진 검은 머리, 수염, 좁은 피곤한 눈, 낡은 올리브 재킷",
+      "camera_angle": "이인물 중경",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "스치친",
+        "왕먀오"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/shiqiang-v1.png",
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "image_path": "episodes/EP010/panels/assets/p2-2.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 2\nPanel ID: p2-2\nStoryboard description: 스치친이 감시 카메라를 향해 꺼진 담배를 든다 연출: 헝클어진 검은 머리, 수염, 좁은 피곤한 눈, 낡은 올리브 재킷\nVisible cast: 스치친, 왕먀오\n\n--- CHARACTER REFERENCES ---\n- 스치친 (史强): Reference asset: episodes/EP001/characters/assets/shiqiang-v1.png Appearance: 40대 중국 남성, 헝클어진 검은 머리, 무거운 수염, 좁은 피곤한 눈, 묵직한 체구. EP006 코스튬: 낡은 올리브 재킷 + 꺼진 담배를 손가락 사이에. 커피잔이 이번 화의 시그니처 프롭. Style notes: Toriyama style: exaggerated weary posture, heavy stubble dots, small shrewd eyes. Earthy olive-brown cell-shaded palette. Cigarette + coffee cup as signature props. Inner tone: '죽은 자는 거짓말을 안 한다'는 수사 감각으로 왕먀오의 회피를 지적하고, 가속기가 거짓말 중임을 간파. 과학을 통제하려 들지 않고 공동 질문을 지키는 역할로 확장.\n- 왕먀오 (汪淼): Reference asset: episodes/EP001/characters/assets/wangmiao-v1.png Appearance: 30대 중국 남성, 단정한 검은 머리, 큰 뿔테 안경, 마른 체형. EP006부터 연구 가운을 벗고 청회색 셔츠 차림. 안경 렌즈의 흰 반사가 이번 화의 핵심 소재(p5-4 오차의 결). Style notes: Toriyama style: clean geometric design, large round glasses with light reflection (핵심 연출 도구), neat simplified hair. Cool blue-grey cell-shaded palette. 가운 부재—셔츠 소매를 반듯하게 편는 습관으로 내면 표현. Inner tone: EP005 함대 관측 후 연구를 포기한 패배주의에서 출발. 스치친의 '거짓말 수사'에 이끌려 위조 데이터의 결을 읽고, 실험 없이도 검증 가능한 질문을 만드는 과학자 정체성을 회복한다. p15 제출처 빈칸의 버그 리포트로 아크 종결.\n\n--- COMPOSITION ---\nCamera: 이인물 중경\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p2-3",
+      "page_number": 2,
+      "description": "왕먀오가 보정을 올리는 손과 내리는 손을 반대 방향 화살표로 그린다 연출: 실험 결과가 아닌 입력 설계. 글자는 후처리",
+      "camera_angle": "손 근접",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "왕먀오"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "image_path": "episodes/EP010/panels/assets/p2-3.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 2\nPanel ID: p2-3\nStoryboard description: 왕먀오가 보정을 올리는 손과 내리는 손을 반대 방향 화살표로 그린다 연출: 실험 결과가 아닌 입력 설계. 글자는 후처리\nVisible cast: 왕먀오\n\n--- CHARACTER REFERENCES ---\n- 왕먀오 (汪淼): Reference asset: episodes/EP001/characters/assets/wangmiao-v1.png Appearance: 30대 중국 남성, 단정한 검은 머리, 큰 뿔테 안경, 마른 체형. EP006부터 연구 가운을 벗고 청회색 셔츠 차림. 안경 렌즈의 흰 반사가 이번 화의 핵심 소재(p5-4 오차의 결). Style notes: Toriyama style: clean geometric design, large round glasses with light reflection (핵심 연출 도구), neat simplified hair. Cool blue-grey cell-shaded palette. 가운 부재—셔츠 소매를 반듯하게 편는 습관으로 내면 표현. Inner tone: EP005 함대 관측 후 연구를 포기한 패배주의에서 출발. 스치친의 '거짓말 수사'에 이끌려 위조 데이터의 결을 읽고, 실험 없이도 검증 가능한 질문을 만드는 과학자 정체성을 회복한다. p15 제출처 빈칸의 버그 리포트로 아크 종결.\n\n--- COMPOSITION ---\nCamera: 손 근접\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p2-4",
+      "page_number": 2,
+      "description": "붉은 감시점이 세 카드 모두에 빛을 던진다 연출: 데이터를 다 본다는 시각 표현. 의도 독해 불능은 아직 가설",
+      "camera_angle": "천장 로우앵글",
+      "visual_type": "impact",
+      "characters_in_frame": [],
+      "reference_assets": [],
+      "image_path": "episodes/EP010/panels/assets/p2-4.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 2\nPanel ID: p2-4\nStoryboard description: 붉은 감시점이 세 카드 모두에 빛을 던진다 연출: 데이터를 다 본다는 시각 표현. 의도 독해 불능은 아직 가설\nVisible cast: none\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: 천장 로우앵글\nPanel type: single panel\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p3-1",
+      "page_number": 3,
+      "description": "투명판 위 서로 반대인 두 보정 곡선이 중앙 예측선을 흐린다 연출: 곡선만 이미지에, 이름과 수치는 후처리",
+      "camera_angle": "투명판 정면",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "왕먀오"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "image_path": "episodes/EP010/panels/assets/p3-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 3\nPanel ID: p3-1\nStoryboard description: 투명판 위 서로 반대인 두 보정 곡선이 중앙 예측선을 흐린다 연출: 곡선만 이미지에, 이름과 수치는 후처리\nVisible cast: 왕먀오\n\n--- CHARACTER REFERENCES ---\n- 왕먀오 (汪淼): Reference asset: episodes/EP001/characters/assets/wangmiao-v1.png Appearance: 30대 중국 남성, 단정한 검은 머리, 큰 뿔테 안경, 마른 체형. EP006부터 연구 가운을 벗고 청회색 셔츠 차림. 안경 렌즈의 흰 반사가 이번 화의 핵심 소재(p5-4 오차의 결). Style notes: Toriyama style: clean geometric design, large round glasses with light reflection (핵심 연출 도구), neat simplified hair. Cool blue-grey cell-shaded palette. 가운 부재—셔츠 소매를 반듯하게 편는 습관으로 내면 표현. Inner tone: EP005 함대 관측 후 연구를 포기한 패배주의에서 출발. 스치친의 '거짓말 수사'에 이끌려 위조 데이터의 결을 읽고, 실험 없이도 검증 가능한 질문을 만드는 과학자 정체성을 회복한다. p15 제출처 빈칸의 버그 리포트로 아크 종결.\n\n--- COMPOSITION ---\nCamera: 투명판 정면\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p3-2",
+      "page_number": 3,
+      "description": "벽면에 서로 다른 시설 장치의 준비 화면이 열린다 연출: 각 시설 통신은 유지하고 설정만 달리함",
+      "camera_angle": "벽면 와이드",
+      "visual_type": "normal",
+      "characters_in_frame": [],
+      "reference_assets": [],
+      "image_path": "episodes/EP010/panels/assets/p3-2.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 3\nPanel ID: p3-2\nStoryboard description: 벽면에 서로 다른 시설 장치의 준비 화면이 열린다 연출: 각 시설 통신은 유지하고 설정만 달리함\nVisible cast: none\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: 벽면 와이드\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p3-3",
+      "page_number": 3,
+      "description": "스치친이 장치보다 안전 중단 손잡이를 먼저 확인한다 연출: 불붙지 않은 담배. 조기 중단 권한을 시각화",
+      "camera_angle": "손 근접",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "스치친"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/shiqiang-v1.png"
+      ],
+      "image_path": "episodes/EP010/panels/assets/p3-3.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 3\nPanel ID: p3-3\nStoryboard description: 스치친이 장치보다 안전 중단 손잡이를 먼저 확인한다 연출: 불붙지 않은 담배. 조기 중단 권한을 시각화\nVisible cast: 스치친\n\n--- CHARACTER REFERENCES ---\n- 스치친 (史强): Reference asset: episodes/EP001/characters/assets/shiqiang-v1.png Appearance: 40대 중국 남성, 헝클어진 검은 머리, 무거운 수염, 좁은 피곤한 눈, 묵직한 체구. EP006 코스튬: 낡은 올리브 재킷 + 꺼진 담배를 손가락 사이에. 커피잔이 이번 화의 시그니처 프롭. Style notes: Toriyama style: exaggerated weary posture, heavy stubble dots, small shrewd eyes. Earthy olive-brown cell-shaded palette. Cigarette + coffee cup as signature props. Inner tone: '죽은 자는 거짓말을 안 한다'는 수사 감각으로 왕먀오의 회피를 지적하고, 가속기가 거짓말 중임을 간파. 과학을 통제하려 들지 않고 공동 질문을 지키는 역할로 확장.\n\n--- COMPOSITION ---\nCamera: 손 근접\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p3-4",
+      "page_number": 3,
+      "description": "왕먀오가 원본 봉인 장치와 독립 보존 장치를 나란히 둔다 연출: 위조와 사람의 오판을 가를 대조군 씨앗",
+      "camera_angle": "대칭 탑숏",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "왕먀오"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "image_path": "episodes/EP010/panels/assets/p3-4.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 3\nPanel ID: p3-4\nStoryboard description: 왕먀오가 원본 봉인 장치와 독립 보존 장치를 나란히 둔다 연출: 위조와 사람의 오판을 가를 대조군 씨앗\nVisible cast: 왕먀오\n\n--- CHARACTER REFERENCES ---\n- 왕먀오 (汪淼): Reference asset: episodes/EP001/characters/assets/wangmiao-v1.png Appearance: 30대 중국 남성, 단정한 검은 머리, 큰 뿔테 안경, 마른 체형. EP006부터 연구 가운을 벗고 청회색 셔츠 차림. 안경 렌즈의 흰 반사가 이번 화의 핵심 소재(p5-4 오차의 결). Style notes: Toriyama style: clean geometric design, large round glasses with light reflection (핵심 연출 도구), neat simplified hair. Cool blue-grey cell-shaded palette. 가운 부재—셔츠 소매를 반듯하게 편는 습관으로 내면 표현. Inner tone: EP005 함대 관측 후 연구를 포기한 패배주의에서 출발. 스치친의 '거짓말 수사'에 이끌려 위조 데이터의 결을 읽고, 실험 없이도 검증 가능한 질문을 만드는 과학자 정체성을 회복한다. p15 제출처 빈칸의 버그 리포트로 아크 종결.\n\n--- COMPOSITION ---\nCamera: 대칭 탑숏\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p4-1",
+      "page_number": 4,
+      "description": "PDC 실험 책임자가 세 카드와 병렬 설계 도형을 마주 본다 연출: 제도적 상대 대리인. 얼굴은 반그림자, 외형 고정 없음",
+      "camera_angle": "회의실 중경",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "PDC 실험 책임자",
+        "왕먀오"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "image_path": "episodes/EP010/panels/assets/p4-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 4\nPanel ID: p4-1\nStoryboard description: PDC 실험 책임자가 세 카드와 병렬 설계 도형을 마주 본다 연출: 제도적 상대 대리인. 얼굴은 반그림자, 외형 고정 없음\nVisible cast: PDC 실험 책임자, 왕먀오\n\n--- CHARACTER REFERENCES ---\n- 왕먀오 (汪淼): Reference asset: episodes/EP001/characters/assets/wangmiao-v1.png Appearance: 30대 중국 남성, 단정한 검은 머리, 큰 뿔테 안경, 마른 체형. EP006부터 연구 가운을 벗고 청회색 셔츠 차림. 안경 렌즈의 흰 반사가 이번 화의 핵심 소재(p5-4 오차의 결). Style notes: Toriyama style: clean geometric design, large round glasses with light reflection (핵심 연출 도구), neat simplified hair. Cool blue-grey cell-shaded palette. 가운 부재—셔츠 소매를 반듯하게 편는 습관으로 내면 표현. Inner tone: EP005 함대 관측 후 연구를 포기한 패배주의에서 출발. 스치친의 '거짓말 수사'에 이끌려 위조 데이터의 결을 읽고, 실험 없이도 검증 가능한 질문을 만드는 과학자 정체성을 회복한다. p15 제출처 빈칸의 버그 리포트로 아크 종결.\n\n--- COMPOSITION ---\nCamera: 회의실 중경\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p4-2",
+      "page_number": 4,
+      "description": "책임자의 승인 도장이 종이 위에서 멈춘다 연출: 한 가설만 승인하겠다는 압박",
+      "camera_angle": "손 근접",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "PDC 실험 책임자"
+      ],
+      "reference_assets": [],
+      "image_path": "episodes/EP010/panels/assets/p4-2.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 4\nPanel ID: p4-2\nStoryboard description: 책임자의 승인 도장이 종이 위에서 멈춘다 연출: 한 가설만 승인하겠다는 압박\nVisible cast: PDC 실험 책임자\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: 손 근접\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p4-3",
+      "page_number": 4,
+      "description": "왕먀오의 안경에 반대 방향 두 곡선이 겹쳐 비친다 연출: 명료한 과학과 모호한 전술 사이의 갈등",
+      "camera_angle": "얼굴 근접",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "왕먀오"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "image_path": "episodes/EP010/panels/assets/p4-3.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 4\nPanel ID: p4-3\nStoryboard description: 왕먀오의 안경에 반대 방향 두 곡선이 겹쳐 비친다 연출: 명료한 과학과 모호한 전술 사이의 갈등\nVisible cast: 왕먀오\n\n--- CHARACTER REFERENCES ---\n- 왕먀오 (汪淼): Reference asset: episodes/EP001/characters/assets/wangmiao-v1.png Appearance: 30대 중국 남성, 단정한 검은 머리, 큰 뿔테 안경, 마른 체형. EP006부터 연구 가운을 벗고 청회색 셔츠 차림. 안경 렌즈의 흰 반사가 이번 화의 핵심 소재(p5-4 오차의 결). Style notes: Toriyama style: clean geometric design, large round glasses with light reflection (핵심 연출 도구), neat simplified hair. Cool blue-grey cell-shaded palette. 가운 부재—셔츠 소매를 반듯하게 편는 습관으로 내면 표현. Inner tone: EP005 함대 관측 후 연구를 포기한 패배주의에서 출발. 스치친의 '거짓말 수사'에 이끌려 위조 데이터의 결을 읽고, 실험 없이도 검증 가능한 질문을 만드는 과학자 정체성을 회복한다. p15 제출처 빈칸의 버그 리포트로 아크 종결.\n\n--- COMPOSITION ---\nCamera: 얼굴 근접\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p4-4",
+      "page_number": 4,
+      "description": "스치친이 일렬로 놓인 빈 의자를 가리킨다 연출: 건조한 농담으로 단일 계획의 취약점 제시",
+      "camera_angle": "측면 중경",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "스치친",
+        "PDC 실험 책임자"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/shiqiang-v1.png"
+      ],
+      "image_path": "episodes/EP010/panels/assets/p4-4.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 4\nPanel ID: p4-4\nStoryboard description: 스치친이 일렬로 놓인 빈 의자를 가리킨다 연출: 건조한 농담으로 단일 계획의 취약점 제시\nVisible cast: 스치친, PDC 실험 책임자\n\n--- CHARACTER REFERENCES ---\n- 스치친 (史强): Reference asset: episodes/EP001/characters/assets/shiqiang-v1.png Appearance: 40대 중국 남성, 헝클어진 검은 머리, 무거운 수염, 좁은 피곤한 눈, 묵직한 체구. EP006 코스튬: 낡은 올리브 재킷 + 꺼진 담배를 손가락 사이에. 커피잔이 이번 화의 시그니처 프롭. Style notes: Toriyama style: exaggerated weary posture, heavy stubble dots, small shrewd eyes. Earthy olive-brown cell-shaded palette. Cigarette + coffee cup as signature props. Inner tone: '죽은 자는 거짓말을 안 한다'는 수사 감각으로 왕먀오의 회피를 지적하고, 가속기가 거짓말 중임을 간파. 과학을 통제하려 들지 않고 공동 질문을 지키는 역할로 확장.\n\n--- COMPOSITION ---\nCamera: 측면 중경\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p5-1",
+      "page_number": 5,
+      "description": "왕먀오가 세 카드 옆에 동시 시작선과 무작위 배정 상자, 중단선 도형을 놓는다 연출: 독립 대조군과 안전 한도. 글자·숫자 없음",
+      "camera_angle": "탁상 탑숏",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "왕먀오"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "image_path": "episodes/EP010/panels/assets/p5-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 5\nPanel ID: p5-1\nStoryboard description: 왕먀오가 세 카드 옆에 동시 시작선과 무작위 배정 상자, 중단선 도형을 놓는다 연출: 독립 대조군과 안전 한도. 글자·숫자 없음\nVisible cast: 왕먀오\n\n--- CHARACTER REFERENCES ---\n- 왕먀오 (汪淼): Reference asset: episodes/EP001/characters/assets/wangmiao-v1.png Appearance: 30대 중국 남성, 단정한 검은 머리, 큰 뿔테 안경, 마른 체형. EP006부터 연구 가운을 벗고 청회색 셔츠 차림. 안경 렌즈의 흰 반사가 이번 화의 핵심 소재(p5-4 오차의 결). Style notes: Toriyama style: clean geometric design, large round glasses with light reflection (핵심 연출 도구), neat simplified hair. Cool blue-grey cell-shaded palette. 가운 부재—셔츠 소매를 반듯하게 편는 습관으로 내면 표현. Inner tone: EP005 함대 관측 후 연구를 포기한 패배주의에서 출발. 스치친의 '거짓말 수사'에 이끌려 위조 데이터의 결을 읽고, 실험 없이도 검증 가능한 질문을 만드는 과학자 정체성을 회복한다. p15 제출처 빈칸의 버그 리포트로 아크 종결.\n\n--- COMPOSITION ---\nCamera: 탁상 탑숏\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p5-2",
+      "page_number": 5,
+      "description": "책임자의 손이 안전 중단선에 동그라미를 친다 연출: 조건부 실행 허가",
+      "camera_angle": "종이 근접",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "PDC 실험 책임자"
+      ],
+      "reference_assets": [],
+      "image_path": "episodes/EP010/panels/assets/p5-2.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 5\nPanel ID: p5-2\nStoryboard description: 책임자의 손이 안전 중단선에 동그라미를 친다 연출: 조건부 실행 허가\nVisible cast: PDC 실험 책임자\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: 종이 근접\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p5-3",
+      "page_number": 5,
+      "description": "스치친이 중단 손잡이 앞에 구부정하게 앉는다 연출: 피곤한 눈, 올리브 재킷, 꺼진 담배",
+      "camera_angle": "낮은 측면",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "스치친"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/shiqiang-v1.png"
+      ],
+      "image_path": "episodes/EP010/panels/assets/p5-3.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 5\nPanel ID: p5-3\nStoryboard description: 스치친이 중단 손잡이 앞에 구부정하게 앉는다 연출: 피곤한 눈, 올리브 재킷, 꺼진 담배\nVisible cast: 스치친\n\n--- CHARACTER REFERENCES ---\n- 스치친 (史强): Reference asset: episodes/EP001/characters/assets/shiqiang-v1.png Appearance: 40대 중국 남성, 헝클어진 검은 머리, 무거운 수염, 좁은 피곤한 눈, 묵직한 체구. EP006 코스튬: 낡은 올리브 재킷 + 꺼진 담배를 손가락 사이에. 커피잔이 이번 화의 시그니처 프롭. Style notes: Toriyama style: exaggerated weary posture, heavy stubble dots, small shrewd eyes. Earthy olive-brown cell-shaded palette. Cigarette + coffee cup as signature props. Inner tone: '죽은 자는 거짓말을 안 한다'는 수사 감각으로 왕먀오의 회피를 지적하고, 가속기가 거짓말 중임을 간파. 과학을 통제하려 들지 않고 공동 질문을 지키는 역할로 확장.\n\n--- COMPOSITION ---\nCamera: 낮은 측면\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p5-4",
+      "page_number": 5,
+      "description": "왕먀오가 세 카드를 서로 다른 시설 봉투에 넣고 같은 봉인 도형을 찍는다 연출: 모든 입력 공개, 각 시설 원본 독립 보존",
+      "camera_angle": "봉투 매크로",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "왕먀오"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "image_path": "episodes/EP010/panels/assets/p5-4.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 5\nPanel ID: p5-4\nStoryboard description: 왕먀오가 세 카드를 서로 다른 시설 봉투에 넣고 같은 봉인 도형을 찍는다 연출: 모든 입력 공개, 각 시설 원본 독립 보존\nVisible cast: 왕먀오\n\n--- CHARACTER REFERENCES ---\n- 왕먀오 (汪淼): Reference asset: episodes/EP001/characters/assets/wangmiao-v1.png Appearance: 30대 중국 남성, 단정한 검은 머리, 큰 뿔테 안경, 마른 체형. EP006부터 연구 가운을 벗고 청회색 셔츠 차림. 안경 렌즈의 흰 반사가 이번 화의 핵심 소재(p5-4 오차의 결). Style notes: Toriyama style: clean geometric design, large round glasses with light reflection (핵심 연출 도구), neat simplified hair. Cool blue-grey cell-shaded palette. 가운 부재—셔츠 소매를 반듯하게 편는 습관으로 내면 표현. Inner tone: EP005 함대 관측 후 연구를 포기한 패배주의에서 출발. 스치친의 '거짓말 수사'에 이끌려 위조 데이터의 결을 읽고, 실험 없이도 검증 가능한 질문을 만드는 과학자 정체성을 회복한다. p15 제출처 빈칸의 버그 리포트로 아크 종결.\n\n--- COMPOSITION ---\nCamera: 봉투 매크로\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p6-1",
+      "page_number": 6,
+      "description": "세 시설 통로에서 보정 손잡이가 서로 반대로 돌려진다 연출: 실제 시험 준비, 과장된 폭발 없음",
+      "camera_angle": "삼분할 와이드",
+      "visual_type": "normal",
+      "characters_in_frame": [],
+      "reference_assets": [],
+      "image_path": "episodes/EP010/panels/assets/p6-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 6\nPanel ID: p6-1\nStoryboard description: 세 시설 통로에서 보정 손잡이가 서로 반대로 돌려진다 연출: 실제 시험 준비, 과장된 폭발 없음\nVisible cast: none\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: 삼분할 와이드\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p6-2",
+      "page_number": 6,
+      "description": "한 시설은 설정을 올리고 다른 시설은 내리며 셋째는 유지한다 연출: 같은 시간대. 값·문자는 후처리",
+      "camera_angle": "세 손 근접",
+      "visual_type": "normal",
+      "characters_in_frame": [],
+      "reference_assets": [],
+      "image_path": "episodes/EP010/panels/assets/p6-2.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 6\nPanel ID: p6-2\nStoryboard description: 한 시설은 설정을 올리고 다른 시설은 내리며 셋째는 유지한다 연출: 같은 시간대. 값·문자는 후처리\nVisible cast: none\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: 세 손 근접\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p6-3",
+      "page_number": 6,
+      "description": "게임 화면의 금빛 관측탑 그림자가 두 갈래로 갈라진다 연출: EP009 카드 출처 회상. 모니터 테두리로 현실과 분리",
+      "camera_angle": "모니터 내부 원경",
+      "visual_type": "normal",
+      "characters_in_frame": [],
+      "reference_assets": [],
+      "image_path": "episodes/EP010/panels/assets/p6-3.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 6\nPanel ID: p6-3\nStoryboard description: 게임 화면의 금빛 관측탑 그림자가 두 갈래로 갈라진다 연출: EP009 카드 출처 회상. 모니터 테두리로 현실과 분리\nVisible cast: none\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: 모니터 내부 원경\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p6-4",
+      "page_number": 6,
+      "description": "왕먀오가 게임 화면을 끄고 현실의 세 시설 출력을 기다린다 연출: 게임 취약점의 실물 재현은 미확정",
+      "camera_angle": "후면 중경",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "왕먀오"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "image_path": "episodes/EP010/panels/assets/p6-4.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 6\nPanel ID: p6-4\nStoryboard description: 왕먀오가 게임 화면을 끄고 현실의 세 시설 출력을 기다린다 연출: 게임 취약점의 실물 재현은 미확정\nVisible cast: 왕먀오\n\n--- CHARACTER REFERENCES ---\n- 왕먀오 (汪淼): Reference asset: episodes/EP001/characters/assets/wangmiao-v1.png Appearance: 30대 중국 남성, 단정한 검은 머리, 큰 뿔테 안경, 마른 체형. EP006부터 연구 가운을 벗고 청회색 셔츠 차림. 안경 렌즈의 흰 반사가 이번 화의 핵심 소재(p5-4 오차의 결). Style notes: Toriyama style: clean geometric design, large round glasses with light reflection (핵심 연출 도구), neat simplified hair. Cool blue-grey cell-shaded palette. 가운 부재—셔츠 소매를 반듯하게 편는 습관으로 내면 표현. Inner tone: EP005 함대 관측 후 연구를 포기한 패배주의에서 출발. 스치친의 '거짓말 수사'에 이끌려 위조 데이터의 결을 읽고, 실험 없이도 검증 가능한 질문을 만드는 과학자 정체성을 회복한다. p15 제출처 빈칸의 버그 리포트로 아크 종결.\n\n--- COMPOSITION ---\nCamera: 후면 중경\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p7-1",
+      "page_number": 7,
+      "description": "과학자 손들이 서로 반대인 장치 다이얼을 동시에 움직이고 붉은 감시 원이 모두를 비춘다 연출: 무언 풀페이지. 병렬 행동의 리듬. 진짜 데이터는 아직 없음. 글자 없음",
+      "camera_angle": "풀페이지 초광각",
+      "visual_type": "silence",
+      "characters_in_frame": [],
+      "reference_assets": [],
+      "image_path": "episodes/EP010/panels/assets/p7-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 7\nPanel ID: p7-1\nStoryboard description: 과학자 손들이 서로 반대인 장치 다이얼을 동시에 움직이고 붉은 감시 원이 모두를 비춘다 연출: 무언 풀페이지. 병렬 행동의 리듬. 진짜 데이터는 아직 없음. 글자 없음\nVisible cast: none\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: 풀페이지 초광각\nPanel type: full-page splash\nVisual emphasis: silence\nPrioritize stillness, negative space, restrained acting, and quiet atmosphere.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p8-1",
+      "page_number": 8,
+      "description": "세 시설 원본 출력과 붉은 위조 출력의 간격이 서로 다르게 요동친다 연출: Midpoint 가짜 승리. 수치·라벨은 후처리",
+      "camera_angle": "파형 탑숏",
+      "visual_type": "impact",
+      "characters_in_frame": [],
+      "reference_assets": [],
+      "image_path": "episodes/EP010/panels/assets/p8-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 8\nPanel ID: p8-1\nStoryboard description: 세 시설 원본 출력과 붉은 위조 출력의 간격이 서로 다르게 요동친다 연출: Midpoint 가짜 승리. 수치·라벨은 후처리\nVisible cast: none\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: 파형 탑숏\nPanel type: single panel\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p8-2",
+      "page_number": 8,
+      "description": "왕먀오가 한 출력의 되감김 흔적을 확대한다 연출: 게임 카드와 순서만 닮음, 동일 엔진으로 단정 금지",
+      "camera_angle": "렌즈 매크로",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "왕먀오"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "image_path": "episodes/EP010/panels/assets/p8-2.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 8\nPanel ID: p8-2\nStoryboard description: 왕먀오가 한 출력의 되감김 흔적을 확대한다 연출: 게임 카드와 순서만 닮음, 동일 엔진으로 단정 금지\nVisible cast: 왕먀오\n\n--- CHARACTER REFERENCES ---\n- 왕먀오 (汪淼): Reference asset: episodes/EP001/characters/assets/wangmiao-v1.png Appearance: 30대 중국 남성, 단정한 검은 머리, 큰 뿔테 안경, 마른 체형. EP006부터 연구 가운을 벗고 청회색 셔츠 차림. 안경 렌즈의 흰 반사가 이번 화의 핵심 소재(p5-4 오차의 결). Style notes: Toriyama style: clean geometric design, large round glasses with light reflection (핵심 연출 도구), neat simplified hair. Cool blue-grey cell-shaded palette. 가운 부재—셔츠 소매를 반듯하게 편는 습관으로 내면 표현. Inner tone: EP005 함대 관측 후 연구를 포기한 패배주의에서 출발. 스치친의 '거짓말 수사'에 이끌려 위조 데이터의 결을 읽고, 실험 없이도 검증 가능한 질문을 만드는 과학자 정체성을 회복한다. p15 제출처 빈칸의 버그 리포트로 아크 종결.\n\n--- COMPOSITION ---\nCamera: 렌즈 매크로\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p8-3",
+      "page_number": 8,
+      "description": "책임자가 다른 두 출력의 불일치 지점을 가린다 연출: 성급한 승리 차단",
+      "camera_angle": "측면 근접",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "PDC 실험 책임자"
+      ],
+      "reference_assets": [],
+      "image_path": "episodes/EP010/panels/assets/p8-3.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 8\nPanel ID: p8-3\nStoryboard description: 책임자가 다른 두 출력의 불일치 지점을 가린다 연출: 성급한 승리 차단\nVisible cast: PDC 실험 책임자\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: 측면 근접\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p8-4",
+      "page_number": 8,
+      "description": "관제실 문에 작은 가죽 서류가방을 든 양동이 선다 연출: 첫 등장: 20대 중국 여성, 어깨 아래 검은 생머리, 왼쪽에서 오른쪽으로 넘긴 앞머리, 회색 카디건 위 연한 하늘색 블라우스",
+      "camera_angle": "문턱 역광",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "양동"
+      ],
+      "reference_assets": [],
+      "image_path": "episodes/EP010/panels/assets/p8-4.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 8\nPanel ID: p8-4\nStoryboard description: 관제실 문에 작은 가죽 서류가방을 든 양동이 선다 연출: 첫 등장: 20대 중국 여성, 어깨 아래 검은 생머리, 왼쪽에서 오른쪽으로 넘긴 앞머리, 회색 카디건 위 연한 하늘색 블라우스\nVisible cast: 양동\n\n--- CHARACTER REFERENCES ---\n- 양동: \n\n--- COMPOSITION ---\nCamera: 문턱 역광\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p9-1",
+      "page_number": 9,
+      "description": "소페르의 붉은 보정 파형이 갈라진 뒤 한 줄로 다시 수렴한다 연출: 상대가 분류를 갱신할 수 있음. 가짜 승리 반전",
+      "camera_angle": "모니터 매크로",
+      "visual_type": "impact",
+      "characters_in_frame": [],
+      "reference_assets": [],
+      "image_path": "episodes/EP010/panels/assets/p9-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 9\nPanel ID: p9-1\nStoryboard description: 소페르의 붉은 보정 파형이 갈라진 뒤 한 줄로 다시 수렴한다 연출: 상대가 분류를 갱신할 수 있음. 가짜 승리 반전\nVisible cast: none\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: 모니터 매크로\nPanel type: single panel\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p9-2",
+      "page_number": 9,
+      "description": "왕먀오가 세 시설 결과의 공통 잔차를 확대한다 연출: 의도를 직접 읽은 증거는 아님; 반응이 다시 합쳐짐",
+      "camera_angle": "오버숄더 근접",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "왕먀오"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "image_path": "episodes/EP010/panels/assets/p9-2.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 9\nPanel ID: p9-2\nStoryboard description: 왕먀오가 세 시설 결과의 공통 잔차를 확대한다 연출: 의도를 직접 읽은 증거는 아님; 반응이 다시 합쳐짐\nVisible cast: 왕먀오\n\n--- CHARACTER REFERENCES ---\n- 왕먀오 (汪淼): Reference asset: episodes/EP001/characters/assets/wangmiao-v1.png Appearance: 30대 중국 남성, 단정한 검은 머리, 큰 뿔테 안경, 마른 체형. EP006부터 연구 가운을 벗고 청회색 셔츠 차림. 안경 렌즈의 흰 반사가 이번 화의 핵심 소재(p5-4 오차의 결). Style notes: Toriyama style: clean geometric design, large round glasses with light reflection (핵심 연출 도구), neat simplified hair. Cool blue-grey cell-shaded palette. 가운 부재—셔츠 소매를 반듯하게 편는 습관으로 내면 표현. Inner tone: EP005 함대 관측 후 연구를 포기한 패배주의에서 출발. 스치친의 '거짓말 수사'에 이끌려 위조 데이터의 결을 읽고, 실험 없이도 검증 가능한 질문을 만드는 과학자 정체성을 회복한다. p15 제출처 빈칸의 버그 리포트로 아크 종결.\n\n--- COMPOSITION ---\nCamera: 오버숄더 근접\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p9-3",
+      "page_number": 9,
+      "description": "스치친이 붉은 파형과 양동의 가방을 번갈아 본다 연출: 건조한 유머",
+      "camera_angle": "이인물 사선",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "스치친",
+        "양동"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/shiqiang-v1.png"
+      ],
+      "image_path": "episodes/EP010/panels/assets/p9-3.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 9\nPanel ID: p9-3\nStoryboard description: 스치친이 붉은 파형과 양동의 가방을 번갈아 본다 연출: 건조한 유머\nVisible cast: 스치친, 양동\n\n--- CHARACTER REFERENCES ---\n- 스치친 (史强): Reference asset: episodes/EP001/characters/assets/shiqiang-v1.png Appearance: 40대 중국 남성, 헝클어진 검은 머리, 무거운 수염, 좁은 피곤한 눈, 묵직한 체구. EP006 코스튬: 낡은 올리브 재킷 + 꺼진 담배를 손가락 사이에. 커피잔이 이번 화의 시그니처 프롭. Style notes: Toriyama style: exaggerated weary posture, heavy stubble dots, small shrewd eyes. Earthy olive-brown cell-shaded palette. Cigarette + coffee cup as signature props. Inner tone: '죽은 자는 거짓말을 안 한다'는 수사 감각으로 왕먀오의 회피를 지적하고, 가속기가 거짓말 중임을 간파. 과학을 통제하려 들지 않고 공동 질문을 지키는 역할로 확장.\n- 양동: \n\n--- COMPOSITION ---\nCamera: 이인물 사선\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p9-4",
+      "page_number": 9,
+      "description": "양동이 가방 잠금쇠를 누르고 정면을 본다 연출: 얼굴 고정: 가로보다 조금 긴 타원형, 완만한 광대, 작은 곧은 코, 가는 눈썹, 차분한 아몬드형 눈, 작은 입. 머리·복장 p8-4와 동일",
+      "camera_angle": "정면 흉상",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "양동"
+      ],
+      "reference_assets": [],
+      "image_path": "episodes/EP010/panels/assets/p9-4.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 9\nPanel ID: p9-4\nStoryboard description: 양동이 가방 잠금쇠를 누르고 정면을 본다 연출: 얼굴 고정: 가로보다 조금 긴 타원형, 완만한 광대, 작은 곧은 코, 가는 눈썹, 차분한 아몬드형 눈, 작은 입. 머리·복장 p8-4와 동일\nVisible cast: 양동\n\n--- CHARACTER REFERENCES ---\n- 양동: \n\n--- COMPOSITION ---\nCamera: 정면 흉상\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p10-1",
+      "page_number": 10,
+      "description": "양동이 작은 갈색 가죽 가방에서 낡은 수첩과 빈 카드들을 꺼낸다 연출: 외형 p8-4·p9-4 고정. 수첩 글씨는 후처리",
+      "camera_angle": "삼인물 중경",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "양동",
+        "왕먀오",
+        "스치친"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png",
+        "episodes/EP001/characters/assets/shiqiang-v1.png"
+      ],
+      "image_path": "episodes/EP010/panels/assets/p10-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 10\nPanel ID: p10-1\nStoryboard description: 양동이 작은 갈색 가죽 가방에서 낡은 수첩과 빈 카드들을 꺼낸다 연출: 외형 p8-4·p9-4 고정. 수첩 글씨는 후처리\nVisible cast: 양동, 왕먀오, 스치친\n\n--- CHARACTER REFERENCES ---\n- 양동: \n- 왕먀오 (汪淼): Reference asset: episodes/EP001/characters/assets/wangmiao-v1.png Appearance: 30대 중국 남성, 단정한 검은 머리, 큰 뿔테 안경, 마른 체형. EP006부터 연구 가운을 벗고 청회색 셔츠 차림. 안경 렌즈의 흰 반사가 이번 화의 핵심 소재(p5-4 오차의 결). Style notes: Toriyama style: clean geometric design, large round glasses with light reflection (핵심 연출 도구), neat simplified hair. Cool blue-grey cell-shaded palette. 가운 부재—셔츠 소매를 반듯하게 편는 습관으로 내면 표현. Inner tone: EP005 함대 관측 후 연구를 포기한 패배주의에서 출발. 스치친의 '거짓말 수사'에 이끌려 위조 데이터의 결을 읽고, 실험 없이도 검증 가능한 질문을 만드는 과학자 정체성을 회복한다. p15 제출처 빈칸의 버그 리포트로 아크 종결.\n- 스치친 (史强): Reference asset: episodes/EP001/characters/assets/shiqiang-v1.png Appearance: 40대 중국 남성, 헝클어진 검은 머리, 무거운 수염, 좁은 피곤한 눈, 묵직한 체구. EP006 코스튬: 낡은 올리브 재킷 + 꺼진 담배를 손가락 사이에. 커피잔이 이번 화의 시그니처 프롭. Style notes: Toriyama style: exaggerated weary posture, heavy stubble dots, small shrewd eyes. Earthy olive-brown cell-shaded palette. Cigarette + coffee cup as signature props. Inner tone: '죽은 자는 거짓말을 안 한다'는 수사 감각으로 왕먀오의 회피를 지적하고, 가속기가 거짓말 중임을 간파. 과학을 통제하려 들지 않고 공동 질문을 지키는 역할로 확장.\n\n--- COMPOSITION ---\nCamera: 삼인물 중경\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p10-2",
+      "page_number": 10,
+      "description": "왕먀오가 수첩 가장자리만 잡고 양동을 바라본다 연출: 해석 권한을 양동에게 남김",
+      "camera_angle": "손·눈 교차 근접",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "왕먀오",
+        "양동"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "image_path": "episodes/EP010/panels/assets/p10-2.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 10\nPanel ID: p10-2\nStoryboard description: 왕먀오가 수첩 가장자리만 잡고 양동을 바라본다 연출: 해석 권한을 양동에게 남김\nVisible cast: 왕먀오, 양동\n\n--- CHARACTER REFERENCES ---\n- 왕먀오 (汪淼): Reference asset: episodes/EP001/characters/assets/wangmiao-v1.png Appearance: 30대 중국 남성, 단정한 검은 머리, 큰 뿔테 안경, 마른 체형. EP006부터 연구 가운을 벗고 청회색 셔츠 차림. 안경 렌즈의 흰 반사가 이번 화의 핵심 소재(p5-4 오차의 결). Style notes: Toriyama style: clean geometric design, large round glasses with light reflection (핵심 연출 도구), neat simplified hair. Cool blue-grey cell-shaded palette. 가운 부재—셔츠 소매를 반듯하게 편는 습관으로 내면 표현. Inner tone: EP005 함대 관측 후 연구를 포기한 패배주의에서 출발. 스치친의 '거짓말 수사'에 이끌려 위조 데이터의 결을 읽고, 실험 없이도 검증 가능한 질문을 만드는 과학자 정체성을 회복한다. p15 제출처 빈칸의 버그 리포트로 아크 종결.\n- 양동: \n\n--- COMPOSITION ---\nCamera: 손·눈 교차 근접\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p10-3",
+      "page_number": 10,
+      "description": "수첩의 세 갈래 도형 옆 한 칸이 비고 붉은 파형이 반사된다 연출: All Is Lost: 초고도 미완성, 보정은 수렴 중. 글자 없음",
+      "camera_angle": "수첩 극근접",
+      "visual_type": "normal",
+      "characters_in_frame": [],
+      "reference_assets": [],
+      "image_path": "episodes/EP010/panels/assets/p10-3.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 10\nPanel ID: p10-3\nStoryboard description: 수첩의 세 갈래 도형 옆 한 칸이 비고 붉은 파형이 반사된다 연출: All Is Lost: 초고도 미완성, 보정은 수렴 중. 글자 없음\nVisible cast: none\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: 수첩 극근접\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p10-4",
+      "page_number": 10,
+      "description": "책임자가 중단 손잡이에 손을 얹고 양동은 시선을 피하지 않는다 연출: 실험 중단 위기. 실제 위험은 안전 한도와 해석의 실패",
+      "camera_angle": "이인물 로우앵글",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "PDC 실험 책임자",
+        "양동"
+      ],
+      "reference_assets": [],
+      "image_path": "episodes/EP010/panels/assets/p10-4.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 10\nPanel ID: p10-4\nStoryboard description: 책임자가 중단 손잡이에 손을 얹고 양동은 시선을 피하지 않는다 연출: 실험 중단 위기. 실제 위험은 안전 한도와 해석의 실패\nVisible cast: PDC 실험 책임자, 양동\n\n--- CHARACTER REFERENCES ---\n- 양동: \n\n--- COMPOSITION ---\nCamera: 이인물 로우앵글\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p11-1",
+      "page_number": 11,
+      "description": "붉은 파형으로 가득 찬 관제실 아래 수첩의 빈 네모만 하얗게 남는다 연출: 무언 풀페이지. 양동의 손끝은 여백을 가리지 않음. 글자 없음",
+      "camera_angle": "풀페이지 초광각",
+      "visual_type": "silence",
+      "characters_in_frame": [
+        "양동"
+      ],
+      "reference_assets": [],
+      "image_path": "episodes/EP010/panels/assets/p11-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 11\nPanel ID: p11-1\nStoryboard description: 붉은 파형으로 가득 찬 관제실 아래 수첩의 빈 네모만 하얗게 남는다 연출: 무언 풀페이지. 양동의 손끝은 여백을 가리지 않음. 글자 없음\nVisible cast: 양동\n\n--- CHARACTER REFERENCES ---\n- 양동: \n\n--- COMPOSITION ---\nCamera: 풀페이지 초광각\nPanel type: full-page splash\nVisual emphasis: silence\nPrioritize stillness, negative space, restrained acting, and quiet atmosphere.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p12-1",
+      "page_number": 12,
+      "description": "세피아 회상에서 70대 청신이 반대 눈금의 두 장치를 관찰한다 연출: EP001 노과학자 외형 계승. 회상으로만 등장. 글자 없음",
+      "camera_angle": "세피아 중경",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "청신"
+      ],
+      "reference_assets": [],
+      "image_path": "episodes/EP010/panels/assets/p12-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 12\nPanel ID: p12-1\nStoryboard description: 세피아 회상에서 70대 청신이 반대 눈금의 두 장치를 관찰한다 연출: EP001 노과학자 외형 계승. 회상으로만 등장. 글자 없음\nVisible cast: 청신\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: 세피아 중경\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p12-2",
+      "page_number": 12,
+      "description": "청신이 세 번째 장치를 비워 둔 채 수첩 위 연필을 멈춘다 연출: 미완의 대조 조건. 어머니의 사망이나 최종 의도는 암시하지 않음",
+      "camera_angle": "손·수첩 근접",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "청신"
+      ],
+      "reference_assets": [],
+      "image_path": "episodes/EP010/panels/assets/p12-2.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 12\nPanel ID: p12-2\nStoryboard description: 청신이 세 번째 장치를 비워 둔 채 수첩 위 연필을 멈춘다 연출: 미완의 대조 조건. 어머니의 사망이나 최종 의도는 암시하지 않음\nVisible cast: 청신\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: 손·수첩 근접\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p12-3",
+      "page_number": 12,
+      "description": "현재의 양동이 같은 모양의 별도 봉인 대조 장치를 책상에 둔다 연출: 세피아에서 청회색으로 전환. 데이터 공개, 판정 독립 보존",
+      "camera_angle": "손 탑숏",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "양동"
+      ],
+      "reference_assets": [],
+      "image_path": "episodes/EP010/panels/assets/p12-3.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 12\nPanel ID: p12-3\nStoryboard description: 현재의 양동이 같은 모양의 별도 봉인 대조 장치를 책상에 둔다 연출: 세피아에서 청회색으로 전환. 데이터 공개, 판정 독립 보존\nVisible cast: 양동\n\n--- CHARACTER REFERENCES ---\n- 양동: \n\n--- COMPOSITION ---\nCamera: 손 탑숏\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p13-1",
+      "page_number": 13,
+      "description": "양동이 세 카드 옆에 투명한 대조 판을 놓는다 연출: 공격 카드 추가가 아니라 같은 자료의 독립 판정 기준",
+      "camera_angle": "탁상 탑숏",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "양동"
+      ],
+      "reference_assets": [],
+      "image_path": "episodes/EP010/panels/assets/p13-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 13\nPanel ID: p13-1\nStoryboard description: 양동이 세 카드 옆에 투명한 대조 판을 놓는다 연출: 공격 카드 추가가 아니라 같은 자료의 독립 판정 기준\nVisible cast: 양동\n\n--- CHARACTER REFERENCES ---\n- 양동: \n\n--- COMPOSITION ---\nCamera: 탁상 탑숏\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p13-2",
+      "page_number": 13,
+      "description": "왕먀오가 원본 봉인 장치와 위조 출력, 독립 판정 기록을 삼각형으로 놓는다 연출: 의도 독해 불능은 직접 확인 불가; 보정 선택만 관찰",
+      "camera_angle": "오버숄더 중경",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "왕먀오"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "image_path": "episodes/EP010/panels/assets/p13-2.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 13\nPanel ID: p13-2\nStoryboard description: 왕먀오가 원본 봉인 장치와 위조 출력, 독립 판정 기록을 삼각형으로 놓는다 연출: 의도 독해 불능은 직접 확인 불가; 보정 선택만 관찰\nVisible cast: 왕먀오\n\n--- CHARACTER REFERENCES ---\n- 왕먀오 (汪淼): Reference asset: episodes/EP001/characters/assets/wangmiao-v1.png Appearance: 30대 중국 남성, 단정한 검은 머리, 큰 뿔테 안경, 마른 체형. EP006부터 연구 가운을 벗고 청회색 셔츠 차림. 안경 렌즈의 흰 반사가 이번 화의 핵심 소재(p5-4 오차의 결). Style notes: Toriyama style: clean geometric design, large round glasses with light reflection (핵심 연출 도구), neat simplified hair. Cool blue-grey cell-shaded palette. 가운 부재—셔츠 소매를 반듯하게 편는 습관으로 내면 표현. Inner tone: EP005 함대 관측 후 연구를 포기한 패배주의에서 출발. 스치친의 '거짓말 수사'에 이끌려 위조 데이터의 결을 읽고, 실험 없이도 검증 가능한 질문을 만드는 과학자 정체성을 회복한다. p15 제출처 빈칸의 버그 리포트로 아크 종결.\n\n--- COMPOSITION ---\nCamera: 오버숄더 중경\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p13-3",
+      "page_number": 13,
+      "description": "스치친이 꺼진 담배로 세 갈래를 가리킨다 연출: 벽을 쌓지 않는 반전 회수",
+      "camera_angle": "삼인물 측면",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "스치친",
+        "왕먀오",
+        "양동"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/shiqiang-v1.png",
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "image_path": "episodes/EP010/panels/assets/p13-3.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 13\nPanel ID: p13-3\nStoryboard description: 스치친이 꺼진 담배로 세 갈래를 가리킨다 연출: 벽을 쌓지 않는 반전 회수\nVisible cast: 스치친, 왕먀오, 양동\n\n--- CHARACTER REFERENCES ---\n- 스치친 (史强): Reference asset: episodes/EP001/characters/assets/shiqiang-v1.png Appearance: 40대 중국 남성, 헝클어진 검은 머리, 무거운 수염, 좁은 피곤한 눈, 묵직한 체구. EP006 코스튬: 낡은 올리브 재킷 + 꺼진 담배를 손가락 사이에. 커피잔이 이번 화의 시그니처 프롭. Style notes: Toriyama style: exaggerated weary posture, heavy stubble dots, small shrewd eyes. Earthy olive-brown cell-shaded palette. Cigarette + coffee cup as signature props. Inner tone: '죽은 자는 거짓말을 안 한다'는 수사 감각으로 왕먀오의 회피를 지적하고, 가속기가 거짓말 중임을 간파. 과학을 통제하려 들지 않고 공동 질문을 지키는 역할로 확장.\n- 왕먀오 (汪淼): Reference asset: episodes/EP001/characters/assets/wangmiao-v1.png Appearance: 30대 중국 남성, 단정한 검은 머리, 큰 뿔테 안경, 마른 체형. EP006부터 연구 가운을 벗고 청회색 셔츠 차림. 안경 렌즈의 흰 반사가 이번 화의 핵심 소재(p5-4 오차의 결). Style notes: Toriyama style: clean geometric design, large round glasses with light reflection (핵심 연출 도구), neat simplified hair. Cool blue-grey cell-shaded palette. 가운 부재—셔츠 소매를 반듯하게 편는 습관으로 내면 표현. Inner tone: EP005 함대 관측 후 연구를 포기한 패배주의에서 출발. 스치친의 '거짓말 수사'에 이끌려 위조 데이터의 결을 읽고, 실험 없이도 검증 가능한 질문을 만드는 과학자 정체성을 회복한다. p15 제출처 빈칸의 버그 리포트로 아크 종결.\n- 양동: \n\n--- COMPOSITION ---\nCamera: 삼인물 측면\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p14-1",
+      "page_number": 14,
+      "description": "왕먀오가 책임자에게 안전 중단선과 대조 판을 함께 보인다 연출: 실행 전 시험 범위 재설정",
+      "camera_angle": "회의실 중경",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "왕먀오",
+        "PDC 실험 책임자"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png"
+      ],
+      "image_path": "episodes/EP010/panels/assets/p14-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 14\nPanel ID: p14-1\nStoryboard description: 왕먀오가 책임자에게 안전 중단선과 대조 판을 함께 보인다 연출: 실행 전 시험 범위 재설정\nVisible cast: 왕먀오, PDC 실험 책임자\n\n--- CHARACTER REFERENCES ---\n- 왕먀오 (汪淼): Reference asset: episodes/EP001/characters/assets/wangmiao-v1.png Appearance: 30대 중국 남성, 단정한 검은 머리, 큰 뿔테 안경, 마른 체형. EP006부터 연구 가운을 벗고 청회색 셔츠 차림. 안경 렌즈의 흰 반사가 이번 화의 핵심 소재(p5-4 오차의 결). Style notes: Toriyama style: clean geometric design, large round glasses with light reflection (핵심 연출 도구), neat simplified hair. Cool blue-grey cell-shaded palette. 가운 부재—셔츠 소매를 반듯하게 편는 습관으로 내면 표현. Inner tone: EP005 함대 관측 후 연구를 포기한 패배주의에서 출발. 스치친의 '거짓말 수사'에 이끌려 위조 데이터의 결을 읽고, 실험 없이도 검증 가능한 질문을 만드는 과학자 정체성을 회복한다. p15 제출처 빈칸의 버그 리포트로 아크 종결.\n\n--- COMPOSITION ---\nCamera: 회의실 중경\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p14-2",
+      "page_number": 14,
+      "description": "책임자의 도장이 계획서 모서리에 찍히고 양동은 붉은 빛을 본다 연출: 작중 실험 조건부 허가. 실제 Story Lock과 무관",
+      "camera_angle": "손·얼굴 이중초점",
+      "visual_type": "impact",
+      "characters_in_frame": [
+        "PDC 실험 책임자",
+        "양동"
+      ],
+      "reference_assets": [],
+      "image_path": "episodes/EP010/panels/assets/p14-2.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 14\nPanel ID: p14-2\nStoryboard description: 책임자의 도장이 계획서 모서리에 찍히고 양동은 붉은 빛을 본다 연출: 작중 실험 조건부 허가. 실제 Story Lock과 무관\nVisible cast: PDC 실험 책임자, 양동\n\n--- CHARACTER REFERENCES ---\n- 양동: \n\n--- COMPOSITION ---\nCamera: 손·얼굴 이중초점\nPanel type: single panel\nVisual emphasis: impact\nPrioritize dramatic contrast, stronger perspective, and a high-emphasis focal point.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p14-3",
+      "page_number": 14,
+      "description": "양동이 가방을 닫고 세 사람이 서로 다른 시설 화면을 향한다 연출: 다음 화 동시 주입 준비, 이번 화에 성공 없음",
+      "camera_angle": "후면 와이드",
+      "visual_type": "normal",
+      "characters_in_frame": [
+        "양동",
+        "왕먀오",
+        "스치친"
+      ],
+      "reference_assets": [
+        "episodes/EP001/characters/assets/wangmiao-v1.png",
+        "episodes/EP001/characters/assets/shiqiang-v1.png"
+      ],
+      "image_path": "episodes/EP010/panels/assets/p14-3.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 14\nPanel ID: p14-3\nStoryboard description: 양동이 가방을 닫고 세 사람이 서로 다른 시설 화면을 향한다 연출: 다음 화 동시 주입 준비, 이번 화에 성공 없음\nVisible cast: 양동, 왕먀오, 스치친\n\n--- CHARACTER REFERENCES ---\n- 양동: \n- 왕먀오 (汪淼): Reference asset: episodes/EP001/characters/assets/wangmiao-v1.png Appearance: 30대 중국 남성, 단정한 검은 머리, 큰 뿔테 안경, 마른 체형. EP006부터 연구 가운을 벗고 청회색 셔츠 차림. 안경 렌즈의 흰 반사가 이번 화의 핵심 소재(p5-4 오차의 결). Style notes: Toriyama style: clean geometric design, large round glasses with light reflection (핵심 연출 도구), neat simplified hair. Cool blue-grey cell-shaded palette. 가운 부재—셔츠 소매를 반듯하게 편는 습관으로 내면 표현. Inner tone: EP005 함대 관측 후 연구를 포기한 패배주의에서 출발. 스치친의 '거짓말 수사'에 이끌려 위조 데이터의 결을 읽고, 실험 없이도 검증 가능한 질문을 만드는 과학자 정체성을 회복한다. p15 제출처 빈칸의 버그 리포트로 아크 종결.\n- 스치친 (史强): Reference asset: episodes/EP001/characters/assets/shiqiang-v1.png Appearance: 40대 중국 남성, 헝클어진 검은 머리, 무거운 수염, 좁은 피곤한 눈, 묵직한 체구. EP006 코스튬: 낡은 올리브 재킷 + 꺼진 담배를 손가락 사이에. 커피잔이 이번 화의 시그니처 프롭. Style notes: Toriyama style: exaggerated weary posture, heavy stubble dots, small shrewd eyes. Earthy olive-brown cell-shaded palette. Cigarette + coffee cup as signature props. Inner tone: '죽은 자는 거짓말을 안 한다'는 수사 감각으로 왕먀오의 회피를 지적하고, 가속기가 거짓말 중임을 간파. 과학을 통제하려 들지 않고 공동 질문을 지키는 역할로 확장.\n\n--- COMPOSITION ---\nCamera: 후면 와이드\nPanel type: single panel\nVisual emphasis: normal\nBalance character readability, environment clarity, and story momentum.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    },
+    {
+      "panel_id": "p15-1",
+      "page_number": 15,
+      "description": "세 시험 카드와 양동의 수첩이 원을 이루고 그 밖으로 반대 방향의 시설 통로들이 뻗는다 연출: 무언 풀페이지. 붉은 감시점은 모두 비추지만 원의 중심은 빈다. p1 그림자의 변화. 글자·숫자 없음",
+      "camera_angle": "풀페이지 조감 초광각",
+      "visual_type": "silence",
+      "characters_in_frame": [],
+      "reference_assets": [],
+      "image_path": "episodes/EP010/panels/assets/p15-1.png",
+      "generation_prompt": "Bold clean ink linework, flat vibrant cell-shaded colors,\nrounded expressive character designs, dramatic but playful composition,\ndistinctive 1980s Akira Toriyama manga aesthetic.\nSimple but expressive backgrounds with bold black shadows.\nClean panel borders, dynamic perspective.\n\n--- SCENE ---\nEpisode: EP010\nPage: 15\nPanel ID: p15-1\nStoryboard description: 세 시험 카드와 양동의 수첩이 원을 이루고 그 밖으로 반대 방향의 시설 통로들이 뻗는다 연출: 무언 풀페이지. 붉은 감시점은 모두 비추지만 원의 중심은 빈다. p1 그림자의 변화. 글자·숫자 없음\nVisible cast: none\n\n--- CHARACTER REFERENCES ---\nNo named recurring character reference. Focus on environment, props, typography, and mood continuity only.\n\n--- COMPOSITION ---\nCamera: 풀페이지 조감 초광각\nPanel type: full-page splash\nVisual emphasis: silence\nPrioritize stillness, negative space, restrained acting, and quiet atmosphere.\n\n--- OUTPUT RULES ---\nDeliver one finished comic panel only, not a reference sheet.\nKeep the face, silhouette, costume, and color logic consistent with the referenced CLE3 character assets.\nRespect the storyboard beat exactly and keep the panel readable inside a serialized web-comic layout.",
+      "style": "dr-slump-toriyama",
+      "generation_status": "generated",
+      "text_strategy": "postprocess_overlay",
+      "ai_score": null,
+      "human_score": null
+    }
+  ],
+  "prompt_version": "v2-toriyama-internal"
+}

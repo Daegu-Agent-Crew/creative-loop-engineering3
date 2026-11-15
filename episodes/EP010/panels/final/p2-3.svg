@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1086" height="814" viewBox="0 0 1086 814">
+  <image href="../assets/p2-3.png" x="0" y="0" width="1086" height="814" />
+  <g class="overlay overlay-dialogue">
+    <rect x="76" y="49" width="543" height="98" rx="28" fill="#ffffff" fill-opacity="0.96" stroke="#111111" stroke-width="4" />
+    <text text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="20" font-weight="700" fill="#111111"><tspan x="348" y="105">숨길 수 없으니 동시에 다르게 행동하자는 겁니다.</tspan></text>
+  </g>
+</svg>

@@ -2,7 +2,7 @@
   "$schema": "../../../schemas/creation-memory.schema.json",
   "schema_version": 1,
   "episode_id": "EP010",
-  "updated_at": "2026-11-13T21:04:25.096Z",
+  "updated_at": "2026-11-15T01:19:21.091Z",
   "creator_contract": {
     "creative_actor": "codex",
     "sole_creative_actor": true,
@@ -41,13 +41,93 @@
       "path": "config/panel-generation-policy.json",
       "purpose": "동시성, 재시도, QA와 에스컬레이션 기준",
       "required": true
+    },
+    {
+      "id": "source-story-ep010",
+      "type": "story",
+      "path": "episodes/EP010/script/panel-script.json",
+      "purpose": "EP010 컷 설명과 후처리 텍스트의 단일 진원",
+      "required": true
     }
   ],
   "canon_assets": [],
   "narrative_threads": [],
   "continuity": [],
   "preferences": [],
-  "lessons": [],
+  "lessons": [
+    {
+      "id": "lesson-ep010-x1-20261115",
+      "outcome": "mixed",
+      "status": "observed",
+      "summary": "EP010 p1-1~p4-4 13개 PNG가 생성되어 모두 300KB를 넘고 1~4페이지 SVG 후처리가 렌더링되었다. 전체 EP010 자산 증가량 검사는 30MB 한도 초과로 실패했다.",
+      "guidance": "다음 작업에서 이번 컷의 파일·상태를 대조하고 저장 정책의 자산 크기 문제를 해결한다. 한 번의 관찰로 인물 선호나 품질 승인을 확정하지 않는다.",
+      "scope": {
+        "characters": [],
+        "panel_ids": [
+          "p1-1",
+          "p2-1",
+          "p2-2",
+          "p2-3",
+          "p2-4",
+          "p3-1",
+          "p3-2",
+          "p3-3",
+          "p3-4",
+          "p4-1",
+          "p4-2",
+          "p4-3",
+          "p4-4"
+        ],
+        "tags": [
+          "phase4",
+          "handoff"
+        ]
+      },
+      "evidence_paths": [
+        "episodes/EP010/panels/ep010-x1-charlock.log",
+        "episodes/EP010/panels/panels.json",
+        "episodes/EP010/panels/final/"
+      ]
+    },
+    {
+      "id": "lesson-ep010-x2-20261115",
+      "outcome": "mixed",
+      "status": "observed",
+      "summary": "EP010 p5-1~p9-4의 17개 PNG를 생성했고 각 파일은 300KB를 넘는다. 5~9페이지 SVG 후처리를 렌더링했다. 전체 EP010 패널 자산 증가는 저장 정책의 30MB 한도를 초과한다.",
+      "guidance": "이번 그룹은 생성 완료 상태로 인계한다. 자산 크기 문제는 커밋 전에 해결하고, 사람 승인이나 캐릭터 품질 승인은 추정하지 않는다.",
+      "scope": {
+        "characters": [],
+        "panel_ids": [
+          "p5-1",
+          "p5-2",
+          "p5-3",
+          "p5-4",
+          "p6-1",
+          "p6-2",
+          "p6-3",
+          "p6-4",
+          "p7-1",
+          "p8-1",
+          "p8-2",
+          "p8-3",
+          "p8-4",
+          "p9-1",
+          "p9-2",
+          "p9-3",
+          "p9-4"
+        ],
+        "tags": [
+          "phase4",
+          "handoff"
+        ]
+      },
+      "evidence_paths": [
+        "episodes/EP010/panels/ep010-x2-charlock.log",
+        "episodes/EP010/panels/panels.json",
+        "episodes/EP010/panels/final/"
+      ]
+    }
+  ],
   "constraints": [
     {
       "id": "constraint-one-image-per-request",
@@ -93,22 +173,27 @@
     }
   ],
   "handoff": {
-    "current_goal": "EP010 면벽하지 않는 자들의 phase1_story 창작 작업을 이어간다.",
-    "current_phase": "phase1_story",
+    "current_goal": "EP010 Phase 4 패널 생성 결과의 QA 및 자산 용량 정리",
+    "current_phase": "phase4_panels",
     "target_panel_id": null,
     "completed": [
       "phase0 완료",
-      "phase0.5 완료"
+      "phase0.5 완료",
+      "phase1 15p/45컷 자체 평가 43/50 및 스키마 검증",
+      "panel-script에서 storyboard 파생",
+      "phase4 p5-1~p9-4 17개 PNG 생성 및 5~9페이지 SVG 렌더링",
+      "phase4 p10-1~p15-1 15개 PNG 생성, 10~15페이지 SVG 렌더링; p10-4/p14-2 입력 거부 후 간결한 프롬프트로 재시도 성공"
     ],
     "next_actions": [
-      "현재 스토리에서 캐릭터, 세계관, 시각 기준 자산을 추출하고 버전을 부여한다.",
-      "Character/World/Visual Bible을 만든 뒤 다음 Phase 입력으로 고정한다.",
-      "다음 창작 작업 전에 Creation Context Pack을 생성한다."
+      "Story Lock 사람 검토 결과를 원본 approvals/gates.json에 기록한다.",
+      "양동의 외형 고정 DNA를 기준으로 Phase 2 캐릭터 시트를 제작한다.",
+      "패널 생성 전 해당 패널 Creation Context Pack을 만든다.",
+      "p10-1~p15-1 후속 시각 QA와 Git 반영 전 패널 자산 용량 최적화"
     ],
     "blockers": [],
     "human_decisions": [
-      "완료 Phase의 provisional gate를 공식 승인할지 결정",
-      "Phase 5 통과 후 공개 여부 결정"
+      "Story Lock 승인 여부 대기",
+      "Phase 5 통과 후 Release Approval 대기"
     ]
   }
 }

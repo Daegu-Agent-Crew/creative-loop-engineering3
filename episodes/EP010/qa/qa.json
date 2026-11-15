@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../schemas/qa.schema.json",
+  "episode_id": "EP010",
+  "overall_score": 43,
+  "prompt_version": "v5.1-single-source+charlock-v6",
+  "items": [
+    {
+      "category": "전체 일관성",
+      "score": 9,
+      "notes": "CHARLOCK 프로토콜 첫 전체 적용: 83회 canonical 시트 확인 로그(왕머여·스치친·양동). 신규 캐릭터 양동 canonical 시트 고정·12컷 적용.",
+      "corrected": false
+    },
+    {
+      "category": "이미지 품질",
+      "score": 8,
+      "notes": "SVG 45·PNG 45, 정책 크기 준수, 발행 차단 오류 없음.",
+      "corrected": false
+    },
+    {
+      "category": "스토리 정합성",
+      "score": 9,
+      "notes": "v5.1 단일 진원·콘티 파생. S2E05(반전 구조) 범위 일치.",
+      "corrected": false
+    },
+    {
+      "category": "텍스트 오버레이",
+      "score": 8,
+      "notes": "45컷 렌더링, 대사 33·무대사 12.",
+      "corrected": false
+    },
+    {
+      "category": "검증 한계",
+      "score": 5,
+      "notes": "자동 정적 검증(L1). 캐릭터 일관성 사후 검증은 회장님 지시로 배제 — CHARLOCK 예방 로그로 대체.",
+      "corrected": false
+    }
+  ],
+  "final_images": {
+    "svg_count": 45,
+    "png_count": 45,
+    "viewer_url": "https://daegu-agent-crew.github.io/creative-loop-engineering3/episodes/EP010/"
+  }
+}

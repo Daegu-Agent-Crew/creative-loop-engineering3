@@ -40,6 +40,30 @@
       ],
       "human_approval": "not_required",
       "impact": "Workspace는 검토 가능한 판단 요약만 노출한다."
+    },
+    {
+      "id": "DEC-20261114-001",
+      "made_at": "2026-11-13T21:12:26.687020Z",
+      "phase": "phase1",
+      "decision": "EP010은 EP009 세 카드의 게임 가설을 현실 병렬 시험으로 옮기되 진짜 데이터 확보를 S2E06에 남기고, 양동의 미완 초고를 독립 판정 조건의 근거로 사용한다.",
+      "rationale": "원안 S2E05의 노이즈 면벽 반전과 직전 화의 미검증 경계를 함께 유지하기 위해서다.",
+      "evidence": [
+        "episodes/EP010/story/source-story.md",
+        "episodes/EP009/script/script.md",
+        "episodes/EP010/story/analysis.md",
+        "episodes/EP010/script/panel-script.json"
+      ],
+      "confidence": "high",
+      "uncertainties": [
+        "소페르의 내부 판별 함수 자체는 관측되지 않으며 출력 반응에서만 추론한다.",
+        "Story Lock 사람 승인은 아직 기록되지 않았다."
+      ],
+      "alternatives_considered": [
+        "계획을 숨기는 전통적 면벽",
+        "이번 화에서 진짜 물리 데이터 확보"
+      ],
+      "human_approval": "provisional",
+      "impact": "15p/45컷 대본과 파생 콘티를 Phase 1 검토 기준선으로 둔다."
     }
   ]
 }

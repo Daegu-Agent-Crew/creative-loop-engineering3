@@ -1,0 +1,942 @@
+{
+  "episode_id": "EP010",
+  "version": 1,
+  "panels": [
+    {
+      "panel_id": "p1-1",
+      "page_number": 1,
+      "source_image_path": "episodes/EP010/panels/assets/p1-1.png",
+      "final_image_path": "episodes/EP010/panels/final/p1-1.svg",
+      "canonical_signature": "13b02d0ebe423d0e04d5f505891407c92d0b10bff0ec44af0287df0b00372f9b",
+      "source_sha256": "b53f453c8b152bcccb5e274d5b1386b4978981cf938123825c0eac6c3d304013",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": []
+    },
+    {
+      "panel_id": "p2-1",
+      "page_number": 2,
+      "source_image_path": "episodes/EP010/panels/assets/p2-1.png",
+      "final_image_path": "episodes/EP010/panels/final/p2-1.svg",
+      "canonical_signature": "757590ece6b7f1b08af1e1f1918e79ab7b9183a35937b2c1ec154876c85634e9",
+      "source_sha256": "2764af608544f081169a135a359fa563d0bfb67eec68c639e4254cb3278f1cea",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "셋 다 게임에서 찾은 경계입니다. 가속기에선 미확인입니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p2-2",
+      "page_number": 2,
+      "source_image_path": "episodes/EP010/panels/assets/p2-2.png",
+      "final_image_path": "episodes/EP010/panels/final/p2-2.svg",
+      "canonical_signature": "0a8a9a196189788a349c10d635bd1b91ce28ff6a6e71a65d8f7152058a7da05f",
+      "source_sha256": "9434a482d743a915b77caccfb609924f7d78d16989ed6018aefd891a2d1a2ff9",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "듣는 귀가 많으면, 다 같이 다른 노래를 부르면 되지.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p2-3",
+      "page_number": 2,
+      "source_image_path": "episodes/EP010/panels/assets/p2-3.png",
+      "final_image_path": "episodes/EP010/panels/final/p2-3.svg",
+      "canonical_signature": "a77b9abdf9e4ad4fb7289b81eedd3098d2899b1020a4fe66e5f8640eb7e44875",
+      "source_sha256": "0d923056e3f6974fb0af70b79cb352de1c987306e4e1fda49ec06633a3467dcb",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "숨길 수 없으니 동시에 다르게 행동하자는 겁니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p2-4",
+      "page_number": 2,
+      "source_image_path": "episodes/EP010/panels/assets/p2-4.png",
+      "final_image_path": "episodes/EP010/panels/final/p2-4.svg",
+      "canonical_signature": "8e884c371b8793ce033346fb2f5106f9804fa0095656149d2b06551d426c6f31",
+      "source_sha256": "edfc49fbf8dd3e09ebd3ccbf9710a69e3d07e28d0807d3c4ea1c9cf3ed09b5a2",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": []
+    },
+    {
+      "panel_id": "p3-1",
+      "page_number": 3,
+      "source_image_path": "episodes/EP010/panels/assets/p3-1.png",
+      "final_image_path": "episodes/EP010/panels/final/p3-1.svg",
+      "canonical_signature": "2d2b0b342b730501c2953dcf2b836ec28462baf57206e6c3171913a210bd25be",
+      "source_sha256": "f24285579509b3da6939bbb4b45c34c7b1129e2b99ed5a797a8bfa2657a6587f",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "입력은 다 보겠죠. 어느 입력을 기준으로 삼을지는 별개입니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-2",
+      "page_number": 3,
+      "source_image_path": "episodes/EP010/panels/assets/p3-2.png",
+      "final_image_path": "episodes/EP010/panels/final/p3-2.svg",
+      "canonical_signature": "f0d40df1ce57544959f1431d050849c1666c7369203d3ffc52a4ebf3377cf259",
+      "source_sha256": "3468e70205fa0f6c4672f1228316ae92c15323e5948358695c2c09a0ea676dbe",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": []
+    },
+    {
+      "panel_id": "p3-3",
+      "page_number": 3,
+      "source_image_path": "episodes/EP010/panels/assets/p3-3.png",
+      "final_image_path": "episodes/EP010/panels/final/p3-3.svg",
+      "canonical_signature": "29e58f83a8b26c1049190afbc22e001a71f49afc4d0e281ee4c26dffd53ea6b3",
+      "source_sha256": "924587c543220325ec731fe424e8ad4c20198af159449a067871807bf4131b2e",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "노래가 시끄러워도 출구는 열어 둬야지.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-4",
+      "page_number": 3,
+      "source_image_path": "episodes/EP010/panels/assets/p3-4.png",
+      "final_image_path": "episodes/EP010/panels/final/p3-4.svg",
+      "canonical_signature": "7ce9a1ab6d5f4d4d3a38c32752aca9cac3537f4c262762ca38af273d539756b4",
+      "source_sha256": "db9af3ed63b0c06f99c7a4f051b1b2a75d3b939d40a0ee3f24cba33e823f5233",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "원본과 대조군은 따로 봉인합니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-1",
+      "page_number": 4,
+      "source_image_path": "episodes/EP010/panels/assets/p4-1.png",
+      "final_image_path": "episodes/EP010/panels/final/p4-1.svg",
+      "canonical_signature": "6830d732b8e9455880576674ecf40754ac1af0ed238bd12979ec16b14fb69fff",
+      "source_sha256": "e455dd2a770c6e77ffbcad559f0c0f45a1f41854ae767fd07ac5cf6c070a0e61",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "PDC 실험 책임자",
+          "text": "서로 반대인 실험을 왜 동시에 합니까?",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-2",
+      "page_number": 4,
+      "source_image_path": "episodes/EP010/panels/assets/p4-2.png",
+      "final_image_path": "episodes/EP010/panels/final/p4-2.svg",
+      "canonical_signature": "b245f430671858edb390750e1e714a163a95da9aecf44c8042a3780a2518120c",
+      "source_sha256": "38a7213246e485b4bdba33407c33e44362ba2639cfbde27710e0c8049f806a8d",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "PDC 실험 책임자",
+          "text": "검증하려면 가설도 하나여야 합니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-3",
+      "page_number": 4,
+      "source_image_path": "episodes/EP010/panels/assets/p4-3.png",
+      "final_image_path": "episodes/EP010/panels/final/p4-3.svg",
+      "canonical_signature": "3efe39773c6315983a68d48ee54603e7ebeefa76b7a84fcf4b4d40a261191392",
+      "source_sha256": "7fdc5ce598a4d47713e8f6291c940607be489018d95a5fbd833e80d284e4b3e9",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "판정 규칙은 하나입니다. 입력은 여러 갈래고요.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-4",
+      "page_number": 4,
+      "source_image_path": "episodes/EP010/panels/assets/p4-4.png",
+      "final_image_path": "episodes/EP010/panels/final/p4-4.svg",
+      "canonical_signature": "536222ccb6bbd7f1b1a303638f9047fe5d8305604c066317b9588583312c4584",
+      "source_sha256": "d5bba1aaa52ee7db200477c633ffb48e886ae946ef3fb30be6f9bb3717b05c9e",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "한 줄로 서면 감시하기 편하긴 하겠네요.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-1",
+      "page_number": 5,
+      "source_image_path": "episodes/EP010/panels/assets/p5-1.png",
+      "final_image_path": "episodes/EP010/panels/final/p5-1.svg",
+      "canonical_signature": "3f3d656cef04daca1bfda048f188973ffdc4c26ed9551da7e6573ca207792953",
+      "source_sha256": "e760dd281dafbfc65afaef483a41d1b2a07e063aa137eb1b7e5481acd950dadb",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "조건은 달리하되 시작과 판정은 고정합니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-2",
+      "page_number": 5,
+      "source_image_path": "episodes/EP010/panels/assets/p5-2.png",
+      "final_image_path": "episodes/EP010/panels/final/p5-2.svg",
+      "canonical_signature": "c19c4802968041216d7bced491a09e1bbe5b4552dcca69238962260818d273b2",
+      "source_sha256": "92ba1b74962207a5d02804084d5a3473352745dd337dbd70e4d339b0f64e4f2a",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "PDC 실험 책임자",
+          "text": "안전 한도를 넘으면 전부 중단합니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-3",
+      "page_number": 5,
+      "source_image_path": "episodes/EP010/panels/assets/p5-3.png",
+      "final_image_path": "episodes/EP010/panels/final/p5-3.svg",
+      "canonical_signature": "195658c5d292c5ee7dd530418bad03f52d485372136514aca5518d6b381c187f",
+      "source_sha256": "941eb45e954242c473181ede73f17070f29a21fe488230d924ec28813b70ac98",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "그 일은 제가 제일 빨리할 수 있겠군요.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-4",
+      "page_number": 5,
+      "source_image_path": "episodes/EP010/panels/assets/p5-4.png",
+      "final_image_path": "episodes/EP010/panels/final/p5-4.svg",
+      "canonical_signature": "9ac50cf0ed8fff2741464707526e488195c1f43fed90daf10d33a28068d0f45e",
+      "source_sha256": "aaac225861d3fbeb65829862f6eecbc9a4a0ecc29c0eaa50fde956a426400537",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": []
+    },
+    {
+      "panel_id": "p6-1",
+      "page_number": 6,
+      "source_image_path": "episodes/EP010/panels/assets/p6-1.png",
+      "final_image_path": "episodes/EP010/panels/final/p6-1.svg",
+      "canonical_signature": "e0996f8f15c1b35879171e688328b36b06aa9834a098c18f801694009340bd1a",
+      "source_sha256": "d24b48c4653ae4d9c07ceae64ed022d0e35d6649689af9554b0139e5f1025f01",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": []
+    },
+    {
+      "panel_id": "p6-2",
+      "page_number": 6,
+      "source_image_path": "episodes/EP010/panels/assets/p6-2.png",
+      "final_image_path": "episodes/EP010/panels/final/p6-2.svg",
+      "canonical_signature": "10d95a0d521431bdffb99c75864a2c2cd9552492f9a7b78a7b32454d2b1c4b6a",
+      "source_sha256": "ebcffbc282605708b979eebab6dac93586fdc4ef9cefbbaf2dabc46b706a558b",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "caption",
+          "speaker": "자막",
+          "text": "서로 다른 입력 · 동시 시작",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.55,
+            "h": 0.08
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p6-3",
+      "page_number": 6,
+      "source_image_path": "episodes/EP010/panels/assets/p6-3.png",
+      "final_image_path": "episodes/EP010/panels/final/p6-3.svg",
+      "canonical_signature": "5bc4978a22f6d8bfd94da094be5a984c6fae30a5a1d66f62e72f3b5f09e713ef",
+      "source_sha256": "4b8c3eb56646784583419c5b539f1a7a727b767549f16798ea92e13f20adf002",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": []
+    },
+    {
+      "panel_id": "p6-4",
+      "page_number": 6,
+      "source_image_path": "episodes/EP010/panels/assets/p6-4.png",
+      "final_image_path": "episodes/EP010/panels/final/p6-4.svg",
+      "canonical_signature": "1391b40297bc96f828508d12c7a5f29bc13dfd4006cdc66eae9506769ca9a243",
+      "source_sha256": "21c05b574c6e383b9db9fd80b8608116fdfa78fdb2089649b5f08dbc3340a3a3",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "이제 게임 밖에서 물어보죠.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-1",
+      "page_number": 7,
+      "source_image_path": "episodes/EP010/panels/assets/p7-1.png",
+      "final_image_path": "episodes/EP010/panels/final/p7-1.svg",
+      "canonical_signature": "215ec4e71ccbb37be612634199af23f49e54bd9955a1aff4a14ffbe1f8d305ca",
+      "source_sha256": "7bd6567cae3a2c29033fc2c233e5b2548b05749558bb8938fdfaf08dc9277294",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": []
+    },
+    {
+      "panel_id": "p8-1",
+      "page_number": 8,
+      "source_image_path": "episodes/EP010/panels/assets/p8-1.png",
+      "final_image_path": "episodes/EP010/panels/final/p8-1.svg",
+      "canonical_signature": "4a0ee2dff6656d6e5db951f79d750cbece15f8887180502ea68e4a8ff2a7ce03",
+      "source_sha256": "545672616db3f963941ebdad758c8c29a9864ae423faef3d8cd238cc7b9add5c",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "보정 지연이 갈라졌습니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p8-2",
+      "page_number": 8,
+      "source_image_path": "episodes/EP010/panels/assets/p8-2.png",
+      "final_image_path": "episodes/EP010/panels/final/p8-2.svg",
+      "canonical_signature": "491242affa68b523fd8ab1f10e73872eb78a5b6df5a0c07c9b60b542dae8b179",
+      "source_sha256": "fef06e38494bcff9b17458dddb360713d5666963dadc1442273cc0f075893e7e",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "한 카드에서는 같은 순서의 되감김이 보입니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p8-3",
+      "page_number": 8,
+      "source_image_path": "episodes/EP010/panels/assets/p8-3.png",
+      "final_image_path": "episodes/EP010/panels/final/p8-3.svg",
+      "canonical_signature": "2c063f48b253c1c30a2b608b4adcf17932ee383ee90ddb2f3ece40daa3f0f82a",
+      "source_sha256": "f973b37b6622a4073fc86e9066eb53c995e94682f1d000c72e20fe99b9268a86",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "PDC 실험 책임자",
+          "text": "다른 둘은 맞지 않습니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p8-4",
+      "page_number": 8,
+      "source_image_path": "episodes/EP010/panels/assets/p8-4.png",
+      "final_image_path": "episodes/EP010/panels/final/p8-4.svg",
+      "canonical_signature": "f3dc35986322f2777ddd75478a4f30d494dd73c33292767c051c2fb3a610ce6f",
+      "source_sha256": "7dfd3069d911e7c25801a08d2447751a9e9c95fd6939de85dac57da0805a008e",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": []
+    },
+    {
+      "panel_id": "p9-1",
+      "page_number": 9,
+      "source_image_path": "episodes/EP010/panels/assets/p9-1.png",
+      "final_image_path": "episodes/EP010/panels/final/p9-1.svg",
+      "canonical_signature": "5e398785dcff95f3adabaad2caaa4a7dffaa6fc8b9ca0152b90efa9e1341b199",
+      "source_sha256": "1cc084f250f7fb6f89b9cc2630b11932dbafc60f55bf6e4ec94726d0ba6f72fe",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": []
+    },
+    {
+      "panel_id": "p9-2",
+      "page_number": 9,
+      "source_image_path": "episodes/EP010/panels/assets/p9-2.png",
+      "final_image_path": "episodes/EP010/panels/final/p9-2.svg",
+      "canonical_signature": "416acf25c83bb60ed8e8ab66d64b7af71be5211e1255aa9e736a992241dacc0a",
+      "source_sha256": "2a763163288961683d1343e8cd867dccfba5092761c20809dea0a83b6262c58d",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "다시 묶습니다. 어느 쪽이 진짜 계획인지 추정하나 봅니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p9-3",
+      "page_number": 9,
+      "source_image_path": "episodes/EP010/panels/assets/p9-3.png",
+      "final_image_path": "episodes/EP010/panels/final/p9-3.svg",
+      "canonical_signature": "8056f9042541347be9555989693fb4a4e28ee57753a87e039d45ff4536dd2c8b",
+      "source_sha256": "41ad6752f8330ee021ed5f2f7d9300e1135c0e19c8fcae786ef719ccf7d471fc",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "손님보다 저놈이 먼저 서류를 봤겠네요.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p9-4",
+      "page_number": 9,
+      "source_image_path": "episodes/EP010/panels/assets/p9-4.png",
+      "final_image_path": "episodes/EP010/panels/final/p9-4.svg",
+      "canonical_signature": "5140ad0d1f5e88267361184045ab41a198eabf26346a96fdc8414899736d2af7",
+      "source_sha256": "84fb35da8df7447457dd9d2f012c19634a649f27a0c3857a7235e307d78c709e",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "어머니의 초고를 가져왔습니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p10-1",
+      "page_number": 10,
+      "source_image_path": "episodes/EP010/panels/assets/p10-1.png",
+      "final_image_path": "episodes/EP010/panels/final/p10-1.svg",
+      "canonical_signature": "5628385a3ed3b4eb1c1751c399d9fdaf99508a617c5bac67fede8bec27d7d282",
+      "source_sha256": "fc44a33cac36980f20b09abd8c51cf23de2c667985cd8a2a5523d6fd9ecf3ff9",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "청신의 미완 실험입니다. 끝내 제출하지 못한 보고서예요.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p10-2",
+      "page_number": 10,
+      "source_image_path": "episodes/EP010/panels/assets/p10-2.png",
+      "final_image_path": "episodes/EP010/panels/final/p10-2.svg",
+      "canonical_signature": "e949ade3f123d0ff008e1f77f1c048eaa49373078aebc3413a5da70f4b67304e",
+      "source_sha256": "da06350244524887ee2a61eb06656c5d42c4ba110a15058a01a85d83ff81e880",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "검증 조건부터 보겠습니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p10-3",
+      "page_number": 10,
+      "source_image_path": "episodes/EP010/panels/assets/p10-3.png",
+      "final_image_path": "episodes/EP010/panels/final/p10-3.svg",
+      "canonical_signature": "664d62fe6cf704a2e87b28d8d9605544648285a232d4ca60c646229b8e35ecbf",
+      "source_sha256": "9faefc42d954dffba39f88be74ed473a73c1b4c4972747180c647c1b3f8d9233",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "마지막 대조군이 없었습니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p10-4",
+      "page_number": 10,
+      "source_image_path": "episodes/EP010/panels/assets/p10-4.png",
+      "final_image_path": "episodes/EP010/panels/final/p10-4.svg",
+      "canonical_signature": "23366303253f408c16ed6bb24555ce3daf74226b865b98cb983ba8b73e97a447",
+      "source_sha256": "0693736a3ef788cb1a7d3f5628b6a574d66a4dec7772469c9382c4b3550f583d",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "PDC 실험 책임자",
+          "text": "그럼 지금 시험도 여기까지입니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p11-1",
+      "page_number": 11,
+      "source_image_path": "episodes/EP010/panels/assets/p11-1.png",
+      "final_image_path": "episodes/EP010/panels/final/p11-1.svg",
+      "canonical_signature": "de4456903d7f745964d12958f71a2b740fe5bc773736c63d6dc1f5e5d4f552d7",
+      "source_sha256": "ecfc1014d1ad8f791e38eaec269be2cddf36e40c72b257c3919540aaa4adf46c",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": []
+    },
+    {
+      "panel_id": "p12-1",
+      "page_number": 12,
+      "source_image_path": "episodes/EP010/panels/assets/p12-1.png",
+      "final_image_path": "episodes/EP010/panels/final/p12-1.svg",
+      "canonical_signature": "046aca8bd4a71e9e2ecc3de4a377888e7299261b43316425eb6206d046f7bc30",
+      "source_sha256": "bbcab54186d820eceea1662a5a8d3ee2637caf4a0bb1611dbcda15ed3c2a0787",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "어머니는 답보다 질문의 순서를 남겼습니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p12-2",
+      "page_number": 12,
+      "source_image_path": "episodes/EP010/panels/assets/p12-2.png",
+      "final_image_path": "episodes/EP010/panels/final/p12-2.svg",
+      "canonical_signature": "f7b19a8ab230891a5b2073f2ce5c05387704c3994932db430e4a3a8369571501",
+      "source_sha256": "24266468301d01d4aa0c9e4968af2d42f02427b98fe36d4473bce71b557ff317",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": []
+    },
+    {
+      "panel_id": "p12-3",
+      "page_number": 12,
+      "source_image_path": "episodes/EP010/panels/assets/p12-3.png",
+      "final_image_path": "episodes/EP010/panels/final/p12-3.svg",
+      "canonical_signature": "7aca79dd1c52fb3321d74a075fec71e5077906a88902628fe6281b99a1b4b257",
+      "source_sha256": "13d7f588f40cb91de8c1f378fe1325feba10c5403e242ab930f8dc3b6a1896cd",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "같은 입력을, 다른 판정 순서로 읽어야 합니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p13-1",
+      "page_number": 13,
+      "source_image_path": "episodes/EP010/panels/assets/p13-1.png",
+      "final_image_path": "episodes/EP010/panels/final/p13-1.svg",
+      "canonical_signature": "ff7529eb987c60e04b1dfc887c129ce00945473f4ab9b2069ab4f4ff58394f0f",
+      "source_sha256": "a7edd43b6d54a32bc16004e12d6a4a4ec48216f6faa6d47d5cd3ad0f9cf02a6d",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "입력은 숨기지 마세요. 해석이 달라지는 순간을 기록하세요.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p13-2",
+      "page_number": 13,
+      "source_image_path": "episodes/EP010/panels/assets/p13-2.png",
+      "final_image_path": "episodes/EP010/panels/final/p13-2.svg",
+      "canonical_signature": "d8f170f4047a722ef630dbe301fe78f8615d6d4b1833103d55d5ef5941a022e5",
+      "source_sha256": "579cf965c13be0cf2b295f6b282761c559f46a6817ec40663f5a8d2444a4b054",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "같은 데이터에 다른 목적을 붙이면 보정의 선택이 드러납니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p13-3",
+      "page_number": 13,
+      "source_image_path": "episodes/EP010/panels/assets/p13-3.png",
+      "final_image_path": "episodes/EP010/panels/final/p13-3.svg",
+      "canonical_signature": "577ad0079c7ffb1c3b43e862904566a3d3fba7a9d04e42d9087486596454820a",
+      "source_sha256": "7022671bd4bde35eff24ed197126a7b7470c4d2e7a9ff5ec451a38b4182b62b7",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "벽은 없는데 길은 더 헷갈리겠군.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p14-1",
+      "page_number": 14,
+      "source_image_path": "episodes/EP010/panels/assets/p14-1.png",
+      "final_image_path": "episodes/EP010/panels/final/p14-1.svg",
+      "canonical_signature": "96a3be7679304169c50982b69c6a7809147d410dd5eaa9467d9ccb173dde1a64",
+      "source_sha256": "21dc5f05018172e6c4d4b893f8f75b8ec45e00bbfe22ea67031e70b7ddb0a1dd",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "진짜 데이터를 얻었다고 주장하지 않겠습니다. 선택의 흔들림만 검증합니다.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p14-2",
+      "page_number": 14,
+      "source_image_path": "episodes/EP010/panels/assets/p14-2.png",
+      "final_image_path": "episodes/EP010/panels/final/p14-2.svg",
+      "canonical_signature": "92fbbaa335c3a00ed32feac8c9b40f9e099ad01dd97440975e7c03990633482d",
+      "source_sha256": "5209ad7eda1bad52e4f8fd7ab22f6c4c51342bfba5ba056ff423a8acf3add0da",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "PDC 실험 책임자",
+          "text": "안전선 안에서 한 번만.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p14-3",
+      "page_number": 14,
+      "source_image_path": "episodes/EP010/panels/assets/p14-3.png",
+      "final_image_path": "episodes/EP010/panels/final/p14-3.svg",
+      "canonical_signature": "d87a7d2fa8b9523b6762ec31225d22132e27518903b5810071024dce800ce601",
+      "source_sha256": "c8898f5e3c6a35748194b512e5d719508115dc5d534a97cf3a259fa7ddb815c4",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "각자 같은 질문을 다른 손으로 하죠.",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p15-1",
+      "page_number": 15,
+      "source_image_path": "episodes/EP010/panels/assets/p15-1.png",
+      "final_image_path": "episodes/EP010/panels/final/p15-1.svg",
+      "canonical_signature": "02e8ec6cae71c8fee83b8ed6f57d0d36b68be0d5666a6dae50df9ed987b31ffb",
+      "source_sha256": "403fc763b9ebc2ae93e024e51b71507696151c213c87e5b9914af212dc04b575",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": []
+    }
+  ]
+}
