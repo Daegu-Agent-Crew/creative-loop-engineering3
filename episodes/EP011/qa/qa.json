@@ -1,0 +1,85 @@
+{
+  "$schema": "../../../schemas/qa.schema.json",
+  "episode_id": "EP011",
+  "overall_score": 43,
+  "prompt_version": "v5.1-single-source+charlock-v6",
+  "items": [
+    {
+      "category": "전체 일관성",
+      "score": 9,
+      "notes": "CHARLOCK v6: 91회 canonical 시트 확인 로그(왕머여·스치친). 시즌2 피날레까지 캐릭터 계승 유지.",
+      "corrected": false
+    },
+    {
+      "category": "이미지 품질",
+      "score": 8,
+      "notes": "SVG 45·PNG 45, 저장정책(1.2MB 초과 3/4 축소) 준수, 발행 차단 오류 없음.",
+      "corrected": false
+    },
+    {
+      "category": "스토리 정합성",
+      "score": 9,
+      "notes": "v5.1 단일 진원·콘티 파생. S2E06 피날레(열한 분 종료·1379 메시지) 범위 일치.",
+      "corrected": false
+    },
+    {
+      "category": "텍스트 오버레이",
+      "score": 8,
+      "notes": "45컷 렌더링, 대사 40·무대사 5. box 좌표 전량 결정론 검증 통과.",
+      "corrected": false
+    },
+    {
+      "category": "핵심 인물 연속성",
+      "score": 9,
+      "notes": "예방 프로토콜(canonical 선행 독해)로만 보장 — 사후 비교 검증은 v6 방침상 배제.",
+      "corrected": false
+    }
+  ],
+  "final_images": [
+    "episodes/EP011/panels/final/p1-1.svg",
+    "episodes/EP011/panels/final/p2-1.svg",
+    "episodes/EP011/panels/final/p2-2.svg",
+    "episodes/EP011/panels/final/p2-3.svg",
+    "episodes/EP011/panels/final/p2-4.svg",
+    "episodes/EP011/panels/final/p3-1.svg",
+    "episodes/EP011/panels/final/p3-2.svg",
+    "episodes/EP011/panels/final/p3-3.svg",
+    "episodes/EP011/panels/final/p3-4.svg",
+    "episodes/EP011/panels/final/p4-1.svg",
+    "episodes/EP011/panels/final/p4-2.svg",
+    "episodes/EP011/panels/final/p4-3.svg",
+    "episodes/EP011/panels/final/p4-4.svg",
+    "episodes/EP011/panels/final/p5-1.svg",
+    "episodes/EP011/panels/final/p5-2.svg",
+    "episodes/EP011/panels/final/p5-3.svg",
+    "episodes/EP011/panels/final/p5-4.svg",
+    "episodes/EP011/panels/final/p6-1.svg",
+    "episodes/EP011/panels/final/p7-1.svg",
+    "episodes/EP011/panels/final/p7-2.svg",
+    "episodes/EP011/panels/final/p7-3.svg",
+    "episodes/EP011/panels/final/p7-4.svg",
+    "episodes/EP011/panels/final/p8-1.svg",
+    "episodes/EP011/panels/final/p8-2.svg",
+    "episodes/EP011/panels/final/p8-3.svg",
+    "episodes/EP011/panels/final/p8-4.svg",
+    "episodes/EP011/panels/final/p9-1.svg",
+    "episodes/EP011/panels/final/p9-2.svg",
+    "episodes/EP011/panels/final/p9-3.svg",
+    "episodes/EP011/panels/final/p9-4.svg",
+    "episodes/EP011/panels/final/p10-1.svg",
+    "episodes/EP011/panels/final/p10-2.svg",
+    "episodes/EP011/panels/final/p10-3.svg",
+    "episodes/EP011/panels/final/p10-4.svg",
+    "episodes/EP011/panels/final/p11-1.svg",
+    "episodes/EP011/panels/final/p12-1.svg",
+    "episodes/EP011/panels/final/p12-2.svg",
+    "episodes/EP011/panels/final/p12-3.svg",
+    "episodes/EP011/panels/final/p12-4.svg",
+    "episodes/EP011/panels/final/p13-1.svg",
+    "episodes/EP011/panels/final/p13-2.svg",
+    "episodes/EP011/panels/final/p13-3.svg",
+    "episodes/EP011/panels/final/p13-4.svg",
+    "episodes/EP011/panels/final/p14-1.svg",
+    "episodes/EP011/panels/final/p15-1.svg"
+  ]
+}

@@ -1,0 +1,55 @@
+Wangmiao 1/3: EP006 sheet and p2-1 show a slim youthful Chinese face, small straight nose, neat layered black hair, and oversized horn-rim glasses with white lens reflection.
+Wangmiao 2/3: Thin scholar posture; blue-grey button shirt with neatly rolled sleeves, no lab coat on his body.
+Wangmiao 3/3: Bold clean black contours, angular cool cell shadows, warm skin planes, restrained expression; match EP006 p2-1 ink weight and shading.
+Shi Qiang 1/3: EP006 sheet and p3-1 show a broad weathered face, heavy dark brows, narrow tired eyes, messy black hair, and dense stubble.
+Shi Qiang 2/3: Heavy build and worn olive field jacket over a pale open-collar shirt; unlit cigarette held between fingers.
+Shi Qiang 3/3: Thick black contours and crisp olive-charcoal cell shadows with warm skin planes; match EP006 p3-1 face proportions and ink weight.
+Yang Dong 1/3: EP010 sheet shows a slightly elongated oval face, narrow forehead, thin straight eyebrows, calm almond eyes, small straight nose, and neat small mouth.
+Yang Dong 2/3: Glossy straight black hair below the shoulders with bangs swept from her left to right; sky-blue collared blouse under grey cardigan and small brown leather document bag.
+Yang Dong 3/3: Restrained observant expression, bold black contours, flat blue-grey cells, and firm black hair shadows exactly as in EP010 canonical sheet.
+Qingxin 1/3: EP001 p10-1 shows an elderly Chinese woman with silver-grey hair swept back, deeply lined profile, and calm heavy eyes.
+Qingxin 2/3: Her silhouette is small and composed, with a loose muted shawl and dark skirt; for p5-1 only, adapt the same design to warm sepia.
+Qingxin 3/3: Keep EP001's clean dark contour and clear cell shadow planes; no letters or numbers on her draft.
+PDC director 1/3: No canonical face sheet; institutional proxy with face deliberately held in half-shadow.
+PDC director 2/3: Dark suit, controlled posture; prioritize hands, control panel, and safety cutoff over facial identity.
+PDC director 3/3: Use the EP006 black contour weight and cool cell shadows without inventing memorable facial features.
+Researchers 1/3: No recurring character sheet; generic varied lab staff with indistinct non-memorable faces.
+Researchers 2/3: Simple lab attire with slight facility-specific accent differences; gestures and opposing dial directions define them.
+Researchers 3/3: Match EP006 contour weight and cool cell shading; avoid fixed faces or recognizable silhouettes.
+[CHARLOCK] p1-1: no characters (scenery/graphic only).
+[CHARLOCK] p2-1: Wangmiao = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p2-2: Yang Dong = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p2-3: Yang Dong = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p2-4: Shi Qiang = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p3-1: PDC director = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p3-2: Wangmiao = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p3-3: Yang Dong = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p3-4: no characters (scenery/graphic only).
+[CHARLOCK] p4-2: Wangmiao = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p4-1: Researchers = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p4-3: Shi Qiang, PDC director = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p5-1: Qingxin = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p4-4: Yang Dong = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p5-2: Yang Dong = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p5-3: PDC director = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p5-4: Wangmiao = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+
+SIZE TABLE (EP011 pages 1-5)
+panel_id | bytes | >300KB
+p1-1 | 2278386 | PASS
+p2-1 | 1903007 | PASS
+p2-2 | 2683562 | PASS
+p2-3 | 2577586 | PASS
+p2-4 | 2269766 | PASS
+p3-1 | 2263527 | PASS
+p3-2 | 2131242 | PASS
+p3-3 | 2788523 | PASS
+p3-4 | 1665475 | PASS
+p4-1 | 2439062 | PASS
+p4-2 | 2016467 | PASS
+p4-3 | 2256553 | PASS
+p4-4 | 2061848 | PASS
+p5-1 | 2417263 | PASS
+p5-2 | 2643766 | PASS
+p5-3 | 2203130 | PASS
+p5-4 | 2053343 | PASS

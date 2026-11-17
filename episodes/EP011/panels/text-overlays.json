@@ -1,0 +1,1037 @@
+{
+  "episode_id": "EP011",
+  "version": 1,
+  "panels": [
+    {
+      "panel_id": "p1-1",
+      "page_number": 1,
+      "source_image_path": "episodes/EP011/panels/assets/p1-1.png",
+      "final_image_path": "episodes/EP011/panels/final/p1-1.svg",
+      "canonical_signature": "b140d3b48dff0ff92a2b2f05c28605e5eaa474df4c813bad0d31d761b3a35e44",
+      "source_sha256": "584e4dabbb1e0d241412bf0c387a33c90d8c84056cd301ce2a69b733282c44bb",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p2-1",
+      "page_number": 2,
+      "source_image_path": "episodes/EP011/panels/assets/p2-1.png",
+      "final_image_path": "episodes/EP011/panels/final/p2-1.svg",
+      "canonical_signature": "f2a4becbbe137cc9a907a0e6ca3dc3e12010c347165929643a9edc27754c7f72",
+      "source_sha256": "12c7bef400849e137c5446f99492c3476848fd404bea9a10f1ee0151e201fcb8",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "세 곳은 같은 순간에 서로 다른 보정을 넣습니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p2-2",
+      "page_number": 2,
+      "source_image_path": "episodes/EP011/panels/assets/p2-2.png",
+      "final_image_path": "episodes/EP011/panels/final/p2-2.svg",
+      "canonical_signature": "2d899fdb3271cd6d8de8e5721e194ad72557695befea14db733fe5fc65e99064",
+      "source_sha256": "bf68bcb4e15a173578c3e9d570adab5287f3f2deb0055f548e8b09a65a54aa9c",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "어머니의 빈칸은 결과가 아니라 질문이었어요.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p2-3",
+      "page_number": 2,
+      "source_image_path": "episodes/EP011/panels/assets/p2-3.png",
+      "final_image_path": "episodes/EP011/panels/final/p2-3.svg",
+      "canonical_signature": "fa8cc772d8d1621ab59361a28851de9e0611314788a500dd676be573cf88c00d",
+      "source_sha256": "57efb75cb6b3937060b2b4866d404de5a14c341a7b869ae2322f56a7f76a6ba8",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "청신의 미완 실험.",
+          "box": {
+            "x": 0.12,
+            "y": 0.06,
+            "w": 0.76,
+            "h": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p2-4",
+      "page_number": 2,
+      "source_image_path": "episodes/EP011/panels/assets/p2-4.png",
+      "final_image_path": "episodes/EP011/panels/final/p2-4.svg",
+      "canonical_signature": "75e66c3e25b3410668f8ba3a4a4b56c9785fbd042995ecea2a35a69fe13630c8",
+      "source_sha256": "b4493fb100dd078d0bf1ef32e14aff290482e7362c0d45e2e537fe76ddd5baa5",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "유언치곤 사용 설명서가 짧군.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-1",
+      "page_number": 3,
+      "source_image_path": "episodes/EP011/panels/assets/p3-1.png",
+      "final_image_path": "episodes/EP011/panels/final/p3-1.svg",
+      "canonical_signature": "58cbab1bbf5de217eb417c2492c2e3d3103c1d580d31986ac2405eb05dce270b",
+      "source_sha256": "49c5720e7f997b2d728d6518a162ec9ecc9b95b618b2611a4e9ebdcb630a7db3",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "PDC 실험 책임자",
+          "text": "조건부 허가입니다. 중단권은 이쪽에 있습니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-2",
+      "page_number": 3,
+      "source_image_path": "episodes/EP011/panels/assets/p3-2.png",
+      "final_image_path": "episodes/EP011/panels/final/p3-2.svg",
+      "canonical_signature": "70bd3cf0952d70bddf184be695779dfe06a37122808034076cba4f687fa613d7",
+      "source_sha256": "cef03c45611e86c4b7b00932ccb20bef24fce143274cc1460c62112893953689",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "저들이 고친 값을 다음 질문으로 되돌립니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-3",
+      "page_number": 3,
+      "source_image_path": "episodes/EP011/panels/assets/p3-3.png",
+      "final_image_path": "episodes/EP011/panels/final/p3-3.svg",
+      "canonical_signature": "d6ba7b5d376d4bf1583fb5a7d2a59f76f4188fb5d582ab7e3dbae234fd1edc2b",
+      "source_sha256": "054fd9e6c0450ccd8b2bd1bb71a50c8eee8a9e15106e422fc86a0c8addcbd662",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "원본은 따로 봉인해요. 거짓 답만 다시 묻죠.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-4",
+      "page_number": 3,
+      "source_image_path": "episodes/EP011/panels/assets/p3-4.png",
+      "final_image_path": "episodes/EP011/panels/final/p3-4.svg",
+      "canonical_signature": "35e7e16b382b19811fb41b7a9de313bbd9c9e51d59a9bd7d6d58e43b96991da6",
+      "source_sha256": "92c04b19e3eef9670acc3c561f9a38cc6cfaff50580f243fc098ff36f580aa80",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "한 답을 고르면 다른 두 질문과 충돌한다.",
+          "box": {
+            "x": 0.12,
+            "y": 0.06,
+            "w": 0.76,
+            "h": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-1",
+      "page_number": 4,
+      "source_image_path": "episodes/EP011/panels/assets/p4-1.png",
+      "final_image_path": "episodes/EP011/panels/final/p4-1.svg",
+      "canonical_signature": "f31c2445f586001b501f6ed0ff900ff1deab522b9af3d49cd38b619189459755",
+      "source_sha256": "8ce34cfea0ad7094f1b3ce86e6772e62d6b63ca9502d0627199e1ca2ded6b410",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "세 시설. 한 시각. 서로 모순된 입력.",
+          "box": {
+            "x": 0.12,
+            "y": 0.06,
+            "w": 0.76,
+            "h": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-2",
+      "page_number": 4,
+      "source_image_path": "episodes/EP011/panels/assets/p4-2.png",
+      "final_image_path": "episodes/EP011/panels/final/p4-2.svg",
+      "canonical_signature": "f482ac3ee317fddff655f8310c1c6d7b3914bd8c6fbadee456dc42b9993b80db",
+      "source_sha256": "4016634c9493b1bb9612c590c4994e1a1f530e765fd82f2ff1648834b773a818",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "보정이 자기 자신을 설명해야 하는 순간이 옵니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-3",
+      "page_number": 4,
+      "source_image_path": "episodes/EP011/panels/assets/p4-3.png",
+      "final_image_path": "episodes/EP011/panels/final/p4-3.svg",
+      "canonical_signature": "008c843f85e5653a2a12af28288e22063aed4d9a81238cc087c9156a962bcec7",
+      "source_sha256": "46272ff18361440960507c928fa54c1098a9e84556b62e45c9368ae011833959",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "위험하면 즉시 끊죠.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-4",
+      "page_number": 4,
+      "source_image_path": "episodes/EP011/panels/assets/p4-4.png",
+      "final_image_path": "episodes/EP011/panels/final/p4-4.svg",
+      "canonical_signature": "9a217eb20b20442aa676b7b987d2922f12a8f5ee00e89a32fe2c8ec4b7266f08",
+      "source_sha256": "b952d7659e3a4d31289be271834879800d6151723eba4ce5bf6d08b4b97c502a",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "우리가 얻을 건 검증할 시간이에요.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-1",
+      "page_number": 5,
+      "source_image_path": "episodes/EP011/panels/assets/p5-1.png",
+      "final_image_path": "episodes/EP011/panels/final/p5-1.svg",
+      "canonical_signature": "c338e670e38a5031c3c5e6aa25a15e942978072a7677277ecd605037a0b01546",
+      "source_sha256": "0bc29e92b419abb552e18af17bc53b951a8f2312263b61bbaa2aba1f567b8b2b",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p5-2",
+      "page_number": 5,
+      "source_image_path": "episodes/EP011/panels/assets/p5-2.png",
+      "final_image_path": "episodes/EP011/panels/final/p5-2.svg",
+      "canonical_signature": "ad4c791904b76df9312beb76344ea7fa0fea564d9e3ce64e67bd75c648d2ab7e",
+      "source_sha256": "9acf96c39a90161e7fc23a6671a128bf1ada3ffda89089adc20de24f5fda1ddc",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "끝내 못 한 대조 실험 여기서 잇겠습니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-3",
+      "page_number": 5,
+      "source_image_path": "episodes/EP011/panels/assets/p5-3.png",
+      "final_image_path": "episodes/EP011/panels/final/p5-3.svg",
+      "canonical_signature": "ea93ae1029a57d7bcfba55fdf988d0deaf54191f0851c7b115fd0fd2c9560501",
+      "source_sha256": "82767450875ff6acd76f2ab496234550ef88ec304f3cc702563196cd42ac9c88",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "PDC 실험 책임자",
+          "text": "원본 기록이 끊기면 바로 중단합니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-4",
+      "page_number": 5,
+      "source_image_path": "episodes/EP011/panels/assets/p5-4.png",
+      "final_image_path": "episodes/EP011/panels/final/p5-4.svg",
+      "canonical_signature": "f13ea0442aa43372822c6cd1059c76929a151fe4965fff502c3cf45eed2876ce",
+      "source_sha256": "795fb0e8a28edd68e88bd6ea37bd00aeaab559326cbfcc8a91215d062c3a5b05",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "동시에 갑니다. 서로의 답을 기다리지 않습니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p6-1",
+      "page_number": 6,
+      "source_image_path": "episodes/EP011/panels/assets/p6-1.png",
+      "final_image_path": "episodes/EP011/panels/final/p6-1.svg",
+      "canonical_signature": "11fdb9b15a9bd97aa3c76e9aa6a299251956be71f5bbec6f9e4f3155022d96ae",
+      "source_sha256": "74c4681c9c6693941144c40451c665c313921f7aeca287fa9697eb43a6ecbfa5",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p7-1",
+      "page_number": 7,
+      "source_image_path": "episodes/EP011/panels/assets/p7-1.png",
+      "final_image_path": "episodes/EP011/panels/final/p7-1.svg",
+      "canonical_signature": "513f3d807449d2f0336ec1f355b6978f0a29f8876c711005eb5f912b69490b1e",
+      "source_sha256": "6353fdbdca6eef6b1cc23f282182228947dfa0deafe0183c28c99f68113cfbef",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "sfx",
+          "speaker": "",
+          "text": "지직",
+          "box": {
+            "x": 0.18,
+            "y": 0.34,
+            "w": 0.64,
+            "h": 0.18
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-2",
+      "page_number": 7,
+      "source_image_path": "episodes/EP011/panels/assets/p7-2.png",
+      "final_image_path": "episodes/EP011/panels/final/p7-2.svg",
+      "canonical_signature": "f5a8b7655ea06fda9a41247252e631c96cbbcfdae2e1bb8fd27e781b654203d1",
+      "source_sha256": "35416a4842a3d82f4c3df2597d05300a96dacf3396ad1ba9b100bc7b8363bea7",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "보정이 멈췄습니다. 원본인지 확인해야 합니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-3",
+      "page_number": 7,
+      "source_image_path": "episodes/EP011/panels/assets/p7-3.png",
+      "final_image_path": "episodes/EP011/panels/final/p7-3.svg",
+      "canonical_signature": "2995336c8a401e3a971f332771a030c368d4d46212132e2998df12f36ff0d647",
+      "source_sha256": "29f44e958b4c525cd0910e601ecb5a302c0e8deb764316663f2c6d8359bb25f9",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "PDC 실험 책임자",
+          "text": "안전선 유지. 원본 계측은 살아 있습니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-4",
+      "page_number": 7,
+      "source_image_path": "episodes/EP011/panels/assets/p7-4.png",
+      "final_image_path": "episodes/EP011/panels/final/p7-4.svg",
+      "canonical_signature": "142c3e3c9ae631074a90f7a3c93013551751a0d1cbdac2e589c97fb330476912",
+      "source_sha256": "e742f23f8a1da3950eea9c1682feda2745a020b2046b6b66de41003bf159c805",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "독립 기록 두 곳이 같습니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p8-1",
+      "page_number": 8,
+      "source_image_path": "episodes/EP011/panels/assets/p8-1.png",
+      "final_image_path": "episodes/EP011/panels/final/p8-1.svg",
+      "canonical_signature": "60ade43e15f3447c321659c1ee01546a33f780caaef9d254e49ef50d41d0e145",
+      "source_sha256": "635bff275b635e75aa2e0b539f0b779b62e9502d161984d9e6725ef8bf260215",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "첫 번째 원본 신호.",
+          "box": {
+            "x": 0.12,
+            "y": 0.06,
+            "w": 0.76,
+            "h": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p8-2",
+      "page_number": 8,
+      "source_image_path": "episodes/EP011/panels/assets/p8-2.png",
+      "final_image_path": "episodes/EP011/panels/final/p8-2.svg",
+      "canonical_signature": "a21765740e17c0f94f0f7eb014da1b31bdf037afc8695cf0197b04ef9f4412ce",
+      "source_sha256": "4ff5b6949f2d55c38a9da447d8d86315b0e9eb071f5bf610dfbeac817eb462da",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "연구원",
+          "text": "예측값이 아니에요. 종이에도 있습니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p8-3",
+      "page_number": 8,
+      "source_image_path": "episodes/EP011/panels/assets/p8-3.png",
+      "final_image_path": "episodes/EP011/panels/final/p8-3.svg",
+      "canonical_signature": "d344b330e9494f80b77435a2379ab32c79a6300ee8ca0224c3735e5025efc422",
+      "source_sha256": "28ffc2a1220483ec49ec308a0c3a8bcda9739b51765022e32c113b48d5f619bb",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "서로 독립된 기록이 일치한다.",
+          "box": {
+            "x": 0.12,
+            "y": 0.06,
+            "w": 0.76,
+            "h": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p8-4",
+      "page_number": 8,
+      "source_image_path": "episodes/EP011/panels/assets/p8-4.png",
+      "final_image_path": "episodes/EP011/panels/final/p8-4.svg",
+      "canonical_signature": "0e61e949de72d51d3f5a7a87192c73b5c4b7bafc408f266d82ec2d0cda57f712",
+      "source_sha256": "acc6460b84838763cc0d37348dce4590e0f522137c75daff9ff15d5417ac622c",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "진짜입니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p9-1",
+      "page_number": 9,
+      "source_image_path": "episodes/EP011/panels/assets/p9-1.png",
+      "final_image_path": "episodes/EP011/panels/final/p9-1.svg",
+      "canonical_signature": "a86e7e90611295e3a75e78408c293fa259702544aa281de3f58a58edfedd6fd1",
+      "source_sha256": "48674bba3c0f80e62889ab5e3a1a99782329fd6b8408eaea5d672ffb516055c3",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "지구의 모든 가속기가 원본 데이터를 출력한다.",
+          "box": {
+            "x": 0.12,
+            "y": 0.06,
+            "w": 0.76,
+            "h": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p9-2",
+      "page_number": 9,
+      "source_image_path": "episodes/EP011/panels/assets/p9-2.png",
+      "final_image_path": "episodes/EP011/panels/final/p9-2.svg",
+      "canonical_signature": "d9d3184a6e410fbf2643bc449b448a019f28fd867bfecb6563f971705ce0096d",
+      "source_sha256": "9ac0cf231a8666b17a6e328d5b169a20cb36f70fb22aecb85487e54560d837a0",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "저놈들도 지금 야근 중이겠군.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p9-3",
+      "page_number": 9,
+      "source_image_path": "episodes/EP011/panels/assets/p9-3.png",
+      "final_image_path": "episodes/EP011/panels/final/p9-3.svg",
+      "canonical_signature": "47b78ef8d0010b29f4ed951b6440bb467d5a7bef18f5d0c30db5539a1a70a8a2",
+      "source_sha256": "b901991add7d92b10c76b45c21f30c8284d56ab574ffe9d43513619a25ec067b",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "시작 시각 기록해요. 한 줄도 놓치지 마세요.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p9-4",
+      "page_number": 9,
+      "source_image_path": "episodes/EP011/panels/assets/p9-4.png",
+      "final_image_path": "episodes/EP011/panels/final/p9-4.svg",
+      "canonical_signature": "5ab2da1c78d388bea6fcace1804ba27e01dd203190ae778b8f4681d8d7ec15af",
+      "source_sha256": "ab47ac2cbdbddb93e195dc4e0c4fbcd43d2b83d365d00328bb03c4f47e3b58d3",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "사십 년 만의 첫 진짜 실험.",
+          "box": {
+            "x": 0.12,
+            "y": 0.06,
+            "w": 0.76,
+            "h": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p10-1",
+      "page_number": 10,
+      "source_image_path": "episodes/EP011/panels/assets/p10-1.png",
+      "final_image_path": "episodes/EP011/panels/final/p10-1.svg",
+      "canonical_signature": "d2b87cb1576259c53bf1f952ff98c5c8620a6b766a35f3a83a4fcd7ee0faad1c",
+      "source_sha256": "2f7ebb2d875a0ce5896c332711ab087c1f645ff4159709ca3f37711d830e5038",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "연구원",
+          "text": "울 시간도 없어요. 다음 줄!",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p10-2",
+      "page_number": 10,
+      "source_image_path": "episodes/EP011/panels/assets/p10-2.png",
+      "final_image_path": "episodes/EP011/panels/final/p10-2.svg",
+      "canonical_signature": "ec677351e81de4b4b1698ceb35d4d3731b92cd8cf0bf358c836fffb3ce37dbed",
+      "source_sha256": "1e9ffa9129a76e486cf33e9d85740104541e371ece446a1f2040b2cb1977865d",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "검증은 나중에. 지금은 전부 보존합니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p10-3",
+      "page_number": 10,
+      "source_image_path": "episodes/EP011/panels/assets/p10-3.png",
+      "final_image_path": "episodes/EP011/panels/final/p10-3.svg",
+      "canonical_signature": "47fcbc5ce299216c7c8895ee62e3d34d22e7afa599f03d28fbe7f3e7f27c8c81",
+      "source_sha256": "08bab83d9aace6fbe184e135e2c1d9be77bd0c7cb2ef1cbe4dbd6bc28aa1144e",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "어머니 첫 페이지예요.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p10-4",
+      "page_number": 10,
+      "source_image_path": "episodes/EP011/panels/assets/p10-4.png",
+      "final_image_path": "episodes/EP011/panels/final/p10-4.svg",
+      "canonical_signature": "9f6be444c8a8de6c5b1be98f8f5e5fab2dab57788272f30d8d96670c1a46f233",
+      "source_sha256": "cbdf99d8921f65a0f4881d9d106f8f128de8ff4a16e6c834bc38605bba8f2b6e",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "남은 시간은 누구도 모른다.",
+          "box": {
+            "x": 0.12,
+            "y": 0.06,
+            "w": 0.76,
+            "h": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p11-1",
+      "page_number": 11,
+      "source_image_path": "episodes/EP011/panels/assets/p11-1.png",
+      "final_image_path": "episodes/EP011/panels/final/p11-1.svg",
+      "canonical_signature": "5f33628a51e6e4ccdeeb2d3460bb5e867e14401b0877ed4469dc87e39eb31e56",
+      "source_sha256": "3de2d2f72b9498efeaefc81ef3004b05c424950e7d571f9ec1c2319e6ea2c50f",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p12-1",
+      "page_number": 12,
+      "source_image_path": "episodes/EP011/panels/assets/p12-1.png",
+      "final_image_path": "episodes/EP011/panels/final/p12-1.svg",
+      "canonical_signature": "4c63cb546d4b57afaa3ac74ddd222d0a4f9a84886e035d476279f0dac4cfd990",
+      "source_sha256": "b8b098fb4c166c9917b74c3f7022d799b8255f2f31af23a52d4662f9a0f41df3",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "열한 분의 원본 데이터.",
+          "box": {
+            "x": 0.12,
+            "y": 0.06,
+            "w": 0.76,
+            "h": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p12-2",
+      "page_number": 12,
+      "source_image_path": "episodes/EP011/panels/assets/p12-2.png",
+      "final_image_path": "episodes/EP011/panels/final/p12-2.svg",
+      "canonical_signature": "ca45010c29e3348b80c3e1977412c3e1e1b67eb9d27c530eea864f8990c39298",
+      "source_sha256": "ca47b338e59b64658186f2e39df3dcd466f9fddb0c817baed1e63a6f753b2c8c",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "이제 어머니의 질문에 답을 쓸 수 있겠어요.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p12-3",
+      "page_number": 12,
+      "source_image_path": "episodes/EP011/panels/assets/p12-3.png",
+      "final_image_path": "episodes/EP011/panels/final/p12-3.svg",
+      "canonical_signature": "2683a31cef43c39fae50cc53b6b6a1391fec61cec6b2f02fbae366cdddf0394f",
+      "source_sha256": "ecb6684a40d711ecae0c7ec3fc32094615175e4ef5728247690339afc8375016",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "sfx",
+          "speaker": "",
+          "text": "지직",
+          "box": {
+            "x": 0.18,
+            "y": 0.34,
+            "w": 0.64,
+            "h": 0.18
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p12-4",
+      "page_number": 12,
+      "source_image_path": "episodes/EP011/panels/assets/p12-4.png",
+      "final_image_path": "episodes/EP011/panels/final/p12-4.svg",
+      "canonical_signature": "b0eb9c413203b07f8e50339db37a7c4370a7c32bc6e223c09d330e5afcc7507b",
+      "source_sha256": "dbf3f5742d6e5a826e6a8572a3fb86f2781f7ed52654d81db4f056c08013ef74",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "끝났습니다. 정확히 열한 분입니다.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p13-1",
+      "page_number": 13,
+      "source_image_path": "episodes/EP011/panels/assets/p13-1.png",
+      "final_image_path": "episodes/EP011/panels/final/p13-1.svg",
+      "canonical_signature": "6778ff67e7d7217d6f6222eed663d1495af6b83c1a03c31ccb35a5c0dc0a8355",
+      "source_sha256": "c1ad51d0890f29eb0361968156c2308856d2e786a3da2e8d7a99cd7b9a0e4dd6",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "삼체 측 공식 응답.",
+          "box": {
+            "x": 0.12,
+            "y": 0.06,
+            "w": 0.76,
+            "h": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p13-2",
+      "page_number": 13,
+      "source_image_path": "episodes/EP011/panels/assets/p13-2.png",
+      "final_image_path": "episodes/EP011/panels/final/p13-2.svg",
+      "canonical_signature": "36bbdc346c5fae54898c17f2b02594fc9905048d6bf8a59addae490742d2fc83",
+      "source_sha256": "fdd6c8e5606a3fd7886ffed984e1a055c77fe69541a36f17b6b416225de1205a",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "버그를 발견했다. 수정하겠다.",
+          "box": {
+            "x": 0.12,
+            "y": 0.06,
+            "w": 0.76,
+            "h": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p13-3",
+      "page_number": 13,
+      "source_image_path": "episodes/EP011/panels/assets/p13-3.png",
+      "final_image_path": "episodes/EP011/panels/final/p13-3.svg",
+      "canonical_signature": "b29c057bb336d40682e59fa429d2fb42b645788672aa776fa8811111c22635d1",
+      "source_sha256": "7f363c458f7e05e3185d87e5279e419d0b793af5ec4fb74f93c8c93ddf3e4285",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "욕 한마디 없네. 접수는 했나 봐.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p13-4",
+      "page_number": 13,
+      "source_image_path": "episodes/EP011/panels/assets/p13-4.png",
+      "final_image_path": "episodes/EP011/panels/final/p13-4.svg",
+      "canonical_signature": "646d5d470cf847096a5199d7d0a171008f4860695d6177a8dd306bedeec756e4",
+      "source_sha256": "a1a728c15c2004615e378993072801d166da20bebcc29a8a6a4c817e2fa834f9",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "처음으로 우리 오류 보고를 존중한 거예요.",
+          "box": {
+            "x": 0.08,
+            "y": 0.06,
+            "w": 0.52,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p14-1",
+      "page_number": 14,
+      "source_image_path": "episodes/EP011/panels/assets/p14-1.png",
+      "final_image_path": "episodes/EP011/panels/final/p14-1.svg",
+      "canonical_signature": "734b687bad6b2e4d8e5ece40cf6121fff9ae75822fd7ee5dc3eda41c3397d60f",
+      "source_sha256": "e653dc0b2bca51bac6a7070406a4a867405f8924789566660998871beeaf675a",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": []
+    },
+    {
+      "panel_id": "p15-1",
+      "page_number": 15,
+      "source_image_path": "episodes/EP011/panels/assets/p15-1.png",
+      "final_image_path": "episodes/EP011/panels/final/p15-1.svg",
+      "canonical_signature": "d41e20f6b9c8228b226854cf6755e21cdd74c2e3c14fa0de1a3436e84658bbc7",
+      "source_sha256": "abc882c83fd404dc9367ae1b48a97998dbfb1910a78d5493604d9f097373c50f",
+      "text_layout": "caption_strip",
+      "status": "draft",
+      "notes": "Explicit canonical panel text; semantic mapping reconciled. Visual QA pending.",
+      "overlays": [
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "비공식 메시지 · 1379번 감시자.",
+          "box": {
+            "x": 0.12,
+            "y": 0.06,
+            "w": 0.76,
+            "h": 0.1
+          }
+        },
+        {
+          "kind": "caption",
+          "speaker": "",
+          "text": "나는 아직 살아 있다. 너희의 리포트를 기다린다.",
+          "box": {
+            "x": 0.12,
+            "y": 0.18,
+            "w": 0.76,
+            "h": 0.1
+          }
+        }
+      ]
+    }
+  ]
+}

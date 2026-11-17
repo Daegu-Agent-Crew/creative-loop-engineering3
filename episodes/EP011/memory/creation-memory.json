@@ -1,0 +1,122 @@
+{
+  "$schema": "../../../schemas/creation-memory.schema.json",
+  "schema_version": 1,
+  "episode_id": "EP011",
+  "updated_at": "2026-11-15T21:11:19.794256+00:00",
+  "creator_contract": {
+    "creative_actor": "codex",
+    "sole_creative_actor": true,
+    "deterministic_system_roles": [
+      "schema_validation",
+      "state_storage",
+      "context_retrieval",
+      "prompt_assembly",
+      "file_tracking",
+      "text_and_page_rendering"
+    ],
+    "human_roles": [
+      "goal_input",
+      "exception_resolution",
+      "release_approval"
+    ]
+  },
+  "source_refs": [
+    {
+      "id": "source-character-1",
+      "type": "character",
+      "path": "episodes/EP011/characters/characters.json",
+      "purpose": "캐릭터 외형과 참조 자산의 기준",
+      "required": false
+    },
+    {
+      "id": "source-decisions-2",
+      "type": "decisions",
+      "path": "episodes/EP011/decisions/implementation-notes.json",
+      "purpose": "과거 결정의 근거와 승인 상태",
+      "required": false
+    },
+    {
+      "id": "source-policy-3",
+      "type": "policy",
+      "path": "config/panel-generation-policy.json",
+      "purpose": "동시성, 재시도, QA와 에스컬레이션 기준",
+      "required": true
+    },
+    {
+      "id": "source-story-ep011",
+      "type": "story",
+      "path": "episodes/EP011/script/panel-script.json",
+      "purpose": "EP011 컷 설명과 후처리 텍스트의 단일 진원",
+      "required": true
+    }
+  ],
+  "canon_assets": [],
+  "narrative_threads": [],
+  "continuity": [],
+  "preferences": [],
+  "lessons": [],
+  "constraints": [
+    {
+      "id": "constraint-one-image-per-request",
+      "severity": "must",
+      "rule": "gpt-image-2에는 요청당 이미지 한 장만 생성한다.",
+      "scope": {
+        "characters": [],
+        "panel_ids": [],
+        "tags": [
+          "global",
+          "generation"
+        ]
+      },
+      "source_path": "config/panel-generation-policy.json"
+    },
+    {
+      "id": "constraint-preserve-original-candidates",
+      "severity": "must",
+      "rule": "원본과 탈락 후보를 덮어쓰지 않고 선택된 결과만 정식 패널로 승격한다.",
+      "scope": {
+        "characters": [],
+        "panel_ids": [],
+        "tags": [
+          "global",
+          "candidate-selection"
+        ]
+      },
+      "source_path": "docs/ASSET-STORAGE-POLICY.md"
+    },
+    {
+      "id": "constraint-human-release-approval",
+      "severity": "must",
+      "rule": "Codex가 모든 창작 행동을 수행하더라도 최종 공개는 사람의 Release Approval 이후에만 실행한다.",
+      "scope": {
+        "characters": [],
+        "panel_ids": [],
+        "tags": [
+          "global",
+          "approval"
+        ]
+      },
+      "source_path": "docs/AI-COLLABORATION-PROTOCOL.md"
+    }
+  ],
+  "handoff": {
+    "current_goal": "EP011 Phase 1 정본을 검토하고 다음 Phase의 인물·시각 기준을 준비한다.",
+    "current_phase": "phase1_story",
+    "target_panel_id": null,
+    "completed": [
+      "phase0 완료",
+      "phase0.5 완료",
+      "Phase 1 15쪽·45컷과 파생 콘티 작성 및 검증"
+    ],
+    "next_actions": [
+      "Story Lock 사람 검토",
+      "EP010 양동 고정 시트와 EP011 인물 명세 대조",
+      "Phase 2 캐릭터 기준 정리"
+    ],
+    "blockers": [],
+    "human_decisions": [
+      "EP011 Story Lock 승인 여부",
+      "Phase 5 통과 후 Release Approval"
+    ]
+  }
+}

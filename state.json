@@ -1,6 +1,6 @@
 {
   "current_episode": "EP011",
-  "current_phase": "phase1_story",
+  "current_phase": "phase6_release",
   "episodes": {
     "EP001": {
       "title": "태초의 밤",
@@ -530,7 +530,7 @@
     "EP011": {
       "title": "버그 리포트 제출",
       "status": "in_progress",
-      "current_phase": "phase1_story",
+      "current_phase": "phase6_release",
       "phases": {
         "phase0": {
           "status": "completed",
@@ -543,9 +543,31 @@
           "note": "EP001~010 성경·화풍 곀승"
         },
         "phase1": {
-          "status": "in_progress",
-          "score": null,
-          "note": "S2E06 피나레 — 11분의 진짜 + 1379 메시지, v5.1 단일 진원 착수"
+          "status": "completed",
+          "score": 43,
+          "prompt_version": "v5.1-single-source-s2e06",
+          "note": "S2E06 15쪽·45컷 Phase 1 완성. panel-script 정본에서 콘티 파생. Story Lock은 사람 승인 대기.",
+          "sub_files": [
+            "story/analysis.md",
+            "story/outline.md",
+            "story/scenes.md",
+            "script/script.md",
+            "script/script.json",
+            "script/panel-script.json"
+          ]
+        },
+        "phase4": {
+          "status": "completed",
+          "note": "45/45 — 3-way 병렬 + CHARLOCK v6 (91회 확인 로그)"
+        },
+        "phase5": {
+          "status": "completed",
+          "score": 43,
+          "note": "오버레이 45·QA 43/50·프리뷰 45·뷰어 완성"
+        },
+        "phase6": {
+          "status": "pending",
+          "note": "발행 승인 대기"
         }
       },
       "season": 2,
@@ -581,7 +603,7 @@
       "previous_score": 45
     }
   ],
-  "last_updated": "2026-11-13T21:12:26.687020Z",
+  "last_updated": "2026-11-15T21:11:19.794018+00:00",
   "season_production_status": "complete",
   "season_release_status": "deployed",
   "pages_url": "https://daegu-agent-crew.github.io/creative-loop-engineering3/"
