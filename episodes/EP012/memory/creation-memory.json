@@ -2,7 +2,7 @@
   "$schema": "../../../schemas/creation-memory.schema.json",
   "schema_version": 1,
   "episode_id": "EP012",
-  "updated_at": "2026-11-18T23:38:29.472Z",
+  "updated_at": "2026-11-19T08:44:24+09:00",
   "creator_contract": {
     "creative_actor": "codex",
     "sole_creative_actor": true,
@@ -86,17 +86,19 @@
     }
   ],
   "handoff": {
-    "current_goal": "EP012 패치 노트의 phase1_story 창작 작업을 이어간다.",
+    "current_goal": "EP012 Phase 1 Story Lock 검토와 Phase 2 캐릭터 기준 준비",
     "current_phase": "phase1_story",
     "target_panel_id": null,
     "completed": [
       "phase0 완료",
-      "phase0.5 완료"
+      "phase0.5 완료",
+      "Phase 1 15페이지 45컷 스토리 및 단일 진원 패널 스크립트 완성",
+      "gen-storyboard.js 파생 콘티 생성, 스키마와 패널 정합 검증"
     ],
     "next_actions": [
-      "현재 스토리에서 캐릭터, 세계관, 시각 기준 자산을 추출하고 버전을 부여한다.",
-      "Character/World/Visual Bible을 만든 뒤 다음 Phase 입력으로 고정한다.",
-      "다음 창작 작업 전에 Creation Context Pack을 생성한다."
+      "Story Lock에서 방향과 가치를 검토한다.",
+      "Phase 2에서 EP006 왕먀오·스치친, EP010 양동 canonical 시트를 고정 참조한다.",
+      "1379는 얼굴 없는 신호로 유지하고 신규 인물 등장 시 canonical 시트를 만든다."
     ],
     "blockers": [],
     "human_decisions": [

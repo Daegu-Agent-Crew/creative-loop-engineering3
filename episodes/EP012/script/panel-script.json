@@ -1,0 +1,836 @@
+{
+  "episode_id": "EP012",
+  "version": 1,
+  "source": "episodes/EP012/story/source-story.md#S3E01",
+  "panels": [
+    {
+      "panel_id": "p1-1",
+      "page_number": 1,
+      "scene_number": 1,
+      "description": "제네바 관제실 새벽. 세계 가속기 화면의 궤적이 동시에 멎고 빈 원형 계기가 세 칸을 지난다. 재기동과 함께 붉은 변경 블록이 폭포처럼 쌓인다. 인물은 익명 뒷모습. 글자와 숫자는 그리지 않는다.",
+      "camera_angle": "풀페이지 조감",
+      "characters_in_frame": [],
+      "visual_type": "silence",
+      "text": [],
+      "color_palette": "청회색·빨강"
+    },
+    {
+      "panel_id": "p2-1",
+      "page_number": 2,
+      "scene_number": 2,
+      "description": "왕먀오가 열한 분 원본 기록지를 가지런히 맞춘다. 큰 안경 뒤 피곤한 눈과 굳은 손가락.",
+      "camera_angle": "손에서 얼굴",
+      "characters_in_frame": [
+        "왕먀오"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "논문으로 묶기엔 열한 분뿐입니다."
+        }
+      ],
+      "color_palette": "청회색·순백"
+    },
+    {
+      "panel_id": "p2-2",
+      "page_number": 2,
+      "scene_number": 2,
+      "description": "흰 원본 기록과 붉은 새 패치가 서로 다른 종이에 놓인다. 펜은 논문 표지 대신 메모지에 닿는다.",
+      "camera_angle": "탑숏",
+      "characters_in_frame": [
+        "왕먀오"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "caption",
+          "text": "11분의 원본. 그 뒤의 첫 패치."
+        }
+      ],
+      "color_palette": "청회색·순백"
+    },
+    {
+      "panel_id": "p2-3",
+      "page_number": 2,
+      "scene_number": 2,
+      "description": "양동이 청신의 초고를 왕먀오의 메모 옆에 놓고 한 뼘 물러난다.",
+      "camera_angle": "측면 중경",
+      "characters_in_frame": [
+        "왕먀오",
+        "양동"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "혼자 읽으면 또 그들의 답이 돼요."
+        }
+      ],
+      "color_palette": "청회색·순백"
+    },
+    {
+      "panel_id": "p3-1",
+      "page_number": 3,
+      "scene_number": 3,
+      "description": "스치친이 관제실 문에 기대어 꺼진 담배를 든다. 낡은 올리브 재킷과 피곤한 눈.",
+      "camera_angle": "로우앵글",
+      "characters_in_frame": [
+        "스치친"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "고친다더니 진짜 야근을 했군."
+        }
+      ],
+      "color_palette": "올리브·빨강"
+    },
+    {
+      "panel_id": "p3-2",
+      "page_number": 3,
+      "scene_number": 3,
+      "description": "왕먀오가 목록의 맨 위를 가리키나 글자 대신 블록만 안경에 비친다.",
+      "camera_angle": "어깨 너머",
+      "characters_in_frame": [
+        "왕먀오"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "무엇을 고쳤는지는 읽을 수 없습니다."
+        }
+      ],
+      "color_palette": "올리브·빨강"
+    },
+    {
+      "panel_id": "p3-3",
+      "page_number": 3,
+      "scene_number": 3,
+      "description": "스치친이 항목 번호 위치만 붉은 원으로 표시한다. 농담기 없는 눈이 종이에 고정된다.",
+      "camera_angle": "노트 탑숏",
+      "characters_in_frame": [
+        "스치친"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "죽은 자는 거짓말을 안 해. 고치는 놈은 순서로 들키지."
+        }
+      ],
+      "color_palette": "올리브·빨강"
+    },
+    {
+      "panel_id": "p3-4",
+      "page_number": 3,
+      "scene_number": 3,
+      "description": "그의 펜끝이 첫 항목을 누르고 왕먀오의 자가 항목 사이로 들어온다.",
+      "camera_angle": "펜 극근접",
+      "characters_in_frame": [
+        "스치친",
+        "왕먀오"
+      ],
+      "visual_type": "impact",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "제일 아픈 데부터 고쳤을 거야."
+        }
+      ],
+      "color_palette": "올리브·빨강"
+    },
+    {
+      "panel_id": "p4-1",
+      "page_number": 4,
+      "scene_number": 4,
+      "description": "세 시설의 패치 블록. 도착 시각은 같고 위아래 배열도 같다. 문자와 수치는 후처리.",
+      "camera_angle": "삼분할 정면",
+      "characters_in_frame": [],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "caption",
+          "text": "동시 기록. 같은 배열."
+        }
+      ],
+      "color_palette": "청회색·빨강"
+    },
+    {
+      "panel_id": "p4-2",
+      "page_number": 4,
+      "scene_number": 4,
+      "description": "왕먀오가 세 종이를 포갠다. 손끝은 시간선에, 눈은 순서에 머문다.",
+      "camera_angle": "손 탑숏",
+      "characters_in_frame": [
+        "왕먀오"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "도착 순서가 아닙니다. 세 곳에서 같아요."
+        }
+      ],
+      "color_palette": "청회색·빨강"
+    },
+    {
+      "panel_id": "p4-3",
+      "page_number": 4,
+      "scene_number": 4,
+      "description": "양동이 청신의 초고에서 원본과 위조를 나누는 대조지를 꺼낸다.",
+      "camera_angle": "수첩 근접",
+      "characters_in_frame": [
+        "양동"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "어머니는 빈칸을 남겼어요. 우리도 남겨야 해요."
+        }
+      ],
+      "color_palette": "청회색·빨강"
+    },
+    {
+      "panel_id": "p4-4",
+      "page_number": 4,
+      "scene_number": 4,
+      "description": "스치친이 첫 줄과 끝 줄을 손가락 두 개로 짚는다. 눈썹이 낮아진다.",
+      "camera_angle": "측면 근경",
+      "characters_in_frame": [
+        "스치친"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "빠른 순서도 아니네. 그럼 급한 순서겠지."
+        }
+      ],
+      "color_palette": "청회색·빨강"
+    },
+    {
+      "panel_id": "p5-1",
+      "page_number": 5,
+      "scene_number": 5,
+      "description": "왕먀오의 안경에 항목 내용 대신 그 사이의 붉은 간격이 계단처럼 비친다. 입이 조금 벌어진다.",
+      "camera_angle": "안경 극근접",
+      "characters_in_frame": [
+        "왕먀오"
+      ],
+      "visual_type": "impact",
+      "text": [],
+      "color_palette": "빨강·순백"
+    },
+    {
+      "panel_id": "p5-2",
+      "page_number": 5,
+      "scene_number": 5,
+      "description": "그가 수정 소요가 긴 항목이 먼저인 시간축을 벽에 펼친다.",
+      "camera_angle": "벽면 와이드",
+      "characters_in_frame": [
+        "왕먀오"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "긴 작업이 먼저입니다. 효율 순서는 아니에요."
+        }
+      ],
+      "color_palette": "빨강·순백"
+    },
+    {
+      "panel_id": "p5-3",
+      "page_number": 5,
+      "scene_number": 5,
+      "description": "양동이 독립 원본 기록의 변동 구간을 대조지에 표시한다. 위쪽 항목부터 원본 관측 구간과 맞물린다.",
+      "camera_angle": "대조지 탑숏",
+      "characters_in_frame": [
+        "양동"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "우리가 본 곳부터 가렸군요."
+        }
+      ],
+      "color_palette": "빨강·순백"
+    },
+    {
+      "panel_id": "p5-4",
+      "page_number": 5,
+      "scene_number": 5,
+      "description": "스치친의 붉은 원 세 개가 원본 궤적의 틈을 덮는다. 펜이 멎는다.",
+      "camera_angle": "펜 극근접",
+      "characters_in_frame": [
+        "스치친"
+      ],
+      "visual_type": "impact",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "놈들이 무서워한 순서야."
+        }
+      ],
+      "color_palette": "빨강·순백"
+    },
+    {
+      "panel_id": "p6-1",
+      "page_number": 6,
+      "scene_number": 6,
+      "description": "새벽 연구실 벽에 패치 블록과 원본 기록의 빈 윤곽이 층층이 붙는다. 왕먀오와 스치친의 작은 뒷모습 사이로 붉은 계단 모양의 빈 공간. 글자는 없다.",
+      "camera_angle": "무언 풀페이지 와이드",
+      "characters_in_frame": [
+        "왕먀오",
+        "스치친"
+      ],
+      "visual_type": "silence",
+      "text": [],
+      "color_palette": "청회색·빨강"
+    },
+    {
+      "panel_id": "p7-1",
+      "page_number": 7,
+      "scene_number": 7,
+      "description": "왕먀오가 첫 패치와 작은 두 번째 패치를 나란히 놓는다. 모양은 달라도 위부터 메운 흔적이 반복된다.",
+      "camera_angle": "정면 중경",
+      "characters_in_frame": [
+        "왕먀오"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "다른 패치에도 같은 우선순위가 있습니다."
+        }
+      ],
+      "color_palette": "올리브·빨강"
+    },
+    {
+      "panel_id": "p7-2",
+      "page_number": 7,
+      "scene_number": 7,
+      "description": "스치친이 사건 보드의 사진 대신 빈 간격을 빨간 실로 잇는다. 어깨가 펴진다.",
+      "camera_angle": "보드 사선",
+      "characters_in_frame": [
+        "스치친"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "집은 못 봐도 도망길은 그릴 수 있지."
+        }
+      ],
+      "color_palette": "올리브·빨강"
+    },
+    {
+      "panel_id": "p7-3",
+      "page_number": 7,
+      "scene_number": 7,
+      "description": "양동이 초고의 빈칸에 새 대조지를 꽂고 어머니의 글씨는 가린다.",
+      "camera_angle": "손 근접",
+      "characters_in_frame": [
+        "양동"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "증거로 남겨요. 신탁처럼 만들지 말고."
+        }
+      ],
+      "color_palette": "올리브·빨강"
+    },
+    {
+      "panel_id": "p7-4",
+      "page_number": 7,
+      "scene_number": 7,
+      "description": "왕먀오가 벽을 향해 돌아선다. 안경 속 배열이 검은 지도의 윤곽으로 바뀐다.",
+      "camera_angle": "후면 로우앵글",
+      "characters_in_frame": [
+        "왕먀오"
+      ],
+      "visual_type": "impact",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "적은 매뉴얼을 숨겨도 목차는 못 숨깁니다."
+        }
+      ],
+      "color_palette": "올리브·빨강"
+    },
+    {
+      "panel_id": "p8-1",
+      "page_number": 8,
+      "scene_number": 8,
+      "description": "왕먀오가 들었던 손을 내린다. 목록 옆 감시 빨간 점이 선명하다.",
+      "camera_angle": "측면 근경",
+      "characters_in_frame": [
+        "왕먀오"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "이 순서도 우리에게 보여 주려는 연극이라면요?"
+        }
+      ],
+      "color_palette": "청회색·순백"
+    },
+    {
+      "panel_id": "p8-2",
+      "page_number": 8,
+      "scene_number": 8,
+      "description": "스치친이 두 기록의 어긋난 가장자리를 남기며 겹친다. 담배를 주머니에 넣고 두 손을 비운다.",
+      "camera_angle": "손 탑숏",
+      "characters_in_frame": [
+        "스치친"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "그럼 저놈이 고를 수 없는 대조를 찾자."
+        }
+      ],
+      "color_palette": "청회색·순백"
+    },
+    {
+      "panel_id": "p8-3",
+      "page_number": 8,
+      "scene_number": 8,
+      "description": "양동이 패치 전에 봉인된 열한 분 기록을 유리 상자에서 꺼낸다.",
+      "camera_angle": "기록 클로즈업",
+      "characters_in_frame": [
+        "양동"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "이건 패치 전에 봉인됐어요."
+        }
+      ],
+      "color_palette": "청회색·순백"
+    },
+    {
+      "panel_id": "p9-1",
+      "page_number": 9,
+      "scene_number": 9,
+      "description": "양동이 가죽 가방에서 청신의 미완 리포트 초고를 꺼낸다. 어깨가 굳지만 접지 않는다.",
+      "camera_angle": "허리 높이 근경",
+      "characters_in_frame": [
+        "양동"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "어머니가 끝내 못 낸 보고서예요."
+        }
+      ],
+      "color_palette": "세피아·순백"
+    },
+    {
+      "panel_id": "p9-2",
+      "page_number": 9,
+      "scene_number": 9,
+      "description": "초고의 세 무문자 도형 옆 빈칸. 양동의 손이 오래된 연필 자국 위에 새 투명지를 올린다.",
+      "camera_angle": "수첩 탑숏",
+      "characters_in_frame": [
+        "양동"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "증거와 해석을 분리하라고 적어 두셨죠."
+        }
+      ],
+      "color_palette": "세피아·순백"
+    },
+    {
+      "panel_id": "p9-3",
+      "page_number": 9,
+      "scene_number": 9,
+      "description": "왕먀오가 초고를 자기 메모 옆에 펼쳐 두 기록 사이에 여백을 남긴다.",
+      "camera_angle": "책상 사선",
+      "characters_in_frame": [
+        "왕먀오",
+        "양동"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "당신 어머니의 빈칸을 제 결론으로 채우지 않겠습니다."
+        }
+      ],
+      "color_palette": "세피아·순백"
+    },
+    {
+      "panel_id": "p9-4",
+      "page_number": 9,
+      "scene_number": 9,
+      "description": "양동이 스치친의 붉은 원과 초고 사이에 독립 기록지를 놓는다. 눈은 젖지만 손은 정확하다.",
+      "camera_angle": "정면 중경",
+      "characters_in_frame": [
+        "양동",
+        "스치친"
+      ],
+      "visual_type": "impact",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "대조군으로 쓰세요. 유산보다 책임이 먼저예요."
+        }
+      ],
+      "color_palette": "세피아·순백"
+    },
+    {
+      "panel_id": "p10-1",
+      "page_number": 10,
+      "scene_number": 10,
+      "description": "오래된 경고 신호의 주기 도형과 패치의 미세 지문을 별개 투명판에 놓는다.",
+      "camera_angle": "투명판 정면",
+      "characters_in_frame": [],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "caption",
+          "text": "40년 전 경고 / 이번 패치"
+        }
+      ],
+      "color_palette": "청회색·빨강"
+    },
+    {
+      "panel_id": "p10-2",
+      "page_number": 10,
+      "scene_number": 10,
+      "description": "왕먀오가 두 신호의 반복 간격을 겹친다. 한 점만 맞고 나머지는 비어 있다.",
+      "camera_angle": "손 극근접",
+      "characters_in_frame": [
+        "왕먀오"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "간격 하나가 같습니다. 같은 발신자라는 증거는 아닙니다."
+        }
+      ],
+      "color_palette": "청회색·빨강"
+    },
+    {
+      "panel_id": "p10-3",
+      "page_number": 10,
+      "scene_number": 10,
+      "description": "스치친이 불일치 구간에 굵은 금을 긋는다. 눈은 좁아지고 펜은 멈춘다.",
+      "camera_angle": "노트 탑숏",
+      "characters_in_frame": [
+        "스치친"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "지문 하나로 얼굴까지 그리지 마."
+        }
+      ],
+      "color_palette": "청회색·빨강"
+    },
+    {
+      "panel_id": "p10-4",
+      "page_number": 10,
+      "scene_number": 10,
+      "description": "관제 화면 구석의 비공식 빈 메시지 슬롯이 깜박인다. 양동의 손이 가리키되 닿지 않는다.",
+      "camera_angle": "화면 극근접",
+      "characters_in_frame": [
+        "양동"
+      ],
+      "visual_type": "impact",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "1379는 아직 물음표예요."
+        }
+      ],
+      "color_palette": "청회색·빨강"
+    },
+    {
+      "panel_id": "p11-1",
+      "page_number": 11,
+      "scene_number": 11,
+      "description": "이전의 붉은 위조 파형, 흰 원본 기록, 빈 수신칸이 종이 조각으로 이어진다. 얼굴 없는 몽타주.",
+      "camera_angle": "대각 몽타주",
+      "characters_in_frame": [],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "caption",
+          "text": "보고서들이 쌓였다."
+        }
+      ],
+      "color_palette": "순백·빨강"
+    },
+    {
+      "panel_id": "p11-2",
+      "page_number": 11,
+      "scene_number": 11,
+      "description": "왕먀오가 이전 버그 리포트와 새 패치를 나란히 둔다. 자기 펜 자국에서 시선이 멈춘다.",
+      "camera_angle": "어깨 너머",
+      "characters_in_frame": [
+        "왕먀오"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "우리는 오류를 적었고, 저들은 읽었어요."
+        }
+      ],
+      "color_palette": "순백·빨강"
+    },
+    {
+      "panel_id": "p11-3",
+      "page_number": 11,
+      "scene_number": 11,
+      "description": "스치친의 노트에서 과거 질문과 이번 배열이 서로를 향한 화살표로 이어진다.",
+      "camera_angle": "노트 탑숏",
+      "characters_in_frame": [
+        "스치친"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "편지를 보냈는데 답장은 수리 목록이군."
+        }
+      ],
+      "color_palette": "순백·빨강"
+    },
+    {
+      "panel_id": "p11-4",
+      "page_number": 11,
+      "scene_number": 11,
+      "description": "양동이 빈 수신칸 아래 독립 기록을 놓는다. 과거 문서의 그림자가 손 위로 진다.",
+      "camera_angle": "손 근경",
+      "characters_in_frame": [
+        "양동"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "그래서 답장도 증거여야 해요."
+        }
+      ],
+      "color_palette": "순백·빨강"
+    },
+    {
+      "panel_id": "p12-1",
+      "page_number": 12,
+      "scene_number": 12,
+      "description": "새 패치의 한 항목만 큰 붉은 블록으로 튀어나온다. 양옆 간격이 지나치게 일정하다.",
+      "camera_angle": "화면 정면",
+      "characters_in_frame": [],
+      "visual_type": "impact",
+      "text": [
+        {
+          "kind": "caption",
+          "text": "새 항목 하나."
+        }
+      ],
+      "color_palette": "빨강·검정"
+    },
+    {
+      "panel_id": "p12-2",
+      "page_number": 12,
+      "scene_number": 12,
+      "description": "왕먀오의 손가락이 그 항목 앞에서 멈춘다. 시선은 블록 아닌 빈 간격으로 향한다.",
+      "camera_angle": "손에서 안경",
+      "characters_in_frame": [
+        "왕먀오"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "너무 친절합니다."
+        }
+      ],
+      "color_palette": "빨강·검정"
+    },
+    {
+      "panel_id": "p12-3",
+      "page_number": 12,
+      "scene_number": 12,
+      "description": "양동이 봉인 원본에서 대응 구간을 찾지만 대조지는 비어 있다.",
+      "camera_angle": "대조지 탑숏",
+      "characters_in_frame": [
+        "양동"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "원본에는 흔적이 없어요."
+        }
+      ],
+      "color_palette": "빨강·검정"
+    },
+    {
+      "panel_id": "p12-4",
+      "page_number": 12,
+      "scene_number": 12,
+      "description": "스치친이 미끼 항목 대신 아래 빈칸에 붉은 원을 친다.",
+      "camera_angle": "노트 극근접",
+      "characters_in_frame": [
+        "스치친"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "저걸 물면 읽는 법부터 들키겠군."
+        }
+      ],
+      "color_palette": "빨강·검정"
+    },
+    {
+      "panel_id": "p13-1",
+      "page_number": 13,
+      "scene_number": 13,
+      "description": "거대한 붉은 미끼 블록 앞에 멈춘 왕먀오의 작은 뒷모습. 유리 화면 반사 속 왕먀오도 같은 크기로 그를 바라본다. 읽는 자와 읽히는 자가 겹친다. 글자는 없다.",
+      "camera_angle": "무언 풀페이지 반사",
+      "characters_in_frame": [
+        "왕먀오"
+      ],
+      "visual_type": "silence",
+      "text": [],
+      "color_palette": "빨강·검정"
+    },
+    {
+      "panel_id": "p14-1",
+      "page_number": 14,
+      "scene_number": 14,
+      "description": "왕먀오가 미끼를 답장 초안에서 지우고 빈칸으로 둔다. 지운 흔적은 남긴다.",
+      "camera_angle": "초안 탑숏",
+      "characters_in_frame": [
+        "왕먀오"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "왕먀오",
+          "text": "미끼엔 답하지 않겠습니다."
+        }
+      ],
+      "color_palette": "순백·빨강"
+    },
+    {
+      "panel_id": "p14-2",
+      "page_number": 14,
+      "scene_number": 14,
+      "description": "양동이 봉인 원본의 독립 궤적 두 개만 추려 초안 옆에 놓는다. 손은 떨리지만 선은 정확하다.",
+      "camera_angle": "손 극근접",
+      "characters_in_frame": [
+        "양동"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "양동",
+          "text": "저들이 고칠 수 없는 질문만 남겨요."
+        }
+      ],
+      "color_palette": "순백·빨강"
+    },
+    {
+      "panel_id": "p14-3",
+      "page_number": 14,
+      "scene_number": 14,
+      "description": "스치친이 감시점을 보며 왕먀오의 펜을 향해 고개를 끄덕인다.",
+      "camera_angle": "측면 이인물",
+      "characters_in_frame": [
+        "스치친",
+        "왕먀오"
+      ],
+      "visual_type": "normal",
+      "text": [
+        {
+          "kind": "dialogue",
+          "speaker": "스치친",
+          "text": "저쪽도 우리를 읽고 있어. 그러니 한 줄만 써."
+        }
+      ],
+      "color_palette": "순백·빨강"
+    },
+    {
+      "panel_id": "p15-1",
+      "page_number": 15,
+      "scene_number": 15,
+      "description": "새 리포트의 흰 첫 페이지가 화면 대부분을 차지한다. 왕먀오의 마른 손이 펜을 내려놓는다. 서명란과 비공식 수신 슬롯에 붉은 신호가 닿는다. 1379의 형상은 없다. 글자는 후처리.",
+      "camera_angle": "풀페이지 탑숏",
+      "characters_in_frame": [
+        "왕먀오"
+      ],
+      "visual_type": "impact",
+      "text": [
+        {
+          "kind": "caption",
+          "text": "질문: 첫 수정 항목은 무엇을 막기 위한 것인가?"
+        },
+        {
+          "kind": "caption",
+          "text": "서명: 왕먀오"
+        },
+        {
+          "kind": "caption",
+          "text": "제출처: 1379"
+        }
+      ],
+      "color_palette": "순백·빨강"
+    }
+  ]
+}

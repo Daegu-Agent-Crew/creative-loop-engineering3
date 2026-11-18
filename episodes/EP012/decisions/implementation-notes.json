@@ -40,6 +40,29 @@
       ],
       "human_approval": "not_required",
       "impact": "Workspace는 검토 가능한 판단 요약만 노출한다."
+    },
+    {
+      "id": "DEC-20261119-EP012-PH1",
+      "made_at": "2026-11-19T08:44:24+09:00",
+      "phase": "phase1",
+      "decision": "첫 패치의 배열을 공포 순위의 가설로 읽고 미끼를 걸러낸 뒤 1379에게 검증 가능한 질문 한 줄을 보낸다.",
+      "rationale": "원안의 발견 편과 EP011의 미완 수신처를 연결하고 후속 화의 1379 정체 및 고치지 못하는 결함을 보존한다.",
+      "evidence": [
+        "episodes/EP012/story/source-story.md",
+        "episodes/EP011/script/panel-script.json",
+        "episodes/EP012/script/panel-script.json"
+      ],
+      "confidence": "medium",
+      "uncertainties": [
+        "공포 순위와 미끼의 실제 의도는 작중 미확인",
+        "1379의 정체와 동기는 후속 화에 남음"
+      ],
+      "alternatives_considered": [
+        "이번 화에 1379의 얼굴과 정체를 공개",
+        "패치 항목 내용을 직접 해독"
+      ],
+      "human_approval": "pending",
+      "impact": "Phase 1 15페이지 45컷 정본과 파생 콘티를 Story Lock 검토 대상으로 둔다."
     }
   ]
 }
