@@ -1,0 +1,21 @@
+EP006 「버그 리포트」 phase4 패널 생성 — 배치 2 (p3-1, p3-2, p3-3, p3-4).
+
+내장 image_gen 도구로 아래 4개 패널 이미지를 생성하라. 각 이미지는 절대 경로로 저장:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP006/panels/assets/<panel_id>.png
+
+모든 프롬프트 맨 앞에 STYLE_BLOCK 필수:
+STYLE_BLOCK: Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+공통 규칙:
+- 이미지에 한글 텍스트·글자·자막 절대 금지 (대사는 후처리 SVG 오버레이). 파형 그래프는 시각적 형태만.
+- 왕먀오 참고: 단정한 검은 머리, 큰 뿔테 안경, 마른 체구, 청회색 셔츠(가운 없음). 참고자산 episodes/EP001/characters/assets/wangmiao-v1.png (읽어서 일관성 유지)
+- 스치친 참고: 헝클어진 검은 머리, 무거운 수염, 좁은 피곤한 눈, 묵직한 체구, 낡은 올리브 재킷, 손가락 사이에 꺼진 담배. 참고자산 episodes/EP001/characters/assets/shiqiang-v1.png (읽어서 일관성 유지)
+- 세로 만화 페이지 규격, 패널 하나 = 이미지 하나.
+
+패널:
+1. p3-1 (문가 중경, normal): 스치친이 낡은 올리브 재킷 차림으로 문을 밀고 들어와 커피를 놓는다. 담배는 손가락 사이에 꺼져 있다. 좁은 눈과 수염, 무심한 자세. 왕먀오를 보는 눈만 또렷하다. 올리브브라운+청회색 대비.
+2. p3-2 (탁상 탑숏, normal): 스치친의 커피잔이 모니터의 빨간 톱니 파형을 가린다. 왕먀오의 손이 잔을 옆으로 민다. 왕먀오의 굳은 눈썹이 아주 조금 들린다. 손동작으로 정보가 드러난다. 차가운 청색+커피의 따뜻한 갈색.
+3. p3-3 (손끝과 좁은 눈 교차 중경, impact): 밀려난 잔 아래 여섯 파형에 같은 톱니가 드러난다. 스치친의 손끝이 여섯 파형을 차례로 짚는다. 농담기가 사라지고 입꼬리가 내려간 좁은 눈. 강한 대비와 원근.
+4. p3-4 (낮은 앵글 중경, normal): 왕먀오가 의자를 돌려 스치친을 마주한다. 등이 미세하게 펴지고 안경 렌즈가 하얗게 빛난다(이번 화 핵심 연출 도구). 스치친은 잔을 든 채 그 변화를 지켜본다.
+
+완료 후 각 파일 크기를 출력하라. 파일이 수십 KB 이하면 실패로 간주하고 재시도.

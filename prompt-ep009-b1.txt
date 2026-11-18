@@ -1,0 +1,20 @@
+EP009 phase4 panel generation - batch 1 (pages 1-2).
+
+MANDATORY CONSISTENCY STEP (chairman directive 2026-11-10): BEFORE generating, READ these canonical reference images: episodes/EP006/panels/assets/p2-1.png (Wangmiao canonical) and episodes/EP006/panels/assets/p3-1.png (Shi Qiang canonical). Match their facial proportions, outfit details, ink weight and shading style EXACTLY. Hard requirement.
+
+NOTE (EP009): Tri-Solaris in-game scenes use the dry ochre / dehydrated-body dystopian palette inherited from EP003-EP004 game worlds; real-world scenes stay in the present-day blue-grey tone. Keep the two clearly distinguishable.
+
+Use the built-in image_gen tool to generate and save each panel image to:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP009/panels/assets/<panel_id>.png
+
+STYLE_BLOCK at the front of every prompt:
+Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+Common rules: NO Korean text/letters in images (post-process SVG overlay). Wangmiao = neat black hair, big horn-rimmed glasses, blue-grey shirt, thin build. Shi Qiang = messy black hair, beard, narrow tired eyes, worn olive jacket. Page 1 opening panels carry the impact beat. After saving, verify each file is over 300KB, retry if not. Print the size table at the end.
+
+Panels:
+- p1-1 (풀페이지 초광각, silence): 문명 192호의 빈 황갈색 광장에 탈수 인체들이 누워 있고 거대 관측탑의 그림자만 태양 반대쪽으로 되감긴다 연출: 무대사·무자막 풀페이지. 그림자의 이중 경계가 첫 단서. 숫자·문자 없음
+- p2-1 (오버숄더 중경, normal): 청회색 관제실에서 왕먀오가 EP008의 세 시대 톱니 파형을 겹친다 연출: 현재 복귀. 단정한 검은 머리·큰 뿔테 안경·청회색 셔츠·마른 체형
+- p2-2 (이인물 측면, normal): 스치친이 오래된 게임 접속기를 꺼진 담배로 가리킨다 연출: 헝클어진 검은 머리·수염·좁은 피곤한 눈·낡은 올리브 재킷
+- p2-3 (탁상 탑숏, normal): 왕먀오가 게임 로그와 위조 출력 장치를 따로 놓는다 연출: 두 출처의 독립성을 공간으로 표시. 화면 글자 없음
+- p2-4 (반사 근접, normal): 게임 접속기의 황갈색 화면이 현실의 푸른 벽에 비친다 연출: 게임과 현실의 경계를 모니터 베젤로 구분

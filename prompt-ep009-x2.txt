@@ -1,0 +1,27 @@
+EP009 (S2E04 게임은 QA였다) phase4 panel generation - parallel group ep009-x2.
+
+MANDATORY CONSISTENCY STEP (chairman directive): BEFORE generating, READ: episodes/EP006/panels/assets/p2-1.png (Wangmiao) and episodes/EP006/panels/assets/p3-1.png (Shi Qiang). Match facial proportions, outfit, ink weight, shading EXACTLY. Flashback = warm sepia; present = blue-grey. Game-world (Three Body game) scenes = stylized desaturated gold/sand palette.
+
+Use the built-in image_gen tool to save each panel to:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP009/panels/assets/<panel_id>.png
+
+STYLE_BLOCK:
+Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+NO Korean text in images. Full-page panels get maximum impact. Verify each file over 300KB, retry if not. Print size table.
+
+Panels:
+- p7-1 (풀페이지 다층 초광각, silence): 여러 세대의 게임 화면이 거대한 황갈색 사막 격자에 겹치고 다른 플레이어 손길들이 같은 붉은 보정점을 건드린다 연출: 무대사·무자막 풀페이지. 40년은 기기 세대 차이로 표현. 문자 없음
+- p8-1 (탁상 탑숏, normal): 왕먀오가 보존된 지역별 로그의 플레이어 입력을 분류한다 연출: 보존 표본일 뿐 전체 기록 보존을 뜻하지 않음. 라벨 후처리
+- p8-2 (세 화면 병렬, impact): 세 입력의 결과가 192호와 같은 임계선에서만 지워졌다 다시 그려진다 연출: 공통 조건은 명백하게, 결과 세부는 다르게
+- p8-3 (손·기록 근접, normal): 스치친이 지역별 기록 더미의 빈 칸을 짚는다 연출: 누락된 자료를 정직하게 노출
+- p8-4 (오버숄더 중경, normal): 왕먀오가 보존 표본과 미확인 구간을 다른 색으로 표시한다 연출: 확인과 추론을 구분
+- p9-1 (필름 탑숏, normal): 왕먀오가 EP007의 인위적 오차 입력과 위조 출력선을 게임 임계선 아래 놓는다 연출: 현실 청회색, 게임 황갈색. 톱니만 빨강
+- p9-2 (그래프 매크로, impact): 가속기 보정선이 게임 보정선에 가까워지지만 미세하게 벌어진다 연출: 가짜 승리: 서로 닮은 두 선이 완전히 겹치지 않음
+- p9-3 (역광 측면, normal): 스치친이 축척이 다른 두 필름을 불빛에 비춘다 연출: 형사가 비교 조건을 묻는다
+- p9-4 (렌즈·그래프 근접, normal): 왕먀오가 입력을 정규화해 분기 순서와 되감기 지연은 맞지만 절대 시간은 다름을 확인한다 연출: 같은 코드 확정은 보류. 공통 구조만 결론
+- p10-1 (화면 극근접, normal): 왕먀오가 192호 숨은 분기의 마지막 프레임을 확대한다 연출: 표면 엔딩 아래 결과 덮어쓰기 흔적
+- p10-2 (게임 화면 분할 매크로, impact): 지워진 분기에서 탑 그림자가 움직이기 전 탈수 인체 그림자가 먼저 이동한다 연출: 원인과 결과의 순서가 뒤집힌 한 프레임. 렌더링 오류
+- p10-3 (탁상 투샷, normal): 왕먀오가 이 보정 순서를 EP007 가속기 출력 옆에 놓는다 연출: 공통 구조를 보이되 동일 시스템 증명으로 그리지 않음
+- p10-4 (어깨 너머 근접, normal): 스치친이 종료 게임 화면을 보며 희미하게 웃는다 연출: 건조한 농담이 중간 승리의 표지
+- p11-1 (풀페이지 낮은 초광각, silence): 192호 폐허의 거대 관측탑 아래 수많은 플레이어 발자국이 붉은 보정 균열 앞에서 끊기고 뒤집힌 그림자만 남는다 연출: 무대사·무자막 풀페이지. 가짜 승리 뒤 함정의 정적. 탈수 인체는 배경 실루엣

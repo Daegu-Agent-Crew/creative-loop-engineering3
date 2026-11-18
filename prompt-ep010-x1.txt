@@ -1,0 +1,45 @@
+EP010 (S2E05 면벽하지 않는 자들) phase4 panel generation - parallel group ep010-x1 (pages 1-4).
+
+MANDATORY CHARACTER LOCK (chairman directive v6, 2026-11-13 13:31 - omit and the whole batch fails):
+BEFORE generating anything, READ these canonical sheets:
+- episodes/EP006/characters/assets/wangmiao-canonical.png (Wangmiao)
+- episodes/EP006/characters/assets/shi-qiang-canonical.png (Shi Qiang)
+- episodes/EP010/characters/assets/yangdong-canonical.png (Yang Dong, NEW this episode)
+Also READ episodes/EP006/panels/assets/p2-1.png (Wangmiao) and episodes/EP006/panels/assets/p3-1.png (Shi Qiang) and match facial proportions, outfits, ink weight and shading EXACTLY (chairman directive 2026-11-10 07:30).
+Then WRITE a 3-line description of each character's features from the sheets in your log BEFORE the first generation. Generating without these descriptions is forbidden.
+Before generating EACH panel, print one confirmation line in your log:
+[CHARLOCK] <panel_id>: <character names> = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+For panels with no characters print: [CHARLOCK] <panel_id>: no characters (scenery/graphic only).
+Post-hoc character QA comparison is NOT performed - this pre-read procedure is the only guarantee. Follow it strictly.
+
+CHARACTER DNA (fixed):
+- Wangmiao (왕먀오): 30s Chinese man, neat black hair, big horn-rimmed glasses with white light reflection, thin build, blue-grey shirt (no lab coat), sleeves neatly rolled. Calm scholar posture.
+- Shi Qiang (스치친): 40s Chinese man, messy black hair, heavy stubble/beard, narrow tired shrewd eyes, heavy build, worn olive jacket, unlit cigarette between fingers; coffee cup is this episode's signature prop.
+- Yang Dong (양동, NEW): 20s Chinese woman, oval face slightly longer than wide, narrow forehead, small straight nose, thin eyebrows, calm almond eyes, neat small mouth; straight black hair below shoulders with bangs swept from her left to her right; light sky-blue blouse under grey cardigan, small brown leather document bag. Calm, observant, restrained. Follow episodes/EP010/characters/assets/yangdong-canonical.png EXACTLY.
+- Sophon system (소페르): NO human form. Appears ONLY as red sawtooth waveform, geometric UI totems and glitch shapes. No letters/numbers in image - precise values are post-processed SVG overlay.
+- PDC 실험 책임자: institutional proxy. Face kept in half-shadow, no fixed look, dark suit. Do NOT give a memorable face.
+- Palette: present-day scenes = blue-grey cool tone; flashback (page 12 청신) = warm sepia.
+
+Use the built-in image_gen tool to generate and save each panel image to:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP010/panels/assets/<panel_id>.png
+
+STYLE_BLOCK at the front of every prompt:
+Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+Common rules: NO Korean text/letters in images (post-process SVG overlay). Full-page/silence panels get maximum impact. After saving, verify each file is over 300KB, retry if not. Print the size table at the end.
+
+Panels:
+
+- p1-1 (풀페이지 탑숏, silence) [in frame: no characters]: EP009의 경계 입력 시험 카드 세 장이 감시점 아래 펼쳐지고 그림자는 세 방향으로 뻗는다 연출: 무언 풀페이지. 도형만, 글자 없음
+- p2-1 (탁상 오버숄더, normal) [in frame: 왕먀오]: 왕먀오가 세 카드의 서로 다른 경계 도형을 짚는다 연출: EP009 카드 그대로. 단정한 검은 머리, 큰 뿔테 안경, 청회색 셔츠, 마른 체형
+- p2-2 (이인물 중경, normal) [in frame: 스치친, 왕먀오]: 스치친이 감시 카메라를 향해 꺼진 담배를 든다 연출: 헝클어진 검은 머리, 수염, 좁은 피곤한 눈, 낡은 올리브 재킷
+- p2-3 (손 근접, normal) [in frame: 왕먀오]: 왕먀오가 보정을 올리는 손과 내리는 손을 반대 방향 화살표로 그린다 연출: 실험 결과가 아닌 입력 설계. 글자는 후처리
+- p2-4 (천장 로우앵글, impact) [in frame: no characters]: 붉은 감시점이 세 카드 모두에 빛을 던진다 연출: 데이터를 다 본다는 시각 표현. 의도 독해 불능은 아직 가설
+- p3-1 (투명판 정면, normal) [in frame: 왕먀오]: 투명판 위 서로 반대인 두 보정 곡선이 중앙 예측선을 흐린다 연출: 곡선만 이미지에, 이름과 수치는 후처리
+- p3-2 (벽면 와이드, normal) [in frame: no characters]: 벽면에 서로 다른 시설 장치의 준비 화면이 열린다 연출: 각 시설 통신은 유지하고 설정만 달리함
+- p3-3 (손 근접, normal) [in frame: 스치친]: 스치친이 장치보다 안전 중단 손잡이를 먼저 확인한다 연출: 불붙지 않은 담배. 조기 중단 권한을 시각화
+- p3-4 (대칭 탑숏, normal) [in frame: 왕먀오]: 왕먀오가 원본 봉인 장치와 독립 보존 장치를 나란히 둔다 연출: 위조와 사람의 오판을 가를 대조군 씨앗
+- p4-1 (회의실 중경, normal) [in frame: PDC 실험 책임자, 왕먀오]: PDC 실험 책임자가 세 카드와 병렬 설계 도형을 마주 본다 연출: 제도적 상대 대리인. 얼굴은 반그림자, 외형 고정 없음
+- p4-2 (손 근접, normal) [in frame: PDC 실험 책임자]: 책임자의 승인 도장이 종이 위에서 멈춘다 연출: 한 가설만 승인하겠다는 압박
+- p4-3 (얼굴 근접, normal) [in frame: 왕먀오]: 왕먀오의 안경에 반대 방향 두 곡선이 겹쳐 비친다 연출: 명료한 과학과 모호한 전술 사이의 갈등
+- p4-4 (측면 중경, normal) [in frame: 스치친, PDC 실험 책임자]: 스치친이 일렬로 놓인 빈 의자를 가리킨다 연출: 건조한 농담으로 단일 계획의 취약점 제시

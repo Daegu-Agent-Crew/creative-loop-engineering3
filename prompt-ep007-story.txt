@@ -1,0 +1,15 @@
+EP007 「버그 리포트」 S2E02 「적의 실험 장치」 phase1 스토리 제작.
+
+원안: episodes/EP007/story/source-story.md (adaptations/season2-bug-report) — "### S2E02 「적의 실험 장치」 — 검증" 섹션이 이 화의 범위다. 직전 화: EP006 (오차의 결 — 왕머여·스치친이 가속기 위조의 '살아있는 시뮬레이션' 가설에 도달).
+
+절차 (EP006 v5 파이프라인 동일):
+1. episodes/EP007/story/analysis.md — 원안 분석·연결점(EP006 마지막 장면에서 이어지게)
+2. episodes/EP007/story/outline.md — 15p 아웃라인, 감정 곡선
+3. episodes/EP007/story/scenes.md — 장면 분해
+4. episodes/EP007/script/script.md + script.json — 페이지별 패널 표 (패널|내용|연출메모|대사·후처리텍스트|카메라|색감|visual_type), 45컷 내외. 무대사 풀페이지 3~4장 포함(EP006 패턴: p1·중반·후반).
+5. episodes/EP006/script/panel-script.json 형식을 참조해 episodes/EP007/script/panel-script.json 작성
+6. episodes/EP007/storyboard/storyboard.json — episodes/EP006/storyboard/storyboard.json 스키마 동일 준수
+
+캐릭터 연속성: 왕머여(단정한 검은 머리·큰 뿔테 안경·청회색 셔츠·마른 체형), 스치친(헝클어진 검은 머리·수염·좁은 피곤한 눈·낡은 올리브 재킷·담배). 대사 톤: 스치친 건조한 유머, 왕머여 절제된 정확함. 이미지에 한글 텍스트 금지 규칙은 대사·후처리텍스트 컬럼으로 유지.
+
+완료 후 각 파일 경로와 패널 수를 출력하라.

@@ -1,0 +1,21 @@
+EP006 「버그 리포트」 phase4 패널 생성 — 배치 1 (p1-1, p2-1, p2-2, p2-3, p2-4).
+
+내장 image_gen 도구로 아래 5개 패널 이미지를 생성하라. 각 이미지는 절대 경로로 저장:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP006/panels/assets/<panel_id>.png
+
+모든 프롬프트 맨 앞에 STYLE_BLOCK 필수:
+STYLE_BLOCK: Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+공통 규칙:
+- 이미지에 한글 텍스트·글자·자막 절대 금지 (대사는 후처리 SVG 오버레이). UI/파형 그래프는 시각적 형태만.
+- 왕먀오 참고: 단정한 검은 머리, 큰 뿔테 안경, 청회색 셔츠, 마른 체형. 참고자산 episodes/EP001/characters/assets/wangmiao-v1.png (읽어서 일관성 유지)
+- 세로 만화 페이지 규격, 패널 하나 = 이미지 하나.
+
+패널:
+1. p1-1 (풀페이지 광각·화면 속 화면, impact): 6대륙의 독립 관제실을 비추는 제네바의 여섯 모니터. 모든 파형에 같은 톱니 오차. 세계 지도 핀과 굳은 연구원들의 손. 빨간 톱니만 반복되어 동일 지문이 첫눈에 보이게. 얼굴은 둥근 실루엣, 손가락은 화면 앞에서 정지. 청색+신호 빨강.
+2. p2-1 (중경 후면→렌즈, silence): 왕먀오가 접은 연구 가운을 책상에 올린다. 안경 한쪽에 함대 돛의 잔상이 비친다(잔상은 흐릿한 기억 톤). 어깨가 내려앉고 손끝이 소매를 반듯하게 편다. 청회색+따뜻한 스탠드 조명.
+3. p2-2 (화면 클로즈업, normal): 여섯 관제실의 공통 지문 알림이 화면에 겹친다. 왕먀오가 모니터를 뒤집는다. 눈이 알림을 따라가다 피하고 손바닥이 화면 모서리를 세게 민다. 차가운 청색+빨강.
+4. p2-3 (반사 극클로즈업, normal): 꺼진 듯한 화면 유리에 빨간 톱니 파형과 왕먀오 얼굴이 함께 반사된다. 입은 닫혀 있고 시선은 반사에서 떨어지지 않는다. 검정+신호 빨강.
+5. p2-4 (손 클로즈업, silence): 가운 아래로 연구 노트 한 장이 삐져나온다. 왕먀오가 뽑으려다 멈춘다. 접힌 손가락이 종이 끝에 걸린 채 굳는다. 책상 여백을 크게. 청회색+호박색.
+
+완료 후 각 파일 크기를 출력하라. 파일이 수십 KB 이하면 실패로 간주하고 재시도.

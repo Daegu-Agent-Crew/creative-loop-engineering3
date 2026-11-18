@@ -1,0 +1,15 @@
+EP006 phase4 panel generation - batch 5 (pages 8-9).
+
+Use the built-in image_gen tool to generate and save each panel image to:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP006/panels/assets/<panel_id>.png
+
+STYLE_BLOCK at the front of every prompt:
+Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+Common rules: NO Korean text/letters in images (post-process SVG overlay). Wangmiao = neat black hair, big horn-rimmed glasses, blue-grey shirt, thin build (reference episodes/EP001/characters/assets/wangmiao-v1.png). Shi Qiang = messy black hair, beard, narrow tired eyes, worn olive jacket. Page 8 is a full-page wordless panel - give it maximum visual storytelling impact. After saving, verify each file is over 300KB, retry if not. Print the size table at the end.
+
+Panels:
+- p8-1 (풀페이지 먼 광각, silence): 오염 표본이 쌓인 책상 앞에 작은 왕먀오. 보고서가 미끄러져 빈 검증 칸을 드러내고 펜이 바닥에 놓인다. 거대한 벽 여백. 연출: 무대사·무자막 풀페이지. 손이 펜을 놓는 순간, 안경 속 눈은 아래를 본다. 긴 정지와 자기 의심.
+- p9-1 (탁상 낮은 앵글, normal): 스치친이 삼체 게임의 오래된 로그 저장 장치를 책상 위로 민다. 연출: 거친 손이 장치를 조심스럽게 건넨다.
+- p9-2 (화면 정면 광각, normal): 게임 로그의 둥근 행성 UI, 문명 건설→붕괴→재시작 아이콘과 빈 디버거 질문창이 펼쳐진다. 연출: 현실 화면보다 채도를 높이고 원근을 살짝 휘게 한다. 텍스트는 후처리.
+- p9-3 (눈·화면 교차 클로즈업, impact): 왕먀오가 게임 물리 버그의 작은 톱니에서 스크롤을 멈춘다. 연출: 손가락이 마우스 위에 뜬 채, 눈은 오래된 공포 대신 호기심에 고정된다.

@@ -1,0 +1,18 @@
+EP006 phase4 panel generation - batch 3 (pages 4-5).
+
+Use the built-in image_gen tool to generate and save each panel image to:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP006/panels/assets/<panel_id>.png
+
+STYLE_BLOCK at the front of every prompt:
+Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+Common rules: NO Korean text/letters in images (post-process SVG overlay). Wangmiao = neat black hair, big horn-rimmed glasses, blue-grey shirt, thin build (reference episodes/EP001/characters/assets/wangmiao-v1.png). Shi Qiang = messy black hair, beard, narrow tired eyes, worn olive jacket. After saving, verify each file is over 300KB, retry if not. Print the size table at the end.
+
+Panels:
+- p4-1 (광각 벽면, normal): 왕먀오가 40년치 폐기 자료를 연도순으로 벽에 붙인다. 스치친은 떨어지는 클립을 잡는다. 연출: 처음엔 느슨하던 손목이 연도를 맞출수록 빠르게 움직인다.
+- p4-2 (서식 인서트, normal): 오래된 오류 보고 양식의 제출처 빈칸과 톱니가 함께 보인다. 왕먀오 손의 폐기 도장이 허공에 멈춘다. 연출: 도장을 쥔 손에 힘이 들어가지만 찍지 못한다. 글자 자리만 비워 둔다.
+- p4-3 (정면 밀착 중경, impact): 서로 다른 해의 파형에 같은 톱니가 한 세로선으로 정렬된다. 연출: 왕먀오의 동공 초점이 날카롭게 맞고 스치친이 뒤에서 몸을 기울인다.
+- p5-1 (화면 정면, normal): 이론 예측의 청색 그래프 위에 위조 데이터의 붉은 그래프를 투사한다. 연출: 왕먀오 손목이 조심스레 두 슬라이드를 겹친다.
+- p5-2 (그래프 매크로, normal): 두 곡선이 거의 같지만 위조 곡선의 잔떨림이 더 적다. 연출: 작은 차이를 읽을 수 있도록 굵은 깨끗한 선, 라벨 자리 확보.
+- p5-3 (측면 중경, normal): 왕먀오가 안경을 밀어 올린다. 스치친은 먼지인 줄 알고 화면을 닦는다. 연출: 왕먀오의 입이 반쯤 열리고, 스치친 손의 천은 화면에서 멈춘다.
+- p5-4 (안경 극클로즈업, impact): 왕먀오의 큰 뿔테 렌즈 안에 이론선과 더 매끈한 위조선 사이의 가느다란 결이 반사된다. 연출: 흰 렌즈 반사 속 눈동자가 흔들리되 초점을 잃지 않는다. 페이지의 시각적 역설.

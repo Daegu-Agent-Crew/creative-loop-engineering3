@@ -1,0 +1,21 @@
+EP010 (S2E05 면벽하지 않는 자들) phase2 - create the CANONICAL CHARACTER SHEET for a NEW character: 양동 (Yang Dong).
+
+MANDATORY CHARACTER LOCK (chairman directive v6): The two attached reference images are the canonical sheets for Wangmiao and Shi Qiang. READ them first. Describe their ink line weight, cell-shading and proportions in 3 lines each, THEN start. The new sheet must share EXACTLY the same art style: bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character design, 1980s Akira Toriyama manga aesthetic. Also READ episodes/EP006/panels/assets/p2-1.png (Wangmiao) and episodes/EP006/panels/assets/p3-1.png (Shi Qiang) to match facial proportion language of this series.
+
+CHARACTER DNA (fixed, never deviate):
+- 20s Chinese woman, physicist, calm quiet presence.
+- Face: oval face slightly longer than wide, narrow forehead, gentle cheekbones, small straight nose, thin eyebrows, calm almond eyes, neat small mouth. Serene, observant, restrained expression.
+- Hair: straight black hair falling below shoulders, parted with bangs swept from her left to her right.
+- Outfit: light sky-blue blouse under a grey cardigan, small brown leather document bag (holds her mother's handwritten manuscript).
+- Similarity to her mother Ye Wenjie (series EP001 elderly scientist): ONLY calm eye shape and restrained mouth. Daughter-generation modern look.
+
+SHEET LAYOUT (single image, plain light neutral background, NO text/letters/labels anywhere):
+- Top row: bust front view, bust 3/4 view, bust side view.
+- Middle row: calm expression, subtle smile, quiet resolve (three expressions).
+- Bottom row: full-body standing (with document bag), hands close-up holding manuscript folder.
+Match the composition style of the attached canonical sheets.
+
+Use the built-in image_gen tool. Save to:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP010/characters/assets/yangdong-canonical.png
+
+NO Korean text/letters in the image. Verify the file is over 300KB, retry if not. Print the file size at the end.

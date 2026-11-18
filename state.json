@@ -1,5 +1,5 @@
 {
-  "current_episode": "EP011",
+  "current_episode": "EP012",
   "current_phase": "phase6_release",
   "episodes": {
     "EP001": {
@@ -329,7 +329,7 @@
     },
     "EP007": {
       "title": "적의 실험 장치",
-      "status": "in_progress",
+      "status": "completed",
       "current_phase": "phase6_release",
       "phases": {
         "phase0": {
@@ -379,9 +379,8 @@
           "note": "SVG 파이널 45/45·텍스트 오버레이 25(무대사 풀페이지는 설계상 침묵)·미리보기 뷰어 Pages 배포(2026-11-10). QA 자동 정적 검증 37/50. 1.4MB 초과 PNG 5건 재최적화."
         },
         "phase6": {
-          "status": "pending",
-          "score": null,
-          "note": "발행 승인 대기(사람). 뷰어 링크 #가재코드 cle3 제출."
+          "status": "completed",
+          "note": "발행 승인(2026-11-19 08:34)"
         }
       },
       "season": 2,
@@ -390,7 +389,7 @@
     },
     "EP008": {
       "title": "1379번 감시자의 편지",
-      "status": "in_progress",
+      "status": "completed",
       "current_phase": "phase6_release",
       "phases": {
         "phase0": {
@@ -427,8 +426,8 @@
           "note": "오버레이 45·QA 42/50 (자동 검증)"
         },
         "phase6": {
-          "status": "pending",
-          "note": "발행 승인 대기"
+          "status": "completed",
+          "note": "발행 승인(2026-11-19 08:34)"
         }
       },
       "season": 2,
@@ -437,7 +436,7 @@
     },
     "EP009": {
       "title": "게임은 QA였다",
-      "status": "in_progress",
+      "status": "completed",
       "current_phase": "phase6_release",
       "phases": {
         "phase0": {
@@ -476,8 +475,8 @@
           "note": "오버레이 45·QA 42/50"
         },
         "phase6": {
-          "status": "pending",
-          "note": "발행 승인 대기"
+          "status": "completed",
+          "note": "발행 승인(2026-11-19 08:34)"
         }
       },
       "season": 2,
@@ -486,7 +485,7 @@
     },
     "EP010": {
       "title": "면벽하지 않는 자들",
-      "status": "in_progress",
+      "status": "completed",
       "current_phase": "phase6_release",
       "phases": {
         "phase0": {
@@ -519,8 +518,8 @@
           "note": "오버레이 45·QA 43/50"
         },
         "phase6": {
-          "status": "pending",
-          "note": "발행 승인 대기"
+          "status": "completed",
+          "note": "발행 승인(2026-11-19 08:34)"
         }
       },
       "season": 2,
@@ -529,7 +528,7 @@
     },
     "EP011": {
       "title": "버그 리포트 제출",
-      "status": "in_progress",
+      "status": "completed",
       "current_phase": "phase6_release",
       "phases": {
         "phase0": {
@@ -566,8 +565,8 @@
           "note": "오버레이 45·QA 43/50·프리뷰 45·뷰어 완성"
         },
         "phase6": {
-          "status": "pending",
-          "note": "발행 승인 대기"
+          "status": "completed",
+          "note": "발행 승인(2026-11-19 08:34)"
         }
       },
       "season": 2,

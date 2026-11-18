@@ -48,11 +48,14 @@
       "id": "release",
       "label": "Release Approval",
       "phase": "phase6",
-      "status": "pending",
+      "status": "approved",
       "blocking": true,
-      "approved_by": null,
-      "approved_at": null,
-      "evidence": [],
+      "approved_by": "회장님 (sfex11) — \"승인\" 2026-11-19 08:34 KST",
+      "approved_at": "2026-11-19T08:34:00Z",
+      "evidence": [
+        "https://daegu-agent-crew.github.io/creative-loop-engineering3/episodes/EP010/",
+        "episodes/EP010/qa/qa.json"
+      ],
       "notes": "Phase 5 QA 통과 후 사람이 공개 가치를 최종 승인한다."
     }
   ]

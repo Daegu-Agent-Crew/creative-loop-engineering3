@@ -1,0 +1,25 @@
+EP007 phase4 panel generation - batch 3 (pages 5-7).
+
+MANDATORY CONSISTENCY STEP (chairman directive 2026-11-10): BEFORE generating, READ these canonical reference images: episodes/EP006/panels/assets/p2-1.png (Wangmiao canonical) and episodes/EP006/panels/assets/p3-1.png (Shi Qiang canonical). Match their facial proportions, outfit details, ink weight and shading style EXACTLY. Character and art style continuity with EP006 is a hard requirement.
+
+Use the built-in image_gen tool to generate and save each panel image to:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP007/panels/assets/<panel_id>.png
+
+STYLE_BLOCK at the front of every prompt:
+Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+Common rules: NO Korean text/letters in images (post-process SVG overlay). Wangmiao = neat black hair, big horn-rimmed glasses, blue-grey shirt, thin build (also reference episodes/EP001/characters/assets/wangmiao-v1.png). Shi Qiang = messy black hair, beard, narrow tired eyes, worn olive jacket. After saving, verify each file is over 300KB, retry if not. Print the size table at the end.
+
+Panels:
+- p5-1 (탁상 광각, normal): 왕머여가 같은 톱니 카드 여섯 장을 펼친다. 연출: 규칙적 배열이 너무 깔끔해 보이게 한다.
+- p5-2 (손 낮은 앵글, normal): 스치친이 카드 한 장을 빼고 신발 자국처럼 비스듬히 돌린다. 연출: 낡은 재킷 소매가 카드 위를 스친다.
+- p5-3 (탑숏 매크로, impact): 여섯 카드가 삼각·계단·갈고리·갈라진 선·짧은 점·톱니로 달라진다. 연출: 문자 없는 도형으로 한눈에 구분한다.
+- p5-4 (오버숄더, normal): 왕머여가 카드 뒤에 서로 다른 시각표를 놓는다. 연출: 마른 손이 급하게 움직이다 마지막 카드에서 멈춘다. 시각은 후처리.
+- p6-1 (분할 화면, normal): 서로 다른 시설의 시계를 맞추는 연구원 손들이 영상 창에 보인다. 연출: 숫자는 비우고 초침 각도만 비교한다.
+- p6-2 (스위치 인서트, normal): 왕머여가 한 장비의 교란 스위치에 투명 덮개를 씌운다. 연출: 대조군의 봉인 띠만 온전하다.
+- p6-3 (손·얼굴 중경, normal): 스치친이 입력 카드 봉투를 봉인하고 자신의 손도 화면 밖으로 뺀다. 연출: 수염 밑 입꼬리는 얇고 눈은 진지하다.
+- p6-4 (사선 오버숄더, impact): 검증위원이 봉투와 대조군을 확인하고 서명 칸에 펜을 댄다. 연출: 서명 글자는 후처리. 펜의 접촉 순간만 보여준다.
+- p7-1 (낮은 앵글 중경, normal): 검증위원이 한 손가락을 들어 단 한 차례 시험을 허락한다. 연출: 손가락 뒤 여섯 화면의 검은 천이 벗겨지기 시작한다.
+- p7-2 (렌즈 클로즈업, normal): 왕머여가 여섯 입력 키의 서로 다른 모양을 확인한다. 연출: 안경의 흰 반사가 여섯 칸으로 쪼개진다.
+- p7-3 (분할 화면 탑숏, silence): 여섯 손가락이 시설마다 다른 키 위에서 각자의 예정 시각을 기다린다. 연출: 누르기 직전의 손톱과 굳은 관절에 긴장.
+- p7-4 (선·손 극근접, impact): 첫 키가 눌리고 파란 입력선 하나가 꺾인다. 빨간 출력선은 아직 그대로다. 연출: 파란 변화가 빨간 선보다 먼저임을 분명히 한다.

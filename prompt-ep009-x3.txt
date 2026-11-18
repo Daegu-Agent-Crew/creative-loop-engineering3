@@ -1,0 +1,23 @@
+EP009 (S2E04 게임은 QA였다) phase4 panel generation - parallel group ep009-x3.
+
+MANDATORY CONSISTENCY STEP (chairman directive): BEFORE generating, READ: episodes/EP006/panels/assets/p2-1.png (Wangmiao) and episodes/EP006/panels/assets/p3-1.png (Shi Qiang). Match facial proportions, outfit, ink weight, shading EXACTLY. Flashback = warm sepia; present = blue-grey. Game-world (Three Body game) scenes = stylized desaturated gold/sand palette.
+
+Use the built-in image_gen tool to save each panel to:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP009/panels/assets/<panel_id>.png
+
+STYLE_BLOCK:
+Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+NO Korean text in images. Full-page panels get maximum impact. Verify each file over 300KB, retry if not. Print size table.
+
+Panels:
+- p12-1 (화면·얼굴 근접, normal): 왕먀오가 같은 저장 파일을 재생하자 숨은 분기 아이콘이 사라진다 연출: 실시간 연결을 끊지 않은 복제본. 증거 소실 위험
+- p12-2 (손·봉투 탑숏, normal): 스치친이 원본을 봉투에 밀고 케이블을 뽑는다 연출: 꺼진 담배를 내려놓고 증거를 지킨다
+- p12-3 (렌즈 극근접, impact): 복제본 캐시가 덮이고 왕먀오 안경 속 원래 프레임이 희미해진다 연출: 증거의 죽음. 미세하게 굳은 어깨
+- p13-1 (종이 인서트, normal): 스치친이 뽑아 둔 원본과 앞서 출력한 프레임 비교지를 내민다 연출: 프린트엔 두 그림자 선만. 복제본과 독립된 기록
+- p13-2 (오버숄더 중경, normal): 왕먀오가 원본을 오프라인 복제하고 탑 경사 입력을 단계별로 바꾼다 연출: 오염을 줄이는 재현 절차. 글자·숫자 후처리
+- p13-3 (화면·손 근접, impact): 오프라인 재생에서 192호의 두 그림자 경계와 한 프레임 역전이 다시 나타난다 연출: p4·p10 단서 재현
+- p14-1 (카드 탑숏, normal): 왕먀오가 재현 가능한 경계 입력 세 건을 카드에 옮긴다 연출: 탑 경사·먼지 낙하·그림자 갱신. 글자는 후처리
+- p14-2 (이인물 측면 중경, normal): 스치친이 카드를 가속기 시험 계획서 빈 칸 옆에 놓는다 연출: 실제 시험은 다음 화. 질문할 위치만 결정
+- p14-3 (손·렌즈 근접, impact): 왕먀오가 카드에 검증 전 표시를 남기고 현재 위조 출력 옆에 둔다 연출: 침착한 결론. 표시는 SVG 후처리
+- p15-1 (풀페이지 다층 초광각, silence): 현실의 시험 카드 세 장 뒤로 40년의 게임 폐허와 여러 세대 플레이어 손이 겹친다. 카드의 선은 붉은 위조 엔진의 빈 중심을 향하다 닿기 전 멈춘다 연출: 무대사·무자막 풀페이지. 게임과 현실 색 경계 선명. 글자·숫자 없음

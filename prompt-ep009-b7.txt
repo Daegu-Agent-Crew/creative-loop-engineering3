@@ -1,0 +1,21 @@
+EP009 phase4 panel generation - batch 7 (pages 13-14).
+
+MANDATORY CONSISTENCY STEP (chairman directive 2026-11-10): BEFORE generating, READ these canonical reference images: episodes/EP006/panels/assets/p2-1.png (Wangmiao canonical) and episodes/EP006/panels/assets/p3-1.png (Shi Qiang canonical). Match their facial proportions, outfit details, ink weight and shading style EXACTLY. Hard requirement.
+
+NOTE (EP009): Tri-Solaris in-game scenes use the dry ochre / dehydrated-body dystopian palette inherited from EP003-EP004 game worlds; real-world scenes stay in the present-day blue-grey tone. Keep the two clearly distinguishable.
+
+Use the built-in image_gen tool to generate and save each panel image to:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP009/panels/assets/<panel_id>.png
+
+STYLE_BLOCK at the front of every prompt:
+Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+Common rules: NO Korean text/letters in images (post-process SVG overlay). Wangmiao = neat black hair, big horn-rimmed glasses, blue-grey shirt, thin build. Shi Qiang = messy black hair, beard, narrow tired eyes, worn olive jacket. Page 13 opening panels carry the impact beat. After saving, verify each file is over 300KB, retry if not. Print the size table at the end.
+
+Panels:
+- p13-1 (종이 인서트, normal): 스치친이 뽑아 둔 원본과 앞서 출력한 프레임 비교지를 내민다 연출: 프린트엔 두 그림자 선만. 복제본과 독립된 기록
+- p13-2 (오버숄더 중경, normal): 왕먀오가 원본을 오프라인 복제하고 탑 경사 입력을 단계별로 바꾼다 연출: 오염을 줄이는 재현 절차. 글자·숫자 후처리
+- p13-3 (화면·손 근접, impact): 오프라인 재생에서 192호의 두 그림자 경계와 한 프레임 역전이 다시 나타난다 연출: p4·p10 단서 재현
+- p14-1 (카드 탑숏, normal): 왕먀오가 재현 가능한 경계 입력 세 건을 카드에 옮긴다 연출: 탑 경사·먼지 낙하·그림자 갱신. 글자는 후처리
+- p14-2 (이인물 측면 중경, normal): 스치친이 카드를 가속기 시험 계획서 빈 칸 옆에 놓는다 연출: 실제 시험은 다음 화. 질문할 위치만 결정
+- p14-3 (손·렌즈 근접, impact): 왕먀오가 카드에 검증 전 표시를 남기고 현재 위조 출력 옆에 둔다 연출: 침착한 결론. 표시는 SVG 후처리

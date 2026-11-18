@@ -1,0 +1,21 @@
+EP008 phase4 panel generation - batch 4 (pages 10-12).
+
+MANDATORY CONSISTENCY STEP (chairman directive): BEFORE generating, READ: episodes/EP006/panels/assets/p2-1.png (Wangmiao) and episodes/EP006/panels/assets/p3-1.png (Shi Qiang). Match facial proportions, outfit, ink weight, shading EXACTLY. Flashback (1967-80s) = warm sepia; present = blue-grey.
+
+Use the built-in image_gen tool to save each panel to:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP008/panels/assets/<panel_id>.png
+
+STYLE_BLOCK:
+Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+NO Korean text in images. Verify each file over 300KB, retry if not. Print size table.
+
+Panels:
+- p10-1 (문턱 낮은 앵글, normal): 보관실 문이 열리고 ETO 잔당 두 사람이 외투 아래 절단 도구를 꺼낸다 연출: 얼굴보다 손과 도구. 조직 정체는 대사로 드러낸다
+- p10-2 (사선 광각, impact): 스치친이 서류를 반대로 던져 시선을 빼고 왕머여를 출구로 민다 연출: 올리브 재킷과 수염. 싸움보다 시간 벌기
+- p10-3 (손·기기 매크로, normal): 왕머여가 나가기 전 찢긴 도식 가장자리를 휴대 기기로 촬영한다 연출: 글자 없음. 떨리는 엄지와 정확한 프레임
+- p10-4 (종이 극근접, normal): ETO 잔당의 절단 도구가 원본 위에 내려오고 스치친 손이 기기를 가린다 연출: 결과를 보여주기 전 검은 그림자로 종이를 덮는다
+- p11-1 (풀페이지 바닥 탑숏, silence): 잘린 편지 도식의 종이 조각이 바닥에 흩어지고 한 조각의 톱니는 타지 않고 남는다 연출: 무대사·무자막 풀페이지. 세피아 종이와 차가운 바닥 대비. 증거 상실의 죽음 냄새
+- p12-1 (기기·얼굴 근접, normal): 계단참에서 왕머여가 촬영 영상을 확대하지만 마지막 진단 줄은 손에 가려 있다 연출: 사진의 결핍을 숨기지 않는다. 어깨가 굳는다
+- p12-2 (손 중경, impact): 스치친이 재킷 소매에서 원본이 아닌 얇은 복사지를 꺼낸다 연출: 자랑 없이 조심스럽게 펴는 손. 담배는 귀 뒤
+- p12-3 (종이 사선 매크로, normal): 복사지 눌림에 교정표의 밀린 기준선과 진단 도식 톱니가 함께 남아 있다 연출: 문구는 비우고 압흔 두 층을 빛으로 구분

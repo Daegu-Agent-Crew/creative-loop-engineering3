@@ -1,0 +1,22 @@
+EP007 phase4 panel generation - batch 5 FINAL (pages 12-15).
+
+MANDATORY CONSISTENCY STEP (chairman directive 2026-11-10): BEFORE generating, READ these canonical reference images: episodes/EP006/panels/assets/p2-1.png (Wangmiao canonical) and episodes/EP006/panels/assets/p3-1.png (Shi Qiang canonical). Match their facial proportions, outfit details, ink weight and shading style EXACTLY. Character and art style continuity with EP006 is a hard requirement.
+
+Use the built-in image_gen tool to generate and save each panel image to:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP007/panels/assets/<panel_id>.png
+
+STYLE_BLOCK at the front of every prompt:
+Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+Common rules: NO Korean text/letters in images (post-process SVG overlay). Wangmiao = neat black hair, big horn-rimmed glasses, blue-grey shirt, thin build. Shi Qiang = messy black hair, beard, narrow tired eyes, worn olive jacket. Page 13 and 15 are full-page panels - maximum impact for the finale. After saving, verify each file is over 300KB, retry if not. Print the size table at the end.
+
+Panels:
+- p12-1 (도표 탑숏, impact): 검증위원이 봉인을 열고 대조군의 평평한 선을 여섯 변화 옆에 놓는다. 연출: 봉투가 찢어져도 기록선은 흔들리지 않는다.
+- p12-2 (손·그래프 매크로, normal): 왕머여가 각 시설의 입력 시각과 출력 변화 시각을 서로 다른 투명자로 잰다. 연출: 입력 이전은 빈 여백, 뒤쪽만 붉은 결이 있다.
+- p12-3 (얼굴·도표 중경, normal): 검증위원이 대조선과 오염 출력선을 번갈아 본다. 연출: 눈썹은 풀리지 않지만 도장은 보고서 위에 없다.
+- p13-1 (풀페이지 정면 광각, silence): 여섯 모니터의 서로 다른 지문이 각기 다른 박자로 교란 뒤를 따라 좁아진다. 평평한 대조선은 중앙을 가른다. 연출: 무대사·무자막 풀페이지. 파형은 거대한 악보처럼 수렴하되 지능의 얼굴로 단정하지 않는다.
+- p14-1 (이인물 중경, normal): 왕머여가 위원의 물음 앞에 펼친 손을 책상에 얹는다. 연출: 승리 포즈 대신 손바닥을 평평하게.
+- p14-2 (문서·손 오버숄더, normal): 검증위원이 보고서의 승인 칸을 비워 두고 다음 시험 칸을 가리킨다. 연출: 경계는 유지하고 도장 손은 내린다.
+- p14-3 (측면 중경, normal): 스치친이 두 번째 빈 봉투를 꺼내 왕머여 옆에 놓는다. 연출: 좁은 눈에 웃음기가 돌아오지만 몸은 화면을 향한다.
+- p14-4 (노트 탑숏, impact): 왕머여가 보고서에 제한된 한 줄을 쓰고 아래를 길게 비운다. 연출: 청회색 셔츠 소매를 걷은 손은 흔들리지 않는다. 문장은 후처리.
+- p15-1 (풀페이지 후면 초광각, silence): p1에서 가려졌던 여섯 화면이 열린다. 지문과 후행 보정선이 배열돼 멀리서 하나의 눈 윤곽처럼 보인다. 두 사람은 작은 뒷모습. 연출: 무대사·무자막 풀페이지. 실제 눈이나 소페르 본체는 그리지 않는다. 관측 주체가 겹치는 불안한 종결.

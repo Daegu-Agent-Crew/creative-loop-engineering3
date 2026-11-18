@@ -1,0 +1,19 @@
+EP009 phase4 panel generation - batch 6 (pages 11-12).
+
+MANDATORY CONSISTENCY STEP (chairman directive 2026-11-10): BEFORE generating, READ these canonical reference images: episodes/EP006/panels/assets/p2-1.png (Wangmiao canonical) and episodes/EP006/panels/assets/p3-1.png (Shi Qiang canonical). Match their facial proportions, outfit details, ink weight and shading style EXACTLY. Hard requirement.
+
+NOTE (EP009): Tri-Solaris in-game scenes use the dry ochre / dehydrated-body dystopian palette inherited from EP003-EP004 game worlds; real-world scenes stay in the present-day blue-grey tone. Keep the two clearly distinguishable.
+
+Use the built-in image_gen tool to generate and save each panel image to:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP009/panels/assets/<panel_id>.png
+
+STYLE_BLOCK at the front of every prompt:
+Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+Common rules: NO Korean text/letters in images (post-process SVG overlay). Wangmiao = neat black hair, big horn-rimmed glasses, blue-grey shirt, thin build. Shi Qiang = messy black hair, beard, narrow tired eyes, worn olive jacket. Page 11 opening panels carry the impact beat. After saving, verify each file is over 300KB, retry if not. Print the size table at the end.
+
+Panels:
+- p11-1 (풀페이지 낮은 초광각, silence): 192호 폐허의 거대 관측탑 아래 수많은 플레이어 발자국이 붉은 보정 균열 앞에서 끊기고 뒤집힌 그림자만 남는다 연출: 무대사·무자막 풀페이지. 가짜 승리 뒤 함정의 정적. 탈수 인체는 배경 실루엣
+- p12-1 (화면·얼굴 근접, normal): 왕먀오가 같은 저장 파일을 재생하자 숨은 분기 아이콘이 사라진다 연출: 실시간 연결을 끊지 않은 복제본. 증거 소실 위험
+- p12-2 (손·봉투 탑숏, normal): 스치친이 원본을 봉투에 밀고 케이블을 뽑는다 연출: 꺼진 담배를 내려놓고 증거를 지킨다
+- p12-3 (렌즈 극근접, impact): 복제본 캐시가 덮이고 왕먀오 안경 속 원래 프레임이 희미해진다 연출: 증거의 죽음. 미세하게 굳은 어깨

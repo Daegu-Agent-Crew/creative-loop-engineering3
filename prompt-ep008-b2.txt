@@ -1,0 +1,25 @@
+EP008 phase4 panel generation - batch 2 (pages 4-6).
+
+MANDATORY CONSISTENCY STEP (chairman directive 2026-11-10): BEFORE generating, READ: episodes/EP006/panels/assets/p2-1.png (Wangmiao) and episodes/EP006/panels/assets/p3-1.png (Shi Qiang). Match facial proportions, outfit, ink weight, shading EXACTLY. Hard requirement. Flashback (1967-80s) scenes = warm sepia palette; present = blue-grey.
+
+Use the built-in image_gen tool to generate and save each panel to:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP008/panels/assets/<panel_id>.png
+
+STYLE_BLOCK:
+Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+NO Korean text/letters in images. After saving, verify each file over 300KB, retry if not. Print size table.
+
+Panels:
+- p4-1 (문손잡이 근접, normal): 폐쇄 보관실 앞에서 스치친이 봉인 위 새 접착 흔적을 찾는다 연출: 오래된 먼지 위 새 광택. 잠금장치 파손 없음
+- p4-2 (이인물 중경, normal): 왕머여가 1967년 장비 기록 상자와 편지 보관 상자를 나란히 본다 연출: 연도와 표제는 후처리. 안경 반사는 차갑게
+- p4-3 (보관함 정면, impact): 보관함 안 문서 뭉치의 가운데 한 묶음만 빠져 있다 연출: 종이 단면의 빈 사각형과 새 긁힘을 크게
+- p4-4 (종이 사선 매크로, normal): 왕머여가 남은 교정표 복사 눌림을 사선 빛으로 읽는다 연출: 글자를 비우고 기준선 한 칸 어긋남만 표시
+- p5-1 (기기 정면 중경, normal): 1967년 홍안 교정실에서 낡은 측정기가 두 참조점을 같은 눈금처럼 표시한다 연출: 플래시백의 따뜻한 세피아와 붉은 장비등. 문자와 숫자 없음
+- p5-2 (손 극근접, normal): 기술자의 손이 교정표 기준 칸을 한 칸 밀린 곳에 복사한다 연출: 악의 없는 반복 작업. 얼굴은 숨기고 펜촉과 압흔만
+- p5-3 (도식 탑숏, impact): 서로 다른 두 실측 파형이 교정표를 통과하며 같은 미세 톱니를 얻는다 연출: 물리 현상이 아닌 기록 변환의 오류. 입력과 출력 색을 구분
+- p5-4 (손·화면 오버숄더, normal): 현재 왕머여가 압흔과 여섯 출력의 흠 위치를 맞춘다 연출: 세피아 종이와 차가운 현재 화면이 맞닿는다
+- p6-1 (자료 더미 광각, normal): 홍안 송신 준비실에 신호 원고와 지구 관측 자료 도판이 함께 쌓인다 연출: 플래시백. 인코딩 방식은 확정하지 않는다. 글자 여백
+- p6-2 (손 인서트, impact): 기술자가 잘못 복사된 교정표를 도판 묶음에 끼워 넣는다 연출: 한 장의 모서리가 삐져나와 자료 동봉의 인과를 드러낸다
+- p6-3 (안테나 낮은 앵글, normal): 홍안 안테나가 밤하늘을 향하고 도판의 미세 톱니가 추상 파형으로 이어진다 연출: 텍스트 없는 신호 메타포. 도착 과정은 생략
+- p6-4 (손·얼굴 중경, normal): 현재 스치친이 종이 모서리와 송신 목록 압흔을 맞춘다 연출: 담배를 쥔 손이 멈춘다. 목록 글자는 후처리

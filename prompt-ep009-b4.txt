@@ -1,0 +1,20 @@
+EP009 phase4 panel generation - batch 4 (pages 7-8).
+
+MANDATORY CONSISTENCY STEP (chairman directive 2026-11-10): BEFORE generating, READ these canonical reference images: episodes/EP006/panels/assets/p2-1.png (Wangmiao canonical) and episodes/EP006/panels/assets/p3-1.png (Shi Qiang canonical). Match their facial proportions, outfit details, ink weight and shading style EXACTLY. Hard requirement.
+
+NOTE (EP009): Tri-Solaris in-game scenes use the dry ochre / dehydrated-body dystopian palette inherited from EP003-EP004 game worlds; real-world scenes stay in the present-day blue-grey tone. Keep the two clearly distinguishable.
+
+Use the built-in image_gen tool to generate and save each panel image to:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP009/panels/assets/<panel_id>.png
+
+STYLE_BLOCK at the front of every prompt:
+Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+Common rules: NO Korean text/letters in images (post-process SVG overlay). Wangmiao = neat black hair, big horn-rimmed glasses, blue-grey shirt, thin build. Shi Qiang = messy black hair, beard, narrow tired eyes, worn olive jacket. Page 7 opening panels carry the impact beat. After saving, verify each file is over 300KB, retry if not. Print the size table at the end.
+
+Panels:
+- p7-1 (풀페이지 다층 초광각, silence): 여러 세대의 게임 화면이 거대한 황갈색 사막 격자에 겹치고 다른 플레이어 손길들이 같은 붉은 보정점을 건드린다 연출: 무대사·무자막 풀페이지. 40년은 기기 세대 차이로 표현. 문자 없음
+- p8-1 (탁상 탑숏, normal): 왕먀오가 보존된 지역별 로그의 플레이어 입력을 분류한다 연출: 보존 표본일 뿐 전체 기록 보존을 뜻하지 않음. 라벨 후처리
+- p8-2 (세 화면 병렬, impact): 세 입력의 결과가 192호와 같은 임계선에서만 지워졌다 다시 그려진다 연출: 공통 조건은 명백하게, 결과 세부는 다르게
+- p8-3 (손·기록 근접, normal): 스치친이 지역별 기록 더미의 빈 칸을 짚는다 연출: 누락된 자료를 정직하게 노출
+- p8-4 (오버숄더 중경, normal): 왕먀오가 보존 표본과 미확인 구간을 다른 색으로 표시한다 연출: 확인과 추론을 구분

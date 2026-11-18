@@ -1,0 +1,19 @@
+EP006 phase4 panel generation - batch 6 (pages 10-11).
+
+Use the built-in image_gen tool to generate and save each panel image to:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP006/panels/assets/<panel_id>.png
+
+STYLE_BLOCK at the front of every prompt:
+Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+Common rules: NO Korean text/letters in images (post-process SVG overlay). Wangmiao = neat black hair, big horn-rimmed glasses, blue-grey shirt, thin build (reference episodes/EP001/characters/assets/wangmiao-v1.png). Shi Qiang = messy black hair, beard, narrow tired eyes, worn olive jacket. After saving, verify each file is over 300KB, retry if not. Print the size table at the end.
+
+Panels:
+- p10-1 (정면 중경, normal): 왕먀오가 게임 로그를 왼쪽, 가속기 오차를 오른쪽에 띄운다. 연출: 두 화면을 보는 눈의 움직임이 빨라진다.
+- p10-2 (화면 오버숄더, normal): 그가 게임 화면을 반투명하게 끌어와 현실 파형 위에 놓는다. 연출: 손끝이 떨려 잠시 어긋나지만 곧 정렬한다.
+- p10-3 (접힌 화면 극클로즈업, impact): 두 세계의 톱니가 같은 위치와 방향으로 정확히 겹친다. 연출: 일치점을 큰 빨간 점 대신 얇은 흰 간극 없이 표현한다.
+- p10-4 (이인물 밀착 중경, normal): 왕먀오의 안경과 스치친의 좁은 눈이 같은 일치점을 바라본다. 연출: 왕먀오의 입이 벌어지고 스치친 담배 든 손은 움직이지 않는다.
+- p11-1 (몽타주 1·측면, normal): 과거 카운트다운을 본 왕먀오의 안경 실루엣이 기록 카드 위에 겹친다. 연출: 눈을 피하던 과거의 손이 현재는 기록을 가리킨다.
+- p11-2 (몽타주 2·화면, normal): 삼체 게임 문명의 건설·붕괴 반복 아이콘이 자료 카드로 바뀐다. 연출: 노란 게임색을 청색 기록색과 맞닿게 한다.
+- p11-3 (몽타주 3·역광, normal): EP005 소페르의 '버그' 발언을 검은 말풍선 실루엣으로만 떠올린다. 연출: 말풍선 내용은 후처리. 왕먀오의 어깨가 다시 경직된다.
+- p11-4 (노트 탑숏→얼굴, impact): 왕먀오가 세 기록을 화살표로 묶고 끝에 물음표를 쓴다. 연출: 단정 대신 물음을 남기는 손, 두려운 눈이 그래도 초점을 유지.

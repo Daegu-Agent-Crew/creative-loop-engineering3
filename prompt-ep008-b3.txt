@@ -1,0 +1,22 @@
+EP008 phase4 panel generation - batch 3 (pages 7-9).
+
+MANDATORY CONSISTENCY STEP (chairman directive): BEFORE generating, READ: episodes/EP006/panels/assets/p2-1.png (Wangmiao) and episodes/EP006/panels/assets/p3-1.png (Shi Qiang). Match facial proportions, outfit, ink weight, shading EXACTLY. Flashback (1967-80s) = warm sepia; present = blue-grey.
+
+Use the built-in image_gen tool to save each panel to:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP008/panels/assets/<panel_id>.png
+
+STYLE_BLOCK:
+Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+NO Korean text in images. Verify each file over 300KB, retry if not. Print size table.
+
+Panels:
+- p7-1 (풀페이지 우주 초광각, silence): 지구에서 떠난 가느다란 신호 파형이 검은 우주를 건너 삼체 관측 모형 격자에 들어가고 미세 톱니가 여러 층으로 복제된다 연출: 무대사·무자막 풀페이지. 시간과 정보 흐름의 압축 도식. 우주 물리 자체가 변한 듯 그리지 않는다
+- p8-1 (격자 오버숄더, normal): 1379호가 지구 자료 적용 전후의 관측 예측을 두 투명 격자로 비교한다 연출: 한쪽에만 톱니가 반복. 실루엣 유지
+- p8-2 (손·격자 극근접, impact): 1379호가 오염된 층을 분리하자 예측의 한 갈래가 다시 벌어진다 연출: 모형 입력의 문제라는 시각적 증거. 손은 장갑 같은 추상 실루엣
+- p8-3 (관측실 광각, normal): 다른 감시자들이 더 매끈한 격자를 채택하는 사이 1379호만 손을 거둔다 연출: 집단과 단독의 거리. 얼굴 없음
+- p8-4 (회로 측면 근접, silence): 1379호가 지구 응답 회로 앞에서 손을 멈춘다 연출: 인류에 대한 연민과 오염 회피를 함께 열어 둔다
+- p9-1 (탁상 탑숏, impact): 1379호가 경고 신호를 쓰며 지구 송신 파형의 톱니를 별도 진단 도식으로 붙인다 연출: 문자와 기호는 후처리. 결함 도식이 진의의 증거
+- p9-2 (회로 인서트, normal): 그가 경고와 진단 도식을 갈라 보내자 진단 쪽 송신등이 잠깐 약해진다 연출: 두 조각이 다른 경로를 지나는 씨앗. 통신 세부는 보류
+- p9-3 (렌즈·문서 근접, normal): 현재 왕머여가 잘린 번역본 아래 여백과 교정표의 톱니를 맞춘다 연출: 렌즈에 종이 가장자리만 반사. 번역문은 후처리
+- p9-4 (바닥 낮은 앵글, normal): 스치친이 복도에서 다가오는 구두 그림자를 보고 서류를 접는다 연출: 담배를 빼고 재킷 안쪽으로 복사지를 민다

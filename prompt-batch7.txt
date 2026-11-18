@@ -1,0 +1,15 @@
+EP006 phase4 panel generation - batch 7 (pages 12-13).
+
+Use the built-in image_gen tool to generate and save each panel image to:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP006/panels/assets/<panel_id>.png
+
+STYLE_BLOCK at the front of every prompt:
+Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+Common rules: NO Korean text/letters in images (post-process SVG overlay). Wangmiao = neat black hair, big horn-rimmed glasses, blue-grey shirt, thin build (reference episodes/EP001/characters/assets/wangmiao-v1.png). Shi Qiang = messy black hair, beard, narrow tired eyes, worn olive jacket. Page 13 is a full page panel - maximum impact. After saving, verify each file is over 300KB, retry if not. Print the size table at the end.
+
+Panels:
+- p12-1 (중경 오버숄더, normal): 왕먀오가 혼자 노트에 질문 부호를 그린다. 연구실 문은 닫혀 있다. 연출: 어깨가 잠시 편해지지만 손끝은 예민하다.
+- p12-2 (시야 주관 클로즈업, impact): 안경 바깥에는 아무것도 없는데 왕먀오의 망막 시야에 카운트다운 숫자가 돌아온다. 연출: 눈동자가 커지고 입술이 굳는다. 숫자는 후처리.
+- p12-3 (얼굴 극클로즈업, silence): 왕먀오가 두 눈을 감아도 시야 안쪽에 숫자의 잔광이 남는다. 연출: 주먹을 쥐었다 펴는 손과 검은 그림자, 도망갈 여백이 없다.
+- p13-1 (풀페이지 주관 시야·렌즈 극클로즈업, impact): 왕먀오의 망막 시야 전체. 숫자가 지워지고 p9의 게임 디버거 질문창과 같은 사각 프롬프트가 나타난다. 렌즈 흰 반사 속 작은 왕먀오. 연출: 풀페이지. 질문은 후처리 텍스트 ‘왜 알아차렸나?’. 입은 반쯤 열리나 소리 없음, 동공은 작은 글자에 고정. 소페르가 먼저 묻는 전율.

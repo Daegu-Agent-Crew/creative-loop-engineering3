@@ -1,0 +1,13 @@
+const fs = require("fs");
+const p = "state.json";
+const st = JSON.parse(fs.readFileSync(p, "utf8"));
+const ep = st.episodes.EP009;
+const sb = JSON.parse(fs.readFileSync("episodes/EP009/storyboard/storyboard.json", "utf8"));
+console.log("storyboard source:", sb.source, "| prompt_version:", sb.prompt_version);
+ep.phases.phase2 = { status: "completed", score: null, note: "EP006 성경 계승 — characters.json 계승(episode_id 교체). 왕머여·스치친 외형 규칙·닥터슬럼프풍 STYLE_BLOCK 유지." };
+ep.phases.phase3 = { status: "completed", score: null, prompt_version: sb.prompt_version || "v3-storyboard-derived", note: "panel-script(정본 45컷) → node scripts/gen-storyboard.js EP009 결정론적 파생(사전 예방 v4). 15p·45컷." };
+ep.phases.phase4 = { status: "in_progress", note: "codex image_gen 배치 생성 시작(세션당 연속 배치)" };
+ep.current_phase = "phase4_panels";
+st.last_updated = new Date().toISOString();
+fs.writeFileSync(p, JSON.stringify(st, null, 2) + "\n");
+console.log("state.json updated: EP009 -> phase4_panels");

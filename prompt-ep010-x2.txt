@@ -1,0 +1,49 @@
+EP010 (S2E05 면벽하지 않는 자들) phase4 panel generation - parallel group ep010-x2 (pages 5-9).
+
+MANDATORY CHARACTER LOCK (chairman directive v6, 2026-11-13 13:31 - omit and the whole batch fails):
+BEFORE generating anything, READ these canonical sheets:
+- episodes/EP006/characters/assets/wangmiao-canonical.png (Wangmiao)
+- episodes/EP006/characters/assets/shi-qiang-canonical.png (Shi Qiang)
+- episodes/EP010/characters/assets/yangdong-canonical.png (Yang Dong, NEW this episode)
+Also READ episodes/EP006/panels/assets/p2-1.png (Wangmiao) and episodes/EP006/panels/assets/p3-1.png (Shi Qiang) and match facial proportions, outfits, ink weight and shading EXACTLY (chairman directive 2026-11-10 07:30).
+Then WRITE a 3-line description of each character's features from the sheets in your log BEFORE the first generation. Generating without these descriptions is forbidden.
+Before generating EACH panel, print one confirmation line in your log:
+[CHARLOCK] <panel_id>: <character names> = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+For panels with no characters print: [CHARLOCK] <panel_id>: no characters (scenery/graphic only).
+Post-hoc character QA comparison is NOT performed - this pre-read procedure is the only guarantee. Follow it strictly.
+
+CHARACTER DNA (fixed):
+- Wangmiao (왕먀오): 30s Chinese man, neat black hair, big horn-rimmed glasses with white light reflection, thin build, blue-grey shirt (no lab coat), sleeves neatly rolled. Calm scholar posture.
+- Shi Qiang (스치친): 40s Chinese man, messy black hair, heavy stubble/beard, narrow tired shrewd eyes, heavy build, worn olive jacket, unlit cigarette between fingers; coffee cup is this episode's signature prop.
+- Yang Dong (양동, NEW): 20s Chinese woman, oval face slightly longer than wide, narrow forehead, small straight nose, thin eyebrows, calm almond eyes, neat small mouth; straight black hair below shoulders with bangs swept from her left to her right; light sky-blue blouse under grey cardigan, small brown leather document bag. Calm, observant, restrained. Follow episodes/EP010/characters/assets/yangdong-canonical.png EXACTLY.
+- Sophon system (소페르): NO human form. Appears ONLY as red sawtooth waveform, geometric UI totems and glitch shapes. No letters/numbers in image - precise values are post-processed SVG overlay.
+- PDC 실험 책임자: institutional proxy. Face kept in half-shadow, no fixed look, dark suit. Do NOT give a memorable face.
+- Palette: present-day scenes = blue-grey cool tone; flashback (page 12 청신) = warm sepia.
+
+Use the built-in image_gen tool to generate and save each panel image to:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP010/panels/assets/<panel_id>.png
+
+STYLE_BLOCK at the front of every prompt:
+Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+Common rules: NO Korean text/letters in images (post-process SVG overlay). Full-page/silence panels get maximum impact. After saving, verify each file is over 300KB, retry if not. Print the size table at the end.
+
+Panels:
+
+- p5-1 (탁상 탑숏, normal) [in frame: 왕먀오]: 왕먀오가 세 카드 옆에 동시 시작선과 무작위 배정 상자, 중단선 도형을 놓는다 연출: 독립 대조군과 안전 한도. 글자·숫자 없음
+- p5-2 (종이 근접, normal) [in frame: PDC 실험 책임자]: 책임자의 손이 안전 중단선에 동그라미를 친다 연출: 조건부 실행 허가
+- p5-3 (낮은 측면, normal) [in frame: 스치친]: 스치친이 중단 손잡이 앞에 구부정하게 앉는다 연출: 피곤한 눈, 올리브 재킷, 꺼진 담배
+- p5-4 (봉투 매크로, normal) [in frame: 왕먀오]: 왕먀오가 세 카드를 서로 다른 시설 봉투에 넣고 같은 봉인 도형을 찍는다 연출: 모든 입력 공개, 각 시설 원본 독립 보존
+- p6-1 (삼분할 와이드, normal) [in frame: no characters]: 세 시설 통로에서 보정 손잡이가 서로 반대로 돌려진다 연출: 실제 시험 준비, 과장된 폭발 없음
+- p6-2 (세 손 근접, normal) [in frame: no characters]: 한 시설은 설정을 올리고 다른 시설은 내리며 셋째는 유지한다 연출: 같은 시간대. 값·문자는 후처리
+- p6-3 (모니터 내부 원경, normal) [in frame: no characters]: 게임 화면의 금빛 관측탑 그림자가 두 갈래로 갈라진다 연출: EP009 카드 출처 회상. 모니터 테두리로 현실과 분리
+- p6-4 (후면 중경, normal) [in frame: 왕먀오]: 왕먀오가 게임 화면을 끄고 현실의 세 시설 출력을 기다린다 연출: 게임 취약점의 실물 재현은 미확정
+- p7-1 (풀페이지 초광각, silence) [in frame: no characters]: 과학자 손들이 서로 반대인 장치 다이얼을 동시에 움직이고 붉은 감시 원이 모두를 비춘다 연출: 무언 풀페이지. 병렬 행동의 리듬. 진짜 데이터는 아직 없음. 글자 없음
+- p8-1 (파형 탑숏, impact) [in frame: no characters]: 세 시설 원본 출력과 붉은 위조 출력의 간격이 서로 다르게 요동친다 연출: Midpoint 가짜 승리. 수치·라벨은 후처리
+- p8-2 (렌즈 매크로, normal) [in frame: 왕먀오]: 왕먀오가 한 출력의 되감김 흔적을 확대한다 연출: 게임 카드와 순서만 닮음, 동일 엔진으로 단정 금지
+- p8-3 (측면 근접, normal) [in frame: PDC 실험 책임자]: 책임자가 다른 두 출력의 불일치 지점을 가린다 연출: 성급한 승리 차단
+- p8-4 (문턱 역광, normal) [in frame: 양동]: 관제실 문에 작은 가죽 서류가방을 든 양동이 선다 연출: 첫 등장: 20대 중국 여성, 어깨 아래 검은 생머리, 왼쪽에서 오른쪽으로 넘긴 앞머리, 회색 카디건 위 연한 하늘색 블라우스
+- p9-1 (모니터 매크로, impact) [in frame: no characters]: 소페르의 붉은 보정 파형이 갈라진 뒤 한 줄로 다시 수렴한다 연출: 상대가 분류를 갱신할 수 있음. 가짜 승리 반전
+- p9-2 (오버숄더 근접, normal) [in frame: 왕먀오]: 왕먀오가 세 시설 결과의 공통 잔차를 확대한다 연출: 의도를 직접 읽은 증거는 아님; 반응이 다시 합쳐짐
+- p9-3 (이인물 사선, normal) [in frame: 스치친, 양동]: 스치친이 붉은 파형과 양동의 가방을 번갈아 본다 연출: 건조한 유머
+- p9-4 (정면 흉상, normal) [in frame: 양동]: 양동이 가방 잠금쇠를 누르고 정면을 본다 연출: 얼굴 고정: 가로보다 조금 긴 타원형, 완만한 광대, 작은 곧은 코, 가는 눈썹, 차분한 아몬드형 눈, 작은 입. 머리·복장 p8-4와 동일

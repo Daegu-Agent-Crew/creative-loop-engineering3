@@ -1,0 +1,18 @@
+EP007 phase4 panel generation - batch 2 (pages 3-4).
+
+Use the built-in image_gen tool to generate and save each panel image to:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP007/panels/assets/<panel_id>.png
+
+STYLE_BLOCK at the front of every prompt:
+Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+Common rules: NO Korean text/letters in images (post-process SVG overlay). Wangmiao = neat black hair, big horn-rimmed glasses, blue-grey shirt, thin build (reference episodes/EP001/characters/assets/wangmiao-v1.png). Shi Qiang = messy black hair, beard, narrow tired eyes, worn olive jacket. After saving, verify each file is over 300KB, retry if not. Print the size table at the end.
+
+Panels:
+- p3-1 (탁상 탑숏, normal): 왕머여가 위조 출력 그래프를 뒤집어 뒷면의 빈 시간축을 드러낸다. 연출: 반박을 삼키고 손목을 단단히 편다.
+- p3-2 (도표 인서트, normal): 파란 입력선과 빨간 출력선이 분리된 투명 슬라이드를 나란히 놓는다. 연출: 두 선 사이에 시간 여백을 분명히 둔다.
+- p3-3 (오버숄더 클로즈업, impact): 왕머여가 출력선이 바뀌는 지점을 손끝으로 가리킨다. 연출: 큰 렌즈 반사 아래 눈의 초점이 선 끝에 고정된다.
+- p3-4 (중경 정면, normal): 검증위원이 빈 실패 기준 칸을 가리키며 펜을 건넨다. 연출: 표정은 냉정하되 악역처럼 과장하지 않는다.
+- p4-1 (펜 극근접, silence): 왕머여 펜끝이 실패 기준 칸 위에서 멈춘다. 연출: 엄지 마디가 하얗게 눌린다.
+- p4-2 (노트 탑숏, normal): 무교란 대조군의 평평한 파란 선과 교란군의 빈 칸을 나란히 그린다. 연출: 글자와 숫자는 비워 두고 선의 역할만 명확히 한다.
+- p4-3 (손 클로즈업, normal): 스치친이 노트 아래에 복사용 종이를 한 장 더 밀어 넣는다. 연출: 거친 손이 종이 모서리를 정교하게 맞춘다.

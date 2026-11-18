@@ -1,0 +1,23 @@
+EP009 phase4 panel generation - batch 5 (pages 9-10).
+
+MANDATORY CONSISTENCY STEP (chairman directive 2026-11-10): BEFORE generating, READ these canonical reference images: episodes/EP006/panels/assets/p2-1.png (Wangmiao canonical) and episodes/EP006/panels/assets/p3-1.png (Shi Qiang canonical). Match their facial proportions, outfit details, ink weight and shading style EXACTLY. Hard requirement.
+
+NOTE (EP009): Tri-Solaris in-game scenes use the dry ochre / dehydrated-body dystopian palette inherited from EP003-EP004 game worlds; real-world scenes stay in the present-day blue-grey tone. Keep the two clearly distinguishable.
+
+Use the built-in image_gen tool to generate and save each panel image to:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP009/panels/assets/<panel_id>.png
+
+STYLE_BLOCK at the front of every prompt:
+Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+Common rules: NO Korean text/letters in images (post-process SVG overlay). Wangmiao = neat black hair, big horn-rimmed glasses, blue-grey shirt, thin build. Shi Qiang = messy black hair, beard, narrow tired eyes, worn olive jacket. Page 9 opening panels carry the impact beat. After saving, verify each file is over 300KB, retry if not. Print the size table at the end.
+
+Panels:
+- p9-1 (필름 탑숏, normal): 왕먀오가 EP007의 인위적 오차 입력과 위조 출력선을 게임 임계선 아래 놓는다 연출: 현실 청회색, 게임 황갈색. 톱니만 빨강
+- p9-2 (그래프 매크로, impact): 가속기 보정선이 게임 보정선에 가까워지지만 미세하게 벌어진다 연출: 가짜 승리: 서로 닮은 두 선이 완전히 겹치지 않음
+- p9-3 (역광 측면, normal): 스치친이 축척이 다른 두 필름을 불빛에 비춘다 연출: 형사가 비교 조건을 묻는다
+- p9-4 (렌즈·그래프 근접, normal): 왕먀오가 입력을 정규화해 분기 순서와 되감기 지연은 맞지만 절대 시간은 다름을 확인한다 연출: 같은 코드 확정은 보류. 공통 구조만 결론
+- p10-1 (화면 극근접, normal): 왕먀오가 192호 숨은 분기의 마지막 프레임을 확대한다 연출: 표면 엔딩 아래 결과 덮어쓰기 흔적
+- p10-2 (게임 화면 분할 매크로, impact): 지워진 분기에서 탑 그림자가 움직이기 전 탈수 인체 그림자가 먼저 이동한다 연출: 원인과 결과의 순서가 뒤집힌 한 프레임. 렌더링 오류
+- p10-3 (탁상 투샷, normal): 왕먀오가 이 보정 순서를 EP007 가속기 출력 옆에 놓는다 연출: 공통 구조를 보이되 동일 시스템 증명으로 그리지 않음
+- p10-4 (어깨 너머 근접, normal): 스치친이 종료 게임 화면을 보며 희미하게 웃는다 연출: 건조한 농담이 중간 승리의 표지

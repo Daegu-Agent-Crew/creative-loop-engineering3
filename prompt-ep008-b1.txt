@@ -1,0 +1,24 @@
+EP008 phase4 panel generation - batch 1 (pages 1-3).
+
+MANDATORY CONSISTENCY STEP (chairman directive 2026-11-10): BEFORE generating, READ these canonical reference images: episodes/EP006/panels/assets/p2-1.png (Wangmiao canonical) and episodes/EP006/panels/assets/p3-1.png (Shi Qiang canonical). Match their facial proportions, outfit details, ink weight and shading style EXACTLY. Hard requirement.
+
+NOTE: this episode contains 1967-1980s flashback scenes - render those in warm sepia-leaning palette to distinguish from present-day blue-grey tone.
+
+Use the built-in image_gen tool to generate and save each panel image to:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP008/panels/assets/<panel_id>.png
+
+STYLE_BLOCK at the front of every prompt:
+Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+Common rules: NO Korean text/letters in images (post-process SVG overlay). Wangmiao = neat black hair, big horn-rimmed glasses, blue-grey shirt, thin build. Shi Qiang = messy black hair, beard, narrow tired eyes, worn olive jacket. Page 1 is a full-page impact panel. After saving, verify each file is over 300KB, retry if not. Print the size table at the end.
+
+Panels:
+- p1-1 (풀페이지 후면 초광각, silence): 삼체 관측실에서 홀로 앉은 1379호 앞에 지구 송신의 작은 파형 흠이 관측 모형 여러 층으로 번진다 연출: 무대사·무자막 풀페이지. 인간형으로 단정하지 않는 뒷모습 실루엣. 흠의 톱니 하나를 선명히
+- p2-1 (오버숄더 중경, normal): EP007의 여섯 화면 뒤편에서 왕머여가 지연이 다른 붉은 출력선들을 투명지에 겹친다 연출: 단정한 검은 머리·큰 뿔테 안경·청회색 셔츠·마른 체형. 렌즈에 미세 톱니
+- p2-2 (손·얼굴 측면, normal): 스치친이 재떨이를 밀고 여섯 선의 같은 흠을 손톱으로 짚는다 연출: 헝클어진 검은 머리·수염·좁은 피곤한 눈·낡은 올리브 재킷·담배
+- p2-3 (투명지 탑숏, impact): 왕머여가 다른 시설 원자료와 비교해 흠이 출력 보정 뒤에만 남음을 확인한다 연출: 입술을 다물고 한 선씩 분리. 화면 글자와 숫자는 비운다
+- p2-4 (바닥 낮은 앵글, normal): 관제실 문틈 아래로 낡은 봉투 사진이 미끄러져 들어온다 연출: 뒷면은 비워 두고 세 갈래 봉인 흠집만 보인다
+- p3-1 (복도 롱숏, normal): 스치친이 복도 카메라 사각에서 사진을 집고 양쪽 문을 살핀다 연출: 담배는 입에 물었지만 불은 붙이지 않는다
+- p3-2 (사진 매크로, normal): 사진 속 보관함 손잡이와 1379호의 경고 번역 일부가 겹친다 연출: 문장은 이미지에 그리지 않고 후처리 여백. 손잡이 세 갈래 흠집
+- p3-3 (손·렌즈 극근접, impact): 왕머여가 사진 뒷면 파형을 현재 여섯 출력의 공통 흠 위에 얹는다 연출: 두 파형은 완전 일치가 아니라 결함 위치만 닮았다
+- p3-4 (평면도 탑숏, normal): 스치친이 손잡이 흠집과 건물 평면도의 폐쇄 보관실 표시를 맞춘다 연출: 평면도 글자를 비우고 흠집 모양만 반복

@@ -1,0 +1,20 @@
+EP008 phase4 panel generation - batch 5 FINAL (remaining panels pages 11-15).
+
+MANDATORY CONSISTENCY STEP (chairman directive): BEFORE generating, READ: episodes/EP006/panels/assets/p2-1.png (Wangmiao) and episodes/EP006/panels/assets/p3-1.png (Shi Qiang). Match facial proportions, outfit, ink weight, shading EXACTLY. Flashback = warm sepia; present = blue-grey.
+
+Use the built-in image_gen tool to save each panel to:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP008/panels/assets/<panel_id>.png
+
+STYLE_BLOCK:
+Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+NO Korean text in images. Full-page finale panels get maximum impact. Verify each file over 300KB, retry if not. Print size table.
+
+Panels:
+- p13-1 (탁상 탑숏, impact): 왕머여가 교정 전 참조선과 교정 후 도판과 현재 여섯 출력의 톱니를 세 겹으로 놓는다 연출: 세 시대의 선이 같은 위치에서 만난다. 숫자는 후처리
+- p13-2 (복도 낮은 앵글, normal): 스치친이 복도의 ETO 잔당을 가로막고 문을 발로 고정한다 연출: 좁은 눈은 웃지 않고 재킷 그림자가 길어진다
+- p13-3 (봉투 오버숄더, normal): 왕머여가 교정 전 참조선을 따로 봉투에 넣고 재시험 표에 빈 칸을 남긴다 연출: 승리 선언 대신 독립 재현 절차. 글자는 후처리
+- p14-1 (렌즈 근접, normal): 현재 관제실에서 왕머여가 EP007 보정 시계열에 1967년 기준선 위치를 겹친다 연출: 렌즈의 한 흠만 붉다. 과거는 세피아 현재는 청색
+- p14-2 (이인물 측면 중경, normal): 스치친이 ETO 잔당의 빈 손을 확인하고 왕머여 옆에서 시계를 본다 연출: 수염 밑 입꼬리만 조금 오르고 시선은 출력선
+- p14-3 (손·화면 극근접, impact): 왕머여가 현재 출력의 다음 보정 구간을 가리키다 손가락을 멈춘다 연출: 톱니가 사라지지 않고 새 보정선의 기준점에 남는다
+- p15-1 (풀페이지 다층 초광각, silence): 1967년 밀린 교정선과 1379호 진단 도식과 현재 여섯 출력의 공통 톱니가 세 층으로 포개진다. 앞의 왕머여와 스치친은 작고 새 붉은 보정선이 오래된 흠에서 다시 뻗는다 연출: 무대사·무자막 풀페이지. 세피아 플래시백과 청색 현재를 구분. 모든 문자와 숫자는 비운다

@@ -1,0 +1,50 @@
+EP010 (S2E05 면벽하지 않는 자들) phase4 panel generation - parallel group ep010-x3 (pages 10-15).
+
+MANDATORY CHARACTER LOCK (chairman directive v6, 2026-11-13 13:31 - omit and the whole batch fails):
+BEFORE generating anything, READ these canonical sheets:
+- episodes/EP006/characters/assets/wangmiao-canonical.png (Wangmiao)
+- episodes/EP006/characters/assets/shi-qiang-canonical.png (Shi Qiang)
+- episodes/EP010/characters/assets/yangdong-canonical.png (Yang Dong, NEW this episode)
+Also READ episodes/EP006/panels/assets/p2-1.png (Wangmiao) and episodes/EP006/panels/assets/p3-1.png (Shi Qiang) and match facial proportions, outfits, ink weight and shading EXACTLY (chairman directive 2026-11-10 07:30).
+Then WRITE a 3-line description of each character's features from the sheets in your log BEFORE the first generation. Generating without these descriptions is forbidden.
+Before generating EACH panel, print one confirmation line in your log:
+[CHARLOCK] <panel_id>: <character names> = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+For panels with no characters print: [CHARLOCK] <panel_id>: no characters (scenery/graphic only).
+Post-hoc character QA comparison is NOT performed - this pre-read procedure is the only guarantee. Follow it strictly.
+
+CHARACTER DNA (fixed):
+- Wangmiao (왕먀오): 30s Chinese man, neat black hair, big horn-rimmed glasses with white light reflection, thin build, blue-grey shirt (no lab coat), sleeves neatly rolled. Calm scholar posture.
+- Shi Qiang (스치친): 40s Chinese man, messy black hair, heavy stubble/beard, narrow tired shrewd eyes, heavy build, worn olive jacket, unlit cigarette between fingers; coffee cup is this episode's signature prop.
+- Yang Dong (양동, NEW): 20s Chinese woman, oval face slightly longer than wide, narrow forehead, small straight nose, thin eyebrows, calm almond eyes, neat small mouth; straight black hair below shoulders with bangs swept from her left to her right; light sky-blue blouse under grey cardigan, small brown leather document bag. Calm, observant, restrained. Follow episodes/EP010/characters/assets/yangdong-canonical.png EXACTLY.
+- Sophon system (소페르): NO human form. Appears ONLY as red sawtooth waveform, geometric UI totems and glitch shapes. No letters/numbers in image - precise values are post-processed SVG overlay.
+- PDC 실험 책임자: institutional proxy. Face kept in half-shadow, no fixed look, dark suit. Do NOT give a memorable face.
+- Palette: present-day scenes = blue-grey cool tone; flashback (page 12 청신) = warm sepia.
+
+Use the built-in image_gen tool to generate and save each panel image to:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP010/panels/assets/<panel_id>.png
+
+STYLE_BLOCK at the front of every prompt:
+Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+Common rules: NO Korean text/letters in images (post-process SVG overlay). Full-page/silence panels get maximum impact. After saving, verify each file is over 300KB, retry if not. Print the size table at the end.
+
+Panels:
+
+EXTRA REFERENCES (this group only):
+- Pages 12 flashbacks feature 청신 (Ye Wenjie, elderly, EP001 look): BEFORE drawing p12-1/p12-2 READ episodes/EP001/panels/assets/p10-1.png and inherit that elderly scientist design (silver hair bun, deep wrinkles, calm heavy eyes), drawn in warm sepia. No letters.
+- Page 15 final page and page 11 opening beat carry the emotional peaks: maximum composition impact.
+- p10-1 (삼인물 중경, normal) [in frame: 양동, 왕먀오, 스치친]: 양동이 작은 갈색 가죽 가방에서 낡은 수첩과 빈 카드들을 꺼낸다 연출: 외형 p8-4·p9-4 고정. 수첩 글씨는 후처리
+- p10-2 (손·눈 교차 근접, normal) [in frame: 왕먀오, 양동]: 왕먀오가 수첩 가장자리만 잡고 양동을 바라본다 연출: 해석 권한을 양동에게 남김
+- p10-3 (수첩 극근접, normal) [in frame: no characters]: 수첩의 세 갈래 도형 옆 한 칸이 비고 붉은 파형이 반사된다 연출: All Is Lost: 초고도 미완성, 보정은 수렴 중. 글자 없음
+- p10-4 (이인물 로우앵글, normal) [in frame: PDC 실험 책임자, 양동]: 책임자가 중단 손잡이에 손을 얹고 양동은 시선을 피하지 않는다 연출: 실험 중단 위기. 실제 위험은 안전 한도와 해석의 실패
+- p11-1 (풀페이지 초광각, silence) [in frame: 양동]: 붉은 파형으로 가득 찬 관제실 아래 수첩의 빈 네모만 하얗게 남는다 연출: 무언 풀페이지. 양동의 손끝은 여백을 가리지 않음. 글자 없음
+- p12-1 (세피아 중경, normal) [in frame: 청신]: 세피아 회상에서 70대 청신이 반대 눈금의 두 장치를 관찰한다 연출: EP001 노과학자 외형 계승. 회상으로만 등장. 글자 없음
+- p12-2 (손·수첩 근접, normal) [in frame: 청신]: 청신이 세 번째 장치를 비워 둔 채 수첩 위 연필을 멈춘다 연출: 미완의 대조 조건. 어머니의 사망이나 최종 의도는 암시하지 않음
+- p12-3 (손 탑숏, normal) [in frame: 양동]: 현재의 양동이 같은 모양의 별도 봉인 대조 장치를 책상에 둔다 연출: 세피아에서 청회색으로 전환. 데이터 공개, 판정 독립 보존
+- p13-1 (탁상 탑숏, normal) [in frame: 양동]: 양동이 세 카드 옆에 투명한 대조 판을 놓는다 연출: 공격 카드 추가가 아니라 같은 자료의 독립 판정 기준
+- p13-2 (오버숄더 중경, normal) [in frame: 왕먀오]: 왕먀오가 원본 봉인 장치와 위조 출력, 독립 판정 기록을 삼각형으로 놓는다 연출: 의도 독해 불능은 직접 확인 불가; 보정 선택만 관찰
+- p13-3 (삼인물 측면, normal) [in frame: 스치친, 왕먀오, 양동]: 스치친이 꺼진 담배로 세 갈래를 가리킨다 연출: 벽을 쌓지 않는 반전 회수
+- p14-1 (회의실 중경, normal) [in frame: 왕먀오, PDC 실험 책임자]: 왕먀오가 책임자에게 안전 중단선과 대조 판을 함께 보인다 연출: 실행 전 시험 범위 재설정
+- p14-2 (손·얼굴 이중초점, impact) [in frame: PDC 실험 책임자, 양동]: 책임자의 도장이 계획서 모서리에 찍히고 양동은 붉은 빛을 본다 연출: 작중 실험 조건부 허가. 실제 Story Lock과 무관
+- p14-3 (후면 와이드, normal) [in frame: 양동, 왕먀오, 스치친]: 양동이 가방을 닫고 세 사람이 서로 다른 시설 화면을 향한다 연출: 다음 화 동시 주입 준비, 이번 화에 성공 없음
+- p15-1 (풀페이지 조감 초광각, silence) [in frame: no characters]: 세 시험 카드와 양동의 수첩이 원을 이루고 그 밖으로 반대 방향의 시설 통로들이 뻗는다 연출: 무언 풀페이지. 붉은 감시점은 모두 비추지만 원의 중심은 빈다. p1 그림자의 변화. 글자·숫자 없음

@@ -1,0 +1,25 @@
+EP007 phase4 panel generation - batch 4 (pages 8-11).
+
+MANDATORY CONSISTENCY STEP (chairman directive 2026-11-10): BEFORE generating, READ these canonical reference images: episodes/EP006/panels/assets/p2-1.png (Wangmiao canonical) and episodes/EP006/panels/assets/p3-1.png (Shi Qiang canonical). Match their facial proportions, outfit details, ink weight and shading style EXACTLY. Character and art style continuity with EP006 is a hard requirement.
+
+Use the built-in image_gen tool to generate and save each panel image to:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP007/panels/assets/<panel_id>.png
+
+STYLE_BLOCK at the front of every prompt:
+Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+Common rules: NO Korean text/letters in images (post-process SVG overlay). Wangmiao = neat black hair, big horn-rimmed glasses, blue-grey shirt, thin build. Shi Qiang = messy black hair, beard, narrow tired eyes, worn olive jacket. After saving, verify each file is over 300KB, retry if not. Print the size table at the end.
+
+Panels:
+- p8-1 (풀페이지 먼 광각, silence): 텅 빈 관제실의 여섯 모니터에 가느다란 정지선. 아래 구석의 두 사람은 아주 작다. 연출: 무대사·무자막 풀페이지. 큰 빈 벽과 검은 그림자. 기다림을 길게 만든다.
+- p9-1 (화면·손 교차, normal): 한 시설의 빨간 출력선에 작은 흔들림이 나타난다. 연출: 왕머여 손이 의자 팔걸이를 세게 쥔다.
+- p9-2 (그래프 극근접, impact): 빨간 선의 흔들림이 급속히 줄어 매끈한 선으로 돌아간다. 연출: 선이 얇아지는 과정 세 단계만 보여준다.
+- p9-3 (눈·화면 교차 클로즈업, normal): 왕머여가 다른 화면으로 눈을 옮긴다. 화면마다 복구 시작점이 다르다. 연출: 실망으로 내려간 눈꼬리가 다시 초점을 찾는다.
+- p10-1 (탁상 광각, normal): 왕머여가 여섯 화면의 복구 구간을 투명 종이 띠로 떠 나란히 펼친다. 연출: 손이 떨리지만 띠의 시작점은 정확히 맞춘다.
+- p10-2 (도표 매크로, impact): 계단 입력 뒤엔 계단 모양 보정, 갈고리 뒤엔 갈고리 모양 보정이 다른 시차로 나타난다. 연출: 파랑 입력과 빨강 후행 반응을 분리. 수치는 후처리.
+- p10-3 (분할 화면 정면, impact): 다른 네 지문도 각각 자기 모양을 따라가며 붉은 출력 폭이 좁아진다. 연출: 여섯 짝의 방향만 보이게 과잉 장식을 없앤다.
+- p10-4 (이인물 중경, normal): 스치친이 사용한 카드와 복구 띠를 나란히 둔다. 연출: 좁은 눈이 차이를 읽고 담배 든 손은 멈춘다.
+- p11-1 (낮은 앵글 광각, normal): 검증위원이 여섯 화면 뒤에 공통 장비 계통도를 세운다. 연출: 한 가지 의심이 방을 다시 덮는 검은 그림자.
+- p11-2 (노트·얼굴 클로즈업, silence): 왕머여가 쓰려던 결론의 첫 줄을 펜으로 가로 긋는다. 연출: 입을 굳게 다물고 빨간 선의 반사에서 눈을 떼어낸다.
+- p11-3 (봉투 인서트, normal): 스치친이 봉인된 무교란 대조 봉투를 위원 앞에 놓는다. 연출: 봉인선이 끊어지지 않았음을 크게.
+- p11-4 (탑숏 중경, silence): 세 사람이 봉투를 내려다보며 누구도 먼저 손대지 않는다. 연출: 위원 손, 왕머여의 마른 손, 스치친의 거친 손을 삼각형으로.

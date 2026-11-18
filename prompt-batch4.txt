@@ -1,0 +1,19 @@
+EP006 phase4 panel generation - batch 4 (pages 6-7).
+
+Use the built-in image_gen tool to generate and save each panel image to:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP006/panels/assets/<panel_id>.png
+
+STYLE_BLOCK at the front of every prompt:
+Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+Common rules: NO Korean text/letters in images (post-process SVG overlay). Wangmiao = neat black hair, big horn-rimmed glasses, blue-grey shirt, thin build (reference episodes/EP001/characters/assets/wangmiao-v1.png). Shi Qiang = messy black hair, beard, narrow tired eyes, worn olive jacket. After saving, verify each file is over 300KB, retry if not. Print the size table at the end.
+
+Panels:
+- p6-1 (탁상 탑숏, normal): 왕먀오가 네 시기의 오차 카드를 줄지어 놓는다. 연출: 처음은 자신감 없이 카드 가장자리를 집는다.
+- p6-2 (카드 매크로, normal): 카드 속 톱니가 시간마다 아주 조금씩 이동한다. 연출: 빨간 톱니 위치만 명확히 달라 보이게 한다.
+- p6-3 (손·컵 중경, normal): 스치친이 식은 커피잔이 넘어지지 않도록 받치며 마지막 카드를 고정한다. 연출: 굵은 손가락이 과학 도표 위에서 의외로 조심스럽다.
+- p6-4 (노트 오버숄더, normal): 왕먀오가 p4 오류 보고 양식 옆에 '질문' 칸을 긋는다. 연출: 손이 덜 떨리지만 끝에 물음표를 남긴다. 활자·한글은 후처리.
+- p7-1 (낮은 앵글 광각, impact): 왕먀오가 벽 중앙 위조 파형에 큰 원을 친다. 연출: 허리가 펴지고 눈이 크게 열려 잠깐 승리한 듯하다.
+- p7-2 (측면 중경, normal): 스치친이 원 옆 빈 검증 칸을 가리킨다. 연출: 좁은 눈이 왕먀오를 시험하듯 보지만 입은 다문다.
+- p7-3 (펜 극클로즈업, silence): 왕먀오의 펜끝이 빈칸 위에서 멈춘다. 연출: 엄지가 펜을 강하게 눌러 하얗고 입술이 굳는다.
+- p7-4 (광각 역광, normal): 벽의 큰 원과 작은 빈칸을 한 프레임에 둔다. 왕먀오의 그림자가 원을 가른다. 연출: 승리 포즈가 무너지고 어깨가 내려간다.

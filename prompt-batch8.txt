@@ -1,0 +1,16 @@
+EP006 phase4 panel generation - batch 8 (pages 14-15, final batch).
+
+Use the built-in image_gen tool to generate and save each panel image to:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP006/panels/assets/<panel_id>.png
+
+STYLE_BLOCK at the front of every prompt:
+Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+Common rules: NO Korean text/letters in images (post-process SVG overlay). Wangmiao = neat black hair, big horn-rimmed glasses, blue-grey shirt, thin build (reference episodes/EP001/characters/assets/wangmiao-v1.png). Shi Qiang = messy black hair, beard, narrow tired eyes, worn olive jacket. Page 15 is a full page panel - maximum impact. After saving, verify each file is over 300KB, retry if not. Print the size table at the end.
+
+Panels:
+- p14-1 (측면 중경, normal): 왕먀오가 의자 끝을 잡고 숨을 고른다. 연출: 좁아진 어깨, 떨리는 손, 질문창이 안경 가장자리에서 흐려진다.
+- p14-2 (노트 인서트, normal): 그가 p7의 '증거'를 한 줄로 긋고 옆에 '가설'을 적는다. 연출: 손목이 곧아지고 눈의 초점이 종이로 내려온다. 글자는 후처리.
+- p14-3 (먼 광각, silence): 열린 노트 앞 빈 의자와 왕먀오의 펼친 손. 긴 여백. 연출: 손바닥이 책상에 닿으며 더는 주먹을 쥐지 않는다.
+- p14-4 (손·얼굴 교차 클로즈업, normal): 왕먀오가 새 양식의 질문 칸에 첫 선을 긋는다. 연출: 입술이 닫히고 굳은 눈썹이 풀린다.
+- p15-1 (풀페이지 노트 탑숏·렌즈 인서트, impact): 연구실 노트의 첫 '버그 리포트'가 페이지를 채운다. 6대륙 지문과 게임 지문을 나란히 그린 도표, 왕먀오의 서명, 비어 있는 '제출처: ______'가 보인다. 손이 빈칸 위에 멈춘다. 연출: 풀페이지. 손은 떨리지 않고 안경 렌즈에는 p5의 결이 작게 반사된다. 제목·문장·서명·제출처는 후처리. 빈칸 아래 큰 흰 여백으로 다음 화의 수신자를 묻는다.

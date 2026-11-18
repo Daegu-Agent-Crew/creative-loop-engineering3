@@ -1,0 +1,13 @@
+EP008 「버그 리포트」 S2E03 「1379번 감시자의 편지」 phase1 스토리 제작.
+
+원안: episodes/EP008/story/source-story.md — "### S2E03 「1379번 감시자의 편지」 — 기원 (플래시백)" 섹션이 이 화의 범위다. 직전 화: EP007 (적의 실험 장치). 이 화는 플래시백 구조 — "응답하지 마라"고 경고한 온건파 감시자 1379호의 재해석. 그가 두려워한 것은 인류가 아니라 버그 자체였다: 홍안의 송신에 실린 지구 물리학의 오류(1967년 캘리브레이션 결함)가 삼체 관측 모형을 오염시켰다. ETO 잔당이 편지의 진의를 막으려 한다.
+
+절차 (v5.1 단일 진원 — 회장님 사전 예방 체계):
+1. episodes/EP008/story/analysis.md, outline.md (15p), scenes.md
+2. episodes/EP008/script/script.md + script.json — 페이지별 패널 표 (패널|내용|연출메모|대사·후처리텍스트|카메라|색감|visual_type), 45컷 내외, 무대사 풀페이지 3~4장
+3. **episodes/EP008/script/panel-script.json — 단일 진원**: 각 패널에 panel_id, page_number, description, camera_angle, characters_in_frame, visual_type, text[] 를 모두 정의. description은 최종 확정 문구(콘티가 여기서 파생된다).
+4. storyboard.json은 직접 쓰지 마라. panel-script.json 완성 후 node scripts/gen-storyboard.js EP008 실행.
+
+캐릭터 연속성(회장님 강제 조항): 왕머여(단정한 검은 머리·큰 뿔테 안경·청회색 셔츠·마른 체형), 스치친(헝클어진 검은 머리·수염·좁은 피곤한 눈·낡은 올리브 재킷·담배). 플래시백 화면은 1967~1980년대 톤(세피아 기색)으로 구분. 대사 톤: 스치친 건조한 유머, 왕머여 절제된 정확함. 이미지에 한글 텍스트 금지.
+
+완료 후 파일 경로·패널 수·gen-storyboard 실행 결과를 출력하라.

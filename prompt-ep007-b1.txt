@@ -1,0 +1,16 @@
+EP007 phase4 panel generation - batch 1 (pages 1-2).
+
+Use the built-in image_gen tool to generate and save each panel image to:
+/data/data/com.termux/files/home/.openclaw/workspace/creative-loop-engineering3/episodes/EP007/panels/assets/<panel_id>.png
+
+STYLE_BLOCK at the front of every prompt:
+Bold clean ink linework, flat vibrant cell-shaded colors, rounded expressive character designs, dramatic but playful composition, distinctive 1980s Akira Toriyama manga aesthetic. Simple but expressive backgrounds with bold black shadows. Clean panel borders, dynamic perspective.
+
+Common rules: NO Korean text/letters in images (post-process SVG overlay). Wangmiao = neat black hair, big horn-rimmed glasses, blue-grey shirt, thin build (reference episodes/EP001/characters/assets/wangmiao-v1.png). Shi Qiang = messy black hair, beard, narrow tired eyes, worn olive jacket. Page 1 is a full-page impact panel. After saving, verify each file is over 300KB, retry if not. Print the size table at the end.
+
+Panels:
+- p1-1 (풀페이지 광각, silence): EP006 노트의 빈 제출처가 적힌 봉투가 PDC 회의장 중앙에 놓인다. 뒤의 여섯 관제 화면은 검은 천으로 가려져 있다. 연출: 봉투는 작고 천 그림자는 크게. 왕머여와 스치친은 가장자리의 작은 실루엣. 무대사·무자막.
+- p2-1 (손 인서트, normal): 검증위원의 손이 봉투를 연다. 노트의 여섯 지문 그림만 보인다. 연출: 종이 가장자리에 왕머여 손의 눌린 자국. 글자 자리는 비운다.
+- p2-2 (도장 극근접, impact): 검증위원이 보고서 위에 오염 표시 도장을 내려놓는다. 연출: 얼굴보다 도장의 짙은 그림자를 크게.
+- p2-3 (얼굴 클로즈업, silence): 왕머여가 뿔테를 고쳐 쓰며 반박하려다 입을 다문다. 연출: 눈썹이 좁혀지고 입술이 한 번 열렸다 닫힌다.
+- p2-4 (측면 이인물, normal): 스치친이 손가락의 꺼진 담배를 돌리고 여섯 가린 화면을 본다. 연출: 헝클어진 검은 머리·수염·좁은 눈. 농담처럼 말하지만 시선은 도장에 고정.
