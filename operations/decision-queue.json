@@ -241,6 +241,25 @@
           "episodes/EP006/approvals/gates.json"
         ]
       }
+    },
+    {
+      "owner": "cle3-maintainer",
+      "status": "waiting",
+      "waiting_since": "2026-11-18T21:00:00Z",
+      "waiting_since_basis": "cle3_daily_production_cron_2026-11-19",
+      "due_at": "2026-11-21T21:00:00Z",
+      "overdue_action": "무응답 시 기본안(각색안 초안 그대로)으로 시즌3를 채택해 EP012(S3E01) 착수: state 등록 후 스토리 단계(panel-script 단일 진원) 진행. 발행(release) 승인은 사람 필수로 유지.",
+      "id": "season3-adaptation-approval",
+      "episode_id": "EP012",
+      "kind": "rebaseline",
+      "request": "시즌2 완결(EP011 45/45·뷰어 배포 완료)에 따른 시즌3 각색안 「패치 노트」(adaptations/season3-patch-notes/) 채택 여부. 승인 시 EP012(S3E01) 착수.",
+      "source_path": "adaptations/season3-patch-notes/season3-story.md",
+      "evidence": [
+        "adaptations/season3-patch-notes/paae-analysis.md",
+        "adaptations/season2-bug-report/season2-story.md",
+        "state.json"
+      ],
+      "ttl_policy": "rebaseline: 72h 무응답 시 기본안 진행 (CLE3 일일 생산 크론 규칙 2026-11-19)"
     }
   ]
 }
