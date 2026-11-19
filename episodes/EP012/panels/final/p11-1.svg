@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1152" height="768" viewBox="0 0 1152 768">
+  <image href="../assets/p11-1.png" x="0" y="0" width="1152" height="768" />
+  <g class="overlay overlay-caption">
+    <rect x="69" y="38" width="634" height="61" rx="28" fill="#080b10" fill-opacity="0.86" stroke="#111111" stroke-width="5" />
+    <text text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#ffffff"><tspan x="386" y="75">보고서들이 쌓였다.</tspan></text>
+  </g>
+</svg>

@@ -576,7 +576,7 @@
     "EP012": {
       "title": "패치 노트",
       "status": "in_progress",
-      "current_phase": "phase1_story",
+      "current_phase": "phase6_release",
       "phases": {
         "phase0": {
           "status": "completed",
@@ -589,8 +589,18 @@
           "note": "EP001~011 성경·화풍 계승"
         },
         "phase1": {
-          "status": "pending",
-          "score": null
+          "status": "completed",
+          "score": 43,
+          "prompt_version": "v5.1-single-source-s3e01",
+          "note": "15p/45컷. 원안 발견 편, EP011 연속성, 3개 무언 풀페이지, 1379 수신처. Story Lock은 별도 사람 결정 대기.",
+          "sub_files": [
+            "story/analysis.md",
+            "story/outline.md",
+            "story/scenes.md",
+            "script/script.md",
+            "script/script.json",
+            "script/panel-script.json"
+          ]
         },
         "phase2": {
           "status": "pending",
@@ -601,16 +611,17 @@
           "score": null
         },
         "phase4": {
-          "status": "pending",
-          "score": null
+          "status": "completed",
+          "note": "45/45 — 3-way 병렬 + CHARLOCK"
         },
         "phase5": {
-          "status": "pending",
-          "score": null
+          "status": "completed",
+          "score": 43,
+          "note": "오버레이 45·QA 43/50"
         },
         "phase6": {
           "status": "pending",
-          "score": null
+          "note": "발행 승인 대기"
         }
       },
       "season": 3,

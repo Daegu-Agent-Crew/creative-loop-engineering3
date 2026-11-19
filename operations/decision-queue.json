@@ -244,7 +244,7 @@
     },
     {
       "owner": "cle3-maintainer",
-      "status": "waiting",
+      "status": "resolved",
       "waiting_since": "2026-11-18T21:00:00Z",
       "waiting_since_basis": "cle3_daily_production_cron_2026-11-19",
       "due_at": "2026-11-21T21:00:00Z",

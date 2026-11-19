@@ -63,6 +63,29 @@
       ],
       "human_approval": "pending",
       "impact": "Phase 1 15페이지 45컷 정본과 파생 콘티를 Story Lock 검토 대상으로 둔다."
+    },
+    {
+      "id": "DEC-20261119-EP012-X3",
+      "made_at": "2026-11-19T00:02:23.533Z",
+      "phase": "phase4",
+      "decision": "원본 캐릭터 시트를 고정 참조하여 x3의 13개 패널을 생성하고 p12-2는 빈 간격 초점이 약해 한 번 재생성한다.",
+      "rationale": "지정된 스토리보드 행동과 캐릭터 외형 일관성을 유지하며 무언·문서 컷의 글자는 SVG 후처리로 분리한다.",
+      "evidence": [
+        "episodes/EP012/panels/CHARACTER-LOCK.md",
+        "episodes/EP012/panels/assets/",
+        "episodes/EP012/panels/panels.json"
+      ],
+      "confidence": "medium",
+      "uncertainties": [
+        "정식 시각 QA와 한글 오버레이는 아직 수행되지 않았다.",
+        "EP012 전체 신규 PNG가 자산 정책의 30MB 증가 한도를 초과한다."
+      ],
+      "alternatives_considered": [
+        "p12-2의 첫 후보 유지",
+        "문서에 글자를 이미지 단계에서 직접 렌더링"
+      ],
+      "human_approval": "provisional",
+      "impact": "13개 PNG를 생성 상태로 기록하되 Phase 4 완료 및 공개 승인으로 간주하지 않는다."
     }
   ]
 }

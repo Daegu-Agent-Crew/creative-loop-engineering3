@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../schemas/qa.schema.json",
+  "episode_id": "EP012",
+  "overall_score": 43,
+  "prompt_version": "v5.1+charlock-v6",
+  "items": [
+    {
+      "category": "전체 일관성",
+      "score": 9,
+      "notes": "CHARLOCK 적용 — canonical 시트 3종(왕머여·스치친·양동). 시즌3 팔레트(녹색 터미널/청회색) 분리.",
+      "corrected": false
+    },
+    {
+      "category": "이미지 품질",
+      "score": 8,
+      "notes": "SVG 45·PNG 45+, 정책 크기 준수.",
+      "corrected": false
+    },
+    {
+      "category": "스토리 정합성",
+      "score": 9,
+      "notes": "v5.1 단일 진원·콘티 파생. S3E01 발견 범위 일치.",
+      "corrected": false
+    },
+    {
+      "category": "텍스트 오버레이",
+      "score": 8,
+      "notes": "45컷 렌더링.",
+      "corrected": false
+    },
+    {
+      "category": "검증 한계",
+      "score": 5,
+      "notes": "자동 정적 검증(L1). 캐릭터 사후 검증 배제(회장님 지시) — CHARLOCK 예방 로그로 대체.",
+      "corrected": false
+    }
+  ],
+  "final_images": {
+    "svg_count": 45,
+    "png_count": 45,
+    "viewer_url": "https://daegu-agent-crew.github.io/creative-loop-engineering3/episodes/EP012/"
+  }
+}

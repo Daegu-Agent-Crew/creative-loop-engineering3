@@ -2,7 +2,7 @@
   "$schema": "../../../schemas/creation-memory.schema.json",
   "schema_version": 1,
   "episode_id": "EP012",
-  "updated_at": "2026-11-19T08:44:24+09:00",
+  "updated_at": "2026-11-19T00:02:23.533Z",
   "creator_contract": {
     "creative_actor": "codex",
     "sole_creative_actor": true,
@@ -93,12 +93,14 @@
       "phase0 완료",
       "phase0.5 완료",
       "Phase 1 15페이지 45컷 스토리 및 단일 진원 패널 스크립트 완성",
-      "gen-storyboard.js 파생 콘티 생성, 스키마와 패널 정합 검증"
+      "gen-storyboard.js 파생 콘티 생성, 스키마와 패널 정합 검증",
+      "Phase 4 x3 p11-1~p15-1 13개 PNG 생성 및 300KB 초과 확인; p12-2는 빈 간격 초점으로 재생성"
     ],
     "next_actions": [
       "Story Lock에서 방향과 가치를 검토한다.",
       "Phase 2에서 EP006 왕먀오·스치친, EP010 양동 canonical 시트를 고정 참조한다.",
-      "1379는 얼굴 없는 신호로 유지하고 신규 인물 등장 시 canonical 시트를 만든다."
+      "1379는 얼굴 없는 신호로 유지하고 신규 인물 등장 시 canonical 시트를 만든다.",
+      "x3 패널의 시각 QA와 텍스트 오버레이를 진행하고 EP012 전체 자산 증가량 30MB 정책 초과를 해소한다."
     ],
     "blockers": [],
     "human_decisions": [

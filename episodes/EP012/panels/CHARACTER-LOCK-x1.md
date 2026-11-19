@@ -1,0 +1,7 @@
+# EP012 x1 character lock — canonical sheets inspected before generation
+
+- 왕먀오 — `episodes/EP006/characters/assets/wangmiao-canonical.png`: slim adult man; dense, slightly tousled black hair with sharp forward fringe; large thin round wire glasses; small narrow nose and tired downcast eyes; cool blue gray collared shirt, no lab coat. Crisp heavy black contour, angular dark hair shadow, flat amber skin light and slate blue shadow.
+- 스치친 — `episodes/EP006/characters/assets/shi-qiang-canonical.png`: broad, stocky middle aged man; wild uneven black hair; heavy angled brows, narrow tired eyes, square nose, rough dark stubble; worn olive jacket over open off white shirt. Thick black contour and deep cel shadows, olive brown garment folds. Unlit cigarette only.
+- 양동 — `episodes/EP010/characters/assets/yangdong-canonical.png`: slim young adult woman; long straight black hair below shoulders, side swept parted fringe; oval face, small straight nose, almond dark eyes, restrained serious expression; pale blue button shirt, gray V neck cardigan, charcoal trousers. Clean medium bold ink contours, large flat black hair shadows, warm skin highlights, cool gray garment shadows.
+
+For all panels, preserve these facial proportions, outfits, ink weight and flat cell shading. Patch UI uses green terminal tones; real spaces use blue gray. Red marks show the changed patches. Images contain no letters, numbers or Korean text.
