@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../schemas/qa.schema.json",
+  "episode_id": "EP013",
+  "overall_score": 39,
+  "prompt_version": "v5.1+charlock-v6",
+  "items": [
+    {
+      "category": "전체 일관성",
+      "score": 9,
+      "notes": "CHARLOCK v6 적용 — EP006 canonical 선행 독해. 확인 로그 99회(x1/x2/x3).",
+      "corrected": false
+    },
+    {
+      "category": "이미지 품질",
+      "score": 8,
+      "notes": "SVG 45·PNG 45·프리뷰 45. 크기 정책(300KB~1.2MB) 준수.",
+      "corrected": false
+    },
+    {
+      "category": "스토리 정합성",
+      "score": 9,
+      "notes": "panel-script 단일 진원 → 콘티 결정론적 파생. 무언 풀페이지 p1·6·11·15 설계 일치.",
+      "corrected": false
+    },
+    {
+      "category": "텍스트 오버레이",
+      "score": 8,
+      "notes": "45컷 렌더링, 대사/자막 박스 41개. 침묵 패널 ['p1-1', 'p6-1', 'p11-1', 'p15-1'](설계상 무언).",
+      "corrected": false
+    },
+    {
+      "category": "검증 한계",
+      "score": 5,
+      "notes": "자동 정적 검증(L1). 캐릭터 사후 검증 배제(회장님 지시) — CHARLOCK 예방 로그로 대체.",
+      "corrected": false
+    }
+  ],
+  "final_images": {
+    "svg_count": 45,
+    "png_count": 45,
+    "viewer_url": "https://daegu-agent-crew.github.io/creative-loop-engineering3/episodes/EP013/"
+  }
+}

@@ -1,0 +1,46 @@
+EP013 x2 character lock pre-read: 2026-11-20. Read EP006 Wangmiao and Shi Qiang canonical sheets, EP010 Yang Dong canonical sheet, and EP006 p2-1/p3-1 panels before generation.
+Wangmiao: Slim young adult with a rounded face, tidy but slightly lifted black hair, and large round dark-rim glasses with pale reflected lenses.
+Wangmiao: Blue-grey button shirt with rolled sleeves, no lab coat; neat scholarly bearing and compact gestures.
+Wangmiao: Match the reference's medium-bold black contours, angular shadow shapes, cool blue-grey folds, and restrained expression.
+Shi Qiang: Broad middle-aged face, thick expressive brows, narrowed tired eyes, tousled spiky black hair, and rough beard stubble.
+Shi Qiang: Heavy frame in a worn olive jacket over an open light shirt; unlit cigarette may be held in his fingers.
+Shi Qiang: Match the reference's heavy black outlines, olive cell shadows, rough facial hatch texture, and guarded expression.
+Yang Dong: Long oval face, slim straight nose, delicate brows, calm almond eyes, and a small neutral mouth.
+Yang Dong: Shoulder-length glossy black hair with side-swept bangs; sky-blue blouse, grey cardigan, and small brown leather bag.
+Yang Dong: Match the reference's clean dark outlines, crisp cell shadows, smooth cheek proportions, and restrained posture.
+Direction: p9-2 depicts only the sepia manuscript prop. The explicit no-figure/no-silhouette character rule overrides its conflicting scene sentence.
+[CHARLOCK] p6-1: Wangmiao, Shi Qiang, Yang Dong = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p7-1: Wangmiao = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p7-2: Shi Qiang = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p7-3: Yang Dong, Wangmiao = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p7-4: Wangmiao, Shi Qiang, Yang Dong = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p8-1: Wangmiao = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p8-2: Shi Qiang = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p8-3: Yang Dong = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p9-1: Yang Dong = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p9-2: no characters (scenery/graphic only).
+[CHARLOCK] p9-3: Yang Dong = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p9-4: Yang Dong, Wangmiao, Shi Qiang = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p10-1: Yang Dong = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p10-4: Yang Dong = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p10-2: Yang Dong, Wangmiao = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+[CHARLOCK] p10-3: Shi Qiang, Yang Dong = canonical sheet standard (face proportions/hair/glasses/outfit/ink weight/shading matched)
+
+Size verification (bytes):
+panel_id | bytes | >300KB
+p6-1 | 2713348 | PASS
+p7-1 | 1959456 | PASS
+p7-2 | 2405591 | PASS
+p7-3 | 2391099 | PASS
+p7-4 | 2750667 | PASS
+p8-1 | 1706279 | PASS
+p8-2 | 2333206 | PASS
+p8-3 | 2133506 | PASS
+p9-1 | 2595804 | PASS
+p9-2 | 2709729 | PASS
+p9-3 | 2905935 | PASS
+p9-4 | 2394160 | PASS
+p10-1 | 2319295 | PASS
+p10-2 | 2487985 | PASS
+p10-3 | 2639054 | PASS
+p10-4 | 2396320 | PASS

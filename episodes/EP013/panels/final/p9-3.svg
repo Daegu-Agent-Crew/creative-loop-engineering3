@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="864" height="576" viewBox="0 0 864 576">
+  <image href="../assets/p9-3.png" x="0" y="0" width="864" height="576" />
+  <g class="overlay overlay-dialogue">
+    <rect x="60" y="35" width="432" height="69" rx="28" fill="#ffffff" fill-opacity="0.96" stroke="#111111" stroke-width="3" />
+    <text text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#111111"><tspan x="276" y="74">제가 결론을 쓰면 그 빈칸을 지워 버려요.</tspan></text>
+  </g>
+</svg>

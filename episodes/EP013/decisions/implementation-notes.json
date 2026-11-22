@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/decision-log.schema.json",
+  "episode_id": "EP013",
+  "decisions": [
+    {
+      "id": "DEC-20261120-001",
+      "made_at": "2026-11-20T06:10:00+09:00",
+      "phase": "phase0",
+      "decision": "EP013(S3E02 패치 고고학)을 새벽 생산 크론이 자율 착수한다.",
+      "rationale": "시즌3 각색안 6화 아크가 2026-11-19 08:34 회장님 승인으로 확정됐고, 착수 승인 대기 없이 아크를 실행하는 것이 크론 기본안(TTL) 정책이다. 발행(release) 승인만 사람 대기.",
+      "evidence": [
+        "adaptations/season3-patch-notes/season3-story.md",
+        "state.json EP012 note"
+      ],
+      "confidence": "high",
+      "uncertainties": [
+        "S3E02 상세 비트는 시즌 아크 1문단에서 이번 세션 스토리 단계가 확장한다"
+      ],
+      "alternatives_considered": [
+        "EP012 발행 승인까지 대기 후 착수"
+      ],
+      "human_approval": "provisional",
+      "impact": "S3E02가 시즌3 아크의 두번째 계단으로 즉시 생산에 들어간다."
+    },
+    {
+      "id": "DEC-20261120-002",
+      "made_at": "2026-11-20T06:10:00+09:00",
+      "phase": "phase1",
+      "decision": "EP013을 15쪽 45컷으로 구성하고 원본·속류 판본 대조, 양동의 첫 사료 기증, 소페르 정정과 ETO 와해, 빈 회신창으로 마감한다.",
+      "rationale": "승인된 S3E02 핵심 비트를 재현 가능한 방법의 탄생과 개인 유산의 공동 보관이라는 한 인과로 묶는다. p1·6·11·15 무언 풀페이지가 충돌·방법·제도·침묵을 각각 담당한다.",
+      "evidence": [
+        "episodes/EP013/story/analysis.md",
+        "episodes/EP013/script/panel-script.json",
+        "episodes/EP013/storyboard/storyboard.json"
+      ],
+      "confidence": "high",
+      "uncertainties": [
+        "소페르 정정의 녹색 강조 블록은 이 화의 시각적 각색 장치이며 후속 화에서 실제 통신 권한으로 확정하지 않는다.",
+        "Story Lock의 명시적 사람 승인 기록은 아직 없다."
+      ],
+      "alternatives_considered": [
+        "ETO 내분을 대사 중심으로 길게 다루는 안",
+        "양동의 기증을 마지막 페이지로 미루는 안"
+      ],
+      "human_approval": "pending",
+      "impact": "Phase 1 산출물 완성. Story Lock은 pending이며 Phase 4에서 세 canonical 시트를 참조한다."
+    }
+  ]
+}

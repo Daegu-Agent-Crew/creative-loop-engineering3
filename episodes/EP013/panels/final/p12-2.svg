@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="528" viewBox="0 0 940 528">
+  <image href="../assets/p12-2.png" x="0" y="0" width="940" height="528" />
+  <g class="overlay overlay-dialogue">
+    <rect x="66" y="32" width="470" height="63" rx="28" fill="#ffffff" fill-opacity="0.96" stroke="#111111" stroke-width="4" />
+    <text text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#111111"><tspan x="301" y="68">우리가 먼저 섬겼는데, 왜 우리부터 지우지?</tspan></text>
+  </g>
+</svg>

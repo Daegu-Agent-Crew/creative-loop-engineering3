@@ -1,0 +1,1034 @@
+{
+  "episode_id": "EP013",
+  "version": 1,
+  "panels": [
+    {
+      "panel_id": "p1-1",
+      "page_number": 1,
+      "source_image_path": "episodes/EP013/panels/assets/p1-1.png",
+      "final_image_path": "episodes/EP013/panels/final/p1-1.svg",
+      "canonical_signature": "a1582041d5dbfda32614939b49582771c8427b3b0d9d0f6748da692da95bb437",
+      "source_sha256": "bfe3472b151f662c75e80bd4da65fa19e19f2226bc455844f7845413411fe35d",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": []
+    },
+    {
+      "panel_id": "p2-1",
+      "page_number": 2,
+      "source_image_path": "episodes/EP013/panels/assets/p2-1.png",
+      "final_image_path": "episodes/EP013/panels/final/p2-1.svg",
+      "canonical_signature": "68d2864aa7af46bcbcb018ace2c4cb15601b1285c192b844ec557971c434ad03",
+      "source_sha256": "9810f2a546cb074909be49365e9319f704217dd3043e2f3c3dab9dbd1beda194",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "보냈습니다. 아직 답은 없어요.",
+          "speaker": "왕먀오",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p2-2",
+      "page_number": 2,
+      "source_image_path": "episodes/EP013/panels/assets/p2-2.png",
+      "final_image_path": "episodes/EP013/panels/final/p2-2.svg",
+      "canonical_signature": "28fa36e68e050cb4a00c43f9d632547b496b46f29946426c5574dc2ccad9a739",
+      "source_sha256": "b0a85041e0095919c471b27ebb05397e1a2b1485d3f0e996da9dcb8ac9d67f38",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "답장이 없어도 발자국은 있지.",
+          "speaker": "스치친",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p2-3",
+      "page_number": 2,
+      "source_image_path": "episodes/EP013/panels/assets/p2-3.png",
+      "final_image_path": "episodes/EP013/panels/final/p2-3.svg",
+      "canonical_signature": "a8f1f954c4c6caee401bd8b85cc2916c9fd6e05900e4ef157c7fac6e672053c9",
+      "source_sha256": "6604a866e43f05f24472c4d342c9f3d5932d8dcda0f1cf2029328463f2b64251",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "발자국도 원본과 대조해야 해요.",
+          "speaker": "양동",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-1",
+      "page_number": 3,
+      "source_image_path": "episodes/EP013/panels/assets/p3-1.png",
+      "final_image_path": "episodes/EP013/panels/final/p3-1.svg",
+      "canonical_signature": "da5fc4cfebbd421dd5dca357339962dde2c21578d9db8a285a259ee2d9b82780",
+      "source_sha256": "c58ef2040efb1566b0b8bf704502a899564c5e968d65eb6c4e5ce154a853a0d0",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "먼저 목차가 같은지 봅니다.",
+          "speaker": "왕먀오",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-2",
+      "page_number": 3,
+      "source_image_path": "episodes/EP013/panels/assets/p3-2.png",
+      "final_image_path": "episodes/EP013/panels/final/p3-2.svg",
+      "canonical_signature": "f12c0f189bd47387c53c35fc92c9e97625ff73b0d343a52e1d6b692dfd966306",
+      "source_sha256": "5f1278d454745b12cf5a66d087fc0d1f8d75ef3e0a352bc8edcbbbf356163148",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "다음은 틈이지. 어디서 끊겼는지.",
+          "speaker": "스치친",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-3",
+      "page_number": 3,
+      "source_image_path": "episodes/EP013/panels/assets/p3-3.png",
+      "final_image_path": "episodes/EP013/panels/final/p3-3.svg",
+      "canonical_signature": "9f3c74e88a7b6421bf32d497b55bd6cbf7eaaf9d377172eb570d0be33a726d59",
+      "source_sha256": "f6480d466e0f2fb3a06d50d59ab3435a1fe5b6ca72b4dfbb02066bb4f3a2b870",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "나중 해석을 원본 위에 덧칠하지 마세요.",
+          "speaker": "양동",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p3-4",
+      "page_number": 3,
+      "source_image_path": "episodes/EP013/panels/assets/p3-4.png",
+      "final_image_path": "episodes/EP013/panels/final/p3-4.svg",
+      "canonical_signature": "7489da341fce33934abbbcf2db12030e207decfb791ce1d27ba40da5dd6b7a01",
+      "source_sha256": "ab2321b12fb20d1e6eb8fbf0cb740d3f36af6fbd15a2d922f29e505243865f83",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "순서와 간격은 증거, 두려움은 아직 가설입니다.",
+          "speaker": "왕먀오",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-1",
+      "page_number": 4,
+      "source_image_path": "episodes/EP013/panels/assets/p4-1.png",
+      "final_image_path": "episodes/EP013/panels/final/p4-1.svg",
+      "canonical_signature": "795853a85174d1f37ffa97f9d0d2c4db75d8dbd40b8b62e9bfbd718f3e0c6665",
+      "source_sha256": "2efbc87fcd980eed7218b79131372a6de31c73c47d08fe09dd00008b9ee46122",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "caption",
+          "text": "그들은 패치를 계시라 불렀다.",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.55,
+            "h": 0.08
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-2",
+      "page_number": 4,
+      "source_image_path": "episodes/EP013/panels/assets/p4-2.png",
+      "final_image_path": "episodes/EP013/panels/final/p4-2.svg",
+      "canonical_signature": "f919ca07ad94cf426fd972d668022373dcaa601408e8663816a3f81bf8b010cf",
+      "source_sha256": "062444659da9ba2fc5bfd7413c9c17a182a73e7f8a6b417aa79be2f4e0e1e0b9",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "첫 항목은 우리 판본에 있습니다!",
+          "speaker": "익명 ETO",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-3",
+      "page_number": 4,
+      "source_image_path": "episodes/EP013/panels/assets/p4-3.png",
+      "final_image_path": "episodes/EP013/panels/final/p4-3.svg",
+      "canonical_signature": "15eb030c99513ea6e565e9ebf4f1eb181d160f04aebba4701d2ec1f05805f3b3",
+      "source_sha256": "856bea46e68042417fd1033270f3338e7971c04fa8e7032e0e1ea4787549c6b4",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "원본에는 둘 다 없잖아.",
+          "speaker": "익명 ETO",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p4-4",
+      "page_number": 4,
+      "source_image_path": "episodes/EP013/panels/assets/p4-4.png",
+      "final_image_path": "episodes/EP013/panels/final/p4-4.svg",
+      "canonical_signature": "bc7507389f4d6352098287e2ca0c7cec191fa9c0f6225d16837e64bab4be33eb",
+      "source_sha256": "bff4c1d623a6a78f9bb37cf4c903798604466d592123024fb6e7b1633024cae5",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "누가 순서를 바꾼 거지?",
+          "speaker": "익명 ETO",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-1",
+      "page_number": 5,
+      "source_image_path": "episodes/EP013/panels/assets/p5-1.png",
+      "final_image_path": "episodes/EP013/panels/final/p5-1.svg",
+      "canonical_signature": "56bcffe87747a374e286649c386e07e8d5757e606dba717728db4d4e243aca2f",
+      "source_sha256": "050fce4b843a5790a53be162add0712346d4966dd8e5be5f3bdf9db94f921ca7",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "두 판본 모두 원본 순서를 바꿨습니다.",
+          "speaker": "왕먀오",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-2",
+      "page_number": 5,
+      "source_image_path": "episodes/EP013/panels/assets/p5-2.png",
+      "final_image_path": "episodes/EP013/panels/final/p5-2.svg",
+      "canonical_signature": "6699fc9d62e5f047df6ec0d9d146b85a5eb1edf16c96a78acba18efe9762eb2f",
+      "source_sha256": "0f116cbcf949c3e846fe513d2b064a6b7aa1155e3326f2e04019d91e69c621e1",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "사람이 끼워 넣었군.",
+          "speaker": "스치친",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-3",
+      "page_number": 5,
+      "source_image_path": "episodes/EP013/panels/assets/p5-3.png",
+      "final_image_path": "episodes/EP013/panels/final/p5-3.svg",
+      "canonical_signature": "cac127dfe3ded09b093ed82f570aae2ed4728d914e59f621b1263367ee92264d",
+      "source_sha256": "067a72d4c66158a1e5c7bb744f30f64c040888f78b0d0e7c3fbb908323b6e330",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "판본과 원본을 같은 칸에 두면 안 돼요.",
+          "speaker": "양동",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p5-4",
+      "page_number": 5,
+      "source_image_path": "episodes/EP013/panels/assets/p5-4.png",
+      "final_image_path": "episodes/EP013/panels/final/p5-4.svg",
+      "canonical_signature": "50965075e6a9540fb2ddba4cf8e53f74ad151e621bfa409e29745b2ce6508cd8",
+      "source_sha256": "52c0ee4dd0cd68de42c1ba5b9607c4e5b275b03f655f6d547374767809235ec0",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "믿고 싶은 순서로 틈까지 메웠어요.",
+          "speaker": "왕먀오",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p6-1",
+      "page_number": 6,
+      "source_image_path": "episodes/EP013/panels/assets/p6-1.png",
+      "final_image_path": "episodes/EP013/panels/final/p6-1.svg",
+      "canonical_signature": "6ea5f2275f38fbac1f032014694af5199c903d4e1b770eb0ab9b2433fbcbc9d9",
+      "source_sha256": "40f07cf23ed004bc1d42e1fa6500f10b568fd00a87033a42c5c9ea3074c0deab",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": []
+    },
+    {
+      "panel_id": "p7-1",
+      "page_number": 7,
+      "source_image_path": "episodes/EP013/panels/assets/p7-1.png",
+      "final_image_path": "episodes/EP013/panels/final/p7-1.svg",
+      "canonical_signature": "29268381100fd2c3c165e01dcea3896979429b948b229aeb5965f2e2056ac40e",
+      "source_sha256": "dc2deeb30c068853bf9022cdc8e0659d357dea62725d5a90f791819ecda9a321",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "이 일을 패치 고고학이라고 부르죠.",
+          "speaker": "왕먀오",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-2",
+      "page_number": 7,
+      "source_image_path": "episodes/EP013/panels/assets/p7-2.png",
+      "final_image_path": "episodes/EP013/panels/final/p7-2.svg",
+      "canonical_signature": "1a30680f5bc11d2d2ca0f211c34853b92cb17f810caafc3d641e0305253a2921",
+      "source_sha256": "d84830bdb6c6c8a56d30d0d22ef603248a3b555a6d5edaad8a1bd6d5b9c8cb91",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "원본부터 봉인하고 증언은 따로 듣는 거야.",
+          "speaker": "스치친",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-3",
+      "page_number": 7,
+      "source_image_path": "episodes/EP013/panels/assets/p7-3.png",
+      "final_image_path": "episodes/EP013/panels/final/p7-3.svg",
+      "canonical_signature": "d9a5d155f660b841f4d4a5c571e78c5ada32e179109f43de26ade8207745bc36",
+      "source_sha256": "929609ec0e5ef2822bf99c02937b0a6504b733df24e45ae096535dd299e9abec",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "확신도와 반례도 같이 보관해요.",
+          "speaker": "양동",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p7-4",
+      "page_number": 7,
+      "source_image_path": "episodes/EP013/panels/assets/p7-4.png",
+      "final_image_path": "episodes/EP013/panels/final/p7-4.svg",
+      "canonical_signature": "33c8d320138f6e89afa3d83ee11fdf5ea2b0b208126d1972c58a93c7d77acfd9",
+      "source_sha256": "911804a3687bf03d6d5e66f1c83909e6e65059320c7d7d7844a3ac3734d14389",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "누구나 다시 읽을 수 있는 법으로요.",
+          "speaker": "왕먀오",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p8-1",
+      "page_number": 8,
+      "source_image_path": "episodes/EP013/panels/assets/p8-1.png",
+      "final_image_path": "episodes/EP013/panels/final/p8-1.svg",
+      "canonical_signature": "399adaabf2001e8665749f64c8591fb16f4475b7946ac9a88fd3d564695ed1d6",
+      "source_sha256": "c2dcb359a26bd0e2ca71fdaf7d7ca9ec8e0d88175c21e2c7452088c92251e6ce",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "원한 모양만 고르면 ETO와 같아집니다.",
+          "speaker": "왕먀오",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p8-2",
+      "page_number": 8,
+      "source_image_path": "episodes/EP013/panels/assets/p8-2.png",
+      "final_image_path": "episodes/EP013/panels/final/p8-2.svg",
+      "canonical_signature": "24cf8084d320522804cdb97968539b554257c674e2a4ac5b2be87cd7e89508b3",
+      "source_sha256": "69b481816973d52a12979162b15221b9e28508994714c1f04f171c8d0517c0af",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "틀린 발자국도 남겨.",
+          "speaker": "스치친",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p8-3",
+      "page_number": 8,
+      "source_image_path": "episodes/EP013/panels/assets/p8-3.png",
+      "final_image_path": "episodes/EP013/panels/final/p8-3.svg",
+      "canonical_signature": "2bc52e689882ba4c72130e3fbf3cc1f00b1429772c05b82e8dbb63fe54be6c36",
+      "source_sha256": "b6e5df36b9b8bdf312d7a6f6ad0ddb565b20b81856df2a0e5988d11272b20d2b",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "어머니 기록도 그렇게 읽을 수 있을까요?",
+          "speaker": "양동",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p9-1",
+      "page_number": 9,
+      "source_image_path": "episodes/EP013/panels/assets/p9-1.png",
+      "final_image_path": "episodes/EP013/panels/final/p9-1.svg",
+      "canonical_signature": "0b888a0b5a9af209c2c64f2d4c7e37cb8df6cc88274be96cd9128ae10743141a",
+      "source_sha256": "523d8413b379b95191b8249b212fcf84f9e56b1853d2f642d8453fe95f0f36ca",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "완성하지 못한 이유까지 남아 있어요.",
+          "speaker": "양동",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p9-2",
+      "page_number": 9,
+      "source_image_path": "episodes/EP013/panels/assets/p9-2.png",
+      "final_image_path": "episodes/EP013/panels/final/p9-2.svg",
+      "canonical_signature": "c0e8e1ae2c7b3b3bbc0635175ae3835b1c8411266ecd981e669fd4afe1b5c036",
+      "source_sha256": "1329c04987567e7022c6cd47fd4f8b07acef5cac254d714dab8402da11c8ba1d",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "caption",
+          "text": "답을 적지 못한 자리.",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.55,
+            "h": 0.08
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p9-3",
+      "page_number": 9,
+      "source_image_path": "episodes/EP013/panels/assets/p9-3.png",
+      "final_image_path": "episodes/EP013/panels/final/p9-3.svg",
+      "canonical_signature": "bc7f72478117103622918e616150e16512ce86d56d0d7c13ae13ce89a752fcc9",
+      "source_sha256": "1713be1ab94088b47f8bcaaf726de57095f3716a8aa8842124f37f0bdbd23cbc",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "제가 결론을 쓰면 그 빈칸을 지워 버려요.",
+          "speaker": "양동",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p9-4",
+      "page_number": 9,
+      "source_image_path": "episodes/EP013/panels/assets/p9-4.png",
+      "final_image_path": "episodes/EP013/panels/final/p9-4.svg",
+      "canonical_signature": "710669aa4c4b844a4f61d1d977c5989d01678c4e77c5b0a7d7a29c8827e62388",
+      "source_sha256": "d8d1f5eec1adfe8e6fdbd5a6313f2e2194af269a103ac9ad74a2e8204c69a5b6",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "보관과 해석을 분리하겠습니다.",
+          "speaker": "왕먀오",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p10-1",
+      "page_number": 10,
+      "source_image_path": "episodes/EP013/panels/assets/p10-1.png",
+      "final_image_path": "episodes/EP013/panels/final/p10-1.svg",
+      "canonical_signature": "d9eece056fd54023b51484c7e9f7cea53cb9a19e096620b5c0480e50cb52362e",
+      "source_sha256": "bd7f2b84ab40cb18820b0b7782aa42eeda7c366b820cef4cc659fe73ae9ad647",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "어머니의 미완 리포트를 첫 사료로 맡깁니다.",
+          "speaker": "양동",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p10-2",
+      "page_number": 10,
+      "source_image_path": "episodes/EP013/panels/assets/p10-2.png",
+      "final_image_path": "episodes/EP013/panels/final/p10-2.svg",
+      "canonical_signature": "4afeee5f318d7b947fe64cdcecc9d1020b6411d60cc1446e5728bdeb4b8b7f62",
+      "source_sha256": "81a11b1a82eafb77e8fabb7ee067a0586ae3f6d49f31baa49fd988ddcfbc2bd6",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "증거로 보관하고 결론은 따로 검증하겠습니다.",
+          "speaker": "왕먀오",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p10-3",
+      "page_number": 10,
+      "source_image_path": "episodes/EP013/panels/assets/p10-3.png",
+      "final_image_path": "episodes/EP013/panels/final/p10-3.svg",
+      "canonical_signature": "5e4d26aa3faa48df2feb0038a6c97fceea8a844e7d16fced401fee2353f9fded",
+      "source_sha256": "4659312edb9bf96a50ea7aaf77d0e0d7faa582b1649f969ccbcee23ec86d3db4",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "이제 혼자 짊어지지 않아도 돼.",
+          "speaker": "스치친",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p10-4",
+      "page_number": 10,
+      "source_image_path": "episodes/EP013/panels/assets/p10-4.png",
+      "final_image_path": "episodes/EP013/panels/final/p10-4.svg",
+      "canonical_signature": "5b37169ed551c46e970443232f7872a1c47d2e35701caef1d2c7249ae4575f4f",
+      "source_sha256": "bab6655310130cde39c52ff2285eb86daeec79c0f98355033e7f83414b4fa2f8",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "유산이 아니라 책임으로 남겨 주세요.",
+          "speaker": "양동",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p11-1",
+      "page_number": 11,
+      "source_image_path": "episodes/EP013/panels/assets/p11-1.png",
+      "final_image_path": "episodes/EP013/panels/final/p11-1.svg",
+      "canonical_signature": "b1fba4c7fc6d0e8a3494d74a71226f249ee243c85fadd9eb2d0fa67b855b435a",
+      "source_sha256": "594a325fb52b2fe760e8287ea9eda8aff4644782dbb34a2fe4532c7f9e21f3e6",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": []
+    },
+    {
+      "panel_id": "p12-1",
+      "page_number": 12,
+      "source_image_path": "episodes/EP013/panels/assets/p12-1.png",
+      "final_image_path": "episodes/EP013/panels/final/p12-1.svg",
+      "canonical_signature": "110ff6bdcd71c0bf27e2cf6ec046a63e505451ca4e4a67cf6349ca54242b19ff",
+      "source_sha256": "170fd0bfdb00fb3e7546d65142b2cf76ee2bf707f4f292e043963f3d72ab4a63",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "우리를 위한 표식이 없어졌어.",
+          "speaker": "익명 ETO",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p12-2",
+      "page_number": 12,
+      "source_image_path": "episodes/EP013/panels/assets/p12-2.png",
+      "final_image_path": "episodes/EP013/panels/final/p12-2.svg",
+      "canonical_signature": "17692578ae18b739b94314740b05a357192842e03dd6dd1690a38b29b53a8899",
+      "source_sha256": "ccdc3b5c0090f9bcb7a606dd33ca9bfb677d57e2f045618ca774efdd44edfb09",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "우리가 먼저 섬겼는데, 왜 우리부터 지우지?",
+          "speaker": "익명 ETO",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p12-3",
+      "page_number": 12,
+      "source_image_path": "episodes/EP013/panels/assets/p12-3.png",
+      "final_image_path": "episodes/EP013/panels/final/p12-3.svg",
+      "canonical_signature": "59ec2a6fb0f25198576b61e6681b19f7edcd655bc07c8ef855fc80b3ca40225f",
+      "source_sha256": "7327a50b7d438534469a2b14ca9c95709b56d244243e6608f646a62d42ceb880",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "어느 쪽도 선택하지 않았어.",
+          "speaker": "익명 ETO",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p12-4",
+      "page_number": 12,
+      "source_image_path": "episodes/EP013/panels/assets/p12-4.png",
+      "final_image_path": "episodes/EP013/panels/final/p12-4.svg",
+      "canonical_signature": "7046e35655beeed3d7bc353d195e90836b4b61b189e82496c2fbc57e81fb3cea",
+      "source_sha256": "1890a2f51e1a527b0b979b2b6cc8f78a78fc317955cbaad3b54de03a1aad91a3",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "caption",
+          "text": "신은 주석을 달지 않았다.",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.55,
+            "h": 0.08
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p13-1",
+      "page_number": 13,
+      "source_image_path": "episodes/EP013/panels/assets/p13-1.png",
+      "final_image_path": "episodes/EP013/panels/final/p13-1.svg",
+      "canonical_signature": "7818ef0b9a1c5b7d1d701fa2c6dd26124ef4479e4da3803f7e13379b01ee44d1",
+      "source_sha256": "4ca9e141947f94774b40c598c61839c82844d0c26d2fc4c724b79f63c7eb4069",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "caption",
+          "text": "제단은 남고 사람들은 떠났다.",
+          "box": {
+            "x": 0.06,
+            "y": 0.05,
+            "w": 0.55,
+            "h": 0.08
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p13-2",
+      "page_number": 13,
+      "source_image_path": "episodes/EP013/panels/assets/p13-2.png",
+      "final_image_path": "episodes/EP013/panels/final/p13-2.svg",
+      "canonical_signature": "685a8d7d4320861476ca3b6b69c0d28d1945efb6f8c0cb34a3771f186d53c1d6",
+      "source_sha256": "e51c321a37b5016de3d2f3ce08ce18145fb1127afd4e0da5715782febf889a04",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "거짓말도 사료야. 누가 덧댔는지 알 수 있지.",
+          "speaker": "스치친",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p13-3",
+      "page_number": 13,
+      "source_image_path": "episodes/EP013/panels/assets/p13-3.png",
+      "final_image_path": "episodes/EP013/panels/final/p13-3.svg",
+      "canonical_signature": "4038387765ad2efa449496337e2838d9d0d67150648c52740424aa05aee5b283",
+      "source_sha256": "5db30d96bc4d79df77f76e981e5008fde5abc99f665a386b606d1a4e6e16aaef",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "해석이 무너졌다고 기록까지 버리지 맙시다.",
+          "speaker": "왕먀오",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p13-4",
+      "page_number": 13,
+      "source_image_path": "episodes/EP013/panels/assets/p13-4.png",
+      "final_image_path": "episodes/EP013/panels/final/p13-4.svg",
+      "canonical_signature": "03a4f47045fa12897a596d7f6596a49f64061dc6e1b0250f190766f7acc319a0",
+      "source_sha256": "ce916f0c91a0db800c4e4699d7fd953021c9cc1a1940a5e955ab1b04a69e9018",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "첫 사료 옆에는 반례도 있어야 해요.",
+          "speaker": "양동",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p14-1",
+      "page_number": 14,
+      "source_image_path": "episodes/EP013/panels/assets/p14-1.png",
+      "final_image_path": "episodes/EP013/panels/final/p14-1.svg",
+      "canonical_signature": "3e52c8a780066a51a10b942b5692bc5402d3bb19da1b250107acb654c9e140f5",
+      "source_sha256": "b43dafa700edd2778df0f447448029098b88a4657ae3af6d08776d5764ee7b07",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "목차를 맞추고 틈을 읽고, 틀린 해석까지 남깁니다.",
+          "speaker": "왕먀오",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p14-2",
+      "page_number": 14,
+      "source_image_path": "episodes/EP013/panels/assets/p14-2.png",
+      "final_image_path": "episodes/EP013/panels/final/p14-2.svg",
+      "canonical_signature": "d7c8fb512cfb2805551274391328f3d46fc3f366424442481bc8cf730ba6294f",
+      "source_sha256": "1431aa13829c39984686cd2e508d667360627c8a9d21f696088cdf3452f51e96",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "다른 결론을 내도 출발점은 같아야지.",
+          "speaker": "스치친",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p14-3",
+      "page_number": 14,
+      "source_image_path": "episodes/EP013/panels/assets/p14-3.png",
+      "final_image_path": "episodes/EP013/panels/final/p14-3.svg",
+      "canonical_signature": "d1df6ea7f23ab33b1f0339a2e687c7a89a6b96f462551f5ab8fb45a0ba9d44d7",
+      "source_sha256": "5cca8c1f67adcb0bf0592110788023e75a1b5558a4815ff5db39800a4e600991",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": [
+        {
+          "kind": "dialogue",
+          "text": "어머니도 답이 아니라 질문을 남긴 거였네요.",
+          "speaker": "양동",
+          "box": {
+            "x": 0.07,
+            "y": 0.06,
+            "w": 0.5,
+            "h": 0.12
+          }
+        }
+      ]
+    },
+    {
+      "panel_id": "p15-1",
+      "page_number": 15,
+      "source_image_path": "episodes/EP013/panels/assets/p15-1.png",
+      "final_image_path": "episodes/EP013/panels/final/p15-1.svg",
+      "canonical_signature": "565b2d5312b29ba2c03a5838cc0ec7d1b8e0b8624da6e1c1229c534ddc34fa0f",
+      "source_sha256": "50407d622ac0c992457c89bb4a2b362587b0892ddd4cafabe2ca91fb8785902f",
+      "text_layout": "auto_v1",
+      "status": "draft",
+      "notes": "canonical panel-script; CHARLOCK applied",
+      "overlays": []
+    }
+  ]
+}

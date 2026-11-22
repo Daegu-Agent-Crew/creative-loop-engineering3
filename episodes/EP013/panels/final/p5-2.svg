@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="814" height="610" viewBox="0 0 814 610">
+  <image href="../assets/p5-2.png" x="0" y="0" width="814" height="610" />
+  <g class="overlay overlay-dialogue">
+    <rect x="57" y="37" width="407" height="73" rx="28" fill="#ffffff" fill-opacity="0.96" stroke="#111111" stroke-width="3" />
+    <text text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#111111"><tspan x="261" y="79">사람이 끼워 넣었군.</tspan></text>
+  </g>
+</svg>

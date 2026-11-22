@@ -1,6 +1,6 @@
 {
-  "current_episode": "EP012",
-  "current_phase": "phase6_release",
+  "current_episode": "EP013",
+  "current_phase": "phase2_characters",
   "episodes": {
     "EP001": {
       "title": "태초의 밤",
@@ -627,6 +627,64 @@
       "season": 3,
       "source": "adaptations/season3-patch-notes/season3-story.md",
       "note": "회장님 승인 2026-11-19 08:34 — 시즌3 패치 노트 착수"
+    },
+    "EP013": {
+      "title": "패치 고고학",
+      "status": "in_progress",
+      "current_phase": "phase6_release",
+      "phases": {
+        "phase0": {
+          "status": "completed",
+          "score": null,
+          "note": "시즌3 각색안 승인(2026-11-19 08:34) — 6화 아크 내 S3E02 실행"
+        },
+        "phase0.5": {
+          "status": "completed",
+          "score": null,
+          "note": "EP001~012 성경·화풍 계승"
+        },
+        "phase1": {
+          "status": "completed",
+          "score": 44,
+          "note": "15쪽 45컷, 무언 풀페이지 4장. Story Lock은 사람 결정 대기.",
+          "prompt_version": "v5.1-single-source-s3e02-charlock-v6",
+          "sub_files": [
+            "story/analysis.md",
+            "story/outline.md",
+            "story/scenes.md",
+            "script/script.md",
+            "script/script.json",
+            "script/panel-script.json"
+          ]
+        },
+        "phase2": {
+          "status": "completed",
+          "score": null,
+          "note": "EP006 성경 계승 — 왕머여·스치친·양동 규칙 유지, 닥터슬럼프풍 STYLE_BLOCK"
+        },
+        "phase3": {
+          "status": "completed",
+          "score": null,
+          "note": "panel-script 정본 → gen-storyboard 결정론적 파생(사전 예방 v4). 15p/45컷."
+        },
+        "phase4": {
+          "status": "completed",
+          "score": null,
+          "note": "45/45 — 3-way 병렬(codex x1/x2/x3) + CHARLOCK v6(99회 확인). PNG 최적화 1.2MB 정책 준수."
+        },
+        "phase5": {
+          "status": "completed",
+          "score": 39,
+          "note": "SVG 파이널 45/45 렌더링, 오버레이 박스 41, QA 39/50(자동 정적 검증), 미리보기 뷰어 생성"
+        },
+        "phase6": {
+          "status": "pending",
+          "note": "발행 승인 대기 — 미리보기 뷰어 제출 완료"
+        }
+      },
+      "season": 3,
+      "source": "episodes/EP013/story/source-story.md",
+      "note": "2026-11-20 새벽 생산 크론 착수 — 승인된 시즌3 아크 실행 (agent:daeguru cron:cle3-daily-production)"
     }
   },
   "art_style": {
@@ -657,7 +715,7 @@
       "previous_score": 45
     }
   ],
-  "last_updated": "2026-11-15T21:11:19.794018+00:00",
+  "last_updated": "2026-11-22T21:03:29.903535+00:00",
   "season_production_status": "complete",
   "season_release_status": "deployed",
   "pages_url": "https://daegu-agent-crew.github.io/creative-loop-engineering3/"
