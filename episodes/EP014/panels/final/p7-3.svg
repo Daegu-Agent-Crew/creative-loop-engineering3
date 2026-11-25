@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1199" height="1312" viewBox="0 0 1199 1312">
+  <image href="../assets/p7-3.png" x="0" y="0" width="1199" height="1312" />
+  <g class="overlay overlay-dialogue">
+    <rect x="84" y="79" width="600" height="157" rx="28" fill="#ffffff" fill-opacity="0.96" stroke="#111111" stroke-width="5" />
+    <text text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="31" font-weight="700" fill="#111111"><tspan x="384" y="168">출처를 섞으면 같은 흔적도 의미가 없어요.</tspan></text>
+  </g>
+</svg>

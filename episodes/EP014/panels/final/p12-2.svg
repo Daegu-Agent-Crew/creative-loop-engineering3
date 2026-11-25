@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1448" height="1086" viewBox="0 0 1448 1086">
+  <image href="../assets/p12-2.png" x="0" y="0" width="1448" height="1086" />
+  <g class="overlay overlay-dialogue">
+    <rect x="101" y="65" width="724" height="130" rx="28" fill="#ffffff" fill-opacity="0.96" stroke="#111111" stroke-width="6" />
+    <text text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#111111"><tspan x="463" y="139">그때는 답장하지 말랬어. 지금은 왜 묻지?</tspan></text>
+  </g>
+</svg>

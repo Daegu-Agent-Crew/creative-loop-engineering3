@@ -1,0 +1,25 @@
+{
+  "episode_id": "EP014",
+  "decisions": [
+    {
+      "id": "DEC-20261124-001",
+      "made_at": "2026-11-24T06:10:00+09:00",
+      "phase": "phase0",
+      "decision": "EP014(S3E03 비공식 채널)을 새벽 생산 크론이 자율 착수한다.",
+      "rationale": "시즌3 각색안 6화 아크가 2026-11-19 08:34 회장님 승인으로 확정됐고, 아크 실행 착수는 크론 기본안(TTL) 정책이다. 발행(release) 승인만 사람 대기.",
+      "evidence": [
+        "adaptations/season3-patch-notes/season3-story.md",
+        "state.json EP013 note"
+      ],
+      "confidence": "high",
+      "uncertainties": [
+        "S3E03 상세 비트는 시즌 아크 1문단에서 이번 세션 스토리 단계가 확장한다"
+      ],
+      "alternatives_considered": [
+        "EP012/013 발행 승인까지 대기 후 착수"
+      ],
+      "human_approval": "covered_by_season3_arc_approval",
+      "impact": "S3E03가 시즌3 아크의 세번째 계단으로 즉시 생산에 들어간다."
+    }
+  ]
+}
